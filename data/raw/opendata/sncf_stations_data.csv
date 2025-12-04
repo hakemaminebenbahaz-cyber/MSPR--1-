@@ -1,0 +1,5 @@
+code_uic,nom_gare,ville,region,voyageurs_2022,type_trains
+8775100,Paris Gare de Lyon,Paris,Ile-de-France,95000000,"TGV, TER, Transilien, Intercites"
+8772200,Paris Gare du Nord,Paris,Ile-de-France,220000000,"TGV, TER, Eurostar, Thalys"
+8775800,Lyon Part-Dieu,Lyon,Auvergne-Rhone-Alpes,45000000,"TGV, TER, Intercites"
+8772310,Marseille Saint-Charles,Marseille,Provence-Alpes-Cote d'Azur,28000000,"TGV, TER, Intercites"

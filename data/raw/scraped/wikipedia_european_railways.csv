@@ -1,0 +1,6 @@
+country,rail_network_km,high_speed_km,main_operator,passengers_per_year_millions,night_trains_count,source,scraped_date,night_train_ratio
+France,29000,2700,SNCF,1100,15,Wikipedia,2025-12-04,0.5172413793103449
+Germany,38300,3300,Deutsche Bahn,2400,25,Wikipedia,2025-12-04,0.6527415143603134
+Italy,16700,1350,Trenitalia,650,12,Wikipedia,2025-12-04,0.718562874251497
+Spain,15600,3900,Renfe,500,8,Wikipedia,2025-12-04,0.5128205128205128
+Austria,5800,350,OBB,280,18,Wikipedia,2025-12-04,3.103448275862069
