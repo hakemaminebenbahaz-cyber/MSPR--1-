@@ -1,10 +1,19 @@
 from_city,to_city,distance_km,duration_h,changes,price_eur,train_types,website_source,scraped_date,route_id,data_source_file,country,rail_network_km,high_speed_km,main_operator,passengers_per_year_millions,night_trains_count,source,night_train_ratio
-Paris,Berlin,1050.0,8.5,1.0,120.0,"TGV, ICE",rail.cc,2025-12-04,Paris_Berlin,railcc_train_routes.csv,,,,,,,,
-London,Paris,495.0,2.25,0.0,85.0,Eurostar,rail.cc,2025-12-04,London_Paris,railcc_train_routes.csv,,,,,,,,
-Rome,Milan,570.0,3.0,0.0,45.0,Frecciarossa,rail.cc,2025-12-04,Rome_Milan,railcc_train_routes.csv,,,,,,,,
-Madrid,Barcelona,620.0,2.5,0.0,75.0,AVE,rail.cc,2025-12-04,Madrid_Barcelona,railcc_train_routes.csv,,,,,,,,
-,,,,,,,,2025-12-04,,wikipedia_european_railways.csv,France,29000.0,2700.0,SNCF,1100.0,15.0,Wikipedia,0.5172413793103449
-,,,,,,,,2025-12-04,,wikipedia_european_railways.csv,Germany,38300.0,3300.0,Deutsche Bahn,2400.0,25.0,Wikipedia,0.6527415143603134
-,,,,,,,,2025-12-04,,wikipedia_european_railways.csv,Italy,16700.0,1350.0,Trenitalia,650.0,12.0,Wikipedia,0.718562874251497
-,,,,,,,,2025-12-04,,wikipedia_european_railways.csv,Spain,15600.0,3900.0,Renfe,500.0,8.0,Wikipedia,0.5128205128205128
-,,,,,,,,2025-12-04,,wikipedia_european_railways.csv,Austria,5800.0,350.0,OBB,280.0,18.0,Wikipedia,3.103448275862069
+Paris,Berlin,1050.0,8.5,1.0,120.0,"TGV, ICE",rail.cc,2025-12-04,Paris_Berlin,all_scraped_data_merged.csv,,,,,,,,
+London,Paris,495.0,2.25,0.0,85.0,Eurostar,rail.cc,2025-12-04,London_Paris,all_scraped_data_merged.csv,,,,,,,,
+Rome,Milan,570.0,3.0,0.0,45.0,Frecciarossa,rail.cc,2025-12-04,Rome_Milan,all_scraped_data_merged.csv,,,,,,,,
+Madrid,Barcelona,620.0,2.5,0.0,75.0,AVE,rail.cc,2025-12-04,Madrid_Barcelona,all_scraped_data_merged.csv,,,,,,,,
+,,,,,,,,2025-12-04,,all_scraped_data_merged.csv,France,29000.0,2700.0,SNCF,1100.0,15.0,Wikipedia,0.5172413793103449
+,,,,,,,,2025-12-04,,all_scraped_data_merged.csv,Germany,38300.0,3300.0,Deutsche Bahn,2400.0,25.0,Wikipedia,0.6527415143603134
+,,,,,,,,2025-12-04,,all_scraped_data_merged.csv,Italy,16700.0,1350.0,Trenitalia,650.0,12.0,Wikipedia,0.718562874251497
+,,,,,,,,2025-12-04,,all_scraped_data_merged.csv,Spain,15600.0,3900.0,Renfe,500.0,8.0,Wikipedia,0.5128205128205128
+,,,,,,,,2025-12-04,,all_scraped_data_merged.csv,Austria,5800.0,350.0,OBB,280.0,18.0,Wikipedia,3.103448275862069
+Paris,Berlin,1050.0,8.5,1.0,120.0,"TGV, ICE",rail.cc,2025-12-15,Paris_Berlin,railcc_train_routes.csv,,,,,,,,
+London,Paris,495.0,2.25,0.0,85.0,Eurostar,rail.cc,2025-12-15,London_Paris,railcc_train_routes.csv,,,,,,,,
+Rome,Milan,570.0,3.0,0.0,45.0,Frecciarossa,rail.cc,2025-12-15,Rome_Milan,railcc_train_routes.csv,,,,,,,,
+Madrid,Barcelona,620.0,2.5,0.0,75.0,AVE,rail.cc,2025-12-15,Madrid_Barcelona,railcc_train_routes.csv,,,,,,,,
+,,,,,,,,2025-12-15,,wikipedia_european_railways.csv,France,29000.0,2700.0,SNCF,1100.0,15.0,Wikipedia,0.5172413793103449
+,,,,,,,,2025-12-15,,wikipedia_european_railways.csv,Germany,38300.0,3300.0,Deutsche Bahn,2400.0,25.0,Wikipedia,0.6527415143603134
+,,,,,,,,2025-12-15,,wikipedia_european_railways.csv,Italy,16700.0,1350.0,Trenitalia,650.0,12.0,Wikipedia,0.718562874251497
+,,,,,,,,2025-12-15,,wikipedia_european_railways.csv,Spain,15600.0,3900.0,Renfe,500.0,8.0,Wikipedia,0.5128205128205128
+,,,,,,,,2025-12-15,,wikipedia_european_railways.csv,Austria,5800.0,350.0,OBB,280.0,18.0,Wikipedia,3.103448275862069
