@@ -1,0 +1,537 @@
+{
+  "info": {
+    "_postman_id": "880adcef-a694-44d7-8e17-726ef023fa87",
+    "name": "ObRail Europe API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52332067",
+    "_collection_link": "https://go.postman.co/collection/52332067-880adcef-a694-44d7-8e17-726ef023fa87?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Gares",
+      "item": [
+        {
+          "name": "GET Toutes les gares",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/gares",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "gares"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Une gare par ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/gares/StopArea:OCE71793150",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "gares",
+                "StopArea:OCE71793150"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Recherche par nom",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/gares/search/nom?nom=Paris",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "gares",
+                "search",
+                "nom"
+              ],
+              "query": [
+                {
+                  "key": "nom",
+                  "value": "Paris"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Lignes",
+      "item": [
+        {
+          "name": "GET Toutes les lignes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/lignes",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "lignes"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Une ligne par ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/lignes/FR:Line::00F2577A-6A87-42E0-95F3-07351E4BC2F6:",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "lignes",
+                "FR:Line::00F2577A-6A87-42E0-95F3-07351E4BC2F6:"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Recherche par code",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/lignes/search/code?code=C30",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "lignes",
+                "search",
+                "code"
+              ],
+              "query": [
+                {
+                  "key": "code",
+                  "value": "C30"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Operateurs",
+      "item": [
+        {
+          "name": "GET Tous les opérateurs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/operateurs",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "operateurs"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Un opérateur par ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/operateurs/1187",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "operateurs",
+                "1187"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Recherche par nom",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/operateurs/search/nom?nom=SNCF",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "operateurs",
+                "search",
+                "nom"
+              ],
+              "query": [
+                {
+                  "key": "nom",
+                  "value": "SNCF"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Trajets",
+      "item": [
+        {
+          "name": "GET Tous les trajets",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/trajets",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "trajets"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Trajets par destination",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/trajets?destination=Paris",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "trajets"
+              ],
+              "query": [
+                {
+                  "key": "destination",
+                  "value": "Paris"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Un trajet par ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/trajets/OCESN105330F3164015:2025-01-22T00:42:25Z",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "trajets",
+                "OCESN105330F3164015:2025-01-22T00:42:25Z"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Détails trajet avec horaires",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/trajets/OCESN105330F3164015:2025-01-22T00:42:25Z/detail",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "trajets",
+                "OCESN105330F3164015:2025-01-22T00:42:25Z",
+                "detail"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Horaires",
+      "item": [
+        {
+          "name": "GET Tous les horaires",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/horaires",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "horaires"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Horaires d'un trajet",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/horaires/trajet/OCESN105330F3164015:2025-01-22T00:42:25Z",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "horaires",
+                "trajet",
+                "OCESN105330F3164015:2025-01-22T00:42:25Z"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Analyses & Comparaisons",
+      "item": [
+        {
+          "name": "GET Lignes par type",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/comparisons/lignes-par-type",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "comparisons",
+                "lignes-par-type"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Top opérateurs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/comparisons/top-operateurs?limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "comparisons",
+                "top-operateurs"
+              ],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "10"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Statistiques globales",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/comparisons/stats",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "comparisons",
+                "stats"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Gares les plus desservies",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/api/v1/comparisons/gares-les-plus-desservies?limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "api",
+                "v1",
+                "comparisons",
+                "gares-les-plus-desservies"
+              ],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "10"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Health & Info",
+      "item": [
+        {
+          "name": "GET Root",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Health check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8000/health",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "health"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

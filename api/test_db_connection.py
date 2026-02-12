@@ -20,6 +20,19 @@ def main():
             if tables:
                 for table in tables:
                     print(f"  - {table[0]}")
+                
+                # Afficher le contenu des tables
+                print("\n📋 Contenu des tables :")
+                for table in tables:
+                    table_name = table[0]
+                    print(f"\n--- Table: {table_name} ---")
+                    result = db.execute(text(f"SELECT * FROM {table_name} LIMIT 5"))
+                    rows = result.fetchall()
+                    if rows:
+                        for row in rows:
+                            print(f"  {row}")
+                    else:
+                        print(f"  (vide)")
             else:
                 print("  Aucune table trouvée (schema 'public' vide)")
             
