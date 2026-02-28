@@ -57,11 +57,10 @@ class HoraireResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     
     id_trajet: str
-    heure_arrivee: Optional[time] = None
     heure_depart: Optional[time] = None
-    id_gare: str
-    ordre_arret: int
-
+    heure_arrivee: Optional[time] = None
+    gare_depart: Optional[str] = None
+    gare_arrivee: Optional[str] = None
 # ========== RÉPONSES ENRICHIES ==========
 class LigneDetailResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)

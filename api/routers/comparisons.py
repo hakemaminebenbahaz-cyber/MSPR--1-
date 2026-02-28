@@ -27,13 +27,12 @@ def get_global_stats(db: Session = Depends(get_db)):
 
 @router.get("/lignes-par-type")
 def get_lignes_by_type(db: Session = Depends(get_db)):
-    """
-    Répartition des lignes par type de transport
-    """
+    from models.ligne_train_model import LigneTrain
+    
     stats = db.query(
-        Ligne.type_transport,
-        func.count(Ligne.id_ligne).label("count")
-    ).group_by(Ligne.type_transport).all()
+        LigneTrain.type_transport,
+        func.count(LigneTrain.id_ligne).label("count")
+    ).group_by(LigneTrain.type_transport).all()
     
     return [
         {

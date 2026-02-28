@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import gares, lignes, operateurs, trajets, horaires, comparisons
+from routers import gares, lignes_train, operateurs, trajets, horaires, comparisons
 from core.config import settings
 
 app = FastAPI(
@@ -21,9 +21,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+
 # Routes
 app.include_router(gares.router, prefix="/api/v1/gares", tags=["Gares"])
-app.include_router(lignes.router, prefix="/api/v1/lignes", tags=["Lignes"])
+app.include_router(lignes_train.router, prefix="/api/v1/lignes-train", tags=["Lignes Train"])
 app.include_router(operateurs.router, prefix="/api/v1/operateurs", tags=["Opérateurs"])
 app.include_router(trajets.router, prefix="/api/v1/trajets", tags=["Trajets"])
 app.include_router(horaires.router, prefix="/api/v1/horaires", tags=["Horaires"])
