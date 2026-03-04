@@ -72,8 +72,22 @@ class LigneDetailResponse(BaseModel):
 
 class TrajetDetailResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
-    
+
     id_trajet: str
     destination_affichee: Optional[str] = None
     ligne: LigneResponse
     horaires: list[HoraireResponse] = []
+
+# ========== RECHERCHE DESSERTES ==========
+class RechercheDesserteResponse(BaseModel):
+    id_trajet: str
+    gare_depart: str
+    gare_arrivee: Optional[str] = None
+    nom_gare_depart: Optional[str] = None
+    nom_gare_arrivee: Optional[str] = None
+    heure_depart: Optional[time] = None
+    heure_arrivee: Optional[time] = None
+    destination_affichee: Optional[str] = None
+    type_transport: Optional[int] = None
+    nom_ligne: Optional[str] = None
+    operateur: Optional[str] = None
