@@ -3827,14 +3827,14 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 3826,FROYENNES,FR,50.629,3.355,StopArea:OCE88850685,sncf_ter
 3827,Mouscron,FR,50.738,3.225,StopArea:OCE88857040,sncf_ter
 3828,Courtrai,FR,50.824,3.26,StopArea:OCE88960080,sncf_ter
-3829,'s-Hertogenbosch,DE,51.69054,5.293723,112728,db_germany
+3829,'s-Hertogenbosch,NL,51.69054,5.293723,112728,db_germany
 3830,Aachen Süd(Gr),DE,50.731915,6.04541,86008,db_germany
 3831,"Aachen, Hbf",DE,50.767723,6.092051,486092,db_germany
 3832,"Aalen, Hauptbahnhof",DE,48.841602,10.096031,461266,db_germany
 3833,"Altena, Bahnhof",DE,51.301983,7.66881,498241,db_germany
 3834,Altenbeken,DE,51.766434,8.943322,360864,db_germany
-3835,Amersfoort Centraal,DE,52.153465,5.373909,432585,db_germany
-3836,Amsterdam Centraal,DE,52.37919,4.899431,61829,db_germany
+3835,Amersfoort Centraal,NL,52.153465,5.373909,432585,db_germany
+3836,Amsterdam Centraal,NL,52.37919,4.899431,61829,db_germany
 3837,Andernach Bahnhof,DE,50.434544,7.40484,74844,db_germany
 3838,"Angermünde, Bahnhof",DE,53.015823,13.995871,614804,db_germany
 3839,Anklam,DE,53.855984,13.701563,249333,db_germany
@@ -3866,70 +3866,70 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 3865,Bischofshofen,DE,47.41786,13.219888,52998,db_germany
 3866,Bitterfeld,DE,51.62286,12.31685,34526,db_germany
 3867,Bludenz,DE,47.154724,9.814564,636753,db_germany
-3868,Bochnia,DE,49.9773,20.430775,199708,db_germany
+3868,Bochnia,PL,49.9773,20.430775,199708,db_germany
 3869,Bochum Hbf,DE,51.479465,7.223335,25436,db_germany
-3870,Bohumin,DE,49.90073,18.359444,88398,db_germany
-3871,Bohumin(Gr),DE,49.916576,18.322226,112221,db_germany
+3870,Bohumin,PL,49.90073,18.359444,88398,db_germany
+3871,Bohumin(Gr),PL,49.916576,18.322226,112221,db_germany
 3872,Bohusovice nad Ohri,DE,50.491306,14.149456,281964,db_germany
-3873,Boleslawiec,DE,51.266155,15.568923,287589,db_germany
-3874,Bolzano/Bozen,DE,46.496376,11.358791,404935,db_germany
+3873,Boleslawiec,PL,51.266155,15.568923,287589,db_germany
+3874,Bolzano/Bozen,AT,46.496376,11.358791,404935,db_germany
 3875,Bondorf,DE,48.52327,8.827879,333797,db_germany
 3876,Bonn Beuel Bf,DE,50.738476,7.127656,500566,db_germany
 3877,Bonn Hbf,DE,50.732006,7.097131,486100,db_germany
 3878,"Brandenburg, Hauptbahnhof",DE,52.400795,12.566036,335616,db_germany
-3879,Bratislava hl.st.,DE,48.15891,17.106466,520892,db_germany
+3879,Bratislava hl.st.,AT,48.15891,17.106466,520892,db_germany
 3880,"Braunschweig, Hauptbahnhof",DE,52.252644,10.539547,279528,db_germany
-3881,Breclav,DE,48.7539,16.893236,379256,db_germany
-3882,Breclav(Gr),DE,48.71265,16.86837,542707,db_germany
+3881,Breclav,AT,48.7539,16.893236,379256,db_germany
+3882,Breclav(Gr),AT,48.71265,16.86837,542707,db_germany
 3883,Bregenz,DE,47.503002,9.739627,335264,db_germany
 3884,Bregenz Riedenburg,DE,47.49291,9.721313,562975,db_germany
 3885,Bremen Hbf,DE,53.083256,8.813857,616022,db_germany
 3886,Brennero/Brenner,DE,47.002342,11.505426,171232,db_germany
-3887,Bressanone/Brixen,DE,46.709896,11.649764,241017,db_germany
-3888,Brig,DE,46.319424,7.988095,283832,db_germany
-3889,Brno hl.n.,DE,49.19054,16.612774,680019,db_germany
+3887,Bressanone/Brixen,AT,46.709896,11.649764,241017,db_germany
+3888,Brig,FR,46.319424,7.988095,283832,db_germany
+3889,Brno hl.n.,PL,49.19054,16.612774,680019,db_germany
 3890,Bruchsal,DE,49.124924,8.590347,575964,db_germany
 3891,Bruck/Mur,DE,47.41388,15.279491,36800,db_germany
 3892,Brugg AG,DE,47.48086,8.208845,598632,db_germany
-3893,Bruxelles Midi,DE,50.835377,4.335694,110302,db_germany
-3894,Bruxelles-Nord,DE,50.860237,4.361454,288803,db_germany
-3895,Brzeg,DE,50.85297,17.471178,340473,db_germany
-3896,Brzeg Dolny,DE,51.266193,16.726768,588063,db_germany
-3897,Brzesko Okocim,DE,49.986397,20.6103,525986,db_germany
+3893,Bruxelles Midi,FR,50.835377,4.335694,110302,db_germany
+3894,Bruxelles-Nord,FR,50.860237,4.361454,288803,db_germany
+3895,Brzeg,PL,50.85297,17.471178,340473,db_germany
+3896,Brzeg Dolny,PL,51.266193,16.726768,588063,db_germany
+3897,Brzesko Okocim,PL,49.986397,20.6103,525986,db_germany
 3898,Buchloe,DE,48.033722,10.716219,176907,db_germany
-3899,Budapest-Kelenföld,DE,47.464355,19.020456,366421,db_germany
-3900,Budapest-Keleti,DE,47.50038,19.085072,548359,db_germany
-3901,Budapest-Nyugati,DE,47.510708,19.057467,122717,db_germany
-3902,Bydgoszcz Glowna,DE,53.135113,17.991636,208680,db_germany
+3899,Budapest-Kelenföld,HU,47.464355,19.020456,366421,db_germany
+3900,Budapest-Keleti,HU,47.50038,19.085072,548359,db_germany
+3901,Budapest-Nyugati,HU,47.510708,19.057467,122717,db_germany
+3902,Bydgoszcz Glowna,PL,53.135113,17.991636,208680,db_germany
 3903,Böblingen,DE,48.687847,9.004533,158692,db_germany
 3904,"Bünde, Bahnhof / ZOB",DE,52.202076,8.573871,65158,db_germany
 3905,Bützow Bahnhof,DE,53.837006,11.997513,382675,db_germany
 3906,Celle Bahnhof,DE,52.62075,10.064787,93595,db_germany
-3907,Ceska Trebova,DE,49.897324,16.446808,10529,db_germany
-3908,Chalupki,DE,49.925476,18.311562,680321,db_germany
-3909,Chelm,DE,51.141197,23.494036,138253,db_germany
-3910,Chelm Miasto,DE,51.138405,23.459185,476421,db_germany
+3907,Ceska Trebova,PL,49.897324,16.446808,10529,db_germany
+3908,Chalupki,PL,49.925476,18.311562,680321,db_germany
+3909,Chelm,PL,51.141197,23.494036,138253,db_germany
+3910,Chelm Miasto,PL,51.138405,23.459185,476421,db_germany
 3911,Chojna,DE,52.963406,14.443931,200047,db_germany
-3912,Chojnow,DE,51.277657,15.937051,454137,db_germany
+3912,Chojnow,PL,51.277657,15.937051,454137,db_germany
 3913,Choszczno,DE,53.16528,15.403792,160320,db_germany
-3914,Chur,DE,46.853085,9.528938,12128,db_germany
+3914,Chur,CH,46.853085,9.528938,12128,db_germany
 3915,Coburg,DE,50.262924,10.957326,33810,db_germany
 3916,"Cottbus, Hauptbahnhof",DE,51.750984,14.324464,89572,db_germany
 3917,Crailsheim Bahnhof,DE,49.137913,10.06432,642642,db_germany
 3918,D-Flughafen Bf,DE,51.29158,6.787041,578072,db_germany
-3919,Dabrowa Gornicza,DE,50.330173,19.185452,126466,db_germany
+3919,Dabrowa Gornicza,PL,50.330173,19.185452,126466,db_germany
 3920,Darmstadt Hauptbahnhof,DE,49.87194,8.631148,198455,db_germany
-3921,Debica,DE,50.054417,21.405565,160901,db_germany
-3922,Deblin,DE,51.577408,21.834736,567414,db_germany
+3921,Debica,PL,50.054417,21.405565,160901,db_germany
+3922,Deblin,PL,51.577408,21.834736,567414,db_germany
 3923,Decin hl.n.,DE,50.773193,14.200972,300087,db_germany
 3924,Delmenhorst,DE,53.05278,8.629879,340403,db_germany
 3925,Dessau Hbf,DE,51.839867,12.234945,594363,db_germany
 3926,Deventer,DE,52.257435,6.160506,242348,db_germany
 3927,Diepholz,DE,52.6046,8.380249,227674,db_germany
 3928,Dillenburg Bahnhof,DE,50.734905,8.294586,11035,db_germany
-3929,Dobiegniew,DE,52.968422,15.746908,616504,db_germany
-3930,Dobova,DE,45.89839,15.655178,196306,db_germany
-3931,Dobova(Gr),DE,45.890633,15.680238,464659,db_germany
+3929,Dobiegniew,PL,52.968422,15.746908,616504,db_germany
+3930,Dobova,IT,45.89839,15.655178,196306,db_germany
+3931,Dobova(Gr),IT,45.890633,15.680238,464659,db_germany
 3932,Domazlice,DE,49.434692,12.944582,429790,db_germany
 3933,Donaueschingen Bahnhof,DE,47.947872,8.499141,518605,db_germany
 3934,Donauwörth,DE,48.714024,10.771447,14750,db_germany
@@ -3942,7 +3942,7 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 3941,Düren,DE,50.809517,6.482451,433426,db_germany
 3942,Düsseldorf Hbf,DE,51.220253,6.792997,190848,db_germany
 3943,"Eberswalde, Hauptbahnhof",DE,52.833683,13.79695,546305,db_germany
-3944,Eindhoven Centraal,DE,51.44302,5.479576,636126,db_germany
+3944,Eindhoven Centraal,FR,51.44302,5.479576,636126,db_germany
 3945,Eisenach Hbf,DE,50.976894,10.331974,502599,db_germany
 3946,"Ellwangen, Bahnhof",DE,48.964535,10.129762,574280,db_germany
 3947,"Elsterwerda, Bahnhof",DE,51.459805,13.516412,37996,db_germany
@@ -3966,10 +3966,10 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 3965,Flensburg [Grenze],DE,54.814842,9.36324,225306,db_germany
 3966,Flughafen BER,DE,52.364605,13.509874,259600,db_germany
 3967,Flughafen Köln/Bonn Bf,DE,50.878902,7.119301,238668,db_germany
-3968,Flughafen Wien,DE,48.120823,16.562828,257421,db_germany
+3968,Flughafen Wien,AT,48.120823,16.562828,257421,db_germany
 3969,Forbach(F),DE,49.189217,6.900258,325207,db_germany
 3970,Forbach(fr),DE,49.21409,6.944314,544931,db_germany
-3971,Fortezza/Franzensfeste,DE,46.78872,11.610083,611110,db_germany
+3971,Fortezza/Franzensfeste,AT,46.78872,11.610083,611110,db_germany
 3972,Frankfurt (Main) Flughafen Fernbahnhof,DE,50.052914,8.569788,229128,db_germany
 3973,Frankfurt (Main) Flughafen Regionalbahnhof,DE,50.0512,8.571423,395947,db_germany
 3974,Frankfurt (Main) Hauptbahnhof,DE,50.107155,8.663759,396050,db_germany
@@ -3977,7 +3977,7 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 3976,Frankfurt (Main) Westbahnhof,DE,50.11945,8.63946,115015,db_germany
 3977,"Frankfurt (Oder), Bahnhof",DE,52.336708,14.547147,590864,db_germany
 3978,Frankfurt(Oder)(Gr),DE,52.321175,14.576403,20775,db_germany
-3979,Fredericia st,DE,55.56809,9.738813,244606,db_germany
+3979,Fredericia st,DK,55.56809,9.738813,244606,db_germany
 3980,Freiburg Hauptbahnhof,DE,47.99746,7.840954,354073,db_germany
 3981,Freilassing,DE,47.836914,12.977197,546144,db_germany
 3982,Frick,DE,47.507347,8.013092,174203,db_germany
@@ -3987,24 +3987,24 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 3986,Fürth (Bay) Hbf,DE,49.469707,10.989989,449597,db_germany
 3987,"GD, Bahnhof",DE,48.800285,9.787118,482230,db_germany
 3988,Garmisch-Partenkirchen,DE,47.491455,11.097014,550323,db_germany
-3989,Gdansk Glowny,DE,54.35552,18.643803,643856,db_germany
-3990,Gdansk Oliwa,DE,54.409893,18.571741,578792,db_germany
-3991,Gdansk Wrzeszcz,DE,54.38186,18.605434,435605,db_germany
-3992,Gdynia Glowna,DE,54.52084,18.529556,21181,db_germany
+3989,Gdansk Glowny,PL,54.35552,18.643803,643856,db_germany
+3990,Gdansk Oliwa,PL,54.409893,18.571741,578792,db_germany
+3991,Gdansk Wrzeszcz,PL,54.38186,18.605434,435605,db_germany
+3992,Gdynia Glowna,PL,54.52084,18.529556,21181,db_germany
 3993,Geilenkirchen,DE,50.96104,6.124518,235881,db_germany
 3994,Gelsenkirchen Hbf,DE,51.504925,7.102206,529911,db_germany
 3995,Gera Hbf,DE,50.88342,12.077098,456541,db_germany
 3996,Gießen Bahnhof,DE,50.579884,8.663799,631730,db_germany
-3997,Gliwice,DE,50.301105,18.677158,662807,db_germany
-3998,Glogow,DE,51.668957,16.079712,17451,db_germany
-3999,Gniezno,DE,52.52965,17.602184,358841,db_germany
+3997,Gliwice,PL,50.301105,18.677158,662807,db_germany
+3998,Glogow,PL,51.668957,16.079712,17451,db_germany
+3999,Gniezno,PL,52.52965,17.602184,358841,db_germany
 4000,Goleniow,DE,53.559483,14.839893,534938,db_germany
 4001,Golling-Abtenau,DE,47.60081,13.164054,116113,db_germany
 4002,Gotha,DE,50.93905,10.712328,103100,db_germany
 4003,Graz Hbf,DE,47.0724,15.416519,158796,db_germany
 4004,Greifswald,DE,54.092926,13.370264,376736,db_germany
 4005,Gryfino,DE,53.254215,14.49302,376689,db_germany
-4006,Györ,DE,47.68198,17.63479,318636,db_germany
+4006,Györ,HU,47.68198,17.63479,318636,db_germany
 4007,Gäufelden,DE,48.559715,8.850103,221964,db_germany
 4008,Göppingen,DE,48.70012,9.652344,353512,db_germany
 4009,Göttingen,DE,51.53672,9.925875,94544,db_germany
@@ -4021,8 +4021,8 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4020,Hannover Hauptbahnhof,DE,52.37649,9.74107,160243,db_germany
 4021,Hannover Messe / Laatzen,DE,52.317486,9.792149,318154,db_germany
 4022,Hauptbahnhof (oben),DE,48.784878,9.182794,552235,db_germany
-4023,Hegyeshalom,DE,47.913975,17.145296,250413,db_germany
-4024,Hegyeshalom(Gr),DE,47.93826,17.095844,24327,db_germany
+4023,Hegyeshalom,AT,47.913975,17.145296,250413,db_germany
+4024,Hegyeshalom(Gr),AT,47.93826,17.095844,24327,db_germany
 4025,Heide(Holst),DE,54.192932,9.101242,644756,db_germany
 4026,"Heidelberg, Hauptbahnhof",DE,49.404316,8.676243,358217,db_germany
 4027,"Helmstedt, Bahnhof",DE,52.22207,11.010093,493324,db_germany
@@ -4033,7 +4033,7 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4032,Herrenberg,DE,48.59406,8.86346,589416,db_germany
 4033,Herzogenrath,DE,50.870914,6.094486,578234,db_germany
 4034,Hildesheim Hauptbahnhof,DE,52.159668,9.952588,93336,db_germany
-4035,Hilversum,DE,52.22667,5.181399,408207,db_germany
+4035,Hilversum,NL,52.22667,5.181399,408207,db_germany
 4036,Hnevice,DE,50.452686,14.361715,204716,db_germany
 4037,Hochfilzen,DE,47.467712,12.626525,633941,db_germany
 4038,Hohenems,DE,47.364708,9.681001,187067,db_germany
@@ -4050,83 +4050,83 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4049,Imst-Pitztal,DE,47.219074,10.76167,501767,db_germany
 4050,Ingolstadt Hbf,DE,48.74455,11.437341,536554,db_germany
 4051,Innsbruck Hauptbahnhof,DE,47.263233,11.401031,533879,db_germany
-4052,Inowroclaw,DE,52.804947,18.24406,680144,db_germany
-4053,Interlaken Ost,DE,46.6905,7.869,245811,db_germany
-4054,Interlaken West,DE,46.68263,7.851453,636631,db_germany
+4052,Inowroclaw,PL,52.804947,18.24406,680144,db_germany
+4053,Interlaken Ost,FR,46.6905,7.869,245811,db_germany
+4054,Interlaken West,FR,46.68263,7.851453,636631,db_germany
 4055,"Iserl., Letmathe Bf",DE,51.362835,7.618396,459202,db_germany
 4056,Itzehoe,DE,53.92408,9.510151,9325,db_germany
-4057,Jarocin,DE,51.96912,17.494276,505492,db_germany
-4058,Jaroslaw,DE,50.01067,22.677896,11532,db_germany
-4059,Jaworzno Szczakowa,DE,50.246326,19.297424,552033,db_germany
+4057,Jarocin,PL,51.96912,17.494276,505492,db_germany
+4058,Jaroslaw,PL,50.01067,22.677896,11532,db_germany
+4059,Jaworzno Szczakowa,PL,50.246326,19.297424,552033,db_germany
 4060,Jena Paradies,DE,50.924854,11.587468,316014,db_germany
 4061,Jena West,DE,50.923286,11.57785,97241,db_germany
 4062,Jena-Göschwitz,DE,50.8838,11.593217,381456,db_germany
 4063,Jenbach,DE,47.388447,11.778454,636488,db_germany
-4064,Jesenice(Gr),DE,46.48141,14.020333,36322,db_germany
-4065,Jesenice(SL),DE,46.436325,14.054913,90936,db_germany
+4064,Jesenice(Gr),AT,46.48141,14.020333,36322,db_germany
+4065,Jesenice(SL),AT,46.436325,14.054913,90936,db_germany
 4066,Jestetten Bahnhof,DE,47.65484,8.574653,146983,db_germany
 4067,"Kaiserslautern, Hbf",DE,49.436264,7.768253,64343,db_germany
-4068,Kalisz,DE,51.74282,18.071917,239123,db_germany
+4068,Kalisz,PL,51.74282,18.071917,239123,db_germany
 4069,Kapfenberg,DE,47.44523,15.292357,668635,db_germany
 4070,Karlsruhe Hauptbahnhof,DE,48.993347,8.401036,136270,db_germany
 4071,Karlsruhe-Durlach,DE,49.00225,8.462759,615455,db_germany
 4072,Kassel Bahnhof Wilhelmshöhe,DE,51.31313,9.44705,485775,db_germany
-4073,Katowice,DE,50.257515,19.017164,144604,db_germany
-4074,Kedzierzyn Kozle,DE,50.34436,18.204765,622559,db_germany
+4073,Katowice,PL,50.257515,19.017164,144604,db_germany
+4074,Kedzierzyn Kozle,PL,50.34436,18.204765,622559,db_germany
 4075,Kehl(Gr),DE,48.575645,7.801118,78506,db_germany
 4076,Kempten (Allgäu) Hbf,DE,47.711746,10.317618,76755,db_germany
 4077,Kiel Hauptbahnhof,DE,54.315582,10.131145,346710,db_germany
 4078,Kirchberg in Tirol,DE,47.448917,12.309101,663496,db_germany
 4079,Kitzbühel,DE,47.45411,12.391045,68044,db_germany
 4080,Kitzbühel Hahnenkamm,DE,47.44339,12.389856,70377,db_germany
-4081,Klagenfurt Hbf,DE,46.615604,14.313576,127281,db_germany
+4081,Klagenfurt Hbf,AT,46.615604,14.313576,127281,db_germany
 4082,Koblenz Hauptbahnhof,DE,50.350925,7.588339,92866,db_germany
-4083,Koebenhavn H,DE,55.67272,12.564617,417215,db_germany
+4083,Koebenhavn H,DK,55.67272,12.564617,417215,db_germany
 4084,Kolding st,DE,55.49084,9.481528,18499,db_germany
 4085,Kolin(CZ),DE,50.025436,15.214279,187785,db_germany
-4086,Koluszki,DE,51.744602,19.818996,308770,db_germany
-4087,Konin,DE,52.231396,18.253336,552395,db_germany
+4086,Koluszki,PL,51.744602,19.818996,308770,db_germany
+4087,Konin,PL,52.231396,18.253336,552395,db_germany
 4088,Konstanz Bahnhof,DE,47.65874,9.177324,155036,db_germany
-4089,Koscian,DE,52.07896,16.641829,320705,db_germany
+4089,Koscian,PL,52.07896,16.641829,320705,db_germany
 4090,Kostrzyn,DE,52.591778,14.647988,567702,db_germany
-4091,Krakow Glowny,DE,50.067196,19.947426,341019,db_germany
-4092,Krakow Plaszow,DE,50.03509,19.974894,337732,db_germany
+4091,Krakow Glowny,PL,50.067196,19.947426,341019,db_germany
+4092,Krakow Plaszow,PL,50.03509,19.974894,337732,db_germany
 4093,Kralupy nad Vltavou,DE,50.238728,14.313473,431138,db_germany
-4094,Kranj,DE,46.23901,14.348167,258828,db_germany
+4094,Kranj,AT,46.23901,14.348167,258828,db_germany
 4095,Krefeld Hbf,DE,51.325584,6.568194,115148,db_germany
 4096,Kreuztal Bf,DE,50.956024,7.991691,445253,db_germany
 4097,Kronach,DE,50.23961,11.320111,63787,db_germany
-4098,Krsko,DE,45.95624,15.493454,632227,db_germany
-4099,Krzeszowice,DE,50.130962,19.633242,641747,db_germany
-4100,Krzyz,DE,52.87742,16.017834,420520,db_germany
+4098,Krsko,IT,45.95624,15.493454,632227,db_germany
+4099,Krzeszowice,PL,50.130962,19.633242,641747,db_germany
+4100,Krzyz,PL,52.87742,16.017834,420520,db_germany
 4101,Kufstein,DE,47.58308,12.16555,584629,db_germany
-4102,Kutno,DE,52.226963,19.348616,321726,db_germany
-4103,Kuty,DE,48.661892,17.047695,278030,db_germany
-4104,Kuty(Gr),DE,48.71108,17.000406,182604,db_germany
+4102,Kutno,PL,52.226963,19.348616,321726,db_germany
+4103,Kuty,AT,48.661892,17.047695,278030,db_germany
+4104,Kuty(Gr),AT,48.71108,17.000406,182604,db_germany
 4105,Köln Ehrenfeld Bf Ehrenfeld,DE,50.951527,6.91727,257275,db_germany
 4106,Köln Hbf,DE,50.94303,6.958727,459664,db_germany
 4107,Köln Messe/Deutz Bf,DE,50.940876,6.974996,610021,db_germany
 4108,Köln Süd Bf,DE,50.9273,6.938048,522457,db_germany
 4109,Köthen,DE,51.75193,11.989358,43655,db_germany
-4110,Kühnsdorf-Klopeiner See,DE,46.62484,14.620893,161527,db_germany
-4111,Lancut,DE,50.08143,22.227507,59798,db_germany
+4110,Kühnsdorf-Klopeiner See,AT,46.62484,14.620893,161527,db_germany
+4111,Lancut,PL,50.08143,22.227507,59798,db_germany
 4112,Landeck-Zams,DE,47.148243,10.578392,222156,db_germany
-4113,Landquart,DE,46.96744,9.554045,580881,db_germany
+4113,Landquart,CH,46.96744,9.554045,580881,db_germany
 4114,Landshut (Bay) Hauptbahnhof,DE,48.54749,12.135925,170180,db_germany
 4115,"Landstuhl, Bahnhof",DE,49.416332,7.566159,365035,db_germany
 4116,Langen (Hessen) Bahnhof,DE,49.99359,8.657163,486694,db_germany
 4117,Langen am Arlberg,DE,47.13172,10.120375,576243,db_germany
 4118,Langenhagen Bahnhof Mitte,DE,52.44028,9.726024,166871,db_germany
-4119,Lask,DE,51.603775,19.111855,310014,db_germany
+4119,Lask,PL,51.603775,19.111855,310014,db_germany
 4120,Leer(Ostfriesl),DE,53.23141,7.465229,121215,db_germany
-4121,Legnica,DE,51.21385,16.168922,70455,db_germany
+4121,Legnica,PL,51.21385,16.168922,70455,db_germany
 4122,Lehrte,DE,52.37663,9.974031,338018,db_germany
 4123,Leipzig Hbf,DE,51.34547,12.382064,12618,db_germany
 4124,Leipzig/Halle Flughafen,DE,51.42334,12.223426,238497,db_germany
 4125,Lennestadt-Altenhundem Bf,DE,51.10413,8.071516,178267,db_germany
 4126,Lennestadt-Grevenbrück Bf,DE,51.141777,8.017976,626922,db_germany
-4127,Lesce-Bled,DE,46.360416,14.157971,140166,db_germany
-4128,Leszno,DE,51.846405,16.565569,407806,db_germany
+4127,Lesce-Bled,AT,46.360416,14.157971,140166,db_germany
+4128,Leszno,PL,51.846405,16.565569,407806,db_germany
 4129,Lichtenfels,DE,50.146454,11.059474,285716,db_germany
 4130,Liestal,DE,47.484463,7.731367,238617,db_germany
 4131,Limburg (Lahn) Süd (ICE),DE,50.38191,8.095532,592280,db_germany
@@ -4134,14 +4134,14 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4133,"Lingen, Bahnhof",DE,52.51964,7.32127,27452,db_germany
 4134,Linz Hbf,DE,48.29018,14.292131,253439,db_germany
 4135,"Lippstadt, Bustreff Bahnhof",DE,51.67069,8.348781,43340,db_germany
-4136,Liège-Guillemins,DE,50.62436,5.566483,221728,db_germany
-4137,Ljubljana,DE,46.05869,14.512937,137337,db_germany
-4138,Lodz Chojny,DE,51.72638,19.484537,28764,db_germany
-4139,Lodz Widzew,DE,51.763092,19.544464,372001,db_germany
+4136,Liège-Guillemins,FR,50.62436,5.566483,221728,db_germany
+4137,Ljubljana,AT,46.05869,14.512937,137337,db_germany
+4138,Lodz Chojny,PL,51.72638,19.484537,28764,db_germany
+4139,Lodz Widzew,PL,51.763092,19.544464,372001,db_germany
 4140,Lovosice,DE,50.509644,14.059534,242307,db_germany
-4141,Lubin,DE,51.39612,16.193586,551207,db_germany
-4142,Lublin,DE,51.23124,22.568398,242343,db_germany
-4143,Lublin Zachodni,DE,51.218742,22.508389,642569,db_germany
+4141,Lubin,PL,51.39612,16.193586,551207,db_germany
+4142,Lublin,PL,51.23124,22.568398,242343,db_germany
+4143,Lublin Zachodni,PL,51.218742,22.508389,642569,db_germany
 4144,"Ludwigshafen, Hauptbahnhof",DE,49.476994,8.433321,85682,db_germany
 4145,Ludwigsstadt,DE,50.486584,11.382993,654468,db_germany
 4146,Lunderskov st,DE,55.48012,9.303791,413559,db_germany
@@ -4155,7 +4155,7 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4154,Magdeburg Hbf,DE,52.130512,11.626963,589494,db_germany
 4155,"Mainz, Hauptbahnhof",DE,50.00145,8.258419,205349,db_germany
 4156,Maishofen-Saalbach,DE,47.358585,12.810197,476026,db_germany
-4157,Mallnitz-Obervellach,DE,46.981647,13.176141,466007,db_germany
+4157,Mallnitz-Obervellach,AT,46.981647,13.176141,466007,db_germany
 4158,"Mannheim, Hauptbahnhof",DE,49.479748,8.469936,547241,db_germany
 4159,Marienhafe Bahnhof,DE,53.519897,7.273198,672299,db_germany
 4160,Memmingen,DE,47.985584,10.18685,490092,db_germany
@@ -4164,17 +4164,17 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4163,Mieszkowice,DE,52.782093,14.485966,668713,db_germany
 4164,"Minden, Kaiserstraße",DE,52.289364,8.927862,370369,db_germany
 4165,Montabaur Bf,DE,50.44483,7.825323,302767,db_germany
-4166,Mosonmagyarovar,DE,47.850357,17.266424,347564,db_germany
+4166,Mosonmagyarovar,AT,47.850357,17.266424,347564,db_germany
 4167,Murnau,DE,47.682266,11.192631,133457,db_germany
-4168,Myslowice,DE,50.23779,19.1419,661351,db_germany
+4168,Myslowice,PL,50.23779,19.1419,661351,db_germany
 4169,Möhlin,DE,47.56186,7.833863,528862,db_germany
 4170,Mühlacker Bahnhof,DE,48.953094,8.845818,152248,db_germany
 4171,Müllheim (Baden) Bahnhof,DE,47.80945,7.599056,120454,db_germany
 4172,München Hbf,DE,48.14029,11.559602,431650,db_germany
 4173,Münster Hauptbahnhof,DE,51.9567,7.63444,182198,db_germany
-4174,Mürzzuschlag,DE,47.60791,15.677244,305356,db_germany
-4175,Nagymaros-Visegrad,DE,47.790894,18.9588,456535,db_germany
-4176,Naleczow,DE,51.31779,22.21296,90198,db_germany
+4174,Mürzzuschlag,AT,47.60791,15.677244,305356,db_germany
+4175,Nagymaros-Visegrad,CZ,47.790894,18.9588,456535,db_germany
+4176,Naleczow,PL,51.31779,22.21296,90198,db_germany
 4177,Naumburg(Saale)Hbf,DE,51.16307,11.796984,600572,db_germany
 4178,Neu-Ulm Bahnhof,DE,48.39346,10.004789,334063,db_germany
 4179,Neumünster,DE,54.07566,9.979757,510343,db_germany
@@ -4185,65 +4185,65 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4184,Norddeich(Norden),DE,53.62152,7.160884,629468,db_germany
 4185,Norddeich(Norden) Mole,DE,53.62432,7.158739,463354,db_germany
 4186,Norden(Ostfriesl),DE,53.588013,7.219321,42656,db_germany
-4187,Nove Zamky,DE,47.995003,18.173956,233962,db_germany
-4188,Nowa Sol,DE,51.799683,15.708106,456750,db_germany
-4189,Nowy Tomysl,DE,52.304085,16.13294,527489,db_germany
+4187,Nove Zamky,CZ,47.995003,18.173956,233962,db_germany
+4188,Nowa Sol,PL,51.799683,15.708106,456750,db_germany
+4189,Nowy Tomysl,PL,52.304085,16.13294,527489,db_germany
 4190,Nürnberg Hbf,DE,49.445614,11.082992,633927,db_germany
 4191,Oberhausen Hbf,DE,51.474,6.853346,447326,db_germany
 4192,Oberndorf (Neckar) Bahnhof,DE,48.29609,8.575363,46814,db_germany
 4193,Oberstdorf,DE,47.411034,10.278092,291993,db_germany
-4194,Oborniki Slaskie,DE,51.298965,16.907549,287564,db_germany
+4194,Oborniki Slaskie,PL,51.298965,16.907549,287564,db_germany
 4195,Odense st,DE,55.401775,10.386005,553092,db_germany
 4196,Offenbach (Main)-Zentrum Hauptbahnhof,DE,50.09964,8.760661,66473,db_germany
 4197,Offenburg Bahnhof,DE,48.476387,7.946587,392815,db_germany
 4198,"Oldenburg, Hauptbahnhof",DE,53.144222,8.222684,480782,db_germany
 4199,Olten,DE,47.351936,7.9077,213852,db_germany
-4200,Opalenica,DE,52.309727,16.400345,674469,db_germany
-4201,Opoczno Poludnie,DE,51.358517,20.231709,278596,db_germany
-4202,Opole Glowne,DE,50.661514,17.925863,344224,db_germany
+4200,Opalenica,PL,52.309727,16.400345,674469,db_germany
+4201,Opoczno Poludnie,PL,51.358517,20.231709,278596,db_germany
+4202,Opole Glowne,PL,50.661514,17.925863,344224,db_germany
 4203,Osnabrück Hbf,DE,52.27313,8.060825,389062,db_germany
 4204,Ostbahnhof,DE,48.12815,11.604545,419240,db_germany
-4205,Ostrava hl.n.,DE,49.852085,18.267262,476325,db_germany
+4205,Ostrava hl.n.,PL,49.852085,18.267262,476325,db_germany
 4206,Ostseebad Binz,DE,54.404823,13.600502,557478,db_germany
-4207,Otwock,DE,52.108418,21.26422,397087,db_germany
-4208,Pabianice,DE,51.66095,19.325098,293952,db_germany
+4207,Otwock,PL,52.108418,21.26422,397087,db_germany
+4208,Pabianice,PL,51.66095,19.325098,293952,db_germany
 4209,Padborg st,DE,54.82425,9.358803,135245,db_germany
 4210,Paderborn Hbf,DE,51.71298,8.740509,252754,db_germany
-4211,Padova,DE,45.417824,11.88062,281168,db_germany
+4211,Padova,IT,45.417824,11.88062,281168,db_germany
 4212,"Papenburg, Bahnhof",DE,53.090424,7.388122,665485,db_germany
-4213,Pardubice hl.n.,DE,50.0317,15.75753,155625,db_germany
+4213,Pardubice hl.n.,PL,50.0317,15.75753,155625,db_germany
 4214,Pasewalk,DE,53.515038,13.989293,513147,db_germany
 4215,Pasing,DE,48.149143,11.460697,376527,db_germany
 4216,Passau Hbf,DE,48.57363,13.45078,131266,db_germany
 4217,Pforzheim Hauptbahnhof,DE,48.89398,8.703121,434167,db_germany
-4218,Pilawa,DE,51.957237,21.53291,626446,db_germany
+4218,Pilawa,PL,51.957237,21.53291,626446,db_germany
 4219,Pinneberg,DE,53.65493,9.798372,662406,db_germany
 4220,Plattling,DE,48.77962,12.863938,484365,db_germany
-4221,Pleszew,DE,51.89199,17.73284,666176,db_germany
+4221,Pleszew,PL,51.89199,17.73284,666176,db_germany
 4222,"Plett., Bahnhof",DE,51.231934,7.86891,135718,db_germany
 4223,Plochingen,DE,48.71294,9.411299,510752,db_germany
 4224,Plzen hl.n.,DE,49.743168,13.388244,541357,db_germany
-4225,Poznan Glowny,DE,52.401993,16.91087,220158,db_germany
+4225,Poznan Glowny,PL,52.401993,16.91087,220158,db_germany
 4226,Praha hl.n.,DE,50.08306,14.436039,342351,db_germany
 4227,Praha-Holesovice,DE,50.110214,14.440013,52968,db_germany
 4228,Praha-Podbaba,DE,50.11236,14.395604,155063,db_germany
 4229,Praha-Vysocany,DE,50.11229,14.497362,232944,db_germany
 4230,"Prenzlau, Bahnhof",DE,53.321613,13.866558,26494,db_germany
 4231,Prien am Chiemsee,DE,47.8547,12.34685,326891,db_germany
-4232,Przemysl Glowny,DE,49.78366,22.776363,271902,db_germany
-4233,Przemysl Zasanie,DE,49.79363,22.774115,8234,db_germany
-4234,Przeworsk,DE,50.067215,22.503357,334681,db_germany
-4235,Pulawy Miasto,DE,51.426903,21.985098,335568,db_germany
-4236,Pörtschach am Wörther See,DE,46.636196,14.146286,544559,db_germany
-4237,Raciborz,DE,50.09035,18.226397,514145,db_germany
+4232,Przemysl Glowny,PL,49.78366,22.776363,271902,db_germany
+4233,Przemysl Zasanie,PL,49.79363,22.774115,8234,db_germany
+4234,Przeworsk,PL,50.067215,22.503357,334681,db_germany
+4235,Pulawy Miasto,PL,51.426903,21.985098,335568,db_germany
+4236,Pörtschach am Wörther See,AT,46.636196,14.146286,544559,db_germany
+4237,Raciborz,PL,50.09035,18.226397,514145,db_germany
 4238,Radolfzell Bahnhof,DE,47.73581,8.969247,632868,db_germany
-4239,Radymno,DE,49.939533,22.829151,277041,db_germany
+4239,Radymno,PL,49.939533,22.829151,277041,db_germany
 4240,Rankweil,DE,47.273018,9.637252,648697,db_germany
 4241,"Ravensburg, Bahnhof",DE,47.784554,9.606673,14077,db_germany
-4242,Rawicz,DE,51.608677,16.840118,621102,db_germany
+4242,Rawicz,PL,51.608677,16.840118,621102,db_germany
 4243,Recklinghausen Hbf,DE,51.61598,7.201371,504469,db_germany
 4244,Regensburg Hbf,DE,49.01167,12.099624,253640,db_germany
-4245,Rejowiec,DE,51.11764,23.239265,664466,db_germany
+4245,Rejowiec,PL,51.11764,23.239265,664466,db_germany
 4246,Remagen Bf,DE,50.57721,7.229776,427204,db_germany
 4247,"Rheine, Bahnhof",DE,52.2763,7.43426,355433,db_germany
 4248,Rheinfelden(CH),DE,47.551212,7.792169,392765,db_germany
@@ -4251,17 +4251,17 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4250,Ringsheim/Europa-Park,DE,48.248672,7.773023,581024,db_germany
 4251,Ringsted st,DE,55.438038,11.786155,399744,db_germany
 4252,Roedekro st,DE,55.069687,9.332754,53268,db_germany
-4253,Ropczyce,DE,50.078583,21.582882,657323,db_germany
+4253,Ropczyce,PL,50.078583,21.582882,657323,db_germany
 4254,Rosenheim,DE,47.851257,12.118983,22075,db_germany
 4255,Rostock Hauptbahnhof,DE,54.07818,12.130724,168106,db_germany
 4256,Rottweil Bahnhof,DE,48.165245,8.639745,227016,db_germany
 4257,Roudnice nad Labem,DE,50.426598,14.263827,160721,db_germany
-4258,Rovereto,DE,45.891174,11.034067,382789,db_germany
+4258,Rovereto,IT,45.891174,11.034067,382789,db_germany
 4259,Rudolstadt (Thüringen),DE,50.718,11.339156,163374,db_germany
 4260,"Ruhland, Bahnhof",DE,51.455334,13.869934,672313,db_germany
-4261,Rybnik(PL),DE,50.089134,18.547642,182572,db_germany
+4261,Rybnik(PL),PL,50.089134,18.547642,182572,db_germany
 4262,Rzepin,DE,52.350224,14.815073,328081,db_germany
-4263,Rzeszow Glowny,DE,50.043114,22.006798,117593,db_germany
+4263,Rzeszow Glowny,PL,50.043114,22.006798,117593,db_germany
 4264,S Bernau Bhf,DE,52.675686,13.592695,191120,db_germany
 4265,S Charlottenburg Bhf (Berlin),DE,52.50473,13.303862,349479,db_germany
 4266,S Königs Wusterhausen Bhf,DE,52.296963,13.631305,278398,db_germany
@@ -4286,85 +4286,85 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4285,Schleswig,DE,54.499516,9.538149,564447,db_germany
 4286,Schorndorf,DE,48.80694,9.52569,49787,db_germany
 4287,Schwarzach-St.Veit,DE,47.318535,13.154464,650832,db_germany
-4288,Scinawa,DE,51.409657,16.421356,349017,db_germany
-4289,Sedziszow Malopolski,DE,50.07528,21.694704,551054,db_germany
-4290,Sevnica,DE,46.009678,15.301231,299663,db_germany
+4288,Scinawa,PL,51.409657,16.421356,349017,db_germany
+4289,Sedziszow Malopolski,PL,50.07528,21.694704,551054,db_germany
+4290,Sevnica,AT,46.009678,15.301231,299663,db_germany
 4291,Siegburg Bf,DE,50.793907,7.203024,167542,db_germany
 4292,Siegen Hbf,DE,50.87594,8.016512,528491,db_germany
 4293,Siegen-Weidenau Bf,DE,50.895966,8.029843,148598,db_germany
-4294,Sieradz,DE,51.59766,18.714989,24981,db_germany
+4294,Sieradz,PL,51.59766,18.714989,24981,db_germany
 4295,Singen (Htw) Bahnhof,DE,47.758987,8.841345,474491,db_germany
-4296,Skierniewice,DE,51.967182,20.149752,264945,db_germany
+4296,Skierniewice,PL,51.967182,20.149752,264945,db_germany
 4297,"Soest, Bahnhof",DE,51.57842,8.104592,163757,db_germany
 4298,Sonthofen,DE,47.513283,10.272092,101274,db_germany
-4299,Sopot,DE,54.440166,18.562323,342936,db_germany
-4300,Sosnowiec Glowny,DE,50.2789,19.126411,537499,db_germany
+4299,Sopot,PL,54.440166,18.562323,342936,db_germany
+4300,Sosnowiec Glowny,PL,50.2789,19.126411,537499,db_germany
 4301,Spaichingen Bahnhof,DE,48.069103,8.740177,645954,db_germany
-4302,Spiez,DE,46.686398,7.680103,229485,db_germany
-4303,Spittal-Millstätter See,DE,46.795734,13.487544,166023,db_germany
-4304,Sroda Wielkopolska,DE,52.21805,17.274818,588975,db_germany
+4302,Spiez,FR,46.686398,7.680103,229485,db_germany
+4303,Spittal-Millstätter See,AT,46.795734,13.487544,166023,db_germany
+4304,Sroda Wielkopolska,PL,52.21805,17.274818,588975,db_germany
 4305,St. Anton am Arlberg,DE,47.12733,10.267088,562493,db_germany
 4306,St. Gallen(CH),DE,47.42318,9.369897,119094,db_germany
 4307,St. Georgen Bahnhof,DE,48.124187,8.342762,408977,db_germany
 4308,St. Johann im Pongau,DE,47.348377,13.194961,151370,db_germany
 4309,St. Johann in Tirol,DE,47.51962,12.430775,435944,db_germany
 4310,St. Margrethen SG,DE,47.453217,9.638262,415694,db_germany
-4311,St. Paul im Lavanttal,DE,46.72139,14.85579,452602,db_germany
-4312,St.Pölten Hbf,DE,48.208275,15.624683,97545,db_germany
+4311,St. Paul im Lavanttal,AT,46.72139,14.85579,452602,db_germany
+4312,St.Pölten Hbf,AT,48.208275,15.624683,97545,db_germany
 4313,Stadtroda,DE,50.86817,11.723213,230017,db_germany
 4314,Stargard,DE,53.33975,15.031746,260033,db_germany
 4315,Stein-Säckingen,DE,47.541607,7.948843,624699,db_germany
 4316,Stendal Hbf,DE,52.594723,11.854412,623079,db_germany
 4317,Stralsund Hauptbahnhof,DE,54.309105,13.077773,206785,db_germany
-4318,Sturovo,DE,47.800125,18.67992,289660,db_germany
+4318,Sturovo,CZ,47.800125,18.67992,289660,db_germany
 4319,Sulz (Neckar) Bahnhof,DE,48.366825,8.636924,16566,db_germany
-4320,Swidnik Miasto,DE,51.223846,22.695324,552526,db_germany
-4321,Swiebodzin,DE,52.245144,15.53954,564512,db_germany
+4320,Swidnik Miasto,PL,51.223846,22.695324,552526,db_germany
+4321,Swiebodzin,PL,52.245144,15.53954,564512,db_germany
 4322,Swinoujscie,DE,53.90482,14.266627,441894,db_germany
-4323,Szamotuly,DE,52.603542,16.58542,157886,db_germany
+4323,Szamotuly,PL,52.603542,16.58542,157886,db_germany
 4324,Szczecin Dabie,DE,53.391228,14.669465,291680,db_germany
 4325,Szczecin Glowny,DE,53.418785,14.550318,101040,db_germany
-4326,Szob,DE,47.821,18.862057,291348,db_germany
-4327,Szob(Gr),DE,47.824898,18.844774,395661,db_germany
-4328,Tarnow,DE,50.0054,20.97418,260664,db_germany
-4329,Tatabanya,DE,47.58493,18.393612,129790,db_germany
-4330,Tczew,DE,54.09732,18.790155,12005,db_germany
+4326,Szob,CZ,47.821,18.862057,291348,db_germany
+4327,Szob(Gr),CZ,47.824898,18.844774,395661,db_germany
+4328,Tarnow,PL,50.0054,20.97418,260664,db_germany
+4329,Tatabanya,HU,47.58493,18.393612,129790,db_germany
+4330,Tczew,PL,54.09732,18.790155,12005,db_germany
 4331,Telfs-Pfaffenhofen,DE,47.30071,11.078869,88696,db_germany
-4332,Thun,DE,46.754852,7.629606,156146,db_germany
+4332,Thun,FR,46.754852,7.629606,156146,db_germany
 4333,Tinglev st,DE,54.936172,9.258234,601499,db_germany
 4334,Traunstein,DE,47.86973,12.638802,62553,db_germany
-4335,Trento,DE,46.07229,11.1189,371031,db_germany
+4335,Trento,AT,46.07229,11.1189,371031,db_germany
 4336,Treuchtlingen,DE,48.96127,10.908162,517072,db_germany
-4337,Trzebinia,DE,50.153934,19.453215,322458,db_germany
+4337,Trzebinia,PL,50.153934,19.453215,322458,db_germany
 4338,Tuttlingen Bahnhof,DE,47.980576,8.798702,456832,db_germany
 4339,Tutzing,DE,47.9074,11.273731,313062,db_germany
 4340,Uelzen,DE,52.96979,10.553017,74196,db_germany
 4341,Ulm Hauptbahnhof,DE,48.39912,9.984181,54810,db_germany
 4342,Usti nad Labem hl.n.,DE,50.65956,14.044728,432455,db_germany
 4343,Usti nad Labem-Strekov,DE,50.64979,14.048374,577876,db_germany
-4344,Utrecht Centraal,DE,52.089397,5.109861,628238,db_germany
-4345,Vac,DE,47.782726,19.13306,591646,db_germany
+4344,Utrecht Centraal,NL,52.089397,5.109861,628238,db_germany
+4345,Vac,CZ,47.782726,19.13306,591646,db_germany
 4346,Vaihingen,DE,48.72698,9.113912,284663,db_germany
 4347,Vaihingen (E),DE,48.94815,8.957578,38317,db_germany
 4348,Vamdrup st,DE,55.428093,9.286454,233088,db_germany
-4349,Velden am Wörther See,DE,46.620056,14.04472,558464,db_germany
-4350,Venezia Mestre,DE,45.481907,12.231898,245901,db_germany
-4351,Venezia Santa Lucia,DE,45.441395,12.320459,325118,db_germany
+4349,Velden am Wörther See,AT,46.620056,14.04472,558464,db_germany
+4350,Venezia Mestre,IT,45.481907,12.231898,245901,db_germany
+4351,Venezia Santa Lucia,IT,45.441395,12.320459,325118,db_germany
 4352,Venlo,DE,51.364407,6.171838,361358,db_germany
 4353,Venlo(Gr),DE,51.340893,6.192712,211908,db_germany
 4354,Verden(Aller),DE,52.920864,9.237906,534201,db_germany
-4355,Verona Porta Nuova,DE,45.428658,10.982739,15584,db_germany
-4356,Vicenza,DE,45.5411,11.540777,249715,db_germany
+4355,Verona Porta Nuova,IT,45.428658,10.982739,15584,db_germany
+4356,Vicenza,IT,45.5411,11.540777,249715,db_germany
 4357,Viersen Bahnhof,DE,51.2545,6.404,571713,db_germany
-4358,Villach Hbf,DE,46.618614,13.848449,576139,db_germany
+4358,Villach Hbf,AT,46.618614,13.848449,576139,db_germany
 4359,Villingen Bahnhof/ZOB,DE,48.057804,8.465526,624113,db_germany
-4360,Visp,DE,46.29403,7.881465,198594,db_germany
+4360,Visp,FR,46.29403,7.881465,198594,db_germany
 4361,Vojens st,DE,55.248478,9.304915,577703,db_germany
 4362,"Warburg, Bahnhof",DE,51.492954,9.163849,564567,db_germany
 4363,Waren (Müritz) Bahnhof,DE,53.52151,12.681077,455474,db_germany
-4364,Warszawa Centralna,DE,52.22886,21.003235,204000,db_germany
-4365,Warszawa Wschodnia,DE,52.25155,21.052336,375804,db_germany
-4366,Warszawa Zachodnia,DE,52.21997,20.965246,637891,db_germany
+4364,Warszawa Centralna,PL,52.22886,21.003235,204000,db_germany
+4365,Warszawa Wschodnia,PL,52.25155,21.052336,375804,db_germany
+4366,Warszawa Zachodnia,PL,52.21997,20.965246,637891,db_germany
 4367,Wegliniec,DE,51.290108,15.223085,348701,db_germany
 4368,Weil am Rhein Bahnhof,DE,47.59434,7.608892,109896,db_germany
 4369,Weilheim,DE,47.845108,11.143502,92324,db_germany
@@ -4375,39 +4375,584 @@ id,nom,pays_code,latitude,longitude,_stop_id,_source
 4374,"Werdohl, Bahnhof",DE,51.259487,7.757545,653581,db_germany
 4375,Westerland(Sylt) ZOB/Bahnhof,DE,54.906895,8.310884,506509,db_germany
 4376,Westerstede-Ocholt,DE,53.20229,7.886531,305713,db_germany
-4377,Weststeiermark,DE,46.813923,15.296772,267205,db_germany
+4377,Weststeiermark,AT,46.813923,15.296772,267205,db_germany
 4378,Wetzlar Bahnhof,DE,50.56566,8.504213,231431,db_germany
-4379,Wien Hauptbahnhof,DE,48.185104,16.377113,309846,db_germany
-4380,Wien Meidling,DE,48.174583,16.333736,96247,db_germany
-4381,Wiener Neustadt Hbf,DE,47.81108,16.233652,185439,db_germany
+4379,Wien Hauptbahnhof,AT,48.185104,16.377113,309846,db_germany
+4380,Wien Meidling,AT,48.174583,16.333736,96247,db_germany
+4381,Wiener Neustadt Hbf,AT,47.81108,16.233652,185439,db_germany
 4382,Wiesbaden Hauptbahnhof,DE,50.069477,8.244631,202581,db_germany
 4383,Wiesbaden-Mainz-Kastel Bahnhof,DE,50.007133,8.282617,25468,db_germany
 4384,"Wiesloch-Walldorf, Bf",DE,49.29107,8.664224,191562,db_germany
 4385,Winterthur,DE,47.500336,8.723821,493444,db_germany
 4386,Witten Hbf,DE,51.43542,7.330217,142324,db_germany
-4387,Wloszczowa Polnoc,DE,50.85811,19.947002,313223,db_germany
+4387,Wloszczowa Polnoc,PL,50.85811,19.947002,313223,db_germany
 4388,"Wolfsburg, Hauptbahnhof",DE,52.42946,10.78776,294272,db_germany
-4389,Wolow,DE,51.333015,16.633755,268146,db_germany
+4389,Wolow,PL,51.333015,16.633755,268146,db_germany
 4390,"Worms, Hauptbahnhof",DE,49.635113,8.356955,283977,db_germany
-4391,Wroclaw Glowny,DE,51.09808,17.037088,439878,db_germany
-4392,Wronki,DE,52.704967,16.38615,454458,db_germany
+4391,Wroclaw Glowny,PL,51.09808,17.037088,439878,db_germany
+4392,Wronki,PL,52.704967,16.38615,454458,db_germany
 4393,Wunstorf,DE,52.422344,9.450421,74858,db_germany
 4394,Wysoka Kamienska,DE,53.82494,14.832578,81097,db_germany
 4395,Wörgl Hbf,DE,47.4918,12.060581,482903,db_germany
 4396,Würzburg Hbf,DE,49.801796,9.93578,673495,db_germany
-4397,Zabrze,DE,50.30528,18.786947,239614,db_germany
-4398,Zagreb Glavni kolodvor,DE,45.80444,15.978705,135497,db_germany
-4399,Zapresic,DE,45.844494,15.813187,597799,db_germany
-4400,Zawiercie,DE,50.481018,19.422993,508095,db_germany
-4401,Zbaszyn,DE,52.259502,15.894974,81294,db_germany
-4402,Zbaszynek,DE,52.242508,15.818092,33351,db_germany
-4403,Zdunska Wola,DE,51.61125,18.946575,303285,db_germany
+4397,Zabrze,PL,50.30528,18.786947,239614,db_germany
+4398,Zagreb Glavni kolodvor,IT,45.80444,15.978705,135497,db_germany
+4399,Zapresic,IT,45.844494,15.813187,597799,db_germany
+4400,Zawiercie,PL,50.481018,19.422993,508095,db_germany
+4401,Zbaszyn,PL,52.259502,15.894974,81294,db_germany
+4402,Zbaszynek,PL,52.242508,15.818092,33351,db_germany
+4403,Zdunska Wola,PL,51.61125,18.946575,303285,db_germany
 4404,Zell am See,DE,47.32052,12.796571,483612,db_germany
-4405,Zidani Most,DE,46.085587,15.170324,623110,db_germany
-4406,Zielona Gora Glowna,DE,51.947437,15.513709,277329,db_germany
-4407,Zmigrod,DE,51.474678,16.901731,647556,db_germany
-4408,Zyrardow,DE,52.052116,20.448338,242285,db_germany
+4405,Zidani Most,AT,46.085587,15.170324,623110,db_germany
+4406,Zielona Gora Glowna,PL,51.947437,15.513709,277329,db_germany
+4407,Zmigrod,PL,51.474678,16.901731,647556,db_germany
+4408,Zyrardow,PL,52.052116,20.448338,242285,db_germany
 4409,Zürich Flughafen,DE,47.450386,8.562402,55618,db_germany
 4410,Zürich HB,DE,47.378178,8.540212,608418,db_germany
 4411,Züssow Bahnhof,DE,53.97299,13.549442,443163,db_germany
 4412,Ötztal,DE,47.238483,10.859114,70092,db_germany
+4413,Schaerbeek,FR,50.87851,4.37864,S8811007,sncb_belgium
+4414,Evere,FR,50.867784,4.400963,S8811106,sncb_belgium
+4415,Haren-Sud,FR,50.889694,4.415358,S8811130,sncb_belgium
+4416,Buda,FR,50.907496,4.417075,S8811148,sncb_belgium
+4417,Haren,FR,50.888879,4.41998,S8811155,sncb_belgium
+4418,Bordet,FR,50.877787,4.410024,S8811163,sncb_belgium
+4419,Meiser,FR,50.854071,4.394424,S8811171,sncb_belgium
+4420,Vilvorde,FR,50.924581,4.432826,S8811189,sncb_belgium
+4421,Mérode,FR,50.839282,4.398932,S8811197,sncb_belgium
+4422,Delta,FR,50.818362,4.403871,S8811205,sncb_belgium
+4423,Diegem,FR,50.890481,4.442773,S8811213,sncb_belgium
+4424,Zaventem,FR,50.88572,4.46989,S8811221,sncb_belgium
+4425,Nossegem,FR,50.88331,4.50611,S8811247,sncb_belgium
+4426,Kortenberg,FR,50.89307,4.5433,S8811254,sncb_belgium
+4427,Erps-Kwerps,FR,50.89651,4.585,S8811262,sncb_belgium
+4428,Veltem,FR,50.90052,4.63352,S8811270,sncb_belgium
+4429,Herent,FR,50.90353,4.67219,S8811288,sncb_belgium
+4430,Bruxelles-Luxembourg,FR,50.83894,4.373676,S8811304,sncb_belgium
+4431,Germoir,FR,50.83,4.379444,S8811403,sncb_belgium
+4432,Etterbeek,FR,50.822191,4.389517,S8811411,sncb_belgium
+4433,Watermael,FR,50.809175,4.399885,S8811429,sncb_belgium
+4434,Boitsfort,FR,50.794698,4.408114,S8811437,sncb_belgium
+4435,Groenendaal,FR,50.766103,4.44949,S8811445,sncb_belgium
+4436,Hoeilaart,FR,50.76016,4.46741,S8811460,sncb_belgium
+4437,La Hulpe,FR,50.73796,4.49706,S8811510,sncb_belgium
+4438,Genval,FR,50.725697,4.514834,S8811528,sncb_belgium
+4439,Rixensart,FR,50.71141,4.53286,S8811536,sncb_belgium
+4440,Profondsart,FR,50.699653,4.545435,S8811544,sncb_belgium
+4441,Ottignies,FR,50.67367,4.56936,S8811601,sncb_belgium
+4442,Limal,FR,50.69214,4.5753,S8811635,sncb_belgium
+4443,Louvain-la-Neuve,FR,50.669795,4.615746,S8811676,sncb_belgium
+4444,Bierges-Walibi,FR,50.70777,4.59475,S8811718,sncb_belgium
+4445,Wavre,FR,50.71627,4.60478,S8811726,sncb_belgium
+4446,Basse-Wavre,FR,50.724421,4.621653,S8811734,sncb_belgium
+4447,Gastuche,FR,50.73665,4.6496,S8811742,sncb_belgium
+4448,Archennes,FR,50.754347,4.662441,S8811759,sncb_belgium
+4449,Florival,FR,50.7615,4.65387,S8811767,sncb_belgium
+4450,Pécrot,FR,50.778516,4.651483,S8811775,sncb_belgium
+4451,Céroux-Mousty,FR,50.659944,4.569049,S8811817,sncb_belgium
+4452,Court-Saint-Etienne,FR,50.64557,4.56582,S8811825,sncb_belgium
+4453,Bruxelles-Schuman,FR,50.84328,4.380725,S8811916,sncb_belgium
+4454,Anderlecht,FR,50.8179,4.2918,S8811940,sncb_belgium
+4455,Simonis,FR,50.863645,4.328982,S8812013,sncb_belgium
+4456,Bockstael,FR,50.87943,4.34851,S8812021,sncb_belgium
+4457,Jette,FR,50.880832,4.326218,S8812047,sncb_belgium
+4458,Zellik,FR,50.890032,4.274546,S8812062,sncb_belgium
+4459,Asse,FR,50.906485,4.207988,S8812070,sncb_belgium
+4460,Mollem,FR,50.933475,4.216967,S8812112,sncb_belgium
+4461,Merchtem,FR,50.954954,4.222719,S8812120,sncb_belgium
+4462,Opwijk,FR,50.974776,4.187317,S8812146,sncb_belgium
+4463,Heizijde,FR,50.989597,4.156174,S8812153,sncb_belgium
+4464,Lebbeke,FR,51.005008,4.134372,S8812161,sncb_belgium
+4465,Berchem-Sainte-Agathe,FR,50.872627,4.289892,S8812211,sncb_belgium
+4466,Grand-Bigard,FR,50.868338,4.273542,S8812229,sncb_belgium
+4467,Dilbeek,FR,50.86673,4.24339,S8812237,sncb_belgium
+4468,Sint-Martens-Bodegem,FR,50.86716,4.20508,S8812245,sncb_belgium
+4469,Ternat,FR,50.87452,4.16534,S8812252,sncb_belgium
+4470,Essene Lombeek,FR,50.88245,4.11517,S8812260,sncb_belgium
+4471,Bruxelles-Central,FR,50.845655,4.356804,S8813003,sncb_belgium
+4472,Bruxelles-Chapelle,FR,50.84113,4.34787,S8813037,sncb_belgium
+4473,Bruxelles-Congrès,FR,50.85207,4.362051,S8813045,sncb_belgium
+4474,Bruxelles-Midi,FR,50.83571,4.33653,S8814001,sncb_belgium
+4475,Forest-Est,FR,50.8102,4.32094,S8814118,sncb_belgium
+4476,Uccle-Stalle,FR,50.802412,4.3239,S8814126,sncb_belgium
+4477,Uccle-Calevoet,FR,50.791749,4.332211,S8814134,sncb_belgium
+4478,Linkebeek,FR,50.773685,4.339434,S8814142,sncb_belgium
+4479,Holleken,FR,50.767628,4.353956,S8814159,sncb_belgium
+4480,Rhode-Saint-Genèse,FR,50.747809,4.362001,S8814167,sncb_belgium
+4481,De Hoek,FR,50.738812,4.370713,S8814175,sncb_belgium
+4482,Nivelles,FR,50.599641,4.335065,S8814209,sncb_belgium
+4483,Lillois,FR,50.645419,4.365369,S8814241,sncb_belgium
+4484,Braine-l'Alleud,FR,50.68478,4.37553,S8814258,sncb_belgium
+4485,Waterloo,FR,50.715418,4.383485,S8814266,sncb_belgium
+4486,Hal,FR,50.73393,4.240633,S8814308,sncb_belgium
+4487,Lembeek,FR,50.71511,4.22158,S8814332,sncb_belgium
+4488,Buizingen,FR,50.75158,4.25856,S8814340,sncb_belgium
+4489,Lot,FR,50.76636,4.2737,S8814357,sncb_belgium
+4490,Ruisbroek,FR,50.79183,4.29533,S8814365,sncb_belgium
+4491,Forest-Midi,FR,50.809216,4.309167,S8814373,sncb_belgium
+4492,Huizingen,FR,50.751905,4.266485,S8814415,sncb_belgium
+4493,Beersel,FR,50.766613,4.302603,S8814423,sncb_belgium
+4494,Moensberg,FR,50.778321,4.330729,S8814431,sncb_belgium
+4495,Saint-Job,FR,50.794409,4.362758,S8814449,sncb_belgium
+4496,Boondael,FR,50.801365,4.393081,S8814456,sncb_belgium
+4497,Vivier D'Oie,FR,50.796147,4.37405,S8814464,sncb_belgium
+4498,Arcades,FR,50.809919,4.39854,S8814472,sncb_belgium
+4499,Tour-et-Taxis,FR,50.872797,4.342105,S8815016,sncb_belgium
+4500,Bruxelles-Ouest,FR,50.848557,4.32104,S8815040,sncb_belgium
+4501,Brussels Airport-Zaventem,FR,50.896458,4.482072,S8819406,sncb_belgium
+4502,Anvers-Central,FR,51.217199,4.421098,S8821006,sncb_belgium
+4503,Anvers-Luchtbal,FR,51.24413,4.425033,S8821063,sncb_belgium
+4504,Ekeren,FR,51.281627,4.434153,S8821071,sncb_belgium
+4505,Anvers-Noorderdokken,FR,51.26164,4.42791,S8821089,sncb_belgium
+4506,Noorderkempen (Brecht),FR,51.356836,4.6322,S8821105,sncb_belgium
+4507,Anvers-Berchem,FR,51.199228,4.432219,S8821121,sncb_belgium
+4508,Mortsel,FR,51.182963,4.448435,S8821147,sncb_belgium
+4509,Anvers-Sud,FR,51.197833,4.390264,S8821196,sncb_belgium
+4510,Mortsel-Oude God,FR,51.171252,4.455737,S8821238,sncb_belgium
+4511,Mortsel-Liersesteenweg,FR,51.169027,4.468841,S8821246,sncb_belgium
+4512,Kontich-Lint,FR,51.134026,4.476358,S8821311,sncb_belgium
+4513,Hove,FR,51.154118,4.465158,S8821337,sncb_belgium
+4514,Essen,FR,51.462764,4.451318,S8821402,sncb_belgium
+4515,Wildert,FR,51.428091,4.463349,S8821436,sncb_belgium
+4516,Kalmthout,FR,51.391176,4.466825,S8821444,sncb_belgium
+4517,Kijkuit,FR,51.378661,4.467318,S8821451,sncb_belgium
+4518,Heide,FR,51.364621,4.460482,S8821519,sncb_belgium
+4519,Kapellen,FR,51.31353,4.432662,S8821535,sncb_belgium
+4520,Sint-Mariaburg,FR,51.291654,4.434902,S8821543,sncb_belgium
+4521,Lierre,FR,51.135762,4.560611,S8821600,sncb_belgium
+4522,Boechout,FR,51.163478,4.494487,S8821634,sncb_belgium
+4523,Kessel,FR,51.15106,4.61846,S8821659,sncb_belgium
+4524,Nijlen,FR,51.15984,4.666589,S8821667,sncb_belgium
+4525,Wolfstee,FR,51.168358,4.786148,S8821709,sncb_belgium
+4526,Herentals,FR,51.181512,4.82954,S8821717,sncb_belgium
+4527,Bouwel,FR,51.165762,4.746515,S8821725,sncb_belgium
+4528,Berlaar,FR,51.113659,4.638808,S8821816,sncb_belgium
+4529,Melkouwen,FR,51.094942,4.671533,S8821824,sncb_belgium
+4530,Heist-op-den-Berg,FR,51.074145,4.708231,S8821832,sncb_belgium
+4531,Booischot,FR,51.03734,4.773481,S8821857,sncb_belgium
+4532,Begijnendijk,FR,51.02197,4.80034,S8821865,sncb_belgium
+4533,Turnhout,FR,51.322029,4.937413,S8821907,sncb_belgium
+4534,Tielen,FR,51.24102,4.89309,S8821964,sncb_belgium
+4535,Malines,FR,51.01765,4.482785,S8822004,sncb_belgium
+4536,Kapelle-op-den-Bos,FR,51.010841,4.359118,S8822053,sncb_belgium
+4537,Londerzeel,FR,51.009092,4.299069,S8822111,sncb_belgium
+4538,Malderen,FR,51.014489,4.22911,S8822137,sncb_belgium
+4539,Buggenhout,FR,51.016294,4.201663,S8822145,sncb_belgium
+4540,Baasrode-Zuid,FR,51.019436,4.153496,S8822160,sncb_belgium
+4541,Duffel,FR,51.091245,4.493184,S8822210,sncb_belgium
+4542,Sint-Katelijne-Waver,FR,51.069979,4.496119,S8822228,sncb_belgium
+4543,Weerde,FR,50.977447,4.470935,S8822251,sncb_belgium
+4544,Eppegem,FR,50.9584,4.45749,S8822269,sncb_belgium
+4545,Hofstade,FR,50.98866,4.49834,S8822277,sncb_belgium
+4546,Malines-Nekkerspoel,FR,51.029885,4.489917,S8822343,sncb_belgium
+4547,Muizen,FR,51.0082,4.51384,S8822426,sncb_belgium
+4548,Hever,FR,50.997789,4.537634,S8822459,sncb_belgium
+4549,Boortmeerbeek,FR,50.98185,4.5739,S8822475,sncb_belgium
+4550,Haacht,FR,50.966432,4.613306,S8822517,sncb_belgium
+4551,Wespelaar-Tildonk,FR,50.958547,4.638014,S8822525,sncb_belgium
+4552,Hambos,FR,50.94425,4.66301,S8822533,sncb_belgium
+4553,Willebroek,FR,51.066344,4.35602,S8822608,sncb_belgium
+4554,Puurs,FR,51.077216,4.282701,S8822715,sncb_belgium
+4555,Bornem,FR,51.09923,4.24053,S8822772,sncb_belgium
+4556,Boom,FR,51.090713,4.360698,S8822814,sncb_belgium
+4557,Ruisbroek-Sauvegarde,FR,51.081027,4.325001,S8822848,sncb_belgium
+4558,Hoboken-Polder,FR,51.182697,4.347787,S8824158,sncb_belgium
+4559,Hemiksem,FR,51.136245,4.338294,S8824224,sncb_belgium
+4560,Schelle,FR,51.125509,4.340261,S8824232,sncb_belgium
+4561,Niel,FR,51.111596,4.338591,S8824240,sncb_belgium
+4562,Hasselt,FR,50.930826,5.327631,S8831005,sncb_belgium
+4563,Alken,FR,50.886834,5.292867,S8831039,sncb_belgium
+4564,Schulen,FR,50.963761,5.187405,S8831088,sncb_belgium
+4565,Diepenbeek,FR,50.910454,5.419946,S8831112,sncb_belgium
+4566,Bilzen,FR,50.86864,5.50938,S8831138,sncb_belgium
+4567,Tongres,FR,50.784403,5.47328,S8831310,sncb_belgium
+4568,Diest,FR,50.99334,5.05003,S8831401,sncb_belgium
+4569,Genk,FR,50.967056,5.497683,S8831765,sncb_belgium
+4570,Bokrijk,FR,50.955815,5.408383,S8831781,sncb_belgium
+4571,Saint-Trond,FR,50.81762,5.17665,S8831807,sncb_belgium
+4572,Bourg-Léopold,FR,51.11731,5.25729,S8832003,sncb_belgium
+4573,Balen,FR,51.169098,5.164985,S8832045,sncb_belgium
+4574,Beverlo,FR,51.087724,5.234375,S8832227,sncb_belgium
+4575,Beringen,FR,51.0506,5.23589,S8832235,sncb_belgium
+4576,Heusden,FR,51.038205,5.281786,S8832243,sncb_belgium
+4577,Zolder,FR,51.03352,5.330274,S8832250,sncb_belgium
+4578,Zonhoven,FR,50.98956,5.348813,S8832334,sncb_belgium
+4579,Kiewit,FR,50.954845,5.350226,S8832375,sncb_belgium
+4580,Mol,FR,51.191052,5.116333,S8832409,sncb_belgium
+4581,Geel,FR,51.168957,4.988611,S8832433,sncb_belgium
+4582,Olen,FR,51.17403,4.9025,S8832458,sncb_belgium
+4583,Lommel,FR,51.211564,5.312032,S8832565,sncb_belgium
+4584,Overpelt,FR,51.215622,5.422756,S8832573,sncb_belgium
+4585,Neerpelt,FR,51.222365,5.43717,S8832615,sncb_belgium
+4586,Hamont,FR,51.246422,5.543276,S8832664,sncb_belgium
+4587,Louvain,FR,50.882282,4.715868,S8833001,sncb_belgium
+4588,Vertrijk,FR,50.83628,4.83552,S8833050,sncb_belgium
+4589,Heverlee,FR,50.862529,4.695201,S8833126,sncb_belgium
+4590,Oud-Heverlee,FR,50.83593,4.65331,S8833134,sncb_belgium
+4591,Sint-Joris-Weert,FR,50.80063,4.651728,S8833159,sncb_belgium
+4592,Wijgmaal,FR,50.922745,4.701478,S8833175,sncb_belgium
+4593,Aarschot,FR,50.98441,4.82404,S8833209,sncb_belgium
+4594,Wezemaal,FR,50.95626,4.747681,S8833233,sncb_belgium
+4595,Langdorp,FR,51.00247,4.86354,S8833258,sncb_belgium
+4596,Testelt,FR,51.00986,4.94583,S8833266,sncb_belgium
+4597,Zichem,FR,51.00669,4.98736,S8833274,sncb_belgium
+4598,Tirlemont,FR,50.80802,4.92581,S8833308,sncb_belgium
+4599,Ezemaal,FR,50.77213,4.99422,S8833449,sncb_belgium
+4600,Landen,FR,50.74793,5.07966,S8833605,sncb_belgium
+4601,Neerwinden,FR,50.76396,5.03632,S8833670,sncb_belgium
+4602,Ans,FR,50.66121,5.5097,S8841202,sncb_belgium
+4603,Bierset-Awans,FR,50.65861,5.46055,S8841319,sncb_belgium
+4604,Voroux,FR,50.66181,5.42956,S8841327,sncb_belgium
+4605,Waremme,FR,50.694549,5.24948,S8841400,sncb_belgium
+4606,Bléret,FR,50.685066,5.286398,S8841434,sncb_belgium
+4607,Remicourt,FR,50.67861,5.32141,S8841442,sncb_belgium
+4608,Momalle,FR,50.66991,5.3676,S8841459,sncb_belgium
+4609,Fexhe-le-Haut-Clocher,FR,50.664049,5.39845,S8841467,sncb_belgium
+4610,Liège-Saint-Lambert,FR,50.646351,5.570451,S8841525,sncb_belgium
+4611,Liège-Carré,FR,50.6403,5.56113,S8841558,sncb_belgium
+4612,Herstal,FR,50.660913,5.622762,S8841608,sncb_belgium
+4613,Milmort,FR,50.692454,5.600094,S8841665,sncb_belgium
+4614,Liers,FR,50.698185,5.566829,S8841673,sncb_belgium
+4615,Glons,FR,50.750428,5.535429,S8841731,sncb_belgium
+4616,Angleur,FR,50.613144,5.59983,S8842002,sncb_belgium
+4617,Chênée,FR,50.60802,5.616075,S8842036,sncb_belgium
+4618,Chaudfontaine,FR,50.586982,5.643734,S8842051,sncb_belgium
+4619,Tilff,FR,50.570625,5.583933,S8842630,sncb_belgium
+4620,Méry,FR,50.54762,5.587237,S8842648,sncb_belgium
+4621,Hony,FR,50.539921,5.573567,S8842655,sncb_belgium
+4622,Esneux,FR,50.530564,5.572567,S8842663,sncb_belgium
+4623,Poulseur,FR,50.509211,5.578855,S8842689,sncb_belgium
+4624,Rivage,FR,50.483284,5.587635,S8842705,sncb_belgium
+4625,Aywaille,FR,50.472936,5.672496,S8842754,sncb_belgium
+4626,Comblain-la-Tour,FR,50.456863,5.566959,S8842838,sncb_belgium
+4627,Hamoir,FR,50.428184,5.533561,S8842846,sncb_belgium
+4628,Sy,FR,50.403255,5.523566,S8842853,sncb_belgium
+4629,Seraing,FR,50.6089,5.513777,S8843067,sncb_belgium
+4630,Sclessin,FR,50.60984,5.55891,S8843133,sncb_belgium
+4631,Pont-de-Seraing,FR,50.619652,5.510161,S8843141,sncb_belgium
+4632,Jemeppe-sur-Meuse,FR,50.618447,5.497871,S8843158,sncb_belgium
+4633,Flémalle-Grande,FR,50.60535,5.48098,S8843166,sncb_belgium
+4634,Ougrée,FR,50.605396,5.536972,S8843174,sncb_belgium
+4635,Flémalle-Haute,FR,50.595308,5.457661,S8843208,sncb_belgium
+4636,Leman,FR,50.6004,5.46831,S8843224,sncb_belgium
+4637,Engis,FR,50.58296,5.40199,S8843240,sncb_belgium
+4638,Huy,FR,50.52724,5.23421,S8843307,sncb_belgium
+4639,Ampsin,FR,50.53922,5.289727,S8843323,sncb_belgium
+4640,Amay,FR,50.54601,5.32049,S8843331,sncb_belgium
+4641,Haute-Flône,FR,50.553492,5.330336,S8843349,sncb_belgium
+4642,Statte,FR,50.52828,5.21968,S8843406,sncb_belgium
+4643,Bas-Oha,FR,50.52263,5.19094,S8843430,sncb_belgium
+4644,Bressoux,FR,50.643963,5.611062,S8843901,sncb_belgium
+4645,Verviers-Central,DE,50.588139,5.854913,S8844008,sncb_belgium
+4646,Verviers-Palais,DE,50.590922,5.865333,S8844057,sncb_belgium
+4647,Pepinster,DE,50.568177,5.806155,S8844206,sncb_belgium
+4648,Nessonvaux,FR,50.572086,5.741577,S8844230,sncb_belgium
+4649,Fraipont,FR,50.565064,5.723666,S8844255,sncb_belgium
+4650,Trooz,FR,50.573212,5.688351,S8844271,sncb_belgium
+4651,Pepinster-Cité,DE,50.563405,5.804399,S8844313,sncb_belgium
+4652,Juslenville,DE,50.544715,5.809935,S8844321,sncb_belgium
+4653,Theux,DE,50.536161,5.81503,S8844339,sncb_belgium
+4654,Franchimont,DE,50.525724,5.82222,S8844347,sncb_belgium
+4655,Spa,DE,50.490302,5.855101,S8844404,sncb_belgium
+4656,Spa-Géronstère,DE,50.489304,5.866211,S8844420,sncb_belgium
+4657,Welkenraedt,DE,50.659705,5.975386,S8844503,sncb_belgium
+4658,Dolhain-Gileppe,DE,50.616244,5.93649,S8844545,sncb_belgium
+4659,Eupen,DE,50.63516,6.03711,S8844628,sncb_belgium
+4660,Hergenrath,DE,50.718213,6.041336,S8844644,sncb_belgium
+4661,Gouvy,DE,50.18941,5.95391,S8845005,sncb_belgium
+4662,Vielsalm,DE,50.278932,5.909209,S8845146,sncb_belgium
+4663,Trois-Ponts,DE,50.368217,5.873579,S8845203,sncb_belgium
+4664,Coo,DE,50.391127,5.880474,S8845229,sncb_belgium
+4665,Visé,FR,50.737762,5.692548,S8846201,sncb_belgium
+4666,Ronet,FR,50.45774,4.82842,S8861119,sncb_belgium
+4667,Flawinne,FR,50.45624,4.8063,S8861127,sncb_belgium
+4668,Floreffe,FR,50.443328,4.762371,S8861135,sncb_belgium
+4669,Franière,FR,50.43954,4.73355,S8861143,sncb_belgium
+4670,Moustier,FR,50.45275,4.69381,S8861150,sncb_belgium
+4671,Gembloux,FR,50.570486,4.691497,S8861200,sncb_belgium
+4672,Chapelle-Dieu,FR,50.557375,4.697624,S8861317,sncb_belgium
+4673,Mazy,FR,50.5135,4.67583,S8861333,sncb_belgium
+4674,Lonzée,FR,50.55194,4.7201,S8861416,sncb_belgium
+4675,Beuzet,FR,50.534209,4.748531,S8861424,sncb_belgium
+4676,Saint-Denis-Bovesse,FR,50.5213,4.76779,S8861432,sncb_belgium
+4677,Rhisnes,FR,50.49935,4.80187,S8861440,sncb_belgium
+4678,Ernage,FR,50.59082,4.66854,S8861515,sncb_belgium
+4679,Chastre,FR,50.60882,4.648884,S8861523,sncb_belgium
+4680,Blanmont,FR,50.61945,4.63639,S8861531,sncb_belgium
+4681,Mont-Saint-Guibert,FR,50.637613,4.613883,S8861549,sncb_belgium
+4682,Stockem,FR,49.69094,5.769116,S8862018,sncb_belgium
+4683,Namur,FR,50.46879,4.86222,S8863008,sncb_belgium
+4684,Jambes,FR,50.454846,4.876143,S8863115,sncb_belgium
+4685,Lustin,FR,50.369746,4.877468,S8863156,sncb_belgium
+4686,Jambes-Est,FR,50.4548,4.88026,S8863354,sncb_belgium
+4687,Dave-Saint-Martin,FR,50.429102,4.884417,S8863362,sncb_belgium
+4688,Andenne,FR,50.496764,5.094701,S8863404,sncb_belgium
+4689,Château-de-Seilles,FR,50.49721,5.08175,S8863438,sncb_belgium
+4690,Sclaigneaux,FR,50.492245,5.026359,S8863446,sncb_belgium
+4691,Namêche,FR,50.470431,4.997939,S8863453,sncb_belgium
+4692,Marche-les-Dames,FR,50.48074,4.96458,S8863461,sncb_belgium
+4693,Dinant,FR,50.26072,4.90818,S8863503,sncb_belgium
+4694,Yvoir,FR,50.32084,4.87864,S8863545,sncb_belgium
+4695,Godinne,FR,50.34891,4.86996,S8863560,sncb_belgium
+4696,Anseremme,FR,50.23802,4.90553,S8863818,sncb_belgium
+4697,Gendron-Celles,FR,50.211234,4.964611,S8863834,sncb_belgium
+4698,Houyet,FR,50.189868,5.006076,S8863842,sncb_belgium
+4699,Beauraing,FR,50.114433,4.95684,S8863867,sncb_belgium
+4700,Rochefort-Jemelle,FR,50.160405,5.266697,S8864006,sncb_belgium
+4701,Forrières,FR,50.132761,5.276783,S8864311,sncb_belgium
+4702,Grupont,FR,50.090596,5.280527,S8864337,sncb_belgium
+4703,Marloie,FR,50.202819,5.31389,S8864345,sncb_belgium
+4704,Aye,FR,50.224131,5.301096,S8864352,sncb_belgium
+4705,Marche-en-Famenne,FR,50.22247,5.34629,S8864410,sncb_belgium
+4706,Melreux-Hotton,FR,50.28367,5.44014,S8864436,sncb_belgium
+4707,Barvaux,FR,50.34942,5.50154,S8864451,sncb_belgium
+4708,Bomal,FR,50.3768,5.519304,S8864469,sncb_belgium
+4709,Ciney,FR,50.291054,5.091406,S8864501,sncb_belgium
+4710,Leignon,FR,50.26777,5.10778,S8864816,sncb_belgium
+4711,Chapois,FR,50.26237,5.12426,S8864824,sncb_belgium
+4712,Haversin,FR,50.249041,5.194376,S8864832,sncb_belgium
+4713,Natoye,FR,50.343298,5.061162,S8864915,sncb_belgium
+4714,Assesse,FR,50.368136,5.022836,S8864931,sncb_belgium
+4715,Courrière,FR,50.387442,4.996051,S8864949,sncb_belgium
+4716,Sart-Bernard,FR,50.406373,4.94974,S8864956,sncb_belgium
+4717,Naninne,FR,50.419694,4.929754,S8864964,sncb_belgium
+4718,Libramont,FR,49.92043,5.37927,S8865003,sncb_belgium
+4719,Poix-Saint-Hubert,FR,50.019508,5.292646,S8865227,sncb_belgium
+4720,Bertrix,FR,49.852833,5.267189,S8865300,sncb_belgium
+4721,Paliseul,FR,49.895412,5.118351,S8865540,sncb_belgium
+4722,Carlsbourg,FR,49.905462,5.092785,S8865565,sncb_belgium
+4723,Graide,FR,49.934132,5.043044,S8865615,sncb_belgium
+4724,Gedinne,FR,49.984123,4.978077,S8865649,sncb_belgium
+4725,Arlon,DE,49.680532,5.809972,S8866001,sncb_belgium
+4726,Viville,FR,49.688239,5.786525,S8866118,sncb_belgium
+4727,Habay,FR,49.718252,5.632689,S8866142,sncb_belgium
+4728,Marbehan,FR,49.727333,5.539757,S8866175,sncb_belgium
+4729,Virton,FR,49.560822,5.519122,S8866407,sncb_belgium
+4730,Halanzy,FR,49.556205,5.741347,S8866530,sncb_belgium
+4731,Athus,DE,49.563344,5.828944,S8866605,sncb_belgium
+4732,Aubange,FR,49.564095,5.798058,S8866654,sncb_belgium
+4733,Messancy,DE,49.592782,5.818919,S8866662,sncb_belgium
+4734,Florenville,FR,49.70697,5.33112,S8866845,sncb_belgium
+4735,Marchienne-au-Pont,FR,50.41217,4.39422,S8871100,sncb_belgium
+4736,Jamioulx,FR,50.352901,4.41129,S8871175,sncb_belgium
+4737,Beignée,FR,50.333894,4.406307,S8871183,sncb_belgium
+4738,Roux,FR,50.44311,4.3932,S8871217,sncb_belgium
+4739,Courcelles-Motte,FR,50.46201,4.40053,S8871225,sncb_belgium
+4740,Luttre,FR,50.50586,4.38412,S8871308,sncb_belgium
+4741,Obaix-Buzet,FR,50.53521,4.36357,S8871332,sncb_belgium
+4742,Pont-à-Celles,FR,50.513813,4.355296,S8871365,sncb_belgium
+4743,Gouy-lez-Piéton,FR,50.497064,4.325126,S8871373,sncb_belgium
+4744,Godarville,FR,50.4928,4.29031,S8871381,sncb_belgium
+4745,Piéton,FR,50.43496,4.28844,S8871415,sncb_belgium
+4746,Forchies,FR,50.433311,4.325381,S8871514,sncb_belgium
+4747,Erquelinnes,FR,50.30419,4.11356,S8871605,sncb_belgium
+4748,Erquelinnes-Village,FR,50.310177,4.13231,S8871647,sncb_belgium
+4749,Solre-sur-Sambre,FR,50.31264,4.15843,S8871662,sncb_belgium
+4750,Labuissière,FR,50.316328,4.186832,S8871670,sncb_belgium
+4751,Fontaine-Valmont,FR,50.321169,4.212787,S8871688,sncb_belgium
+4752,Lobbes,FR,50.346469,4.260957,S8871712,sncb_belgium
+4753,Thuin,FR,50.34274,4.28891,S8871811,sncb_belgium
+4754,Hourpes,FR,50.36369,4.30874,S8871829,sncb_belgium
+4755,Landelies,FR,50.37731,4.35098,S8871837,sncb_belgium
+4756,Marchienne-Zone,FR,50.397467,4.388764,S8871852,sncb_belgium
+4757,Charleroi-Central,FR,50.40471,4.43857,S8872009,sncb_belgium
+4758,Charleroi-Ouest,FR,50.410951,4.436652,S8872066,sncb_belgium
+4759,Lodelinsart,FR,50.43245,4.46295,S8872306,sncb_belgium
+4760,Fleurus,FR,50.481924,4.543746,S8872413,sncb_belgium
+4761,Ligny,FR,50.511728,4.566134,S8872520,sncb_belgium
+4762,Tilly,FR,50.55808,4.552674,S8872553,sncb_belgium
+4763,Villers-la-Ville,FR,50.578104,4.533348,S8872579,sncb_belgium
+4764,La Roche (brabant),FR,50.61034,4.53916,S8872587,sncb_belgium
+4765,Faux,FR,50.62183,4.54926,S8872611,sncb_belgium
+4766,Walcourt,FR,50.25922,4.435877,S8873007,sncb_belgium
+4767,Philippeville,FR,50.19164,4.53596,S8873122,sncb_belgium
+4768,Yves-Gomezée,FR,50.236984,4.500404,S8873239,sncb_belgium
+4769,Pry,FR,50.269281,4.428807,S8873312,sncb_belgium
+4770,Berzée,FR,50.285599,4.405909,S8873320,sncb_belgium
+4771,Cour-sur-Heure,FR,50.300139,4.391492,S8873379,sncb_belgium
+4772,Ham-sur-Heure,FR,50.319557,4.404698,S8873387,sncb_belgium
+4773,Châtelet,FR,50.4101,4.52186,S8874005,sncb_belgium
+4774,Couillet,FR,50.392718,4.468512,S8874054,sncb_belgium
+4775,Le Campinaire,FR,50.423832,4.542787,S8874559,sncb_belgium
+4776,Farciennes,FR,50.429148,4.55265,S8874567,sncb_belgium
+4777,Aiseau,FR,50.429533,4.58455,S8874583,sncb_belgium
+4778,Tamines,FR,50.432232,4.608824,S8874609,sncb_belgium
+4779,Auvelais,FR,50.4492,4.630534,S8874716,sncb_belgium
+4780,Jemeppe-sur-Sambre,FR,50.45095,4.66263,S8874724,sncb_belgium
+4781,Mariembourg,FR,50.09549,4.52569,S8875002,sncb_belgium
+4782,Couvin,FR,50.05632,4.4917,S8875127,sncb_belgium
+4783,Mons,FR,50.453858,3.942542,S8881000,sncb_belgium
+4784,Ghlin,FR,50.48741,3.90634,S8881125,sncb_belgium
+4785,Erbisoeul,FR,50.507024,3.887991,S8881158,sncb_belgium
+4786,Jurbise,FR,50.5305,3.91069,S8881166,sncb_belgium
+4787,Masnuy-Saint-Pierre,FR,50.53655,3.96214,S8881174,sncb_belgium
+4788,Nimy,FR,50.471643,3.956093,S8881315,sncb_belgium
+4789,Obourg,FR,50.469874,4.007808,S8881406,sncb_belgium
+4790,Havré,FR,50.470751,4.059987,S8881430,sncb_belgium
+4791,Thieu,FR,50.46954,4.09852,S8881455,sncb_belgium
+4792,Bracquegnies,FR,50.474458,4.126349,S8881463,sncb_belgium
+4793,Quévy,FR,50.341531,3.909489,S8881505,sncb_belgium
+4794,Genly,FR,50.39064,3.91164,S8881562,sncb_belgium
+4795,Frameries,FR,50.405935,3.90659,S8881570,sncb_belgium
+4796,La Louvière-Centre,FR,50.47816,4.17986,S8882107,sncb_belgium
+4797,La Louvière-Sud,FR,50.464976,4.190611,S8882206,sncb_belgium
+4798,Morlanwelz,FR,50.458,4.24737,S8882230,sncb_belgium
+4799,Carnières,FR,50.447959,4.263829,S8882248,sncb_belgium
+4800,Binche,FR,50.40876,4.17245,S8882362,sncb_belgium
+4801,Manage,FR,50.50611,4.23468,S8882701,sncb_belgium
+4802,Braine-le-Comte,FR,50.60508,4.13766,S8883006,sncb_belgium
+4803,Hennuyères,FR,50.65101,4.17589,S8883022,sncb_belgium
+4804,Soignies,FR,50.572768,4.067518,S8883113,sncb_belgium
+4805,Neufvilles,FR,50.5436,4.01067,S8883121,sncb_belgium
+4806,Ecaussinnes,FR,50.562387,4.156637,S8883212,sncb_belgium
+4807,Marche-lez-Ecaussinnes,FR,50.546175,4.177102,S8883220,sncb_belgium
+4808,Familleureux,FR,50.51936,4.21158,S8883238,sncb_belgium
+4809,Enghien,FR,50.697272,4.047359,S8883311,sncb_belgium
+4810,Silly,FR,50.662382,3.935861,S8883436,sncb_belgium
+4811,Tubize,FR,50.69171,4.20573,S8883808,sncb_belgium
+4812,Saint-Ghislain,FR,50.442862,3.820255,S8884004,sncb_belgium
+4813,Boussu,FR,50.436384,3.797027,S8884319,sncb_belgium
+4814,Hainin,FR,50.428021,3.766893,S8884327,sncb_belgium
+4815,Quiévrain,FR,50.410106,3.68608,S8884335,sncb_belgium
+4816,Thulin,FR,50.423332,3.744708,S8884350,sncb_belgium
+4817,Quaregnon,FR,50.449824,3.856541,S8884541,sncb_belgium
+4818,Jemappes,FR,50.452577,3.885583,S8884566,sncb_belgium
+4819,Ville-Pommeroeul,FR,50.464544,3.724245,S8884632,sncb_belgium
+4820,Harchies,FR,50.482565,3.698768,S8884640,sncb_belgium
+4821,Blaton,FR,50.505459,3.666308,S8884715,sncb_belgium
+4822,Péruwelz,FR,50.513704,3.592777,S8884855,sncb_belgium
+4823,Callenelle,FR,50.527359,3.526178,S8884889,sncb_belgium
+4824,Froyennes,FR,50.629894,3.354835,S8885068,sncb_belgium
+4825,Antoing,FR,50.56963,3.45131,S8885522,sncb_belgium
+4826,Maubray,FR,50.547556,3.495523,S8885530,sncb_belgium
+4827,Herseaux,FR,50.713897,3.245961,S8885753,sncb_belgium
+4828,Ath,FR,50.626936,3.777428,S8886009,sncb_belgium
+4829,Maffle,FR,50.614353,3.800117,S8886041,sncb_belgium
+4830,Mévergnies-Attre,FR,50.600112,3.833919,S8886058,sncb_belgium
+4831,Brugelette,FR,50.594233,3.852551,S8886066,sncb_belgium
+4832,Cambron-Casteau,FR,50.586759,3.87481,S8886074,sncb_belgium
+4833,Leuze,FR,50.600609,3.616876,S8886348,sncb_belgium
+4834,Lessines,FR,50.712012,3.836434,S8886504,sncb_belgium
+4835,Acren,FR,50.733098,3.84709,S8886546,sncb_belgium
+4836,Houraing,FR,50.703059,3.835174,S8886553,sncb_belgium
+4837,Papignies,FR,50.686583,3.82341,S8886561,sncb_belgium
+4838,Rebaix,FR,50.661238,3.793624,S8886587,sncb_belgium
+4839,Bruges-Saint-Pierre,FR,51.223116,3.201796,S8891033,sncb_belgium
+4840,Oostkamp,FR,51.15411,3.25747,S8891116,sncb_belgium
+4841,Beernem,FR,51.12801,3.32989,S8891124,sncb_belgium
+4842,Maria-Aalter,FR,51.10761,3.38673,S8891132,sncb_belgium
+4843,Aalter,FR,51.092297,3.447848,S8891140,sncb_belgium
+4844,Bellem,FR,51.08391,3.48737,S8891157,sncb_belgium
+4845,Hansbeke,FR,51.073206,3.53621,S8891165,sncb_belgium
+4846,Zeebrugge-Strand,FR,51.330503,3.184028,S8891173,sncb_belgium
+4847,Zedelgem,FR,51.127048,3.164142,S8891264,sncb_belgium
+4848,Torhout,FR,51.06471,3.10587,S8891314,sncb_belgium
+4849,Blankenberge,FR,51.31243,3.13386,S8891405,sncb_belgium
+4850,Zeebrugge-Dorp,FR,51.326381,3.195171,S8891553,sncb_belgium
+4851,Lissewege,FR,51.29471,3.19451,S8891629,sncb_belgium
+4852,Heist,FR,51.333975,3.239182,S8891645,sncb_belgium
+4853,Duinbergen,FR,51.338199,3.263591,S8891652,sncb_belgium
+4854,Knokke,FR,51.339898,3.28519,S8891660,sncb_belgium
+4855,Ostende,FR,51.22821,2.92581,S8891702,sncb_belgium
+4856,Gand-Saint-Pierre,FR,51.035898,3.710673,S8892007,sncb_belgium
+4857,Tronchiennes,FR,51.047292,3.655201,S8892031,sncb_belgium
+4858,Landegem,FR,51.064313,3.576856,S8892056,sncb_belgium
+4859,De Pinte,FR,50.99706,3.650467,S8892080,sncb_belgium
+4860,Deinze,FR,50.978261,3.534435,S8892106,sncb_belgium
+4861,Lichtervelde,FR,51.025162,3.127209,S8892205,sncb_belgium
+4862,Tielt,FR,50.990839,3.33034,S8892254,sncb_belgium
+4863,Aarsele,FR,50.98446,3.41836,S8892288,sncb_belgium
+4864,Furnes,FR,51.073869,2.66994,S8892304,sncb_belgium
+4865,Coxyde,FR,51.079199,2.652773,S8892320,sncb_belgium
+4866,La Panne,FR,51.077398,2.601966,S8892338,sncb_belgium
+4867,Kortemark,FR,51.025244,3.043456,S8892403,sncb_belgium
+4868,Dixmude,FR,51.032722,2.868947,S8892452,sncb_belgium
+4869,Audenarde,FR,50.850116,3.600388,S8892601,sncb_belgium
+4870,Eine,FR,50.870429,3.623777,S8892627,sncb_belgium
+4871,Zingem,FR,50.908026,3.646381,S8892635,sncb_belgium
+4872,Gavere-Asper,FR,50.930021,3.639728,S8892643,sncb_belgium
+4873,Eke-Nazareth,FR,50.960775,3.627836,S8892650,sncb_belgium
+4874,Sint-Denijs-Boekel,FR,50.8743,3.6984,S8892692,sncb_belgium
+4875,Anzegem,FR,50.826385,3.495013,S8892734,sncb_belgium
+4876,Renaix,FR,50.74251,3.60255,S8892908,sncb_belgium
+4877,Merelbeke,FR,51.01753,3.76889,S8893013,sncb_belgium
+4878,Melle,FR,51.00281,3.79709,S8893039,sncb_belgium
+4879,Gontrode,FR,50.980198,3.801671,S8893047,sncb_belgium
+4880,Landskouter,FR,50.970549,3.791148,S8893054,sncb_belgium
+4881,Moortsele,FR,50.953518,3.78134,S8893062,sncb_belgium
+4882,Scheldewindeke,FR,50.937072,3.777844,S8893070,sncb_belgium
+4883,Gand-Dampoort,FR,51.056369,3.74059,S8893120,sncb_belgium
+4884,Gentbrugge,FR,51.038644,3.756326,S8893179,sncb_belgium
+4885,Wondelgem,FR,51.088357,3.719075,S8893211,sncb_belgium
+4886,Evergem,FR,51.107583,3.701381,S8893252,sncb_belgium
+4887,Sleidinge,FR,51.126603,3.667527,S8893260,sncb_belgium
+4888,Termonde,FR,51.02278,4.10143,S8893401,sncb_belgium
+4889,Sint-Gillis,FR,51.021698,4.117831,S8893443,sncb_belgium
+4890,Oudegem,FR,51.01523,4.064472,S8893518,sncb_belgium
+4891,Schoonaarde,FR,51.003152,4.011095,S8893526,sncb_belgium
+4892,Wichelen,FR,51.001964,3.969195,S8893534,sncb_belgium
+4893,Schellebelle,FR,51.00315,3.92137,S8893542,sncb_belgium
+4894,Wetteren,FR,51.0016,3.88188,S8893559,sncb_belgium
+4895,Kwatrecht,FR,50.991748,3.829591,S8893567,sncb_belgium
+4896,Serskamp,FR,50.9844,3.95936,S8893583,sncb_belgium
+4897,Eeklo,FR,51.181329,3.574518,S8893708,sncb_belgium
+4898,Waarschoot,FR,51.15461,3.61535,S8893815,sncb_belgium
+4899,Beervelde,FR,51.087527,3.879383,S8894151,sncb_belgium
+4900,Lokeren,FR,51.108062,3.987794,S8894201,sncb_belgium
+4901,Zele,FR,51.073255,4.042001,S8894235,sncb_belgium
+4902,Sinaai,FR,51.1434,4.06894,S8894425,sncb_belgium
+4903,Belsele,FR,51.150993,4.08861,S8894433,sncb_belgium
+4904,Saint-Nicolas,FR,51.171469,4.142963,S8894508,sncb_belgium
+4905,Tamise,FR,51.126085,4.221349,S8894672,sncb_belgium
+4906,Nieuwkerken-Waas,FR,51.185608,4.185904,S8894714,sncb_belgium
+4907,Beveren,FR,51.208341,4.259525,S8894748,sncb_belgium
+4908,Melsele,FR,51.210712,4.286767,S8894755,sncb_belgium
+4909,Zwijndrecht,FR,51.214106,4.329776,S8894821,sncb_belgium
+4910,Anvers-Linkeroever,FR,51.215722,4.360056,S8894839,sncb_belgium
+4911,Alost,FR,50.942818,4.039649,S8895000,sncb_belgium
+4912,Lede,FR,50.9709,3.98498,S8895067,sncb_belgium
+4913,Erembodegem,FR,50.919618,4.055451,S8895091,sncb_belgium
+4914,Alost Kerrebroek,FR,50.948379,4.024412,S8895125,sncb_belgium
+4915,Zottegem,FR,50.8691,3.81441,S8895208,sncb_belgium
+4916,Munkzwalm,FR,50.875675,3.733242,S8895232,sncb_belgium
+4917,Balegem-Zuid,FR,50.900514,3.80587,S8895240,sncb_belgium
+4918,Balegem-Dorp,FR,50.919608,3.791423,S8895257,sncb_belgium
+4919,Hillegem,FR,50.8913,3.85747,S8895422,sncb_belgium
+4920,Herzele,FR,50.897222,3.880616,S8895430,sncb_belgium
+4921,Terhagen,FR,50.901645,3.896657,S8895448,sncb_belgium
+4922,Burst,FR,50.907194,3.922418,S8895455,sncb_belgium
+4923,Bambrugge,FR,50.913768,3.935715,S8895463,sncb_belgium
+4924,Erpe-Mere,FR,50.9286,3.96246,S8895471,sncb_belgium
+4925,Vijfhuizen,FR,50.94325,3.98125,S8895489,sncb_belgium
+4926,Grammont,FR,50.771135,3.872326,S8895505,sncb_belgium
+4927,Lierde,FR,50.816239,3.826561,S8895570,sncb_belgium
+4928,Viane-Moerbeke,FR,50.751978,3.91734,S8895612,sncb_belgium
+4929,Gammerages,FR,50.743917,3.965726,S8895620,sncb_belgium
+4930,Tollembeek,FR,50.735519,3.992826,S8895638,sncb_belgium
+4931,Herne,FR,50.723705,4.014578,S8895646,sncb_belgium
+4932,Schendelbeke,FR,50.797849,3.899285,S8895711,sncb_belgium
+4933,Idegem,FR,50.801876,3.921556,S8895729,sncb_belgium
+4934,Zandbergen,FR,50.806986,3.957652,S8895737,sncb_belgium
+4935,Appelterre,FR,50.813067,3.972107,S8895745,sncb_belgium
+4936,Eichem,FR,50.823992,3.993748,S8895752,sncb_belgium
+4937,Ninove,FR,50.839511,4.026137,S8895760,sncb_belgium
+4938,Okegem,FR,50.857715,4.054554,S8895778,sncb_belgium
+4939,Denderleeuw,FR,50.89193,4.07183,S8895802,sncb_belgium
+4940,Liedekerke,FR,50.88253,4.09529,S8895836,sncb_belgium
+4941,Iddergem,FR,50.876886,4.068488,S8895844,sncb_belgium
+4942,Welle,FR,50.903276,4.050617,S8895851,sncb_belgium
+4943,Haaltert,FR,50.906836,4.023957,S8895869,sncb_belgium
+4944,Ede,FR,50.911053,3.987525,S8895877,sncb_belgium
+4945,Harelbeke,FR,50.855865,3.314007,S8896115,sncb_belgium
+4946,Waregem,FR,50.89246,3.42551,S8896149,sncb_belgium
+4947,Vichte,FR,50.833662,3.391627,S8896230,sncb_belgium
+4948,Menin,FR,50.79949,3.11379,S8896305,sncb_belgium
+4949,Wevelgem,FR,50.811522,3.183519,S8896370,sncb_belgium
+4950,Bissegem,FR,50.825848,3.224208,S8896388,sncb_belgium
+4951,Wervik,FR,50.78186,3.04698,S8896396,sncb_belgium
+4952,Comines,FR,50.772071,2.999286,S8896412,sncb_belgium
+4953,Ypres,FR,50.8474,2.87659,S8896503,sncb_belgium
+4954,Poperinge,FR,50.85445,2.736345,S8896735,sncb_belgium
+4955,Roulers,FR,50.949029,3.130415,S8896800,sncb_belgium
+4956,Izegem,FR,50.921149,3.212089,S8896909,sncb_belgium
+4957,Ingelmunster,FR,50.914331,3.255416,S8896925,sncb_belgium

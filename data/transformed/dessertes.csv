@@ -22,7 +22,11 @@ FR_72915DC3_1,SNCF VOYAGEURS,Marseille - Aix En Provence - Gap - Briancon,Train 
 FR_72915DC3_0,SNCF VOYAGEURS,Marseille - Aix En Provence - Gap - Briancon,Train régional,Jour,Gap,3655,Marseille Saint-Charles,3494,05:06:00,08:19:00,3.22,,14.0,,électrique,GTFS sncf_ter
 FR_A019D31D_1,SNCF VOYAGEURS,Marseille - Nice,Grande vitesse,Jour,Nice-Ville,3583,Marseille Saint-Charles,3494,05:34:00,08:03:00,2.48,,14.0,,électrique,GTFS sncf_ter
 FR_A019D31D_0,SNCF VOYAGEURS,Marseille - Nice,Grande vitesse,Jour,Marseille Saint-Charles,3494,Nice-Ville,3583,05:57:00,08:38:00,2.68,,14.0,,électrique,GTFS sncf_ter
+FR_9C25B27A_1,SNCF VOYAGEURS,Valence - Genève Cornavin,Train régional,Jour,Grenoble,1035,Valence Ville,3633,06:01:00,07:15:00,1.23,,14.0,,électrique,GTFS sncf_ter
 FR_6CDBEC87_1,SNCF VOYAGEURS,Valence - Annecy,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Valence Ville,3633,05:40:00,07:43:00,2.05,,14.0,,électrique,GTFS sncf_ter
+FR_6CDBEC87_0,SNCF VOYAGEURS,Valence - Annecy,Train régional,Jour,Grenoble,1035,Annecy,3401,06:32:00,08:15:00,1.72,,14.0,,électrique,GTFS sncf_ter
+FR_AB630E6E_0,SNCF VOYAGEURS,Lyon Part Dieu - Grenoble,Train régional,Jour,Grenoble,1035,Lyon Part Dieu,3124,05:21:00,06:44:00,1.38,,14.0,,électrique,GTFS sncf_ter
+FR_AB630E6E_1,SNCF VOYAGEURS,Lyon Part Dieu - Grenoble,Train régional,Jour,Lyon Part Dieu,3124,Grenoble,1035,06:16:00,07:39:00,1.38,,14.0,,électrique,GTFS sncf_ter
 FR_460AB17B_1,SNCF VOYAGEURS,Lyon Part Dieu - Avignon - Marseille,Train régional,Jour,Avignon Centre,3681,Lyon Part Dieu,3124,08:10:00,10:40:00,2.5,,14.0,,électrique,GTFS sncf_ter
 FR_460AB17B_0,SNCF VOYAGEURS,Lyon Part Dieu - Avignon - Marseille,Train régional,Jour,Lyon Part Dieu,3124,Avignon Centre,3681,07:20:00,09:50:00,2.5,,14.0,,électrique,GTFS sncf_ter
 FR_1B810084_1,SNCF VOYAGEURS,Paris - Lyon P D,Train régional,Jour,Dijon,2943,Paris Gare de Lyon Hall 1 - 2,2708,05:35:00,08:48:00,3.22,,14.0,,électrique,GTFS sncf_ter
@@ -846,6 +850,7 @@ FR_D058B31D_0,SNCF VOYAGEURS,Annecy - St-Gervais Les Bains Le Fayet,Train régio
 FR_336821FA_1,SNCF VOYAGEURS,Lyon Part Dieu - St-Gervais Les Bains,Train régional,Jour,Lyon Part Dieu,3124,Saint-Gervais-les-Bains-Le Fayet,3414,10:45:00,14:17:00,3.53,,14.0,,électrique,GTFS sncf_ter
 FR_336821FA_0,SNCF VOYAGEURS,Lyon Part Dieu - St-Gervais Les Bains,Train régional,Jour,Saint-Gervais-les-Bains-Le Fayet,3414,Lyon Part Dieu,3124,07:47:00,11:22:00,3.58,,14.0,,électrique,GTFS sncf_ter
 FR_F4C462CD_0,SNCF VOYAGEURS,Saint-André Le Gaz - Grenoble Universités Gières,Train régional,Jour,Saint-André-le-Gaz,3133,Grenoble Universités - Gières,3454,05:10:00,06:20:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_8cfaff20_0,SNCF VOYAGEURS,St André-le-Gaz - Grenoble - Chambéry,Train régional,Jour,Grenoble,1035,Chambéry - Challes-les-Eaux,3301,07:09:00,08:03:00,0.9,,14.0,,électrique,GTFS sncf_ter
 FR_D309E3B4_1,SNCF VOYAGEURS,Lyon Perrache - Mâcon,Train régional,Jour,Mâcon,3160,Lyon Perrache,3104,07:40:00,08:48:00,1.13,,14.0,,électrique,GTFS sncf_ter
 FR_D309E3B4_0,SNCF VOYAGEURS,Lyon Perrache - Mâcon,Train régional,Jour,Lyon Perrache,3104,Mâcon,3160,13:26:00,14:24:00,0.97,,14.0,,électrique,GTFS sncf_ter
 FR_eaa6a347_1,SNCF VOYAGEURS,Lyon Perrache - Valence,Train régional,Jour,Valence Ville,3633,Lyon Perrache,3104,05:36:00,06:49:00,1.22,,14.0,,électrique,GTFS sncf_ter
@@ -941,12 +946,16 @@ DE_52_0,DB Fernverkehr AG,ICE 51,Grande vitesse,Jour,Dresden Hauptbahnhof,3939,E
 DE_53_0,DB Fernverkehr AG,ICE 79,Grande vitesse,Jour,Bruxelles Midi,3893,Frankfurt (Main) Hauptbahnhof,3974,10:25:00,13:27:00,3.03,,32.0,,électrique,GTFS db_germany
 DE_54_0,DB Fernverkehr AG,IC 17,Intercité,Jour,Dresden Hauptbahnhof,3939,Rostock Hauptbahnhof,4255,05:35:00,09:37:00,4.03,,32.0,,électrique,GTFS db_germany
 DE_55_0,DB Fernverkehr AG,IC 27,Intercité,Jour,S+U Berlin Hauptbahnhof,4274,Dresden Hauptbahnhof,3939,20:10:00,22:07:00,1.95,,32.0,,électrique,GTFS db_germany
+DE_56_0,SBB,ICE,Grande vitesse,Jour,Interlaken Ost,4053,Basel SBB,57,05:59:00,08:00:00,2.02,,32.0,,électrique,GTFS db_germany
+DE_57_0,DB Fernverkehr AG,ICE 20,Grande vitesse,Jour,Basel SBB,57,"Hamburg, Hamburg-Harburg",4016,12:46:00,19:20:00,6.57,,32.0,,électrique,GTFS db_germany
 DE_58_0,DB Fernverkehr AG,ICE 22,Grande vitesse,Jour,Hauptbahnhof (oben),4022,"Hamburg, Hamburg-Harburg",4016,17:23:00,22:19:00,4.93,,32.0,,électrique,GTFS db_germany
+DE_59_0,DB Fernverkehr AG,ICE 83,Grande vitesse,Jour,Strasbourg,568,Hauptbahnhof (oben),4022,08:36:00,10:04:00,1.47,,32.0,,électrique,GTFS db_germany
 DE_6_0,Dänische Staatsbahnen,IC,Train régional,Jour,Fredericia st,3979,Flensburg,3964,04:30:00,05:53:00,1.38,,32.0,,électrique,GTFS db_germany
 DE_60_0,DB Fernverkehr AG,EC 89,Train régional,Jour,Venezia Santa Lucia,4351,München Hbf,4172,15:35:00,22:28:00,6.88,,32.0,,électrique,GTFS db_germany
 DE_61_0,DB Fernverkehr AG,ECE 88,Train régional,Jour,Lindau-Reutin,4132,München Hbf,4172,13:10:00,15:16:00,2.1,,32.0,,électrique,GTFS db_germany
 DE_62_0,DB Fernverkehr AG,IC 61,Intercité,Jour,Leipzig Hbf,4123,Karlsruhe Hauptbahnhof,4070,15:50:00,22:54:00,7.07,,32.0,,électrique,GTFS db_germany
 DE_63_0,DB Fernverkehr AG,ICE 55,Grande vitesse,Jour,Köln Hbf,4106,Hauptbahnhof (oben),4022,18:53:00,22:37:00,3.73,,32.0,,électrique,GTFS db_germany
+DE_64_0,SNCF,ICE 83,Grande vitesse,Jour,Paris Est,144,Strasbourg,568,06:44:00,08:27:00,1.72,,32.0,,électrique,GTFS db_germany
 DE_65_0,DB Fernverkehr AG,ICE 91,Grande vitesse,Jour,Passau Hbf,4216,München Hbf,4172,19:37:00,22:08:00,2.52,,32.0,,électrique,GTFS db_germany
 DE_66_0,DB Fernverkehr AG,IC 55,Intercité,Jour,Frankfurt (Main) Hauptbahnhof,3974,Köln Hbf,4106,06:43:00,09:24:00,2.68,,32.0,,électrique,GTFS db_germany
 DE_67_0,DB Fernverkehr AG,IC 60,Intercité,Jour,Hauptbahnhof (oben),4022,Karlsruhe Hauptbahnhof,4070,17:02:00,17:53:00,0.85,,32.0,,électrique,GTFS db_germany
@@ -959,6 +968,7 @@ DE_72_0,DB Fernverkehr AG,ICE 6,Grande vitesse,Jour,S+U Gesundbrunnen Bhf (Berli
 DE_73_0,ÖBB,RJ,Train régional,Nuit,Breclav,3881,Wien Hauptbahnhof,4379,22:55:00,23:49:00,0.9,,32.0,,électrique,GTFS db_germany
 DE_74_0,PKP Intercity,EC 96,Train régional,Jour,Rzepin,4262,Przemysl Glowny,4232,10:12:00,18:43:00,8.52,,32.0,,électrique,GTFS db_germany
 DE_75_0,ÖBB,EN,Train régional,Nuit,Decin hl.n.,3923,Praha hl.n.,4226,07:57:00,09:25:00,1.47,,32.0,,électrique,GTFS db_germany
+DE_76_0,DB Fernverkehr (Codesharing),IC,Train régional,Nuit,Basel SBB,57,Zürich HB,4410,07:38:00,09:05:00,1.45,,32.0,,électrique,GTFS db_germany
 DE_77_0,PKP Intercity,EN,Train régional,Nuit,Wien Hauptbahnhof,4379,Warszawa Wschodnia,4365,23:19:00,08:15:00,8.93,,32.0,,électrique,GTFS db_germany
 DE_78_0,DB Fernverkehr AG,IC 35,Intercité,Jour,Emden(Ostfriesl) Hbf,3949,Koblenz Hauptbahnhof,4082,06:34:00,11:16:00,4.7,,32.0,,électrique,GTFS db_germany
 DE_79_0,ÖBB,ICE,Grande vitesse,Jour,Passau Hbf,4216,Wien Hauptbahnhof,4379,13:27:00,15:47:00,2.33,,32.0,,électrique,GTFS db_germany
@@ -968,7 +978,1021 @@ DE_81_0,SBB,EC,Train régional,Jour,St. Margrethen SG,4310,Zürich HB,4410,13:10
 DE_82_0,DB Fernverkehr AG,EC 95,Train régional,Jour,"Frankfurt (Oder), Bahnhof",3977,Rzepin,4262,18:50:00,19:07:00,0.28,,32.0,,électrique,GTFS db_germany
 DE_83_0,DB Fernverkehr AG,ECE 75,Train régional,Jour,"Hamburg, Hamburg Hbf",4014,Padborg st,4209,14:33:00,16:53:00,2.33,,32.0,,électrique,GTFS db_germany
 DE_84_0,DB Fernverkehr AG,ICE 18,Grande vitesse,Nuit,München Hbf,4172,S+U Gesundbrunnen Bhf (Berlin),4275,23:12:00,06:37:00,7.42,,32.0,,électrique,GTFS db_germany
+DE_85_0,SNCF,ICE 82,Grande vitesse,Jour,Saarbrücken Hbf,4280,Paris Est,144,11:00:00,12:51:00,1.85,,32.0,,électrique,GTFS db_germany
 DE_86_0,Ceske Drahy,RJ,Train régional,Jour,Decin hl.n.,3923,Breclav,3881,17:57:00,22:47:00,4.83,,32.0,,électrique,GTFS db_germany
 DE_87_0,ZSSK,RJ,Train régional,Jour,Sturovo,4318,Decin hl.n.,3923,08:36:00,15:58:00,7.37,,32.0,,électrique,GTFS db_germany
 DE_88_0,Ceske Drahy,EC,Train régional,Nuit,Decin hl.n.,3923,Praha hl.n.,4226,07:57:00,09:25:00,1.47,,32.0,,électrique,GTFS db_germany
+DE_89_0,DB Fernverkehr AG,EC 85,Train régional,Jour,Basel Bad Bf,3858,Basel SBB,57,10:47:00,10:54:00,0.12,,32.0,,électrique,GTFS db_germany
+DE_9_0,DB Fernverkehr AG,ECE 20,Train régional,Jour,Basel SBB,57,"Hamburg, Hamburg Dammtor",4013,14:46:00,22:36:00,7.83,,32.0,,électrique,GTFS db_germany
 DE_90_0,DB Fernverkehr AG,IC 56,Intercité,Jour,Leipzig Hbf,4123,"Oldenburg, Hauptbahnhof",4198,17:42:00,22:23:00,4.68,,32.0,,électrique,GTFS db_germany
+BE_1_0,NMBS/SNCB,Malines -- Muizen,Train régional,Jour,Malines,4535,Muizen,4547,16:40:00,16:44:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_2_0,NMBS/SNCB,Binche -- Braine-le-Comte,Train régional,Jour,Binche,4800,Braine-le-Comte,4802,05:20:00,06:03:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_3_0,NMBS/SNCB,Schaerbeek -- Tournai,Train régional,Jour,Tournai,3825,Schaerbeek,4413,05:15:00,06:47:00,1.53,,18.0,,électrique,GTFS sncb_belgium
+BE_4_0,NMBS/SNCB,La Louvière-Sud -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,La Louvière-Sud,4797,21:58:00,22:22:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_5_0,NMBS/SNCB,Tournai -- Mouscron,Train régional,Jour,Mouscron,3827,Tournai,3825,05:49:00,06:07:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_6_0,NMBS/SNCB,Tournai -- Courtrai,Train régional,Jour,Courtrai,3828,Tournai,3825,06:38:00,07:07:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_7_0,NMBS/SNCB,Grammont -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Grammont,4926,06:23:00,06:52:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_8_0,NMBS/SNCB,Louvain -- Landen,Train régional,Jour,Louvain,4587,Landen,4600,06:13:00,06:45:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_9_0,NMBS/SNCB,Anvers-Central -- Gand-Saint-Pierre,Train régional,Nuit,Gand-Saint-Pierre,4856,Anvers-Central,4502,23:33:00,00:32:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_11_0,NMBS/SNCB,Courtrai -- Poperinge,Train régional,Jour,Courtrai,3828,Poperinge,4954,06:04:00,06:47:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_12_0,NMBS/SNCB,Liège-Guillemins -- Gouvy,Train régional,Jour,Liège-Guillemins,4136,Gouvy,4661,06:07:00,07:21:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_13_0,NMBS/SNCB,Libramont -- Arlon,Train régional,Jour,Libramont,4718,Arlon,4725,05:27:00,06:02:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_14_0,NMBS/SNCB,Bruxelles-Midi -- Charleroi-Central,Train régional,Jour,Bruxelles-Midi,4474,Charleroi-Central,4757,17:44:00,18:36:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_15_0,NMBS/SNCB,Libramont -- Bertrix,Train régional,Jour,Bertrix,4720,Libramont,4718,13:37:00,13:46:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_16_0,NMBS/SNCB,Mons -- Quévy,Train régional,Jour,Quévy,4793,Mons,4783,13:23:00,13:38:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_17_0,NMBS/SNCB,Mons -- Quévy,Train régional,Jour,Quévy,4793,Mons,4783,13:23:00,13:38:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_18_0,NMBS/SNCB,Mons -- Grammont,Train régional,Jour,Grammont,4926,Mons,4783,12:34:00,13:31:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_19_0,NMBS/SNCB,Hasselt -- Genk,Train régional,Jour,Genk,4569,Hasselt,4562,16:06:00,16:24:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_20_0,NMBS/SNCB,Anvers-Central -- Puurs,Train régional,Jour,Puurs,4554,Anvers-Central,4502,09:05:00,09:47:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_21_0,NMBS/SNCB,Gand-Saint-Pierre -- Renaix,Train régional,Jour,Renaix,4876,Gand-Saint-Pierre,4856,09:14:00,10:02:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_22_0,NMBS/SNCB,Audenarde -- Renaix,Train régional,Jour,Renaix,4876,Audenarde,4869,18:15:00,18:26:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_23_0,NMBS/SNCB,Gand-Saint-Pierre -- Eeklo,Train régional,Jour,Eeklo,4897,Gand-Saint-Pierre,4856,15:11:00,15:46:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_24_0,NMBS/SNCB,Audenarde -- Eeklo,Train régional,Jour,Eeklo,4897,Audenarde,4869,17:10:00,18:27:00,1.28,,18.0,,électrique,GTFS sncb_belgium
+BE_25_0,NMBS/SNCB,Welkenraedt -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Welkenraedt,4657,15:55:00,18:11:00,2.27,,18.0,,électrique,GTFS sncb_belgium
+BE_26_0,NMBS/SNCB,Bruges -- Zeebrugge-Dorp,Train régional,Jour,Zeebrugge-Dorp,4850,Bruges,2003,10:08:00,10:22:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_27_0,NMBS/SNCB,Zeebrugge-Dorp -- Gand-Saint-Pierre,Train régional,Jour,Zeebrugge-Dorp,4850,Gand-Saint-Pierre,4856,15:08:00,16:17:00,1.15,,18.0,,électrique,GTFS sncb_belgium
+BE_28_0,NMBS/SNCB,Schaerbeek -- Mons,Train régional,Jour,Schaerbeek,4413,Mons,4783,08:36:00,09:56:00,1.33,,18.0,,électrique,GTFS sncb_belgium
+BE_29_0,NMBS/SNCB,Schaerbeek -- Mons,Train régional,Jour,Mons,4783,Schaerbeek,4413,14:30:00,15:49:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_30_0,NMBS/SNCB,Schaerbeek -- La Panne,Train régional,Jour,Schaerbeek,4413,La Panne,4866,09:38:00,11:46:00,2.13,,18.0,,électrique,GTFS sncb_belgium
+BE_31_0,NMBS/SNCB,Schaerbeek -- Courtrai,Train régional,Jour,Schaerbeek,4413,Courtrai,3828,08:47:00,10:15:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_32_0,NMBS/SNCB,Mariembourg -- Couvin,Train régional,Jour,Mariembourg,4781,Couvin,4782,11:15:00,11:22:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_33_0,NMBS/SNCB,Welkenraedt -- Gand-Saint-Pierre,Train régional,Jour,Welkenraedt,4657,Gand-Saint-Pierre,4856,12:25:00,14:33:00,2.13,,18.0,,électrique,GTFS sncb_belgium
+BE_34_0,NMBS/SNCB,Tournai -- Mouscron,Train régional,Jour,Mouscron,3827,Tournai,3825,10:05:00,10:22:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_35_0,NMBS/SNCB,Rochefort-Jemelle -- Ciney,Train régional,Jour,Rochefort-Jemelle,4700,Ciney,4709,12:13:00,12:51:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_36_0,NMBS/SNCB,Rochefort-Jemelle -- Libramont,Train régional,Jour,Rochefort-Jemelle,4700,Libramont,4718,15:39:00,16:07:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_37_0,NMBS/SNCB,Schaerbeek -- Tamines,Train régional,Jour,Schaerbeek,4413,Tamines,4778,16:37:00,18:20:00,1.72,,18.0,,électrique,GTFS sncb_belgium
+BE_38_0,NMBS/SNCB,Liège-Guillemins -- Visé,Train régional,Jour,Visé,4665,Liège-Guillemins,4136,11:14:00,11:32:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_39_0,NMBS/SNCB,Liège-Guillemins -- Visé,Train régional,Jour,Visé,4665,Liège-Guillemins,4136,11:14:00,11:32:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_44_0,NMBS/SNCB,Bruxelles-Midi -- Hal,Train régional,Jour,Bruxelles-Midi,4474,Hal,4486,15:37:00,15:57:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_45_0,NMBS/SNCB,Bruxelles-Midi -- Mons,Train régional,Nuit,Mons,4783,Bruxelles-Midi,4474,22:20:00,23:05:00,0.75,,18.0,,électrique,GTFS sncb_belgium
+BE_46_0,NMBS/SNCB,Bruxelles-Nord -- Mons,Train régional,Jour,Bruxelles-Nord,3894,Mons,4783,06:37:00,07:42:00,1.08,,18.0,,électrique,GTFS sncb_belgium
+BE_47_0,NMBS/SNCB,Bruxelles-Luxembourg -- Ottignies,Train régional,Jour,Bruxelles-Luxembourg,4430,Ottignies,4441,07:09:00,07:43:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_48_0,NMBS/SNCB,Schaerbeek -- Bruxelles-Midi,Train régional,Nuit,Bruxelles-Midi,4474,Schaerbeek,4413,00:01:00,00:19:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_49_0,NMBS/SNCB,Schaerbeek -- Anvers-Central,Train régional,Jour,Schaerbeek,4413,Anvers-Central,4502,06:03:00,07:02:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_50_0,NMBS/SNCB,Schaerbeek -- Bruxelles-Midi,Train régional,Nuit,Bruxelles-Midi,4474,Schaerbeek,4413,00:22:00,00:40:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_51_0,NMBS/SNCB,Bruxelles-Midi -- Ath,Train régional,Jour,Bruxelles-Midi,4474,Ath,4828,20:14:00,20:53:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_53_0,NMBS/SNCB,Tournai -- Leuze,Train régional,Jour,Tournai,3825,Leuze,4833,05:14:00,05:26:00,0.2,,18.0,,électrique,GTFS sncb_belgium
+BE_54_0,NMBS/SNCB,Nivelles -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Nivelles,4482,05:03:00,05:31:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_55_0,NMBS/SNCB,Luttre -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Luttre,4740,04:58:00,05:16:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_56_0,NMBS/SNCB,Charleroi-Central -- Braine-le-Comte,Train régional,Jour,Charleroi-Central,4757,Braine-le-Comte,4802,05:07:00,05:54:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_60_0,NMBS/SNCB,Schaerbeek -- Brussels Airport-Zaventem,Train régional,Jour,Schaerbeek,4413,Brussels Airport-Zaventem,4501,07:07:00,07:25:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_61_0,NMBS/SNCB,Bruges -- Ostende,Train régional,Jour,Ostende,4855,Bruges,2003,06:09:00,06:22:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_62_0,NMBS/SNCB,La Panne -- Dixmude,Train régional,Jour,La Panne,4866,Dixmude,4868,06:07:00,06:26:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_63_0,NMBS/SNCB,Bruges -- Knokke,Train régional,Jour,Knokke,4854,Bruges,2003,06:46:00,07:07:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_64_0,NMBS/SNCB,Zottegem -- Courtrai,Train régional,Jour,Courtrai,3828,Zottegem,4915,05:11:00,05:46:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_65_0,NMBS/SNCB,Menin -- Poperinge,Train régional,Nuit,Poperinge,4954,Menin,4948,22:37:00,23:04:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_66_0,NMBS/SNCB,Burst -- Courtrai,Train régional,Jour,Courtrai,3828,Burst,4922,05:10:00,06:03:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_67_0,NMBS/SNCB,Ostende -- Courtrai,Train régional,Jour,Ostende,4855,Courtrai,3828,06:48:00,08:04:00,1.27,,18.0,,électrique,GTFS sncb_belgium
+BE_68_0,NMBS/SNCB,Ostende -- Zottegem,Train régional,Jour,Ostende,4855,Zottegem,4915,05:58:00,07:46:00,1.8,,18.0,,électrique,GTFS sncb_belgium
+BE_69_0,NMBS/SNCB,Bruges -- Zottegem,Train régional,Jour,Bruges,2003,Zottegem,4915,07:05:00,08:46:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_70_0,NMBS/SNCB,Bruges -- Burst,Train régional,Jour,Bruges,2003,Burst,4922,07:05:00,09:03:00,1.97,,18.0,,électrique,GTFS sncb_belgium
+BE_71_0,NMBS/SNCB,Ostende -- Burst,Train régional,Jour,Ostende,4855,Burst,4922,06:48:00,09:03:00,2.25,,18.0,,électrique,GTFS sncb_belgium
+BE_72_0,NMBS/SNCB,Courtrai -- Menin,Train régional,Nuit,Menin,4948,Courtrai,3828,22:35:00,22:50:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_73_0,NMBS/SNCB,Anvers-Central -- Waregem,Train régional,Nuit,Waregem,4946,Anvers-Central,4502,23:30:00,00:44:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_74_0,NMBS/SNCB,Bruges -- Courtrai,Train régional,Jour,Bruges,2003,Courtrai,3828,21:05:00,22:04:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_75_0,NMBS/SNCB,Bruges -- Zeebrugge-Strand,Train régional,Jour,Zeebrugge-Strand,4846,Bruges,2003,08:11:00,08:26:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_76_0,NMBS/SNCB,Deinze -- Poperinge,Train régional,Jour,Deinze,4860,Poperinge,4954,06:25:00,07:53:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_77_0,NMBS/SNCB,Alost -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Alost,4911,06:49:00,06:57:00,0.13,,18.0,,électrique,GTFS sncb_belgium
+BE_78_0,NMBS/SNCB,Deinze -- Courtrai,Train régional,Nuit,Deinze,4860,Courtrai,3828,00:25:00,00:43:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_79_0,NMBS/SNCB,Gand-Dampoort -- Eeklo,Train régional,Jour,Gand-Dampoort,4883,Eeklo,4897,07:44:00,08:08:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_80_0,NMBS/SNCB,Deinze -- La Panne,Train régional,Jour,La Panne,4866,Deinze,4860,05:52:00,06:52:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_81_0,NMBS/SNCB,Gand-Saint-Pierre -- Termonde,Train régional,Jour,Gand-Saint-Pierre,4856,Termonde,4888,06:21:00,06:56:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_82_0,NMBS/SNCB,Hasselt -- Landen,Train régional,Jour,Landen,4600,Hasselt,4562,07:34:00,07:58:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_83_0,NMBS/SNCB,Vilvorde -- Bruxelles-Midi,Train régional,Nuit,Vilvorde,4420,Bruxelles-Midi,4474,00:51:00,01:11:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_84_0,NMBS/SNCB,Schaerbeek -- Louvain,Train régional,Jour,Schaerbeek,4413,Louvain,4587,06:15:00,06:49:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_85_0,NMBS/SNCB,Anvers-Central -- Herentals,Train régional,Jour,Anvers-Central,4502,Herentals,4526,06:09:00,06:41:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_86_0,NMBS/SNCB,Anvers-Central -- Malines,Train régional,Jour,Anvers-Central,4502,Malines,4535,06:05:00,06:42:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_87_0,NMBS/SNCB,Hasselt -- Diest,Train régional,Jour,Diest,4568,Hasselt,4562,07:36:00,07:53:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_88_0,NMBS/SNCB,Diest -- Genk,Train régional,Jour,Diest,4568,Genk,4569,07:03:00,07:35:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_89_0,NMBS/SNCB,Anvers-Central -- Noorderkempen (Brecht),Train régional,Jour,Anvers-Central,4502,Noorderkempen (Brecht),4506,07:05:00,07:20:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_90_0,NMBS/SNCB,Anvers-Central -- Lierre,Train régional,Nuit,Lierre,4521,Anvers-Central,4502,00:15:00,00:48:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_91_0,NMBS/SNCB,Anvers-Central -- Essen,Train régional,Nuit,Anvers-Central,4502,Essen,4514,00:10:00,00:51:00,0.68,,18.0,,électrique,GTFS sncb_belgium
+BE_92_0,NMBS/SNCB,Anvers-Central -- Mol,Train régional,Jour,Mol,4580,Anvers-Central,4502,17:58:00,18:51:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_93_0,NMBS/SNCB,Genk -- Landen,Train régional,Jour,Landen,4600,Genk,4569,07:33:00,08:20:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_94_0,NMBS/SNCB,Bruxelles-Midi -- Anvers-Central,Train régional,Jour,Anvers-Central,4502,Bruxelles-Midi,4474,05:58:00,07:22:00,1.4,,18.0,,électrique,GTFS sncb_belgium
+BE_95_0,NMBS/SNCB,Bruxelles-Midi -- Brussels Airport-Zaventem,Train régional,Nuit,Brussels Airport-Zaventem,4501,Bruxelles-Midi,4474,00:01:00,00:22:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_96_0,NMBS/SNCB,Heist-op-den-Berg -- Louvain,Train régional,Nuit,Heist-op-den-Berg,4530,Louvain,4587,00:07:00,00:36:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_97_0,NMBS/SNCB,Louvain -- Aarschot,Train régional,Nuit,Aarschot,4593,Louvain,4587,00:22:00,00:34:00,0.2,,18.0,,électrique,GTFS sncb_belgium
+BE_98_0,NMBS/SNCB,Hasselt -- Landen,Train régional,Jour,Landen,4600,Hasselt,4562,08:33:00,08:59:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_99_0,NMBS/SNCB,Anvers-Central -- Heist-op-den-Berg,Train régional,Nuit,Heist-op-den-Berg,4530,Anvers-Central,4502,23:59:00,00:35:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_100_0,NMBS/SNCB,Anvers-Central -- Lierre,Train régional,Jour,Anvers-Central,4502,Lierre,4521,18:09:00,18:25:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_101_0,NMBS/SNCB,Puurs -- Hoboken-Polder,Train régional,Jour,Puurs,4554,Hoboken-Polder,4558,06:36:00,07:02:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_102_0,NMBS/SNCB,Anvers-Central -- Kontich-Lint,Train régional,Jour,Kontich-Lint,4512,Anvers-Central,4502,06:37:00,06:56:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_103_0,NMBS/SNCB,Anvers-Central -- Anvers-Noorderdokken,Train régional,Jour,Anvers-Central,4502,Anvers-Noorderdokken,4505,05:50:00,05:58:00,0.13,,18.0,,électrique,GTFS sncb_belgium
+BE_104_0,NMBS/SNCB,Anvers-Noorderdokken -- Puurs,Train régional,Jour,Puurs,4554,Anvers-Noorderdokken,4505,07:05:00,07:58:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_105_0,NMBS/SNCB,Boom -- Hoboken-Polder,Train régional,Jour,Boom,4556,Hoboken-Polder,4558,05:16:00,05:32:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_106_0,NMBS/SNCB,Louvain -- Aarschot,Train régional,Nuit,Aarschot,4593,Louvain,4587,00:22:00,00:34:00,0.2,,18.0,,électrique,GTFS sncb_belgium
+BE_107_0,NMBS/SNCB,Anvers-Central -- Heist-op-den-Berg,Train régional,Nuit,Heist-op-den-Berg,4530,Anvers-Central,4502,23:59:00,00:35:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_108_0,NMBS/SNCB,Louvain -- Sint-Joris-Weert,Train régional,Jour,Sint-Joris-Weert,4591,Louvain,4587,06:53:00,07:06:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_109_0,NMBS/SNCB,Louvain -- Landen,Train régional,Nuit,Louvain,4587,Landen,4600,23:56:00,00:20:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_110_0,NMBS/SNCB,Bruxelles-Midi -- Anvers-Central,Train régional,Jour,Bruxelles-Midi,4474,Anvers-Central,4502,05:42:00,06:42:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_111_0,NMBS/SNCB,Herentals -- Sint-Joris-Weert,Train régional,Jour,Herentals,4526,Sint-Joris-Weert,4591,19:55:00,21:14:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_112_0,NMBS/SNCB,Bruxelles-Nord -- Anvers-Central,Train régional,Nuit,Anvers-Central,4502,Bruxelles-Nord,3894,23:58:00,01:12:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_113_0,NMBS/SNCB,Enghien -- Tournai,Train régional,Jour,Tournai,3825,Enghien,4809,05:45:00,06:24:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_114_0,NMBS/SNCB,Bruxelles-Midi -- Knokke,Train régional,Jour,Knokke,4854,Bruxelles-Midi,4474,06:46:00,08:11:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_115_0,NMBS/SNCB,Bruxelles-Midi -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Bruxelles-Midi,4474,07:22:00,07:57:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_116_0,NMBS/SNCB,Hal -- Mons,Train régional,Jour,Mons,4783,Hal,4486,05:18:00,05:55:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_117_0,NMBS/SNCB,Bruxelles-Midi -- Brussels Airport-Zaventem,Train régional,Nuit,Brussels Airport-Zaventem,4501,Bruxelles-Midi,4474,00:12:00,00:41:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_118_0,NMBS/SNCB,Mons -- Braine-le-Comte,Train régional,Jour,Mons,4783,Braine-le-Comte,4802,05:20:00,05:45:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_119_0,NMBS/SNCB,Namur -- Dinant,Train régional,Jour,Namur,4683,Dinant,4693,07:17:00,07:49:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_120_0,NMBS/SNCB,Verviers-Central -- Welkenraedt,Train régional,Nuit,Verviers-Central,4645,Welkenraedt,4657,00:39:00,00:54:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_121_0,NMBS/SNCB,Louvain -- Sint-Joris-Weert,Train régional,Jour,Louvain,4587,Sint-Joris-Weert,4591,05:27:00,05:40:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_122_0,NMBS/SNCB,Liège-Guillemins -- Liers,Train régional,Jour,Liers,4614,Liège-Guillemins,4136,07:46:00,08:10:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_123_0,NMBS/SNCB,Ottignies -- Charleroi-Central,Train régional,Jour,Ottignies,4441,Charleroi-Central,4757,07:10:00,07:42:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_124_0,NMBS/SNCB,Liège-Saint-Lambert -- Flémalle-Haute,Train régional,Jour,Liège-Saint-Lambert,4610,Flémalle-Haute,4635,06:33:00,06:53:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_125_0,NMBS/SNCB,Liers -- Flémalle-Haute,Train régional,Jour,Liers,4614,Flémalle-Haute,4635,06:16:00,06:53:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_126_0,NMBS/SNCB,Namur -- Dinant,Train régional,Jour,Dinant,4693,Namur,4683,06:38:00,07:08:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_127_0,NMBS/SNCB,Liège-Guillemins -- Herstal,Train régional,Jour,Liège-Guillemins,4136,Herstal,4612,08:51:00,09:04:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_128_0,NMBS/SNCB,Liers -- Verviers-Central,Train régional,Jour,Liers,4614,Verviers-Central,4645,10:14:00,11:16:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_129_0,NMBS/SNCB,Namur -- Ciney,Train régional,Jour,Namur,4683,Ciney,4709,05:46:00,06:04:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_130_0,NMBS/SNCB,Liers -- Namur,Train régional,Jour,Namur,4683,Liers,4614,07:28:00,08:43:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_131_0,NMBS/SNCB,Bruxelles-Midi -- Ciney,Train régional,Jour,Bruxelles-Midi,4474,Ciney,4709,05:32:00,07:04:00,1.53,,18.0,,électrique,GTFS sncb_belgium
+BE_132_0,NMBS/SNCB,Bruxelles-Midi -- Namur,Train régional,Jour,Bruxelles-Midi,4474,Namur,4683,06:31:00,07:43:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_133_0,NMBS/SNCB,Bruxelles-Midi -- Arlon,Train régional,Jour,Bruxelles-Midi,4474,Arlon,4725,13:07:00,16:08:00,3.02,,18.0,,électrique,GTFS sncb_belgium
+BE_134_0,NMBS/SNCB,Liège-Saint-Lambert -- Namur,Train régional,Jour,Liège-Saint-Lambert,4610,Namur,4683,06:33:00,07:31:00,0.97,,18.0,,électrique,GTFS sncb_belgium
+BE_135_0,NMBS/SNCB,Liers -- Verviers-Central,Train régional,Jour,Liers,4614,Verviers-Central,4645,10:14:00,11:16:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_136_0,NMBS/SNCB,Namur -- Rochefort-Jemelle,Train régional,Nuit,Namur,4683,Rochefort-Jemelle,4700,22:48:00,23:28:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_137_0,NMBS/SNCB,Rochefort-Jemelle -- Marbehan,Train régional,Nuit,Marbehan,4728,Rochefort-Jemelle,4700,22:25:00,23:03:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_138_0,NMBS/SNCB,Liège-Saint-Lambert -- Welkenraedt,Train régional,Jour,Welkenraedt,4657,Liège-Saint-Lambert,4610,05:21:00,06:17:00,0.93,,18.0,,électrique,GTFS sncb_belgium
+BE_139_0,NMBS/SNCB,Beauraing -- Libramont,Train régional,Jour,Beauraing,4699,Libramont,4718,21:51:00,22:46:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_140_0,NMBS/SNCB,Liège-Guillemins -- Flémalle-Haute,Train régional,Jour,Liège-Guillemins,4136,Flémalle-Haute,4635,06:34:00,06:49:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_141_0,NMBS/SNCB,Ottignies -- Arlon,Train régional,Jour,Arlon,4725,Ottignies,4441,17:23:00,19:51:00,2.47,,18.0,,électrique,GTFS sncb_belgium
+BE_142_0,NMBS/SNCB,Namur -- Yvoir,Train régional,Jour,Namur,4683,Yvoir,4694,04:56:00,05:19:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_143_0,NMBS/SNCB,Liers -- Statte,Train régional,Jour,Statte,4642,Liers,4614,06:50:00,07:43:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_144_0,NMBS/SNCB,Saint-Ghislain -- Tournai,Train régional,Jour,Tournai,3825,Saint-Ghislain,4812,12:42:00,13:05:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_145_0,NMBS/SNCB,Namur -- Yvoir,Train régional,Jour,Yvoir,4694,Namur,4683,06:40:00,07:04:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_146_0,NMBS/SNCB,Liers -- Statte,Train régional,Nuit,Statte,4642,Liers,4614,23:50:00,00:43:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_147_0,NMBS/SNCB,Gendron-Celles -- Libramont,Train régional,Jour,Libramont,4718,Gendron-Celles,4697,19:34:00,20:45:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_148_0,NMBS/SNCB,La Louvière-Sud -- Binche,Train régional,Jour,Binche,4800,La Louvière-Sud,4797,04:43:00,04:55:00,0.2,,18.0,,électrique,GTFS sncb_belgium
+BE_149_0,NMBS/SNCB,Charleroi-Central -- Mons,Train régional,Jour,Mons,4783,Charleroi-Central,4757,06:15:00,06:50:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_150_0,NMBS/SNCB,Wavre -- Fleurus,Train régional,Jour,Wavre,4445,Fleurus,4760,06:09:00,06:56:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_151_0,NMBS/SNCB,Mons -- Jurbise,Train régional,Jour,Mons,4783,Jurbise,4786,04:40:00,04:49:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_152_0,NMBS/SNCB,Mouscron -- Courtrai,Train régional,Jour,Courtrai,3828,Mouscron,3827,05:13:00,05:24:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_153_0,NMBS/SNCB,Saint-Ghislain -- Mouscron,Train régional,Jour,Mouscron,3827,Saint-Ghislain,4812,06:07:00,06:52:00,0.75,,18.0,,électrique,GTFS sncb_belgium
+BE_154_0,NMBS/SNCB,Mons -- La Louvière-Sud,Train régional,Nuit,La Louvière-Sud,4797,Mons,4783,23:37:00,23:55:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_155_0,NMBS/SNCB,Saint-Ghislain -- Tournai,Train régional,Jour,Saint-Ghislain,4812,Tournai,3825,07:13:00,07:53:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_156_0,NMBS/SNCB,Jurbise -- Quévy,Train régional,Jour,Jurbise,4786,Quévy,4793,07:40:00,08:10:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_157_0,NMBS/SNCB,Saint-Ghislain -- Tournai,Train régional,Jour,Saint-Ghislain,4812,Tournai,3825,08:13:00,08:41:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_158_0,NMBS/SNCB,Charleroi-Central -- Mouscron,Train régional,Jour,Mouscron,3827,Charleroi-Central,4757,06:13:00,07:50:00,1.62,,18.0,,électrique,GTFS sncb_belgium
+BE_159_0,NMBS/SNCB,Ottignies -- Wavre,Train régional,Jour,Wavre,4445,Ottignies,4441,06:09:00,06:20:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_160_0,NMBS/SNCB,Bruxelles-Midi -- Nivelles,Train régional,Nuit,Bruxelles-Midi,4474,Nivelles,4482,22:54:00,23:19:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_161_0,NMBS/SNCB,Mons -- Mouscron,Train régional,Jour,Mouscron,3827,Mons,4783,05:36:00,06:36:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_162_0,NMBS/SNCB,Ottignies -- Fleurus,Train régional,Jour,Ottignies,4441,Fleurus,4760,20:26:00,20:56:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_163_0,NMBS/SNCB,Saint-Ghislain -- Quiévrain,Train régional,Jour,Saint-Ghislain,4812,Quiévrain,4815,21:42:00,21:56:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_164_0,NMBS/SNCB,Charleroi-Central -- Fleurus,Train régional,Jour,Charleroi-Central,4757,Fleurus,4760,05:39:00,05:50:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_165_0,NMBS/SNCB,Namur -- Tamines,Train régional,Jour,Namur,4683,Tamines,4778,06:53:00,07:22:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_166_0,NMBS/SNCB,Jambes -- Tamines,Train régional,Jour,Jambes,4684,Tamines,4778,07:46:00,08:22:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_167_0,NMBS/SNCB,Termonde -- Saint-Nicolas,Train régional,Jour,Saint-Nicolas,4904,Termonde,4888,05:27:00,05:55:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_168_0,NMBS/SNCB,Lokeren -- Melsele,Train régional,Jour,Melsele,4908,Lokeren,4900,05:14:00,05:40:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_169_0,NMBS/SNCB,Termonde -- Melsele,Train régional,Jour,Melsele,4908,Termonde,4888,05:15:00,05:55:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_170_0,NMBS/SNCB,Lokeren -- Saint-Nicolas,Train régional,Jour,Saint-Nicolas,4904,Lokeren,4900,06:27:00,06:40:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_171_0,NMBS/SNCB,Anvers-Berchem -- Termonde,Train régional,Jour,Anvers-Berchem,4507,Termonde,4888,06:01:00,06:55:00,0.9,,18.0,,électrique,GTFS sncb_belgium
+BE_172_0,NMBS/SNCB,Anvers-Central -- Termonde,Train régional,Jour,Anvers-Central,4502,Termonde,4888,05:56:00,06:55:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_173_0,NMBS/SNCB,Anvers-Central -- Lokeren,Train régional,Jour,Anvers-Central,4502,Lokeren,4900,07:54:00,08:40:00,0.77,,18.0,,électrique,GTFS sncb_belgium
+BE_174_0,NMBS/SNCB,Termonde -- Lokeren,Train régional,Jour,Lokeren,4900,Termonde,4888,13:41:00,13:55:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_175_0,NMBS/SNCB,Anvers-Berchem -- Lokeren,Train régional,Nuit,Anvers-Berchem,4507,Lokeren,4900,23:01:00,23:40:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_176_0,NMBS/SNCB,Louvain -- Tirlemont,Train régional,Jour,Louvain,4587,Tirlemont,4598,06:07:00,06:23:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_177_0,NMBS/SNCB,Genk -- Bruges,Train régional,Jour,Bruges,2003,Genk,4569,05:33:00,08:18:00,2.75,,18.0,,électrique,GTFS sncb_belgium
+BE_178_0,NMBS/SNCB,Genk -- Blankenberge,Train régional,Jour,Blankenberge,4849,Genk,4569,05:15:00,08:20:00,3.08,,18.0,,électrique,GTFS sncb_belgium
+BE_179_0,NMBS/SNCB,Hasselt -- Bruges,Train régional,Jour,Bruges,2003,Hasselt,4562,05:33:00,07:56:00,2.38,,18.0,,électrique,GTFS sncb_belgium
+BE_180_0,NMBS/SNCB,Genk -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Genk,4569,06:03:00,08:22:00,2.32,,18.0,,électrique,GTFS sncb_belgium
+BE_181_0,NMBS/SNCB,Hasselt -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Hasselt,4562,06:03:00,07:56:00,1.88,,18.0,,électrique,GTFS sncb_belgium
+BE_182_0,NMBS/SNCB,Hasselt -- Blankenberge,Train régional,Jour,Blankenberge,4849,Hasselt,4562,05:15:00,07:59:00,2.73,,18.0,,électrique,GTFS sncb_belgium
+BE_183_0,NMBS/SNCB,Tirlemont -- Blankenberge,Train régional,Jour,Blankenberge,4849,Tirlemont,4598,05:15:00,07:23:00,2.13,,18.0,,électrique,GTFS sncb_belgium
+BE_184_0,NMBS/SNCB,Louvain -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Louvain,4587,21:03:00,22:04:00,1.02,,18.0,,électrique,GTFS sncb_belgium
+BE_185_0,NMBS/SNCB,Landen -- Blankenberge,Train régional,Jour,Blankenberge,4849,Landen,4600,21:15:00,23:31:00,2.27,,18.0,,électrique,GTFS sncb_belgium
+BE_186_0,NMBS/SNCB,Louvain -- Blankenberge,Train régional,Jour,Blankenberge,4849,Louvain,4587,21:15:00,23:04:00,1.82,,18.0,,électrique,GTFS sncb_belgium
+BE_187_0,NMBS/SNCB,Bruxelles-Nord -- Blankenberge,Train régional,Nuit,Blankenberge,4849,Bruxelles-Nord,3894,22:15:00,23:45:00,1.5,,18.0,,électrique,GTFS sncb_belgium
+BE_188_0,NMBS/SNCB,Bruges -- Blankenberge,Train régional,Nuit,Blankenberge,4849,Bruges,2003,22:02:00,22:13:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_189_0,NMBS/SNCB,Bruxelles-Midi -- Blankenberge,Train régional,Nuit,Blankenberge,4849,Bruxelles-Midi,4474,22:15:00,23:28:00,1.22,,18.0,,électrique,GTFS sncb_belgium
+BE_190_0,NMBS/SNCB,Bruxelles-Nord -- Hasselt,Train régional,Jour,Hasselt,4562,Bruxelles-Nord,3894,06:07:00,07:12:00,1.08,,18.0,,électrique,GTFS sncb_belgium
+BE_191_0,NMBS/SNCB,Hasselt -- Blankenberge,Train régional,Jour,Hasselt,4562,Blankenberge,4849,17:02:00,19:59:00,2.95,,18.0,,électrique,GTFS sncb_belgium
+BE_192_0,NMBS/SNCB,Genk -- Saint-Trond,Train régional,Jour,Genk,4569,Saint-Trond,4571,16:39:00,17:15:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_193_0,NMBS/SNCB,Tirlemont -- Bruges,Train régional,Jour,Tirlemont,4598,Bruges,2003,21:37:00,23:26:00,1.82,,18.0,,électrique,GTFS sncb_belgium
+BE_194_0,NMBS/SNCB,Grammont -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Grammont,4926,05:55:00,06:24:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_195_0,NMBS/SNCB,Audenarde -- Zottegem,Train régional,Jour,Audenarde,4869,Zottegem,4915,05:18:00,05:34:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_196_0,NMBS/SNCB,Audenarde -- Burst,Train régional,Jour,Audenarde,4869,Burst,4922,05:18:00,05:52:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_197_0,NMBS/SNCB,Zottegem -- Courtrai,Train régional,Jour,Courtrai,3828,Zottegem,4915,05:53:00,06:33:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_198_0,NMBS/SNCB,Burst -- Courtrai,Train régional,Jour,Courtrai,3828,Burst,4922,05:53:00,06:52:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_199_0,NMBS/SNCB,Audenarde -- Courtrai,Train régional,Jour,Courtrai,3828,Audenarde,4869,11:53:00,12:14:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_200_0,NMBS/SNCB,Sint-Denijs-Boekel -- Courtrai,Train régional,Jour,Courtrai,3828,Sint-Denijs-Boekel,4874,12:53:00,13:24:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_202_0,NMBS/SNCB,Tongres -- Mons,Train régional,Jour,Mons,4783,Tongres,4567,04:50:00,07:19:00,2.48,,18.0,,électrique,GTFS sncb_belgium
+BE_203_0,NMBS/SNCB,Hasselt -- Mons,Train régional,Jour,Mons,4783,Hasselt,4562,04:50:00,06:49:00,1.98,,18.0,,électrique,GTFS sncb_belgium
+BE_204_0,NMBS/SNCB,Diest -- Mons,Train régional,Jour,Mons,4783,Diest,4568,04:49:00,06:34:00,1.75,,18.0,,électrique,GTFS sncb_belgium
+BE_205_0,NMBS/SNCB,Tongres -- Quiévrain,Train régional,Jour,Quiévrain,4815,Tongres,4567,05:09:00,08:19:00,3.17,,18.0,,électrique,GTFS sncb_belgium
+BE_206_0,NMBS/SNCB,Hasselt -- Quiévrain,Train régional,Jour,Quiévrain,4815,Hasselt,4562,05:11:00,07:49:00,2.63,,18.0,,électrique,GTFS sncb_belgium
+BE_207_0,NMBS/SNCB,Diest -- Quiévrain,Train régional,Jour,Quiévrain,4815,Diest,4568,05:11:00,07:34:00,2.38,,18.0,,électrique,GTFS sncb_belgium
+BE_208_0,NMBS/SNCB,Mons -- Quiévrain,Train régional,Jour,Quiévrain,4815,Mons,4783,05:11:00,05:45:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_209_0,NMBS/SNCB,Walcourt -- Couvin,Train régional,Jour,Walcourt,4766,Couvin,4782,13:46:00,14:24:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_210_0,NMBS/SNCB,Bruges -- Knokke,Train régional,Jour,Bruges,2003,Knokke,4854,20:26:00,20:43:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_211_0,NMBS/SNCB,Lessines -- Grammont,Train régional,Jour,Lessines,4834,Grammont,4926,07:45:00,07:52:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_212_0,NMBS/SNCB,Mol -- Hamont,Train régional,Jour,Mol,4580,Hamont,4586,15:30:00,16:10:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_213_0,NMBS/SNCB,Louvain -- Liège-Guillemins,Train régional,Jour,Louvain,4587,Liège-Guillemins,4136,15:35:00,16:04:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_214_0,NMBS/SNCB,Verviers-Central -- Eupen,Train régional,Jour,Verviers-Central,4645,Eupen,4659,10:08:00,10:32:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_215_0,NMBS/SNCB,Verviers-Central -- Eupen,Train régional,Jour,Verviers-Central,4645,Eupen,4659,09:08:00,09:31:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_216_0,NMBS/SNCB,Mol -- Geel,Train régional,Jour,Geel,4581,Mol,4580,17:50:00,17:57:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_217_0,NMBS/SNCB,Neerpelt -- Hamont,Train régional,Jour,Neerpelt,4585,Hamont,4586,20:00:00,20:08:00,0.13,,18.0,,électrique,GTFS sncb_belgium
+BE_218_0,NMBS/SNCB,Haacht -- Louvain,Train régional,Jour,Haacht,4550,Louvain,4587,12:55:00,13:04:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_219_0,NMBS/SNCB,Marchienne-au-Pont -- Mons,Train régional,Nuit,Marchienne-au-Pont,4735,Mons,4783,23:40:00,00:03:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_220_0,NMBS/SNCB,La Louvière-Sud -- Ecaussinnes,Train régional,Nuit,Ecaussinnes,4806,La Louvière-Sud,4797,00:15:00,00:29:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_221_0,NMBS/SNCB,Stockem -- Arlon,Train régional,Jour,Stockem,4682,Arlon,4725,08:30:00,08:33:00,0.05,,18.0,,électrique,GTFS sncb_belgium
+BE_222_0,NMBS/SNCB,Wespelaar-Tildonk -- Louvain,Train régional,Nuit,Wespelaar-Tildonk,4551,Louvain,4587,22:05:00,22:13:00,0.13,,18.0,,électrique,GTFS sncb_belgium
+BE_223_0,NMBS/SNCB,Mons -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Mons,4783,07:34:00,07:52:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_224_0,NMBS/SNCB,Welkenraedt -- Eupen,Train régional,Jour,Eupen,4659,Welkenraedt,4657,10:27:00,10:34:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_225_0,NMBS/SNCB,Marchienne-au-Pont -- La Louvière-Sud,Train régional,Jour,Marchienne-au-Pont,4735,La Louvière-Sud,4797,13:06:00,13:18:00,0.2,,18.0,,électrique,GTFS sncb_belgium
+BE_226_0,NMBS/SNCB,Ath -- Grammont,Train régional,Jour,Ath,4828,Grammont,4926,07:28:00,07:49:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_227_0,NMBS/SNCB,Bruges -- Knokke,Train régional,Jour,Knokke,4854,Bruges,2003,17:55:00,18:12:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_228_0,NMBS/SNCB,Ternat -- Alost,Train régional,Jour,Ternat,4469,Alost,4911,14:43:00,15:02:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_229_0,NMBS/SNCB,Audenarde -- Courtrai,Train régional,Jour,Audenarde,4869,Courtrai,3828,08:14:00,08:38:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_230_0,NMBS/SNCB,Namur -- Ciney,Train régional,Jour,Namur,4683,Ciney,4709,16:55:00,17:11:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_231_0,NMBS/SNCB,Berchem-Sainte-Agathe -- Alost,Train régional,Jour,Berchem-Sainte-Agathe,4465,Alost,4911,14:49:00,15:13:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_232_0,NMBS/SNCB,Zottegem -- Denderleeuw,Train régional,Jour,Zottegem,4915,Denderleeuw,4939,07:17:00,07:34:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_233_0,NMBS/SNCB,Ciney -- Courrière,Train régional,Jour,Ciney,4709,Courrière,4715,17:47:00,17:58:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_234_0,NMBS/SNCB,Anvers-Luchtbal -- Noorderkempen (Brecht),Train régional,Jour,Noorderkempen (Brecht),4506,Anvers-Luchtbal,4503,19:54:00,20:06:00,0.2,,18.0,,électrique,GTFS sncb_belgium
+BE_235_0,NMBS/SNCB,Ciney -- Sart-Bernard,Train régional,Jour,Sart-Bernard,4716,Ciney,4709,18:34:00,18:49:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_236_0,NMBS/SNCB,Anvers-Central -- Anvers-Noorderdokken,Train régional,Jour,Anvers-Noorderdokken,4505,Anvers-Central,4502,18:37:00,18:43:00,0.1,,18.0,,électrique,GTFS sncb_belgium
+BE_237_0,NMBS/SNCB,Liège-Guillemins -- Ans,Train régional,Jour,Ans,4602,Liège-Guillemins,4136,12:30:00,12:38:00,0.13,,18.0,,électrique,GTFS sncb_belgium
+BE_238_0,NMBS/SNCB,La Louvière-Centre -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,La Louvière-Centre,4796,08:22:00,08:26:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_239_0,NMBS/SNCB,Malines -- Termonde,Train régional,Jour,Termonde,4888,Malines,4535,14:59:00,15:24:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_240_0,NMBS/SNCB,Hasselt -- Tongres,Train régional,Jour,Tongres,4567,Hasselt,4562,06:00:00,06:25:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_241_0,NMBS/SNCB,Gand-Saint-Pierre -- Courtrai,Train régional,Jour,Courtrai,3828,Gand-Saint-Pierre,4856,13:17:00,13:51:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_242_0,NMBS/SNCB,Ottignies -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Ottignies,4441,06:48:00,07:43:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_243_0,NMBS/SNCB,Mons -- Quiévrain,Train régional,Jour,Quiévrain,4815,Mons,4783,18:24:00,18:50:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_244_0,NMBS/SNCB,Waregem -- Poperinge,Train régional,Jour,Waregem,4946,Poperinge,4954,08:52:00,09:53:00,1.02,,18.0,,électrique,GTFS sncb_belgium
+BE_245_0,NMBS/SNCB,Liège-Guillemins -- Marloie,Train régional,Jour,Liège-Guillemins,4136,Marloie,4703,10:12:00,11:24:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_246_0,NMBS/SNCB,Bruxelles-Midi -- Gand-Saint-Pierre,Train régional,Jour,Bruxelles-Midi,4474,Gand-Saint-Pierre,4856,10:24:00,11:21:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_247_0,NMBS/SNCB,Tongres -- Louvain,Train régional,Jour,Louvain,4587,Tongres,4567,17:42:00,18:54:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_248_0,NMBS/SNCB,Ottignies -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Ottignies,4441,10:26:00,11:43:00,1.28,,18.0,,électrique,GTFS sncb_belgium
+BE_249_0,NMBS/SNCB,Charleroi-Ouest -- Fleurus,Train régional,Jour,Charleroi-Ouest,4758,Fleurus,4760,11:55:00,12:05:00,0.17,,18.0,,électrique,GTFS sncb_belgium
+BE_250_0,NMBS/SNCB,Namur -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,Namur,4683,06:32:00,07:22:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_251_0,NMBS/SNCB,Bruxelles-Midi -- Brussels Airport-Zaventem,Train régional,Jour,Brussels Airport-Zaventem,4501,Bruxelles-Midi,4474,12:30:00,12:52:00,0.37,,18.0,,électrique,GTFS sncb_belgium
+BE_252_0,NMBS/SNCB,Liège-Guillemins -- Liège-Saint-Lambert,Train régional,Jour,Liège-Guillemins,4136,Liège-Saint-Lambert,4610,12:43:00,12:50:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_253_0,NMBS/SNCB,Bruges -- Blankenberge,Train régional,Jour,Bruges,2003,Blankenberge,4849,06:30:00,06:41:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_254_0,NMBS/SNCB,Bruxelles-Midi -- Zottegem,Train régional,Jour,Bruxelles-Midi,4474,Zottegem,4915,16:16:00,17:05:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_255_0,NMBS/SNCB,Liège-Guillemins -- Liège-Saint-Lambert,Train régional,Jour,Liège-Saint-Lambert,4610,Liège-Guillemins,4136,16:08:00,16:15:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_256_0,NMBS/SNCB,Hasselt -- Tongres,Train régional,Jour,Hasselt,4562,Tongres,4567,05:37:00,06:00:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_257_0,NMBS/SNCB,Malines -- Termonde,Train régional,Jour,Termonde,4888,Malines,4535,07:59:00,08:24:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_258_0,NMBS/SNCB,Landen -- Liège-Guillemins,Train régional,Jour,Liège-Guillemins,4136,Landen,4600,08:29:00,09:23:00,0.9,,18.0,,électrique,GTFS sncb_belgium
+BE_259_0,NMBS/SNCB,Hasselt -- Louvain,Train régional,Jour,Louvain,4587,Hasselt,4562,19:42:00,20:31:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_260_0,NMBS/SNCB,Gand-Saint-Pierre -- Termonde,Train régional,Jour,Termonde,4888,Gand-Saint-Pierre,4856,10:40:00,11:03:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_261_0,NMBS/SNCB,Anvers-Central -- Anvers-Sud,Train régional,Jour,Anvers-Central,4502,Anvers-Sud,4509,13:13:00,13:22:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_262_0,NMBS/SNCB,Lichtervelde -- La Panne,Train régional,Jour,Lichtervelde,4861,La Panne,4866,08:32:00,09:08:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_263_0,NMBS/SNCB,Courtrai -- Waregem,Train régional,Jour,Courtrai,3828,Waregem,4946,09:59:00,10:08:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_264_0,NMBS/SNCB,Charleroi-Central -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,Charleroi-Central,4757,07:40:00,08:07:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_265_0,NMBS/SNCB,Jambes -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Jambes,4684,09:16:00,10:18:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_266_0,NMBS/SNCB,Charleroi-Central -- Fleurus,Train régional,Jour,Charleroi-Central,4757,Fleurus,4760,11:44:00,11:57:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_267_0,NMBS/SNCB,Malines -- Charleroi-Central,Train régional,Jour,Malines,4535,Charleroi-Central,4757,10:45:00,12:06:00,1.35,,18.0,,électrique,GTFS sncb_belgium
+BE_268_0,NMBS/SNCB,Gand-Saint-Pierre -- Audenarde,Train régional,Jour,Gand-Saint-Pierre,4856,Audenarde,4869,09:22:00,09:53:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_269_0,NMBS/SNCB,Mons -- Mouscron,Train régional,Jour,Mons,4783,Mouscron,3827,08:51:00,09:55:00,1.07,,18.0,,électrique,GTFS sncb_belgium
+BE_270_0,NMBS/SNCB,Hal -- Enghien,Train régional,Jour,Hal,4486,Enghien,4809,20:47:00,20:58:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_271_0,NMBS/SNCB,Zeebrugge-Dorp -- Termonde,Train régional,Jour,Termonde,4888,Zeebrugge-Dorp,4850,10:03:00,11:49:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_272_0,NMBS/SNCB,Anvers-Central -- Courtrai,Train régional,Jour,Courtrai,3828,Anvers-Central,4502,17:59:00,19:23:00,1.4,,18.0,,électrique,GTFS sncb_belgium
+BE_273_0,NMBS/SNCB,Malines -- Louvain,Train régional,Jour,Malines,4535,Louvain,4587,11:48:00,12:14:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_274_0,NMBS/SNCB,Gand-Saint-Pierre -- La Panne,Train régional,Jour,La Panne,4866,Gand-Saint-Pierre,4856,09:52:00,11:06:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_275_0,NMBS/SNCB,Zottegem -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Zottegem,4915,15:37:00,16:05:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_276_0,NMBS/SNCB,Mons -- Tournai,Train régional,Jour,Mons,4783,Tournai,3825,16:51:00,17:34:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_277_0,NMBS/SNCB,Londerzeel -- Gand-Saint-Pierre,Train régional,Jour,Londerzeel,4537,Gand-Saint-Pierre,4856,09:27:00,10:03:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_278_0,NMBS/SNCB,Namur -- Tournai,Train régional,Jour,Tournai,3825,Namur,4683,07:42:00,09:22:00,1.67,,18.0,,électrique,GTFS sncb_belgium
+BE_279_0,NMBS/SNCB,Liège-Guillemins -- Herstal,Train régional,Jour,Liège-Guillemins,4136,Herstal,4612,11:38:00,11:53:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_280_0,NMBS/SNCB,Namur -- Mons,Train régional,Jour,Mons,4783,Namur,4683,18:16:00,19:22:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_281_0,NMBS/SNCB,Saint-Ghislain -- Quiévrain,Train régional,Jour,Saint-Ghislain,4812,Quiévrain,4815,11:34:00,11:50:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_282_0,NMBS/SNCB,Mons -- Saint-Ghislain,Train régional,Nuit,Mons,4783,Saint-Ghislain,4812,23:16:00,23:30:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_283_0,NMBS/SNCB,Bruxelles-Midi -- Tournai,Train régional,Jour,Bruxelles-Midi,4474,Tournai,3825,10:14:00,11:16:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_284_0,NMBS/SNCB,Wavre -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Wavre,4445,09:51:00,10:51:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_285_0,NMBS/SNCB,Gand-Saint-Pierre -- Courtrai,Train régional,Jour,Courtrai,3828,Gand-Saint-Pierre,4856,16:17:00,16:51:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_286_0,NMBS/SNCB,Bruxelles-Midi -- Nivelles,Train régional,Jour,Bruxelles-Midi,4474,Nivelles,4482,21:14:00,21:56:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_287_0,NMBS/SNCB,Anvers-Central -- Louvain,Train régional,Jour,Louvain,4587,Anvers-Central,4502,12:24:00,13:11:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_288_0,NMBS/SNCB,Lierre -- Turnhout,Train régional,Jour,Lierre,4521,Turnhout,4533,11:22:00,11:53:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_289_0,NMBS/SNCB,Hasselt -- Liège-Guillemins,Train régional,Jour,Liège-Guillemins,4136,Hasselt,4562,14:19:00,15:22:00,1.05,,18.0,,électrique,GTFS sncb_belgium
+BE_290_0,NMBS/SNCB,Bruxelles-Luxembourg -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Bruxelles-Luxembourg,4430,08:36:00,09:19:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_291_0,NMBS/SNCB,Liège-Guillemins -- Liers,Train régional,Nuit,Liers,4614,Liège-Guillemins,4136,23:25:00,23:44:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_292_0,NMBS/SNCB,Bruges -- Blankenberge,Train régional,Jour,Blankenberge,4849,Bruges,2003,09:15:00,09:26:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_293_0,NMBS/SNCB,Termonde -- Lokeren,Train régional,Jour,Termonde,4888,Lokeren,4900,08:05:00,08:19:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_294_0,NMBS/SNCB,Nivelles -- Louvain,Train régional,Jour,Louvain,4587,Nivelles,4482,19:56:00,21:27:00,1.52,,18.0,,électrique,GTFS sncb_belgium
+BE_295_0,NMBS/SNCB,Bruxelles-Midi -- Arlon,Train régional,Jour,Arlon,4725,Bruxelles-Midi,4474,17:34:00,20:28:00,2.9,,18.0,,électrique,GTFS sncb_belgium
+BE_296_0,NMBS/SNCB,Anvers-Central -- Noorderkempen (Brecht),Train régional,Jour,Noorderkempen (Brecht),4506,Anvers-Central,4502,11:01:00,11:16:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_297_0,NMBS/SNCB,Anvers-Central -- Charleroi-Central,Train régional,Jour,Anvers-Central,4502,Charleroi-Central,4757,11:25:00,13:06:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_298_0,NMBS/SNCB,Malines -- Binche,Train régional,Jour,Malines,4535,Binche,4800,16:58:00,18:42:00,1.73,,18.0,,électrique,GTFS sncb_belgium
+BE_299_0,NMBS/SNCB,Mons -- Quévy,Train régional,Jour,Mons,4783,Quévy,4793,16:50:00,17:05:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_300_0,NMBS/SNCB,Londerzeel -- Louvain,Train régional,Jour,Londerzeel,4537,Louvain,4587,10:35:00,11:14:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_301_0,NMBS/SNCB,Willebroek -- Saint-Nicolas,Train régional,Jour,Willebroek,4553,Saint-Nicolas,4904,14:53:00,15:20:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_302_0,NMBS/SNCB,Luttre -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,Luttre,4740,19:24:00,19:55:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_303_0,NMBS/SNCB,Soignies -- Grammont,Train régional,Jour,Soignies,4804,Grammont,4926,11:26:00,12:23:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_304_0,NMBS/SNCB,Namur -- Jambes,Train régional,Jour,Namur,4683,Jambes,4684,12:12:00,12:16:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_306_0,NMBS/SNCB,Neerpelt -- Hamont,Train régional,Jour,Neerpelt,4585,Hamont,4586,20:00:00,20:10:00,0.17,,18.0,,électrique,GTFS sncb_belgium
+BE_308_0,NMBS/SNCB,Liège-Guillemins -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Liège-Guillemins,4136,09:41:00,11:33:00,1.87,,18.0,,électrique,GTFS sncb_belgium
+BE_309_0,NMBS/SNCB,Herstal -- Namur,Train régional,Jour,Namur,4683,Herstal,4612,18:53:00,19:53:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_310_0,NMBS/SNCB,Bruxelles-Midi -- Binche,Train régional,Jour,Bruxelles-Midi,4474,Binche,4800,20:30:00,21:41:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_311_0,NMBS/SNCB,Mons -- Tournai,Train régional,Jour,Mons,4783,Tournai,3825,17:24:00,18:13:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_312_0,NMBS/SNCB,Hasselt -- Mol,Train régional,Jour,Mol,4580,Hasselt,4562,09:07:00,09:54:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_313_0,NMBS/SNCB,Anvers-Central -- Boom,Train régional,Jour,Boom,4556,Anvers-Central,4502,17:14:00,17:47:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_314_0,NMBS/SNCB,Malines -- Louvain,Train régional,Jour,Malines,4535,Louvain,4587,15:22:00,15:53:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_315_0,NMBS/SNCB,Anvers-Central -- Noorderkempen (Brecht),Train régional,Jour,Anvers-Central,4502,Noorderkempen (Brecht),4506,15:45:00,15:59:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_316_0,NMBS/SNCB,Anvers-Central -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Anvers-Central,4502,08:27:00,09:23:00,0.93,,18.0,,électrique,GTFS sncb_belgium
+BE_317_0,NMBS/SNCB,Malines -- Kapelle-op-den-Bos,Train régional,Jour,Kapelle-op-den-Bos,4536,Malines,4535,11:24:00,11:31:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_318_0,NMBS/SNCB,Namur -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Namur,4683,12:50:00,13:22:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_319_0,NMBS/SNCB,Bruxelles-Luxembourg -- Brussels Airport-Zaventem,Train régional,Jour,Bruxelles-Luxembourg,4430,Brussels Airport-Zaventem,4501,13:53:00,14:13:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_320_0,NMBS/SNCB,Nivelles -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Nivelles,4482,13:38:00,14:04:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_321_0,NMBS/SNCB,Bruges -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Bruges,2003,12:45:00,13:27:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_322_0,NMBS/SNCB,Eupen -- Ostende,Train régional,Jour,Ostende,4855,Eupen,4659,15:42:00,18:42:00,3.0,,18.0,,électrique,GTFS sncb_belgium
+BE_323_0,NMBS/SNCB,Ciney -- Arlon,Train régional,Jour,Ciney,4709,Arlon,4725,17:03:00,18:22:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_324_0,NMBS/SNCB,Charleroi-Central -- Châtelet,Train régional,Jour,Charleroi-Central,4757,Châtelet,4773,19:03:00,19:09:00,0.1,,18.0,,électrique,GTFS sncb_belgium
+BE_325_0,NMBS/SNCB,Bruxelles-Midi -- Rochefort-Jemelle,Train régional,Jour,Bruxelles-Midi,4474,Rochefort-Jemelle,4700,18:32:00,20:28:00,1.93,,18.0,,électrique,GTFS sncb_belgium
+BE_326_0,NMBS/SNCB,Tournai -- Ath,Train régional,Jour,Ath,4828,Tournai,3825,13:59:00,15:41:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_327_0,NMBS/SNCB,Mol -- Hamont,Train régional,Jour,Hamont,4586,Mol,4580,20:18:00,20:49:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_328_0,NMBS/SNCB,Liège-Saint-Lambert -- Welkenraedt,Train régional,Jour,Liège-Saint-Lambert,4610,Welkenraedt,4657,21:08:00,22:05:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_329_0,NMBS/SNCB,Brussels Airport-Zaventem -- Namur,Train régional,Jour,Namur,4683,Brussels Airport-Zaventem,4501,06:32:00,07:43:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_330_0,NMBS/SNCB,Ypres -- Poperinge,Train régional,Jour,Poperinge,4954,Ypres,4953,06:07:00,06:14:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_331_0,NMBS/SNCB,Bruxelles-Nord -- Binche,Train régional,Jour,Bruxelles-Nord,3894,Binche,4800,08:18:00,09:41:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_332_0,NMBS/SNCB,Mons -- Tournai,Train régional,Jour,Mons,4783,Tournai,3825,10:46:00,11:16:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_333_0,NMBS/SNCB,Bruxelles-Midi -- Quiévrain,Train régional,Jour,Bruxelles-Midi,4474,Quiévrain,4815,12:26:00,13:50:00,1.4,,18.0,,électrique,GTFS sncb_belgium
+BE_334_0,NMBS/SNCB,Charleroi-Central -- Walcourt,Train régional,Jour,Walcourt,4766,Charleroi-Central,4757,13:41:00,14:07:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_335_0,NMBS/SNCB,Tamines -- Mons,Train régional,Jour,Tamines,4778,Mons,4783,18:30:00,19:22:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_336_0,NMBS/SNCB,Namur -- Arlon,Train régional,Jour,Arlon,4725,Namur,4683,21:34:00,23:12:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_337_0,NMBS/SNCB,Jurbise -- Mouscron,Train régional,Jour,Jurbise,4786,Mouscron,3827,06:22:00,07:55:00,1.55,,18.0,,électrique,GTFS sncb_belgium
+BE_338_0,NMBS/SNCB,Gand-Saint-Pierre -- Lokeren,Train régional,Jour,Gand-Saint-Pierre,4856,Lokeren,4900,07:42:00,08:09:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_339_0,NMBS/SNCB,Saint-Ghislain -- Mouscron,Train régional,Jour,Saint-Ghislain,4812,Mouscron,3827,13:05:00,13:55:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_340_0,NMBS/SNCB,Piéton -- La Louvière-Centre,Train régional,Jour,Piéton,4745,La Louvière-Centre,4796,11:59:00,12:18:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_341_0,NMBS/SNCB,Dinant -- Libramont,Train régional,Jour,Dinant,4693,Libramont,4718,16:23:00,17:46:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_342_0,NMBS/SNCB,Hal -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Hal,4486,17:51:00,18:08:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_343_0,NMBS/SNCB,Liège-Guillemins -- Verviers-Central,Train régional,Jour,Verviers-Central,4645,Liège-Guillemins,4136,08:43:00,09:16:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_344_0,NMBS/SNCB,Marchienne-au-Pont -- Charleroi-Central,Train régional,Jour,Marchienne-au-Pont,4735,Charleroi-Central,4757,12:12:00,12:16:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_345_0,NMBS/SNCB,Jurbise -- Grammont,Train régional,Jour,Jurbise,4786,Grammont,4926,11:12:00,12:26:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_346_0,NMBS/SNCB,Obourg -- La Louvière-Sud,Train régional,Jour,Obourg,4789,La Louvière-Sud,4797,10:20:00,10:29:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_347_0,NMBS/SNCB,Tongres -- Saint-Ghislain,Train régional,Jour,Tongres,4567,Saint-Ghislain,4812,18:42:00,21:30:00,2.8,,18.0,,électrique,GTFS sncb_belgium
+BE_348_0,NMBS/SNCB,Hasselt -- Saint-Ghislain,Train régional,Jour,Hasselt,4562,Saint-Ghislain,4812,19:11:00,21:30:00,2.32,,18.0,,électrique,GTFS sncb_belgium
+BE_349_0,NMBS/SNCB,Diest -- Saint-Ghislain,Train régional,Jour,Diest,4568,Saint-Ghislain,4812,19:28:00,21:30:00,2.03,,18.0,,électrique,GTFS sncb_belgium
+BE_350_0,NMBS/SNCB,Schaerbeek -- Tongres,Train régional,Jour,Tongres,4567,Schaerbeek,4413,20:42:00,22:07:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_351_0,NMBS/SNCB,Bruxelles-Midi -- Anvers-Central,Train régional,Jour,Bruxelles-Midi,4474,Anvers-Central,4502,06:04:00,07:20:00,1.27,,18.0,,électrique,GTFS sncb_belgium
+BE_352_0,NMBS/SNCB,Nivelles -- Anvers-Central,Train régional,Jour,Nivelles,4482,Anvers-Central,4502,06:24:00,08:20:00,1.93,,18.0,,électrique,GTFS sncb_belgium
+BE_353_0,NMBS/SNCB,Schaerbeek -- Anvers-Central,Train régional,Jour,Schaerbeek,4413,Anvers-Central,4502,07:20:00,08:20:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_354_0,NMBS/SNCB,Vilvorde -- Nivelles,Train régional,Jour,Nivelles,4482,Vilvorde,4420,07:34:00,08:39:00,1.08,,18.0,,électrique,GTFS sncb_belgium
+BE_355_0,NMBS/SNCB,Bruxelles-Midi -- Nivelles,Train régional,Jour,Nivelles,4482,Bruxelles-Midi,4474,07:34:00,08:16:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_356_0,NMBS/SNCB,Nivelles -- Malines,Train régional,Jour,Nivelles,4482,Malines,4535,07:34:00,08:54:00,1.33,,18.0,,électrique,GTFS sncb_belgium
+BE_357_0,NMBS/SNCB,Schaerbeek -- Nivelles,Train régional,Jour,Nivelles,4482,Schaerbeek,4413,18:19:00,19:20:00,1.02,,18.0,,électrique,GTFS sncb_belgium
+BE_358_0,NMBS/SNCB,Spa-Géronstère -- Welkenraedt,Train régional,Jour,Welkenraedt,4657,Spa-Géronstère,4656,09:30:00,09:59:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_359_0,NMBS/SNCB,Ottignies -- Wavre,Train régional,Jour,Ottignies,4441,Wavre,4445,10:17:00,10:26:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_360_0,NMBS/SNCB,Ottignies -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Ottignies,4441,09:07:00,10:05:00,0.97,,18.0,,électrique,GTFS sncb_belgium
+BE_361_0,NMBS/SNCB,Wavre -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Wavre,4445,09:07:00,10:07:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_362_0,NMBS/SNCB,Schaerbeek -- Cambron-Casteau,Train régional,Jour,Schaerbeek,4413,Cambron-Casteau,4832,09:06:00,10:08:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_363_0,NMBS/SNCB,Anvers-Central -- Ostende,Train régional,Jour,Ostende,4855,Anvers-Central,4502,06:09:00,07:54:00,1.75,,18.0,,électrique,GTFS sncb_belgium
+BE_364_0,NMBS/SNCB,Anvers-Central -- Bruges,Train régional,Jour,Bruges,2003,Anvers-Central,4502,06:25:00,07:54:00,1.48,,18.0,,électrique,GTFS sncb_belgium
+BE_365_0,NMBS/SNCB,Dinant -- Houyet,Train régional,Jour,Dinant,4693,Houyet,4698,08:58:00,09:15:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_366_0,NMBS/SNCB,Liège-Guillemins -- Rochefort-Jemelle,Train régional,Jour,Liège-Guillemins,4136,Rochefort-Jemelle,4700,09:13:00,10:38:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_367_0,NMBS/SNCB,Bruges -- Knokke,Train régional,Jour,Bruges,2003,Knokke,4854,10:07:00,10:26:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_368_0,NMBS/SNCB,Turnhout -- Blankenberge,Train régional,Jour,Turnhout,4533,Blankenberge,4849,07:25:00,09:55:00,2.5,,18.0,,électrique,GTFS sncb_belgium
+BE_369_0,NMBS/SNCB,Anvers-Central -- Blankenberge,Train régional,Jour,Anvers-Central,4502,Blankenberge,4849,08:27:00,10:12:00,1.75,,18.0,,électrique,GTFS sncb_belgium
+BE_370_0,NMBS/SNCB,Charleroi-Central -- Blankenberge,Train régional,Jour,Charleroi-Central,4757,Blankenberge,4849,07:50:00,10:22:00,2.53,,18.0,,électrique,GTFS sncb_belgium
+BE_371_0,NMBS/SNCB,Neerpelt -- Blankenberge,Train régional,Jour,Neerpelt,4585,Blankenberge,4849,07:59:00,10:56:00,2.95,,18.0,,électrique,GTFS sncb_belgium
+BE_372_0,NMBS/SNCB,Schaerbeek -- Blankenberge,Train régional,Jour,Schaerbeek,4413,Blankenberge,4849,08:44:00,10:26:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_373_0,NMBS/SNCB,Schaerbeek -- Ostende,Train régional,Jour,Schaerbeek,4413,Ostende,4855,09:37:00,11:13:00,1.6,,18.0,,électrique,GTFS sncb_belgium
+BE_374_0,NMBS/SNCB,Tongres -- Ostende,Train régional,Jour,Tongres,4567,Ostende,4855,07:33:00,10:22:00,2.82,,18.0,,électrique,GTFS sncb_belgium
+BE_375_0,NMBS/SNCB,Rochefort-Jemelle -- Ostende,Train régional,Jour,Rochefort-Jemelle,4700,Ostende,4855,06:30:00,09:47:00,3.28,,18.0,,électrique,GTFS sncb_belgium
+BE_376_0,NMBS/SNCB,Arlon -- Ostende,Train régional,Jour,Arlon,4725,Ostende,4855,05:36:00,09:47:00,4.18,,18.0,,électrique,GTFS sncb_belgium
+BE_378_0,NMBS/SNCB,Gand-Saint-Pierre -- La Panne,Train régional,Jour,Gand-Saint-Pierre,4856,La Panne,4866,08:28:00,09:39:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_379_0,NMBS/SNCB,Schaerbeek -- La Panne,Train régional,Jour,Schaerbeek,4413,La Panne,4866,07:55:00,09:48:00,1.88,,18.0,,électrique,GTFS sncb_belgium
+BE_380_0,NMBS/SNCB,Louvain -- Ostende,Train régional,Jour,Louvain,4587,Ostende,4855,10:02:00,11:47:00,1.75,,18.0,,électrique,GTFS sncb_belgium
+BE_381_0,NMBS/SNCB,Welkenraedt -- Ostende,Train régional,Jour,Welkenraedt,4657,Ostende,4855,06:48:00,10:07:00,3.32,,18.0,,électrique,GTFS sncb_belgium
+BE_382_0,NMBS/SNCB,Bruxelles-Nord -- Ostende,Train régional,Jour,Bruxelles-Nord,3894,Ostende,4855,08:45:00,10:08:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_383_0,NMBS/SNCB,Bruxelles-Nord -- Denderleeuw,Train régional,Jour,Bruxelles-Nord,3894,Denderleeuw,4939,08:45:00,09:14:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_384_0,NMBS/SNCB,Louvain -- Bruges,Train régional,Jour,Louvain,4587,Bruges,2003,09:24:00,10:51:00,1.45,,18.0,,électrique,GTFS sncb_belgium
+BE_385_0,NMBS/SNCB,Bruxelles-Midi -- Ostende,Train régional,Jour,Ostende,4855,Bruxelles-Midi,4474,17:45:00,19:10:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_386_0,NMBS/SNCB,Louvain -- Blankenberge,Train régional,Jour,Louvain,4587,Blankenberge,4849,07:37:00,09:21:00,1.73,,18.0,,électrique,GTFS sncb_belgium
+BE_387_0,NMBS/SNCB,Blankenberge -- Saint-Nicolas,Train régional,Jour,Saint-Nicolas,4904,Blankenberge,4849,08:53:00,10:12:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_388_0,NMBS/SNCB,Saint-Trond -- Blankenberge,Train régional,Jour,Saint-Trond,4571,Blankenberge,4849,07:24:00,09:49:00,2.42,,18.0,,électrique,GTFS sncb_belgium
+BE_389_0,NMBS/SNCB,Hasselt -- Blankenberge,Train régional,Jour,Hasselt,4562,Blankenberge,4849,10:08:00,12:49:00,2.68,,18.0,,électrique,GTFS sncb_belgium
+BE_390_0,NMBS/SNCB,Bruxelles-Midi -- Blankenberge,Train régional,Jour,Bruxelles-Midi,4474,Blankenberge,4849,11:36:00,12:49:00,1.22,,18.0,,électrique,GTFS sncb_belgium
+BE_391_0,NMBS/SNCB,Bruxelles-Midi -- Binche,Train régional,Nuit,Binche,4800,Bruxelles-Midi,4474,22:34:00,23:38:00,1.07,,18.0,,électrique,GTFS sncb_belgium
+BE_392_0,NMBS/SNCB,Mol -- Louvain,Train régional,Jour,Mol,4580,Louvain,4587,18:29:00,19:29:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_393_0,NMBS/SNCB,Courtrai -- Poperinge,Train régional,Nuit,Courtrai,3828,Poperinge,4954,22:10:00,22:53:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_394_0,NMBS/SNCB,Gand-Saint-Pierre -- Renaix,Train régional,Jour,Gand-Saint-Pierre,4856,Renaix,4876,13:57:00,14:46:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_395_0,NMBS/SNCB,Gand-Saint-Pierre -- Grammont,Train régional,Jour,Gand-Saint-Pierre,4856,Grammont,4926,06:05:00,06:55:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_396_0,NMBS/SNCB,Zottegem -- Grammont,Train régional,Jour,Zottegem,4915,Grammont,4926,07:41:00,07:55:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_397_0,NMBS/SNCB,Gand-Saint-Pierre -- Zottegem,Train régional,Jour,Gand-Saint-Pierre,4856,Zottegem,4915,07:05:00,07:39:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_398_0,NMBS/SNCB,Louvain-la-Neuve -- Zottegem,Train régional,Jour,Louvain-la-Neuve,4443,Zottegem,4915,07:01:00,09:04:00,2.05,,18.0,,électrique,GTFS sncb_belgium
+BE_405_0,NMBS/SNCB,Liège-Guillemins -- Visé,Train régional,Nuit,Visé,4665,Liège-Guillemins,4136,23:33:00,23:50:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_406_0,NMBS/SNCB,Brussels Airport-Zaventem -- Tournai,Train régional,Jour,Tournai,3825,Brussels Airport-Zaventem,4501,04:45:00,06:24:00,1.65,,18.0,,électrique,GTFS sncb_belgium
+BE_407_0,NMBS/SNCB,Brussels Airport-Zaventem -- Ath,Train régional,Jour,Ath,4828,Brussels Airport-Zaventem,4501,06:08:00,07:24:00,1.27,,18.0,,électrique,GTFS sncb_belgium
+BE_408_0,NMBS/SNCB,Hal -- Brussels Airport-Zaventem,Train régional,Jour,Hal,4486,Brussels Airport-Zaventem,4501,06:36:00,07:16:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_409_0,NMBS/SNCB,Bruxelles-Nord -- Tournai,Train régional,Jour,Tournai,3825,Bruxelles-Nord,3894,09:45:00,11:00:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_410_0,NMBS/SNCB,Bruxelles-Nord -- Ath,Train régional,Jour,Bruxelles-Nord,3894,Ath,4828,19:01:00,19:53:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_412_0,NMBS/SNCB,Bruxelles-Midi -- Malines,Train régional,Nuit,Bruxelles-Midi,4474,Malines,4535,00:41:00,01:19:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_413_0,NMBS/SNCB,Anvers-Central -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Anvers-Central,4502,04:26:00,06:55:00,2.48,,18.0,,électrique,GTFS sncb_belgium
+BE_414_0,NMBS/SNCB,Vilvorde -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Vilvorde,4420,05:49:00,06:09:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_415_0,NMBS/SNCB,Bruxelles-Midi -- Anvers-Berchem,Train régional,Jour,Bruxelles-Midi,4474,Anvers-Berchem,4507,05:48:00,06:56:00,1.13,,18.0,,électrique,GTFS sncb_belgium
+BE_416_0,NMBS/SNCB,Nivelles -- Anvers-Berchem,Train régional,Jour,Nivelles,4482,Anvers-Berchem,4507,06:04:00,07:56:00,1.87,,18.0,,électrique,GTFS sncb_belgium
+BE_417_0,NMBS/SNCB,Nivelles -- Duffel,Train régional,Jour,Nivelles,4482,Duffel,4541,09:54:00,11:30:00,1.6,,18.0,,électrique,GTFS sncb_belgium
+BE_419_0,NMBS/SNCB,Anvers-Central -- Mouscron,Train régional,Jour,Mouscron,3827,Anvers-Central,4502,07:36:00,09:23:00,1.78,,18.0,,électrique,GTFS sncb_belgium
+BE_423_0,NMBS/SNCB,Mouscron -- Saint-Nicolas,Train régional,Jour,Mouscron,3827,Saint-Nicolas,4904,07:36:00,08:58:00,1.37,,18.0,,électrique,GTFS sncb_belgium
+BE_426_0,NMBS/SNCB,Bruxelles-Nord -- Nivelles,Train régional,Nuit,Nivelles,4482,Bruxelles-Nord,3894,00:04:00,00:57:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_427_0,NMBS/SNCB,Bruxelles-Nord -- Anvers-Central,Train régional,Nuit,Bruxelles-Nord,3894,Anvers-Central,4502,01:09:00,02:12:00,1.05,,18.0,,électrique,GTFS sncb_belgium
+BE_428_0,NMBS/SNCB,Nivelles -- Kontich-Lint,Train régional,Nuit,Nivelles,4482,Kontich-Lint,4512,00:04:00,01:42:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_430_0,NMBS/SNCB,Erquelinnes -- Charleroi-Central,Train régional,Jour,Erquelinnes,4747,Charleroi-Central,4757,04:55:00,05:36:00,0.68,,18.0,,électrique,GTFS sncb_belgium
+BE_434_0,NMBS/SNCB,Vilvorde -- Bruxelles-Nord,Train régional,Nuit,Vilvorde,4420,Bruxelles-Nord,3894,00:51:00,01:01:00,0.17,,18.0,,électrique,GTFS sncb_belgium
+BE_435_0,NMBS/SNCB,Schaerbeek -- Bruxelles-Midi,Train régional,Nuit,Schaerbeek,4413,Bruxelles-Midi,4474,01:58:00,02:11:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_436_0,NMBS/SNCB,Vilvorde -- Anvers-Central,Train régional,Nuit,Anvers-Central,4502,Vilvorde,4420,00:58:00,01:50:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_437_0,NMBS/SNCB,Bruxelles-Midi -- Kontich-Lint,Train régional,Nuit,Kontich-Lint,4512,Bruxelles-Midi,4474,01:50:00,02:43:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_438_0,NMBS/SNCB,Bruxelles-Midi -- Essen,Train régional,Jour,Bruxelles-Midi,4474,Essen,4514,04:50:00,06:13:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_439_0,NMBS/SNCB,Anvers-Central -- Essen,Train régional,Jour,Anvers-Central,4502,Essen,4514,05:39:00,06:13:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_440_0,NMBS/SNCB,Bruxelles-Midi -- Kapellen,Train régional,Jour,Bruxelles-Midi,4474,Kapellen,4519,05:50:00,06:56:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_441_0,NMBS/SNCB,Essen -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Essen,4514,05:54:00,08:13:00,2.32,,18.0,,électrique,GTFS sncb_belgium
+BE_442_0,NMBS/SNCB,Bruxelles-Nord -- Charleroi-Central,Train régional,Jour,Bruxelles-Nord,3894,Charleroi-Central,4757,06:02:00,07:06:00,1.07,,18.0,,électrique,GTFS sncb_belgium
+BE_443_0,NMBS/SNCB,Kapellen -- Charleroi-Central,Train régional,Jour,Kapellen,4519,Charleroi-Central,4757,09:05:00,11:06:00,2.02,,18.0,,électrique,GTFS sncb_belgium
+BE_444_0,NMBS/SNCB,Bruxelles-Midi -- Alost,Train régional,Jour,Bruxelles-Midi,4474,Alost,4911,06:02:00,06:57:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_445_0,NMBS/SNCB,Jette -- Alost,Train régional,Jour,Jette,4457,Alost,4911,06:20:00,06:57:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_446_0,NMBS/SNCB,Termonde -- Alost,Train régional,Jour,Termonde,4888,Alost,4911,05:09:00,06:59:00,1.83,,18.0,,électrique,GTFS sncb_belgium
+BE_447_0,NMBS/SNCB,Jette -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Jette,4457,06:07:00,06:21:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_448_0,NMBS/SNCB,Termonde -- Denderleeuw,Train régional,Jour,Termonde,4888,Denderleeuw,4939,05:09:00,06:49:00,1.67,,18.0,,électrique,GTFS sncb_belgium
+BE_449_0,NMBS/SNCB,Opwijk -- Alost,Train régional,Jour,Opwijk,4462,Alost,4911,07:22:00,08:57:00,1.58,,18.0,,électrique,GTFS sncb_belgium
+BE_450_0,NMBS/SNCB,Jette -- Termonde,Train régional,Jour,Termonde,4888,Jette,4457,08:09:00,09:21:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_451_0,NMBS/SNCB,Bruxelles-Midi -- Denderleeuw,Train régional,Nuit,Bruxelles-Midi,4474,Denderleeuw,4939,23:02:00,23:49:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_455_0,NMBS/SNCB,Bruxelles-Midi -- Marbehan,Train régional,Jour,Bruxelles-Midi,4474,Marbehan,4728,06:32:00,09:13:00,2.68,,18.0,,électrique,GTFS sncb_belgium
+BE_457_0,NMBS/SNCB,Marloie -- Arlon,Train régional,Jour,Marloie,4703,Arlon,4725,10:23:00,11:22:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_458_0,NMBS/SNCB,Rochefort-Jemelle -- Ciney,Train régional,Nuit,Ciney,4709,Rochefort-Jemelle,4700,23:04:00,23:28:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_459_0,NMBS/SNCB,Rochefort-Jemelle -- Marloie,Train régional,Nuit,Marloie,4703,Rochefort-Jemelle,4700,23:23:00,23:28:00,0.08,,18.0,,électrique,GTFS sncb_belgium
+BE_460_0,NMBS/SNCB,Rochefort-Jemelle -- Arlon,Train régional,Jour,Arlon,4725,Rochefort-Jemelle,4700,21:36:00,22:27:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_461_0,NMBS/SNCB,Bruxelles-Luxembourg -- Alost,Train régional,Jour,Alost,4911,Bruxelles-Luxembourg,4430,05:26:00,06:19:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_462_0,NMBS/SNCB,Ternat -- Alost,Train régional,Jour,Alost,4911,Ternat,4469,06:24:00,06:45:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_463_0,NMBS/SNCB,Bruxelles-Luxembourg -- Bruxelles-Nord,Train régional,Jour,Bruxelles-Nord,3894,Bruxelles-Luxembourg,4430,07:08:00,07:19:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_464_0,NMBS/SNCB,Brussels Airport-Zaventem -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Brussels Airport-Zaventem,4501,04:39:00,06:03:00,1.4,,18.0,,électrique,GTFS sncb_belgium
+BE_465_0,NMBS/SNCB,Bruxelles-Nord -- Gand-Saint-Pierre,Train régional,Jour,Bruxelles-Nord,3894,Gand-Saint-Pierre,4856,09:11:00,10:20:00,1.15,,18.0,,électrique,GTFS sncb_belgium
+BE_466_0,NMBS/SNCB,Termonde -- Grammont,Train régional,Jour,Grammont,4926,Termonde,4888,04:55:00,06:36:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_467_0,NMBS/SNCB,Bruxelles-Midi -- Termonde,Train régional,Jour,Bruxelles-Midi,4474,Termonde,4888,05:44:00,06:36:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_468_0,NMBS/SNCB,Enghien -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Enghien,4809,06:23:00,07:15:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_469_0,NMBS/SNCB,Termonde -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Termonde,4888,06:23:00,08:36:00,2.22,,18.0,,électrique,GTFS sncb_belgium
+BE_470_0,NMBS/SNCB,Bruxelles-Nord -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Bruxelles-Nord,3894,06:23:00,07:52:00,1.48,,18.0,,électrique,GTFS sncb_belgium
+BE_471_0,NMBS/SNCB,Bruxelles-Nord -- Grammont,Train régional,Jour,Grammont,4926,Bruxelles-Nord,3894,06:55:00,07:52:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_472_0,NMBS/SNCB,Bruxelles-Midi -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Bruxelles-Midi,4474,11:23:00,12:41:00,1.3,,18.0,,électrique,GTFS sncb_belgium
+BE_473_0,NMBS/SNCB,Jette -- Bruxelles-Midi,Train régional,Nuit,Bruxelles-Midi,4474,Jette,4457,22:44:00,23:02:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_474_0,NMBS/SNCB,Schaerbeek -- Denderleeuw,Train régional,Jour,Schaerbeek,4413,Denderleeuw,4939,05:01:00,06:37:00,1.6,,18.0,,électrique,GTFS sncb_belgium
+BE_475_0,NMBS/SNCB,Bruxelles-Nord -- Termonde,Train régional,Jour,Termonde,4888,Bruxelles-Nord,3894,10:24:00,11:06:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_476_0,NMBS/SNCB,Enghien -- Grammont,Train régional,Nuit,Enghien,4809,Grammont,4926,22:44:00,23:04:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_477_0,NMBS/SNCB,Brussels Airport-Zaventem -- Courtrai,Train régional,Jour,Courtrai,3828,Brussels Airport-Zaventem,4501,05:11:00,06:47:00,1.6,,18.0,,électrique,GTFS sncb_belgium
+BE_478_0,NMBS/SNCB,Brussels Airport-Zaventem -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Brussels Airport-Zaventem,4501,06:04:00,06:47:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_479_0,NMBS/SNCB,Brussels Airport-Zaventem -- Audenarde,Train régional,Jour,Audenarde,4869,Brussels Airport-Zaventem,4501,05:32:00,06:47:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_480_0,NMBS/SNCB,Brussels Airport-Zaventem -- Ostende,Train régional,Jour,Ostende,4855,Brussels Airport-Zaventem,4501,05:58:00,08:47:00,2.82,,18.0,,électrique,GTFS sncb_belgium
+BE_481_0,NMBS/SNCB,Bruxelles-Nord -- Ostende,Train régional,Jour,Ostende,4855,Bruxelles-Nord,3894,05:58:00,08:32:00,2.57,,18.0,,électrique,GTFS sncb_belgium
+BE_482_0,NMBS/SNCB,Brussels Airport-Zaventem -- Bruges,Train régional,Jour,Bruges,2003,Brussels Airport-Zaventem,4501,07:05:00,09:47:00,2.7,,18.0,,électrique,GTFS sncb_belgium
+BE_483_0,NMBS/SNCB,Bruxelles-Midi -- Ostende,Train régional,Jour,Ostende,4855,Bruxelles-Midi,4474,19:48:00,22:19:00,2.52,,18.0,,électrique,GTFS sncb_belgium
+BE_484_0,NMBS/SNCB,Audenarde -- Denderleeuw,Train régional,Nuit,Audenarde,4869,Denderleeuw,4939,22:32:00,23:01:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_485_0,NMBS/SNCB,Brussels Airport-Zaventem -- Roulers,Train régional,Jour,Brussels Airport-Zaventem,4501,Roulers,4955,07:13:00,09:16:00,2.05,,18.0,,électrique,GTFS sncb_belgium
+BE_486_0,NMBS/SNCB,Schaerbeek -- Ostende,Train régional,Jour,Schaerbeek,4413,Ostende,4855,09:22:00,12:03:00,2.68,,18.0,,électrique,GTFS sncb_belgium
+BE_487_0,NMBS/SNCB,Anvers-Central -- Essen,Train régional,Jour,Anvers-Central,4502,Essen,4514,06:20:00,06:55:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_488_0,NMBS/SNCB,Essen -- Puurs,Train régional,Jour,Puurs,4554,Essen,4514,06:36:00,07:55:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_489_0,NMBS/SNCB,Anvers-Central -- Puurs,Train régional,Jour,Puurs,4554,Anvers-Central,4502,06:36:00,07:17:00,0.68,,18.0,,électrique,GTFS sncb_belgium
+BE_490_0,NMBS/SNCB,Anvers-Berchem -- Essen,Train régional,Jour,Anvers-Berchem,4507,Essen,4514,07:18:00,07:55:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_491_0,NMBS/SNCB,Essen -- Boom,Train régional,Jour,Essen,4514,Boom,4556,09:05:00,10:13:00,1.13,,18.0,,électrique,GTFS sncb_belgium
+BE_492_0,NMBS/SNCB,Essen -- Wildert,Train régional,Jour,Essen,4514,Wildert,4515,11:05:00,11:09:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_493_0,NMBS/SNCB,Bruxelles-Midi -- Liège-Saint-Lambert,Train régional,Jour,Bruxelles-Midi,4474,Liège-Saint-Lambert,4610,06:03:00,08:19:00,2.27,,18.0,,électrique,GTFS sncb_belgium
+BE_494_0,NMBS/SNCB,Liège-Saint-Lambert -- Tournai,Train régional,Jour,Tournai,3825,Liège-Saint-Lambert,4610,05:53:00,09:19:00,3.43,,18.0,,électrique,GTFS sncb_belgium
+BE_495_0,NMBS/SNCB,Bruxelles-Midi -- Herstal,Train régional,Jour,Bruxelles-Midi,4474,Herstal,4612,07:03:00,09:39:00,2.6,,18.0,,électrique,GTFS sncb_belgium
+BE_496_0,NMBS/SNCB,Bruxelles-Midi -- Liers,Train régional,Jour,Bruxelles-Midi,4474,Liers,4614,14:03:00,16:47:00,2.73,,18.0,,électrique,GTFS sncb_belgium
+BE_497_0,NMBS/SNCB,Bruxelles-Midi -- Liège-Guillemins,Train régional,Jour,Bruxelles-Midi,4474,Liège-Guillemins,4136,15:03:00,17:09:00,2.1,,18.0,,électrique,GTFS sncb_belgium
+BE_498_0,NMBS/SNCB,Liège-Saint-Lambert -- Ostende,Train régional,Jour,Ostende,4855,Liège-Saint-Lambert,4610,17:49:00,21:19:00,3.5,,18.0,,électrique,GTFS sncb_belgium
+BE_499_0,NMBS/SNCB,Bruxelles-Midi -- Statte,Train régional,Nuit,Bruxelles-Midi,4474,Statte,4642,22:03:00,23:41:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_500_0,NMBS/SNCB,Bruxelles-Midi -- Liège-Saint-Lambert,Train régional,Jour,Liège-Saint-Lambert,4610,Bruxelles-Midi,4474,09:40:00,11:57:00,2.28,,18.0,,électrique,GTFS sncb_belgium
+BE_501_0,NMBS/SNCB,Bruxelles-Luxembourg -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Luxembourg,4430,Bruxelles-Midi,4474,16:34:00,16:57:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_502_0,NMBS/SNCB,Hasselt -- Louvain,Train régional,Jour,Louvain,4587,Hasselt,4562,06:13:00,07:04:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_503_0,NMBS/SNCB,Genk -- Louvain,Train régional,Jour,Louvain,4587,Genk,4569,06:13:00,07:20:00,1.12,,18.0,,électrique,GTFS sncb_belgium
+BE_504_0,NMBS/SNCB,Hasselt -- Aarschot,Train régional,Jour,Aarschot,4593,Hasselt,4562,18:28:00,19:04:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_505_0,NMBS/SNCB,Hasselt -- Schulen,Train régional,Jour,Schulen,4564,Hasselt,4562,18:55:00,19:04:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_506_0,NMBS/SNCB,Hasselt -- Louvain,Train régional,Jour,Louvain,4587,Hasselt,4562,19:13:00,20:04:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_507_0,NMBS/SNCB,Diest -- Louvain,Train régional,Nuit,Louvain,4587,Diest,4568,23:42:00,00:15:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_508_0,NMBS/SNCB,Schulen -- Louvain,Train régional,Nuit,Louvain,4587,Schulen,4564,23:42:00,00:23:00,0.68,,18.0,,électrique,GTFS sncb_belgium
+BE_509_0,NMBS/SNCB,Begijnendijk -- Hasselt,Train régional,Nuit,Hasselt,4562,Begijnendijk,4532,22:56:00,23:34:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_510_0,NMBS/SNCB,Namur -- Yvoir,Train régional,Jour,Namur,4683,Yvoir,4694,06:17:00,06:41:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_511_0,NMBS/SNCB,Namur -- Dinant,Train régional,Jour,Namur,4683,Dinant,4693,06:31:00,07:03:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_512_0,NMBS/SNCB,Bruxelles-Midi -- Dinant,Train régional,Jour,Bruxelles-Midi,4474,Dinant,4693,06:03:00,07:49:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_513_0,NMBS/SNCB,Brussels Airport-Zaventem -- Dinant,Train régional,Jour,Brussels Airport-Zaventem,4501,Dinant,4693,06:17:00,08:03:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_514_0,NMBS/SNCB,Bruxelles-Midi -- Gembloux,Train régional,Jour,Bruxelles-Midi,4474,Gembloux,4671,06:32:00,07:26:00,0.9,,18.0,,électrique,GTFS sncb_belgium
+BE_515_0,NMBS/SNCB,Schaerbeek -- Dinant,Train régional,Jour,Schaerbeek,4413,Dinant,4693,06:08:00,07:49:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_516_0,NMBS/SNCB,Gembloux -- Dinant,Train régional,Jour,Gembloux,4671,Dinant,4693,07:15:00,08:03:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_517_0,NMBS/SNCB,Ottignies -- Dinant,Train régional,Jour,Ottignies,4441,Dinant,4693,06:48:00,07:49:00,1.02,,18.0,,électrique,GTFS sncb_belgium
+BE_518_0,NMBS/SNCB,Brussels Airport-Zaventem -- Yvoir,Train régional,Jour,Brussels Airport-Zaventem,4501,Yvoir,4694,06:17:00,07:55:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_519_0,NMBS/SNCB,Bruxelles-Midi -- Yvoir,Train régional,Jour,Bruxelles-Midi,4474,Yvoir,4694,06:03:00,07:41:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_520_0,NMBS/SNCB,Ottignies -- Yvoir,Train régional,Jour,Ottignies,4441,Yvoir,4694,06:48:00,07:41:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_521_0,NMBS/SNCB,Gembloux -- Dinant,Train régional,Jour,Gembloux,4671,Dinant,4693,08:15:00,09:03:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_522_0,NMBS/SNCB,Gembloux -- Namur,Train régional,Jour,Gembloux,4671,Namur,4683,10:15:00,10:28:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_523_0,NMBS/SNCB,Schaerbeek -- Namur,Train régional,Nuit,Schaerbeek,4413,Namur,4683,22:08:00,23:16:00,1.13,,18.0,,électrique,GTFS sncb_belgium
+BE_524_0,NMBS/SNCB,Ottignies -- Namur,Train régional,Nuit,Ottignies,4441,Namur,4683,22:48:00,23:16:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_525_0,NMBS/SNCB,Bruxelles-Luxembourg -- Dinant,Train régional,Jour,Dinant,4693,Bruxelles-Luxembourg,4430,07:57:00,09:20:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_526_0,NMBS/SNCB,Gembloux -- Namur,Train régional,Jour,Namur,4683,Gembloux,4671,14:32:00,14:44:00,0.2,,18.0,,électrique,GTFS sncb_belgium
+BE_533_0,NMBS/SNCB,Anvers-Sud -- Essen,Train régional,Nuit,Anvers-Sud,4509,Essen,4514,22:37:00,23:43:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_534_0,NMBS/SNCB,Anvers-Central -- Anvers-Sud,Train régional,Jour,Anvers-Central,4502,Anvers-Sud,4509,06:13:00,06:22:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_537_0,NMBS/SNCB,Anvers-Central -- Hasselt,Train régional,Jour,Anvers-Central,4502,Hasselt,4562,04:48:00,06:24:00,1.6,,18.0,,électrique,GTFS sncb_belgium
+BE_538_0,NMBS/SNCB,Anvers-Central -- Genk,Train régional,Jour,Anvers-Central,4502,Genk,4569,04:48:00,06:38:00,1.83,,18.0,,électrique,GTFS sncb_belgium
+BE_539_0,NMBS/SNCB,Anvers-Central -- Aarschot,Train régional,Jour,Anvers-Central,4502,Aarschot,4593,05:49:00,06:55:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_540_0,NMBS/SNCB,Anvers-Berchem -- Hasselt,Train régional,Jour,Anvers-Berchem,4507,Hasselt,4562,07:54:00,09:24:00,1.5,,18.0,,électrique,GTFS sncb_belgium
+BE_541_0,NMBS/SNCB,Brussels Airport-Zaventem -- Hasselt,Train régional,Jour,Brussels Airport-Zaventem,4501,Hasselt,4562,09:21:00,10:31:00,1.17,,18.0,,électrique,GTFS sncb_belgium
+BE_542_0,NMBS/SNCB,Brussels Airport-Zaventem -- Anvers-Central,Train régional,Jour,Anvers-Central,4502,Brussels Airport-Zaventem,4501,08:51:00,09:20:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_543_0,NMBS/SNCB,Anvers-Central -- Diest,Train régional,Jour,Anvers-Central,4502,Diest,4568,08:51:00,10:09:00,1.3,,18.0,,électrique,GTFS sncb_belgium
+BE_544_0,NMBS/SNCB,Anvers-Central -- Tongres,Train régional,Jour,Anvers-Central,4502,Tongres,4567,15:49:00,17:54:00,2.08,,18.0,,électrique,GTFS sncb_belgium
+BE_545_0,NMBS/SNCB,Anvers-Central -- Schulen,Train régional,Nuit,Anvers-Central,4502,Schulen,4564,22:49:00,00:18:00,1.48,,18.0,,électrique,GTFS sncb_belgium
+BE_546_0,NMBS/SNCB,Brussels Airport-Zaventem -- Louvain,Train régional,Jour,Louvain,4587,Brussels Airport-Zaventem,4501,05:24:00,05:39:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_547_0,NMBS/SNCB,Anvers-Berchem -- Saint-Nicolas,Train régional,Jour,Anvers-Berchem,4507,Saint-Nicolas,4904,20:23:00,20:50:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_548_0,NMBS/SNCB,Anvers-Central -- Saint-Nicolas,Train régional,Jour,Anvers-Central,4502,Saint-Nicolas,4904,20:18:00,20:50:00,0.53,,18.0,,électrique,GTFS sncb_belgium
+BE_549_0,NMBS/SNCB,Louvain -- Saint-Nicolas,Train régional,Jour,Louvain,4587,Saint-Nicolas,4904,05:06:00,06:20:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_550_0,NMBS/SNCB,Malines -- Saint-Nicolas,Train régional,Jour,Malines,4535,Saint-Nicolas,4904,07:40:00,08:20:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_551_0,NMBS/SNCB,Malines -- Puurs,Train régional,Jour,Malines,4535,Puurs,4554,07:40:00,07:59:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_552_0,NMBS/SNCB,Malines -- Tamise,Train régional,Jour,Malines,4535,Tamise,4905,07:40:00,08:10:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_553_0,NMBS/SNCB,Louvain -- Tamise,Train régional,Jour,Louvain,4587,Tamise,4905,17:05:00,18:10:00,1.08,,18.0,,électrique,GTFS sncb_belgium
+BE_554_0,NMBS/SNCB,Puurs -- Louvain,Train régional,Jour,Louvain,4587,Puurs,4554,19:05:00,19:59:00,0.9,,18.0,,électrique,GTFS sncb_belgium
+BE_555_0,NMBS/SNCB,Liège-Guillemins -- Bruges,Train régional,Jour,Bruges,2003,Liège-Guillemins,4136,04:09:00,06:49:00,2.67,,18.0,,électrique,GTFS sncb_belgium
+BE_556_0,NMBS/SNCB,Liège-Guillemins -- Knokke,Train régional,Jour,Knokke,4854,Liège-Guillemins,4136,04:46:00,07:52:00,3.1,,18.0,,électrique,GTFS sncb_belgium
+BE_557_0,NMBS/SNCB,Brussels Airport-Zaventem -- Liège-Guillemins,Train régional,Jour,Brussels Airport-Zaventem,4501,Liège-Guillemins,4136,07:38:00,08:33:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_558_0,NMBS/SNCB,Liège-Guillemins -- Blankenberge,Train régional,Jour,Blankenberge,4849,Liège-Guillemins,4136,06:39:00,09:33:00,2.9,,18.0,,électrique,GTFS sncb_belgium
+BE_559_0,NMBS/SNCB,Ans -- Knokke,Train régional,Jour,Knokke,4854,Ans,4602,09:46:00,12:22:00,2.6,,18.0,,électrique,GTFS sncb_belgium
+BE_560_0,NMBS/SNCB,Liège-Guillemins -- Ostende,Train régional,Jour,Ostende,4855,Liège-Guillemins,4136,10:54:00,13:52:00,2.97,,18.0,,électrique,GTFS sncb_belgium
+BE_561_0,NMBS/SNCB,Landen -- Knokke,Train régional,Jour,Knokke,4854,Landen,4600,21:46:00,00:20:00,2.57,,18.0,,électrique,GTFS sncb_belgium
+BE_562_0,NMBS/SNCB,Louvain -- Knokke,Train régional,Jour,Knokke,4854,Louvain,4587,21:46:00,23:51:00,2.08,,18.0,,électrique,GTFS sncb_belgium
+BE_563_0,NMBS/SNCB,Anvers-Central -- Louvain,Train régional,Jour,Anvers-Central,4502,Louvain,4587,04:58:00,06:02:00,1.07,,18.0,,électrique,GTFS sncb_belgium
+BE_564_0,NMBS/SNCB,Lierre -- Louvain,Train régional,Jour,Lierre,4521,Louvain,4587,07:05:00,07:49:00,0.73,,18.0,,électrique,GTFS sncb_belgium
+BE_565_0,NMBS/SNCB,Anvers-Central -- Aarschot,Train régional,Jour,Anvers-Central,4502,Aarschot,4593,16:58:00,17:47:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_566_0,NMBS/SNCB,Anvers-Central -- Begijnendijk,Train régional,Nuit,Anvers-Central,4502,Begijnendijk,4532,22:58:00,23:41:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_567_0,NMBS/SNCB,Anvers-Berchem -- Louvain,Train régional,Jour,Louvain,4587,Anvers-Berchem,4507,08:11:00,09:09:00,0.97,,18.0,,électrique,GTFS sncb_belgium
+BE_568_0,NMBS/SNCB,Anvers-Berchem -- Louvain,Train régional,Jour,Anvers-Berchem,4507,Louvain,4587,06:38:00,07:25:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_569_0,NMBS/SNCB,Lierre -- Louvain,Train régional,Jour,Lierre,4521,Louvain,4587,15:51:00,16:25:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_570_0,NMBS/SNCB,Anvers-Central -- Anvers-Berchem,Train régional,Jour,Anvers-Berchem,4507,Anvers-Central,4502,20:24:00,20:28:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_571_0,NMBS/SNCB,Anvers-Central -- Mol,Train régional,Jour,Anvers-Central,4502,Mol,4580,06:23:00,07:22:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_572_0,NMBS/SNCB,Anvers-Central -- La Panne,Train régional,Jour,Anvers-Central,4502,La Panne,4866,06:49:00,09:08:00,2.32,,18.0,,électrique,GTFS sncb_belgium
+BE_573_0,NMBS/SNCB,La Panne -- Saint-Nicolas,Train régional,Jour,Saint-Nicolas,4904,La Panne,4866,07:15:00,09:08:00,1.88,,18.0,,électrique,GTFS sncb_belgium
+BE_574_0,NMBS/SNCB,Anvers-Central -- Gentbrugge,Train régional,Jour,Anvers-Central,4502,Gentbrugge,4884,11:51:00,12:45:00,0.9,,18.0,,électrique,GTFS sncb_belgium
+BE_575_0,NMBS/SNCB,Anvers-Central -- Dixmude,Train régional,Jour,Anvers-Central,4502,Dixmude,4868,20:51:00,22:47:00,1.93,,18.0,,électrique,GTFS sncb_belgium
+BE_576_0,NMBS/SNCB,Ottignies -- Louvain,Train régional,Jour,Ottignies,4441,Louvain,4587,05:25:00,06:07:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_577_0,NMBS/SNCB,Louvain -- Sint-Joris-Weert,Train régional,Jour,Sint-Joris-Weert,4591,Louvain,4587,05:54:00,06:07:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_578_0,NMBS/SNCB,Anvers-Berchem -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Anvers-Berchem,4507,05:05:00,06:48:00,1.72,,18.0,,électrique,GTFS sncb_belgium
+BE_579_0,NMBS/SNCB,Bruxelles-Midi -- Anvers-Berchem,Train régional,Jour,Bruxelles-Midi,4474,Anvers-Berchem,4507,05:59:00,06:54:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_580_0,NMBS/SNCB,Nivelles -- Anvers-Central,Train régional,Jour,Nivelles,4482,Anvers-Central,4502,05:29:00,06:54:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_581_0,NMBS/SNCB,Anvers-Central -- Binche,Train régional,Jour,Binche,4800,Anvers-Central,4502,06:46:00,08:53:00,2.12,,18.0,,électrique,GTFS sncb_belgium
+BE_582_0,NMBS/SNCB,Bruxelles-Midi -- Anvers-Central,Train régional,Jour,Bruxelles-Midi,4474,Anvers-Central,4502,15:56:00,16:52:00,0.93,,18.0,,électrique,GTFS sncb_belgium
+BE_583_0,NMBS/SNCB,Bruxelles-Nord -- Nivelles,Train régional,Jour,Bruxelles-Nord,3894,Nivelles,4482,05:34:00,06:09:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_584_0,NMBS/SNCB,Bruxelles-Midi -- Malines,Train régional,Jour,Malines,4535,Bruxelles-Midi,4474,10:33:00,11:03:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_585_0,NMBS/SNCB,Bruxelles-Central -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Central,4471,Bruxelles-Midi,4474,13:59:00,14:03:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_586_0,NMBS/SNCB,Hal -- Malines,Train régional,Jour,Hal,4486,Malines,4535,06:05:00,07:24:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_587_0,NMBS/SNCB,Vilvorde -- Hal,Train régional,Jour,Vilvorde,4420,Hal,4486,12:04:00,12:55:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_588_0,NMBS/SNCB,Boondael -- Malines,Train régional,Jour,Malines,4535,Boondael,4496,12:37:00,13:33:00,0.93,,18.0,,électrique,GTFS sncb_belgium
+BE_589_0,NMBS/SNCB,Tournai -- Termonde,Train régional,Jour,Tournai,3825,Termonde,4888,05:09:00,06:56:00,1.78,,18.0,,électrique,GTFS sncb_belgium
+BE_590_0,NMBS/SNCB,Bruxelles-Midi -- Termonde,Train régional,Jour,Bruxelles-Midi,4474,Termonde,4888,06:17:00,06:56:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_591_0,NMBS/SNCB,Mouscron -- Termonde,Train régional,Jour,Mouscron,3827,Termonde,4888,05:44:00,07:56:00,2.2,,18.0,,électrique,GTFS sncb_belgium
+BE_592_0,NMBS/SNCB,Termonde -- Courtrai,Train régional,Jour,Courtrai,3828,Termonde,4888,06:38:00,08:56:00,2.3,,18.0,,électrique,GTFS sncb_belgium
+BE_593_0,NMBS/SNCB,Opwijk -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Opwijk,4462,06:17:00,06:47:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_594_0,NMBS/SNCB,Jette -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Jette,4457,06:17:00,06:34:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_595_0,NMBS/SNCB,Jette -- Courtrai,Train régional,Jour,Courtrai,3828,Jette,4457,21:34:00,23:38:00,2.07,,18.0,,électrique,GTFS sncb_belgium
+BE_596_0,NMBS/SNCB,Ath -- Courtrai,Train régional,Jour,Ath,4828,Courtrai,3828,06:29:00,07:22:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_597_0,NMBS/SNCB,Mouscron -- Ath,Train régional,Jour,Ath,4828,Mouscron,3827,06:31:00,07:18:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_598_0,NMBS/SNCB,Tournai -- Ath,Train régional,Jour,Ath,4828,Tournai,3825,06:32:00,06:56:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_599_0,NMBS/SNCB,Ath -- Termonde,Train régional,Jour,Termonde,4888,Ath,4828,21:04:00,22:26:00,1.37,,18.0,,électrique,GTFS sncb_belgium
+BE_600_0,NMBS/SNCB,Louvain -- Landen,Train régional,Jour,Louvain,4587,Landen,4600,07:14:00,07:45:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_601_0,NMBS/SNCB,Nivelles -- Landen,Train régional,Jour,Nivelles,4482,Landen,4600,05:39:00,07:45:00,2.1,,18.0,,électrique,GTFS sncb_belgium
+BE_602_0,NMBS/SNCB,Nivelles -- Louvain,Train régional,Jour,Nivelles,4482,Louvain,4587,05:39:00,07:04:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_603_0,NMBS/SNCB,Anvers-Central -- Malines,Train régional,Jour,Anvers-Central,4502,Malines,4535,21:36:00,22:00:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_604_0,NMBS/SNCB,Hal -- Malines,Train régional,Jour,Hal,4486,Malines,4535,05:44:00,06:52:00,1.13,,18.0,,électrique,GTFS sncb_belgium
+BE_605_0,NMBS/SNCB,Malines -- Grammont,Train régional,Jour,Grammont,4926,Malines,4535,05:10:00,06:52:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_606_0,NMBS/SNCB,Bruxelles-Luxembourg -- Hal,Train régional,Jour,Hal,4486,Bruxelles-Luxembourg,4430,07:41:00,08:10:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_607_0,NMBS/SNCB,Bruxelles-Luxembourg -- Malines,Train régional,Jour,Bruxelles-Luxembourg,4430,Malines,4535,08:12:00,08:49:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_608_0,NMBS/SNCB,Huizingen -- Malines,Train régional,Jour,Huizingen,4492,Malines,4535,07:45:00,08:49:00,1.07,,18.0,,électrique,GTFS sncb_belgium
+BE_609_0,NMBS/SNCB,Schaerbeek -- Grammont,Train régional,Nuit,Grammont,4926,Schaerbeek,4413,22:10:00,23:41:00,1.52,,18.0,,électrique,GTFS sncb_belgium
+BE_610_0,NMBS/SNCB,Vilvorde -- Hal,Train régional,Jour,Vilvorde,4420,Hal,4486,17:29:00,18:24:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_611_0,NMBS/SNCB,Turnhout -- Binche,Train régional,Jour,Binche,4800,Turnhout,4533,05:20:00,07:54:00,2.57,,18.0,,électrique,GTFS sncb_belgium
+BE_612_0,NMBS/SNCB,Schaerbeek -- Binche,Train régional,Jour,Binche,4800,Schaerbeek,4413,05:11:00,06:49:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_613_0,NMBS/SNCB,Turnhout -- Tournai,Train régional,Jour,Tournai,3825,Turnhout,4533,05:15:00,07:54:00,2.65,,18.0,,électrique,GTFS sncb_belgium
+BE_614_0,NMBS/SNCB,Schaerbeek -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Schaerbeek,4413,06:05:00,06:49:00,0.73,,18.0,,électrique,GTFS sncb_belgium
+BE_615_0,NMBS/SNCB,Schaerbeek -- Manage,Train régional,Jour,Manage,4801,Schaerbeek,4413,05:46:00,06:49:00,1.05,,18.0,,électrique,GTFS sncb_belgium
+BE_616_0,NMBS/SNCB,Hal -- Binche,Train régional,Jour,Binche,4800,Hal,4486,05:11:00,06:18:00,1.12,,18.0,,électrique,GTFS sncb_belgium
+BE_617_0,NMBS/SNCB,Turnhout -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,Turnhout,4533,11:38:00,13:53:00,2.25,,18.0,,électrique,GTFS sncb_belgium
+BE_618_0,NMBS/SNCB,Lierre -- Binche,Train régional,Jour,Binche,4800,Lierre,4521,21:20:00,23:20:00,2.0,,18.0,,électrique,GTFS sncb_belgium
+BE_619_0,NMBS/SNCB,Turnhout -- Weerde,Train régional,Jour,Turnhout,4533,Weerde,4543,07:04:00,08:03:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_620_0,NMBS/SNCB,Turnhout -- La Louvière-Centre,Train régional,Jour,Turnhout,4533,La Louvière-Centre,4796,21:04:00,23:16:00,2.2,,18.0,,électrique,GTFS sncb_belgium
+BE_621_0,NMBS/SNCB,Schaerbeek -- La Louvière-Sud,Train régional,Nuit,Schaerbeek,4413,La Louvière-Sud,4797,23:12:00,00:25:00,1.22,,18.0,,électrique,GTFS sncb_belgium
+BE_622_0,NMBS/SNCB,Hal -- La Louvière-Sud,Train régional,Nuit,Hal,4486,La Louvière-Sud,4797,23:41:00,00:25:00,0.73,,18.0,,électrique,GTFS sncb_belgium
+BE_623_0,NMBS/SNCB,Malines -- Enghien,Train régional,Jour,Enghien,4809,Malines,4535,05:02:00,06:25:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_624_0,NMBS/SNCB,Vilvorde -- Grammont,Train régional,Jour,Grammont,4926,Vilvorde,4420,07:40:00,09:06:00,1.43,,18.0,,électrique,GTFS sncb_belgium
+BE_625_0,NMBS/SNCB,Bruxelles-Luxembourg -- Grammont,Train régional,Jour,Grammont,4926,Bruxelles-Luxembourg,4430,18:40:00,19:43:00,1.05,,18.0,,électrique,GTFS sncb_belgium
+BE_626_0,NMBS/SNCB,Bruxelles-Midi -- Genk,Train régional,Jour,Bruxelles-Midi,4474,Genk,4569,05:11:00,06:53:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_627_0,NMBS/SNCB,Schaerbeek -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Schaerbeek,4413,06:13:00,07:25:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_628_0,NMBS/SNCB,Bruxelles-Midi -- Tongres,Train régional,Jour,Bruxelles-Midi,4474,Tongres,4567,05:11:00,07:19:00,2.13,,18.0,,électrique,GTFS sncb_belgium
+BE_629_0,NMBS/SNCB,Bruxelles-Midi -- Tirlemont,Train régional,Jour,Bruxelles-Midi,4474,Tirlemont,4598,05:11:00,05:53:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_630_0,NMBS/SNCB,Louvain -- La Panne,Train régional,Jour,La Panne,4866,Louvain,4587,05:52:00,08:41:00,2.82,,18.0,,électrique,GTFS sncb_belgium
+BE_631_0,NMBS/SNCB,Bruxelles-Midi -- La Panne,Train régional,Jour,La Panne,4866,Bruxelles-Midi,4474,05:52:00,08:07:00,2.25,,18.0,,électrique,GTFS sncb_belgium
+BE_632_0,NMBS/SNCB,Schaerbeek -- La Panne,Train régional,Jour,La Panne,4866,Schaerbeek,4413,05:52:00,08:25:00,2.55,,18.0,,électrique,GTFS sncb_belgium
+BE_633_0,NMBS/SNCB,Louvain -- Dixmude,Train régional,Jour,Dixmude,4868,Louvain,4587,06:13:00,08:41:00,2.47,,18.0,,électrique,GTFS sncb_belgium
+BE_634_0,NMBS/SNCB,Louvain -- Lichtervelde,Train régional,Jour,Lichtervelde,4861,Louvain,4587,06:31:00,08:41:00,2.17,,18.0,,électrique,GTFS sncb_belgium
+BE_635_0,NMBS/SNCB,Tongres -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Tongres,4567,05:13:00,08:19:00,3.1,,18.0,,électrique,GTFS sncb_belgium
+BE_636_0,NMBS/SNCB,Louvain -- Furnes,Train régional,Jour,Furnes,4864,Louvain,4587,06:01:00,08:41:00,2.67,,18.0,,électrique,GTFS sncb_belgium
+BE_637_0,NMBS/SNCB,Tirlemont -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Tirlemont,4598,05:13:00,06:53:00,1.67,,18.0,,électrique,GTFS sncb_belgium
+BE_638_0,NMBS/SNCB,Gand-Saint-Pierre -- Alost,Train régional,Nuit,Gand-Saint-Pierre,4856,Alost,4911,23:12:00,23:41:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_639_0,NMBS/SNCB,Genk -- Tirlemont,Train régional,Jour,Genk,4569,Tirlemont,4598,08:06:00,09:04:00,0.97,,18.0,,électrique,GTFS sncb_belgium
+BE_640_0,NMBS/SNCB,Louvain -- Deinze,Train régional,Jour,Louvain,4587,Deinze,4860,09:19:00,11:07:00,1.8,,18.0,,électrique,GTFS sncb_belgium
+BE_641_0,NMBS/SNCB,Louvain -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Louvain,4587,05:51:00,07:19:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_642_0,NMBS/SNCB,Bruxelles-Midi -- Louvain,Train régional,Jour,Bruxelles-Midi,4474,Louvain,4587,06:30:00,07:19:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_643_0,NMBS/SNCB,Bruxelles-Midi -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Bruxelles-Midi,4474,07:22:00,07:55:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_644_0,NMBS/SNCB,Schaerbeek -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Schaerbeek,4413,06:50:00,07:42:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_645_0,NMBS/SNCB,Schaerbeek -- Bruxelles-Midi,Train régional,Nuit,Bruxelles-Midi,4474,Schaerbeek,4413,01:30:00,01:44:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_646_0,NMBS/SNCB,Hal -- Louvain,Train régional,Jour,Louvain,4587,Hal,4486,08:41:00,09:52:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_647_0,NMBS/SNCB,Bruxelles-Nord -- Louvain,Train régional,Jour,Louvain,4587,Bruxelles-Nord,3894,20:41:00,21:20:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_648_0,NMBS/SNCB,Brussels Airport-Zaventem -- Mons,Train régional,Jour,Mons,4783,Brussels Airport-Zaventem,4501,04:20:00,05:31:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_649_0,NMBS/SNCB,Brussels Airport-Zaventem -- Quévy,Train régional,Jour,Quévy,4793,Brussels Airport-Zaventem,4501,05:57:00,07:32:00,1.58,,18.0,,électrique,GTFS sncb_belgium
+BE_650_0,NMBS/SNCB,Brussels Airport-Zaventem -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Brussels Airport-Zaventem,4501,06:47:00,07:31:00,0.73,,18.0,,électrique,GTFS sncb_belgium
+BE_651_0,NMBS/SNCB,Brussels Airport-Zaventem -- Saint-Ghislain,Train régional,Jour,Saint-Ghislain,4812,Brussels Airport-Zaventem,4501,10:09:00,11:31:00,1.37,,18.0,,électrique,GTFS sncb_belgium
+BE_652_0,NMBS/SNCB,Bruxelles-Nord -- Brussels Airport-Zaventem,Train régional,Nuit,Brussels Airport-Zaventem,4501,Bruxelles-Nord,3894,00:30:00,00:41:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_653_0,NMBS/SNCB,Bruxelles-Midi -- Hal,Train régional,Nuit,Bruxelles-Midi,4474,Hal,4486,01:03:00,01:21:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_654_0,NMBS/SNCB,Herstal -- Mons,Train régional,Jour,Mons,4783,Herstal,4612,04:37:00,06:53:00,2.27,,18.0,,électrique,GTFS sncb_belgium
+BE_655_0,NMBS/SNCB,Statte -- Namur,Train régional,Jour,Namur,4683,Statte,4642,06:28:00,06:49:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_656_0,NMBS/SNCB,Flémalle-Haute -- Namur,Train régional,Jour,Namur,4683,Flémalle-Haute,4635,06:28:00,07:04:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_657_0,NMBS/SNCB,Liers -- Mons,Train régional,Jour,Mons,4783,Liers,4614,06:15:00,08:43:00,2.47,,18.0,,électrique,GTFS sncb_belgium
+BE_658_0,NMBS/SNCB,Statte -- Mons,Train régional,Jour,Mons,4783,Statte,4642,06:15:00,07:49:00,1.57,,18.0,,électrique,GTFS sncb_belgium
+BE_659_0,NMBS/SNCB,Liers -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,Liers,4614,06:34:00,08:44:00,2.17,,18.0,,électrique,GTFS sncb_belgium
+BE_660_0,NMBS/SNCB,Flémalle-Haute -- Mons,Train régional,Jour,Mons,4783,Flémalle-Haute,4635,06:15:00,08:04:00,1.82,,18.0,,électrique,GTFS sncb_belgium
+BE_661_0,NMBS/SNCB,Liers -- Tamines,Train régional,Jour,Tamines,4778,Liers,4614,07:06:00,08:43:00,1.62,,18.0,,électrique,GTFS sncb_belgium
+BE_662_0,NMBS/SNCB,Liers -- Mouscron,Train régional,Jour,Mouscron,3827,Liers,4614,06:13:00,09:43:00,3.5,,18.0,,électrique,GTFS sncb_belgium
+BE_663_0,NMBS/SNCB,Statte -- Mouscron,Train régional,Jour,Mouscron,3827,Statte,4642,06:13:00,08:49:00,2.6,,18.0,,électrique,GTFS sncb_belgium
+BE_664_0,NMBS/SNCB,Namur -- Mouscron,Train régional,Jour,Mouscron,3827,Namur,4683,06:13:00,08:25:00,2.2,,18.0,,électrique,GTFS sncb_belgium
+BE_665_0,NMBS/SNCB,Liers -- Tournai,Train régional,Jour,Tournai,3825,Liers,4614,06:27:00,09:43:00,3.27,,18.0,,électrique,GTFS sncb_belgium
+BE_666_0,NMBS/SNCB,Tamines -- Mouscron,Train régional,Jour,Mouscron,3827,Tamines,4778,06:13:00,08:08:00,1.92,,18.0,,électrique,GTFS sncb_belgium
+BE_667_0,NMBS/SNCB,Flémalle-Haute -- Blaton,Train régional,Jour,Blaton,4821,Flémalle-Haute,4635,06:49:00,09:04:00,2.25,,18.0,,électrique,GTFS sncb_belgium
+BE_668_0,NMBS/SNCB,Flémalle-Haute -- Mouscron,Train régional,Jour,Mouscron,3827,Flémalle-Haute,4635,06:13:00,09:04:00,2.85,,18.0,,électrique,GTFS sncb_belgium
+BE_669_0,NMBS/SNCB,Liège-Guillemins -- Mons,Train régional,Jour,Mons,4783,Liège-Guillemins,4136,07:38:00,09:47:00,2.15,,18.0,,électrique,GTFS sncb_belgium
+BE_670_0,NMBS/SNCB,Liège-Saint-Lambert -- Mouscron,Train régional,Jour,Mouscron,3827,Liège-Saint-Lambert,4610,20:13:00,23:26:00,3.22,,18.0,,électrique,GTFS sncb_belgium
+BE_671_0,NMBS/SNCB,Namur -- Blaton,Train régional,Jour,Blaton,4821,Namur,4683,21:49:00,23:27:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_672_0,NMBS/SNCB,Namur -- Tamines,Train régional,Nuit,Tamines,4778,Namur,4683,23:06:00,23:27:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_673_0,NMBS/SNCB,Charleroi-Central -- La Louvière-Sud,Train régional,Nuit,La Louvière-Sud,4797,Charleroi-Central,4757,23:25:00,23:44:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_674_0,NMBS/SNCB,Mons -- Blaton,Train régional,Nuit,Blaton,4821,Mons,4783,22:49:00,23:12:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_675_0,NMBS/SNCB,Charleroi-Central -- Blaton,Train régional,Jour,Charleroi-Central,4757,Blaton,4821,06:10:00,07:09:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_676_0,NMBS/SNCB,Charleroi-Central -- Tournai,Train régional,Jour,Charleroi-Central,4757,Tournai,3825,06:10:00,07:32:00,1.37,,18.0,,électrique,GTFS sncb_belgium
+BE_677_0,NMBS/SNCB,Herstal -- La Louvière-Sud,Train régional,Jour,Herstal,4612,La Louvière-Sud,4797,21:05:00,23:08:00,2.05,,18.0,,électrique,GTFS sncb_belgium
+BE_678_0,NMBS/SNCB,Herstal -- Charleroi-Central,Train régional,Jour,Herstal,4612,Charleroi-Central,4757,21:05:00,22:46:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_679_0,NMBS/SNCB,Liers -- Charleroi-Central,Train régional,Jour,Liers,4614,Charleroi-Central,4757,21:16:00,23:07:00,1.85,,18.0,,électrique,GTFS sncb_belgium
+BE_680_0,NMBS/SNCB,Statte -- Charleroi-Central,Train régional,Nuit,Statte,4642,Charleroi-Central,4757,22:10:00,23:07:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_681_0,NMBS/SNCB,Flémalle-Haute -- Charleroi-Central,Train régional,Jour,Flémalle-Haute,4635,Charleroi-Central,4757,21:54:00,23:07:00,1.22,,18.0,,électrique,GTFS sncb_belgium
+BE_682_0,NMBS/SNCB,Herstal -- Tamines,Train régional,Nuit,Herstal,4612,Tamines,4778,22:05:00,23:31:00,1.43,,18.0,,électrique,GTFS sncb_belgium
+BE_683_0,NMBS/SNCB,Charleroi-Central -- Tamines,Train régional,Nuit,Tamines,4778,Charleroi-Central,4757,22:53:00,23:07:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_684_0,NMBS/SNCB,Opwijk -- Bruxelles-Midi,Train régional,Jour,Opwijk,4462,Bruxelles-Midi,4474,07:22:00,07:58:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_685_0,NMBS/SNCB,Bruxelles-Midi -- Termonde,Train régional,Jour,Termonde,4888,Bruxelles-Midi,4474,07:09:00,07:58:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_686_0,NMBS/SNCB,Charleroi-Central -- Couvin,Train régional,Jour,Charleroi-Central,4757,Couvin,4782,08:21:00,09:23:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_687_0,NMBS/SNCB,Charleroi-Central -- Mariembourg,Train régional,Jour,Charleroi-Central,4757,Mariembourg,4781,10:21:00,11:12:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_688_0,NMBS/SNCB,Mariembourg -- Couvin,Train régional,Jour,Couvin,4782,Mariembourg,4781,11:04:00,11:11:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_689_0,NMBS/SNCB,Louvain-la-Neuve -- Audenarde,Train régional,Jour,Audenarde,4869,Louvain-la-Neuve,4443,05:00:00,07:21:00,2.35,,18.0,,électrique,GTFS sncb_belgium
+BE_690_0,NMBS/SNCB,Louvain-la-Neuve -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Louvain-la-Neuve,4443,05:57:00,07:21:00,1.4,,18.0,,électrique,GTFS sncb_belgium
+BE_691_0,NMBS/SNCB,Louvain-la-Neuve -- Zottegem,Train régional,Jour,Zottegem,4915,Louvain-la-Neuve,4443,06:24:00,08:21:00,1.95,,18.0,,électrique,GTFS sncb_belgium
+BE_692_0,NMBS/SNCB,Louvain-la-Neuve -- Burst,Train régional,Jour,Burst,4922,Louvain-la-Neuve,4443,15:40:00,17:21:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_693_0,NMBS/SNCB,Louvain-la-Neuve -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Louvain-la-Neuve,4443,20:20:00,21:21:00,1.02,,18.0,,électrique,GTFS sncb_belgium
+BE_694_0,NMBS/SNCB,Namur -- Zottegem,Train régional,Jour,Namur,4683,Zottegem,4915,04:20:00,06:32:00,2.2,,18.0,,électrique,GTFS sncb_belgium
+BE_695_0,NMBS/SNCB,Namur -- Denderleeuw,Train régional,Jour,Namur,4683,Denderleeuw,4939,04:20:00,06:03:00,1.72,,18.0,,électrique,GTFS sncb_belgium
+BE_696_0,NMBS/SNCB,Ottignies -- Louvain-la-Neuve,Train régional,Jour,Louvain-la-Neuve,4443,Ottignies,4441,21:41:00,21:48:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_697_0,NMBS/SNCB,Bruxelles-Luxembourg -- Louvain,Train régional,Jour,Bruxelles-Luxembourg,4430,Louvain,4587,04:35:00,05:13:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_698_0,NMBS/SNCB,Louvain -- Landen,Train régional,Jour,Louvain,4587,Landen,4600,06:15:00,06:43:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_699_0,NMBS/SNCB,Nivelles -- Landen,Train régional,Jour,Nivelles,4482,Landen,4600,04:45:00,06:43:00,1.97,,18.0,,électrique,GTFS sncb_belgium
+BE_700_0,NMBS/SNCB,Bruxelles-Luxembourg -- Landen,Train régional,Jour,Bruxelles-Luxembourg,4430,Landen,4600,05:36:00,06:51:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_701_0,NMBS/SNCB,Nivelles -- Louvain,Train régional,Jour,Nivelles,4482,Louvain,4587,04:45:00,06:12:00,1.45,,18.0,,électrique,GTFS sncb_belgium
+BE_702_0,NMBS/SNCB,Bruxelles-Luxembourg -- Nivelles,Train régional,Jour,Nivelles,4482,Bruxelles-Luxembourg,4430,04:45:00,05:33:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_703_0,NMBS/SNCB,Brussels Airport-Zaventem -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Brussels Airport-Zaventem,4501,05:38:00,07:13:00,1.58,,18.0,,électrique,GTFS sncb_belgium
+BE_704_0,NMBS/SNCB,Bruxelles-Luxembourg -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Bruxelles-Luxembourg,4430,05:38:00,06:50:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_705_0,NMBS/SNCB,Bruxelles-Luxembourg -- Brussels Airport-Zaventem,Train régional,Jour,Bruxelles-Luxembourg,4430,Brussels Airport-Zaventem,4501,06:53:00,07:13:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_706_0,NMBS/SNCB,Louvain -- Courtrai,Train régional,Jour,Courtrai,3828,Louvain,4587,04:16:00,05:56:00,1.67,,18.0,,électrique,GTFS sncb_belgium
+BE_707_0,NMBS/SNCB,Welkenraedt -- Courtrai,Train régional,Jour,Courtrai,3828,Welkenraedt,4657,05:17:00,08:11:00,2.9,,18.0,,électrique,GTFS sncb_belgium
+BE_708_0,NMBS/SNCB,Louvain -- Ostende,Train régional,Jour,Ostende,4855,Louvain,4587,06:58:00,09:56:00,2.97,,18.0,,électrique,GTFS sncb_belgium
+BE_709_0,NMBS/SNCB,Louvain -- Termonde,Train régional,Jour,Termonde,4888,Louvain,4587,05:24:00,06:14:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_710_0,NMBS/SNCB,Louvain -- Bruges,Train régional,Jour,Bruges,2003,Louvain,4587,17:10:00,19:14:00,2.07,,18.0,,électrique,GTFS sncb_belgium
+BE_711_0,NMBS/SNCB,Wijgmaal -- Gand-Saint-Pierre,Train régional,Jour,Wijgmaal,4592,Gand-Saint-Pierre,4856,13:52:00,15:03:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_712_0,NMBS/SNCB,Jambes -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Jambes,4684,05:54:00,06:53:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_713_0,NMBS/SNCB,Jambes -- Luttre,Train régional,Jour,Luttre,4740,Jambes,4684,07:29:00,08:53:00,1.4,,18.0,,électrique,GTFS sncb_belgium
+BE_714_0,NMBS/SNCB,De Pinte -- Courtrai,Train régional,Jour,Courtrai,3828,De Pinte,4859,16:17:00,16:44:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_715_0,NMBS/SNCB,Ottignies -- Jambes,Train régional,Jour,Ottignies,4441,Jambes,4684,16:04:00,17:53:00,1.82,,18.0,,électrique,GTFS sncb_belgium
+BE_716_0,NMBS/SNCB,Charleroi-Central -- Tamines,Train régional,Jour,Tamines,4778,Charleroi-Central,4757,06:39:00,07:06:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_717_0,NMBS/SNCB,Anvers-Central -- Turnhout,Train régional,Jour,Turnhout,4533,Anvers-Central,4502,05:21:00,06:13:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_718_0,NMBS/SNCB,Anvers-Central -- Turnhout,Train régional,Jour,Anvers-Central,4502,Turnhout,4533,11:47:00,12:38:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_719_0,NMBS/SNCB,Luttre -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,Luttre,4740,05:24:00,05:54:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_720_0,NMBS/SNCB,La Louvière-Sud -- Manage,Train régional,Jour,La Louvière-Sud,4797,Manage,4801,05:24:00,05:37:00,0.22,,18.0,,électrique,GTFS sncb_belgium
+BE_721_0,NMBS/SNCB,Luttre -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Luttre,4740,05:55:00,06:55:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_722_0,NMBS/SNCB,Charleroi-Central -- Manage,Train régional,Jour,Charleroi-Central,4757,Manage,4801,05:55:00,06:37:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_723_0,NMBS/SNCB,Charleroi-Central -- La Louvière-Centre,Train régional,Jour,Charleroi-Central,4757,La Louvière-Centre,4796,07:52:00,08:26:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_725_0,NMBS/SNCB,Charleroi-Central -- La Louvière-Sud,Train régional,Jour,Charleroi-Central,4757,La Louvière-Sud,4797,07:30:00,07:56:00,0.43,,18.0,,électrique,GTFS sncb_belgium
+BE_726_0,NMBS/SNCB,Bruxelles-Midi -- Welkenraedt,Train régional,Jour,Welkenraedt,4657,Bruxelles-Midi,4474,07:47:00,09:32:00,1.75,,18.0,,électrique,GTFS sncb_belgium
+BE_727_0,NMBS/SNCB,Anvers-Central -- Hamont,Train régional,Jour,Anvers-Central,4502,Hamont,4586,06:09:00,07:42:00,1.55,,18.0,,électrique,GTFS sncb_belgium
+BE_728_0,NMBS/SNCB,Lierre -- Hamont,Train régional,Jour,Lierre,4521,Hamont,4586,07:28:00,08:42:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_729_0,NMBS/SNCB,Anvers-Berchem -- Hamont,Train régional,Jour,Anvers-Berchem,4507,Hamont,4586,10:15:00,11:42:00,1.45,,18.0,,électrique,GTFS sncb_belgium
+BE_730_0,NMBS/SNCB,Herentals -- Hamont,Train régional,Jour,Herentals,4526,Hamont,4586,11:42:00,12:42:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_731_0,NMBS/SNCB,Anvers-Central -- Hamont,Train régional,Jour,Anvers-Central,4502,Hamont,4586,13:09:00,14:42:00,1.55,,18.0,,électrique,GTFS sncb_belgium
+BE_732_0,NMBS/SNCB,Anvers-Central -- Zonhoven,Train régional,Jour,Anvers-Central,4502,Zonhoven,4578,16:09:00,17:43:00,1.57,,18.0,,électrique,GTFS sncb_belgium
+BE_733_0,NMBS/SNCB,Anvers-Central -- Neerpelt,Train régional,Nuit,Anvers-Central,4502,Neerpelt,4585,22:24:00,23:53:00,1.48,,18.0,,électrique,GTFS sncb_belgium
+BE_734_0,NMBS/SNCB,Mol -- Neerpelt,Train régional,Jour,Neerpelt,4585,Mol,4580,05:00:00,05:19:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_735_0,NMBS/SNCB,Geel -- Hamont,Train régional,Jour,Hamont,4586,Geel,4581,16:18:00,17:06:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_736_0,NMBS/SNCB,Binche -- Braine-le-Comte,Train régional,Jour,Binche,4800,Braine-le-Comte,4802,05:56:00,06:37:00,0.68,,18.0,,électrique,GTFS sncb_belgium
+BE_737_0,NMBS/SNCB,La Louvière-Sud -- Braine-le-Comte,Train régional,Jour,La Louvière-Sud,4797,Braine-le-Comte,4802,08:10:00,08:37:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_738_0,NMBS/SNCB,La Louvière-Centre -- Manage,Train régional,Jour,La Louvière-Centre,4796,Manage,4801,20:29:00,20:37:00,0.13,,18.0,,électrique,GTFS sncb_belgium
+BE_739_0,NMBS/SNCB,Louvain -- Welkenraedt,Train régional,Jour,Welkenraedt,4657,Louvain,4587,16:49:00,18:03:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_740_0,NMBS/SNCB,Welkenraedt -- Ostende,Train régional,Jour,Welkenraedt,4657,Ostende,4855,17:48:00,22:03:00,4.25,,18.0,,électrique,GTFS sncb_belgium
+BE_741_0,NMBS/SNCB,Welkenraedt -- Ostende,Train régional,Jour,Welkenraedt,4657,Ostende,4855,17:48:00,22:03:00,4.25,,18.0,,électrique,GTFS sncb_belgium
+BE_742_0,NMBS/SNCB,Zonhoven -- Mol,Train régional,Jour,Mol,4580,Zonhoven,4578,05:07:00,05:43:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_743_0,NMBS/SNCB,Anvers-Central -- Hasselt,Train régional,Jour,Anvers-Central,4502,Hasselt,4562,06:09:00,07:53:00,1.73,,18.0,,électrique,GTFS sncb_belgium
+BE_744_0,NMBS/SNCB,Anvers-Central -- Zonhoven,Train régional,Jour,Anvers-Central,4502,Zonhoven,4578,06:09:00,07:43:00,1.57,,18.0,,électrique,GTFS sncb_belgium
+BE_745_0,NMBS/SNCB,Lierre -- Hasselt,Train régional,Jour,Lierre,4521,Hasselt,4562,07:28:00,08:54:00,1.43,,18.0,,électrique,GTFS sncb_belgium
+BE_746_0,NMBS/SNCB,Anvers-Berchem -- Hasselt,Train régional,Jour,Anvers-Berchem,4507,Hasselt,4562,10:15:00,11:54:00,1.65,,18.0,,électrique,GTFS sncb_belgium
+BE_747_0,NMBS/SNCB,Herentals -- Hasselt,Train régional,Jour,Herentals,4526,Hasselt,4562,11:42:00,12:54:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_748_0,NMBS/SNCB,Anvers-Central -- Hasselt,Train régional,Jour,Anvers-Central,4502,Hasselt,4562,12:09:00,13:54:00,1.75,,18.0,,électrique,GTFS sncb_belgium
+BE_749_0,NMBS/SNCB,Anvers-Central -- Zonhoven,Train régional,Jour,Anvers-Central,4502,Zonhoven,4578,18:09:00,19:43:00,1.57,,18.0,,électrique,GTFS sncb_belgium
+BE_750_0,NMBS/SNCB,Hasselt -- Geel,Train régional,Jour,Hasselt,4562,Geel,4581,16:06:00,17:06:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_751_0,NMBS/SNCB,Hasselt -- Mol,Train régional,Jour,Hasselt,4562,Mol,4580,21:42:00,22:30:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_752_0,NMBS/SNCB,Quévy -- La Louvière-Sud,Train régional,Jour,Quévy,4793,La Louvière-Sud,4797,05:23:00,06:18:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_753_0,NMBS/SNCB,Charleroi-Central -- Quévy,Train régional,Jour,Quévy,4793,Charleroi-Central,4757,06:23:00,07:44:00,1.35,,18.0,,électrique,GTFS sncb_belgium
+BE_754_0,NMBS/SNCB,Mons -- La Louvière-Sud,Train régional,Jour,Mons,4783,La Louvière-Sud,4797,07:52:00,08:15:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_755_0,NMBS/SNCB,Quévy -- La Louvière-Sud,Train régional,Jour,Quévy,4793,La Louvière-Sud,4797,07:23:00,08:18:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_757_0,NMBS/SNCB,Wavre -- Jambes,Train régional,Jour,Wavre,4445,Jambes,4684,06:09:00,08:16:00,2.12,,18.0,,électrique,GTFS sncb_belgium
+BE_758_0,NMBS/SNCB,Jambes -- Fleurus,Train régional,Jour,Fleurus,4760,Jambes,4684,06:54:00,08:16:00,1.37,,18.0,,électrique,GTFS sncb_belgium
+BE_759_0,NMBS/SNCB,Ottignies -- Tamines,Train régional,Jour,Ottignies,4441,Tamines,4778,06:23:00,07:37:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_760_0,NMBS/SNCB,Wavre -- Tamines,Train régional,Jour,Wavre,4445,Tamines,4778,06:09:00,07:40:00,1.52,,18.0,,électrique,GTFS sncb_belgium
+BE_761_0,NMBS/SNCB,Wavre -- Charleroi-Central,Train régional,Jour,Wavre,4445,Charleroi-Central,4757,06:09:00,07:09:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_762_0,NMBS/SNCB,Namur -- Fleurus,Train régional,Jour,Fleurus,4760,Namur,4683,07:54:00,09:22:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_763_0,NMBS/SNCB,Namur -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Namur,4683,08:17:00,09:22:00,1.08,,18.0,,électrique,GTFS sncb_belgium
+BE_764_0,NMBS/SNCB,Wavre -- Namur,Train régional,Jour,Wavre,4445,Namur,4683,09:09:00,11:09:00,2.0,,18.0,,électrique,GTFS sncb_belgium
+BE_765_0,NMBS/SNCB,Namur -- Jambes,Train régional,Jour,Namur,4683,Jambes,4684,14:14:00,14:18:00,0.07,,18.0,,électrique,GTFS sncb_belgium
+BE_766_0,NMBS/SNCB,Ottignies -- Namur,Train régional,Jour,Ottignies,4441,Namur,4683,19:23:00,21:09:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_767_0,NMBS/SNCB,Ottignies -- Charleroi-Central,Train régional,Jour,Ottignies,4441,Charleroi-Central,4757,20:23:00,21:09:00,0.77,,18.0,,électrique,GTFS sncb_belgium
+BE_768_0,NMBS/SNCB,Ottignies -- Fleurus,Train régional,Jour,Ottignies,4441,Fleurus,4760,21:26:00,21:56:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_769_0,NMBS/SNCB,Charleroi-Central -- Fleurus,Train régional,Jour,Fleurus,4760,Charleroi-Central,4757,21:54:00,22:09:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_770_0,NMBS/SNCB,Ottignies -- Wavre,Train régional,Jour,Ottignies,4441,Wavre,4445,06:40:00,06:51:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_771_0,NMBS/SNCB,Wavre -- Fleurus,Train régional,Jour,Fleurus,4760,Wavre,4445,07:06:00,07:51:00,0.75,,18.0,,électrique,GTFS sncb_belgium
+BE_772_0,NMBS/SNCB,Mons -- Quiévrain,Train régional,Jour,Quiévrain,4815,Mons,4783,07:36:00,08:04:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_774_0,NMBS/SNCB,Mouscron -- Grammont,Train régional,Jour,Grammont,4926,Mouscron,3827,05:34:00,07:55:00,2.35,,18.0,,électrique,GTFS sncb_belgium
+BE_775_0,NMBS/SNCB,Tournai -- Grammont,Train régional,Jour,Grammont,4926,Tournai,3825,05:34:00,07:41:00,2.12,,18.0,,électrique,GTFS sncb_belgium
+BE_776_0,NMBS/SNCB,Quévy -- Grammont,Train régional,Jour,Grammont,4926,Quévy,4793,06:33:00,07:52:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_777_0,NMBS/SNCB,Quévy -- Ath,Train régional,Jour,Ath,4828,Quévy,4793,07:01:00,07:52:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_778_0,NMBS/SNCB,Mouscron -- Grammont,Train régional,Jour,Grammont,4926,Mouscron,3827,12:34:00,14:55:00,2.35,,18.0,,électrique,GTFS sncb_belgium
+BE_779_0,NMBS/SNCB,Mouscron -- Ath,Train régional,Jour,Ath,4828,Mouscron,3827,13:59:00,15:55:00,1.93,,18.0,,électrique,GTFS sncb_belgium
+BE_780_0,NMBS/SNCB,Tournai -- Houraing,Train régional,Jour,Houraing,4836,Tournai,3825,18:44:00,20:34:00,1.83,,18.0,,électrique,GTFS sncb_belgium
+BE_781_0,NMBS/SNCB,Lierre -- Hasselt,Train régional,Jour,Lierre,4521,Hasselt,4562,12:34:00,13:19:00,0.75,,18.0,,électrique,GTFS sncb_belgium
+BE_782_0,NMBS/SNCB,Liège-Guillemins -- Huy,Train régional,Jour,Huy,4638,Liège-Guillemins,4136,05:09:00,05:51:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_783_0,NMBS/SNCB,Liège-Guillemins -- Namur,Train régional,Jour,Namur,4683,Liège-Guillemins,4136,06:37:00,07:49:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_784_0,NMBS/SNCB,Liège-Guillemins -- Statte,Train régional,Jour,Statte,4642,Liège-Guillemins,4136,07:13:00,07:53:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_785_0,NMBS/SNCB,Flémalle-Haute -- Namur,Train régional,Jour,Namur,4683,Flémalle-Haute,4635,06:43:00,07:38:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_786_0,NMBS/SNCB,Statte -- Namur,Train régional,Jour,Namur,4683,Statte,4642,06:37:00,07:06:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_791_0,NMBS/SNCB,Liège-Saint-Lambert -- Welkenraedt,Train régional,Jour,Liège-Saint-Lambert,4610,Welkenraedt,4657,21:08:00,22:05:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_792_0,NMBS/SNCB,Liège-Guillemins -- Liège-Saint-Lambert,Train régional,Nuit,Liège-Saint-Lambert,4610,Liège-Guillemins,4136,23:08:00,23:15:00,0.12,,18.0,,électrique,GTFS sncb_belgium
+BE_793_0,NMBS/SNCB,Liège-Saint-Lambert -- Verviers-Central,Train régional,Nuit,Liège-Saint-Lambert,4610,Verviers-Central,4645,23:08:00,23:50:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_794_0,NMBS/SNCB,Eupen -- Bruges,Train régional,Jour,Bruges,2003,Eupen,4659,04:59:00,07:42:00,2.72,,18.0,,électrique,GTFS sncb_belgium
+BE_796_0,NMBS/SNCB,Liège-Guillemins -- Welkenraedt,Train régional,Nuit,Welkenraedt,4657,Liège-Guillemins,4136,22:54:00,23:41:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_797_0,NMBS/SNCB,Verviers-Central -- Welkenraedt,Train régional,Nuit,Welkenraedt,4657,Verviers-Central,4645,22:54:00,23:08:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_798_0,NMBS/SNCB,Schaerbeek -- Courtrai,Train régional,Jour,Courtrai,3828,Schaerbeek,4413,05:42:00,07:11:00,1.48,,18.0,,électrique,GTFS sncb_belgium
+BE_799_0,NMBS/SNCB,Schaerbeek -- Audenarde,Train régional,Jour,Audenarde,4869,Schaerbeek,4413,06:02:00,07:11:00,1.15,,18.0,,électrique,GTFS sncb_belgium
+BE_800_0,NMBS/SNCB,Bruxelles-Midi -- Courtrai,Train régional,Jour,Courtrai,3828,Bruxelles-Midi,4474,14:42:00,16:02:00,1.33,,18.0,,électrique,GTFS sncb_belgium
+BE_801_0,NMBS/SNCB,Bruxelles-Midi -- Audenarde,Train régional,Jour,Audenarde,4869,Bruxelles-Midi,4474,15:02:00,16:02:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_802_0,NMBS/SNCB,Liège-Guillemins -- Courtrai,Train régional,Jour,Liège-Guillemins,4136,Courtrai,3828,06:23:00,09:15:00,2.87,,18.0,,électrique,GTFS sncb_belgium
+BE_803_0,NMBS/SNCB,Liège-Guillemins -- Audenarde,Train régional,Jour,Liège-Guillemins,4136,Audenarde,4869,06:23:00,08:56:00,2.55,,18.0,,électrique,GTFS sncb_belgium
+BE_804_0,NMBS/SNCB,Landen -- Visé,Train régional,Jour,Landen,4600,Visé,4665,05:39:00,06:46:00,1.12,,18.0,,électrique,GTFS sncb_belgium
+BE_805_0,NMBS/SNCB,Liège-Guillemins -- Waremme,Train régional,Jour,Waremme,4605,Liège-Guillemins,4136,05:34:00,06:10:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_806_0,NMBS/SNCB,Landen -- Liège-Guillemins,Train régional,Jour,Landen,4600,Liège-Guillemins,4136,05:39:00,06:25:00,0.77,,18.0,,électrique,GTFS sncb_belgium
+BE_807_0,NMBS/SNCB,Waremme -- Visé,Train régional,Jour,Waremme,4605,Visé,4665,09:50:00,10:46:00,0.93,,18.0,,électrique,GTFS sncb_belgium
+BE_808_0,NMBS/SNCB,Liège-Guillemins -- Visé,Train régional,Jour,Visé,4665,Liège-Guillemins,4136,10:14:00,10:32:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_809_0,NMBS/SNCB,Welkenraedt -- Bruges,Train régional,Jour,Bruges,2003,Welkenraedt,4657,20:00:00,22:32:00,2.53,,18.0,,électrique,GTFS sncb_belgium
+BE_810_0,NMBS/SNCB,Verviers-Central -- Ostende,Train régional,Jour,Ostende,4855,Verviers-Central,4645,21:42:00,00:42:00,3.0,,18.0,,électrique,GTFS sncb_belgium
+BE_811_0,NMBS/SNCB,Landen -- Ostende,Train régional,Nuit,Ostende,4855,Landen,4600,22:48:00,01:15:00,2.45,,18.0,,électrique,GTFS sncb_belgium
+BE_812_0,NMBS/SNCB,Liège-Guillemins -- Flémalle-Haute,Train régional,Jour,Liège-Guillemins,4136,Flémalle-Haute,4635,05:35:00,05:54:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_813_0,NMBS/SNCB,Liers -- Flémalle-Haute,Train régional,Jour,Liers,4614,Flémalle-Haute,4635,06:08:00,06:54:00,0.77,,18.0,,électrique,GTFS sncb_belgium
+BE_820_0,NMBS/SNCB,Liers -- Gouvy,Train régional,Jour,Liers,4614,Gouvy,4661,07:35:00,09:21:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_822_0,NMBS/SNCB,Rivage -- Gouvy,Train régional,Nuit,Rivage,4624,Gouvy,4661,22:32:00,23:22:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_823_0,NMBS/SNCB,Liège-Guillemins -- Verviers-Central,Train régional,Jour,Liège-Guillemins,4136,Verviers-Central,4645,05:42:00,06:16:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_824_0,NMBS/SNCB,Hasselt -- Verviers-Central,Train régional,Jour,Hasselt,4562,Verviers-Central,4645,05:38:00,07:16:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_825_0,NMBS/SNCB,Hasselt -- Liège-Guillemins,Train régional,Jour,Hasselt,4562,Liège-Guillemins,4136,05:38:00,06:39:00,1.02,,18.0,,électrique,GTFS sncb_belgium
+BE_826_0,NMBS/SNCB,Tongres -- Verviers-Central,Train régional,Jour,Tongres,4567,Verviers-Central,4645,06:01:00,07:16:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_827_0,NMBS/SNCB,Tongres -- Liège-Guillemins,Train régional,Jour,Tongres,4567,Liège-Guillemins,4136,06:43:00,07:20:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_828_0,NMBS/SNCB,Hasselt -- Tongres,Train régional,Jour,Hasselt,4562,Tongres,4567,09:34:00,09:56:00,0.37,,18.0,,électrique,GTFS sncb_belgium
+BE_829_0,NMBS/SNCB,Eupen -- Gand-Saint-Pierre,Train régional,Jour,Eupen,4659,Gand-Saint-Pierre,4856,16:17:00,18:31:00,2.23,,18.0,,électrique,GTFS sncb_belgium
+BE_830_0,NMBS/SNCB,Liège-Guillemins -- Eupen,Train régional,Jour,Eupen,4659,Liège-Guillemins,4136,20:17:00,20:56:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_831_0,NMBS/SNCB,Bruxelles-Midi -- Eupen,Train régional,Jour,Eupen,4659,Bruxelles-Midi,4474,21:17:00,23:03:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_832_0,NMBS/SNCB,Liège-Guillemins -- Liers,Train régional,Jour,Liers,4614,Liège-Guillemins,4136,07:41:00,08:06:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_833_0,NMBS/SNCB,Liège-Guillemins -- Herstal,Train régional,Jour,Herstal,4612,Liège-Guillemins,4136,09:51:00,10:06:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_834_0,NMBS/SNCB,Herstal -- Flémalle-Haute,Train régional,Jour,Herstal,4612,Flémalle-Haute,4635,09:51:00,10:27:00,0.6,,18.0,,électrique,GTFS sncb_belgium
+BE_835_0,NMBS/SNCB,Malines -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Malines,4535,04:21:00,05:27:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_836_0,NMBS/SNCB,Malines -- Bruges,Train régional,Jour,Bruges,2003,Malines,4535,04:34:00,06:27:00,1.88,,18.0,,électrique,GTFS sncb_belgium
+BE_837_0,NMBS/SNCB,Malines -- Londerzeel,Train régional,Jour,Londerzeel,4537,Malines,4535,06:13:00,06:24:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_838_0,NMBS/SNCB,Liers -- Marloie,Train régional,Jour,Liers,4614,Marloie,4703,05:44:00,07:24:00,1.67,,18.0,,électrique,GTFS sncb_belgium
+BE_839_0,NMBS/SNCB,Liers -- Bomal,Train régional,Jour,Liers,4614,Bomal,4708,07:46:00,09:01:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_840_0,NMBS/SNCB,Rivage -- Marloie,Train régional,Jour,Rivage,4624,Marloie,4703,08:43:00,09:24:00,0.68,,18.0,,électrique,GTFS sncb_belgium
+BE_841_0,NMBS/SNCB,Herstal -- Marloie,Train régional,Jour,Herstal,4612,Marloie,4703,09:56:00,11:24:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_842_0,NMBS/SNCB,Liers -- Rochefort-Jemelle,Train régional,Jour,Liers,4614,Rochefort-Jemelle,4700,19:44:00,21:33:00,1.82,,18.0,,électrique,GTFS sncb_belgium
+BE_843_0,NMBS/SNCB,Malines -- Zeebrugge-Dorp,Train régional,Jour,Zeebrugge-Dorp,4850,Malines,4535,07:08:00,09:27:00,2.32,,18.0,,électrique,GTFS sncb_belgium
+BE_844_0,NMBS/SNCB,Malines -- Zeebrugge-Strand,Train régional,Jour,Zeebrugge-Strand,4846,Malines,4535,07:07:00,09:27:00,2.33,,18.0,,électrique,GTFS sncb_belgium
+BE_845_0,NMBS/SNCB,Londerzeel -- Zeebrugge-Dorp,Train régional,Jour,Zeebrugge-Dorp,4850,Londerzeel,4537,07:08:00,09:15:00,2.12,,18.0,,électrique,GTFS sncb_belgium
+BE_846_0,NMBS/SNCB,Rivage -- Rochefort-Jemelle,Train régional,Nuit,Rivage,4624,Rochefort-Jemelle,4700,22:43:00,23:34:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_847_0,NMBS/SNCB,Herstal -- Rochefort-Jemelle,Train régional,Jour,Rochefort-Jemelle,4700,Herstal,4612,07:27:00,09:04:00,1.62,,18.0,,électrique,GTFS sncb_belgium
+BE_848_0,NMBS/SNCB,Louvain -- Charleroi-Central,Train régional,Jour,Charleroi-Central,4757,Louvain,4587,05:39:00,06:41:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_849_0,NMBS/SNCB,Ottignies -- Louvain,Train régional,Jour,Ottignies,4441,Louvain,4587,06:13:00,06:41:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_850_0,NMBS/SNCB,Louvain -- Fleurus,Train régional,Jour,Fleurus,4760,Louvain,4587,05:51:00,06:41:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_851_0,NMBS/SNCB,Bruges -- Termonde,Train régional,Jour,Bruges,2003,Termonde,4888,21:35:00,22:56:00,1.35,,18.0,,électrique,GTFS sncb_belgium
+BE_852_0,NMBS/SNCB,Ottignies -- Fleurus,Train régional,Nuit,Fleurus,4760,Ottignies,4441,23:51:00,00:10:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_853_0,NMBS/SNCB,Namur -- Libramont,Train régional,Jour,Namur,4683,Libramont,4718,06:16:00,08:07:00,1.85,,18.0,,électrique,GTFS sncb_belgium
+BE_854_0,NMBS/SNCB,Zeebrugge-Strand -- Termonde,Train régional,Jour,Termonde,4888,Zeebrugge-Strand,4846,05:03:00,06:50:00,1.78,,18.0,,électrique,GTFS sncb_belgium
+BE_857_0,NMBS/SNCB,Rochefort-Jemelle -- Arlon,Train régional,Jour,Rochefort-Jemelle,4700,Arlon,4725,06:46:00,07:55:00,1.15,,18.0,,électrique,GTFS sncb_belgium
+BE_858_0,NMBS/SNCB,Ciney -- Arlon,Train régional,Jour,Ciney,4709,Arlon,4725,08:07:00,09:55:00,1.8,,18.0,,électrique,GTFS sncb_belgium
+BE_860_0,NMBS/SNCB,Malines -- Aalter,Train régional,Jour,Malines,4535,Aalter,4843,21:32:00,23:06:00,1.57,,18.0,,électrique,GTFS sncb_belgium
+BE_861_0,NMBS/SNCB,Londerzeel -- Termonde,Train régional,Nuit,Londerzeel,4537,Termonde,4888,23:59:00,00:14:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_862_0,NMBS/SNCB,Libramont -- Athus,Train régional,Jour,Libramont,4718,Athus,4731,06:56:00,07:59:00,1.05,,18.0,,électrique,GTFS sncb_belgium
+BE_863_0,NMBS/SNCB,Arlon -- Virton,Train régional,Jour,Virton,4729,Arlon,4725,08:39:00,09:18:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_867_0,NMBS/SNCB,Yvoir -- Libramont,Train régional,Jour,Yvoir,4694,Libramont,4718,06:15:00,07:46:00,1.52,,18.0,,électrique,GTFS sncb_belgium
+BE_868_0,NMBS/SNCB,Namur -- Bertrix,Train régional,Jour,Namur,4683,Bertrix,4720,11:52:00,13:30:00,1.63,,18.0,,électrique,GTFS sncb_belgium
+BE_869_0,NMBS/SNCB,Yvoir -- Bertrix,Train régional,Jour,Bertrix,4720,Yvoir,4694,05:30:00,06:45:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_870_0,NMBS/SNCB,Beauraing -- Bertrix,Train régional,Jour,Bertrix,4720,Beauraing,4699,05:30:00,06:09:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_871_0,NMBS/SNCB,Gendron-Celles -- Bertrix,Train régional,Jour,Bertrix,4720,Gendron-Celles,4697,05:30:00,06:24:00,0.9,,18.0,,électrique,GTFS sncb_belgium
+BE_872_0,NMBS/SNCB,Ciney -- Libramont,Train régional,Jour,Ciney,4709,Libramont,4718,08:07:00,09:15:00,1.13,,18.0,,électrique,GTFS sncb_belgium
+BE_873_0,NMBS/SNCB,Ciney -- Arlon,Train régional,Jour,Ciney,4709,Arlon,4725,14:07:00,15:55:00,1.8,,18.0,,électrique,GTFS sncb_belgium
+BE_874_0,NMBS/SNCB,Ottignies -- Namur,Train régional,Jour,Ottignies,4441,Namur,4683,06:05:00,06:56:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_875_0,NMBS/SNCB,Ottignies -- Gembloux,Train régional,Jour,Ottignies,4441,Gembloux,4671,06:04:00,06:23:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_876_0,NMBS/SNCB,Ottignies -- Rhisnes,Train régional,Jour,Ottignies,4441,Rhisnes,4677,08:05:00,08:48:00,0.72,,18.0,,électrique,GTFS sncb_belgium
+BE_878_0,NMBS/SNCB,Louvain-la-Neuve -- Alost,Train régional,Jour,Alost,4911,Louvain-la-Neuve,4443,04:51:00,06:38:00,1.78,,18.0,,électrique,GTFS sncb_belgium
+BE_879_0,NMBS/SNCB,Louvain-la-Neuve -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Louvain-la-Neuve,4443,05:03:00,06:38:00,1.58,,18.0,,électrique,GTFS sncb_belgium
+BE_880_0,NMBS/SNCB,Ottignies -- Alost,Train régional,Jour,Alost,4911,Ottignies,4441,21:51:00,23:28:00,1.62,,18.0,,électrique,GTFS sncb_belgium
+BE_881_0,NMBS/SNCB,Louvain-la-Neuve -- Jette,Train régional,Nuit,Louvain-la-Neuve,4443,Jette,4457,22:18:00,23:28:00,1.17,,18.0,,électrique,GTFS sncb_belgium
+BE_882_0,NMBS/SNCB,Ottignies -- Wavre,Train régional,Jour,Ottignies,4441,Wavre,4445,21:55:00,22:04:00,0.15,,18.0,,électrique,GTFS sncb_belgium
+BE_883_0,NMBS/SNCB,Gand-Saint-Pierre -- Lokeren,Train régional,Jour,Gand-Saint-Pierre,4856,Lokeren,4900,05:42:00,06:09:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_884_0,NMBS/SNCB,Ottignies -- Zottegem,Train régional,Jour,Zottegem,4915,Ottignies,4441,05:55:00,07:43:00,1.8,,18.0,,électrique,GTFS sncb_belgium
+BE_885_0,NMBS/SNCB,Ottignies -- Denderleeuw,Train régional,Jour,Denderleeuw,4939,Ottignies,4441,06:26:00,07:43:00,1.28,,18.0,,électrique,GTFS sncb_belgium
+BE_886_0,NMBS/SNCB,Bruxelles-Midi -- Zottegem,Train régional,Jour,Zottegem,4915,Bruxelles-Midi,4474,05:55:00,06:45:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_887_0,NMBS/SNCB,Bruxelles-Luxembourg -- Zottegem,Train régional,Jour,Zottegem,4915,Bruxelles-Luxembourg,4430,05:55:00,07:08:00,1.22,,18.0,,électrique,GTFS sncb_belgium
+BE_888_0,NMBS/SNCB,Ottignies -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Ottignies,4441,06:48:00,07:43:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_889_0,NMBS/SNCB,Bruxelles-Luxembourg -- Bruxelles-Midi,Train régional,Jour,Bruxelles-Midi,4474,Bruxelles-Luxembourg,4430,06:48:00,07:08:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_890_0,NMBS/SNCB,Renaix -- Lokeren,Train régional,Jour,Renaix,4876,Lokeren,4900,05:46:00,07:09:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_891_0,NMBS/SNCB,Gand-Dampoort -- Lokeren,Train régional,Jour,Gand-Dampoort,4883,Lokeren,4900,07:08:00,07:23:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_892_0,NMBS/SNCB,Bruxelles-Nord -- Denderleeuw,Train régional,Nuit,Denderleeuw,4939,Bruxelles-Nord,3894,23:26:00,23:56:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_893_0,NMBS/SNCB,Bruxelles-Nord -- Zottegem,Train régional,Nuit,Zottegem,4915,Bruxelles-Nord,3894,22:56:00,23:56:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_894_0,NMBS/SNCB,Bruxelles-Nord -- Bruxelles-Midi,Train régional,Nuit,Bruxelles-Midi,4474,Bruxelles-Nord,3894,23:48:00,23:56:00,0.13,,18.0,,électrique,GTFS sncb_belgium
+BE_895_0,NMBS/SNCB,Audenarde -- Lokeren,Train régional,Jour,Audenarde,4869,Lokeren,4900,09:07:00,10:09:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_896_0,NMBS/SNCB,Louvain-la-Neuve -- Alost,Train régional,Nuit,Louvain-la-Neuve,4443,Alost,4911,22:01:00,23:42:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_897_0,NMBS/SNCB,Gand-Saint-Pierre -- Renaix,Train régional,Jour,Renaix,4876,Gand-Saint-Pierre,4856,13:53:00,14:37:00,0.73,,18.0,,électrique,GTFS sncb_belgium
+BE_898_0,NMBS/SNCB,Anvers-Central -- Noorderkempen (Brecht),Train régional,Jour,Noorderkempen (Brecht),4506,Anvers-Central,4502,06:17:00,06:35:00,0.3,,18.0,,électrique,GTFS sncb_belgium
+BE_899_0,NMBS/SNCB,Gand-Saint-Pierre -- Audenarde,Train régional,Jour,Gand-Saint-Pierre,4856,Audenarde,4869,10:22:00,10:53:00,0.52,,18.0,,électrique,GTFS sncb_belgium
+BE_900_0,NMBS/SNCB,Verviers-Central -- Spa-Géronstère,Train régional,Jour,Spa-Géronstère,4656,Verviers-Central,4645,06:38:00,07:06:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_901_0,NMBS/SNCB,Schaerbeek -- Ostende,Train régional,Jour,Ostende,4855,Schaerbeek,4413,05:40:00,07:21:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_916_0,NMBS/SNCB,Tielt -- La Panne,Train régional,Jour,La Panne,4866,Tielt,4862,06:19:00,07:08:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_929_0,NMBS/SNCB,Schaerbeek -- Poperinge,Train régional,Jour,Poperinge,4954,Schaerbeek,4413,05:47:00,08:11:00,2.4,,18.0,,électrique,GTFS sncb_belgium
+BE_935_0,NMBS/SNCB,Gand-Saint-Pierre -- Alost,Train régional,Jour,Gand-Saint-Pierre,4856,Alost,4911,04:28:00,05:01:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_936_0,NMBS/SNCB,Schaerbeek -- Gand-Saint-Pierre,Train régional,Jour,Gand-Saint-Pierre,4856,Schaerbeek,4413,06:58:00,08:23:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_937_0,NMBS/SNCB,Schaerbeek -- Saint-Nicolas,Train régional,Jour,Saint-Nicolas,4904,Schaerbeek,4413,07:19:00,08:50:00,1.52,,18.0,,électrique,GTFS sncb_belgium
+BE_1058_0,NMBS/SNCB,Anvers-Central -- Poperinge,Train régional,Jour,Anvers-Central,4502,Poperinge,4954,04:35:00,06:47:00,2.2,,18.0,,électrique,GTFS sncb_belgium
+BE_1059_0,NMBS/SNCB,Saint-Nicolas -- Poperinge,Train régional,Jour,Saint-Nicolas,4904,Poperinge,4954,05:00:00,06:47:00,1.78,,18.0,,électrique,GTFS sncb_belgium
+BE_1080_0,NMBS/SNCB,Anvers-Central -- Menin,Train régional,Jour,Anvers-Central,4502,Menin,4948,05:36:00,07:24:00,1.8,,18.0,,électrique,GTFS sncb_belgium
+BE_1082_0,NMBS/SNCB,Bruges -- Gand-Saint-Pierre,Train régional,Jour,Bruges,2003,Gand-Saint-Pierre,4856,06:22:00,06:59:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_1087_0,NMBS/SNCB,Bruges -- Grammont,Train régional,Jour,Grammont,4926,Bruges,2003,06:15:00,08:01:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_1088_0,NMBS/SNCB,Bruges -- Grammont,Train régional,Jour,Grammont,4926,Bruges,2003,06:15:00,08:01:00,1.77,,18.0,,électrique,GTFS sncb_belgium
+BE_1092_0,NMBS/SNCB,Bruges -- Blankenberge,Train régional,Jour,Blankenberge,4849,Bruges,2003,07:49:00,08:00:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_1093_0,NMBS/SNCB,Bruges -- Zeebrugge-Dorp,Train régional,Jour,Bruges,2003,Zeebrugge-Dorp,4850,07:08:00,07:24:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_1101_0,NMBS/SNCB,Bruges -- Knokke,Train régional,Jour,Knokke,4854,Bruges,2003,07:05:00,07:26:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_1105_0,NMBS/SNCB,Anvers-Berchem -- Poperinge,Train régional,Jour,Anvers-Berchem,4507,Poperinge,4954,08:42:00,10:53:00,2.18,,18.0,,électrique,GTFS sncb_belgium
+BE_1106_0,NMBS/SNCB,Courtrai -- Poperinge,Train régional,Jour,Courtrai,3828,Poperinge,4954,07:36:00,08:23:00,0.78,,18.0,,électrique,GTFS sncb_belgium
+BE_1107_0,NMBS/SNCB,Gand-Saint-Pierre -- Eeklo,Train régional,Jour,Eeklo,4897,Gand-Saint-Pierre,4856,06:51:00,07:26:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_1108_0,NMBS/SNCB,Louvain -- Saint-Nicolas,Train régional,Jour,Saint-Nicolas,4904,Louvain,4587,06:25:00,07:37:00,1.2,,18.0,,électrique,GTFS sncb_belgium
+BE_1109_0,NMBS/SNCB,Malines -- Saint-Nicolas,Train régional,Jour,Saint-Nicolas,4904,Malines,4535,12:20:00,13:05:00,0.75,,18.0,,électrique,GTFS sncb_belgium
+BE_1111_0,NMBS/SNCB,Gand-Saint-Pierre -- Poperinge,Train régional,Jour,Gand-Saint-Pierre,4856,Poperinge,4954,10:36:00,11:53:00,1.28,,18.0,,électrique,GTFS sncb_belgium
+BE_1112_0,NMBS/SNCB,Gand-Saint-Pierre -- Termonde,Train régional,Jour,Termonde,4888,Gand-Saint-Pierre,4856,07:47:00,08:25:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_1113_0,NMBS/SNCB,Malines -- Termonde,Train régional,Jour,Termonde,4888,Malines,4535,12:27:00,12:56:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_1114_0,NMBS/SNCB,Louvain -- Termonde,Train régional,Jour,Termonde,4888,Louvain,4587,07:30:00,08:28:00,0.97,,18.0,,électrique,GTFS sncb_belgium
+BE_1115_0,NMBS/SNCB,Anvers-Berchem -- Courtrai,Train régional,Jour,Anvers-Berchem,4507,Courtrai,3828,12:42:00,14:01:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_1116_0,NMBS/SNCB,Anvers-Central -- Poperinge,Train régional,Jour,Anvers-Central,4502,Poperinge,4954,14:36:00,16:53:00,2.28,,18.0,,électrique,GTFS sncb_belgium
+BE_1118_0,NMBS/SNCB,Saint-Nicolas -- Courtrai,Train régional,Jour,Saint-Nicolas,4904,Courtrai,3828,21:00:00,22:01:00,1.02,,18.0,,électrique,GTFS sncb_belgium
+BE_1119_0,NMBS/SNCB,Bruxelles-Midi -- Mol,Train régional,Jour,Mol,4580,Bruxelles-Midi,4474,06:23:00,08:00:00,1.62,,18.0,,électrique,GTFS sncb_belgium
+BE_1120_0,NMBS/SNCB,Bruxelles-Midi -- Neerpelt,Train régional,Jour,Neerpelt,4585,Bruxelles-Midi,4474,06:48:00,09:00:00,2.2,,18.0,,électrique,GTFS sncb_belgium
+BE_1121_0,NMBS/SNCB,Noorderkempen (Brecht) -- Anvers-Berchem,Train régional,Jour,Noorderkempen (Brecht),4506,Anvers-Berchem,4507,05:49:00,06:08:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_1122_0,NMBS/SNCB,Anvers-Central -- Noorderkempen (Brecht),Train régional,Jour,Noorderkempen (Brecht),4506,Anvers-Central,4502,05:49:00,06:09:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_1123_0,NMBS/SNCB,Brussels Airport-Zaventem -- Noorderkempen (Brecht),Train régional,Jour,Noorderkempen (Brecht),4506,Brussels Airport-Zaventem,4501,07:00:00,07:52:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_1124_0,NMBS/SNCB,Gand-Saint-Pierre -- Saint-Nicolas,Train régional,Nuit,Saint-Nicolas,4904,Gand-Saint-Pierre,4856,23:59:00,00:32:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_1125_0,NMBS/SNCB,Anvers-Central -- Essen,Train régional,Jour,Essen,4514,Anvers-Central,4502,05:05:00,05:35:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_1126_0,NMBS/SNCB,Anvers-Berchem -- Herentals,Train régional,Jour,Herentals,4526,Anvers-Berchem,4507,06:07:00,06:42:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_1127_0,NMBS/SNCB,Lierre -- Herentals,Train régional,Jour,Herentals,4526,Lierre,4521,06:07:00,06:27:00,0.33,,18.0,,électrique,GTFS sncb_belgium
+BE_1128_0,NMBS/SNCB,Anvers-Central -- Aarschot,Train régional,Jour,Aarschot,4593,Anvers-Central,4502,04:32:00,05:23:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_1129_0,NMBS/SNCB,Anvers-Central -- Louvain,Train régional,Jour,Louvain,4587,Anvers-Central,4502,05:18:00,06:24:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_1130_0,NMBS/SNCB,Bruxelles-Midi -- Tongres,Train régional,Jour,Tongres,4567,Bruxelles-Midi,4474,06:24:00,08:03:00,1.65,,18.0,,électrique,GTFS sncb_belgium
+BE_1131_0,NMBS/SNCB,Bruxelles-Midi -- Hasselt,Train régional,Jour,Hasselt,4562,Bruxelles-Midi,4474,06:52:00,08:03:00,1.18,,18.0,,électrique,GTFS sncb_belgium
+BE_1132_0,NMBS/SNCB,Hasselt -- Louvain,Train régional,Jour,Hasselt,4562,Louvain,4587,05:20:00,06:08:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_1133_0,NMBS/SNCB,Tongres -- Louvain,Train régional,Jour,Tongres,4567,Louvain,4587,04:53:00,06:07:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_1134_0,NMBS/SNCB,Landen -- Ans,Train régional,Jour,Ans,4602,Landen,4600,07:20:00,07:54:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_1135_0,NMBS/SNCB,Malines -- Louvain,Train régional,Jour,Louvain,4587,Malines,4535,07:28:00,07:58:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_1136_0,NMBS/SNCB,Bruxelles-Midi -- Liège-Guillemins,Train régional,Jour,Liège-Guillemins,4136,Bruxelles-Midi,4474,06:23:00,07:56:00,1.55,,18.0,,électrique,GTFS sncb_belgium
+BE_1137_0,NMBS/SNCB,Liège-Guillemins -- Courtrai,Train régional,Jour,Liège-Guillemins,4136,Courtrai,3828,06:23:00,09:15:00,2.87,,18.0,,électrique,GTFS sncb_belgium
+BE_1138_0,NMBS/SNCB,Liège-Guillemins -- Audenarde,Train régional,Jour,Liège-Guillemins,4136,Audenarde,4869,06:23:00,08:56:00,2.55,,18.0,,électrique,GTFS sncb_belgium
+BE_1139_0,NMBS/SNCB,Lokeren -- Poperinge,Train régional,Nuit,Poperinge,4954,Lokeren,4900,22:07:00,23:48:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_1140_0,NMBS/SNCB,Saint-Nicolas -- Menin,Train régional,Nuit,Menin,4948,Saint-Nicolas,4904,22:35:00,23:58:00,1.38,,18.0,,électrique,GTFS sncb_belgium
+BE_1141_0,NMBS/SNCB,Liège-Guillemins -- Statte,Train régional,Jour,Statte,4642,Liège-Guillemins,4136,06:29:00,07:23:00,0.9,,18.0,,électrique,GTFS sncb_belgium
+BE_1142_0,NMBS/SNCB,Liège-Guillemins -- Gouvy,Train régional,Jour,Gouvy,4661,Liège-Guillemins,4136,05:06:00,06:22:00,1.27,,18.0,,électrique,GTFS sncb_belgium
+BE_1143_0,NMBS/SNCB,Huy -- Namur,Train régional,Jour,Huy,4638,Namur,4683,06:26:00,07:03:00,0.62,,18.0,,électrique,GTFS sncb_belgium
+BE_1144_0,NMBS/SNCB,Liège-Guillemins -- Bomal,Train régional,Jour,Liège-Guillemins,4136,Bomal,4708,12:56:00,13:46:00,0.83,,18.0,,électrique,GTFS sncb_belgium
+BE_1145_0,NMBS/SNCB,Verviers-Central -- Spa-Géronstère,Train régional,Jour,Spa-Géronstère,4656,Verviers-Central,4645,06:56:00,07:25:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_1146_0,NMBS/SNCB,Tournai -- Mouscron,Train régional,Jour,Mouscron,3827,Tournai,3825,04:47:00,05:04:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_1147_0,NMBS/SNCB,Mouscron -- Grammont,Train régional,Jour,Mouscron,3827,Grammont,4926,04:47:00,07:23:00,2.6,,18.0,,électrique,GTFS sncb_belgium
+BE_1148_0,NMBS/SNCB,Schaerbeek -- Mouscron,Train régional,Jour,Mouscron,3827,Schaerbeek,4413,06:14:00,07:59:00,1.75,,18.0,,électrique,GTFS sncb_belgium
+BE_1149_0,NMBS/SNCB,Schaerbeek -- Tournai,Train régional,Jour,Tournai,3825,Schaerbeek,4413,06:34:00,07:59:00,1.42,,18.0,,électrique,GTFS sncb_belgium
+BE_1150_0,NMBS/SNCB,Renaix -- Eeklo,Train régional,Jour,Renaix,4876,Eeklo,4897,05:14:00,06:49:00,1.58,,18.0,,électrique,GTFS sncb_belgium
+BE_1151_0,NMBS/SNCB,Audenarde -- Eeklo,Train régional,Jour,Audenarde,4869,Eeklo,4897,05:33:00,06:49:00,1.27,,18.0,,électrique,GTFS sncb_belgium
+BE_1152_0,NMBS/SNCB,Gand-Saint-Pierre -- Renaix,Train régional,Jour,Renaix,4876,Gand-Saint-Pierre,4856,07:13:00,08:02:00,0.82,,18.0,,électrique,GTFS sncb_belgium
+BE_1153_0,NMBS/SNCB,Schaerbeek -- Grammont,Train régional,Jour,Grammont,4926,Schaerbeek,4413,06:21:00,07:27:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_1154_0,NMBS/SNCB,Mons -- Ath,Train régional,Jour,Mons,4783,Ath,4828,06:37:00,07:15:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_1155_0,NMBS/SNCB,Jurbise -- Ath,Train régional,Jour,Ath,4828,Jurbise,4786,12:38:00,13:00:00,0.37,,18.0,,électrique,GTFS sncb_belgium
+BE_1156_0,NMBS/SNCB,Ath -- Grammont,Train régional,Jour,Grammont,4926,Ath,4828,06:00:00,06:24:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_1157_0,NMBS/SNCB,Mons -- Grammont,Train régional,Jour,Grammont,4926,Mons,4783,06:59:00,08:09:00,1.17,,18.0,,électrique,GTFS sncb_belgium
+BE_1158_0,NMBS/SNCB,Audenarde -- Renaix,Train régional,Jour,Renaix,4876,Audenarde,4869,10:14:00,10:25:00,0.18,,18.0,,électrique,GTFS sncb_belgium
+BE_1159_0,NMBS/SNCB,Bruxelles-Midi -- Rochefort-Jemelle,Train régional,Jour,Rochefort-Jemelle,4700,Bruxelles-Midi,4474,05:48:00,07:51:00,2.05,,18.0,,électrique,GTFS sncb_belgium
+BE_1160_0,NMBS/SNCB,Bruxelles-Midi -- Ciney,Train régional,Jour,Ciney,4709,Bruxelles-Midi,4474,06:14:00,07:51:00,1.62,,18.0,,électrique,GTFS sncb_belgium
+BE_1161_0,NMBS/SNCB,Bruxelles-Midi -- Namur,Train régional,Jour,Namur,4683,Bruxelles-Midi,4474,07:37:00,08:51:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_1163_0,NMBS/SNCB,Marloie -- Arlon,Train régional,Jour,Marloie,4703,Arlon,4725,06:40:00,07:42:00,1.03,,18.0,,électrique,GTFS sncb_belgium
+BE_1166_0,NMBS/SNCB,Gand-Saint-Pierre -- Audenarde,Train régional,Jour,Audenarde,4869,Gand-Saint-Pierre,4856,12:33:00,13:02:00,0.48,,18.0,,électrique,GTFS sncb_belgium
+BE_1167_0,NMBS/SNCB,Renaix -- Wondelgem,Train régional,Jour,Renaix,4876,Wondelgem,4885,14:14:00,15:31:00,1.28,,18.0,,électrique,GTFS sncb_belgium
+BE_1168_0,NMBS/SNCB,Ottignies -- Gembloux,Train régional,Jour,Gembloux,4671,Ottignies,4441,06:16:00,06:35:00,0.32,,18.0,,électrique,GTFS sncb_belgium
+BE_1169_0,NMBS/SNCB,Gembloux -- Namur,Train régional,Jour,Namur,4683,Gembloux,4671,06:20:00,06:41:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_1170_0,NMBS/SNCB,Ottignies -- Namur,Train régional,Jour,Namur,4683,Ottignies,4441,07:20:00,08:35:00,1.25,,18.0,,électrique,GTFS sncb_belgium
+BE_1171_0,NMBS/SNCB,Virton -- Athus,Train régional,Jour,Virton,4729,Athus,4731,05:58:00,06:22:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_1172_0,NMBS/SNCB,Arlon -- Virton,Train régional,Jour,Virton,4729,Arlon,4725,05:58:00,06:37:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_1173_0,NMBS/SNCB,Bertrix -- Athus,Train régional,Jour,Bertrix,4720,Athus,4731,06:31:00,07:28:00,0.95,,18.0,,électrique,GTFS sncb_belgium
+BE_1174_0,NMBS/SNCB,Bertrix -- Arlon,Train régional,Jour,Bertrix,4720,Arlon,4725,06:31:00,07:45:00,1.23,,18.0,,électrique,GTFS sncb_belgium
+BE_1175_0,NMBS/SNCB,Namur -- Ciney,Train régional,Jour,Namur,4683,Ciney,4709,06:49:00,07:19:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_1176_0,NMBS/SNCB,Rochefort-Jemelle -- Libramont,Train régional,Jour,Rochefort-Jemelle,4700,Libramont,4718,04:54:00,05:22:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_1177_0,NMBS/SNCB,Liège-Saint-Lambert -- Rochefort-Jemelle,Train régional,Jour,Rochefort-Jemelle,4700,Liège-Saint-Lambert,4610,06:01:00,07:34:00,1.55,,18.0,,électrique,GTFS sncb_belgium
+BE_1178_0,NMBS/SNCB,Liège-Guillemins -- Marloie,Train régional,Jour,Liège-Guillemins,4136,Marloie,4703,06:44:00,08:02:00,1.3,,18.0,,électrique,GTFS sncb_belgium
+BE_1179_0,NMBS/SNCB,Ciney -- Libramont,Train régional,Jour,Libramont,4718,Ciney,4709,06:44:00,07:50:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_1180_0,NMBS/SNCB,Dinant -- Bertrix,Train régional,Jour,Bertrix,4720,Dinant,4693,04:44:00,05:50:00,1.1,,18.0,,électrique,GTFS sncb_belgium
+BE_1181_0,NMBS/SNCB,Beauraing -- Bertrix,Train régional,Jour,Bertrix,4720,Beauraing,4699,04:00:00,04:38:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_1182_0,NMBS/SNCB,Gendron-Celles -- Bertrix,Train régional,Jour,Bertrix,4720,Gendron-Celles,4697,04:20:00,05:11:00,0.85,,18.0,,électrique,GTFS sncb_belgium
+BE_1183_0,NMBS/SNCB,Namur -- Bertrix,Train régional,Jour,Bertrix,4720,Namur,4683,06:04:00,07:41:00,1.62,,18.0,,électrique,GTFS sncb_belgium
+BE_1185_0,NMBS/SNCB,Libramont -- Arlon,Train régional,Jour,Libramont,4718,Arlon,4725,07:04:00,07:38:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_1186_0,NMBS/SNCB,Libramont -- Athus,Train régional,Jour,Libramont,4718,Athus,4731,07:04:00,07:56:00,0.87,,18.0,,électrique,GTFS sncb_belgium
+BE_1187_0,NMBS/SNCB,Beauraing -- Libramont,Train régional,Jour,Beauraing,4699,Libramont,4718,05:31:00,06:30:00,0.98,,18.0,,électrique,GTFS sncb_belgium
+BE_1188_0,NMBS/SNCB,Libramont -- Virton,Train régional,Jour,Virton,4729,Libramont,4718,06:52:00,07:34:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_1189_0,NMBS/SNCB,Gembloux -- Tamines,Train régional,Jour,Tamines,4778,Gembloux,4671,06:21:00,06:46:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_1190_0,NMBS/SNCB,Gembloux -- Jemeppe-sur-Sambre,Train régional,Jour,Gembloux,4671,Jemeppe-sur-Sambre,4780,07:07:00,07:23:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_1191_0,NMBS/SNCB,Schaerbeek -- Jemeppe-sur-Sambre,Train régional,Jour,Jemeppe-sur-Sambre,4780,Schaerbeek,4413,05:41:00,07:23:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_1192_0,NMBS/SNCB,Schaerbeek -- Jemeppe-sur-Sambre,Train régional,Jour,Jemeppe-sur-Sambre,4780,Schaerbeek,4413,05:41:00,07:23:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_1193_0,NMBS/SNCB,Binche -- Braine-le-Comte,Train régional,Jour,Binche,4800,Braine-le-Comte,4802,06:46:00,07:28:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_1194_0,NMBS/SNCB,Charleroi-Central -- Couvin,Train régional,Jour,Couvin,4782,Charleroi-Central,4757,04:26:00,05:34:00,1.13,,18.0,,électrique,GTFS sncb_belgium
+BE_1195_0,NMBS/SNCB,Charleroi-Central -- Walcourt,Train régional,Jour,Walcourt,4766,Charleroi-Central,4757,06:24:00,06:57:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_1196_0,NMBS/SNCB,Mons -- La Louvière-Sud,Train régional,Jour,La Louvière-Sud,4797,Mons,4783,07:15:00,07:40:00,0.42,,18.0,,électrique,GTFS sncb_belgium
+BE_1197_0,NMBS/SNCB,Manage -- Braine-le-Comte,Train régional,Jour,Manage,4801,Braine-le-Comte,4802,06:39:00,06:55:00,0.27,,18.0,,électrique,GTFS sncb_belgium
+BE_1198_0,NMBS/SNCB,Jambes -- Luttre,Train régional,Jour,Luttre,4740,Jambes,4684,07:29:00,08:53:00,1.4,,18.0,,électrique,GTFS sncb_belgium
+BE_1199_0,NMBS/SNCB,Braine-le-Comte -- Quiévrain,Train régional,Jour,Quiévrain,4815,Braine-le-Comte,4802,05:30:00,06:35:00,1.08,,18.0,,électrique,GTFS sncb_belgium
+BE_1200_0,NMBS/SNCB,Schaerbeek -- Quiévrain,Train régional,Jour,Quiévrain,4815,Schaerbeek,4413,05:30:00,07:12:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_1201_0,NMBS/SNCB,Schaerbeek -- Quiévrain,Train régional,Jour,Quiévrain,4815,Schaerbeek,4413,05:30:00,07:12:00,1.7,,18.0,,électrique,GTFS sncb_belgium
+BE_1202_0,NMBS/SNCB,Schaerbeek -- Saint-Ghislain,Train régional,Jour,Saint-Ghislain,4812,Schaerbeek,4413,06:13:00,07:40:00,1.45,,18.0,,électrique,GTFS sncb_belgium
+BE_1203_0,NMBS/SNCB,Braine-le-Comte -- Saint-Ghislain,Train régional,Jour,Saint-Ghislain,4812,Braine-le-Comte,4802,06:13:00,06:58:00,0.75,,18.0,,électrique,GTFS sncb_belgium
+BE_1204_0,NMBS/SNCB,Schaerbeek -- Saint-Ghislain,Train régional,Jour,Saint-Ghislain,4812,Schaerbeek,4413,06:13:00,07:40:00,1.45,,18.0,,électrique,GTFS sncb_belgium
+BE_1205_0,NMBS/SNCB,Mons -- Quiévrain,Train régional,Jour,Quiévrain,4815,Mons,4783,06:26:00,06:59:00,0.55,,18.0,,électrique,GTFS sncb_belgium
+BE_1206_0,NMBS/SNCB,Schaerbeek -- Quévy,Train régional,Jour,Quévy,4793,Schaerbeek,4413,07:12:00,08:40:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_1207_0,NMBS/SNCB,Schaerbeek -- Quévy,Train régional,Jour,Quévy,4793,Schaerbeek,4413,07:12:00,08:40:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_1208_0,NMBS/SNCB,Mons -- Tournai,Train régional,Jour,Mons,4783,Tournai,3825,06:08:00,07:03:00,0.92,,18.0,,électrique,GTFS sncb_belgium
+BE_1209_0,NMBS/SNCB,Mons -- Quiévrain,Train régional,Jour,Quiévrain,4815,Mons,4783,07:53:00,08:23:00,0.5,,18.0,,électrique,GTFS sncb_belgium
+BE_1210_0,NMBS/SNCB,Mons -- Saint-Ghislain,Train régional,Jour,Saint-Ghislain,4812,Mons,4783,07:10:00,07:25:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_1211_0,NMBS/SNCB,Mons -- Saint-Ghislain,Train régional,Jour,Saint-Ghislain,4812,Mons,4783,07:10:00,07:25:00,0.25,,18.0,,électrique,GTFS sncb_belgium
+BE_1212_0,NMBS/SNCB,Gand-Dampoort -- Eeklo,Train régional,Jour,Eeklo,4897,Gand-Dampoort,4883,18:11:00,18:35:00,0.4,,18.0,,électrique,GTFS sncb_belgium
+BE_1213_0,NMBS/SNCB,Ostende -- Courtrai,Train régional,Jour,Ostende,4855,Courtrai,3828,06:28:00,07:28:00,1.0,,18.0,,électrique,GTFS sncb_belgium
+BE_1214_0,NMBS/SNCB,Ostende -- Zottegem,Train régional,Jour,Ostende,4855,Zottegem,4915,06:28:00,08:09:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_1215_0,NMBS/SNCB,Ostende -- Zottegem,Train régional,Jour,Ostende,4855,Zottegem,4915,06:28:00,08:09:00,1.68,,18.0,,électrique,GTFS sncb_belgium
+BE_1216_0,NMBS/SNCB,Knokke -- Courtrai,Train régional,Jour,Knokke,4854,Courtrai,3828,07:05:00,08:21:00,1.27,,18.0,,électrique,GTFS sncb_belgium
+BE_1217_0,NMBS/SNCB,Bruges -- Courtrai,Train régional,Jour,Courtrai,3828,Bruges,2003,07:40:00,08:25:00,0.75,,18.0,,électrique,GTFS sncb_belgium
+BE_1218_0,NMBS/SNCB,Zottegem -- Courtrai,Train régional,Jour,Courtrai,3828,Zottegem,4915,06:30:00,07:09:00,0.65,,18.0,,électrique,GTFS sncb_belgium
+BE_1219_0,NMBS/SNCB,Gand-Saint-Pierre -- Grammont,Train régional,Jour,Grammont,4926,Gand-Saint-Pierre,4856,06:50:00,07:30:00,0.67,,18.0,,électrique,GTFS sncb_belgium
+BE_1220_0,NMBS/SNCB,Alost -- Burst,Train régional,Jour,Alost,4911,Burst,4922,06:07:00,06:24:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_1221_0,NMBS/SNCB,Courtrai -- Roulers,Train régional,Jour,Roulers,4955,Courtrai,3828,05:18:00,05:39:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_1222_0,NMBS/SNCB,Gand-Saint-Pierre -- Courtrai,Train régional,Jour,Gand-Saint-Pierre,4856,Courtrai,3828,07:18:00,07:53:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_1223_0,NMBS/SNCB,Gand-Saint-Pierre -- La Panne,Train régional,Jour,La Panne,4866,Gand-Saint-Pierre,4856,07:26:00,08:42:00,1.27,,18.0,,électrique,GTFS sncb_belgium
+BE_1224_0,NMBS/SNCB,Louvain -- La Panne,Train régional,Jour,La Panne,4866,Louvain,4587,19:18:00,21:36:00,2.3,,18.0,,électrique,GTFS sncb_belgium
+BE_1225_0,NMBS/SNCB,Louvain -- Dixmude,Train régional,Jour,Dixmude,4868,Louvain,4587,19:28:00,21:36:00,2.13,,18.0,,électrique,GTFS sncb_belgium
+BE_1226_0,NMBS/SNCB,Louvain -- Lichtervelde,Train régional,Jour,Lichtervelde,4861,Louvain,4587,19:56:00,21:36:00,1.67,,18.0,,électrique,GTFS sncb_belgium
+BE_1230_0,NMBS/SNCB,Louvain -- Bruges,Train régional,Jour,Bruges,2003,Louvain,4587,17:10:00,19:14:00,2.07,,18.0,,électrique,GTFS sncb_belgium
+BE_1231_0,NMBS/SNCB,Blankenberge -- Courtrai,Train régional,Jour,Blankenberge,4849,Courtrai,3828,16:42:00,17:46:00,1.07,,18.0,,électrique,GTFS sncb_belgium
+BE_1232_0,NMBS/SNCB,Blankenberge -- Courtrai,Train régional,Jour,Blankenberge,4849,Courtrai,3828,16:42:00,17:45:00,1.05,,18.0,,électrique,GTFS sncb_belgium
+BE_1233_0,NMBS/SNCB,Lichtervelde -- Courtrai,Train régional,Jour,Lichtervelde,4861,Courtrai,3828,07:57:00,08:24:00,0.45,,18.0,,électrique,GTFS sncb_belgium
+BE_1234_0,NMBS/SNCB,Blankenberge -- Courtrai,Train régional,Jour,Blankenberge,4849,Courtrai,3828,16:42:00,17:45:00,1.05,,18.0,,électrique,GTFS sncb_belgium
+BE_1235_0,NMBS/SNCB,Mol -- Hamont,Train régional,Jour,Mol,4580,Hamont,4586,17:10:00,17:38:00,0.47,,18.0,,électrique,GTFS sncb_belgium
+BE_1236_0,NMBS/SNCB,Hamont -- Sint-Joris-Weert,Train régional,Jour,Hamont,4586,Sint-Joris-Weert,4591,17:50:00,19:58:00,2.13,,18.0,,électrique,GTFS sncb_belgium
+BE_1237_0,NMBS/SNCB,Mol -- Sint-Joris-Weert,Train régional,Jour,Mol,4580,Sint-Joris-Weert,4591,18:30:00,19:49:00,1.32,,18.0,,électrique,GTFS sncb_belgium
+BE_1238_0,NMBS/SNCB,Bruges -- Lichtervelde,Train régional,Nuit,Bruges,2003,Lichtervelde,4861,22:57:00,23:18:00,0.35,,18.0,,électrique,GTFS sncb_belgium
+BE_1239_0,NMBS/SNCB,Essen -- Louvain,Train régional,Jour,Essen,4514,Louvain,4587,20:07:00,21:33:00,1.43,,18.0,,électrique,GTFS sncb_belgium
+BE_1240_0,NMBS/SNCB,Hasselt -- Gand-Saint-Pierre,Train régional,Jour,Hasselt,4562,Gand-Saint-Pierre,4856,19:23:00,21:02:00,1.65,,18.0,,électrique,GTFS sncb_belgium
+BE_1241_0,NMBS/SNCB,Tongres -- Gand-Saint-Pierre,Train régional,Jour,Tongres,4567,Gand-Saint-Pierre,4856,18:55:00,21:02:00,2.12,,18.0,,électrique,GTFS sncb_belgium
+BE_1242_0,NMBS/SNCB,Liège-Guillemins -- Namur,Train régional,Jour,Namur,4683,Liège-Guillemins,4136,16:04:00,17:32:00,1.47,,18.0,,électrique,GTFS sncb_belgium
+BE_1243_0,NMBS/SNCB,Louvain-la-Neuve -- Mouscron,Train régional,Jour,Mouscron,3827,Louvain-la-Neuve,4443,17:55:00,20:18:00,2.38,,18.0,,électrique,GTFS sncb_belgium
+BE_1244_0,NMBS/SNCB,Louvain-la-Neuve -- Ath,Train régional,Jour,Ath,4828,Louvain-la-Neuve,4443,18:35:00,20:26:00,1.85,,18.0,,électrique,GTFS sncb_belgium
+BE_1245_0,NMBS/SNCB,Ottignies -- Mouscron,Train régional,Jour,Mouscron,3827,Ottignies,4441,17:46:00,20:41:00,2.92,,18.0,,électrique,GTFS sncb_belgium
+BE_1246_0,NMBS/SNCB,Louvain-la-Neuve -- Tournai,Train régional,Jour,Tournai,3825,Louvain-la-Neuve,4443,18:12:00,20:18:00,2.1,,18.0,,électrique,GTFS sncb_belgium
+BE_1247_0,NMBS/SNCB,Gand-Saint-Pierre -- Courtrai,Train régional,Jour,Courtrai,3828,Gand-Saint-Pierre,4856,05:17:00,05:52:00,0.58,,18.0,,électrique,GTFS sncb_belgium
+BE_1248_0,NMBS/SNCB,Tournai -- Ath,Train régional,Jour,Ath,4828,Tournai,3825,16:40:00,18:12:00,1.53,,18.0,,électrique,GTFS sncb_belgium
+BE_1249_0,NMBS/SNCB,Namur -- Rochefort-Jemelle,Train régional,Jour,Namur,4683,Rochefort-Jemelle,4700,18:23:00,19:11:00,0.8,,18.0,,électrique,GTFS sncb_belgium
+BE_1250_0,NMBS/SNCB,Schaerbeek -- Arlon,Train régional,Jour,Arlon,4725,Schaerbeek,4413,18:18:00,21:21:00,3.05,,18.0,,électrique,GTFS sncb_belgium
+BE_1251_0,NMBS/SNCB,Herstal -- Arlon,Train régional,Jour,Arlon,4725,Herstal,4612,19:06:00,21:38:00,2.53,,18.0,,électrique,GTFS sncb_belgium
+BE_1252_0,NMBS/SNCB,Rivage -- Marbehan,Train régional,Jour,Marbehan,4728,Rivage,4624,19:26:00,20:53:00,1.45,,18.0,,électrique,GTFS sncb_belgium
+BE_1253_0,NMBS/SNCB,Liège-Guillemins -- Rochefort-Jemelle,Train régional,Jour,Liège-Guillemins,4136,Rochefort-Jemelle,4700,16:44:00,18:10:00,1.43,,18.0,,électrique,GTFS sncb_belgium
+BE_1254_0,NMBS/SNCB,Louvain-la-Neuve -- Binche,Train régional,Jour,Binche,4800,Louvain-la-Neuve,4443,19:06:00,21:18:00,2.2,,18.0,,électrique,GTFS sncb_belgium
+BE_1255_0,NMBS/SNCB,Ottignies -- Binche,Train régional,Jour,Binche,4800,Ottignies,4441,19:06:00,21:41:00,2.58,,18.0,,électrique,GTFS sncb_belgium
+BE_1256_0,NMBS/SNCB,Bruxelles-Nord -- Binche,Train régional,Jour,Binche,4800,Bruxelles-Nord,3894,19:06:00,20:28:00,1.37,,18.0,,électrique,GTFS sncb_belgium
+BE_1257_0,NMBS/SNCB,Gand-Saint-Pierre -- Courtrai,Train régional,Jour,Courtrai,3828,Gand-Saint-Pierre,4856,21:17:00,21:51:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_1258_0,NMBS/SNCB,Schaerbeek -- Châtelet,Train régional,Jour,Schaerbeek,4413,Châtelet,4773,16:37:00,18:09:00,1.53,,18.0,,électrique,GTFS sncb_belgium
+BE_1259_0,NMBS/SNCB,Mons -- Manage,Train régional,Jour,Mons,4783,Manage,4801,16:22:00,16:56:00,0.57,,18.0,,électrique,GTFS sncb_belgium
+BE_1260_0,NMBS/SNCB,Luttre -- Manage,Train régional,Jour,Luttre,4740,Manage,4801,16:27:00,16:44:00,0.28,,18.0,,électrique,GTFS sncb_belgium
+BE_1261_0,NMBS/SNCB,Quévy -- Braine-le-Comte,Train régional,Jour,Braine-le-Comte,4802,Quévy,4793,17:00:00,17:53:00,0.88,,18.0,,électrique,GTFS sncb_belgium
+BE_1262_0,NMBS/SNCB,Schaerbeek -- Braine-le-Comte,Train régional,Jour,Schaerbeek,4413,Braine-le-Comte,4802,17:00:00,17:42:00,0.7,,18.0,,électrique,GTFS sncb_belgium
+BE_1263_0,NMBS/SNCB,Saint-Ghislain -- Quiévrain,Train régional,Jour,Saint-Ghislain,4812,Quiévrain,4815,17:51:00,18:05:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_1264_0,NMBS/SNCB,Saint-Ghislain -- Quiévrain,Train régional,Jour,Saint-Ghislain,4812,Quiévrain,4815,17:51:00,18:05:00,0.23,,18.0,,électrique,GTFS sncb_belgium
+BE_1265_0,NMBS/SNCB,Sint-Joris-Weert -- Poperinge,Train régional,Jour,Poperinge,4954,Sint-Joris-Weert,4591,18:53:00,21:59:00,3.1,,18.0,,électrique,GTFS sncb_belgium
+BE_1266_0,NMBS/SNCB,Sint-Joris-Weert -- Menin,Train régional,Jour,Menin,4948,Sint-Joris-Weert,4591,19:10:00,21:59:00,2.82,,18.0,,électrique,GTFS sncb_belgium
+BE_1267_0,NMBS/SNCB,Sint-Joris-Weert -- Courtrai,Train régional,Jour,Courtrai,3828,Sint-Joris-Weert,4591,19:40:00,22:15:00,2.58,,18.0,,électrique,GTFS sncb_belgium
+BE_1268_0,NMBS/SNCB,Alost -- Grammont,Train régional,Jour,Alost,4911,Grammont,4926,16:18:00,17:02:00,0.73,,18.0,,électrique,GTFS sncb_belgium
+BE_1269_0,NMBS/SNCB,Gand-Saint-Pierre -- Lichtervelde,Train régional,Jour,Gand-Saint-Pierre,4856,Lichtervelde,4861,15:45:00,16:23:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_1270_0,NMBS/SNCB,Namur -- Courtrai,Train régional,Jour,Courtrai,3828,Namur,4683,06:08:00,08:22:00,2.23,,18.0,,électrique,GTFS sncb_belgium
+BE_1276_0,NMBS/SNCB,Bruxelles-Midi -- Malines,Train régional,Jour,Bruxelles-Midi,4474,Malines,4535,07:44:00,08:22:00,0.63,,18.0,,électrique,GTFS sncb_belgium
+BE_1278_0,NMBS/SNCB,Bruxelles-Midi -- Brussels Airport-Zaventem,Train régional,Jour,Bruxelles-Midi,4474,Brussels Airport-Zaventem,4501,08:44:00,09:07:00,0.38,,18.0,,électrique,GTFS sncb_belgium
+BE_1280_0,NMBS/SNCB,Namur -- Saint-Ghislain,Train régional,Jour,Namur,4683,Saint-Ghislain,4812,21:38:00,22:53:00,1.25,,18.0,,électrique,GTFS sncb_belgium

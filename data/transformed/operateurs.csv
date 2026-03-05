@@ -16,3 +16,4 @@ id,_agency_id,nom,pays_code,_source
 15,7,PKP Intercity,DE,db_germany
 16,8,Dänische Staatsbahnen,DE,db_germany
 17,9,MAV,DE,db_germany
+18,NMBS/SNCB,NMBS/SNCB,BE,sncb_belgium
