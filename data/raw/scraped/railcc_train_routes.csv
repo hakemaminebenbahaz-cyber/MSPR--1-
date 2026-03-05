@@ -1,5 +1,5 @@
 from_city,to_city,distance_km,duration_h,changes,price_eur,train_types,website_source,scraped_date,route_id
-Paris,Berlin,1050,8.5,1,120,"TGV, ICE",rail.cc,2025-12-15,Paris_Berlin
-London,Paris,495,2.25,0,85,Eurostar,rail.cc,2025-12-15,London_Paris
-Rome,Milan,570,3.0,0,45,Frecciarossa,rail.cc,2025-12-15,Rome_Milan
-Madrid,Barcelona,620,2.5,0,75,AVE,rail.cc,2025-12-15,Madrid_Barcelona
+Paris,Berlin,1050,8.5,1,120,"TGV, ICE",rail.cc,2026-03-05,Paris_Berlin
+London,Paris,495,2.25,0,85,Eurostar,rail.cc,2026-03-05,London_Paris
+Rome,Milan,570,3.0,0,45,Frecciarossa,rail.cc,2026-03-05,Rome_Milan
+Madrid,Barcelona,620,2.5,0,75,AVE,rail.cc,2026-03-05,Madrid_Barcelona

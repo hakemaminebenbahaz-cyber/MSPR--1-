@@ -1,21 +1,21 @@
 # Rapport de Scraping Web - Projet ObRail
 
-Date du scraping: 2025-12-15 09:37:49
+Date du scraping: 2026-03-05 00:50:52
 
 ## Sources scrapées
 
 | Source | Fichier | Enregistrements |
 |--------|---------|-----------------|
-| all_scraped_data_merged | all_scraped_data_merged.csv | 18 |
+| all_scraped_data_merged | all_scraped_data_merged.csv | 9 |
 | railcc_train_routes | railcc_train_routes.csv | 4 |
 | wikipedia_european_railways | wikipedia_european_railways.csv | 5 |
 
-**Total: 27 enregistrements**
+**Total: 18 enregistrements**
 
 ## Détail par source
 
 ### all_scraped_data_merged.csv
-- Enregistrements: 18
+- Enregistrements: 9
 - Colonnes: from_city, to_city, distance_km, duration_h, changes, price_eur, train_types, website_source, scraped_date, route_id, data_source_file, country, rail_network_km, high_speed_km, main_operator, passengers_per_year_millions, night_trains_count, source, night_train_ratio
 
 ### railcc_train_routes.csv

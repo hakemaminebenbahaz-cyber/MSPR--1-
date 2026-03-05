@@ -1,0 +1,974 @@
+id,operateur_nom,nom_ligne,type_ligne,type_service,gare_depart_nom,gare_depart_id,gare_arrivee_nom,gare_arrivee_id,heure_depart,heure_arrivee,duree_h,distance_km,emissions_co2_gkm,frequence_hebdo,traction,source_donnee
+FR_55ede78a_1,SNCF VOYAGEURS,Tours - Saint-Pierre NavettesTGV,Grande vitesse,Jour,Saint-Pierre-des-Corps,1865,Tours,1863,07:28:00,07:33:00,0.08,,14.0,,électrique,GTFS sncf_ter
+FR_55ede78a_0,SNCF VOYAGEURS,Tours - Saint-Pierre NavettesTGV,Grande vitesse,Jour,Tours,1863,Saint-Pierre-des-Corps,1865,14:17:00,14:22:00,0.08,,14.0,,électrique,GTFS sncf_ter
+FR_F4750A49_1,SNCF VOYAGEURS,ROUEN - VERNON - PARIS,Train régional,Jour,Rouen Rive Droite,1341,Paris Saint-Lazare,1178,05:16:00,06:54:00,1.63,,14.0,,électrique,GTFS sncf_ter
+FR_F4750A49_0,SNCF VOYAGEURS,ROUEN - VERNON - PARIS,Train régional,Jour,Paris Saint-Lazare,1178,Rouen Rive Droite,1341,05:46:00,07:20:00,1.57,,14.0,,électrique,GTFS sncf_ter
+FR_5a95c788_1,SNCF VOYAGEURS,Calais Paris,Train régional,Jour,Calais Ville,990,Paris Gare du Nord,722,06:37:00,09:30:00,2.88,,14.0,,électrique,GTFS sncf_ter
+FR_5a95c788_0,SNCF VOYAGEURS,Calais Paris,Train régional,Jour,Paris Gare du Nord,722,Boulogne sur Mer,1002,07:29:00,09:56:00,2.45,,14.0,,électrique,GTFS sncf_ter
+FR_32190386_1,SNCF VOYAGEURS,Paris Nord - Creil - Longueau - Arras - Douai - Lille Flandres,Train régional,Jour,Lille Flandres,792,Paris Gare du Nord,722,09:14:00,11:28:00,2.23,,14.0,,électrique,GTFS sncf_ter
+FR_32190386_0,SNCF VOYAGEURS,Paris Nord - Creil - Longueau - Arras - Douai - Lille Flandres,Train régional,Jour,Paris Gare du Nord,722,Lille Flandres,792,10:21:00,12:32:00,2.18,,14.0,,électrique,GTFS sncf_ter
+FR_F225FF0E_1,SNCF VOYAGEURS,Paris Nord - Maubeuge - Cambrai,Train régional,Jour,Cambrai,1149,Paris Gare du Nord,722,05:47:00,07:43:00,1.93,,14.0,,électrique,GTFS sncf_ter
+FR_F225FF0E_0,SNCF VOYAGEURS,Paris Nord - Maubeuge - Cambrai,Train régional,Jour,Paris Gare du Nord,722,Saint-Quentin,855,07:17:00,08:33:00,1.27,,14.0,,électrique,GTFS sncf_ter
+FR_62540578_0,SNCF VOYAGEURS,PARIS - ARGENTAN - GRANVILLE,Train régional,Jour,Dreux,1195,Granville,1451,05:28:00,07:55:00,2.45,,14.0,,électrique,GTFS sncf_ter
+FR_62540578_1,SNCF VOYAGEURS,PARIS - ARGENTAN - GRANVILLE,Train régional,Jour,Granville,1451,Argentan,1437,17:47:00,19:08:00,1.35,,14.0,,électrique,GTFS sncf_ter
+FR_230e16f7_1,SNCF VOYAGEURS,Caen - Le Mans - Tours,Train régional,Jour,Caen,1418,Le Mans,1226,07:44:00,09:38:00,1.9,,14.0,,électrique,GTFS sncf_ter
+FR_230e16f7_0,SNCF VOYAGEURS,Caen - Le Mans - Tours,Train régional,Jour,Tours,1863,Caen,1418,09:00:00,12:13:00,3.22,,14.0,,électrique,GTFS sncf_ter
+FR_E17FFC20_1,SNCF VOYAGEURS,Tours - Lyon,Train régional,Jour,Tours,1863,Lyon Perrache,3104,12:02:00,18:03:00,6.02,,14.0,,électrique,GTFS sncf_ter
+FR_C4DBCE72_1,SNCF VOYAGEURS,Lyon Perrache - Lyon Part Dieu - Paray - Nevers - Tours,Train régional,Jour,Lyon Perrache,3104,Tours,1863,08:05:00,14:24:00,6.32,,14.0,,électrique,GTFS sncf_ter
+FR_375459AD_1,SNCF VOYAGEURS,Villefranche Vernet Les Bains - Latour De Carol Enveitg,Train régional,Jour,Villefranche - Vernet-les-Bains,3789,Latour-de-Carol - Enveitg,2255,09:23:00,12:18:00,2.92,,14.0,,électrique,GTFS sncf_ter
+FR_21895C71_0,SNCF VOYAGEURS,Romans - Valence - Gap - Briancon,Train régional,Jour,Gap,3655,Romans - Bourg-de-Péage,3645,05:56:00,08:42:00,2.77,,14.0,,électrique,GTFS sncf_ter
+FR_21895C71_1,SNCF VOYAGEURS,Romans - Valence - Gap - Briancon,Train régional,Jour,Romans - Bourg-de-Péage,3645,Briançon,3664,09:47:00,14:11:00,4.4,,14.0,,électrique,GTFS sncf_ter
+FR_72915DC3_1,SNCF VOYAGEURS,Marseille - Aix En Provence - Gap - Briancon,Train régional,Jour,Marseille Saint-Charles,3494,Briançon,3664,07:41:00,12:16:00,4.58,,14.0,,électrique,GTFS sncf_ter
+FR_72915DC3_0,SNCF VOYAGEURS,Marseille - Aix En Provence - Gap - Briancon,Train régional,Jour,Gap,3655,Marseille Saint-Charles,3494,05:06:00,08:19:00,3.22,,14.0,,électrique,GTFS sncf_ter
+FR_A019D31D_1,SNCF VOYAGEURS,Marseille - Nice,Grande vitesse,Jour,Nice-Ville,3583,Marseille Saint-Charles,3494,05:34:00,08:03:00,2.48,,14.0,,électrique,GTFS sncf_ter
+FR_A019D31D_0,SNCF VOYAGEURS,Marseille - Nice,Grande vitesse,Jour,Marseille Saint-Charles,3494,Nice-Ville,3583,05:57:00,08:38:00,2.68,,14.0,,électrique,GTFS sncf_ter
+FR_6CDBEC87_1,SNCF VOYAGEURS,Valence - Annecy,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Valence Ville,3633,05:40:00,07:43:00,2.05,,14.0,,électrique,GTFS sncf_ter
+FR_460AB17B_1,SNCF VOYAGEURS,Lyon Part Dieu - Avignon - Marseille,Train régional,Jour,Avignon Centre,3681,Lyon Part Dieu,3124,08:10:00,10:40:00,2.5,,14.0,,électrique,GTFS sncf_ter
+FR_460AB17B_0,SNCF VOYAGEURS,Lyon Part Dieu - Avignon - Marseille,Train régional,Jour,Lyon Part Dieu,3124,Avignon Centre,3681,07:20:00,09:50:00,2.5,,14.0,,électrique,GTFS sncf_ter
+FR_1B810084_1,SNCF VOYAGEURS,Paris - Lyon P D,Train régional,Jour,Dijon,2943,Paris Gare de Lyon Hall 1 - 2,2708,05:35:00,08:48:00,3.22,,14.0,,électrique,GTFS sncf_ter
+FR_1B810084_0,SNCF VOYAGEURS,Paris - Lyon P D,Train régional,Jour,Dijon,2943,Lyon Part Dieu,3124,08:49:00,10:44:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_587C60E2_0,SNCF VOYAGEURS,Lyon Part Dieu - Annecy,Train régional,Jour,Annecy,3401,Lyon Part Dieu,3124,05:59:00,07:53:00,1.9,,14.0,,électrique,GTFS sncf_ter
+FR_587C60E2_1,SNCF VOYAGEURS,Lyon Part Dieu - Annecy,Train régional,Jour,Lyon Part Dieu,3124,Aix-les-Bains le Revard,3305,07:08:00,08:22:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_5BAED237_1,SNCF VOYAGEURS,Besançon - Morteau - Lcdf,Train régional,Jour,Le Valdahon,3051,La Chaux-de-Fonds,106,04:49:00,05:51:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_5BAED237_0,SNCF VOYAGEURS,Besançon - Morteau - Lcdf,Train régional,Jour,La Chaux-de-Fonds,106,Besançon Viotte,3022,06:00:00,07:37:00,1.62,,14.0,,électrique,GTFS sncf_ter
+FR_7cc2a692_0,SNCF VOYAGEURS,Frasne-Pontarlier-Neuchâtel,Train régional,Jour,Neuchatel,104,Frasne,2986,06:06:00,07:06:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_7cc2a692_1,SNCF VOYAGEURS,Frasne-Pontarlier-Neuchâtel,Train régional,Jour,Frasne,2986,Neuchatel,104,10:53:00,11:53:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_5302F12F_0,SNCF VOYAGEURS,Pontarlier - Vallorbe,Train régional,Jour,Pontarlier,2984,Vallorbe,93,05:04:00,05:37:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_5302F12F_1,SNCF VOYAGEURS,Pontarlier - Vallorbe,Train régional,Jour,Pontarlier,2984,Frasne,2986,16:28:00,16:39:00,0.18,,14.0,,électrique,GTFS sncf_ter
+FR_93D974F4_0,SNCF VOYAGEURS,Belfort - Delle,Train régional,Jour,Porrentruy,66,Delle,443,11:58:00,12:14:00,0.27,,14.0,,électrique,GTFS sncf_ter
+FR_93D974F4_1,SNCF VOYAGEURS,Belfort - Delle,Train régional,Jour,Delle,443,Porrentruy,66,13:00:00,13:18:00,0.3,,14.0,,électrique,GTFS sncf_ter
+FR_70F48A14_1,CFF,Annemasse - Suisse,Train régional,Jour,Annemasse,3391,St-Maurice,101,20:39:00,22:44:00,2.08,,14.0,,électrique,GTFS sncf_ter
+FR_70F48A14_0,CFF,Annemasse - Suisse,Train régional,Jour,Martigny,102,Annemasse,3391,18:35:00,20:48:00,2.22,,14.0,,électrique,GTFS sncf_ter
+FR_D87237FB_1,SNCF VOYAGEURS,Lyon Part Dieu - Chambery,Train régional,Jour,Lyon Part Dieu,3124,Chambéry - Challes-les-Eaux,3301,06:50:00,08:16:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_CA6C6F27_0,SNCF VOYAGEURS,Lyon Part Dieu - Chambery,Train régional,Jour,Lyon Part Dieu,3124,Chambéry - Challes-les-Eaux,3301,10:34:00,11:58:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_D87237FB_0,SNCF VOYAGEURS,Lyon Part Dieu - Chambery,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Lyon Part Dieu,3124,05:44:00,07:10:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_CA6C6F27_1,SNCF VOYAGEURS,Lyon Part Dieu - Chambery,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Lyon Part Dieu,3124,11:42:00,13:09:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_51CED21C_1,SNCF VOYAGEURS,St-Gervais Les Bains - Chamonix - Vallorcine,Train régional,Jour,Saint-Gervais-les-Bains,3375,Vallorcine,3431,06:28:00,08:01:00,1.55,,14.0,,électrique,GTFS sncf_ter
+FR_51CED21C_0,SNCF VOYAGEURS,St-Gervais Les Bains - Chamonix - Vallorcine,Train régional,Jour,Vallorcine,3431,Saint-Gervais-les-Bains,3375,06:40:00,07:57:00,1.28,,14.0,,électrique,GTFS sncf_ter
+FR_B0D74527_1,SNCF VOYAGEURS,Lille Flandres - Courtrai,Train régional,Jour,Lille Flandres,792,Courtrai,3828,07:09:00,07:45:00,0.6,,14.0,,électrique,GTFS sncf_ter
+FR_B0D74527_0,SNCF VOYAGEURS,Lille Flandres - Courtrai,Train régional,Jour,Courtrai,3828,Lille Flandres,792,06:14:00,06:51:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_155AF6C4_0,SNCF VOYAGEURS,(Namur) - (Charleroi) - Maubeuge,Train régional,Jour,Charleroi Sud,3824,Maubeuge,835,05:24:00,06:17:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_155AF6C4_1,SNCF VOYAGEURS,(Namur) - (Charleroi) - Maubeuge,Train régional,Jour,Maubeuge,835,Charleroi Sud,3824,06:45:00,07:41:00,0.93,,14.0,,électrique,GTFS sncf_ter
+FR_4F9C7F28_1,SNCF VOYAGEURS,Lille Flandres - Baisieux - (Tournai),Train régional,Jour,Tournai,3825,Lille Flandres,792,06:22:00,06:52:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_4F9C7F28_0,SNCF VOYAGEURS,Lille Flandres - Baisieux - (Tournai),Train régional,Jour,Lille Flandres,792,Tournai,3825,06:01:00,06:30:00,0.48,,14.0,,électrique,GTFS sncf_ter
+FR_8b020346_0,SNCF VOYAGEURS,STRASBOURG-MULHOUSE,Train régional,Jour,Altkirch,402,Strasbourg,568,08:45:00,10:26:00,1.68,,14.0,,électrique,GTFS sncf_ter
+FR_FA780BE5_0,SNCF VOYAGEURS,Is - Tille - Dijon - Les Laumes,Train régional,Jour,Les Laumes - Alésia,2948,Is-sur-Tille,2979,09:38:00,10:55:00,1.28,,14.0,,électrique,GTFS sncf_ter
+FR_3602684E_0,SNCF VOYAGEURS,Dijon - Nevers,Train régional,Jour,Chagny,2963,Nevers,2784,07:30:00,09:29:00,1.98,,14.0,,électrique,GTFS sncf_ter
+FR_3602684E_1,SNCF VOYAGEURS,Dijon - Nevers,Train régional,Jour,Nevers,2784,Chagny,2963,06:29:00,08:33:00,2.07,,14.0,,électrique,GTFS sncf_ter
+FR_7E163E9C_1,SNCF VOYAGEURS,Clermont-Ferrand - Nîmes,Train régional,Jour,Langeac,3267,Clermont-Ferrand,3247,11:55:00,13:21:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_7E163E9C_0,SNCF VOYAGEURS,Clermont-Ferrand - Nîmes,Train régional,Jour,Génolhac,3718,Nîmes Centre,3708,10:42:00,12:00:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_375459AD_0,SNCF VOYAGEURS,Villefranche Vernet Les Bains - Latour De Carol Enveitg,Train régional,Jour,Latour-de-Carol - Enveitg,2255,Villefranche - Vernet-les-Bains,3789,08:52:00,11:47:00,2.92,,14.0,,électrique,GTFS sncf_ter
+FR_2A13B7FE_0,SNCF VOYAGEURS,ANNEMASSE - COPPET,Train régional,Nuit,Annemasse,3391,Coppet,87,01:35:00,02:26:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_2A13B7FE_1,SNCF VOYAGEURS,ANNEMASSE - COPPET,Train régional,Nuit,Coppet,87,Annemasse,3391,01:34:00,02:25:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_8BC66BFA_1,SNCF VOYAGEURS,EVIAN - COPPET,Train régional,Jour,Coppet,87,Évian-les-Bains,3396,07:04:00,08:39:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_8BC66BFA_0,SNCF VOYAGEURS,EVIAN - COPPET,Train régional,Jour,Évian-les-Bains,3396,Coppet,87,05:21:00,06:56:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_2D7972A5_0,SNCF VOYAGEURS,ANNECY - COPPET,Train régional,Jour,Coppet,87,Annecy,3401,05:19:00,07:16:00,1.95,,14.0,,électrique,GTFS sncf_ter
+FR_2D7972A5_1,SNCF VOYAGEURS,ANNECY - COPPET,Train régional,Jour,Annecy,3401,Coppet,87,05:44:00,07:41:00,1.95,,14.0,,électrique,GTFS sncf_ter
+FR_FD5D6FF3_0,SNCF VOYAGEURS,ST-GERVAIS - COPPET,Train régional,Jour,Lancy-Pont-Rouge,111,Saint-Gervais-les-Bains-Le Fayet,3414,06:37:00,08:15:00,1.63,,14.0,,électrique,GTFS sncf_ter
+FR_FD5D6FF3_1,SNCF VOYAGEURS,ST-GERVAIS - COPPET,Train régional,Jour,Saint-Gervais-les-Bains-Le Fayet,3414,Coppet,87,05:49:00,07:56:00,2.12,,14.0,,électrique,GTFS sncf_ter
+FR_7C077771_0,SNCF VOYAGEURS,Metz - Sarrebruck,Train régional,Jour,Forbach,515,Metz,484,05:00:00,05:52:00,0.87,,14.0,,électrique,GTFS sncf_ter
+FR_7C077771_1,SNCF VOYAGEURS,Metz - Sarrebruck,Train régional,Jour,Metz,484,Forbach,515,05:38:00,06:26:00,0.8,,14.0,,électrique,GTFS sncf_ter
+FR_E23B3CBF_1,SNCF VOYAGEURS,Ambérieu - Mâcon,Train régional,Jour,Ambérieu-en-Bugey,3369,Bourg-en-Bresse Gare Routière,2785,06:57:00,07:40:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_E23B3CBF_0,SNCF VOYAGEURS,Ambérieu - Mâcon,Train régional,Jour,Bourg-en-Bresse Gare Routière,2785,Ambérieu-en-Bugey,3369,07:16:00,07:55:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_F19D1D40_0,SNCF VOYAGEURS,Lyon Perrache - Lyon Part Dieu - Bourg En Bresse,Train régional,Jour,Bourg-en-Bresse Gare Routière,2785,Lyon-Part-Dieu Gare Routière,2825,06:00:00,07:18:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_F19D1D40_1,SNCF VOYAGEURS,Lyon Perrache - Lyon Part Dieu - Bourg En Bresse,Train régional,Jour,Lyon-Part-Dieu Gare Routière,2825,Bourg-en-Bresse Gare Routière,2785,08:12:00,09:33:00,1.35,,14.0,,électrique,GTFS sncf_ter
+FR_70AC18EC_0,SNCF VOYAGEURS,Lyon Saint-Paul - Sain Bel,Train régional,Jour,Sain-Bel,3088,Lyon-Saint-Paul La Feuillée,2853,05:04:00,06:04:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_70AC18EC_1,SNCF VOYAGEURS,Lyon Saint-Paul - Sain Bel,Train régional,Nuit,Lyon-Saint-Paul Quai de Bondy,2852,Sain-Bel,3088,22:15:00,23:15:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_34118E78_1,SNCF VOYAGEURS,Lyon Perrache - Lyon Part Dieu - Roanne,Train régional,Nuit,Lyon-Part-Dieu Gare Routière,2825,Roanne-Gare-Routière,2871,22:30:00,00:25:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_34118E78_0,SNCF VOYAGEURS,Lyon Perrache - Lyon Part Dieu - Roanne,Train régional,Jour,Roanne-Gare-Routière,2871,Lyon-Part-Dieu Gare Routière,2825,19:45:00,22:00:00,2.25,,14.0,,électrique,GTFS sncf_ter
+FR_ABB65811_0,SNCF VOYAGEURS,Saint-Étienne - Roanne,Train régional,Jour,Feurs,3202,St-Etienne-Châtcrx. G Routière,2873,05:00:00,06:02:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_ABB65811_1,SNCF VOYAGEURS,Saint-Étienne - Roanne,Train régional,Nuit,St-Etienne-Châtcrx. G Routière,2873,Feurs,3202,22:03:00,23:08:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_BF96D614_1,SNCF VOYAGEURS,Saint-Étienne - Le Puy En Velay,Train régional,Nuit,Lyon-Part-Dieu Gare Routière,2825,St-Etienne-Châtcrx. G Routière,2873,23:24:00,00:45:00,1.35,,14.0,,électrique,GTFS sncf_ter
+FR_BF96D614_0,SNCF VOYAGEURS,Saint-Étienne - Le Puy En Velay,Train régional,Jour,Le Puy-en-Velay,3279,St-Etienne-Châtcrx. G Routière,2873,15:45:00,17:05:00,1.33,,14.0,,électrique,GTFS sncf_ter
+FR_F819E7E3_0,SNCF VOYAGEURS,Lille Flandres - Dunkerque,Train régional,Jour,Dunkerque,773,Lille Flandres,792,21:00:00,22:00:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_F819E7E3_1,SNCF VOYAGEURS,Lille Flandres - Dunkerque,Train régional,Jour,Lille Flandres,792,Dunkerque,773,11:52:00,13:03:00,1.18,,14.0,,électrique,GTFS sncf_ter
+FR_D497333B_0,SNCF VOYAGEURS,Lille Flandres - Maubeuge - Jeumont,Train régional,Jour,Dunkerque,773,Lille Flandres,792,19:42:00,20:56:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_7B6378BA_0,SNCF VOYAGEURS,Lille Flandres - Libercourt - Lens,Train régional,Jour,Lille Flandres,792,Arras,1070,17:05:00,17:42:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_3FFEA340_1,SNCF VOYAGEURS,Rouen - Lille,Train régional,Jour,Arras,1070,Lille Flandres,792,09:16:00,09:55:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_11FB2CAA_1,SNCF VOYAGEURS,Lille - Amiens - Abancourt - (Rouen Rive-Droite),Train régional,Jour,Lille Flandres,792,Arras,1070,17:05:00,17:42:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_7DB175D6_1,SNCF VOYAGEURS,Vienne - Lyon Perrache - Villefranche Sur Saône,Train régional,Jour,Lyon-Perrache Gare Routière,2826,Vienne-Gare-Routière,2883,11:24:00,12:17:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_7DB175D6_0,SNCF VOYAGEURS,Vienne - Lyon Perrache - Villefranche Sur Saône,Train régional,Jour,Vienne-Gare-Routière,2883,Lyon-Perrache Gare Routière,2826,14:04:00,14:59:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_E320C3A2_1,SNCF VOYAGEURS,Lyon Part Dieu - Mâcon,Train régional,Jour,Mâcon,3160,Lyon-Part-Dieu Gare Routière,2825,04:45:00,06:15:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_ECDA9545_1,SNCF VOYAGEURS,Ambérieu - Saint-Étienne,Train régional,Jour,Ambérieu-en-Bugey,3369,Lyon-Part-Dieu Gare Routière,2825,04:30:00,05:33:00,1.05,,14.0,,électrique,GTFS sncf_ter
+FR_7C32B61E_1,SNCF VOYAGEURS,Paris - Le Havre,Train régional,Jour,Le Havre,1359,Paris Saint-Lazare,1178,05:16:00,07:39:00,2.38,,14.0,,électrique,GTFS sncf_ter
+FR_C379C6D0_1,SNCF VOYAGEURS,Montluçon - Vierzon,Train régional,Jour,Montluçon,2413,Vierzon,1950,06:30:00,08:35:00,2.08,,14.0,,électrique,GTFS sncf_ter
+FR_4D7F8084_0,SNCF VOYAGEURS,Clermont-Ferrand - Montluçon,Train régional,Jour,Clermont-Ferrand,3247,Gannat,3243,08:04:00,09:01:00,0.95,,14.0,,électrique,GTFS sncf_ter
+FR_4D7F8084_1,SNCF VOYAGEURS,Clermont-Ferrand - Montluçon,Train régional,Jour,Gannat,3243,Riom - Châtel-Guyon,3250,17:10:00,17:56:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_C379C6D0_0,SNCF VOYAGEURS,Montluçon - Vierzon,Train régional,Jour,Vierzon,1950,Montluçon,2413,09:25:00,11:00:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_B42C22DC_1,SNCF VOYAGEURS,Aurillac - Brive-La-Gaillarde,Train régional,Jour,Saint-Denis-Près-Martel,2161,Aurillac,2492,20:10:00,22:01:00,1.85,,14.0,,électrique,GTFS sncf_ter
+FR_d67d221a_0,SNCF VOYAGEURS,Clermont-Ferrand - Aurillac,Train régional,Jour,Aurillac,2492,Figeac,2299,18:30:00,19:47:00,1.28,,14.0,,électrique,GTFS sncf_ter
+FR_47FFBB4B_1,SNCF VOYAGEURS,Clermont-Ferrand - Le Puy En Velay,Train régional,Jour,Brioude,3264,Le Puy-en-Velay,3279,20:52:00,22:00:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_47FFBB4B_0,SNCF VOYAGEURS,Clermont-Ferrand - Le Puy En Velay,Train régional,Jour,Le Puy-en-Velay,3279,Clermont-Ferrand,3247,12:05:00,14:48:00,2.72,,14.0,,électrique,GTFS sncf_ter
+FR_d67d221a_1,SNCF VOYAGEURS,Clermont-Ferrand - Aurillac,Train régional,Jour,Aurillac,2492,Arvant,3263,07:13:00,09:14:00,2.02,,14.0,,électrique,GTFS sncf_ter
+FR_3E01CD3C_0,SNCF VOYAGEURS,Clermont-Ferrand - Thiers,Train régional,Jour,Thiers,3275,Vertaizon,3272,08:08:00,08:47:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_07CBC4FA_1,SNCF VOYAGEURS,Clermont-Ferrand - Moulins - Nevers,Train régional,Jour,Moulins sur Allier,2801,Vichy,3239,19:40:00,20:58:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_3E01CD3C_1,SNCF VOYAGEURS,Clermont-Ferrand - Thiers,Train régional,Jour,Clermont-Ferrand,3247,Thiers,3275,06:40:00,07:51:00,1.18,,14.0,,électrique,GTFS sncf_ter
+FR_07CBC4FA_0,SNCF VOYAGEURS,Clermont-Ferrand - Moulins - Nevers,Train régional,Jour,Clermont-Ferrand,3247,Vichy,3239,21:20:00,22:35:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_3699c2ff_0,SNCF VOYAGEURS,Commentry - Montluçon - St Amand,Train régional,Jour,Urcay Hôtel du Lyon d'Or,1335,Montluçon,2413,06:21:00,07:05:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_3699c2ff_1,SNCF VOYAGEURS,Commentry - Montluçon - St Amand,Train régional,Jour,Montluçon,2413,Urcay Hôtel du Lyon d'Or,1335,18:47:00,19:47:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_9C95C93C_0,SNCF VOYAGEURS,Brioude - Clermont-Ferrand,Train régional,Jour,Issoire,3260,Arvant,3263,07:13:00,07:59:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_9C95C93C_1,SNCF VOYAGEURS,Brioude - Clermont-Ferrand,Train régional,Jour,Vic-le-Comte,3258,Issoire Lycée Deville,1222,07:16:00,07:46:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_D4666451_0,SNCF VOYAGEURS,Paris - Deauville,Train régional,Jour,Le Havre,1359,Paris Saint-Lazare,1178,05:58:00,08:50:00,2.87,,14.0,,électrique,GTFS sncf_ter
+FR_f0aae091_1,SNCF VOYAGEURS,Paris - Dieppe,Train régional,Jour,Dieppe,1368,Rouen Rive Droite,1341,18:26:00,19:16:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_f0aae091_0,SNCF VOYAGEURS,Paris - Dieppe,Train régional,Jour,Paris Saint-Lazare,1178,Dieppe,1368,09:12:00,11:16:00,2.07,,14.0,,électrique,GTFS sncf_ter
+FR_7DC79807_0,SNCF VOYAGEURS,Quimper - Redon,Train régional,Jour,Quimperlé,1591,Lorient,1583,07:08:00,07:30:00,0.37,,14.0,,électrique,GTFS sncf_ter
+FR_5C6ED66F_1,SNCF VOYAGEURS,Paris - Cherbourg,Train régional,Nuit,Paris Saint-Lazare,1178,Cherbourg,1443,00:32:00,05:25:00,4.88,,14.0,,électrique,GTFS sncf_ter
+FR_5C6ED66F_0,SNCF VOYAGEURS,Paris - Cherbourg,Train régional,Jour,Cherbourg,1443,Paris Saint-Lazare,1178,05:46:00,08:58:00,3.2,,14.0,,électrique,GTFS sncf_ter
+FR_50D00346_1,SNCF VOYAGEURS,Grenoble - Gap,Train régional,Jour,Grenoble,1035,Gap,3655,12:10:00,14:17:00,2.12,,14.0,,électrique,GTFS sncf_ter
+FR_2ebd7f65_0,SNCF VOYAGEURS,Grenoble - Clelles - Veynes,Train régional,Jour,Clelles-Mairie,2830,Grenoble,1035,05:50:00,07:15:00,1.42,,14.0,,électrique,GTFS sncf_ter
+FR_50D00346_0,SNCF VOYAGEURS,Grenoble - Gap,Train régional,Jour,Gap,3655,Grenoble,1035,14:25:00,16:32:00,2.12,,14.0,,électrique,GTFS sncf_ter
+FR_2ebd7f65_1,SNCF VOYAGEURS,Grenoble - Clelles - Veynes,Train régional,Jour,Grenoble,1035,Clelles-Mairie,2830,14:00:00,15:22:00,1.37,,14.0,,électrique,GTFS sncf_ter
+FR_D6150B76_1,SNCF VOYAGEURS,Grenoble - Chambery,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Grenoble,1035,12:00:00,13:10:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_D6150B76_0,SNCF VOYAGEURS,Grenoble - Chambery,Train régional,Jour,Grenoble,1035,Chambéry - Challes-les-Eaux,3301,09:50:00,11:49:00,1.98,,14.0,,électrique,GTFS sncf_ter
+FR_F4C462CD_1,SNCF VOYAGEURS,Saint-André Le Gaz - Grenoble Universités Gières,Train régional,Jour,Rives,3441,La Tour-du-Pin,3132,06:55:00,07:50:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_4CF259FE_0,SNCF VOYAGEURS,Chambery - Modane,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Modane,3337,08:33:00,10:47:00,2.23,,14.0,,électrique,GTFS sncf_ter
+FR_4CF259FE_1,SNCF VOYAGEURS,Chambery - Modane,Train régional,Jour,Modane,3337,Chambéry - Challes-les-Eaux,3301,04:36:00,06:29:00,1.88,,14.0,,électrique,GTFS sncf_ter
+FR_2622a5ce_0,SNCF VOYAGEURS,PARIS - CAEN,Train régional,Jour,Caen,1418,Paris Saint-Lazare,1178,04:58:00,07:15:00,2.28,,14.0,,électrique,GTFS sncf_ter
+FR_2622a5ce_1,SNCF VOYAGEURS,PARIS - CAEN,Train régional,Jour,Paris Saint-Lazare,1178,Caen,1418,07:50:00,09:59:00,2.15,,14.0,,électrique,GTFS sncf_ter
+FR_6E29BD07_0,SNCF VOYAGEURS,Annecy - Chambery,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Annecy,3401,07:45:00,08:40:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_6E29BD07_1,SNCF VOYAGEURS,Annecy - Chambery,Train régional,Jour,Annecy,3401,Chambéry - Challes-les-Eaux,3301,18:00:00,19:00:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_F94D0299_1,SNCF VOYAGEURS,Chambery - Bourg St-Maurice,Grande vitesse,Jour,Bourg-Saint-Maurice,3335,Chambéry - Challes-les-Eaux,3301,07:17:00,10:00:00,2.72,,14.0,,électrique,GTFS sncf_ter
+FR_F94D0299_0,SNCF VOYAGEURS,Chambery - Bourg St-Maurice,Grande vitesse,Jour,Albertville,3326,Moûtiers-Salins-Brides-les-B.,3332,07:17:00,07:47:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_701364c4_0,SNCF VOYAGEURS,Grasse - Cannes - Nice - Vintimille,Grande vitesse,Jour,Nice-Ville,3583,Menton,3597,21:33:00,22:07:00,0.57,,14.0,,électrique,GTFS sncf_ter
+FR_701364c4_1,SNCF VOYAGEURS,Grasse - Cannes - Nice - Vintimille,Grande vitesse,Nuit,Nice-Ville,3583,Cannes,3622,23:15:00,23:56:00,0.68,,14.0,,électrique,GTFS sncf_ter
+FR_D4666451_1,SNCF VOYAGEURS,Paris - Deauville,Train régional,Jour,Paris Saint-Lazare,1178,Trouville - Deauville,1432,07:27:00,09:39:00,2.2,,14.0,,électrique,GTFS sncf_ter
+FR_252847F8_0,SNCF VOYAGEURS,Bellegarde - St-Gervais Les Bains,Train régional,Jour,Saint-Gervais-les-Bains-Le Fayet,3414,Cluses,3411,07:05:00,07:45:00,0.67,,14.0,,électrique,GTFS sncf_ter
+FR_252847F8_1,SNCF VOYAGEURS,Bellegarde - St-Gervais Les Bains,Train régional,Jour,Bellegarde,3379,Saint-Gervais-les-Bains-Le Fayet,3414,10:15:00,12:30:00,2.25,,14.0,,électrique,GTFS sncf_ter
+FR_D17580CC_0,SNCF VOYAGEURS,Bellegarde - Évian Les Bains,Train régional,Jour,Évian-les-Bains,3396,Bellegarde,3379,10:34:00,12:40:00,2.1,,14.0,,électrique,GTFS sncf_ter
+FR_D17580CC_1,SNCF VOYAGEURS,Bellegarde - Évian Les Bains,Train régional,Jour,Bellegarde,3379,Évian-les-Bains,3396,10:15:00,12:20:00,2.08,,14.0,,électrique,GTFS sncf_ter
+FR_AC5E1547_0,SNCF VOYAGEURS,Nevers - Lozanne,Train régional,Jour,Nevers,2784,Moulins sur Allier,2801,12:37:00,14:02:00,1.42,,14.0,,électrique,GTFS sncf_ter
+FR_AC5E1547_1,SNCF VOYAGEURS,Nevers - Lozanne,Train régional,Jour,Moulins sur Allier,2801,Nevers,2784,17:41:00,19:14:00,1.55,,14.0,,électrique,GTFS sncf_ter
+FR_F1FA7E3F_0,SNCF VOYAGEURS,Belfort - Epinal,Train régional,Jour,Aillevillers,456,Belfort-Ville,435,05:36:00,07:18:00,1.7,,14.0,,électrique,GTFS sncf_ter
+FR_F1FA7E3F_1,SNCF VOYAGEURS,Belfort - Epinal,Train régional,Jour,Lure,451,Aillevillers,456,19:11:00,19:48:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_1A594575_1,SNCF VOYAGEURS,Dole - St Claude,Train régional,Jour,Mouchard,3056,Dole,2956,17:15:00,18:02:00,0.78,,14.0,,électrique,GTFS sncf_ter
+FR_1A594575_0,SNCF VOYAGEURS,Dole - St Claude,Train régional,Jour,Dole,2956,Mouchard,3056,17:25:00,18:12:00,0.78,,14.0,,électrique,GTFS sncf_ter
+FR_CDFEA256_0,SNCF VOYAGEURS,Dijon - Besançon,Train régional,Jour,Saint-Vit,3039,Franois,3037,07:32:00,07:46:00,0.23,,14.0,,électrique,GTFS sncf_ter
+FR_CDFEA256_1,SNCF VOYAGEURS,Dijon - Besançon,Train régional,Jour,Franois,3037,Saint-Vit,3039,07:32:00,07:50:00,0.3,,14.0,,électrique,GTFS sncf_ter
+FR_45A935BF_0,SNCF VOYAGEURS,Dijon - Bourg En Bresse,Train régional,Jour,Dijon,2943,Seurre,2971,19:44:00,21:08:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_45A935BF_1,SNCF VOYAGEURS,Dijon - Bourg En Bresse,Train régional,Jour,Seurre,2971,Dijon,2943,05:50:00,07:16:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_4EF4AAFF_0,SNCF VOYAGEURS,Paris - Bourges,Train régional,Jour,Paris Austerlitz,1849,Bourges,1963,07:06:00,09:08:00,2.03,,14.0,,électrique,GTFS sncf_ter
+FR_4EF4AAFF_1,SNCF VOYAGEURS,Paris - Bourges,Train régional,Jour,Nevers,2784,Paris Austerlitz,1849,06:00:00,08:54:00,2.9,,14.0,,électrique,GTFS sncf_ter
+FR_4B306F7D_1,SNCF VOYAGEURS,Lyon Perrache - Firminy,Train régional,Jour,Firminy,3192,St-Etienne-Châtcrx. G Routière,2873,11:10:00,11:35:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_4B306F7D_0,SNCF VOYAGEURS,Lyon Perrache - Firminy,Train régional,Jour,St-Etienne-Châtcrx. G Routière,2873,Firminy,3192,11:51:00,12:16:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_17D1138F_0,SNCF VOYAGEURS,Saint-Étienne - Boën,Train régional,Jour,St-Etienne-Châtcrx. G Routière,2873,Boën,3189,08:05:00,09:35:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_17D1138F_1,SNCF VOYAGEURS,Saint-Étienne - Boën,Train régional,Jour,Boën,3189,St-Etienne-Châtcrx. G Routière,2873,09:46:00,11:10:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_E320C3A2_0,SNCF VOYAGEURS,Lyon Part Dieu - Mâcon,Train régional,Nuit,Lyon-Part-Dieu Gare Routière,2825,Mâcon,3160,22:24:00,23:54:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_5EB38AE1_1,SNCF VOYAGEURS,Lyon Saint-Paul - Brignais,Train régional,Jour,Brignais,3121,Lyon-Saint-Paul La Feuillée,2853,10:55:00,11:58:00,1.05,,14.0,,électrique,GTFS sncf_ter
+FR_5EB38AE1_0,SNCF VOYAGEURS,Lyon Saint-Paul - Brignais,Train régional,Jour,Lyon-Saint-Paul Quai de Bondy,2852,Brignais,3121,11:10:00,12:13:00,1.05,,14.0,,électrique,GTFS sncf_ter
+FR_4c3b5df4_0,SNCF VOYAGEURS,Lyon Perrache - Lyon Part-Dieu - Bourg-en-Bresse,Train régional,Jour,Oyonnax,3366,Bourg-en-Bresse Gare Routière,2785,06:33:00,07:33:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_FF6133FC_0,SNCF VOYAGEURS,Bourg En Bresse - Oyonnax,Train régional,Jour,Bourg-en-Bresse Gare Routière,2785,Oyonnax,3366,08:45:00,09:45:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_19D8543E_1,SNCF VOYAGEURS,Nevers - Cosne,Train régional,Jour,Pougues-les-Eaux,2795,La Charité-sur-Loire,2793,08:53:00,09:13:00,0.33,,14.0,,électrique,GTFS sncf_ter
+FR_63D83770_0,SNCF VOYAGEURS,Lyon Part Dieu - Genève Cornavin,Train régional,Nuit,Bellegarde,3379,Geneve,78,22:19:00,23:09:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_072E93FD_1,SNCF VOYAGEURS,Salbris - Romorantin - Valençay - Luçay le Mâle,Train régional,Jour,Lucay-le-Mâle Champ de Foire,3246,Valençay,1964,07:54:00,08:15:00,0.35,,14.0,,électrique,GTFS sncf_ter
+FR_072E93FD_0,SNCF VOYAGEURS,Salbris - Romorantin - Valençay - Luçay le Mâle,Train régional,Jour,Valençay,1964,Luçay-le-Mâle,1974,08:41:00,08:56:00,0.25,,14.0,,électrique,GTFS sncf_ter
+FR_FDE62809_0,SNCF VOYAGEURS,Dijon - Laroche - Auxerre,Train régional,Jour,La Tour-du-Pin,3132,Chambéry - Challes-les-Eaux,3301,11:00:00,12:24:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_1BC27DBC_1,SNCF VOYAGEURS,Ambérieu - Chambery,Train régional,Jour,Culoz,3302,Ambérieu-en-Bugey,3369,13:25:00,14:30:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_1BC27DBC_0,SNCF VOYAGEURS,Ambérieu - Chambery,Train régional,Jour,Ambérieu-en-Bugey,3369,Culoz,3302,12:15:00,13:20:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_8cfaff20_1,SNCF VOYAGEURS,St André-le-Gaz - Grenoble - Chambéry,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Grenoble Europole,2834,12:35:00,14:35:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_D381EB84_0,SNCF VOYAGEURS,Saint-Marcellin - Grenoble Universités Gières,Train régional,Jour,Grenoble,1035,Saint-Marcellin,3647,12:15:00,13:50:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_D381EB84_1,SNCF VOYAGEURS,Saint-Marcellin - Grenoble Universités Gières,Train régional,Jour,Saint-Marcellin,3647,Grenoble Europole,2834,11:44:00,13:19:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_9C25B27A_0,SNCF VOYAGEURS,Valence - Genève Cornavin,Train régional,Jour,Aix-les-Bains le Revard,3305,Geneve,78,13:03:00,14:33:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_D058B31D_1,SNCF VOYAGEURS,Annecy - St-Gervais Les Bains Le Fayet,Train régional,Jour,Annecy,3401,La Roche-sur-Foron,3407,15:50:00,16:25:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_8230AC64_0,SNCF VOYAGEURS,Dijon - Mâcon,Train régional,Jour,Chalon-sur-Saône,3150,Dijon,2943,06:15:00,08:53:00,2.63,,14.0,,électrique,GTFS sncf_ter
+FR_8230AC64_1,SNCF VOYAGEURS,Dijon - Mâcon,Train régional,Jour,Dijon,2943,Chalon-sur-Saône,3150,06:45:00,09:23:00,2.63,,14.0,,électrique,GTFS sncf_ter
+FR_783C9AC6_1,SNCF VOYAGEURS,Etang - Montchanin,Train régional,Jour,Montchanin,2758,Étang-sur-Arroux,2752,12:31:00,13:16:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_CD2E271B_0,SNCF VOYAGEURS,Nevers - Decize,Train régional,Jour,Nevers,2784,Decize,2809,12:29:00,13:41:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_CD2E271B_1,SNCF VOYAGEURS,Nevers - Decize,Train régional,Jour,Decize,2809,Nevers,2784,13:45:00,14:57:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_B51E0F75_0,SNCF VOYAGEURS,Paray - Montchanin,Train régional,Jour,Paray-le-Monial,2768,Montchanin,2758,12:11:00,13:18:00,1.12,,14.0,,électrique,GTFS sncf_ter
+FR_19D8543E_0,SNCF VOYAGEURS,Nevers - Cosne,Train régional,Jour,Cosne-sur-Loire,2788,Nevers,2784,14:12:00,15:55:00,1.72,,14.0,,électrique,GTFS sncf_ter
+FR_FDE62809_1,SNCF VOYAGEURS,Dijon - Laroche - Auxerre,Train régional,Jour,Dijon,2943,Auxerre Saint-Gervais,2693,07:15:00,09:15:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_556F7950_0,SNCF VOYAGEURS,Paris Gdl - Laroche,Train régional,Jour,Montereau,2678,Auxerre Saint-Gervais,2693,09:55:00,12:37:00,2.7,,14.0,,électrique,GTFS sncf_ter
+FR_0550C603_0,SNCF VOYAGEURS,Paris Bercy - Corbigny,Train régional,Jour,Clamecy,2816,Laroche - Migennes,2688,11:00:00,13:05:00,2.08,,14.0,,électrique,GTFS sncf_ter
+FR_E61C107E_1,SNCF VOYAGEURS,Paris Bercy - Avallon,Train régional,Jour,Auxerre Saint-Gervais,2693,Avallon,2700,08:16:00,09:34:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_BB0EECFC_1,SNCF VOYAGEURS,Paris Bercy - Auxerre,Train régional,Jour,Laroche - Migennes,2688,Montereau,2678,10:25:00,12:05:00,1.67,,14.0,,électrique,GTFS sncf_ter
+FR_E61C107E_0,SNCF VOYAGEURS,Paris Bercy - Avallon,Train régional,Jour,Laroche - Migennes,2688,Montereau,2678,11:05:00,13:05:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_FA780BE5_1,SNCF VOYAGEURS,Is - Tille - Dijon - Les Laumes,Train régional,Jour,Is-sur-Tille,2979,Dijon,2943,13:30:00,14:35:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_0550C603_1,SNCF VOYAGEURS,Paris Bercy - Corbigny,Train régional,Jour,Laroche - Migennes,2688,Clamecy,2816,09:00:00,10:57:00,1.95,,14.0,,électrique,GTFS sncf_ter
+FR_850CA2C1_0,SNCF VOYAGEURS,Belfort - Besançon,Train régional,Jour,Belfort-Ville,435,Besançon Viotte,3022,06:10:00,08:39:00,2.48,,14.0,,électrique,GTFS sncf_ter
+FR_26d7b502_0,SNCF VOYAGEURS,Belfort-Besançon,Train régional,Jour,Belfort-Ville,435,Besançon Viotte,3022,08:10:00,10:39:00,2.48,,14.0,,électrique,GTFS sncf_ter
+FR_26d7b502_1,SNCF VOYAGEURS,Belfort-Besançon,Train régional,Jour,Besançon Viotte,3022,Belfort-Ville,435,16:15:00,18:48:00,2.55,,14.0,,électrique,GTFS sncf_ter
+FR_850CA2C1_1,SNCF VOYAGEURS,Belfort - Besançon,Train régional,Jour,Besançon Viotte,3022,Belfort-Ville,435,07:15:00,09:48:00,2.55,,14.0,,électrique,GTFS sncf_ter
+FR_A3876108_0,SNCF VOYAGEURS,Besançon - Lyon P D,Train régional,Jour,Lons-le-Saunier,3034,Besançon Viotte,3022,09:05:00,11:08:00,2.05,,14.0,,électrique,GTFS sncf_ter
+FR_A3876108_1,SNCF VOYAGEURS,Besançon - Lyon P D,Train régional,Jour,Besançon Viotte,3022,Lons-le-Saunier,3034,05:55:00,07:51:00,1.93,,14.0,,électrique,GTFS sncf_ter
+FR_683EEEDD_1,SNCF VOYAGEURS,Dole- Frasne - Pontarlier,Train régional,Jour,Frasne,2986,Travers,103,14:47:00,15:47:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_74E84576_0,SNCF VOYAGEURS,Belfort - Vesoul,Train régional,Jour,Belfort-Ville,435,Vesoul,450,07:00:00,08:55:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_74E84576_1,SNCF VOYAGEURS,Belfort - Vesoul,Train régional,Jour,Vesoul,450,Belfort-Ville,435,07:15:00,09:10:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_EA4F796B_1,SNCF VOYAGEURS,Rennes - St-Brieuc,Train régional,Jour,Rennes,1492,Saint-Brieuc,1527,08:40:00,11:10:00,2.5,,14.0,,électrique,GTFS sncf_ter
+FR_B9993B66_1,SNCF VOYAGEURS,Rennes - La Brohiniere,Train régional,Jour,Montauban-de-Bretagne,1499,Rennes,1492,11:50:00,12:50:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_EA4F796B_0,SNCF VOYAGEURS,Rennes - St-Brieuc,Train régional,Jour,Saint-Brieuc,1527,Rennes,1492,11:45:00,13:15:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_89E7B142_0,SNCF VOYAGEURS,Morlaix - Brest,Train régional,Jour,Brest,1563,Morlaix,1578,07:25:00,09:00:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_89E7B142_1,SNCF VOYAGEURS,Morlaix - Brest,Train régional,Jour,Morlaix,1578,Brest,1563,12:10:00,13:45:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_3700F671_0,SNCF VOYAGEURS,Quimper - Brest,Train régional,Jour,Landerneau,1572,Quimper,1567,12:50:00,14:25:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_3700F671_1,SNCF VOYAGEURS,Quimper - Brest,Train régional,Jour,Quimper,1567,Brest,1563,13:10:00,15:20:00,2.17,,14.0,,électrique,GTFS sncf_ter
+FR_D2145CC1_1,SNCF VOYAGEURS,Brest - Landerneau,Train régional,Jour,Landerneau,1572,Brest,1563,07:30:00,08:15:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_D2145CC1_0,SNCF VOYAGEURS,Brest - Landerneau,Train régional,Jour,Brest,1563,Landerneau,1572,09:05:00,09:50:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_0D0D5AAF_0,SNCF VOYAGEURS,Saint-Brieuc - Lannion,Train régional,Jour,Lannion,1542,Saint-Brieuc,1527,12:30:00,14:00:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_0D0D5AAF_1,SNCF VOYAGEURS,Saint-Brieuc - Lannion,Train régional,Jour,Plouaret Trégor,1539,Lannion,1542,14:10:00,14:35:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_5B45A41F_0,SNCF VOYAGEURS,Rennes - Chateaubriant,Train régional,Jour,Châteaubriant,1680,Rennes,1492,08:27:00,10:15:00,1.8,,14.0,,électrique,GTFS sncf_ter
+FR_5B45A41F_1,SNCF VOYAGEURS,Rennes - Chateaubriant,Train régional,Jour,Retiers,1515,Châteaubriant,1680,08:30:00,09:03:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_3D13D093_0,SNCF VOYAGEURS,Paris - Nevers,Train régional,Jour,Cosne-sur-Loire,2788,Montargis,2702,04:35:00,06:14:00,1.65,,14.0,,électrique,GTFS sncf_ter
+FR_3D13D093_1,SNCF VOYAGEURS,Paris - Nevers,Train régional,Jour,Montargis,2702,Cosne-sur-Loire,2788,20:20:00,21:55:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_D93A6C9A_1,SNCF VOYAGEURS,Tours - Poitiers,Train régional,Jour,Tours,1863,Port-de-Piles,1930,12:20:00,13:35:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_D93A6C9A_0,SNCF VOYAGEURS,Tours - Poitiers,Train régional,Jour,Port-de-Piles,1930,Tours,1863,13:50:00,15:05:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_BD6F341C_1,SNCF VOYAGEURS,Bourges - Montluçon - Commentry,Train régional,Jour,Montluçon,2413,Bourges,1963,13:00:00,15:35:00,2.58,,14.0,,électrique,GTFS sncf_ter
+FR_EEB65876_0,SNCF VOYAGEURS,Tours - Saumur - Angers - Nantes,Train régional,Jour,Port Boulet,1885,Tours,1863,11:10:00,12:30:00,1.33,,14.0,,électrique,GTFS sncf_ter
+FR_A7789DAB_0,SNCF VOYAGEURS,Orléans - Tours,Train régional,Jour,Blois - Chambord,1893,Orléans Avenue de Paris,3378,10:35:00,12:30:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_A7789DAB_1,SNCF VOYAGEURS,Orléans - Tours,Train régional,Jour,Orléans Avenue de Paris,3378,Tours,1863,10:30:00,13:30:00,3.0,,14.0,,électrique,GTFS sncf_ter
+FR_77ba4686_0,SNCF VOYAGEURS,Orléans - Châteauroux - Saint-Sébastien,Train régional,Jour,Orléans Avenue de Paris,3378,Châteauroux,2198,12:30:00,15:50:00,3.33,,14.0,,électrique,GTFS sncf_ter
+FR_77ba4686_1,SNCF VOYAGEURS,Orléans - Châteauroux - Saint-Sébastien,Train régional,Jour,Argenton-sur-Creuse,2207,Vierzon,1950,12:05:00,14:15:00,2.17,,14.0,,électrique,GTFS sncf_ter
+FR_C1EA6532_0,SNCF VOYAGEURS,Paris - Orléans,Train régional,Nuit,Les Aubrais Gare Routière,3287,Saint-Pierre-des-Corps,1865,00:05:00,02:15:00,2.17,,14.0,,électrique,GTFS sncf_ter
+FR_D668A970_1,SNCF VOYAGEURS,Orléans - Nevers,Train régional,Jour,Vierzon,1950,Bourges,1963,12:30:00,13:40:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_3CDD3F95_0,SNCF VOYAGEURS,Paris - Etampes - Orléans,Train régional,Jour,Orléans Avenue de Paris,3378,Toury,1831,12:30:00,13:35:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_7b1b0c8c_0,SNCF VOYAGEURS,Tours-Vendôme-Châteaudun,Train régional,Jour,Châteaudun,1848,Tours,1863,12:15:00,14:33:00,2.3,,14.0,,électrique,GTFS sncf_ter
+FR_7b1b0c8c_1,SNCF VOYAGEURS,Tours-Vendôme-Châteaudun,Train régional,Jour,Tours,1863,Châteaudun,1848,12:45:00,15:00:00,2.25,,14.0,,électrique,GTFS sncf_ter
+FR_421B95D8_1,SNCF VOYAGEURS,Tours - Bourges - Nevers,Train régional,Jour,Bourges,1963,Vierzon,1950,11:15:00,12:05:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_421B95D8_0,SNCF VOYAGEURS,Tours - Bourges - Nevers,Train régional,Jour,Bourges,1963,Tours,1863,11:15:00,14:20:00,3.08,,14.0,,électrique,GTFS sncf_ter
+FR_C1EA6532_1,SNCF VOYAGEURS,Paris - Orléans,Train régional,Jour,Orléans Avenue de Paris,3378,Paris-Austerlitz Routiere,3288,11:30:00,13:45:00,2.25,,14.0,,électrique,GTFS sncf_ter
+FR_1b314aee_0,SNCF VOYAGEURS,25. Montluçon / Felletin - Guéret - Limoges,Train régional,Nuit,Rambouillet,1193,Chartres,1199,23:21:00,00:50:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_D42F0FAE_0,SNCF VOYAGEURS,Charleville - Givet,Train régional,Jour,Charleville-Mézières,324,Givet,336,09:35:00,11:22:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_D42F0FAE_1,SNCF VOYAGEURS,Charleville - Givet,Train régional,Jour,Givet,336,Charleville-Mézières,324,10:27:00,12:14:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_e11eaea4_0,SNCF VOYAGEURS,CA TGV - REIMS - CHARLEVILLE - SEDAN,Grande vitesse,Jour,Sedan,343,Charleville-Mézières,324,09:41:00,10:24:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_e11eaea4_1,SNCF VOYAGEURS,CA TGV - REIMS - CHARLEVILLE - SEDAN,Grande vitesse,Jour,Charleville-Mézières,324,Sedan,343,09:35:00,10:18:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_8B248111_0,SNCF VOYAGEURS,Château-Thierry - Reims,Train régional,Jour,Reims,300,Épernay,308,09:49:00,11:11:00,1.37,,14.0,,électrique,GTFS sncf_ter
+FR_8B248111_1,SNCF VOYAGEURS,Château-Thierry - Reims,Train régional,Jour,Épernay,308,Reims,300,10:02:00,11:24:00,1.37,,14.0,,électrique,GTFS sncf_ter
+FR_6C6FF09D_1,SNCF VOYAGEURS,Reims - Fismes,Train régional,Jour,Reims,300,Fismes,305,12:30:00,13:25:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_6C6FF09D_0,SNCF VOYAGEURS,Reims - Fismes,Train régional,Jour,Fismes,305,Reims,300,13:12:00,14:07:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_138a46c4_1,SNCF VOYAGEURS,REIMS - LAON,Train régional,Jour,Reims,300,Laon,856,12:41:00,14:22:00,1.68,,14.0,,électrique,GTFS sncf_ter
+FR_138a46c4_0,SNCF VOYAGEURS,REIMS - LAON,Train régional,Jour,Laon,856,Reims,300,13:47:00,15:16:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_6801897b_1,SNCF VOYAGEURS,REIMS - CULMONT CHALINDREY,Train régional,Jour,Châlons-en-Champagne,366,Chaumont,249,09:20:00,12:26:00,3.1,,14.0,,électrique,GTFS sncf_ter
+FR_BD3C552F_1,SNCF VOYAGEURS,Reims - Dijon,Train régional,Jour,Châlons-en-Champagne,366,Culmont - Chalindrey,251,14:20:00,17:51:00,3.52,,14.0,,électrique,GTFS sncf_ter
+FR_6801897b_0,SNCF VOYAGEURS,REIMS - CULMONT CHALINDREY,Train régional,Jour,Culmont - Chalindrey,251,Châlons-en-Champagne,366,08:59:00,12:30:00,3.52,,14.0,,électrique,GTFS sncf_ter
+FR_f2d2e92a_0,SNCF VOYAGEURS,PARIS - STRASBOURG,Train régional,Jour,Épernay,308,Châlons-en-Champagne,366,12:06:00,12:51:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_f2d2e92a_1,SNCF VOYAGEURS,PARIS - STRASBOURG,Train régional,Jour,Épernay,308,Paris Est,144,08:00:00,10:35:00,2.58,,14.0,,électrique,GTFS sncf_ter
+FR_4e313e98_1,SNCF VOYAGEURS,PARIS - ST DIZIER,Train régional,Jour,Château-Thierry,148,Châlons-en-Champagne,366,17:50:00,19:35:00,1.75,,14.0,,électrique,GTFS sncf_ter
+FR_45fd95bc_1,SNCF VOYAGEURS,PARIS - MULHOUSE,Train régional,Jour,Troyes,170,Châlons-en-Champagne,366,04:50:00,06:00:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_45fd95bc_0,SNCF VOYAGEURS,PARIS - MULHOUSE,Train régional,Jour,Châlons-en-Champagne,366,Troyes,170,10:25:00,11:35:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_6c76f45c_1,SNCF VOYAGEURS,PARIS - DIJON,Train régional,Jour,Culmont - Chalindrey,251,Dijon,2943,14:45:00,16:20:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_3EFC9578_0,SNCF VOYAGEURS,Paris-Est - Dijon,Train régional,Jour,Troyes,170,Dijon,2943,13:25:00,17:41:00,4.27,,14.0,,électrique,GTFS sncf_ter
+FR_846681A9_0,SNCF VOYAGEURS,Strasbourg - Metz,Train régional,Jour,Metz,484,Sarrebourg,665,05:13:00,07:14:00,2.02,,14.0,,électrique,GTFS sncf_ter
+FR_846681A9_1,SNCF VOYAGEURS,Strasbourg - Metz,Train régional,Jour,Sarrebourg,665,Metz,484,21:47:00,23:47:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_EBF7B17F_1,SNCF VOYAGEURS,Strasbourg - Offenbourg,Train régional,Jour,Strasbourg,568,Kehl,5,19:55:00,20:20:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_EBF7B17F_0,SNCF VOYAGEURS,Strasbourg - Offenbourg,Train régional,Jour,Kehl,5,Strasbourg,568,20:30:00,20:55:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_deaec574_0,SNCF VOYAGEURS,STRASBOURG - WISSEMBOURG,Train régional,Jour,Haguenau,599,Wissembourg,613,10:00:00,10:37:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_deaec574_1,SNCF VOYAGEURS,STRASBOURG - WISSEMBOURG,Train régional,Jour,Wissembourg,613,Haguenau,599,10:22:00,10:59:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_16AF8631_0,SNCF VOYAGEURS,Strasbourg - Lauterbourg - Woerth,Train régional,Jour,Strasbourg,568,Roeschwoog,593,07:50:00,08:54:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_16AF8631_1,SNCF VOYAGEURS,Strasbourg - Lauterbourg - Woerth,Train régional,Jour,Lauterbourg,598,Strasbourg,568,11:53:00,13:40:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_2cdcae85_1,SNCF VOYAGEURS,STRASBOURG - ST DIE DES VOSGES - EPINAL,Train régional,Jour,Saint-Dié-des-Vosges,259,Épinal,258,06:35:00,07:50:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_2cdcae85_0,SNCF VOYAGEURS,STRASBOURG - ST DIE DES VOSGES - EPINAL,Train régional,Jour,Épinal,258,Saint-Dié-des-Vosges,259,07:35:00,08:50:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_6650724A_0,SNCF VOYAGEURS,Strasbourg - Sarrebruck,Train régional,Jour,Diemeringen,688,Sarreguemines,538,07:31:00,08:02:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_6650724A_1,SNCF VOYAGEURS,Strasbourg - Sarrebruck,Train régional,Jour,Sarreguemines,538,Diemeringen,688,07:50:00,08:21:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_9551FF23_1,SNCF VOYAGEURS,Colmar - Metzeral,Train régional,Jour,Metzeral,432,Colmar,392,09:06:00,09:52:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_9551FF23_0,SNCF VOYAGEURS,Colmar - Metzeral,Train régional,Jour,Colmar,392,Metzeral,432,09:29:00,10:15:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_e4609400_1,SNCF VOYAGEURS,Sarrebourg - Strasbourg - Sélestat,Train régional,Jour,Mommenheim,573,Saverne,580,19:20:00,20:03:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_8b020346_1,SNCF VOYAGEURS,STRASBOURG-MULHOUSE,Train régional,Nuit,Colmar,392,Mulhouse,394,23:05:00,00:00:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_9183d1b1_0,SNCF VOYAGEURS,STRASBOURG - BÂLE,Train régional,Nuit,Colmar,392,Mulhouse,394,23:35:00,00:20:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_87ED7DEB_1,SNCF VOYAGEURS,Mulhouse - Fribourg,Train régional,Jour,Muellheim (Baden),8,Mulhouse,394,07:01:00,07:36:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_87ED7DEB_0,SNCF VOYAGEURS,Mulhouse - Fribourg,Train régional,Jour,Mulhouse,394,Muellheim (Baden),8,06:15:00,06:53:00,0.63,,14.0,,électrique,GTFS sncf_ter
+FR_12115C42_1,SNCF VOYAGEURS,Mulhouse - Kruth,Train régional,Jour,Thann Saint-Jacques,434,Kruth,424,09:31:00,09:59:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_12115C42_0,SNCF VOYAGEURS,Mulhouse - Kruth,Train régional,Jour,Kruth,424,Thann La Poste,2550,09:32:00,10:03:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_608086c1_1,SNCF VOYAGEURS,STRASBOURG - NIEDERBRONN LES BAINS,Train régional,Jour,Haguenau,599,Niederbronn-les-Bains,606,08:05:00,08:50:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_608086c1_0,SNCF VOYAGEURS,STRASBOURG - NIEDERBRONN LES BAINS,Train régional,Jour,Niederbronn-les-Bains,606,Haguenau,599,08:06:00,08:52:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_10CFF8BF_1,SNCF VOYAGEURS,Strasbourg - Niederbronn Les Bains,Train régional,Jour,Haguenau,599,Niederbronn-les-Bains,606,15:10:00,15:55:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_FC42AE57_0,SNCF VOYAGEURS,Metz - Luxembourg,Train régional,Nuit,Lux BG Gare,55,Metz,484,22:56:00,00:51:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_0CA4AE53_1,SNCF VOYAGEURS,Epinal - Nancy - Metz,Train régional,Nuit,Nancy,210,Metz,484,22:37:00,00:24:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_0CA4AE53_0,SNCF VOYAGEURS,Epinal - Nancy - Metz,Train régional,Nuit,Metz,484,Nancy,210,22:25:00,00:12:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_7a306070_0,SNCF VOYAGEURS,Nancy - Remiremont,Train régional,Jour,Épinal,258,Remiremont,279,09:00:00,09:43:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_2d814b36_0,SNCF VOYAGEURS,NANCY - REMIREMONT,Train régional,Jour,Remiremont,279,Nancy,210,09:00:00,11:45:00,2.75,,14.0,,électrique,GTFS sncf_ter
+FR_7a306070_1,SNCF VOYAGEURS,Nancy - Remiremont,Train régional,Jour,Remiremont,279,Nancy,210,10:19:00,12:09:00,1.83,,14.0,,électrique,GTFS sncf_ter
+FR_2d814b36_1,SNCF VOYAGEURS,NANCY - REMIREMONT,Train régional,Jour,Nancy,210,Remiremont,279,10:00:00,12:07:00,2.12,,14.0,,électrique,GTFS sncf_ter
+FR_A3686DE1_0,SNCF VOYAGEURS,Nancy - Pont St Vincent,Train régional,Jour,Pont-Saint-Vincent,240,Nancy,210,09:39:00,10:39:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_A3686DE1_1,SNCF VOYAGEURS,Nancy - Pont St Vincent,Train régional,Jour,Nancy,210,Pont-Saint-Vincent,240,08:51:00,09:51:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_E00CAB42_0,SNCF VOYAGEURS,Nancy - Neufchâteau,Train régional,Jour,Toul,213,Neufchâteau,228,09:25:00,10:10:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_E00CAB42_1,SNCF VOYAGEURS,Nancy - Neufchâteau,Train régional,Jour,Neufchâteau,228,Toul,213,09:28:00,10:13:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_29E6446D_0,SNCF VOYAGEURS,Nancy - Dijon,Train régional,Jour,Dijon,2943,Nancy,210,10:15:00,14:10:00,3.92,,14.0,,électrique,GTFS sncf_ter
+FR_84909329_0,SNCF VOYAGEURS,NANCY - ST DIE DES VOSGES,Train régional,Jour,Lunéville,224,Saint-Dié-des-Vosges,259,09:58:00,11:02:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_84909329_1,SNCF VOYAGEURS,NANCY - ST DIE DES VOSGES,Train régional,Jour,Saint-Dié-des-Vosges,259,Lunéville,224,10:20:00,11:22:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_ed64db30_1,SNCF VOYAGEURS,Metz - Sarreguemines,Train régional,Jour,Béning-lès-Saint-Avold,524,Sarreguemines,538,09:30:00,10:15:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_8FFA7208_1,SNCF VOYAGEURS,Nancy - Longwy,Train régional,Jour,Conflans - Jarny,511,Longwy,545,09:40:00,11:06:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_2ab1196c_0,SNCF VOYAGEURS,NANCY - VERDUN,Train régional,Jour,Nancy,210,Verdun,378,14:02:00,15:50:00,1.8,,14.0,,électrique,GTFS sncf_ter
+FR_29E6446D_1,SNCF VOYAGEURS,Nancy - Dijon,Train régional,Jour,Nancy,210,Neufchâteau,228,10:54:00,12:12:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_8FFA7208_0,SNCF VOYAGEURS,Nancy - Longwy,Train régional,Jour,Baroncourt,510,Conflans - Jarny,511,12:40:00,13:20:00,0.67,,14.0,,électrique,GTFS sncf_ter
+FR_6d6768a4_0,SNCF VOYAGEURS,CHARLEVILLE - LONGWY - THIONVILLE,Train régional,Jour,Longwy,545,Sedan,343,12:25:00,14:13:00,1.8,,14.0,,électrique,GTFS sncf_ter
+FR_6d6768a4_1,SNCF VOYAGEURS,CHARLEVILLE - LONGWY - THIONVILLE,Train régional,Jour,Sedan,343,Longwy,545,09:40:00,11:36:00,1.93,,14.0,,électrique,GTFS sncf_ter
+FR_A1343942_1,SNCF VOYAGEURS,Thionville - Longwy,Train régional,Jour,Thionville,459,Longuyon,548,06:01:00,07:16:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_A1343942_0,SNCF VOYAGEURS,Thionville - Longwy,Train régional,Jour,Longwy,545,Thionville,459,05:27:00,07:09:00,1.7,,14.0,,électrique,GTFS sncf_ter
+FR_08079E43_1,SNCF VOYAGEURS,Metz - Hagondange - Verdun,Train régional,Jour,Conflans - Jarny,511,Verdun,378,09:51:00,10:40:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_08079E43_0,SNCF VOYAGEURS,Metz - Hagondange - Verdun,Train régional,Jour,Metz,484,Conflans - Jarny,511,09:40:00,11:13:00,1.55,,14.0,,électrique,GTFS sncf_ter
+FR_b9ca3e4a_0,SNCF VOYAGEURS,Lunéville - Bar Le Duc - Epernay - Reims,Train régional,Jour,Toul,213,Bar-le-Duc,371,13:05:00,14:22:00,1.28,,14.0,,électrique,GTFS sncf_ter
+FR_b9ca3e4a_1,SNCF VOYAGEURS,Lunéville - Bar Le Duc - Epernay - Reims,Train régional,Jour,Bar-le-Duc,371,Nancy,210,11:26:00,13:20:00,1.9,,14.0,,électrique,GTFS sncf_ter
+FR_FC42AE57_1,SNCF VOYAGEURS,Metz - Luxembourg,Train régional,Jour,Lux BG Gare,55,Thionville,459,12:53:00,13:55:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_d17d499e_1,SNCF VOYAGEURS,METZ - BLD - EPERNAY,Train régional,Jour,Metz,484,Châlons-en-Champagne,366,14:06:00,17:54:00,3.8,,14.0,,électrique,GTFS sncf_ter
+FR_1A3B1AD3_1,SNCF VOYAGEURS,Longwy - Luxembourg,Train régional,Jour,Longwy,545,Rodange,53,13:03:00,13:19:00,0.27,,14.0,,électrique,GTFS sncf_ter
+FR_1A3B1AD3_0,SNCF VOYAGEURS,Longwy - Luxembourg,Train régional,Jour,Rodange,53,Longwy,545,13:24:00,13:40:00,0.27,,14.0,,électrique,GTFS sncf_ter
+FR_d17d499e_0,SNCF VOYAGEURS,METZ - BLD - EPERNAY,Train régional,Jour,Bar-le-Duc,371,Metz,484,07:16:00,09:24:00,2.13,,14.0,,électrique,GTFS sncf_ter
+FR_1396d651_0,SNCF VOYAGEURS,METZ - Luxembourg,Train régional,Jour,Lux BG Gare,55,Thionville,459,11:22:00,12:24:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_ed64db30_0,SNCF VOYAGEURS,Metz - Sarreguemines,Train régional,Jour,Sarreguemines,538,Béning-lès-Saint-Avold,524,10:43:00,11:29:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_944AB243_1,SNCF VOYAGEURS,Charleville - Lille,Train régional,Jour,Charleville-Mézières,324,Hirson,840,06:58:00,07:58:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_944AB243_0,SNCF VOYAGEURS,Charleville - Lille,Train régional,Jour,Hirson,840,Charleville-Mézières,324,08:01:00,09:01:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_1396d651_1,SNCF VOYAGEURS,METZ - Luxembourg,Train régional,Jour,Bettembourg Gare,54,Lux BG Gare,55,07:18:00,07:47:00,0.48,,14.0,,électrique,GTFS sncf_ter
+FR_e824521a_1,SNCF VOYAGEURS,Amiens - Saint-Quentin,Train régional,Jour,Amiens,955,Saint-Quentin,855,13:45:00,15:41:00,1.93,,14.0,,électrique,GTFS sncf_ter
+FR_e824521a_0,SNCF VOYAGEURS,Amiens - Saint-Quentin,Train régional,Jour,Saint-Quentin,855,Amiens,955,15:16:00,17:12:00,1.93,,14.0,,électrique,GTFS sncf_ter
+FR_f816441a_0,SNCF VOYAGEURS,Amiens - Tergnier - Laon,Train régional,Jour,Tergnier,867,Amiens,955,12:39:00,14:52:00,2.22,,14.0,,électrique,GTFS sncf_ter
+FR_f816441a_1,SNCF VOYAGEURS,Amiens - Tergnier - Laon,Train régional,Jour,Amiens,955,Laon,856,12:25:00,15:31:00,3.1,,14.0,,électrique,GTFS sncf_ter
+FR_db60625a_1,SNCF VOYAGEURS,Amiens - Arras,Train régional,Jour,Amiens,955,Arras,1070,06:43:00,08:43:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_db60625a_0,SNCF VOYAGEURS,Amiens - Arras,Train régional,Jour,Arras,1070,Amiens,955,08:12:00,10:12:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_A660A95F_1,SNCF VOYAGEURS,Paris Nord - Amiens,Train régional,Nuit,Creil,738,Amiens,955,23:15:00,01:25:00,2.17,,14.0,,électrique,GTFS sncf_ter
+FR_52AE882C_1,SNCF VOYAGEURS,Paris Nord - Amiens,Train régional,Jour,Saint-Just-en-Chaussée,914,Creil,738,04:16:00,05:05:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_52AE882C_0,SNCF VOYAGEURS,Paris Nord - Amiens,Train régional,Jour,Creil,738,Amiens,955,21:53:00,00:14:00,2.35,,14.0,,électrique,GTFS sncf_ter
+FR_C7168ADF_1,SNCF VOYAGEURS,Paris Nord - Saint-Quentin,Train régional,Nuit,Saint-Quentin,855,Compiègne,750,03:39:00,05:23:00,1.73,,14.0,,électrique,GTFS sncf_ter
+FR_C7168ADF_0,SNCF VOYAGEURS,Paris Nord - Saint-Quentin,Train régional,Nuit,Compiègne,750,Saint-Quentin,855,22:39:00,00:23:00,1.73,,14.0,,électrique,GTFS sncf_ter
+FR_A5007AD2_0,SNCF VOYAGEURS,Lille Flandres - St Quentin,Train régional,Nuit,Busigny,862,Saint-Quentin,855,22:02:00,22:46:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_B0D626F1_1,SNCF VOYAGEURS,Paris Nord - Laon,Train régional,Jour,Crépy-en-Valois,726,Laon,856,21:28:00,23:16:00,1.8,,14.0,,électrique,GTFS sncf_ter
+FR_316DC806_0,SNCF VOYAGEURS,Crépy-En-Valois - Laon,Train régional,Jour,Crépy-en-Valois,726,Laon,856,04:58:00,07:23:00,2.42,,14.0,,électrique,GTFS sncf_ter
+FR_B0D626F1_0,SNCF VOYAGEURS,Paris Nord - Laon,Train régional,Jour,Laon,856,Crépy-en-Valois,726,08:32:00,10:20:00,1.8,,14.0,,électrique,GTFS sncf_ter
+FR_5C78867C_1,SNCF VOYAGEURS,Lille Flandres - Douai,Train régional,Nuit,Lille Flandres,792,Douai,1120,22:27:00,23:34:00,1.12,,14.0,,électrique,GTFS sncf_ter
+FR_68EA28CE_1,SNCF VOYAGEURS,Calais -Ville - Amiens,Train régional,Jour,Calais Ville,990,Boulogne sur Mer,1002,04:47:00,05:40:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_68EA28CE_0,SNCF VOYAGEURS,Calais -Ville - Amiens,Train régional,Jour,Abbeville,994,Étaples - Le Touquet,976,14:18:00,15:39:00,1.35,,14.0,,électrique,GTFS sncf_ter
+FR_F0624F60_0,SNCF VOYAGEURS,Lille Flandres - Saint-Omer - Calais Ville,Train régional,Jour,Calais Ville,990,Hazebrouck,803,10:16:00,11:59:00,1.72,,14.0,,électrique,GTFS sncf_ter
+FR_753079D4_1,SNCF VOYAGEURS,Calais Ville - Dunkerque,Train régional,Jour,Dunkerque,773,Calais Ville,990,05:26:00,06:45:00,1.32,,14.0,,électrique,GTFS sncf_ter
+FR_FACFDECC_0,SNCF VOYAGEURS,Arras - Dunkerque,Train régional,Jour,Hazebrouck,803,Dunkerque,773,21:09:00,22:20:00,1.18,,14.0,,électrique,GTFS sncf_ter
+FR_D66CBB65_1,SNCF VOYAGEURS,Calais Ville - Hazebrouck,Train régional,Jour,Calais Ville,990,Saint-Omer,787,12:45:00,13:53:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_5d86ffff_1,SNCF VOYAGEURS,Arras - Lille Europe - Boulogne - Rang-Du-Fliers Verton - Berck Tergv,Train régional,Jour,Calais - Fréthun,775,Boulogne sur Mer,1002,21:24:00,21:55:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_AC476F9F_1,SNCF VOYAGEURS,Aulnoye - Aymeries - Saint-Quentin,Train régional,Jour,Aulnoye-Aymeries,845,Saint-Quentin,855,12:35:00,14:24:00,1.82,,14.0,,électrique,GTFS sncf_ter
+FR_091BCBBE_1,SNCF VOYAGEURS,Lille Flandres - Amiens,Train régional,Jour,Arras,1070,Amiens,955,21:45:00,23:26:00,1.68,,14.0,,électrique,GTFS sncf_ter
+FR_F0624F60_1,SNCF VOYAGEURS,Lille Flandres - Saint-Omer - Calais Ville,Train régional,Jour,Hazebrouck,803,Calais Ville,990,10:01:00,11:44:00,1.72,,14.0,,électrique,GTFS sncf_ter
+FR_AC476F9F_0,SNCF VOYAGEURS,Aulnoye - Aymeries - Saint-Quentin,Train régional,Jour,Saint-Quentin,855,Aulnoye-Aymeries,845,12:22:00,14:11:00,1.82,,14.0,,électrique,GTFS sncf_ter
+FR_11FB2CAA_0,SNCF VOYAGEURS,Lille - Amiens - Abancourt - (Rouen Rive-Droite),Train régional,Jour,Amiens,955,Arras,1070,07:04:00,09:01:00,1.95,,14.0,,électrique,GTFS sncf_ter
+FR_091BCBBE_0,SNCF VOYAGEURS,Lille Flandres - Amiens,Train régional,Jour,Amiens,955,Arras,1070,09:08:00,11:05:00,1.95,,14.0,,électrique,GTFS sncf_ter
+FR_BB2E7D6E_0,SNCF VOYAGEURS,Calais Ville - Rang-Du-Fliers - Verton - Berck,Train régional,Jour,Rang-du-Fliers - Verton - Berck,975,Boulogne sur Mer,1002,05:08:00,06:17:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_340E2504_1,SNCF VOYAGEURS,Valenciennes - Jeumont,Train régional,Jour,Jeumont,836,Aulnoye-Aymeries,845,11:26:00,12:15:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_2110ED22_0,SNCF VOYAGEURS,Lille Flandres - Hirson - (Charleville- Mézières),Train régional,Jour,Hirson,840,Valenciennes,1106,09:56:00,12:05:00,2.15,,14.0,,électrique,GTFS sncf_ter
+FR_1C56C041_1,SNCF VOYAGEURS,Aulnoye - Aymeries - Hirson,Train régional,Jour,Hirson,840,Aulnoye-Aymeries,845,12:23:00,13:32:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_340E2504_0,SNCF VOYAGEURS,Valenciennes - Jeumont,Train régional,Jour,Aulnoye-Aymeries,845,Jeumont,836,11:29:00,12:18:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_D497333B_1,SNCF VOYAGEURS,Lille Flandres - Maubeuge - Jeumont,Train régional,Jour,Aulnoye-Aymeries,845,Maubeuge,835,13:45:00,14:13:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_2110ED22_1,SNCF VOYAGEURS,Lille Flandres - Hirson - (Charleville- Mézières),Train régional,Jour,Aulnoye-Aymeries,845,Hirson,840,09:29:00,10:38:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_AA3669E7_0,SNCF VOYAGEURS,Lille Flandres - Hazebrouck,Train régional,Jour,Hazebrouck,803,Lille Flandres,792,04:35:00,05:40:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_EB576FB9_0,SNCF VOYAGEURS,Mulhouse - Bâle,Train régional,Nuit,Basel SBB,57,Mulhouse,394,23:38:00,00:33:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_EB576FB9_1,SNCF VOYAGEURS,Mulhouse - Bâle,Train régional,Nuit,Mulhouse,394,Basel SBB,57,22:30:00,23:29:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_2a429284_0,SNCF VOYAGEURS,STRASBOURG - SARREBOURG,Train régional,Jour,Saverne,580,Strasbourg,568,04:55:00,05:40:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_204EE547_0,SNCF VOYAGEURS,Colmar - Mulhouse,Train régional,Jour,Colmar,392,Raedersheim,429,16:31:00,17:18:00,0.78,,14.0,,électrique,GTFS sncf_ter
+FR_56E0477E_0,SNCF VOYAGEURS,Belfort - Mulhouse,Train régional,Nuit,Mulhouse,394,Belfort-Ville,435,22:30:00,23:45:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_56E0477E_1,SNCF VOYAGEURS,Belfort - Mulhouse,Train régional,Jour,Altkirch,402,Mulhouse,394,05:10:00,05:36:00,0.43,,14.0,,électrique,GTFS sncf_ter
+FR_F7A5141B_1,SNCF VOYAGEURS,Rouen - Amiens,Train régional,Jour,Rouen Rive Droite,1341,Amiens,955,09:27:00,11:59:00,2.53,,14.0,,électrique,GTFS sncf_ter
+FR_63EAC402_1,SNCF VOYAGEURS,Strasbourg - Haguenau,Train régional,Jour,Haguenau,599,Strasbourg,568,04:30:00,05:24:00,0.9,,14.0,,électrique,GTFS sncf_ter
+FR_63EAC402_0,SNCF VOYAGEURS,Strasbourg - Haguenau,Train régional,Jour,Strasbourg,568,Haguenau,599,06:26:00,07:35:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_a3f86989_1,SNCF VOYAGEURS,STRASBOURG - SELESTAT Via MOLSHEIM,Train régional,Jour,Barr,634,Sélestat,624,05:53:00,06:31:00,0.63,,14.0,,électrique,GTFS sncf_ter
+FR_a3f86989_0,SNCF VOYAGEURS,STRASBOURG - SELESTAT Via MOLSHEIM,Train régional,Jour,Barr,634,Molsheim,646,14:42:00,15:10:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_D4A483E7_1,SNCF VOYAGEURS,PARIS - EVREUX - SERQUIGNY,Train régional,Jour,Bueil,1181,Mantes-la-Jolie,1175,04:50:00,05:31:00,0.68,,14.0,,électrique,GTFS sncf_ter
+FR_f934f64d_1,SNCF VOYAGEURS,13. Angoulême - Bordeaux,Train régional,Jour,Libourne,2043,Angoulême,2037,13:12:00,15:18:00,2.1,,14.0,,électrique,GTFS sncf_ter
+FR_f934f64d_0,SNCF VOYAGEURS,13. Angoulême - Bordeaux,Train régional,Jour,Angoulême,2037,Libourne,2043,12:50:00,14:56:00,2.1,,14.0,,électrique,GTFS sncf_ter
+FR_a6aa8da3_0,SNCF VOYAGEURS,11. Tours- Châtellerault - Poitiers,Train régional,Jour,Châtellerault,1934,Poitiers,1925,10:10:00,11:08:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_a6aa8da3_1,SNCF VOYAGEURS,11. Tours- Châtellerault - Poitiers,Train régional,Jour,Poitiers,1925,Châtellerault,1934,10:10:00,11:08:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_50C73D9B_0,SNCF VOYAGEURS,11. Poitiers-Tours,Train régional,Jour,Châtellerault,1934,Poitiers,1925,13:20:00,14:18:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_50C73D9B_1,SNCF VOYAGEURS,11. Poitiers-Tours,Train régional,Jour,Poitiers,1925,Châtellerault,1934,12:05:00,13:03:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_7821f5a6_0,SNCF VOYAGEURS,12+. Châtellerault - Poitiers - Angoulême,Train régional,Jour,Poitiers,1925,Châtellerault,1934,08:55:00,09:53:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_7821f5a6_1,SNCF VOYAGEURS,12+. Châtellerault - Poitiers - Angoulême,Train régional,Jour,Châtellerault,1934,Poitiers,1925,11:20:00,12:18:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_aecbd9b5_0,SNCF VOYAGEURS,17. Niort - Saintes - Royan,Train régional,Jour,Niort,1725,Saintes,1771,06:10:00,07:54:00,1.73,,14.0,,électrique,GTFS sncf_ter
+FR_c10044ba_0,SNCF VOYAGEURS,17. Niort - Saintes - Royan,Train régional,Jour,Saintes,1771,Niort,1725,05:25:00,07:21:00,1.93,,14.0,,électrique,GTFS sncf_ter
+FR_c10044ba_1,SNCF VOYAGEURS,17. Niort - Saintes - Royan,Train régional,Jour,Niort,1725,Royan,1794,09:25:00,12:09:00,2.73,,14.0,,électrique,GTFS sncf_ter
+FR_aecbd9b5_1,SNCF VOYAGEURS,17. Niort - Saintes - Royan,Train régional,Jour,Saintes,1771,Niort,1725,09:30:00,11:12:00,1.7,,14.0,,électrique,GTFS sncf_ter
+FR_83F663CD_1,SNCF VOYAGEURS,Metz - Thionville - Perl,Train régional,Jour,Perl Gare Routière,2845,Thionville,459,06:41:00,07:20:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_a330c1a0_1,SNCF VOYAGEURS,16. Royan - Saintes - Angoulême,Train régional,Jour,Saintes,1771,Angoulême,2037,09:25:00,11:09:00,1.73,,14.0,,électrique,GTFS sncf_ter
+FR_83F663CD_0,SNCF VOYAGEURS,Metz - Thionville - Perl,Train régional,Jour,Thionville,459,Perl Gare Routière,2845,07:33:00,08:10:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_a330c1a0_0,SNCF VOYAGEURS,16. Royan - Saintes - Angoulême,Train régional,Jour,Saintes,1771,Royan,1794,10:25:00,11:10:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_7cf27535_0,SNCF VOYAGEURS,15. La Rochelle - Rochefort - Saintes - Bordeaux,Train régional,Jour,La Rochelle Porte Dauphine,1411,Rochefort,1718,15:00:00,16:04:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_7cf27535_1,SNCF VOYAGEURS,15. La Rochelle - Rochefort - Saintes - Bordeaux,Train régional,Jour,Rochefort,1718,La Rochelle,1712,16:24:00,17:19:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_0de1ca9e_1,SNCF VOYAGEURS,15. La Rochelle - Rochefort - Saintes - Bordeaux,Train régional,Jour,La Rochelle Porte Dauphine,1411,Saintes,1771,12:30:00,14:41:00,2.18,,14.0,,électrique,GTFS sncf_ter
+FR_0de1ca9e_0,SNCF VOYAGEURS,15. La Rochelle - Rochefort - Saintes - Bordeaux,Train régional,Jour,Saintes,1771,La Rochelle Porte Dauphine,1411,12:27:00,14:45:00,2.3,,14.0,,électrique,GTFS sncf_ter
+FR_1354df88_0,SNCF VOYAGEURS,15. La Rochelle - Rochefort - Saintes - Bordeaux,Train régional,Jour,Saint-Mariens - Saint-Yzan,1779,La Rochelle,1712,13:02:00,16:15:00,3.22,,14.0,,électrique,GTFS sncf_ter
+FR_1354df88_1,SNCF VOYAGEURS,15. La Rochelle - Rochefort - Saintes - Bordeaux,Train régional,Jour,La Rochelle,1712,Saint-Mariens - Saint-Yzan,1779,09:45:00,12:49:00,3.07,,14.0,,électrique,GTFS sncf_ter
+FR_3f0f0dd5_0,SNCF VOYAGEURS,24. Poitiers - Limoges,Train régional,Jour,Le Dorat,2129,Poitiers,1925,06:00:00,07:48:00,1.8,,14.0,,électrique,GTFS sncf_ter
+FR_3f0f0dd5_1,SNCF VOYAGEURS,24. Poitiers - Limoges,Train régional,Jour,Poitiers,1925,Le Dorat,2129,04:50:00,06:38:00,1.8,,14.0,,électrique,GTFS sncf_ter
+FR_6d24154b_0,SNCF VOYAGEURS,18. Angoulême - Limoges,Train régional,Jour,Limoges Bénédictins,2100,Saillat - Chassenon,2135,12:15:00,13:45:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_6d24154b_1,SNCF VOYAGEURS,18. Angoulême - Limoges,Train régional,Jour,Saillat - Chassenon,2135,Limoges Bénédictins,2100,13:15:00,14:45:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_99ce8dc2_0,SNCF VOYAGEURS,31. Limoges - Périgueux - Bordeaux,Train régional,Jour,Limoges Bénédictins,2100,Périgueux,2173,10:25:00,13:10:00,2.75,,14.0,,électrique,GTFS sncf_ter
+FR_99ce8dc2_1,SNCF VOYAGEURS,31. Limoges - Périgueux - Bordeaux,Train régional,Jour,Périgueux,2173,Limoges Bénédictins,2100,13:00:00,15:41:00,2.68,,14.0,,électrique,GTFS sncf_ter
+FR_4e9ace87_0,SNCF VOYAGEURS,31. Limoges - Périgueux - Bordeaux,Train régional,Jour,Limoges Bénédictins,2100,Périgueux,2173,07:39:00,09:55:00,2.27,,14.0,,électrique,GTFS sncf_ter
+FR_4e9ace87_1,SNCF VOYAGEURS,31. Limoges - Périgueux - Bordeaux,Train régional,Jour,Périgueux,2173,Limoges Bénédictins,2100,08:45:00,11:01:00,2.27,,14.0,,électrique,GTFS sncf_ter
+FR_cefb8e5c_0,SNCF VOYAGEURS,23. Limoges - Saint-Yrieix - Brive,Train régional,Jour,Limoges Bénédictins,2100,Saint-Yrieix,2140,10:00:00,11:09:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_cefb8e5c_1,SNCF VOYAGEURS,23. Limoges - Saint-Yrieix - Brive,Train régional,Jour,Saint-Yrieix,2140,Limoges Bénédictins,2100,11:20:00,12:28:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_d79dd1dd_0,SNCF VOYAGEURS,27. Ussel - Tulle - Brive,Train régional,Jour,Brive-la-Gaillarde,2141,Tulle,2158,13:10:00,13:45:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_d79dd1dd_1,SNCF VOYAGEURS,27. Ussel - Tulle - Brive,Train régional,Jour,Ussel,2143,Brive-la-Gaillarde,2141,12:51:00,15:09:00,2.3,,14.0,,électrique,GTFS sncf_ter
+FR_6f81efe8_0,SNCF VOYAGEURS,27. Ussel - Tulle - Brive,Train régional,Jour,Tulle,2158,Brive-la-Gaillarde,2141,11:05:00,11:44:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_6f81efe8_1,SNCF VOYAGEURS,27. Ussel - Tulle - Brive,Train régional,Jour,Brive-la-Gaillarde,2141,Tulle,2158,11:05:00,11:40:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_d5f48e74_0,SNCF VOYAGEURS,26. Limoges - Eymoutiers - Ussel,Train régional,Jour,Eymoutiers Vassivière,2108,Ussel,2143,13:50:00,15:28:00,1.63,,14.0,,électrique,GTFS sncf_ter
+FR_d5f48e74_1,SNCF VOYAGEURS,26. Limoges - Eymoutiers - Ussel,Train régional,Jour,Ussel,2143,Limoges Bénédictins,2100,10:41:00,13:51:00,3.17,,14.0,,électrique,GTFS sncf_ter
+FR_1b314aee_1,SNCF VOYAGEURS,25. Montluçon / Felletin - Guéret - Limoges,Train régional,Jour,Montluçon,2413,Guéret,2212,15:00:00,16:06:00,1.1,,14.0,,électrique,GTFS sncf_ter
+FR_c9c4ecfc_0,SNCF VOYAGEURS,34. Périgueux - Agen,Train régional,Jour,Monsempron-Libos,2078,Périgueux,2173,08:35:00,11:02:00,2.45,,14.0,,électrique,GTFS sncf_ter
+FR_c9c4ecfc_1,SNCF VOYAGEURS,34. Périgueux - Agen,Train régional,Jour,Périgueux,2173,Agen,2066,09:41:00,13:08:00,3.45,,14.0,,électrique,GTFS sncf_ter
+FR_7ff237e0_1,SNCF VOYAGEURS,22. Limoges - Uzerche - Brive,Train régional,Jour,Brive-la-Gaillarde,2141,Limoges Bénédictins,2100,10:15:00,12:40:00,2.42,,14.0,,électrique,GTFS sncf_ter
+FR_e11abfa1_1,SNCF VOYAGEURS,32. Ussel - Brive - Périgueux - Bordeaux,Train régional,Jour,Brive-la-Gaillarde,2141,Tulle,2158,09:05:00,09:40:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_e11abfa1_0,SNCF VOYAGEURS,32. Ussel - Brive - Périgueux - Bordeaux,Train régional,Jour,Brive-la-Gaillarde,2141,Périgueux,2173,10:40:00,12:32:00,1.87,,14.0,,électrique,GTFS sncf_ter
+FR_7709dc77_1,SNCF VOYAGEURS,32. Ussel - Brive - Périgueux - Bordeaux,Train régional,Jour,Périgueux,2173,Niversac,2185,10:37:00,11:03:00,0.43,,14.0,,électrique,GTFS sncf_ter
+FR_7709dc77_0,SNCF VOYAGEURS,32. Ussel - Brive - Périgueux - Bordeaux,Train régional,Jour,Niversac,2185,Périgueux,2173,10:00:00,10:26:00,0.43,,14.0,,électrique,GTFS sncf_ter
+FR_52a6f082_0,SNCF VOYAGEURS,42. Le Verdon - Macau - Bordeaux / Pessac,Train régional,Jour,Bordeaux Saint-Jean,1990,Le Verdon,1998,07:40:00,11:00:00,3.33,,14.0,,électrique,GTFS sncf_ter
+FR_52a6f082_1,SNCF VOYAGEURS,42. Le Verdon - Macau - Bordeaux / Pessac,Train régional,Jour,Lesparre,1996,Bordeaux Saint-Jean,1990,06:23:00,09:01:00,2.63,,14.0,,électrique,GTFS sncf_ter
+FR_6db78b1a_0,SNCF VOYAGEURS,41+. Libourne - Bordeaux - Arcachon,Train régional,Jour,Arcachon,2020,Bordeaux Saint-Jean,1990,07:04:00,08:38:00,1.57,,14.0,,électrique,GTFS sncf_ter
+FR_6db78b1a_1,SNCF VOYAGEURS,41+. Libourne - Bordeaux - Arcachon,Train régional,Jour,Bordeaux Saint-Jean,1990,Arcachon,2020,09:10:00,10:42:00,1.53,,14.0,,électrique,GTFS sncf_ter
+FR_80169554_0,SNCF VOYAGEURS,41.  Bordeaux - Arcachon,Train régional,Jour,Bordeaux Saint-Jean,1990,Arcachon,2020,08:10:00,09:42:00,1.53,,14.0,,électrique,GTFS sncf_ter
+FR_80169554_1,SNCF VOYAGEURS,41.  Bordeaux - Arcachon,Train régional,Jour,Arcachon,2020,Bordeaux Saint-Jean,1990,10:04:00,11:38:00,1.57,,14.0,,électrique,GTFS sncf_ter
+FR_d79481bf_1,SNCF VOYAGEURS,45.  Bordeaux - Morcenx - Mont-de-Marsan,Train régional,Jour,Bordeaux Saint-Jean,1990,Morcenx,2623,08:25:00,10:46:00,2.35,,14.0,,électrique,GTFS sncf_ter
+FR_d79481bf_0,SNCF VOYAGEURS,45.  Bordeaux - Morcenx - Mont-de-Marsan,Train régional,Jour,Mont-de-Marsan,2595,Biganos Facture,2013,12:45:00,15:08:00,2.38,,14.0,,électrique,GTFS sncf_ter
+FR_55172215_0,SNCF VOYAGEURS,33. Bordeaux - Bergerac - Sarlat,Train régional,Jour,Bergerac,2052,Sarlat,2194,10:55:00,12:29:00,1.57,,14.0,,électrique,GTFS sncf_ter
+FR_55172215_1,SNCF VOYAGEURS,33. Bordeaux - Bergerac - Sarlat,Train régional,Jour,Sarlat,2194,Bergerac,2052,10:30:00,12:06:00,1.6,,14.0,,électrique,GTFS sncf_ter
+FR_9883185c_0,SNCF VOYAGEURS,44. Bordeaux - Langon - Marmande - Agen,Train régional,Jour,Bordeaux Saint-Jean,1990,Langon,2030,09:45:00,11:12:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_9883185c_1,SNCF VOYAGEURS,44. Bordeaux - Langon - Marmande - Agen,Train régional,Jour,Langon,2030,Bordeaux Saint-Jean,1990,08:14:00,09:40:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_e08fc44f_1,SNCF VOYAGEURS,44. Bordeaux - Langon - Marmande - Agen,Train régional,Jour,Bordeaux Saint-Jean,1990,Agen,2066,10:45:00,13:39:00,2.9,,14.0,,électrique,GTFS sncf_ter
+FR_e08fc44f_0,SNCF VOYAGEURS,44. Bordeaux - Langon - Marmande - Agen,Train régional,Jour,Agen,2066,Bordeaux Saint-Jean,1990,11:40:00,14:34:00,2.9,,14.0,,électrique,GTFS sncf_ter
+FR_4a56f8ef_1,SNCF VOYAGEURS,Abbeville - Amiens - Albert,Train régional,Jour,Albert,902,Amiens,955,04:37:00,05:23:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_731f486a_1,SNCF VOYAGEURS,53. Bayonne - Pau - Tarbes,Train régional,Jour,Bayonne,2621,Coarraze - Nay,2606,06:40:00,09:35:00,2.92,,14.0,,électrique,GTFS sncf_ter
+FR_731f486a_0,SNCF VOYAGEURS,53. Bayonne - Pau - Tarbes,Train régional,Jour,Puyoô,2610,Bayonne,2621,09:10:00,10:20:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_f421bfc7_1,SNCF VOYAGEURS,52. Bordeaux - Dax - Pau - Tarbes,Train régional,Jour,Bordeaux Saint-Jean,1990,Dax,2624,07:10:00,10:16:00,3.1,,14.0,,électrique,GTFS sncf_ter
+FR_dd0aa039_1,SNCF VOYAGEURS,52. Bordeaux - Dax - Pau - Tarbes,Train régional,Jour,Bordeaux Saint-Jean,1990,Biganos Facture,2013,16:35:00,17:25:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_f421bfc7_0,SNCF VOYAGEURS,52. Bordeaux - Dax - Pau - Tarbes,Train régional,Jour,Biganos Facture,2013,Bordeaux Saint-Jean,1990,10:40:00,11:30:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_dd0aa039_0,SNCF VOYAGEURS,52. Bordeaux - Dax - Pau - Tarbes,Train régional,Jour,Pau,2604,Dax,2624,14:10:00,16:05:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_19f1dfff_0,SNCF VOYAGEURS,54. Bayonne - Cambo - Saint-Jean-Pied-de-Port,Train régional,Jour,Bayonne,2621,Saint-Jean-Pied-de-Port,2640,06:38:00,08:07:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_19f1dfff_1,SNCF VOYAGEURS,54. Bayonne - Cambo - Saint-Jean-Pied-de-Port,Train régional,Jour,Saint-Jean-Pied-de-Port,2640,Bayonne,2621,06:05:00,07:32:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_0c1818b7_1,SNCF VOYAGEURS,54. Bayonne - Cambo - Saint-Jean-Pied-de-Port,Train régional,Jour,Bayonne,2621,Cambo-les-Bains,2636,07:42:00,08:26:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_0c1818b7_0,SNCF VOYAGEURS,54. Bayonne - Cambo - Saint-Jean-Pied-de-Port,Train régional,Jour,Cambo-les-Bains,2636,Bayonne,2621,07:50:00,08:34:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_1a22d3cd_0,SNCF VOYAGEURS,55. Pau - Oloron - Bedous,Train régional,Jour,Pau,2604,Bedous,2620,08:50:00,10:16:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_1a22d3cd_1,SNCF VOYAGEURS,55. Pau - Oloron - Bedous,Train régional,Jour,Oloron-Sainte-Marie,2617,Pau,2604,09:15:00,10:07:00,0.87,,14.0,,électrique,GTFS sncf_ter
+FR_fda203af_0,SNCF VOYAGEURS,51. Bordeaux - Dax - Bayonne - Hendaye,Train régional,Jour,Dax,2624,Hendaye,2644,12:45:00,15:05:00,2.33,,14.0,,électrique,GTFS sncf_ter
+FR_9b635c88_0,SNCF VOYAGEURS,51. Bordeaux - Dax - Bayonne - Hendaye,Train régional,Jour,Bayonne,2621,Biganos Facture,2013,10:10:00,13:10:00,3.0,,14.0,,électrique,GTFS sncf_ter
+FR_4b2c7767_1,SNCF VOYAGEURS,51. Bordeaux - Dax - Bayonne - Hendaye,Train régional,Jour,Bordeaux Saint-Jean,1990,Dax,2624,06:00:00,09:06:00,3.1,,14.0,,électrique,GTFS sncf_ter
+FR_4b2c7767_0,SNCF VOYAGEURS,51. Bordeaux - Dax - Bayonne - Hendaye,Train régional,Jour,Biganos Facture,2013,Bordeaux Saint-Jean,1990,17:25:00,18:15:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_9b635c88_1,SNCF VOYAGEURS,51. Bordeaux - Dax - Bayonne - Hendaye,Train régional,Jour,Bordeaux Saint-Jean,1990,Biganos Facture,2013,10:35:00,11:25:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_e93a82f9_0,SNCF VOYAGEURS,Beauvais - Abancourt - Le Tréport,Train régional,Jour,Abancourt,949,Beauvais,932,07:25:00,08:25:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_e93a82f9_1,SNCF VOYAGEURS,Beauvais - Abancourt - Le Tréport,Train régional,Jour,Beauvais,932,Abancourt,949,16:39:00,17:49:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_8672d47d_1,SNCF VOYAGEURS,Beauvais - Creil,Train régional,Jour,Beauvais,932,Creil,738,20:00:00,21:17:00,1.28,,14.0,,électrique,GTFS sncf_ter
+FR_8672d47d_0,SNCF VOYAGEURS,Beauvais - Creil,Train régional,Jour,Creil,738,Beauvais,932,20:44:00,22:07:00,1.38,,14.0,,électrique,GTFS sncf_ter
+FR_46994C27_0,SNCF VOYAGEURS,Limoux - Carcassonne,Train régional,Jour,Limoux,2327,Quillan,2334,13:03:00,13:47:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_46994C27_1,SNCF VOYAGEURS,Limoux - Carcassonne,Train régional,Jour,Quillan,2334,Limoux,2327,13:56:00,14:40:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_2D61F6F2_0,SNCF VOYAGEURS,Nimes - Mende,Train régional,Jour,Mende,3767,Génolhac,3718,04:15:00,06:24:00,2.15,,14.0,,électrique,GTFS sncf_ter
+FR_2D61F6F2_1,SNCF VOYAGEURS,Nimes - Mende,Train régional,Jour,Génolhac,3718,Mende,3767,13:50:00,15:58:00,2.13,,14.0,,électrique,GTFS sncf_ter
+FR_B96A931F_0,SNCF VOYAGEURS,Nimes - Genolhac,Train régional,Nuit,Alès,3723,Génolhac,3718,22:07:00,23:04:00,0.95,,14.0,,électrique,GTFS sncf_ter
+FR_09FEE5E4_1,SNCF VOYAGEURS,Nimes - Clermont Ferrand,Train régional,Jour,Génolhac,3718,Langogne,3270,08:54:00,10:18:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_09FEE5E4_0,SNCF VOYAGEURS,Nimes - Clermont Ferrand,Train régional,Jour,Brioude,3264,Nîmes Centre,3708,14:00:00,18:54:00,4.9,,14.0,,électrique,GTFS sncf_ter
+FR_B96A931F_1,SNCF VOYAGEURS,Nimes - Genolhac,Train régional,Jour,La Bastide-St-Laurent-les-B.,3716,Génolhac,3718,06:28:00,07:27:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_25ADCA63_0,SNCF VOYAGEURS,Port Bou Frontiere - Narbonne,Train régional,Jour,Perpignan,3773,Cerbère,3810,10:55:00,12:42:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_25ADCA63_1,SNCF VOYAGEURS,Port Bou Frontiere - Narbonne,Train régional,Jour,Cerbère,3810,Perpignan,3773,08:20:00,10:07:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_9bd0ff33_1,SNCF VOYAGEURS,Nîmes-Avignon-Le Teil,Train régional,Jour,Avignon Centre,3681,Pont-Saint-Esprit,3673,12:30:00,13:29:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_9bd0ff33_0,SNCF VOYAGEURS,Nîmes-Avignon-Le Teil,Train régional,Jour,Pont-Saint-Esprit,3673,Avignon Centre,3681,11:00:00,11:59:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_9C18948C_1,SNCF VOYAGEURS,Villefranche Vernet Les Bains - Perpignan,Train régional,Jour,Ille-sur-Têt,3784,Villefranche - Vernet-les-Bains,3789,07:25:00,08:08:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_9C18948C_0,SNCF VOYAGEURS,Villefranche Vernet Les Bains - Perpignan,Train régional,Jour,Villefranche - Vernet-les-Bains,3789,Ille-sur-Têt,3784,05:35:00,06:18:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_2888D586_0,SNCF VOYAGEURS,Toulouse Matabiau - Narbonne,Train régional,Jour,Narbonne,3739,Toulouse Matabiau,2226,08:08:00,11:46:00,3.63,,14.0,,électrique,GTFS sncf_ter
+FR_2888D586_1,SNCF VOYAGEURS,Toulouse Matabiau - Narbonne,Train régional,Jour,Castelnaudary,2321,Narbonne,3739,12:56:00,15:10:00,2.23,,14.0,,électrique,GTFS sncf_ter
+FR_8351C8A5_0,SNCF VOYAGEURS,Saint-Quentin - Compiègne,Train régional,Jour,Ribécourt,755,Compiègne,750,06:54:00,07:24:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_8351C8A5_1,SNCF VOYAGEURS,Saint-Quentin - Compiègne,Train régional,Jour,Compiègne,750,Ribécourt,755,20:36:00,21:06:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_ECD38F84_0,SNCF VOYAGEURS,Toulouse Matabiau - Rodez,Train régional,Jour,Albi Ville,2319,Carmaux,2349,10:40:00,11:20:00,0.67,,14.0,,électrique,GTFS sncf_ter
+FR_ECD38F84_1,SNCF VOYAGEURS,Toulouse Matabiau - Rodez,Train régional,Jour,Rodez,2309,Albi Ville,2319,09:31:00,11:26:00,1.92,,14.0,,électrique,GTFS sncf_ter
+FR_A3DE16D4_1,SNCF VOYAGEURS,Toulouse Matabiau - Mazamet,Train régional,Jour,Toulouse Matabiau,2226,Saint-Sulpice,2338,04:46:00,05:52:00,1.1,,14.0,,électrique,GTFS sncf_ter
+FR_A3DE16D4_0,SNCF VOYAGEURS,Toulouse Matabiau - Mazamet,Train régional,Jour,Mazamet,2348,Toulouse Matabiau,2226,08:43:00,11:32:00,2.82,,14.0,,électrique,GTFS sncf_ter
+FR_0FBE8F9E_1,SNCF VOYAGEURS,Toulouse Matabiau - Clermont Ferrand,Train régional,Jour,Tessonnières,2332,Figeac,2299,08:03:00,10:43:00,2.67,,14.0,,électrique,GTFS sncf_ter
+FR_0FBE8F9E_0,SNCF VOYAGEURS,Toulouse Matabiau - Clermont Ferrand,Train régional,Jour,Figeac,2299,Tessonnières,2332,06:49:00,09:29:00,2.67,,14.0,,électrique,GTFS sncf_ter
+FR_4AF7CF05_1,SNCF VOYAGEURS,Toulouse Matabiau - Auch,Train régional,Jour,L'Isle-Jourdain,2279,Toulouse Matabiau,2226,09:02:00,10:12:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_4AF7CF05_0,SNCF VOYAGEURS,Toulouse Matabiau - Auch,Train régional,Jour,L'Isle-Jourdain,2279,Auch,2276,09:28:00,10:19:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_CB107164_0,SNCF VOYAGEURS,Toulouse Matabiau - Latour De Carol Enveitg,Train régional,Jour,Toulouse Matabiau,2226,Auterive,2248,09:24:00,10:31:00,1.12,,14.0,,électrique,GTFS sncf_ter
+FR_CB107164_1,SNCF VOYAGEURS,Toulouse Matabiau - Latour De Carol Enveitg,Train régional,Jour,Auterive,2248,Toulouse Matabiau,2226,10:59:00,12:11:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_B2CDD4A5_0,SNCF VOYAGEURS,Brive La Gaillarde - Rodez,Train régional,Jour,Capdenac,2300,Brive-la-Gaillarde,2141,09:59:00,12:27:00,2.47,,14.0,,électrique,GTFS sncf_ter
+FR_B2CDD4A5_1,SNCF VOYAGEURS,Brive La Gaillarde - Rodez,Train régional,Jour,Brive-la-Gaillarde,2141,Capdenac,2300,06:30:00,08:58:00,2.47,,14.0,,électrique,GTFS sncf_ter
+FR_0D4CACAF_1,SNCF VOYAGEURS,Toulouse Matabiau - Brive La Gaillarde,Train régional,Jour,Montauban Ville Bourbon,2241,Brive-la-Gaillarde,2141,14:02:00,17:35:00,3.55,,14.0,,électrique,GTFS sncf_ter
+FR_0D4CACAF_0,SNCF VOYAGEURS,Toulouse Matabiau - Brive La Gaillarde,Train régional,Jour,Cahors,2295,Montauban Ville Bourbon,2241,16:23:00,17:56:00,1.55,,14.0,,électrique,GTFS sncf_ter
+FR_28924201_1,SNCF VOYAGEURS,Toulouse Matabiau - Pau,Train régional,Jour,Muret,2227,Tarbes,2594,10:46:00,13:58:00,3.2,,14.0,,électrique,GTFS sncf_ter
+FR_28924201_0,SNCF VOYAGEURS,Toulouse Matabiau - Pau,Train régional,Jour,Tarbes,2594,Muret,2227,07:49:00,10:59:00,3.17,,14.0,,électrique,GTFS sncf_ter
+FR_F0635262_0,SNCF VOYAGEURS,Toulouse Matabiau - Agen,Train régional,Jour,Montauban Ville Bourbon,2241,Agen,2066,10:44:00,12:30:00,1.77,,14.0,,électrique,GTFS sncf_ter
+FR_F0635262_1,SNCF VOYAGEURS,Toulouse Matabiau - Agen,Train régional,Jour,Agen,2066,Montauban Ville Bourbon,2241,12:07:00,13:53:00,1.77,,14.0,,électrique,GTFS sncf_ter
+FR_3DE040DF_0,SNCF VOYAGEURS,Nantes - Le Croisic,Train régional,Jour,Le Croisic,1690,Saint-Nazaire,1683,09:38:00,10:52:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_3DE040DF_1,SNCF VOYAGEURS,Nantes - Le Croisic,Train régional,Jour,Saint-Nazaire,1683,Le Croisic,1690,11:05:00,12:18:00,1.22,,14.0,,électrique,GTFS sncf_ter
+FR_B1325746_1,SNCF VOYAGEURS,Tours - Le Croisic,Train régional,Jour,Angers Saint-Laud,1696,Saumur,1760,07:45:00,09:20:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_7931866B_0,SNCF VOYAGEURS,Nantes Cholet Angers Saumur,Train régional,Jour,Angers Saint-Laud,1696,Cholet,1704,12:54:00,14:34:00,1.67,,14.0,,électrique,GTFS sncf_ter
+FR_7931866B_1,SNCF VOYAGEURS,Nantes Cholet Angers Saumur,Train régional,Jour,Cholet,1704,Angers Saint-Laud,1696,13:44:00,15:24:00,1.67,,14.0,,électrique,GTFS sncf_ter
+FR_B1325746_0,SNCF VOYAGEURS,Tours - Le Croisic,Train régional,Jour,Saumur,1760,Angers Saint-Laud,1696,09:40:00,11:15:00,1.58,,14.0,,électrique,GTFS sncf_ter
+FR_D9406916_0,SNCF VOYAGEURS,Le Mans - Paris Montparnasse,Train régional,Nuit,Nogent-le-Rotrou,1213,Le Mans,1226,22:53:00,00:11:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_D9406916_1,SNCF VOYAGEURS,Le Mans - Paris Montparnasse,Train régional,Nuit,Le Mans,1226,Nogent-le-Rotrou,1213,02:47:00,04:05:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_FF3AD2AB_1,SNCF VOYAGEURS,Nantes - Rennes Via Redon,Train régional,Jour,Nantes,1650,Rennes,1492,12:10:00,13:50:00,1.67,,14.0,,électrique,GTFS sncf_ter
+FR_9C5504A0_1,SNCF VOYAGEURS,Nantes - Les Sables D'Olonne,Train régional,Jour,Les Sables-d'Olonne,1750,La Roche-sur-Yon,1739,11:49:00,12:39:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_EABAE2FB_1,SNCF VOYAGEURS,Le Croisic - Nantes - Rennes Via Sablé,Intercité,Jour,Laval,1638,Rennes,1492,08:52:00,10:37:00,1.75,,14.0,,électrique,GTFS sncf_ter
+FR_8298A5D7_0,SNCF VOYAGEURS,Laval - Le Mans,Train régional,Jour,Laval,1638,Le Mans,1226,11:05:00,13:05:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_9C5504A0_0,SNCF VOYAGEURS,Nantes - Les Sables D'Olonne,Train régional,Jour,La Roche-sur-Yon,1739,Les Sables-d'Olonne,1750,12:22:00,13:12:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_8298A5D7_1,SNCF VOYAGEURS,Laval - Le Mans,Train régional,Jour,Le Mans,1226,Laval,1638,12:25:00,14:25:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_BB2E7D6E_1,SNCF VOYAGEURS,Calais Ville - Rang-Du-Fliers - Verton - Berck,Train régional,Jour,Calais Ville,990,Calais - Fréthun,775,05:39:00,05:52:00,0.22,,14.0,,électrique,GTFS sncf_ter
+FR_ba3725c1_0,SNCF VOYAGEURS,Lens - Béthune - St-Pol-sur Ternoise,Train régional,Jour,Béthune,1069,Saint-Pol-sur-Ternoise,1093,07:30:00,08:38:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_CAA1A7DA_1,SNCF VOYAGEURS,Douai - Valenciennes,Train régional,Jour,Somain,1141,Valenciennes,1106,06:32:00,07:00:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_ba3725c1_1,SNCF VOYAGEURS,Lens - Béthune - St-Pol-sur Ternoise,Train régional,Jour,Saint-Pol-sur-Ternoise,1093,Béthune,1069,07:44:00,08:52:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_AE80CCD6_1,SNCF VOYAGEURS,Arras/Béthune - St-Pol-Sur-Ternoise - Etaples,Train régional,Jour,Arras,1070,Saint-Pol-sur-Ternoise,1093,05:31:00,06:26:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_AE80CCD6_0,SNCF VOYAGEURS,Arras/Béthune - St-Pol-Sur-Ternoise - Etaples,Train régional,Jour,Saint-Pol-sur-Ternoise,1093,Arras,1070,06:35:00,07:40:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_6063d197_0,SNCF VOYAGEURS,Nice - Breil Sur Roya - Tende,Grande vitesse,Jour,Breil-sur-Roya,3606,Nice-Ville,3583,05:40:00,06:55:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_A2BE94A9_0,SNCF VOYAGEURS,Marseille - Miramas - Avignon Tgv Via Cavaillon,Grande vitesse,Jour,Avignon Centre,3681,Miramas,3529,07:50:00,10:10:00,2.33,,14.0,,électrique,GTFS sncf_ter
+FR_A2BE94A9_1,SNCF VOYAGEURS,Marseille - Miramas - Avignon Tgv Via Cavaillon,Grande vitesse,Jour,Miramas,3529,Avignon Centre,3681,07:45:00,10:15:00,2.5,,14.0,,électrique,GTFS sncf_ter
+FR_BCE7E21A_0,SNCF VOYAGEURS,Marseille - Miramas - Avignon Centre Via Arles,Train régional,Jour,Arles,3554,Miramas,3529,09:30:00,10:20:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_BCE7E21A_1,SNCF VOYAGEURS,Marseille - Miramas - Avignon Centre Via Arles,Train régional,Jour,Miramas,3529,Arles,3554,08:30:00,09:20:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_f79fa5ad_0,SNCF VOYAGEURS,LE HAVRE - BREAUTE - FECAMP,Train régional,Jour,Bréauté - Beuzeville,1364,Fécamp,1367,07:28:00,07:58:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_f79fa5ad_1,SNCF VOYAGEURS,LE HAVRE - BREAUTE - FECAMP,Train régional,Jour,Fécamp,1367,Bréauté - Beuzeville,1364,05:58:00,06:28:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_ab24ba62_1,SNCF VOYAGEURS,14. Poitiers - Niort - La Rochelle,Train régional,Jour,Niort,1725,Mauzé,1723,12:37:00,13:17:00,0.67,,14.0,,électrique,GTFS sncf_ter
+FR_2579ED01_1,SNCF VOYAGEURS,10. Saumur -Thouars - Bressuire,Train régional,Jour,Saumur,1760,Bressuire,1756,09:55:00,11:18:00,1.38,,14.0,,électrique,GTFS sncf_ter
+FR_2579ED01_0,SNCF VOYAGEURS,10. Saumur -Thouars - Bressuire,Train régional,Jour,Bressuire,1756,Saumur,1760,08:00:00,09:27:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_5d6969f2_0,SNCF VOYAGEURS,44. Bordeaux - Langon - Marmande - Agen,Train régional,Jour,Gironde,2034,Langon,2030,06:15:00,06:44:00,0.48,,14.0,,électrique,GTFS sncf_ter
+FR_E3DAF78B_0,SNCF VOYAGEURS,Toulouse Matabiau - Carmaux,Train régional,Nuit,Toulouse Matabiau,2226,Albi Ville,2319,00:48:00,02:18:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_E3DAF78B_1,SNCF VOYAGEURS,Toulouse Matabiau - Carmaux,Train régional,Jour,Albi Ville,2319,Toulouse Matabiau,2226,20:23:00,21:53:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_7572BCFA_0,SNCF VOYAGEURS,Lauterbourg - Woerth Rhein,Train régional,Jour,Woerth (Rhein),19,Lauterbourg,598,19:19:00,19:35:00,0.27,,14.0,,électrique,GTFS sncf_ter
+FR_288E835E_1,SNCF VOYAGEURS,Wissembourg - Neustadt,Train régional,Jour,Wissembourg,613,Neustadt (Weinstr) Hbf,25,05:27:00,06:22:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_288E835E_0,SNCF VOYAGEURS,Wissembourg - Neustadt,Train régional,Jour,Winden (Pfalz),33,Wissembourg,613,05:05:00,05:21:00,0.27,,14.0,,électrique,GTFS sncf_ter
+FR_7572BCFA_1,SNCF VOYAGEURS,Lauterbourg - Woerth Rhein,Train régional,Jour,Lauterbourg,598,Woerth (Rhein),19,04:55:00,05:10:00,0.25,,14.0,,électrique,GTFS sncf_ter
+FR_2a429284_1,SNCF VOYAGEURS,STRASBOURG - SARREBOURG,Train régional,Jour,Strasbourg,568,Sarrebourg,665,19:49:00,20:39:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_048d5d9a_1,SNCF VOYAGEURS,STRASBOURG - HAGUENAU,Train régional,Jour,Strasbourg,568,Haguenau,599,06:05:00,06:27:00,0.37,,14.0,,électrique,GTFS sncf_ter
+FR_048d5d9a_0,SNCF VOYAGEURS,STRASBOURG - HAGUENAU,Train régional,Jour,Haguenau,599,Strasbourg,568,15:31:00,15:55:00,0.4,,14.0,,électrique,GTFS sncf_ter
+FR_2BF95CA1_1,SNCF VOYAGEURS,Strasbourg - Wissembourg,Train régional,Jour,Wissembourg,613,Strasbourg,568,12:58:00,14:20:00,1.37,,14.0,,électrique,GTFS sncf_ter
+FR_43B3E20E_1,SNCF VOYAGEURS,Strasbourg - Molsheim,Train régional,Jour,Strasbourg,568,Molsheim,646,05:31:00,05:55:00,0.4,,14.0,,électrique,GTFS sncf_ter
+FR_43B3E20E_0,SNCF VOYAGEURS,Strasbourg - Molsheim,Train régional,Jour,Molsheim,646,Strasbourg,568,06:17:00,06:42:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_9183d1b1_1,SNCF VOYAGEURS,STRASBOURG - BÂLE,Train régional,Jour,Colmar,392,Strasbourg,568,19:36:00,20:09:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_204EE547_1,SNCF VOYAGEURS,Colmar - Mulhouse,Train régional,Jour,Mulhouse,394,Colmar,392,06:20:00,06:58:00,0.63,,14.0,,électrique,GTFS sncf_ter
+FR_01EEE633_0,SNCF VOYAGEURS,Strasbourg - Sélestat Via Molsheim,Train régional,Jour,Barr,634,Strasbourg,568,06:35:00,07:20:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_01EEE633_1,SNCF VOYAGEURS,Strasbourg - Sélestat Via Molsheim,Train régional,Jour,Strasbourg,568,Barr,634,08:13:00,09:02:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_525EAFC0_1,SNCF VOYAGEURS,Strasbourg - Rothau,Train régional,Jour,Rothau,656,Strasbourg,568,04:49:00,05:45:00,0.93,,14.0,,électrique,GTFS sncf_ter
+FR_525EAFC0_0,SNCF VOYAGEURS,Strasbourg - Rothau,Train régional,Jour,Strasbourg,568,Rothau,656,07:20:00,08:19:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_10CFF8BF_0,SNCF VOYAGEURS,Strasbourg - Niederbronn Les Bains,Train régional,Jour,Niederbronn-les-Bains,606,Strasbourg,568,07:11:00,08:18:00,1.12,,14.0,,électrique,GTFS sncf_ter
+FR_2ab1196c_1,SNCF VOYAGEURS,NANCY - VERDUN,Train régional,Jour,Verdun,378,Nancy,210,18:53:00,20:20:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_f1c64ded_1,SNCF VOYAGEURS,Metz - Verdun,Train régional,Jour,Verdun,378,Metz,484,06:38:00,07:54:00,1.27,,14.0,,électrique,GTFS sncf_ter
+FR_f1c64ded_0,SNCF VOYAGEURS,Metz - Verdun,Train régional,Jour,Metz,484,Verdun,378,06:06:00,07:18:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_6f2bfb3d_1,SNCF VOYAGEURS,LUNEVILLE - REVIGNY,Train régional,Jour,Bar-le-Duc,371,Lunéville,224,06:16:00,08:05:00,1.82,,14.0,,électrique,GTFS sncf_ter
+FR_6f2bfb3d_0,SNCF VOYAGEURS,LUNEVILLE - REVIGNY,Train régional,Jour,Lunéville,224,Bar-le-Duc,371,18:56:00,20:46:00,1.83,,14.0,,électrique,GTFS sncf_ter
+FR_53b4e95a_1,SNCF VOYAGEURS,Remiremont - Luxembourg et Lunéville - Luxembourg,Train régional,Jour,Épinal,258,Metz,484,07:05:00,08:43:00,1.63,,14.0,,électrique,GTFS sncf_ter
+FR_53b4e95a_0,SNCF VOYAGEURS,Remiremont - Luxembourg et Lunéville - Luxembourg,Train régional,Jour,Metz,484,Épinal,258,07:13:00,08:51:00,1.63,,14.0,,électrique,GTFS sncf_ter
+FR_afb9b72c_1,SNCF VOYAGEURS,NANCY - ST DIE DES VOSGES,Train régional,Jour,Nancy,210,Saint-Dié-des-Vosges,259,05:42:00,07:06:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_afb9b72c_0,SNCF VOYAGEURS,NANCY - ST DIE DES VOSGES,Train régional,Jour,Saint-Dié-des-Vosges,259,Nancy,210,06:31:00,07:49:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_122DF66B_1,SNCF VOYAGEURS,Metz - Sarrebourg,Train régional,Jour,Metz,484,Sarrebourg,665,06:17:00,07:21:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_122DF66B_0,SNCF VOYAGEURS,Metz - Sarrebourg,Train régional,Jour,Sarrebourg,665,Metz,484,06:35:00,07:40:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_8E86D6E5_0,SNCF VOYAGEURS,Strasbourg - Nancy,Train régional,Jour,Strasbourg,568,Nancy,210,06:14:00,07:44:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_8E86D6E5_1,SNCF VOYAGEURS,Strasbourg - Nancy,Train régional,Jour,Nancy,210,Strasbourg,568,06:11:00,07:42:00,1.52,,14.0,,électrique,GTFS sncf_ter
+FR_4FDC64D4_0,SNCF VOYAGEURS,Nancy - Lunéville,Train régional,Jour,Lunéville,224,Nancy,210,16:56:00,17:29:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_4FDC64D4_1,SNCF VOYAGEURS,Nancy - Lunéville,Train régional,Jour,Nancy,210,Lunéville,224,06:31:00,07:05:00,0.57,,14.0,,électrique,GTFS sncf_ter
+FR_370f96fa_0,SNCF VOYAGEURS,PARIS - VITTEL,Train régional,Jour,Vittel,270,Paris Est,144,16:21:00,20:20:00,3.98,,14.0,,électrique,GTFS sncf_ter
+FR_370f96fa_1,SNCF VOYAGEURS,PARIS - VITTEL,Train régional,Jour,Paris Est,144,Vittel,270,11:42:00,15:28:00,3.77,,14.0,,électrique,GTFS sncf_ter
+FR_87713040_1,OCEdefault,-,Train régional,Jour,Culmont - Chalindrey,251,Dijon,2943,14:35:00,15:24:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_3EFC9578_1,SNCF VOYAGEURS,Paris-Est - Dijon,Train régional,Jour,Dijon,2943,Culmont - Chalindrey,251,08:19:00,09:05:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_2880c946_1,SNCF VOYAGEURS,REIMS - SAINT DIZIER,Train régional,Jour,Châlons-en-Champagne,366,Reims,300,06:12:00,06:55:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_2880c946_0,SNCF VOYAGEURS,REIMS - SAINT DIZIER,Train régional,Jour,Reims,300,Châlons-en-Champagne,366,07:05:00,07:48:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_9f03b85f_1,SNCF VOYAGEURS,REIMS - CHALONS EN CHAMPAGNE,Train régional,Jour,Reims,300,Châlons-en-Champagne,366,07:40:00,08:15:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_9f03b85f_0,SNCF VOYAGEURS,REIMS - CHALONS EN CHAMPAGNE,Train régional,Jour,Châlons-en-Champagne,366,Reims,300,07:20:00,07:55:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_54630737_1,SNCF VOYAGEURS,Reims - Champagne Ardenne Tgv,Grande vitesse,Jour,Reims,300,Champagne-Ardenne TGV,323,06:36:00,06:48:00,0.2,,14.0,,électrique,GTFS sncf_ter
+FR_54630737_0,SNCF VOYAGEURS,Reims - Champagne Ardenne Tgv,Grande vitesse,Jour,Champagne-Ardenne TGV,323,Reims,300,07:10:00,07:22:00,0.2,,14.0,,électrique,GTFS sncf_ter
+FR_BD3C552F_0,SNCF VOYAGEURS,Reims - Dijon,Train régional,Jour,Dijon,2943,Reims,300,18:05:00,21:39:00,3.57,,14.0,,électrique,GTFS sncf_ter
+FR_a2439983_0,SNCF VOYAGEURS,Reims - Culmont-Chalindrey,Train régional,Jour,Culmont - Chalindrey,251,Reims,300,05:39:00,08:25:00,2.77,,14.0,,électrique,GTFS sncf_ter
+FR_a2439983_1,SNCF VOYAGEURS,Reims - Culmont-Chalindrey,Train régional,Jour,Reims,300,Culmont - Chalindrey,251,17:35:00,20:27:00,2.87,,14.0,,électrique,GTFS sncf_ter
+FR_0BD8D049_0,SNCF VOYAGEURS,Lille Flandres - Valenciennes,Train régional,Jour,Valenciennes,1106,Lille Flandres,792,04:52:00,05:36:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_0BD8D049_1,SNCF VOYAGEURS,Lille Flandres - Valenciennes,Train régional,Jour,Lille Flandres,792,Valenciennes,1106,05:09:00,05:55:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_9C7B28D6_1,SNCF VOYAGEURS,Valenciennes - Cambrai,Train régional,Jour,Cambrai,1149,Valenciennes,1106,05:57:00,06:39:00,0.7,,14.0,,électrique,GTFS sncf_ter
+FR_9C7B28D6_0,SNCF VOYAGEURS,Valenciennes - Cambrai,Train régional,Jour,Valenciennes,1106,Cambrai,1149,06:53:00,07:36:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_1C56C041_0,SNCF VOYAGEURS,Aulnoye - Aymeries - Hirson,Train régional,Jour,Aulnoye-Aymeries,845,Hirson,840,07:45:00,08:30:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_75CC47ED_0,SNCF VOYAGEURS,Lille Flandres - Don-Sainghin - Lens,Train régional,Jour,Lens,1121,Lille Flandres,792,06:14:00,07:13:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_75CC47ED_1,SNCF VOYAGEURS,Lille Flandres - Don-Sainghin - Lens,Train régional,Jour,Lille Flandres,792,Lens,1121,06:47:00,07:45:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_8B88A418_1,SNCF VOYAGEURS,Lille Flandres - Don-Sainghin - Lens,Train régional,Jour,Lille Flandres,792,Lens,1121,08:06:00,08:51:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_8B88A418_0,SNCF VOYAGEURS,Lille Flandres - Don-Sainghin - Lens,Train régional,Jour,Lens,1121,Lille Flandres,792,05:52:00,06:34:00,0.7,,14.0,,électrique,GTFS sncf_ter
+FR_D6D7F630_0,SNCF VOYAGEURS,Lille Flandres - Béthune,Train régional,Jour,Lille Flandres,792,Béthune,1069,06:36:00,07:15:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_D6D7F630_1,SNCF VOYAGEURS,Lille Flandres - Béthune,Train régional,Jour,Béthune,1069,Lille Flandres,792,06:46:00,07:24:00,0.63,,14.0,,électrique,GTFS sncf_ter
+FR_EE8ADD20_1,SNCF VOYAGEURS,Lille Flandres - Don-Sainghin - Béthune,Train régional,Jour,Béthune,1069,Lille Flandres,792,05:49:00,06:44:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_EE8ADD20_0,SNCF VOYAGEURS,Lille Flandres - Don-Sainghin - Béthune,Train régional,Jour,Lille Flandres,792,Béthune,1069,06:15:00,07:11:00,0.93,,14.0,,électrique,GTFS sncf_ter
+FR_5C78867C_0,SNCF VOYAGEURS,Lille Flandres - Douai,Train régional,Jour,Douai,1120,Lille Flandres,792,05:51:00,06:33:00,0.7,,14.0,,électrique,GTFS sncf_ter
+FR_7B6378BA_1,SNCF VOYAGEURS,Lille Flandres - Libercourt - Lens,Train régional,Jour,Lille Flandres,792,Lens,1121,06:40:00,07:19:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_CAA1A7DA_0,SNCF VOYAGEURS,Douai - Valenciennes,Train régional,Jour,Valenciennes,1106,Douai,1120,05:01:00,05:36:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_642B6E1F_0,SNCF VOYAGEURS,Lens - Douai,Train régional,Jour,Douai,1120,Lens,1121,06:04:00,06:35:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_642B6E1F_1,SNCF VOYAGEURS,Lens - Douai,Train régional,Jour,Lens,1121,Douai,1120,06:26:00,06:56:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_5C0B3D53_0,SNCF VOYAGEURS,Arras - Douai,Train régional,Jour,Douai,1120,Arras,1070,06:22:00,06:50:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_5C0B3D53_1,SNCF VOYAGEURS,Arras - Douai,Train régional,Jour,Arras,1070,Douai,1120,06:08:00,06:36:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_A5007AD2_1,SNCF VOYAGEURS,Lille Flandres - St Quentin,Train régional,Jour,Saint-Quentin,855,Lille Flandres,792,07:12:00,08:55:00,1.72,,14.0,,électrique,GTFS sncf_ter
+FR_833E0725_0,SNCF VOYAGEURS,Douai - Saint-Quentin,Train régional,Jour,Saint-Quentin,855,Douai,1120,07:10:00,08:41:00,1.52,,14.0,,électrique,GTFS sncf_ter
+FR_833E0725_1,SNCF VOYAGEURS,Douai - Saint-Quentin,Train régional,Jour,Douai,1120,Saint-Quentin,855,17:20:00,18:49:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_389E4715_1,SNCF VOYAGEURS,Lille Flandres - Tourcoing,Train régional,Jour,Lille Flandres,792,Tourcoing,812,06:27:00,06:41:00,0.23,,14.0,,électrique,GTFS sncf_ter
+FR_389E4715_0,SNCF VOYAGEURS,Lille Flandres - Tourcoing,Train régional,Jour,Tourcoing,812,Lille Flandres,792,07:20:00,07:33:00,0.22,,14.0,,électrique,GTFS sncf_ter
+FR_AA3669E7_1,SNCF VOYAGEURS,Lille Flandres - Hazebrouck,Train régional,Jour,Lille Flandres,792,Hazebrouck,803,06:23:00,07:09:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_177289b6_1,SNCF VOYAGEURS,Calais-Frethun - Lille Europe - Arras Tergv,Train régional,Jour,Arras,1070,Calais - Fréthun,775,06:44:00,07:43:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_177289b6_0,SNCF VOYAGEURS,Calais-Frethun - Lille Europe - Arras Tergv,Train régional,Jour,Calais - Fréthun,775,Lille Europe,710,08:07:00,08:35:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_5e489f5a_1,SNCF VOYAGEURS,Dunkerque - Lille Europe - Arras - Amiens Tergv,Train régional,Jour,Dunkerque,773,Lille Europe,710,08:00:00,08:31:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_5e489f5a_0,SNCF VOYAGEURS,Dunkerque - Lille Europe - Arras - Amiens Tergv,Train régional,Jour,Lille Europe,710,Dunkerque,773,06:59:00,07:32:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_753079D4_0,SNCF VOYAGEURS,Calais Ville - Dunkerque,Train régional,Jour,Calais Ville,990,Dunkerque,773,06:02:00,06:47:00,0.75,,14.0,,électrique,GTFS sncf_ter
+FR_57365567_1,SNCF VOYAGEURS,Dunkerque - Hazebrouck,Train régional,Jour,Dunkerque,773,Hazebrouck,803,12:32:00,13:06:00,0.57,,14.0,,électrique,GTFS sncf_ter
+FR_57365567_0,SNCF VOYAGEURS,Dunkerque - Hazebrouck,Train régional,Jour,Hazebrouck,803,Dunkerque,773,14:58:00,15:32:00,0.57,,14.0,,électrique,GTFS sncf_ter
+FR_FACFDECC_1,SNCF VOYAGEURS,Arras - Dunkerque,Train régional,Jour,Hazebrouck,803,Arras,1070,05:07:00,06:05:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_D66CBB65_0,SNCF VOYAGEURS,Calais Ville - Hazebrouck,Train régional,Jour,Hazebrouck,803,Calais Ville,990,05:23:00,06:18:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_90BED9EC_0,SNCF VOYAGEURS,Calais Ville - Arras,Train régional,Jour,Hazebrouck,803,Arras,1070,05:38:00,06:43:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_90BED9EC_1,SNCF VOYAGEURS,Calais Ville - Arras,Train régional,Jour,Arras,1070,Hazebrouck,803,09:18:00,10:22:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_090620CD_1,SNCF VOYAGEURS,Hazebrouck - Arras,Train régional,Jour,Hazebrouck,803,Arras,1070,06:24:00,07:47:00,1.38,,14.0,,électrique,GTFS sncf_ter
+FR_090620CD_0,SNCF VOYAGEURS,Hazebrouck - Arras,Train régional,Jour,Arras,1070,Hazebrouck,803,17:12:00,18:35:00,1.38,,14.0,,électrique,GTFS sncf_ter
+FR_906CC1A4_1,SNCF VOYAGEURS,Paris Nord - Beauvais,Train régional,Jour,Paris Gare du Nord,722,Beauvais,932,06:07:00,07:20:00,1.22,,14.0,,électrique,GTFS sncf_ter
+FR_906CC1A4_0,SNCF VOYAGEURS,Paris Nord - Beauvais,Train régional,Jour,Beauvais,932,Paris Gare du Nord,722,05:15:00,06:25:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_ed6c83ca_1,SNCF VOYAGEURS,Paris Nord - Creil,Train régional,Jour,Paris Gare du Nord,722,Creil,738,07:20:00,07:53:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_ed6c83ca_0,SNCF VOYAGEURS,Paris Nord - Creil,Train régional,Jour,Creil,738,Paris Gare du Nord,722,07:05:00,07:40:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_5CA0D208_1,SNCF VOYAGEURS,Paris Nord - Compiègne,Train régional,Jour,Compiègne,750,Paris Gare du Nord,722,06:39:00,07:26:00,0.78,,14.0,,électrique,GTFS sncf_ter
+FR_5CA0D208_0,SNCF VOYAGEURS,Paris Nord - Compiègne,Train régional,Jour,Paris Gare du Nord,722,Compiègne,750,08:45:00,09:51:00,1.1,,14.0,,électrique,GTFS sncf_ter
+FR_d2d9cc1a_0,SNCF VOYAGEURS,Compiègne Paris,Train régional,Jour,Compiègne,750,Paris Gare du Nord,722,11:15:00,12:24:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_d2d9cc1a_1,SNCF VOYAGEURS,Compiègne Paris,Train régional,Jour,Paris Gare du Nord,722,Compiègne,750,18:36:00,19:50:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_4a56f8ef_0,SNCF VOYAGEURS,Abbeville - Amiens - Albert,Train régional,Jour,Abbeville,994,Amiens,955,05:33:00,06:07:00,0.57,,14.0,,électrique,GTFS sncf_ter
+FR_66f120e0_1,SNCF VOYAGEURS,Amiens - Compiègne,Train régional,Jour,Amiens,955,Compiègne,750,05:49:00,06:45:00,0.93,,14.0,,électrique,GTFS sncf_ter
+FR_66f120e0_0,SNCF VOYAGEURS,Amiens - Compiègne,Train régional,Jour,Compiègne,750,Amiens,955,05:44:00,06:58:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_F16E89CB_0,SNCF VOYAGEURS,Paris Nord - Creil - Saint-Just-En-Chaussée,Train régional,Jour,Paris Gare du Nord,722,Saint-Just-en-Chaussée,914,07:06:00,08:08:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_F16E89CB_1,SNCF VOYAGEURS,Paris Nord - Creil - Saint-Just-En-Chaussée,Train régional,Jour,Saint-Just-en-Chaussée,914,Paris Gare du Nord,722,09:55:00,10:54:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_A660A95F_0,SNCF VOYAGEURS,Paris Nord - Amiens,Train régional,Jour,Amiens,955,Paris Gare du Nord,722,18:30:00,19:54:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_CA91A26F_0,SNCF VOYAGEURS,Paris Nord -Longueau-Amiens,Train régional,Jour,Amiens,955,Paris Gare du Nord,722,06:22:00,07:31:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_CA91A26F_1,SNCF VOYAGEURS,Paris Nord -Longueau-Amiens,Train régional,Jour,Paris Gare du Nord,722,Amiens,955,17:30:00,18:38:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_59072d02_1,SNCF VOYAGEURS,Amiens - Creil,Train régional,Jour,Creil,738,Amiens,955,06:08:00,07:14:00,1.1,,14.0,,électrique,GTFS sncf_ter
+FR_59072d02_0,SNCF VOYAGEURS,Amiens - Creil,Train régional,Jour,Amiens,955,Creil,738,06:45:00,07:50:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_AD249687_1,SNCF VOYAGEURS,Amiens - Abancourt - (Rouen Rive-Droite),Train régional,Jour,Amiens,955,Rouen Rive Droite,1341,05:56:00,07:26:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_c82c3f70_1,SNCF VOYAGEURS,Amiens - Abancourt,Train régional,Jour,Amiens,955,Abancourt,949,16:58:00,17:36:00,0.63,,14.0,,électrique,GTFS sncf_ter
+FR_c82c3f70_0,SNCF VOYAGEURS,Amiens - Abancourt,Train régional,Jour,Abancourt,949,Amiens,955,06:24:00,07:05:00,0.68,,14.0,,électrique,GTFS sncf_ter
+FR_316DC806_1,SNCF VOYAGEURS,Crépy-En-Valois - Laon,Train régional,Jour,Laon,856,Crépy-en-Valois,726,06:15:00,07:20:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_49F46F3D_1,SNCF VOYAGEURS,Rouen - Le Havre,Train régional,Jour,Le Havre,1359,Rouen Rive Droite,1341,06:01:00,06:59:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_49F46F3D_0,SNCF VOYAGEURS,Rouen - Le Havre,Train régional,Jour,Rouen Rive Droite,1341,Le Havre,1359,06:00:00,06:57:00,0.95,,14.0,,électrique,GTFS sncf_ter
+FR_6aed673f_1,SNCF VOYAGEURS,YVETOT - ROUEN - ELBEUF,Train régional,Jour,Yvetot,1366,Elbeuf - Saint-Aubin,1342,06:07:00,07:09:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_6aed673f_0,SNCF VOYAGEURS,YVETOT - ROUEN - ELBEUF,Train régional,Jour,Elbeuf - Saint-Aubin,1342,Yvetot,1366,05:51:00,06:49:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_D4A483E7_0,SNCF VOYAGEURS,PARIS - EVREUX - SERQUIGNY,Train régional,Jour,Paris Saint-Lazare,1178,Évreux Normandie,1180,07:09:00,08:23:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_2e91b55c_0,SNCF VOYAGEURS,Rouen - Dieppe,Train régional,Jour,Dieppe,1368,Rouen Rive Droite,1341,06:18:00,07:18:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_2e91b55c_1,SNCF VOYAGEURS,Rouen - Dieppe,Train régional,Jour,Rouen Rive Droite,1341,Dieppe,1368,06:45:00,07:45:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_6c38855b_1,SNCF VOYAGEURS,Rouen - Dieppe,Train régional,Jour,Dieppe,1368,Rouen Rive Droite,1341,05:21:00,06:05:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_6c38855b_0,SNCF VOYAGEURS,Rouen - Dieppe,Train régional,Jour,Rouen Rive Droite,1341,Dieppe,1368,07:15:00,08:02:00,0.78,,14.0,,électrique,GTFS sncf_ter
+FR_DC5E7BD0_0,SNCF VOYAGEURS,CAEN - ROUEN,Train régional,Jour,Caen,1418,Rouen Rive Droite,1341,05:55:00,07:36:00,1.68,,14.0,,électrique,GTFS sncf_ter
+FR_DC5E7BD0_1,SNCF VOYAGEURS,CAEN - ROUEN,Train régional,Jour,Rouen Rive Droite,1341,Caen,1418,05:58:00,07:42:00,1.73,,14.0,,électrique,GTFS sncf_ter
+FR_04E8F5BD_1,SNCF VOYAGEURS,Caen - Cherbourg,Train régional,Jour,Cherbourg,1443,Caen,1418,06:16:00,07:28:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_04E8F5BD_0,SNCF VOYAGEURS,Caen - Cherbourg,Train régional,Jour,Caen,1418,Cherbourg,1443,05:53:00,07:06:00,1.22,,14.0,,électrique,GTFS sncf_ter
+FR_f5399cc6_1,SNCF VOYAGEURS,CAEN - LISIEUX (périurbain),Train régional,Jour,Caen,1418,Évreux Normandie,1180,18:23:00,19:47:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_f5399cc6_0,SNCF VOYAGEURS,CAEN - LISIEUX (périurbain),Train régional,Jour,Évreux Normandie,1180,Caen,1418,06:01:00,07:30:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_6748FE50_0,SNCF VOYAGEURS,Lisieux - Deauville,Train régional,Jour,Trouville - Deauville,1432,Lisieux,1427,05:56:00,06:19:00,0.38,,14.0,,électrique,GTFS sncf_ter
+FR_6748FE50_1,SNCF VOYAGEURS,Lisieux - Deauville,Train régional,Jour,Lisieux,1427,Trouville - Deauville,1432,07:19:00,07:46:00,0.45,,14.0,,électrique,GTFS sncf_ter
+FR_2FDC5AD3_0,SNCF VOYAGEURS,DEAUVILLE-DIVES,Train régional,Jour,Dives - Cabourg,1436,Trouville - Deauville,1432,05:16:00,05:46:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_2FDC5AD3_1,SNCF VOYAGEURS,DEAUVILLE-DIVES,Train régional,Jour,Trouville - Deauville,1432,Dives - Cabourg,1436,10:33:00,11:03:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_0c9e16f2_0,SNCF VOYAGEURS,CAEN- COUTANCES - GRANVILLE - RENNES,Train régional,Jour,Coutances,1446,Caen,1418,06:01:00,07:16:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_0c9e16f2_1,SNCF VOYAGEURS,CAEN- COUTANCES - GRANVILLE - RENNES,Train régional,Jour,Caen,1418,Coutances,1446,07:01:00,08:17:00,1.27,,14.0,,électrique,GTFS sncf_ter
+FR_F33A991E_1,SNCF VOYAGEURS,Rennes - Retiers,Train régional,Jour,Rennes,1492,Retiers,1515,16:15:00,16:56:00,0.68,,14.0,,électrique,GTFS sncf_ter
+FR_F33A991E_0,SNCF VOYAGEURS,Rennes - Retiers,Train régional,Jour,Retiers,1515,Rennes,1492,17:10:00,18:03:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_A97DB2D2_1,SNCF VOYAGEURS,Dol - Dinan,Train régional,Jour,Dinan,1634,Dol-de-Bretagne,1626,05:59:00,06:18:00,0.32,,14.0,,électrique,GTFS sncf_ter
+FR_A97DB2D2_0,SNCF VOYAGEURS,Dol - Dinan,Train régional,Jour,Dol-de-Bretagne,1626,Dinan,1634,08:22:00,08:45:00,0.38,,14.0,,électrique,GTFS sncf_ter
+FR_C4725755_1,SNCF VOYAGEURS,Dinan - Saint-Brieuc,Train régional,Jour,Saint-Brieuc,1527,Dinan,1634,06:45:00,07:33:00,0.8,,14.0,,électrique,GTFS sncf_ter
+FR_C4725755_0,SNCF VOYAGEURS,Dinan - Saint-Brieuc,Train régional,Jour,Dinan,1634,Saint-Brieuc,1527,06:21:00,07:11:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_A2A9CD11_1,SNCF VOYAGEURS,Rennes - Dinan,Train régional,Jour,Dinan,1634,Rennes,1492,07:01:00,08:03:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_A2A9CD11_0,SNCF VOYAGEURS,Rennes - Dinan,Train régional,Jour,Rennes,1492,Dinan,1634,17:25:00,18:25:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_100877C0_1,SNCF VOYAGEURS,Rennes - Montreuil-Sur-L'Ille,Train régional,Jour,Montreuil-sur-Ille,1622,Rennes,1492,06:19:00,06:50:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_100877C0_0,SNCF VOYAGEURS,Rennes - Montreuil-Sur-L'Ille,Train régional,Jour,Rennes,1492,Montreuil-sur-Ille,1622,07:40:00,08:10:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_6894CD96_1,SNCF VOYAGEURS,Rennes - St-Malo,Train régional,Jour,Saint-Malo,1629,Rennes,1492,05:31:00,06:25:00,0.9,,14.0,,électrique,GTFS sncf_ter
+FR_74049ADC_0,SNCF VOYAGEURS,Rennes - Vitre,Train régional,Jour,Vitré,1519,Rennes,1492,06:14:00,06:48:00,0.57,,14.0,,électrique,GTFS sncf_ter
+FR_74049ADC_1,SNCF VOYAGEURS,Rennes - Vitre,Train régional,Jour,Rennes,1492,Vitré,1519,07:22:00,07:57:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_332441e7_0,SNCF VOYAGEURS,GUINGAMP - CARHAIX,Train régional,Jour,Callac,1550,Carhaix,1546,07:14:00,07:39:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_332441e7_1,SNCF VOYAGEURS,GUINGAMP - CARHAIX,Train régional,Jour,Carhaix,1546,Guingamp,1541,06:27:00,07:36:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_4EDB5D2D_0,SNCF VOYAGEURS,Guingamp - Paimpol,Train régional,Jour,Paimpol,1561,Guingamp,1541,06:52:00,07:42:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_4EDB5D2D_1,SNCF VOYAGEURS,Guingamp - Paimpol,Train régional,Jour,Guingamp,1541,Paimpol,1561,06:44:00,07:37:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_B9993B66_0,SNCF VOYAGEURS,Rennes - La Brohiniere,Train régional,Jour,Rennes,1492,La Brohinière,1500,06:05:00,06:35:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_356EC988_1,SNCF VOYAGEURS,Lannion - Brest,Train régional,Jour,Lannion,1542,Brest,1563,06:00:00,07:36:00,1.6,,14.0,,électrique,GTFS sncf_ter
+FR_356EC988_0,SNCF VOYAGEURS,Lannion - Brest,Train régional,Jour,Brest,1563,Lannion,1542,17:37:00,19:04:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_6EF3FC04_0,SNCF VOYAGEURS,Rennes - Brest,Train régional,Jour,Brest,1563,Rennes,1492,05:36:00,07:57:00,2.35,,14.0,,électrique,GTFS sncf_ter
+FR_6EF3FC04_1,SNCF VOYAGEURS,Rennes - Brest,Train régional,Jour,Rennes,1492,Brest,1563,06:00:00,08:21:00,2.35,,14.0,,électrique,GTFS sncf_ter
+FR_A0C92E02_0,SNCF VOYAGEURS,Rennes - Messac-Guipry,Train régional,Jour,Messac - Guipry,1506,Rennes,1492,06:09:00,06:46:00,0.62,,14.0,,électrique,GTFS sncf_ter
+FR_A0C92E02_1,SNCF VOYAGEURS,Rennes - Messac-Guipry,Train régional,Jour,Rennes,1492,Messac - Guipry,1506,07:48:00,08:21:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_719B1F8A_0,SNCF VOYAGEURS,Rennes - Vannes,Train régional,Jour,Vannes,1598,Rennes,1492,06:01:00,07:21:00,1.33,,14.0,,électrique,GTFS sncf_ter
+FR_719B1F8A_1,SNCF VOYAGEURS,Rennes - Vannes,Train régional,Jour,Rennes,1492,Vannes,1598,06:21:00,07:37:00,1.27,,14.0,,électrique,GTFS sncf_ter
+FR_7DC79807_1,SNCF VOYAGEURS,Quimper - Redon,Train régional,Jour,Vannes,1598,Lorient,1583,06:37:00,07:21:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_0C5F424A_1,SNCF VOYAGEURS,Rennes - Quimper,Train régional,Jour,Quimper,1567,Rennes,1492,05:35:00,07:56:00,2.35,,14.0,,électrique,GTFS sncf_ter
+FR_0C5F424A_0,SNCF VOYAGEURS,Rennes - Quimper,Train régional,Jour,Rennes,1492,Quimper,1567,06:07:00,08:28:00,2.35,,14.0,,électrique,GTFS sncf_ter
+FR_2ae6fbf9_1,SNCF VOYAGEURS,Tours - Château du Loir - Le Mans,Train régional,Jour,Tours,1863,Le Mans,1226,05:22:00,06:37:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_ae675ad4_1,SNCF VOYAGEURS,Alençon - Le Mans - Tours,Train régional,Jour,Le Mans,1226,Tours,1863,06:24:00,07:36:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_1167b106_1,SNCF VOYAGEURS,Le Mans - Tours,Train régional,Jour,Le Mans,1226,Tours,1863,07:43:00,08:47:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_97b5353e_1,SNCF VOYAGEURS,Tours - Le Mans - Alençon,Train régional,Jour,Tours,1863,Le Mans,1226,08:05:00,09:09:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_ae675ad4_0,SNCF VOYAGEURS,Alençon - Le Mans - Tours,Train régional,Jour,Château-du-Loir,1253,Le Mans,1226,06:30:00,07:16:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_f634ab4c_1,SNCF VOYAGEURS,Caen - Le Mans - Tours,Train régional,Jour,Le Mans,1226,Caen,1418,06:13:00,08:02:00,1.82,,14.0,,électrique,GTFS sncf_ter
+FR_6E69954E_0,SNCF VOYAGEURS,Alençon - Château Du Loir,Train régional,Jour,Le Mans,1226,Alençon,1442,06:46:00,07:37:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_6E69954E_1,SNCF VOYAGEURS,Alençon - Château Du Loir,Train régional,Jour,Alençon,1442,Le Mans,1226,06:41:00,07:32:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_69ba48a5_1,SNCF VOYAGEURS,Tours - Le Mans - Caen,Train régional,Jour,Tours,1863,Caen,1418,09:15:00,12:16:00,3.02,,14.0,,électrique,GTFS sncf_ter
+FR_f634ab4c_0,SNCF VOYAGEURS,Caen - Le Mans - Tours,Train régional,Jour,Caen,1418,Château-du-Loir,1253,06:01:00,09:06:00,3.08,,14.0,,électrique,GTFS sncf_ter
+FR_FB16CDFC_1,SNCF VOYAGEURS,Le Croisic - Nantes - Le Mans,Intercité,Jour,Le Mans,1226,Nantes,1650,05:43:00,07:15:00,1.53,,14.0,,électrique,GTFS sncf_ter
+FR_FB16CDFC_0,SNCF VOYAGEURS,Le Croisic - Nantes - Le Mans,Intercité,Jour,Nantes,1650,Le Mans,1226,06:44:00,08:20:00,1.6,,14.0,,électrique,GTFS sncf_ter
+FR_1E973570_1,SNCF VOYAGEURS,Angers St Laud - Le Mans,Train régional,Jour,Sablé-sur-Sarthe,1246,Le Mans,1226,10:54:00,11:16:00,0.37,,14.0,,électrique,GTFS sncf_ter
+FR_1E973570_0,SNCF VOYAGEURS,Angers St Laud - Le Mans,Train régional,Jour,Le Mans,1226,Sablé-sur-Sarthe,1246,08:20:00,08:43:00,0.38,,14.0,,électrique,GTFS sncf_ter
+FR_61E2E96A_0,SNCF VOYAGEURS,Nantes - Angers St Laud - Le Mans,Train régional,Jour,Angers Saint-Laud,1696,Nantes,1650,05:43:00,06:38:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_61E2E96A_1,SNCF VOYAGEURS,Nantes - Angers St Laud - Le Mans,Train régional,Jour,Nantes,1650,Le Mans,1226,06:09:00,07:53:00,1.73,,14.0,,électrique,GTFS sncf_ter
+FR_AF7A7DB1_1,SNCF VOYAGEURS,Laval - Rennes,Train régional,Jour,Laval,1638,Rennes,1492,06:36:00,07:31:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_2889B3DB_1,SNCF VOYAGEURS,Rennes - Vitre - Laval,Train régional,Jour,Rennes,1492,Laval,1638,06:56:00,07:51:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_0940adb3_1,SNCF VOYAGEURS,Rennes Le Mans,Train régional,Jour,Rennes,1492,Le Mans,1226,06:29:00,08:11:00,1.7,,14.0,,électrique,GTFS sncf_ter
+FR_d42dbaf9_1,SNCF VOYAGEURS,Le Mans - Laval - Vitré - Rennes,Train régional,Jour,Le Mans,1226,Rennes,1492,06:30:00,08:19:00,1.82,,14.0,,électrique,GTFS sncf_ter
+FR_58B90D61_1,SNCF VOYAGEURS,Nantes - Rennes,Train régional,Jour,Rennes,1492,Nantes,1650,05:56:00,08:15:00,2.32,,14.0,,électrique,GTFS sncf_ter
+FR_10BAD84F_1,SNCF VOYAGEURS,Nantes - St Nazaire - Le Croisic,Train régional,Jour,Nantes,1650,Saint-Nazaire,1683,06:31:00,07:20:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_10BAD84F_0,SNCF VOYAGEURS,Nantes - St Nazaire - Le Croisic,Train régional,Jour,Saint-Nazaire,1683,Nantes,1650,06:34:00,07:24:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_458F4181_1,SNCF VOYAGEURS,Nantes - Redon,Train régional,Jour,Redon,1510,Nantes,1650,06:47:00,07:44:00,0.95,,14.0,,électrique,GTFS sncf_ter
+FR_458F4181_0,SNCF VOYAGEURS,Nantes - Redon,Train régional,Jour,Nantes,1650,Redon,1510,06:14:00,07:12:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_ECC1CA01_1,SNCF VOYAGEURS,Nantes - Quimper,Train régional,Jour,Redon,1510,Nantes,1650,20:34:00,21:41:00,1.12,,14.0,,électrique,GTFS sncf_ter
+FR_EC41C0D3_1,SNCF VOYAGEURS,Nantes - Quimper,Train régional,Jour,Quimper,1567,Nantes,1650,15:04:00,17:34:00,2.5,,14.0,,électrique,GTFS sncf_ter
+FR_ECC1CA01_0,SNCF VOYAGEURS,Nantes - Quimper,Train régional,Jour,Nantes,1650,Quimper,1567,06:42:00,09:29:00,2.78,,14.0,,électrique,GTFS sncf_ter
+FR_EC41C0D3_0,SNCF VOYAGEURS,Nantes - Quimper,Train régional,Jour,Redon,1510,Nantes,1650,10:20:00,11:03:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_BFB320C1_1,SNCF VOYAGEURS,Brest - Quimper -  Redon (Vers Nantes),Train régional,Jour,Brest,1563,Nantes,1650,05:42:00,09:06:00,3.4,,14.0,,électrique,GTFS sncf_ter
+FR_383E86CF_1,SNCF VOYAGEURS,Nantes - Brest,Train régional,Jour,Nantes,1650,Brest,1563,16:56:00,20:15:00,3.32,,14.0,,électrique,GTFS sncf_ter
+FR_570D5BA2_1,SNCF VOYAGEURS,Rennes - Redon (Vers Nantes Via Rdn),Train régional,Jour,Rennes,1492,Nantes,1650,06:35:00,07:52:00,1.28,,14.0,,électrique,GTFS sncf_ter
+FR_AD81B06E_0,SNCF VOYAGEURS,Nantes - Savenay,Train régional,Jour,Savenay,1694,Nantes,1650,06:02:00,06:37:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_AD81B06E_1,SNCF VOYAGEURS,Nantes - Savenay,Train régional,Jour,Nantes,1650,Savenay,1694,06:18:00,06:53:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_BC91CBCD_0,SNCF VOYAGEURS,Orléans - Le Croisic,Train régional,Jour,Saumur,1760,Nantes,1650,15:37:00,16:47:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_DAEA80CD_1,SNCF VOYAGEURS,La Roche Sur Yon - Saumur - Tours,Train régional,Jour,La Roche-sur-Yon,1739,Chantonnay,1747,07:15:00,07:46:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_DAEA80CD_0,SNCF VOYAGEURS,La Roche Sur Yon - Saumur - Tours,Train régional,Jour,Chantonnay,1747,La Roche-sur-Yon,1739,06:34:00,07:05:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_AA706745_1,SNCF VOYAGEURS,Nantes - St-Gilles-Croix-De-Vie,Train régional,Jour,Saint-Gilles-Croix-de-Vie,1752,Nantes,1650,05:39:00,06:50:00,1.18,,14.0,,électrique,GTFS sncf_ter
+FR_AA706745_0,SNCF VOYAGEURS,Nantes - St-Gilles-Croix-De-Vie,Train régional,Jour,Nantes,1650,Saint-Gilles-Croix-de-Vie,1752,07:07:00,08:32:00,1.42,,14.0,,électrique,GTFS sncf_ter
+FR_CA3D8ED0_0,SNCF VOYAGEURS,Nantes - Pornic,Train régional,Jour,Pornic,1666,Nantes,1650,18:45:00,19:45:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_CA3D8ED0_1,SNCF VOYAGEURS,Nantes - Pornic,Train régional,Jour,Nantes,1650,Pornic,1666,09:09:00,10:13:00,1.07,,14.0,,électrique,GTFS sncf_ter
+FR_92F27509_0,SNCF VOYAGEURS,Nantes - Ancenis,Train régional,Jour,Ancenis,1659,Nantes,1650,06:05:00,06:34:00,0.48,,14.0,,électrique,GTFS sncf_ter
+FR_92F27509_1,SNCF VOYAGEURS,Nantes - Ancenis,Train régional,Jour,Nantes,1650,Ancenis Bis,3376,07:21:00,07:49:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_1CEAE8C1_1,SNCF VOYAGEURS,Nantes - Cholet,Train régional,Jour,Cholet,1704,Nantes,1650,06:05:00,07:02:00,0.95,,14.0,,électrique,GTFS sncf_ter
+FR_1CEAE8C1_0,SNCF VOYAGEURS,Nantes - Cholet,Train régional,Jour,Nantes,1650,Cholet,1704,07:29:00,08:20:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_5827e59e_1,Loire Océan,Nantes - Clisson,Train régional,Jour,Nantes,1650,Clisson,1673,15:39:00,16:07:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_5827e59e_0,Loire Océan,Nantes - Clisson,Train régional,Jour,Clisson,1673,Nantes,1650,09:53:00,10:20:00,0.45,,14.0,,électrique,GTFS sncf_ter
+FR_EAFF657D_1,SNCF VOYAGEURS,Nantes - La Rochelle,Train régional,Jour,La Rochelle,1712,Nantes,1650,06:19:00,08:05:00,1.77,,14.0,,électrique,GTFS sncf_ter
+FR_EAFF657D_0,SNCF VOYAGEURS,Nantes - La Rochelle,Train régional,Jour,Nantes,1650,La Rochelle,1712,19:35:00,21:50:00,2.25,,14.0,,électrique,GTFS sncf_ter
+FR_B040D001_1,SNCF VOYAGEURS,Orléans - Nantes - Le Croisic,Train régional,Jour,Orléans,1825,Nantes,1650,06:38:00,09:50:00,3.2,,14.0,,électrique,GTFS sncf_ter
+FR_BC91CBCD_1,SNCF VOYAGEURS,Orléans - Le Croisic,Train régional,Jour,Nantes,1650,Orléans,1825,07:12:00,10:24:00,3.2,,14.0,,électrique,GTFS sncf_ter
+FR_EEB65876_1,SNCF VOYAGEURS,Tours - Saumur - Angers - Nantes,Train régional,Jour,Tours,1863,Nantes,1650,06:52:00,08:43:00,1.85,,14.0,,électrique,GTFS sncf_ter
+FR_91a41042_1,SNCF VOYAGEURS,Tours - Saumur,Train régional,Jour,Tours,1863,Saumur,1760,06:15:00,06:54:00,0.65,,14.0,,électrique,GTFS sncf_ter
+FR_91a41042_0,SNCF VOYAGEURS,Tours - Saumur,Train régional,Jour,Saumur,1760,Tours,1863,06:05:00,06:58:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_AE85E857_1,SNCF VOYAGEURS,Tours - Saumur - Bressuire - La Roche sur Yon,Train régional,Jour,Tours,1863,Bressuire,1756,20:01:00,21:53:00,1.87,,14.0,,électrique,GTFS sncf_ter
+FR_db5cfdb7_0,SNCF VOYAGEURS,Tours-Blois-Orléans rapides,Train régional,Jour,Les Aubrais,1826,Tours,1863,07:07:00,08:06:00,0.98,,14.0,,électrique,GTFS sncf_ter
+FR_db5cfdb7_1,SNCF VOYAGEURS,Tours-Blois-Orléans rapides,Train régional,Jour,Tours,1863,Orléans,1825,07:33:00,08:36:00,1.05,,14.0,,électrique,GTFS sncf_ter
+FR_18b5a5be_1,SNCF VOYAGEURS,Tours-Blois-Orléans (omnibus),Train régional,Jour,Tours,1863,Orléans,1825,06:36:00,08:15:00,1.65,,14.0,,électrique,GTFS sncf_ter
+FR_55BEC123_0,SNCF VOYAGEURS,Blois - Tours,Train régional,Jour,Blois - Chambord,1893,Tours,1863,13:52:00,14:42:00,0.83,,14.0,,électrique,GTFS sncf_ter
+FR_55BEC123_1,SNCF VOYAGEURS,Blois - Tours,Train régional,Jour,Tours,1863,Blois - Chambord,1893,17:43:00,18:35:00,0.87,,14.0,,électrique,GTFS sncf_ter
+FR_8CC7B5C9_0,SNCF VOYAGEURS,Orléans - Blois,Train régional,Jour,Blois - Chambord,1893,Orléans,1825,06:07:00,06:55:00,0.8,,14.0,,électrique,GTFS sncf_ter
+FR_8CC7B5C9_1,SNCF VOYAGEURS,Orléans - Blois,Train régional,Jour,Les Aubrais,1826,Blois - Chambord,1893,07:46:00,08:41:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_18b5a5be_0,SNCF VOYAGEURS,Tours-Blois-Orléans (omnibus),Train régional,Jour,Orléans,1825,Tours,1863,12:10:00,13:52:00,1.7,,14.0,,électrique,GTFS sncf_ter
+FR_E1F2F02B_1,SNCF VOYAGEURS,Tours - Chinon,Train régional,Jour,Chinon,1884,Tours,1863,06:39:00,07:28:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_E1F2F02B_0,SNCF VOYAGEURS,Tours - Chinon,Train régional,Jour,Tours,1863,Chinon,1884,06:27:00,07:21:00,0.9,,14.0,,électrique,GTFS sncf_ter
+FR_2C8C9A63_1,SNCF VOYAGEURS,Tours - Loches,Train régional,Jour,Loches,1874,Tours,1863,06:12:00,07:09:00,0.95,,14.0,,électrique,GTFS sncf_ter
+FR_2C8C9A63_0,SNCF VOYAGEURS,Tours - Loches,Train régional,Jour,Tours,1863,Loches,1874,08:04:00,09:06:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_CA5D3A62_1,SNCF VOYAGEURS,Paris - Orléans - Tours,Train régional,Jour,Tours,1863,Paris Austerlitz,1849,06:12:00,08:24:00,2.2,,14.0,,électrique,GTFS sncf_ter
+FR_CA5D3A62_0,SNCF VOYAGEURS,Paris - Orléans - Tours,Train régional,Jour,Paris Austerlitz,1849,Tours,1863,07:35:00,09:41:00,2.1,,14.0,,électrique,GTFS sncf_ter
+FR_3CDD3F95_1,SNCF VOYAGEURS,Paris - Etampes - Orléans,Train régional,Jour,Paris Austerlitz,1849,Orléans,1825,05:42:00,07:24:00,1.7,,14.0,,électrique,GTFS sncf_ter
+FR_CA01CA14_0,SNCF VOYAGEURS,Paris - Châteaudun - Vendôme,Train régional,Jour,Vendôme,1917,Paris Austerlitz,1849,05:28:00,07:46:00,2.3,,14.0,,électrique,GTFS sncf_ter
+FR_CA01CA14_1,SNCF VOYAGEURS,Paris - Châteaudun - Vendôme,Train régional,Jour,Paris Austerlitz,1849,Châteaudun,1848,07:55:00,09:19:00,1.4,,14.0,,électrique,GTFS sncf_ter
+FR_96A3FD89_0,SNCF VOYAGEURS,Tours-Voves-Chartres,Train régional,Jour,Châteaudun,1848,Chartres,1199,06:50:00,07:43:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_96A3FD89_1,SNCF VOYAGEURS,Tours-Voves-Chartres,Train régional,Jour,Chartres,1199,Voves,1846,08:25:00,08:49:00,0.4,,14.0,,électrique,GTFS sncf_ter
+FR_93F7C926_1,SNCF VOYAGEURS,Tours - Bléré - St-Aignan-Noyers - Vierzon,Train régional,Jour,Bléré - la Croix,1912,Tours,1863,07:34:00,08:03:00,0.48,,14.0,,électrique,GTFS sncf_ter
+FR_93F7C926_0,SNCF VOYAGEURS,Tours - Bléré - St-Aignan-Noyers - Vierzon,Train régional,Jour,Tours,1863,Bléré - la Croix,1912,07:51:00,08:21:00,0.5,,14.0,,électrique,GTFS sncf_ter
+FR_53D22453_1,SNCF VOYAGEURS,Grasse - Cannes - Nice - Vintimille,Grande vitesse,Nuit,VENTIMIGLIA,56,Menton,3597,23:02:00,23:21:00,0.32,,14.0,,électrique,GTFS sncf_ter
+FR_1A6A0F01_1,SNCF VOYAGEURS,Vierzon - Montluçon,Train régional,Jour,Vierzon,1950,Montluçon,2413,10:21:00,11:54:00,1.55,,14.0,,électrique,GTFS sncf_ter
+FR_BD6F341C_0,SNCF VOYAGEURS,Bourges - Montluçon - Commentry,Train régional,Jour,Bourges,1963,Montluçon,2413,17:35:00,19:16:00,1.68,,14.0,,électrique,GTFS sncf_ter
+FR_7daec724_1,SNCF VOYAGEURS,Bourges - Montluçon,Train régional,Jour,Saint-Amand-Montrond - Orval,1971,Bourges,1963,06:33:00,07:22:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_7daec724_0,SNCF VOYAGEURS,Bourges - Montluçon,Train régional,Jour,Bourges,1963,Montluçon,2413,14:34:00,16:01:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_b4c5ee50_1,SNCF VOYAGEURS,Vierzon - Montluçon,Train régional,Nuit,Vierzon,1950,Montluçon,2413,22:58:00,00:27:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_D668A970_0,SNCF VOYAGEURS,Orléans - Nevers,Train régional,Jour,Bourges,1963,Orléans,1825,06:35:00,07:50:00,1.25,,14.0,,électrique,GTFS sncf_ter
+FR_A5695D40_1,SNCF VOYAGEURS,Orleans - Vierzon - Châteauroux - Argenton - Limoges,Train régional,Jour,Les Aubrais,1826,Limoges Bénédictins,2100,18:46:00,21:57:00,3.18,,14.0,,électrique,GTFS sncf_ter
+FR_681108B7_1,SNCF VOYAGEURS,21. Châteauroux - La Souterraine - Limoges,Train régional,Jour,Limoges Bénédictins,2100,Vierzon,1950,07:21:00,09:30:00,2.15,,14.0,,électrique,GTFS sncf_ter
+FR_1063C408_1,SNCF VOYAGEURS,Chartres - Courtalain,Train régional,Jour,Courtalain - Saint-Pellerin,1220,Chartres,1199,05:50:00,06:42:00,0.87,,14.0,,électrique,GTFS sncf_ter
+FR_1063C408_0,SNCF VOYAGEURS,Chartres - Courtalain,Train régional,Jour,Chartres,1199,Brou,1218,06:50:00,07:30:00,0.67,,14.0,,électrique,GTFS sncf_ter
+FR_0F115201_0,SNCF VOYAGEURS,Paris - Chartres,Train régional,Jour,Chartres,1199,Paris Montparnasse Hall 1 - 2,1188,04:23:00,05:35:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_0F115201_1,SNCF VOYAGEURS,Paris - Chartres,Train régional,Jour,Paris Montparnasse Hall 1 - 2,1188,Chartres,1199,05:33:00,06:42:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_1E463B73_1,SNCF VOYAGEURS,Paris - Chartres - Nogent le Rotrou,Train régional,Jour,Nogent-le-Rotrou,1213,Paris Montparnasse Hall 1 - 2,1188,05:36:00,07:35:00,1.98,,14.0,,électrique,GTFS sncf_ter
+FR_1E463B73_0,SNCF VOYAGEURS,Paris - Chartres - Nogent le Rotrou,Train régional,Jour,Paris Montparnasse Hall 1 - 2,1188,Nogent-le-Rotrou,1213,07:09:00,09:22:00,2.22,,14.0,,électrique,GTFS sncf_ter
+FR_03A72D17_0,SNCF VOYAGEURS,Chartres - Le Mans - Angers,Train régional,Jour,Nogent-le-Rotrou,1213,Chartres,1199,08:36:00,09:30:00,0.9,,14.0,,électrique,GTFS sncf_ter
+FR_03A72D17_1,SNCF VOYAGEURS,Chartres - Le Mans - Angers,Train régional,Jour,Chartres,1199,Nogent-le-Rotrou,1213,08:30:00,09:23:00,0.88,,14.0,,électrique,GTFS sncf_ter
+FR_3F7C134E_0,SNCF VOYAGEURS,Paris - Chartres - Le Mans,Train régional,Jour,Le Mans,1226,Paris Montparnasse Hall 1 - 2,1188,06:01:00,08:23:00,2.37,,14.0,,électrique,GTFS sncf_ter
+FR_3F7C134E_1,SNCF VOYAGEURS,Paris - Chartres - Le Mans,Train régional,Jour,Paris Montparnasse Hall 1 - 2,1188,Le Mans,1226,06:36:00,08:56:00,2.33,,14.0,,électrique,GTFS sncf_ter
+FR_987EC283_1,SNCF VOYAGEURS,Angers St Laud - Le Mans - Paris Montparnasse,Train régional,Jour,Le Mans,1226,Paris Montparnasse Hall 1 - 2,1188,06:38:00,09:36:00,2.97,,14.0,,électrique,GTFS sncf_ter
+FR_987EC283_0,SNCF VOYAGEURS,Angers St Laud - Le Mans - Paris Montparnasse,Train régional,Jour,Nogent-le-Rotrou,1213,Le Mans,1226,09:05:00,09:54:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_835c2cbe_1,SNCF VOYAGEURS,12. Poitiers - Angoulême,Train régional,Jour,Angoulême,2037,Poitiers,1925,08:36:00,09:48:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_835c2cbe_0,SNCF VOYAGEURS,12. Poitiers - Angoulême,Train régional,Jour,Poitiers,1925,Angoulême,2037,06:10:00,07:15:00,1.08,,14.0,,électrique,GTFS sncf_ter
+FR_ab24ba62_0,SNCF VOYAGEURS,14. Poitiers - Niort - La Rochelle,Train régional,Jour,La Rochelle,1712,Poitiers,1925,05:57:00,07:38:00,1.68,,14.0,,électrique,GTFS sncf_ter
+FR_01241f3b_0,SNCF VOYAGEURS,14. Poitiers - Niort - La Rochelle,Train régional,Jour,Poitiers,1925,La Rochelle,1712,09:53:00,11:22:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_01241f3b_1,SNCF VOYAGEURS,14. Poitiers - Niort - La Rochelle,Train régional,Jour,La Rochelle,1712,Poitiers,1925,16:27:00,17:52:00,1.42,,14.0,,électrique,GTFS sncf_ter
+FR_4544e64b_0,SNCF VOYAGEURS,43. Saint-Mariens - Bordeaux,Train régional,Jour,Saint-Mariens - Saint-Yzan,1779,Bordeaux Saint-Jean,1990,06:07:00,06:51:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_4544e64b_1,SNCF VOYAGEURS,43. Saint-Mariens - Bordeaux,Train régional,Jour,Bordeaux Saint-Jean,1990,Saint-Mariens - Saint-Yzan,1779,06:08:00,06:52:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_9e6337c5_1,SNCF VOYAGEURS,33. Bordeaux - Bergerac - Sarlat,Train régional,Jour,Bergerac,2052,Bordeaux Saint-Jean,1990,06:21:00,07:39:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_9e6337c5_0,SNCF VOYAGEURS,33. Bordeaux - Bergerac - Sarlat,Train régional,Jour,Bordeaux Saint-Jean,1990,Bergerac,2052,05:50:00,07:20:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_30d39013_0,SNCF VOYAGEURS,42. Le Verdon - Macau - Bordeaux / Pessac,Train régional,Jour,Macau,1992,Pessac,2004,07:42:00,08:14:00,0.53,,14.0,,électrique,GTFS sncf_ter
+FR_30d39013_1,SNCF VOYAGEURS,42. Le Verdon - Macau - Bordeaux / Pessac,Train régional,Jour,Pessac,2004,Macau,1992,07:00:00,07:33:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_fda203af_1,SNCF VOYAGEURS,51. Bordeaux - Dax - Bayonne - Hendaye,Train régional,Jour,Bayonne,2621,Dax,2624,06:03:00,06:47:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_a6768543_0,SNCF VOYAGEURS,45.  Bordeaux - Morcenx - Mont-de-Marsan,Train régional,Jour,Mont-de-Marsan,2595,Bordeaux Saint-Jean,1990,05:23:00,06:46:00,1.38,,14.0,,électrique,GTFS sncf_ter
+FR_a6768543_1,SNCF VOYAGEURS,45.  Bordeaux - Morcenx - Mont-de-Marsan,Train régional,Jour,Bordeaux Saint-Jean,1990,Mont-de-Marsan,2595,20:28:00,21:46:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_5d6969f2_1,SNCF VOYAGEURS,44. Bordeaux - Langon - Marmande - Agen,Train régional,Jour,Bordeaux Saint-Jean,1990,Marmande,2081,18:01:00,19:13:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_cf07aaa0_0,SNCF VOYAGEURS,21 - Limoges- La Souterraine,Train régional,Jour,Limoges Bénédictins,2100,La Souterraine,2122,05:47:00,06:25:00,0.63,,14.0,,électrique,GTFS sncf_ter
+FR_cf07aaa0_1,SNCF VOYAGEURS,21 - Limoges- La Souterraine,Train régional,Jour,La Souterraine,2122,Limoges Bénédictins,2100,06:34:00,07:22:00,0.8,,14.0,,électrique,GTFS sncf_ter
+FR_681108B7_0,SNCF VOYAGEURS,21. Châteauroux - La Souterraine - Limoges,Train régional,Jour,Châteauroux,2198,Limoges Bénédictins,2100,17:02:00,18:38:00,1.6,,14.0,,électrique,GTFS sncf_ter
+FR_8522e2da_0,SNCF VOYAGEURS,22. Limoges - Uzerche - Brive,Train régional,Jour,Limoges Bénédictins,2100,Brive-la-Gaillarde,2141,05:55:00,07:01:00,1.1,,14.0,,électrique,GTFS sncf_ter
+FR_7ff237e0_0,SNCF VOYAGEURS,22. Limoges - Uzerche - Brive,Train régional,Jour,Limoges Bénédictins,2100,Brive-la-Gaillarde,2141,06:15:00,07:36:00,1.35,,14.0,,électrique,GTFS sncf_ter
+FR_8522e2da_1,SNCF VOYAGEURS,22. Limoges - Uzerche - Brive,Train régional,Jour,Brive-la-Gaillarde,2141,Limoges Bénédictins,2100,20:14:00,21:22:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_102525F5_1,SNCF VOYAGEURS,Avignon Centre - Port Bou Frontiere,Train régional,Jour,Portbou,1,Montpellier Saint-Roch,3698,11:05:00,14:10:00,3.08,,14.0,,électrique,GTFS sncf_ter
+FR_102525F5_0,SNCF VOYAGEURS,Avignon Centre - Port Bou Frontiere,Train régional,Jour,Nîmes Centre,3708,Portbou,1,05:11:00,08:44:00,3.55,,14.0,,électrique,GTFS sncf_ter
+FR_510681CF_1,SNCF VOYAGEURS,Toulouse Matabiau - Port Bou Frontiere,Train régional,Jour,Portbou,1,Toulouse Matabiau,2226,13:08:00,16:40:00,3.53,,14.0,,électrique,GTFS sncf_ter
+FR_510681CF_0,SNCF VOYAGEURS,Toulouse Matabiau - Port Bou Frontiere,Train régional,Jour,Toulouse Matabiau,2226,Portbou,1,07:13:00,10:37:00,3.4,,14.0,,électrique,GTFS sncf_ter
+FR_B0294FEC_1,SNCF VOYAGEURS,Clermont-Ferrand - Aurillac - Toulouse,Train régional,Jour,Capdenac,2300,Aurillac,2492,08:22:00,09:47:00,1.42,,14.0,,électrique,GTFS sncf_ter
+FR_DE71D3DB_1,SNCF VOYAGEURS,Colomiers - St Cyprien Arenes,Train régional,Jour,Colomiers,2253,Saint-Cyprien Arènes,1444,06:25:00,06:39:00,0.23,,14.0,,électrique,GTFS sncf_ter
+FR_DE71D3DB_0,SNCF VOYAGEURS,Colomiers - St Cyprien Arenes,Train régional,Jour,Saint-Cyprien Arènes,1444,Colomiers,2253,05:51:00,06:05:00,0.23,,14.0,,électrique,GTFS sncf_ter
+FR_76103702_0,SNCF VOYAGEURS,Toulouse Matabiau - Ax Les Thermes,Train régional,Jour,Foix,2266,Toulouse Matabiau,2226,05:56:00,07:12:00,1.27,,14.0,,électrique,GTFS sncf_ter
+FR_76103702_1,SNCF VOYAGEURS,Toulouse Matabiau - Ax Les Thermes,Train régional,Jour,Toulouse Matabiau,2226,Foix,2266,07:16:00,08:30:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_213283B0_1,SNCF VOYAGEURS,Toulouse Matabiau - Montauban Ville Bourbon,Train régional,Jour,Toulouse Matabiau,2226,Montauban Ville Bourbon,2241,19:30:00,20:19:00,0.82,,14.0,,électrique,GTFS sncf_ter
+FR_213283B0_0,SNCF VOYAGEURS,Toulouse Matabiau - Montauban Ville Bourbon,Train régional,Jour,Montauban Ville Bourbon,2241,Toulouse Matabiau,2226,05:35:00,06:23:00,0.8,,14.0,,électrique,GTFS sncf_ter
+FR_3213A920_0,SNCF VOYAGEURS,Toulouse Matabiau - Montrejeau Gourdan Polignan,Train régional,Jour,Muret,2227,Toulouse Matabiau,2226,06:01:00,06:21:00,0.33,,14.0,,électrique,GTFS sncf_ter
+FR_3213A920_1,SNCF VOYAGEURS,Toulouse Matabiau - Montrejeau Gourdan Polignan,Train régional,Jour,Toulouse Matabiau,2226,Muret,2227,06:58:00,07:18:00,0.33,,14.0,,électrique,GTFS sncf_ter
+FR_83bb50e5_1,SNCF VOYAGEURS,Toulouse Matabiau - Luchon,Train régional,Jour,Montréjeau - Gourdan-Polignan,2236,Toulouse Matabiau,2226,06:59:00,08:20:00,1.35,,14.0,,électrique,GTFS sncf_ter
+FR_83bb50e5_0,SNCF VOYAGEURS,Toulouse Matabiau - Luchon,Train régional,Jour,Toulouse Matabiau,2226,Montréjeau - Gourdan-Polignan,2236,06:39:00,08:07:00,1.47,,14.0,,électrique,GTFS sncf_ter
+FR_97D889A9_1,SNCF VOYAGEURS,Clermont-Ferrand - Volvic,Train régional,Jour,Volvic,2428,Clermont-Ferrand,3247,06:54:00,07:20:00,0.43,,14.0,,électrique,GTFS sncf_ter
+FR_97D889A9_0,SNCF VOYAGEURS,Clermont-Ferrand - Volvic,Train régional,Jour,Clermont-Ferrand,3247,Volvic,2428,06:21:00,06:47:00,0.43,,14.0,,électrique,GTFS sncf_ter
+FR_B42C22DC_0,SNCF VOYAGEURS,Aurillac - Brive-La-Gaillarde,Train régional,Jour,Aurillac,2492,Brive-la-Gaillarde,2141,05:18:00,07:08:00,1.83,,14.0,,électrique,GTFS sncf_ter
+FR_044e9b94_0,SNCF VOYAGEURS,Brioude - Clermont - Nevers,Train régional,Jour,Vic-le-Comte,3258,Nevers,2784,07:18:00,09:18:00,2.0,,14.0,,électrique,GTFS sncf_ter
+FR_044e9b94_1,SNCF VOYAGEURS,Brioude - Clermont - Nevers,Train régional,Jour,Moulins sur Allier,2801,Vic-le-Comte,3258,06:43:00,08:12:00,1.48,,14.0,,électrique,GTFS sncf_ter
+FR_8751808C_1,SNCF VOYAGEURS,Lyon Perrache - Lyon Part Dieu - Clermont-Ferrand,Train régional,Jour,Clermont-Ferrand,3247,Lyon Perrache,3104,06:04:00,08:48:00,2.73,,14.0,,électrique,GTFS sncf_ter
+FR_8751808C_0,SNCF VOYAGEURS,Lyon Perrache - Lyon Part Dieu - Clermont-Ferrand,Train régional,Jour,Lyon Perrache,3104,Clermont-Ferrand,3247,06:20:00,09:00:00,2.67,,14.0,,électrique,GTFS sncf_ter
+FR_627A5C45_0,SNCF VOYAGEURS,Montpellier Saint-Roch - Perpignan,Train régional,Jour,Narbonne,3739,Lunel,3700,06:09:00,07:46:00,1.62,,14.0,,électrique,GTFS sncf_ter
+FR_627A5C45_1,SNCF VOYAGEURS,Montpellier Saint-Roch - Perpignan,Train régional,Jour,Montpellier Saint-Roch,3698,Narbonne,3739,16:33:00,17:47:00,1.23,,14.0,,électrique,GTFS sncf_ter
+FR_3138F139_0,SNCF VOYAGEURS,Toulouse Matabiau - Nimes,Train régional,Jour,Toulouse Matabiau,2226,Nîmes Centre,3708,05:46:00,09:10:00,3.4,,14.0,,électrique,GTFS sncf_ter
+FR_3138F139_1,SNCF VOYAGEURS,Toulouse Matabiau - Nimes,Train régional,Jour,Nîmes Centre,3708,Toulouse Matabiau,2226,05:32:00,09:13:00,3.68,,14.0,,électrique,GTFS sncf_ter
+FR_55E0254C_0,SNCF VOYAGEURS,Montpellier Saint-Roch - Avignon Centre,Train régional,Jour,Avignon Centre,3681,Sète,3699,06:18:00,08:05:00,1.78,,14.0,,électrique,GTFS sncf_ter
+FR_55E0254C_1,SNCF VOYAGEURS,Montpellier Saint-Roch - Avignon Centre,Train régional,Jour,Montpellier Saint-Roch,3698,Avignon Centre,3681,06:44:00,08:02:00,1.3,,14.0,,électrique,GTFS sncf_ter
+FR_4472E63D_0,SNCF VOYAGEURS,Sete - Lunel,Train régional,Jour,Sète,3699,Montpellier Saint-Roch,3698,09:06:00,09:29:00,0.38,,14.0,,électrique,GTFS sncf_ter
+FR_4472E63D_1,SNCF VOYAGEURS,Sete - Lunel,Train régional,Jour,Lunel,3700,Sète,3699,08:10:00,08:56:00,0.77,,14.0,,électrique,GTFS sncf_ter
+FR_B7EDDDF4_0,SNCF VOYAGEURS,Marseille - Miramas - Nimes - Montpellier,Train régional,Jour,Béziers,3736,Marseille Saint-Charles,3494,04:44:00,07:42:00,2.97,,14.0,,électrique,GTFS sncf_ter
+FR_11746662_1,SNCF VOYAGEURS,Narbonne - Marseille St Charles,Train régional,Jour,Narbonne,3739,Marseille Saint-Charles,3494,05:31:00,08:42:00,3.18,,14.0,,électrique,GTFS sncf_ter
+FR_B7EDDDF4_1,SNCF VOYAGEURS,Marseille - Miramas - Nimes - Montpellier,Train régional,Jour,Marseille Saint-Charles,3494,Narbonne,3739,06:23:00,09:29:00,3.1,,14.0,,électrique,GTFS sncf_ter
+FR_2924A148_1,SNCF VOYAGEURS,Nimes - Le Grau Du Roi,Train régional,Jour,Le Grau-du-Roi,3735,Nîmes Centre,3708,06:39:00,07:35:00,0.93,,14.0,,électrique,GTFS sncf_ter
+FR_2924A148_0,SNCF VOYAGEURS,Nimes - Le Grau Du Roi,Train régional,Jour,Nîmes Centre,3708,Le Grau-du-Roi,3735,10:38:00,11:32:00,0.9,,14.0,,électrique,GTFS sncf_ter
+FR_dcdbe18b_1,SNCF VOYAGEURS,Nimes - Vauvert,Train régional,Jour,Nîmes Centre,3708,Vauvert,3730,12:52:00,13:15:00,0.38,,14.0,,électrique,GTFS sncf_ter
+FR_dcdbe18b_0,SNCF VOYAGEURS,Nimes - Vauvert,Train régional,Jour,Vauvert,3730,Nîmes Centre,3708,13:40:00,14:07:00,0.45,,14.0,,électrique,GTFS sncf_ter
+FR_AAFB5057_1,SNCF VOYAGEURS,Beziers - St Chely D'Apcher,Train régional,Jour,Béziers,3736,Bédarieux,3749,07:57:00,08:30:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_AAFB5057_0,SNCF VOYAGEURS,Beziers - St Chely D'Apcher,Train régional,Jour,Bédarieux,3749,Béziers,3736,08:42:00,09:15:00,0.55,,14.0,,électrique,GTFS sncf_ter
+FR_1E7F7EC9_0,SNCF VOYAGEURS,Avignon Tgv - Avignon Centre - Carpentras,Grande vitesse,Jour,Avignon Centre,3681,Carpentras,3695,05:52:00,06:23:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_1E7F7EC9_1,SNCF VOYAGEURS,Avignon Tgv - Avignon Centre - Carpentras,Grande vitesse,Jour,Avignon Centre,3681,Avignon TGV,1005,05:38:00,05:43:00,0.08,,14.0,,électrique,GTFS sncf_ter
+FR_0D28C61E_0,SNCF VOYAGEURS,Marseille - Miramas Via Cote Bleue,Train régional,Jour,Miramas,3529,Marseille Saint-Charles,3494,05:41:00,07:14:00,1.55,,14.0,,électrique,GTFS sncf_ter
+FR_0D28C61E_1,SNCF VOYAGEURS,Marseille - Miramas Via Cote Bleue,Train régional,Jour,Marseille Saint-Charles,3494,Miramas,3529,05:52:00,07:23:00,1.52,,14.0,,électrique,GTFS sncf_ter
+FR_AA02D018_1,SNCF VOYAGEURS,Marseille - Aix En Provence - Manosque - Sisteron,Train régional,Jour,Aix-en-Provence,3503,Marseille Saint-Charles,3494,05:53:00,06:37:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_AA02D018_0,SNCF VOYAGEURS,Marseille - Aix En Provence - Manosque - Sisteron,Train régional,Jour,Marseille Saint-Charles,3494,Aix-en-Provence,3503,05:37:00,06:21:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_484DA332_1,SNCF VOYAGEURS,Marseille - Aubagne,Train régional,Jour,Aubagne,3515,Marseille Saint-Charles,3494,06:51:00,07:19:00,0.47,,14.0,,électrique,GTFS sncf_ter
+FR_484DA332_0,SNCF VOYAGEURS,Marseille - Aubagne,Train régional,Jour,Marseille Saint-Charles,3494,Aubagne,3515,06:11:00,06:38:00,0.45,,14.0,,électrique,GTFS sncf_ter
+FR_40f4e2f2_1,SNCF VOYAGEURS,Les Arcs - Cannes - Nice - Menton,Grande vitesse,Jour,Nice-Ville,3583,Cannes,3622,06:02:00,06:37:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_40f4e2f2_0,SNCF VOYAGEURS,Les Arcs - Cannes - Nice - Menton,Grande vitesse,Jour,Cannes,3622,Menton,3597,05:37:00,07:00:00,1.38,,14.0,,électrique,GTFS sncf_ter
+FR_6063d197_1,SNCF VOYAGEURS,Nice - Breil Sur Roya - Tende,Grande vitesse,Jour,Drap - Cantaron,3600,Nice-Ville,3583,06:45:00,07:00:00,0.25,,14.0,,électrique,GTFS sncf_ter
+FR_5A64A037_1,SNCF VOYAGEURS,Marseille - Toulon - Hyeres,Train régional,Jour,Toulon,3564,Marseille Saint-Charles,3494,05:30:00,06:26:00,0.93,,14.0,,électrique,GTFS sncf_ter
+FR_5A64A037_0,SNCF VOYAGEURS,Marseille - Toulon - Hyeres,Train régional,Jour,Marseille Saint-Charles,3494,Toulon,3564,07:07:00,08:03:00,0.93,,14.0,,électrique,GTFS sncf_ter
+FR_248CE476_0,SNCF VOYAGEURS,Marseille - Toulon - Les Arcs,Train régional,Jour,Toulon,3564,Marseille Saint-Charles,3494,06:24:00,07:15:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_248CE476_1,SNCF VOYAGEURS,Marseille - Toulon - Les Arcs,Train régional,Jour,Marseille Saint-Charles,3494,Toulon,3564,16:45:00,17:36:00,0.85,,14.0,,électrique,GTFS sncf_ter
+FR_6EB2DF07_0,SNCF VOYAGEURS,Toulon - Carnoules - Les Arcs,Train régional,Jour,Les Arcs - Draguignan,3580,Toulon,3564,05:33:00,06:35:00,1.03,,14.0,,électrique,GTFS sncf_ter
+FR_6EB2DF07_1,SNCF VOYAGEURS,Toulon - Carnoules - Les Arcs,Train régional,Jour,Toulon,3564,Les Arcs - Draguignan,3580,06:17:00,07:17:00,1.0,,14.0,,électrique,GTFS sncf_ter
+FR_F6919A16_0,SNCF VOYAGEURS,Lyon Part Dieu - Chambéry - Bourg St-Maurice FT,Grande vitesse,Jour,Aix-les-Bains le Revard,3305,Bourg-Saint-Maurice,3335,09:10:00,11:23:00,2.22,,14.0,,électrique,GTFS sncf_ter
+FR_F6919A16_1,SNCF VOYAGEURS,Lyon Part Dieu - Chambéry - Bourg St-Maurice FT,Grande vitesse,Jour,Bourg-Saint-Maurice,3335,Lyon Part Dieu,3124,05:38:00,09:10:00,3.53,,14.0,,électrique,GTFS sncf_ter
+FR_C8957BD3_1,SNCF VOYAGEURS,Lyon Part Dieu - Chambéry - Modane FT,Train régional,Jour,Lyon Part Dieu,3124,Saint-Michel - Valloire,3346,07:24:00,09:51:00,2.45,,14.0,,électrique,GTFS sncf_ter
+FR_C8957BD3_0,SNCF VOYAGEURS,Lyon Part Dieu - Chambéry - Modane FT,Train régional,Jour,Saint-Michel - Valloire,3346,Lyon Part Dieu,3124,07:28:00,10:10:00,2.7,,14.0,,électrique,GTFS sncf_ter
+FR_14EB3809_0,SNCF VOYAGEURS,Bourgoin-Jallieu - Chambery,Train régional,Jour,Bourgoin-Jallieu,3130,Chambéry - Challes-les-Eaux,3301,06:20:00,07:29:00,1.15,,14.0,,électrique,GTFS sncf_ter
+FR_14EB3809_1,SNCF VOYAGEURS,Bourgoin-Jallieu - Chambery,Train régional,Jour,Chambéry - Challes-les-Eaux,3301,Saint-André-le-Gaz,3133,12:15:00,13:03:00,0.8,,14.0,,électrique,GTFS sncf_ter
+FR_D058B31D_0,SNCF VOYAGEURS,Annecy - St-Gervais Les Bains Le Fayet,Train régional,Jour,Saint-Gervais-les-Bains-Le Fayet,3414,La Roche-sur-Foron,3407,05:20:00,06:03:00,0.72,,14.0,,électrique,GTFS sncf_ter
+FR_336821FA_1,SNCF VOYAGEURS,Lyon Part Dieu - St-Gervais Les Bains,Train régional,Jour,Lyon Part Dieu,3124,Saint-Gervais-les-Bains-Le Fayet,3414,10:45:00,14:17:00,3.53,,14.0,,électrique,GTFS sncf_ter
+FR_336821FA_0,SNCF VOYAGEURS,Lyon Part Dieu - St-Gervais Les Bains,Train régional,Jour,Saint-Gervais-les-Bains-Le Fayet,3414,Lyon Part Dieu,3124,07:47:00,11:22:00,3.58,,14.0,,électrique,GTFS sncf_ter
+FR_F4C462CD_0,SNCF VOYAGEURS,Saint-André Le Gaz - Grenoble Universités Gières,Train régional,Jour,Saint-André-le-Gaz,3133,Grenoble Universités - Gières,3454,05:10:00,06:20:00,1.17,,14.0,,électrique,GTFS sncf_ter
+FR_D309E3B4_1,SNCF VOYAGEURS,Lyon Perrache - Mâcon,Train régional,Jour,Mâcon,3160,Lyon Perrache,3104,07:40:00,08:48:00,1.13,,14.0,,électrique,GTFS sncf_ter
+FR_D309E3B4_0,SNCF VOYAGEURS,Lyon Perrache - Mâcon,Train régional,Jour,Lyon Perrache,3104,Mâcon,3160,13:26:00,14:24:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_eaa6a347_1,SNCF VOYAGEURS,Lyon Perrache - Valence,Train régional,Jour,Valence Ville,3633,Lyon Perrache,3104,05:36:00,06:49:00,1.22,,14.0,,électrique,GTFS sncf_ter
+FR_eaa6a347_0,SNCF VOYAGEURS,Lyon Perrache - Valence,Train régional,Jour,Lyon Perrache,3104,Valence Ville,3633,05:39:00,06:52:00,1.22,,14.0,,électrique,GTFS sncf_ter
+FR_0f916558_0,SNCF VOYAGEURS,Lyon Part-Dieu - Valence,Train régional,Jour,Valence Ville,3633,Lyon Part Dieu,3124,06:28:00,07:40:00,1.2,,14.0,,électrique,GTFS sncf_ter
+FR_0f916558_1,SNCF VOYAGEURS,Lyon Part-Dieu - Valence,Train régional,Jour,Lyon Part Dieu,3124,Avignon Centre,3681,06:20:00,08:55:00,2.58,,14.0,,électrique,GTFS sncf_ter
+FR_b5f8f54a_0,SNCF VOYAGEURS,Mâcon - Lyon Perrache - Valence,Train régional,Jour,Mâcon,3160,Lyon Perrache,3104,06:36:00,07:34:00,0.97,,14.0,,électrique,GTFS sncf_ter
+FR_b5f8f54a_1,SNCF VOYAGEURS,Mâcon - Lyon Perrache - Valence,Train régional,Jour,Valence Ville,3633,Lyon Perrache,3104,15:06:00,16:19:00,1.22,,14.0,,électrique,GTFS sncf_ter
+FR_9FED5405_0,SNCF VOYAGEURS,Lyon Part Dieu - Avignon,Train régional,Jour,Lyon Part Dieu,3124,Avignon Centre,3681,09:20:00,11:43:00,2.38,,14.0,,électrique,GTFS sncf_ter
+FR_355C3177_1,SNCF VOYAGEURS,Avignon - Lyon Perrache - Mâcon,Train régional,Jour,Avignon Centre,3681,Mâcon,3160,05:40:00,09:24:00,3.73,,14.0,,électrique,GTFS sncf_ter
+FR_9FED5405_1,SNCF VOYAGEURS,Lyon Part Dieu - Avignon,Train régional,Jour,Avignon Centre,3681,Lyon Part Dieu,3124,06:13:00,08:40:00,2.45,,14.0,,électrique,GTFS sncf_ter
+FR_355C3177_0,SNCF VOYAGEURS,Avignon - Lyon Perrache - Mâcon,Train régional,Jour,Lyon Perrache,3104,Avignon Centre,3681,15:39:00,18:23:00,2.73,,14.0,,électrique,GTFS sncf_ter
+FR_FF6133FC_1,SNCF VOYAGEURS,Bourg En Bresse - Oyonnax,Train régional,Jour,Bourg-en-Bresse,3351,Nurieux Gare,3360,08:45:00,09:19:00,0.57,,14.0,,électrique,GTFS sncf_ter
+FR_4c3b5df4_1,SNCF VOYAGEURS,Lyon Perrache - Lyon Part-Dieu - Bourg-en-Bresse,Train régional,Jour,Oyonnax,3366,Lyon Perrache,3104,06:38:00,08:45:00,2.12,,14.0,,électrique,GTFS sncf_ter
+FR_5381A1DA_1,SNCF VOYAGEURS,Valence - Avignon - Marseille,Train régional,Jour,Valence Ville,3633,Avignon Centre,3681,06:04:00,07:34:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_5381A1DA_0,SNCF VOYAGEURS,Valence - Avignon - Marseille,Train régional,Jour,Avignon Centre,3681,Valence Ville,3633,07:28:00,08:56:00,1.47,,14.0,,électrique,GTFS sncf_ter
+FR_17B591D6_1,SNCF VOYAGEURS,Marseille - Avignon Centre - Valence - Lyon,Train régional,Jour,Valence Ville,3633,Marseille Saint-Charles,3494,05:59:00,09:19:00,3.33,,14.0,,électrique,GTFS sncf_ter
+FR_17B591D6_0,SNCF VOYAGEURS,Marseille - Avignon Centre - Valence - Lyon,Train régional,Jour,Avignon Centre,3681,Valence Ville,3633,10:15:00,11:45:00,1.5,,14.0,,électrique,GTFS sncf_ter
+FR_1676E8F2_1,SNCF VOYAGEURS,Lyon Perrache - Lyon Vaise - Roanne,Train régional,Jour,Roanne,3198,Lyon Perrache,3104,14:50:00,16:24:00,1.57,,14.0,,électrique,GTFS sncf_ter
+FR_E035D1E0_0,SNCF VOYAGEURS,Lyon Perrache - Saint-André Le Gaz,Train régional,Jour,Saint-André-le-Gaz,3133,Lyon Perrache,3104,06:08:00,07:03:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_E035D1E0_1,SNCF VOYAGEURS,Lyon Perrache - Saint-André Le Gaz,Train régional,Jour,Lyon Perrache,3104,Saint-André-le-Gaz,3133,05:57:00,06:52:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_3B3A3675_1,SNCF VOYAGEURS,Romans - Valence - Die,Train régional,Jour,Die,3653,Romans - Bourg-de-Péage,3645,06:13:00,07:40:00,1.45,,14.0,,électrique,GTFS sncf_ter
+FR_3B3A3675_0,SNCF VOYAGEURS,Romans - Valence - Die,Train régional,Jour,Romans - Bourg-de-Péage,3645,Die,3653,16:21:00,17:47:00,1.43,,14.0,,électrique,GTFS sncf_ter
+FR_1676E8F2_0,SNCF VOYAGEURS,Lyon Perrache - Lyon Vaise - Roanne,Train régional,Jour,Lyon Perrache,3104,Roanne,3198,12:36:00,14:10:00,1.57,,14.0,,électrique,GTFS sncf_ter
+FR_D6979A0C_1,SNCF VOYAGEURS,Lozanne - Tassin,Train régional,Jour,Tassin,3082,Lozanne,3074,06:31:00,06:54:00,0.38,,14.0,,électrique,GTFS sncf_ter
+FR_D6979A0C_0,SNCF VOYAGEURS,Lozanne - Tassin,Train régional,Jour,Lozanne,3074,Tassin,3082,07:00:00,07:24:00,0.4,,14.0,,électrique,GTFS sncf_ter
+FR_c565520a_0,SNCF VOYAGEURS,Paris GdL Laroche Semi-directs,Train régional,Jour,Laroche - Migennes,2688,Paris Gare de Lyon Hall 1 - 2,2708,05:53:00,07:54:00,2.02,,14.0,,électrique,GTFS sncf_ter
+FR_c565520a_1,SNCF VOYAGEURS,Paris GdL Laroche Semi-directs,Train régional,Jour,Paris Gare de Lyon Hall 1 - 2,2708,Laroche - Migennes,2688,17:13:00,19:07:00,1.9,,14.0,,électrique,GTFS sncf_ter
+FR_BB0EECFC_0,SNCF VOYAGEURS,Paris Bercy - Auxerre,Train régional,Jour,Paris Bercy Bourg. Pays d'Auv.,2711,Auxerre Saint-Gervais,2693,18:04:00,20:11:00,2.12,,14.0,,électrique,GTFS sncf_ter
+FR_556F7950_1,SNCF VOYAGEURS,Paris Gdl - Laroche,Train régional,Jour,Laroche - Migennes,2688,Montereau,2678,07:10:00,08:05:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_BDEAF8BB_1,SNCF VOYAGEURS,Chalon - Montchanin,Train régional,Jour,Chagny,2963,Montchanin,2758,06:22:00,06:48:00,0.43,,14.0,,électrique,GTFS sncf_ter
+FR_BDEAF8BB_0,SNCF VOYAGEURS,Chalon - Montchanin,Train régional,Jour,Montchanin,2758,Chagny,2963,05:35:00,06:00:00,0.42,,14.0,,électrique,GTFS sncf_ter
+FR_783C9AC6_0,SNCF VOYAGEURS,Etang - Montchanin,Train régional,Jour,Étang-sur-Arroux,2752,Montchanin,2758,06:58:00,07:29:00,0.52,,14.0,,électrique,GTFS sncf_ter
+FR_B51E0F75_1,SNCF VOYAGEURS,Paray - Montchanin,Train régional,Jour,Montchanin,2758,Paray-le-Monial,2768,07:08:00,07:52:00,0.73,,14.0,,électrique,GTFS sncf_ter
+FR_95af4ef4_0,SNCF VOYAGEURS,Dijon-Besançon,Train régional,Jour,Besançon Viotte,3022,Dijon,2943,05:56:00,06:51:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_95af4ef4_1,SNCF VOYAGEURS,Dijon-Besançon,Train régional,Jour,Dijon,2943,Besançon Viotte,3022,05:09:00,06:04:00,0.92,,14.0,,électrique,GTFS sncf_ter
+FR_31FAD70B_0,SNCF VOYAGEURS,Besancon V -  Besançon Fc,Train régional,Jour,Besançon Viotte,3022,Besançon Franche-Comté TGV,886,06:08:00,06:23:00,0.25,,14.0,,électrique,GTFS sncf_ter
+FR_31FAD70B_1,SNCF VOYAGEURS,Besancon V -  Besançon Fc,Train régional,Jour,Besançon Franche-Comté TGV,886,Besançon Viotte,3022,07:02:00,07:21:00,0.32,,14.0,,électrique,GTFS sncf_ter
+FR_683EEEDD_0,SNCF VOYAGEURS,Dole- Frasne - Pontarlier,Train régional,Jour,Pontarlier,2984,Dijon,2943,05:57:00,07:56:00,1.98,,14.0,,électrique,GTFS sncf_ter
+FR_D4652BCC_1,SNCF VOYAGEURS,Lyon - Besançon - Belfort (interrégional),Train régional,Jour,Lons-le-Saunier,3034,Belfort-Ville,435,05:43:00,08:26:00,2.72,,14.0,,électrique,GTFS sncf_ter
+FR_D4652BCC_0,SNCF VOYAGEURS,Lyon - Besançon - Belfort (interrégional),Train régional,Jour,Belfort-Ville,435,Lons-le-Saunier,3034,06:04:00,08:44:00,2.67,,14.0,,électrique,GTFS sncf_ter
+FR_63D83770_1,SNCF VOYAGEURS,Lyon Part Dieu - Genève Cornavin,Train régional,Jour,Lyon Part Dieu,3124,Geneve,78,12:38:00,14:48:00,2.17,,14.0,,électrique,GTFS sncf_ter
+FR_CBA77858_1,SNCF VOYAGEURS,BELLEGARDE - GENEVE,Train régional,Jour,Geneve,78,Bellegarde,3379,05:03:00,05:38:00,0.58,,14.0,,électrique,GTFS sncf_ter
+FR_CBA77858_0,SNCF VOYAGEURS,BELLEGARDE - GENEVE,Train régional,Jour,Bellegarde,3379,Geneve,78,05:53:00,06:27:00,0.57,,14.0,,électrique,GTFS sncf_ter
+DE_1_0,ÖBB,IC,Train régional,Nuit,Wien Hauptbahnhof,4379,Breclav,3881,23:19:00,00:34:00,1.25,,32.0,,électrique,GTFS db_germany
+DE_10_0,DB Fernverkehr AG,ICE 14,Grande vitesse,Jour,Köln Hbf,4106,S Ostbahnhof (Berlin),4268,13:34:00,19:12:00,5.63,,32.0,,électrique,GTFS db_germany
+DE_11_0,DB Fernverkehr AG,ICE 10,Grande vitesse,Jour,S Ostbahnhof (Berlin),4268,Köln Hbf,4106,14:32:00,20:28:00,5.93,,32.0,,électrique,GTFS db_germany
+DE_12_0,DB Fernverkehr AG,ICE 28,Grande vitesse,Jour,Leipzig Hbf,4123,"Hamburg, Hamburg-Altona",4015,06:12:00,10:24:00,4.2,,32.0,,électrique,GTFS db_germany
+DE_13_0,DB Fernverkehr AG,ICE 42,Grande vitesse,Jour,"Hamburg, Hamburg Hbf",4014,München Hbf,4172,05:45:00,14:30:00,8.75,,32.0,,électrique,GTFS db_germany
+DE_14_0,DB Fernverkehr AG,ICE 47,Grande vitesse,Jour,"Mannheim, Hauptbahnhof",4158,Dortmund Hbf,3937,19:07:00,21:48:00,2.68,,32.0,,électrique,GTFS db_germany
+DE_15_0,DB Fernverkehr AG,ICE 60,Grande vitesse,Jour,Saarbrücken Hbf,4280,Hauptbahnhof (oben),4022,08:27:00,10:45:00,2.3,,32.0,,électrique,GTFS db_germany
+DE_16_0,DB Fernverkehr AG,EC 97,Train régional,Jour,Horka(Gr),4044,Leipzig Hbf,4123,10:52:00,13:14:00,2.37,,32.0,,électrique,GTFS db_germany
+DE_17_0,SBB,IC,Train régional,Jour,Zürich HB,4410,Schaffhausen,4284,13:37:00,14:13:00,0.6,,32.0,,électrique,GTFS db_germany
+DE_18_0,Nederlandse Spoorwegen,ICE,Grande vitesse,Jour,Amsterdam Centraal,3836,Arnhem Centraal,3842,08:31:00,09:32:00,1.02,,32.0,,électrique,GTFS db_germany
+DE_19_0,DB Fernverkehr AG,ICE 78,Grande vitesse,Jour,Frankfurt (Main) Hauptbahnhof,3974,Arnhem Centraal,3842,19:34:00,22:26:00,2.87,,32.0,,électrique,GTFS db_germany
+DE_2_0,DB Fernverkehr AG,ICE 33,Grande vitesse,Jour,"Hamburg, Hamburg-Altona",4015,Köln Hbf,4106,14:55:00,19:15:00,4.33,,32.0,,électrique,GTFS db_germany
+DE_20_0,DB Fernverkehr AG,ICE 82,Grande vitesse,Jour,Frankfurt (Main) Hauptbahnhof,3974,Saarbrücken Hbf,4280,08:53:00,10:59:00,2.1,,32.0,,électrique,GTFS db_germany
+DE_21_0,ÖBB,EC,Train régional,Jour,Lindau-Reutin,4132,St. Margrethen SG,4310,08:52:00,09:09:00,0.28,,32.0,,électrique,GTFS db_germany
+DE_22_0,HZZP,EN,Train régional,Nuit,Salzburg Hbf,4281,Zagreb Glavni kolodvor,4398,02:10:00,10:30:00,8.33,,32.0,,électrique,GTFS db_germany
+DE_23_0,DB Fernverkehr AG,IC 51,Intercité,Jour,"Erfurt, Hauptbahnhof",3953,Düsseldorf Hbf,3942,13:18:00,18:36:00,5.3,,32.0,,électrique,GTFS db_germany
+DE_24_0,DB Fernverkehr AG,ICE 43,Grande vitesse,Jour,"Hamburg, Hamburg Hbf",4014,Karlsruhe Hauptbahnhof,4070,14:45:00,20:59:00,6.23,,32.0,,électrique,GTFS db_germany
+DE_25_0,DB Fernverkehr AG,ICE 15,Grande vitesse,Jour,Eisenach Hbf,3945,Ostseebad Binz,4206,06:37:00,12:29:00,5.87,,32.0,,électrique,GTFS db_germany
+DE_26_0,DB Fernverkehr AG,ICE 17,Grande vitesse,Jour,S+U Berlin Hauptbahnhof,4274,Leipzig Hbf,4123,17:53:00,19:16:00,1.38,,32.0,,électrique,GTFS db_germany
+DE_27_0,DB Fernverkehr AG,ICE 29,Grande vitesse,Jour,S+U Gesundbrunnen Bhf (Berlin),4275,München Hbf,4172,19:26:00,23:43:00,4.28,,32.0,,électrique,GTFS db_germany
+DE_28_0,Dänische Staatsbahnen,ECE,Train régional,Jour,Padborg st,4209,Koebenhavn H,4083,15:03:00,17:53:00,2.83,,32.0,,électrique,GTFS db_germany
+DE_29_0,DB Fernverkehr AG,IC 33,Intercité,Jour,Westerland(Sylt) ZOB/Bahnhof,4375,Köln Hbf,4106,09:53:00,17:17:00,7.4,,32.0,,électrique,GTFS db_germany
+DE_3_0,MAV,RJ,Train régional,Jour,Budapest-Nyugati,3901,Sturovo,4318,07:30:00,08:33:00,1.05,,32.0,,électrique,GTFS db_germany
+DE_30_0,DB Fernverkehr AG,ICE 11,Grande vitesse,Jour,S+U Gesundbrunnen Bhf (Berlin),4275,Hauptbahnhof (oben),4022,17:09:00,23:11:00,6.03,,32.0,,électrique,GTFS db_germany
+DE_31_0,DB Fernverkehr AG,EC 96,Train régional,Jour,S+U Berlin Hauptbahnhof,4274,Rzepin,4262,16:52:00,18:09:00,1.28,,32.0,,électrique,GTFS db_germany
+DE_32_0,DB Fernverkehr AG,ICE 25,Grande vitesse,Jour,Hannover Hauptbahnhof,4020,München Hbf,4172,20:27:00,00:50:00,4.38,,32.0,,électrique,GTFS db_germany
+DE_33_0,DB Fernverkehr AG,ICE 26,Grande vitesse,Jour,Bremen Hbf,3885,Hannover Hauptbahnhof,4020,13:15:00,14:14:00,0.98,,32.0,,électrique,GTFS db_germany
+DE_34_0,DB Fernverkehr AG,ICE 77,Grande vitesse,Jour,S Ostbahnhof (Berlin),4268,Hengelo,4028,13:56:00,18:07:00,4.18,,32.0,,électrique,GTFS db_germany
+DE_35_0,PKP Intercity,EC 95,Train régional,Jour,Warszawa Wschodnia,4365,Rzepin,4262,04:49:00,08:47:00,3.97,,32.0,,électrique,GTFS db_germany
+DE_36_0,DB Fernverkehr AG,IC 34,Intercité,Jour,Friedberg (Hessen) Bahnhof,3983,Münster Hauptbahnhof,4173,15:49:00,19:39:00,3.83,,32.0,,électrique,GTFS db_germany
+DE_37_0,DB Fernverkehr AG,ICE 1,Grande vitesse,Nuit,Frankfurt (Main) Hauptbahnhof,3974,Nürnberg Hbf,4190,22:19:00,00:42:00,2.38,,32.0,,électrique,GTFS db_germany
+DE_38_0,DB Fernverkehr AG,ICE 24,Grande vitesse,Jour,"Hamburg, Hamburg-Harburg",4016,Kufstein,4101,08:30:00,15:26:00,6.93,,32.0,,électrique,GTFS db_germany
+DE_39_0,DB Fernverkehr AG,ICE 4,Grande vitesse,Jour,"Hamburg, Hamburg-Altona",4015,Frankfurt (Main) Hauptbahnhof,3974,10:02:00,13:56:00,3.9,,32.0,,électrique,GTFS db_germany
+DE_4_0,DB Fernverkehr AG,ECE 85,Train régional,Jour,Basel Bad Bf,3858,Frankfurt (Main) Hauptbahnhof,3974,15:55:00,18:44:00,2.82,,32.0,,électrique,GTFS db_germany
+DE_40_0,DB Fernverkehr AG,ICE 45,Grande vitesse,Jour,Frankfurt (Main) Hauptbahnhof,3974,Köln Hbf,4106,06:00:00,07:57:00,1.95,,32.0,,électrique,GTFS db_germany
+DE_41_0,DB Fernverkehr AG,EC 62,Train régional,Jour,München Hbf,4172,Salzburg Hbf,4281,10:16:00,11:59:00,1.72,,32.0,,électrique,GTFS db_germany
+DE_42_0,Ceske Drahy,IC,Train régional,Nuit,Breclav,3881,Bohumin(Gr),3871,01:04:00,04:02:00,2.97,,32.0,,électrique,GTFS db_germany
+DE_43_0,SÜWEX,IC,Train régional,Jour,Koblenz Hauptbahnhof,4082,Düsseldorf Hbf,3942,08:42:00,10:17:00,1.58,,32.0,,électrique,GTFS db_germany
+DE_44_0,DB Fernverkehr AG,ICE 13,Grande vitesse,Jour,Karlsruhe Hauptbahnhof,4070,"Braunschweig, Hauptbahnhof",3880,18:39:00,23:24:00,4.75,,32.0,,électrique,GTFS db_germany
+DE_45_0,DB Fernverkehr AG,ICE 23,Grande vitesse,Jour,"Hamburg, Hamburg Hbf",4014,S Südkreuz Bhf (Berlin),4272,18:49:00,21:39:00,2.83,,32.0,,électrique,GTFS db_germany
+DE_46_0,HZZP,EC,Train régional,Jour,Dobova(Gr),3931,Zagreb Glavni kolodvor,4398,18:57:00,19:20:00,0.38,,32.0,,électrique,GTFS db_germany
+DE_47_0,PKP Intercity,IC,Train régional,Nuit,Bohumin(Gr),3871,Przemysl Glowny,4232,04:02:00,10:10:00,6.13,,32.0,,électrique,GTFS db_germany
+DE_48_0,DB Fernverkehr AG,IC 24,Intercité,Jour,"Hamburg, Hamburg Hbf",4014,Westerland(Sylt) ZOB/Bahnhof,4375,13:46:00,17:03:00,3.28,,32.0,,électrique,GTFS db_germany
+DE_49_0,DB Fernverkehr AG,ICE 12,Grande vitesse,Jour,S Ostbahnhof (Berlin),4268,Freiburg Hauptbahnhof,3980,14:16:00,21:01:00,6.75,,32.0,,électrique,GTFS db_germany
+DE_5_0,MAV,EN,Train régional,Jour,Budapest-Nyugati,3901,Decin hl.n.,3923,19:30:00,04:40:00,9.17,,32.0,,électrique,GTFS db_germany
+DE_50_0,DB Fernverkehr AG,ICE 16,Grande vitesse,Jour,Hannover Hauptbahnhof,4020,Bremen Hbf,3885,07:45:00,08:45:00,1.0,,32.0,,électrique,GTFS db_germany
+DE_51_0,DB Fernverkehr AG,ICE 50,Grande vitesse,Jour,Frankfurt (Main) Hauptbahnhof,3974,Leipzig Hbf,4123,21:19:00,01:15:00,3.93,,32.0,,électrique,GTFS db_germany
+DE_52_0,DB Fernverkehr AG,ICE 51,Grande vitesse,Jour,Dresden Hauptbahnhof,3939,Essen Hbf,3957,08:44:00,15:14:00,6.5,,32.0,,électrique,GTFS db_germany
+DE_53_0,DB Fernverkehr AG,ICE 79,Grande vitesse,Jour,Bruxelles Midi,3893,Frankfurt (Main) Hauptbahnhof,3974,10:25:00,13:27:00,3.03,,32.0,,électrique,GTFS db_germany
+DE_54_0,DB Fernverkehr AG,IC 17,Intercité,Jour,Dresden Hauptbahnhof,3939,Rostock Hauptbahnhof,4255,05:35:00,09:37:00,4.03,,32.0,,électrique,GTFS db_germany
+DE_55_0,DB Fernverkehr AG,IC 27,Intercité,Jour,S+U Berlin Hauptbahnhof,4274,Dresden Hauptbahnhof,3939,20:10:00,22:07:00,1.95,,32.0,,électrique,GTFS db_germany
+DE_58_0,DB Fernverkehr AG,ICE 22,Grande vitesse,Jour,Hauptbahnhof (oben),4022,"Hamburg, Hamburg-Harburg",4016,17:23:00,22:19:00,4.93,,32.0,,électrique,GTFS db_germany
+DE_6_0,Dänische Staatsbahnen,IC,Train régional,Jour,Fredericia st,3979,Flensburg,3964,04:30:00,05:53:00,1.38,,32.0,,électrique,GTFS db_germany
+DE_60_0,DB Fernverkehr AG,EC 89,Train régional,Jour,Venezia Santa Lucia,4351,München Hbf,4172,15:35:00,22:28:00,6.88,,32.0,,électrique,GTFS db_germany
+DE_61_0,DB Fernverkehr AG,ECE 88,Train régional,Jour,Lindau-Reutin,4132,München Hbf,4172,13:10:00,15:16:00,2.1,,32.0,,électrique,GTFS db_germany
+DE_62_0,DB Fernverkehr AG,IC 61,Intercité,Jour,Leipzig Hbf,4123,Karlsruhe Hauptbahnhof,4070,15:50:00,22:54:00,7.07,,32.0,,électrique,GTFS db_germany
+DE_63_0,DB Fernverkehr AG,ICE 55,Grande vitesse,Jour,Köln Hbf,4106,Hauptbahnhof (oben),4022,18:53:00,22:37:00,3.73,,32.0,,électrique,GTFS db_germany
+DE_65_0,DB Fernverkehr AG,ICE 91,Grande vitesse,Jour,Passau Hbf,4216,München Hbf,4172,19:37:00,22:08:00,2.52,,32.0,,électrique,GTFS db_germany
+DE_66_0,DB Fernverkehr AG,IC 55,Intercité,Jour,Frankfurt (Main) Hauptbahnhof,3974,Köln Hbf,4106,06:43:00,09:24:00,2.68,,32.0,,électrique,GTFS db_germany
+DE_67_0,DB Fernverkehr AG,IC 60,Intercité,Jour,Hauptbahnhof (oben),4022,Karlsruhe Hauptbahnhof,4070,17:02:00,17:53:00,0.85,,32.0,,électrique,GTFS db_germany
+DE_68_0,DB Fernverkehr AG,ICE 41,Grande vitesse,Jour,Essen Hbf,3957,München Hbf,4172,10:50:00,16:13:00,5.38,,32.0,,électrique,GTFS db_germany
+DE_69_0,DB Fernverkehr AG,IC 57,Intercité,Jour,Leipzig Hbf,4123,Magdeburg Hbf,4154,15:27:00,16:53:00,1.43,,32.0,,électrique,GTFS db_germany
+DE_7_0,DB Fernverkehr AG,ICE 62,Grande vitesse,Jour,Frankfurt (Main) Hauptbahnhof,3974,Hauptbahnhof (oben),4022,07:03:00,08:49:00,1.77,,32.0,,électrique,GTFS db_germany
+DE_70_0,DB Fernverkehr AG,IC 87,Intercité,Jour,Schaffhausen,4284,Rottweil Bahnhof,4256,09:16:00,10:16:00,1.0,,32.0,,électrique,GTFS db_germany
+DE_71_0,DB Fernverkehr AG,ICE 49,Grande vitesse,Jour,Köln Hbf,4106,Frankfurt (Main) Hauptbahnhof,3974,16:29:00,17:49:00,1.33,,32.0,,électrique,GTFS db_germany
+DE_72_0,DB Fernverkehr AG,ICE 6,Grande vitesse,Jour,S+U Gesundbrunnen Bhf (Berlin),4275,Hauptbahnhof (oben),4022,16:01:00,21:07:00,5.1,,32.0,,électrique,GTFS db_germany
+DE_73_0,ÖBB,RJ,Train régional,Nuit,Breclav,3881,Wien Hauptbahnhof,4379,22:55:00,23:49:00,0.9,,32.0,,électrique,GTFS db_germany
+DE_74_0,PKP Intercity,EC 96,Train régional,Jour,Rzepin,4262,Przemysl Glowny,4232,10:12:00,18:43:00,8.52,,32.0,,électrique,GTFS db_germany
+DE_75_0,ÖBB,EN,Train régional,Nuit,Decin hl.n.,3923,Praha hl.n.,4226,07:57:00,09:25:00,1.47,,32.0,,électrique,GTFS db_germany
+DE_77_0,PKP Intercity,EN,Train régional,Nuit,Wien Hauptbahnhof,4379,Warszawa Wschodnia,4365,23:19:00,08:15:00,8.93,,32.0,,électrique,GTFS db_germany
+DE_78_0,DB Fernverkehr AG,IC 35,Intercité,Jour,Emden(Ostfriesl) Hbf,3949,Koblenz Hauptbahnhof,4082,06:34:00,11:16:00,4.7,,32.0,,électrique,GTFS db_germany
+DE_79_0,ÖBB,ICE,Grande vitesse,Jour,Passau Hbf,4216,Wien Hauptbahnhof,4379,13:27:00,15:47:00,2.33,,32.0,,électrique,GTFS db_germany
+DE_8_0,ÖBB,EC 62,Train régional,Jour,Villach Hbf,4358,Salzburg Hbf,4281,13:28:00,15:53:00,2.42,,32.0,,électrique,GTFS db_germany
+DE_80_0,DB Fernverkehr AG,ICE 3,Grande vitesse,Jour,S Südkreuz Bhf (Berlin),4272,Saarbrücken Hbf,4280,07:49:00,14:17:00,6.47,,32.0,,électrique,GTFS db_germany
+DE_81_0,SBB,EC,Train régional,Jour,St. Margrethen SG,4310,Zürich HB,4410,13:10:00,14:28:00,1.3,,32.0,,électrique,GTFS db_germany
+DE_82_0,DB Fernverkehr AG,EC 95,Train régional,Jour,"Frankfurt (Oder), Bahnhof",3977,Rzepin,4262,18:50:00,19:07:00,0.28,,32.0,,électrique,GTFS db_germany
+DE_83_0,DB Fernverkehr AG,ECE 75,Train régional,Jour,"Hamburg, Hamburg Hbf",4014,Padborg st,4209,14:33:00,16:53:00,2.33,,32.0,,électrique,GTFS db_germany
+DE_84_0,DB Fernverkehr AG,ICE 18,Grande vitesse,Nuit,München Hbf,4172,S+U Gesundbrunnen Bhf (Berlin),4275,23:12:00,06:37:00,7.42,,32.0,,électrique,GTFS db_germany
+DE_86_0,Ceske Drahy,RJ,Train régional,Jour,Decin hl.n.,3923,Breclav,3881,17:57:00,22:47:00,4.83,,32.0,,électrique,GTFS db_germany
+DE_87_0,ZSSK,RJ,Train régional,Jour,Sturovo,4318,Decin hl.n.,3923,08:36:00,15:58:00,7.37,,32.0,,électrique,GTFS db_germany
+DE_88_0,Ceske Drahy,EC,Train régional,Nuit,Decin hl.n.,3923,Praha hl.n.,4226,07:57:00,09:25:00,1.47,,32.0,,électrique,GTFS db_germany
+DE_90_0,DB Fernverkehr AG,IC 56,Intercité,Jour,Leipzig Hbf,4123,"Oldenburg, Hauptbahnhof",4198,17:42:00,22:23:00,4.68,,32.0,,électrique,GTFS db_germany

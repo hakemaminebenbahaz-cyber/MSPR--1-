@@ -1,0 +1,55 @@
+# pipeline.py
+# Orchestre la pipeline ETL complète : Extract → Transform → Load
+import sys
+import os
+
+sys.path.insert(0, os.path.dirname(__file__))
+
+from extract.extract_gtfs        import run_extract_gtfs
+from transform.transform_gtfs    import transform_operateurs, transform_gares, transform_dessertes
+from load.load_to_postgresql     import run_load_pipeline
+
+
+def run_pipeline(skip_extract=False):
+    print("=" * 60)
+    print("  PIPELINE ETL — ObRail Europe")
+    print("  Extract → Transform → Load → PostgreSQL")
+    print("=" * 60)
+
+    # ── EXTRACT ──
+    if not skip_extract:
+        print("\n[1/3] EXTRACT")
+        resultats = run_extract_gtfs()
+        if not all(resultats.values()):
+            print("❌ Extract incomplet — abandon.")
+            return False
+    else:
+        print("\n[1/3] EXTRACT — ignoré (--skip-extract)")
+
+    # ── TRANSFORM ──
+    print("\n[2/3] TRANSFORM")
+    operateurs = transform_operateurs()
+    gares      = transform_gares()
+    dessertes  = transform_dessertes(operateurs, gares)
+
+    print(f"\n  Résumé transform :")
+    print(f"    Opérateurs : {len(operateurs)}")
+    print(f"    Gares      : {len(gares)}")
+    print(f"    Dessertes  : {len(dessertes)}")
+
+    # ── LOAD ──
+    print("\n[3/3] LOAD")
+    ok = run_load_pipeline()
+    if not ok:
+        print("❌ Load échoué.")
+        return False
+
+    print("\n" + "=" * 60)
+    print("  ✅ PIPELINE TERMINÉE AVEC SUCCÈS !")
+    print("=" * 60)
+    return True
+
+
+if __name__ == "__main__":
+    skip = "--skip-extract" in sys.argv
+    run_pipeline(skip_extract=skip)

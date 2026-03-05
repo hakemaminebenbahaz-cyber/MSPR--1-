@@ -1,0 +1,18 @@
+id,_agency_id,nom,pays_code,_source
+1,1185,CFF,FR,sncf_ter
+2,1187,SNCF VOYAGEURS,FR,sncf_ter
+3,5270,Loire Océan,FR,sncf_ter
+4,REGION_ARA,Conseil Régional Auvergne - Rhône-Alpes,FR,sncf_ter
+5,1,DB Fernverkehr (Codesharing),DE,db_germany
+6,10,DB Fernverkehr AG,DE,db_germany
+7,11,ÖBB,DE,db_germany
+8,12,SNCF,DE,db_germany
+9,13,HZZP,DE,db_germany
+10,2,SBB,DE,db_germany
+11,3,Ceske Drahy,DE,db_germany
+12,4,ZSSK,DE,db_germany
+13,5,Nederlandse Spoorwegen,DE,db_germany
+14,6,SÜWEX,DE,db_germany
+15,7,PKP Intercity,DE,db_germany
+16,8,Dänische Staatsbahnen,DE,db_germany
+17,9,MAV,DE,db_germany
