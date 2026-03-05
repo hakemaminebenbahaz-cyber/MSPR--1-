@@ -94,9 +94,7 @@ def transform_gares():
                                "parent_station", "location_type"], errors="ignore")
 
         df["stop_name"] = df["stop_name"].str.strip()
-        df["pays_code"] = df.apply(
-            lambda r: _detect_pays(r["stop_lat"], r["stop_lon"]), axis=1
-        )
+        df["pays_code"] = meta["pays"]  # pays basé sur la source GTFS, pas les coordonnées GPS
         df["_source"] = source
         all_stops.append(df)
 
@@ -121,21 +119,6 @@ def transform_gares():
     print(f"     Répartition : {gares['pays_code'].value_counts().to_dict()}")
     return gares
 
-
-def _detect_pays(lat, lon):
-    if 41.0 <= lat <= 51.5 and -5.5 <= lon <= 9.6:
-        return "FR"
-    if 47.0 <= lat <= 55.5 and 5.5 <= lon <= 15.5:
-        return "DE"
-    if 45.5 <= lat <= 48.0 and 5.5 <= lon <= 10.7:
-        return "CH"
-    if 35.5 <= lat <= 44.0 and -10.0 <= lon <= 4.5:
-        return "ES"
-    if 46.0 <= lat <= 49.0 and 9.5 <= lon <= 17.5:
-        return "AT"
-    if 49.5 <= lat <= 51.5 and 2.5 <= lon <= 6.5:
-        return "BE"
-    return "EU"
 
 
 # ═══════════════════════════════════════════════════════════
