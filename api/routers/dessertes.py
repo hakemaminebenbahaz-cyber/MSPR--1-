@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
-from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.orm import Session, joinedload, aliased
 from typing import List, Optional
 
 from core.dependencies import get_db
 from models.models import Desserte, Gare, Operateur
-from schemas.responses import DesserteResponse, DesserteDetailResponse
+from schemas.responses import DesserteDetailResponse
 
 router = APIRouter()
 
@@ -21,17 +21,8 @@ def get_dessertes(
     limit: int = Query(100, ge=1, le=500),
     db: Session = Depends(get_db)
 ):
-    """
-    Recherche de dessertes ferroviaires avec filtres.
-    - **depart** : nom partiel de la gare de départ
-    - **arrivee** : nom partiel de la gare d'arrivée
-    - **type_service** : Jour ou Nuit
-    - **type_ligne** : Grande vitesse, Intercité, Train régional
-    - **operateur** : nom partiel de l'opérateur
-    - **pays_code** : pays de la gare de départ
-    """
-    GareDepart  = Gare.__table__.alias("gare_dep")
-    GareArrivee = Gare.__table__.alias("gare_arr")
+    GareDep = aliased(Gare, name="gare_dep")
+    GareArr = aliased(Gare, name="gare_arr")
 
     query = (
         db.query(Desserte)
@@ -40,12 +31,14 @@ def get_dessertes(
             joinedload(Desserte.gare_depart),
             joinedload(Desserte.gare_arrivee),
         )
+        .join(GareDep, Desserte.gare_depart_id == GareDep.id)
+        .join(GareArr, Desserte.gare_arrivee_id == GareArr.id)
     )
 
     if depart:
-        query = query.join(Desserte.gare_depart).filter(Gare.nom.ilike(f"%{depart}%"))
+        query = query.filter(GareDep.nom.ilike(f"%{depart}%"))
     if arrivee:
-        query = query.join(Desserte.gare_arrivee).filter(Gare.nom.ilike(f"%{arrivee}%"))
+        query = query.filter(GareArr.nom.ilike(f"%{arrivee}%"))
     if type_service:
         query = query.filter(Desserte.type_service == type_service)
     if type_ligne:
@@ -53,9 +46,7 @@ def get_dessertes(
     if operateur:
         query = query.join(Desserte.operateur).filter(Operateur.nom.ilike(f"%{operateur}%"))
     if pays_code:
-        if depart is None:
-            query = query.join(Desserte.gare_depart)
-        query = query.filter(Gare.pays_code == pays_code.upper())
+        query = query.filter(GareDep.pays_code == pays_code.upper())
 
     return query.offset(skip).limit(limit).all()
 

@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, aliased
 from sqlalchemy import func
 
 from core.dependencies import get_db
@@ -95,21 +95,6 @@ def get_par_pays(db: Session = Depends(get_db)):
 @router.get("/par-operateur", response_model=list[StatsOperateurResponse])
 def get_par_operateur(db: Session = Depends(get_db)):
     """Nombre de dessertes Jour/Nuit par opérateur."""
-    stats = (
-        db.query(
-            Operateur.nom,
-            Operateur.pays_code,
-            func.count(Desserte.id).label("total"),
-            func.sum(
-                func.cast(Desserte.type_service == "Jour", func.Integer if False else Desserte.id.__class__)
-            ).label("nb_jour"),
-        )
-        .join(Desserte, Operateur.id == Desserte.operateur_id)
-        .group_by(Operateur.nom, Operateur.pays_code)
-        .all()
-    )
-
-    # Calcul nb_jour et nb_nuit séparément pour éviter les casts complexes
     result = []
     for op in db.query(Operateur).all():
         total = db.query(func.count(Desserte.id)).filter(Desserte.operateur_id == op.id).scalar()
@@ -126,3 +111,45 @@ def get_par_operateur(db: Session = Depends(get_db)):
             nb_nuit=total - nb_jour,
         ))
     return sorted(result, key=lambda x: x.total_dessertes, reverse=True)
+
+
+@router.get("/inter-pays")
+def get_inter_pays(db: Session = Depends(get_db)):
+    """Trajets internationaux (départ et arrivée dans des pays différents)."""
+    GareDep = aliased(Gare, name="gare_dep")
+    GareArr = aliased(Gare, name="gare_arr")
+
+    rows = (
+        db.query(
+            GareDep.pays_code.label("pays_depart"),
+            GareArr.pays_code.label("pays_arrivee"),
+            Desserte.nom_ligne,
+            Desserte.type_service,
+            GareDep.nom.label("gare_depart"),
+            GareArr.nom.label("gare_arrivee"),
+            Desserte.heure_depart,
+            Desserte.heure_arrivee,
+            Desserte.duree_h,
+        )
+        .join(GareDep, Desserte.gare_depart_id == GareDep.id)
+        .join(GareArr, Desserte.gare_arrivee_id == GareArr.id)
+        .filter(GareDep.pays_code != GareArr.pays_code)
+        .order_by(GareDep.pays_code, GareArr.pays_code)
+        .all()
+    )
+
+    return [
+        {
+            "pays_depart":  r.pays_depart,
+            "pays_arrivee": r.pays_arrivee,
+            "liaison":      f"{r.pays_depart} → {r.pays_arrivee}",
+            "nom_ligne":    r.nom_ligne,
+            "type_service": r.type_service,
+            "gare_depart":  r.gare_depart,
+            "gare_arrivee": r.gare_arrivee,
+            "heure_depart": str(r.heure_depart) if r.heure_depart else None,
+            "heure_arrivee": str(r.heure_arrivee) if r.heure_arrivee else None,
+            "duree_h":      float(r.duree_h) if r.duree_h else None,
+        }
+        for r in rows
+    ]
