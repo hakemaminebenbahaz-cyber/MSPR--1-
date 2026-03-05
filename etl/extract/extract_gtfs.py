@@ -17,6 +17,16 @@ GTFS_SOURCES = {
         "description": "Deutsche Bahn — trains longue distance Allemagne",
         "pays":        "DE",
     },
+    "sncb_belgium": {
+        "url":         "https://gtfs.irail.be/nmbs/gtfs/latest.zip",
+        "description": "SNCB/NMBS — trains Belgique",
+        "pays":        "BE",
+    },
+    "obb_austria": {
+        "url":         "https://data.oebb.at/oebb?dataset=gtfs",
+        "description": "ÖBB — trains Autriche",
+        "pays":        "AT",
+    },
 }
 
 GTFS_FILES_ATTENDUS = [

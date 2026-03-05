@@ -9,9 +9,12 @@ OUT_DIR = "data/transformed"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # Sources GTFS disponibles avec leur pays
+# co2 en g/km basé sur le mix électrique national (source : EEA 2023)
 GTFS_SOURCES = {
-    "sncf_ter":   {"pays": "FR", "operateur_defaut": "SNCF",            "traction": "électrique", "co2": 14.0},
-    "db_germany": {"pays": "DE", "operateur_defaut": "Deutsche Bahn",   "traction": "électrique", "co2": 32.0},
+    "sncf_ter":    {"pays": "FR", "operateur_defaut": "SNCF",           "traction": "électrique", "co2": 14.0},
+    "db_germany":  {"pays": "DE", "operateur_defaut": "Deutsche Bahn",  "traction": "électrique", "co2": 32.0},
+    "sncb_belgium":{"pays": "BE", "operateur_defaut": "SNCB",           "traction": "électrique", "co2": 18.0},
+    "obb_austria": {"pays": "AT", "operateur_defaut": "OBB",            "traction": "électrique", "co2": 12.0},
 }
 
 
@@ -76,6 +79,25 @@ def _simplify_agency_id(aid):
 # 2. GARES
 # ═══════════════════════════════════════════════════════════
 
+def _detect_pays(lat, lon):
+    """Détection du pays par coordonnées GPS (pour sources multi-pays)."""
+    lat, lon = float(lat), float(lon)
+    if 47.0 <= lat <= 55.5 and 5.8 <= lon <= 15.5: return "DE"
+    if 41.0 <= lat <= 51.5 and -5.5 <= lon <= 8.5:  return "FR"
+    if 46.0 <= lat <= 48.5 and 5.8 <= lon <= 10.7:  return "CH"
+    if 46.0 <= lat <= 49.0 and 9.5 <= lon <= 17.5:  return "AT"
+    if 49.5 <= lat <= 51.5 and 2.5 <= lon <= 6.5:   return "BE"
+    if 50.7 <= lat <= 53.8 and 3.3 <= lon <= 7.3:   return "NL"
+    if 49.0 <= lat <= 54.9 and 14.1 <= lon <= 24.2: return "PL"
+    if 47.7 <= lat <= 51.1 and 12.0 <= lon <= 22.6: return "CZ"
+    if 47.7 <= lat <= 49.6 and 16.8 <= lon <= 22.6: return "SK"
+    if 45.7 <= lat <= 48.6 and 16.1 <= lon <= 22.9: return "HU"
+    if 54.5 <= lat <= 57.8 and 8.0 <= lon <= 15.3:  return "DK"
+    if 36.0 <= lat <= 44.0 and -10.0 <= lon <= 4.5: return "ES"
+    if 36.5 <= lat <= 47.1 and 6.6 <= lon <= 18.5:  return "IT"
+    return "EU"
+
+
 def transform_gares():
     print("\n── GARES ──")
     all_stops = []
@@ -86,15 +108,26 @@ def transform_gares():
             print(f"  ⚠️  {source}/stops.txt introuvable")
             continue
 
-        # Garder uniquement les StopArea (gares parentes)
-        df = df[df["location_type"] == 1].copy()
+        # Garder les StopArea (location_type=1) si disponibles, sinon tous les arrêts
+        df_areas = df[df["location_type"] == 1].copy()
+        if len(df_areas) == 0:
+            # Source sans gares parentes (ex: SNCB) → utiliser tous les arrêts uniques
+            df_areas = df.copy()
+        df = df_areas
 
         # Supprimer colonnes inutiles
         df = df.drop(columns=["stop_desc", "zone_id", "stop_url",
                                "parent_station", "location_type"], errors="ignore")
 
         df["stop_name"] = df["stop_name"].str.strip()
-        df["pays_code"] = meta["pays"]  # pays basé sur la source GTFS, pas les coordonnées GPS
+        if source == "sncf_ter":
+            # SNCF TER = uniquement France régionale, pas de GPS nécessaire
+            df["pays_code"] = "FR"
+        else:
+            # Sources longue distance avec trains internationaux → détection GPS
+            df["pays_code"] = df.apply(
+                lambda r: _detect_pays(r["stop_lat"], r["stop_lon"]), axis=1
+            )
         df["_source"] = source
         all_stops.append(df)
 
@@ -153,8 +186,9 @@ def transform_dessertes(operateurs_df, gares_df):
             print(f"  ⚠️  Fichiers manquants pour {source}, ignoré.")
             continue
 
-        # Garder uniquement les trains (route_type=2)
-        routes = routes[routes["route_type"] == 2].copy()
+        # Garder uniquement les trains (type 2 ancien GTFS, ou 100-107 nouveau format)
+        RAIL_TYPES = {2, 100, 101, 102, 103, 104, 105, 106, 107}
+        routes = routes[routes["route_type"].isin(RAIL_TYPES)].copy()
         routes = routes.drop(columns=["route_desc", "route_url", "route_color",
                                        "route_text_color"], errors="ignore")
 
@@ -170,6 +204,18 @@ def transform_dessertes(operateurs_df, gares_df):
         stop_to_area = _build_stop_area_map(stops)
         area_to_nom  = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["nom"])}
         area_to_id   = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["id"])}
+
+        # Fallback par nom : si un stop_area_id n'est pas dans area_to_id
+        # (ex: dédupliqué par nom depuis une autre source), on le retrouve via le nom
+        name_to_gare_id = {row["nom"]: row["id"] for _, row in gares_df.iterrows()}
+        if "location_type" in stops.columns:
+            stops_type1 = stops[stops["location_type"] == 1]
+            for _, stop_row in stops_type1.iterrows():
+                area_id = str(stop_row["stop_id"]).strip()
+                name    = str(stop_row["stop_name"]).strip()
+                if area_id not in area_to_id and name in name_to_gare_id:
+                    area_to_id[area_id]  = name_to_gare_id[name]
+                    area_to_nom[area_id] = name
 
         # Premier et dernier arrêt par trip
         st_sorted = st.sort_values(["trip_id", "stop_sequence"])
@@ -351,10 +397,16 @@ def _nom_ligne(row):
     return str(row.get("route_id", "?"))
 
 
+SOURCE_PREFIX = {
+    "sncf_ter":    "FR",
+    "db_germany":  "DE",
+    "sncb_belgium":"BE",
+    "obb_austria": "AT",
+}
+
 def _make_id(source, row):
-    prefix   = "FR" if source == "sncf_ter" else "DE"
+    prefix   = SOURCE_PREFIX.get(source, source[:2].upper())
     route_id = str(row.get("route_id", "X"))
-    # Prendre les 8 derniers caractères alphanum du route_id pour l'unicité
     short    = re.sub(r"[^A-Za-z0-9]", "", route_id)[-8:]
     d        = int(row.get("direction_id", 0))
     return f"{prefix}_{short}_{d}"[:20]
