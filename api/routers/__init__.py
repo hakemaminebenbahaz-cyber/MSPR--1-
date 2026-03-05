@@ -1,3 +1,3 @@
-from routers import gares, lignes_train, operateurs, trajets, horaires, comparisons
+from routers import gares, operateurs, dessertes, comparisons
 
-__all__ = ["gares", "lignes_train", "operateurs", "trajets", "horaires", "comparisons"]
+__all__ = ["gares", "operateurs", "dessertes", "comparisons"]

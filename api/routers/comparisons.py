@@ -3,154 +3,126 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 
 from core.dependencies import get_db
-from models.ligne_model import Ligne
-from models.trajet_model import Trajet
-from models.gare_model import Gare
+from models.models import Desserte, Gare, Operateur
+from schemas.responses import StatsServiceResponse, StatsPayResponse, StatsOperateurResponse
 
 router = APIRouter()
 
-@router.get("/stats")
-def get_global_stats(db: Session = Depends(get_db)):
-    """
-    Statistiques globales sur les données
-    """
-    total_lignes = db.query(func.count(Ligne.id_ligne)).scalar()
-    total_trajets = db.query(func.count(Trajet.id_trajet)).scalar()
-    total_gares = db.query(func.count(Gare.id_gare)).scalar()
-    
+
+@router.get("/stats-globales")
+def get_stats_globales(db: Session = Depends(get_db)):
+    """Statistiques globales : totaux par table."""
     return {
-        "total_lignes": total_lignes,
-        "total_trajets": total_trajets,
-        "total_gares": total_gares
+        "total_operateurs": db.query(func.count(Operateur.id)).scalar(),
+        "total_gares":      db.query(func.count(Gare.id)).scalar(),
+        "total_dessertes":  db.query(func.count(Desserte.id)).scalar(),
+        "total_jour":       db.query(func.count(Desserte.id)).filter(Desserte.type_service == "Jour").scalar(),
+        "total_nuit":       db.query(func.count(Desserte.id)).filter(Desserte.type_service == "Nuit").scalar(),
     }
 
 
-@router.get("/lignes-par-type")
-def get_lignes_by_type(db: Session = Depends(get_db)):
-    from models.ligne_train_model import LigneTrain
-    
-    stats = db.query(
-        LigneTrain.type_transport,
-        func.count(LigneTrain.id_ligne).label("count")
-    ).group_by(LigneTrain.type_transport).all()
-    
+@router.get("/jour-vs-nuit", response_model=list[StatsServiceResponse])
+def get_jour_vs_nuit(db: Session = Depends(get_db)):
+    """Comparaison Jour vs Nuit : nombre, CO2 moyen, durée moyenne."""
+    stats = (
+        db.query(
+            Desserte.type_service,
+            func.count(Desserte.id).label("total"),
+            func.avg(Desserte.emissions_co2_gkm).label("co2_moyen"),
+            func.avg(Desserte.duree_h).label("duree_moyenne_h"),
+        )
+        .group_by(Desserte.type_service)
+        .all()
+    )
+    return [
+        StatsServiceResponse(
+            type_service=r.type_service,
+            total=r.total,
+            co2_moyen=round(float(r.co2_moyen), 2) if r.co2_moyen else None,
+            duree_moyenne_h=round(float(r.duree_moyenne_h), 2) if r.duree_moyenne_h else None,
+        )
+        for r in stats
+    ]
+
+
+@router.get("/par-type-ligne")
+def get_par_type_ligne(db: Session = Depends(get_db)):
+    """Répartition des dessertes par type de ligne."""
+    stats = (
+        db.query(
+            Desserte.type_ligne,
+            func.count(Desserte.id).label("total"),
+            func.avg(Desserte.emissions_co2_gkm).label("co2_moyen"),
+        )
+        .group_by(Desserte.type_ligne)
+        .all()
+    )
     return [
         {
-            "type_transport": stat.type_transport,
-            "nombre_lignes": stat.count
+            "type_ligne": r.type_ligne,
+            "total": r.total,
+            "co2_moyen": round(float(r.co2_moyen), 2) if r.co2_moyen else None,
         }
-        for stat in stats
+        for r in stats
     ]
 
 
-@router.get("/top-operateurs")
-def get_top_operateurs(limit: int = 10, db: Session = Depends(get_db)):
-    """
-    Top des opérateurs par nombre de lignes
-    """
-    from models.operateur_model import Operateur
-    
-    stats = db.query(
-        Operateur.nom_operateur,
-        func.count(Ligne.id_ligne).label("nombre_lignes")
-    ).join(Ligne, Operateur.id_operateur == Ligne.id_operateur)\
-     .group_by(Operateur.nom_operateur)\
-     .order_by(func.count(Ligne.id_ligne).desc())\
-     .limit(limit).all()
-    
+@router.get("/par-pays", response_model=list[StatsPayResponse])
+def get_par_pays(db: Session = Depends(get_db)):
+    """Nombre de gares et dessertes par pays."""
+    gares_stats = (
+        db.query(Gare.pays_code, func.count(Gare.id).label("total_gares"))
+        .group_by(Gare.pays_code)
+        .all()
+    )
+    dessertes_stats = (
+        db.query(Gare.pays_code, func.count(Desserte.id).label("total_dessertes"))
+        .join(Desserte, Gare.id == Desserte.gare_depart_id)
+        .group_by(Gare.pays_code)
+        .all()
+    )
+    dest_map = {r.pays_code: r.total_dessertes for r in dessertes_stats}
     return [
-        {
-            "operateur": stat.nom_operateur,
-            "nombre_lignes": stat.nombre_lignes
-        }
-        for stat in stats
+        StatsPayResponse(
+            pays_code=r.pays_code,
+            total_gares=r.total_gares,
+            total_dessertes=dest_map.get(r.pays_code, 0),
+        )
+        for r in gares_stats
     ]
 
 
-@router.get("/gares-les-plus-desservies")
-def get_most_served_gares(limit: int = 10, db: Session = Depends(get_db)):
-    """
-    Gares les plus desservies (par nombre de passages)
-    """
-    from models.horaire_model import Horaire
-    
-    stats = db.query(
-        Gare.nom_gare,
-        func.count(Horaire.id_gare).label("nombre_passages")
-    ).join(Horaire, Gare.id_gare == Horaire.id_gare)\
-     .group_by(Gare.nom_gare)\
-     .order_by(func.count(Horaire.id_gare).desc())\
-     .limit(limit).all()
-    
-    return [
-        {
-            "gare": stat.nom_gare,
-            "nombre_passages": stat.nombre_passages
-        }
-        for stat in stats
-    ]
+@router.get("/par-operateur", response_model=list[StatsOperateurResponse])
+def get_par_operateur(db: Session = Depends(get_db)):
+    """Nombre de dessertes Jour/Nuit par opérateur."""
+    stats = (
+        db.query(
+            Operateur.nom,
+            Operateur.pays_code,
+            func.count(Desserte.id).label("total"),
+            func.sum(
+                func.cast(Desserte.type_service == "Jour", func.Integer if False else Desserte.id.__class__)
+            ).label("nb_jour"),
+        )
+        .join(Desserte, Operateur.id == Desserte.operateur_id)
+        .group_by(Operateur.nom, Operateur.pays_code)
+        .all()
+    )
 
-
-@router.get("/repartition-jour-nuit")
-def get_repartition_jour_nuit(db: Session = Depends(get_db)):
-    """
-    Répartition des trajets jour/nuit basée sur l'heure de départ
-    """
-    from models.horaire_model import Horaire
-    from sqlalchemy import case, func
-    from datetime import time
-
-    stats = db.query(
-        case(
-            (Horaire.heure_depart >= time(22, 0), "Nuit"),
-            (Horaire.heure_depart <= time(6, 0), "Nuit"),
-            else_="Jour"
-        ).label("periode"),
-        func.count(Horaire.id_trajet).label("nombre")
-    ).group_by("periode").all()
-
-    return [
-        {"periode": stat.periode, "nombre": stat.nombre}
-        for stat in stats
-    ]
-
-
-@router.get("/valeurs-manquantes")
-def get_valeurs_manquantes(db: Session = Depends(get_db)):
-    """
-    Taux de valeurs manquantes par table
-    """
-    from models.horaire_model import Horaire
-    from models.operateur_model import Operateur
-
-    # Gares
-    total_gares = db.query(func.count(Gare.id_gare)).scalar()
-    gares_sans_lat = db.query(func.count(Gare.id_gare)).filter(Gare.latitude == None).scalar()
-    gares_sans_lon = db.query(func.count(Gare.id_gare)).filter(Gare.longitude == None).scalar()
-
-    # Lignes
-    total_lignes = db.query(func.count(Ligne.id_ligne)).scalar()
-    lignes_sans_nom = db.query(func.count(Ligne.id_ligne)).filter(Ligne.nom_complet_ligne == None).scalar()
-    lignes_sans_couleur = db.query(func.count(Ligne.id_ligne)).filter(Ligne.couleur_ligne == None).scalar()
-
-    # Trajets
-    total_trajets = db.query(func.count(Trajet.id_trajet)).scalar()
-    trajets_sans_destination = db.query(func.count(Trajet.id_trajet)).filter(Trajet.destination_affichee == None).scalar()
-
-    # Horaires
-    total_horaires = db.query(func.count(Horaire.id_trajet)).scalar()
-    horaires_sans_arrivee = db.query(func.count(Horaire.id_trajet)).filter(Horaire.heure_arrivee == None).scalar()
-    horaires_sans_depart = db.query(func.count(Horaire.id_trajet)).filter(Horaire.heure_depart == None).scalar()
-
-    def taux(manquants, total):
-        return round((manquants / total * 100), 2) if total > 0 else 0
-
-    return [
-        {"champ": "Gares - Latitude", "taux_manquant": taux(gares_sans_lat, total_gares)},
-        {"champ": "Gares - Longitude", "taux_manquant": taux(gares_sans_lon, total_gares)},
-        {"champ": "Lignes - Nom complet", "taux_manquant": taux(lignes_sans_nom, total_lignes)},
-        {"champ": "Lignes - Couleur", "taux_manquant": taux(lignes_sans_couleur, total_lignes)},
-        {"champ": "Trajets - Destination", "taux_manquant": taux(trajets_sans_destination, total_trajets)},
-        {"champ": "Horaires - Heure arrivée", "taux_manquant": taux(horaires_sans_arrivee, total_horaires)},
-        {"champ": "Horaires - Heure départ", "taux_manquant": taux(horaires_sans_depart, total_horaires)},
-    ]
+    # Calcul nb_jour et nb_nuit séparément pour éviter les casts complexes
+    result = []
+    for op in db.query(Operateur).all():
+        total = db.query(func.count(Desserte.id)).filter(Desserte.operateur_id == op.id).scalar()
+        if total == 0:
+            continue
+        nb_jour = db.query(func.count(Desserte.id)).filter(
+            Desserte.operateur_id == op.id, Desserte.type_service == "Jour"
+        ).scalar()
+        result.append(StatsOperateurResponse(
+            operateur=op.nom,
+            pays_code=op.pays_code,
+            total_dessertes=total,
+            nb_jour=nb_jour,
+            nb_nuit=total - nb_jour,
+        ))
+    return sorted(result, key=lambda x: x.total_dessertes, reverse=True)

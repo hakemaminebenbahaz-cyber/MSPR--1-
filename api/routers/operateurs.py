@@ -1,69 +1,30 @@
-from fastapi import APIRouter, Depends, HTTPException, status, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
-from typing import List
+from typing import List, Optional
 
 from core.dependencies import get_db
-from models.operateur_model import Operateur
+from models.models import Operateur
 from schemas.responses import OperateurResponse
-from schemas.requests import OperateurCreate
 
 router = APIRouter()
 
+
 @router.get("/", response_model=List[OperateurResponse])
-def get_all_operateurs(
-    skip: int = Query(0, ge=0),
-    limit: int = Query(100, ge=1, le=1000),
+def get_operateurs(
+    pays_code: Optional[str] = Query(None, description="Filtrer par pays (FR, DE, ...)"),
     db: Session = Depends(get_db)
 ):
-    """
-    Récupère la liste de tous les opérateurs
-    """
-    operateurs = db.query(Operateur).offset(skip).limit(limit).all()
-    return operateurs
+    """Liste tous les opérateurs ferroviaires."""
+    query = db.query(Operateur)
+    if pays_code:
+        query = query.filter(Operateur.pays_code == pays_code.upper())
+    return query.order_by(Operateur.nom).all()
 
 
-@router.get("/{id_operateur}", response_model=OperateurResponse)
-def get_operateur(id_operateur: str, db: Session = Depends(get_db)):
-    """
-    Récupère un opérateur par son ID
-    """
-    operateur = db.query(Operateur).filter(Operateur.id_operateur == id_operateur).first()
-    if not operateur:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"Opérateur avec l'ID '{id_operateur}' non trouvé"
-        )
-    return operateur
-
-
-@router.get("/search/nom", response_model=List[OperateurResponse])
-def search_operateurs_by_name(
-    nom: str = Query(..., min_length=2, description="Nom de l'opérateur"),
-    db: Session = Depends(get_db)
-):
-    """
-    Recherche des opérateurs par nom
-    """
-    operateurs = db.query(Operateur).filter(
-        Operateur.nom_operateur.ilike(f"%{nom}%")
-    ).all()
-    return operateurs
-
-
-@router.post("/", response_model=OperateurResponse, status_code=status.HTTP_201_CREATED)
-def create_operateur(operateur: OperateurCreate, db: Session = Depends(get_db)):
-    """
-    Crée un nouvel opérateur
-    """
-    existing = db.query(Operateur).filter(Operateur.id_operateur == operateur.id_operateur).first()
-    if existing:
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail=f"Un opérateur avec l'ID '{operateur.id_operateur}' existe déjà"
-        )
-    
-    new_operateur = Operateur(**operateur.model_dump())
-    db.add(new_operateur)
-    db.commit()
-    db.refresh(new_operateur)
-    return new_operateur
+@router.get("/{operateur_id}", response_model=OperateurResponse)
+def get_operateur(operateur_id: int, db: Session = Depends(get_db)):
+    """Récupère un opérateur par son ID."""
+    op = db.query(Operateur).filter(Operateur.id == operateur_id).first()
+    if not op:
+        raise HTTPException(status_code=404, detail=f"Opérateur {operateur_id} introuvable")
+    return op
