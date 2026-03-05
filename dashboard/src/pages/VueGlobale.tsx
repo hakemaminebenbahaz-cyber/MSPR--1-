@@ -37,6 +37,14 @@ interface StatPays {
   total_gares: number
   total_dessertes: number
 }
+interface InterPays {
+  liaison: string
+  nom_ligne: string
+  type_service: string
+  gare_depart: string
+  gare_arrivee: string
+  duree_h: number | null
+}
 
 const VIBRANT = ['#6366f1', '#f59e0b', '#22c55e', '#0ea5e9', '#ec4899', '#f97316', '#14b8a6', '#8b5cf6']
 
@@ -66,6 +74,7 @@ export default function VueGlobale() {
   const [typeLigne, setTypeLigne] = useState<TypeLigne[] | null>(null)
   const [operateurs, setOperateurs] = useState<StatOp[] | null>(null)
   const [pays,      setPays]      = useState<StatPays[] | null>(null)
+  const [interPays, setInterPays] = useState<InterPays[] | null>(null)
 
   useEffect(() => {
     fetchApi<StatsGlobales>('/comparisons/stats-globales').then(setStats)
@@ -73,6 +82,7 @@ export default function VueGlobale() {
     fetchApi<TypeLigne[]>('/comparisons/par-type-ligne').then(setTypeLigne)
     fetchApi<StatOp[]>('/comparisons/par-operateur').then(setOperateurs)
     fetchApi<StatPays[]>('/comparisons/par-pays').then(setPays)
+    fetchApi<InterPays[]>('/comparisons/inter-pays').then(setInterPays)
   }, [])
 
   const jourNuitData = jourNuit?.map(d => ({ name: d.type_service, value: d.total }))
@@ -201,6 +211,51 @@ export default function VueGlobale() {
               </Bar>
             </BarChart>
           </ResponsiveContainer>
+        ) : <Loader />}
+      </div>
+
+      {/* ── Row 4 : Inter-pays ── */}
+      <div style={{ gridColumn: 'span 12', ...CARD }}>
+        <CardTitle>Liaisons internationales — {interPays?.length ?? '…'} trajets inter-pays</CardTitle>
+        <CardSub>Dessertes ferroviaires traversant les frontières européennes</CardSub>
+        {interPays ? (
+          <div style={{ overflowX: 'auto', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }}>
+              <thead>
+                <tr style={{ background: '#f8fafc' }}>
+                  {['Liaison', 'Ligne', 'Type', 'Départ', 'Arrivée', 'Durée'].map(h => (
+                    <th key={h} style={{
+                      padding: '10px 14px', textAlign: 'left', color: '#94a3b8',
+                      fontWeight: 600, textTransform: 'uppercase', fontSize: '10px',
+                      letterSpacing: '0.6px', whiteSpace: 'nowrap',
+                    }}>{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {interPays.map((r, i) => (
+                  <tr key={i} style={{ borderBottom: '1px solid #f8fafc', background: i % 2 !== 0 ? '#fafafa' : '#fff' }}
+                    onMouseEnter={e => (e.currentTarget.style.background = '#eef2ff')}
+                    onMouseLeave={e => (e.currentTarget.style.background = i % 2 !== 0 ? '#fafafa' : '#fff')}>
+                    <td style={{ padding: '9px 14px', whiteSpace: 'nowrap' }}>
+                      <span style={{ fontWeight: 600, color: '#6366f1' }}>{r.liaison}</span>
+                    </td>
+                    <td style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>{r.nom_ligne}</td>
+                    <td style={{ padding: '9px 14px', whiteSpace: 'nowrap' }}>
+                      <span style={{
+                        padding: '2px 8px', borderRadius: '12px', fontSize: '11px', fontWeight: 600,
+                        background: r.type_service === 'Nuit' ? '#eef2ff' : '#fffbeb',
+                        color: r.type_service === 'Nuit' ? '#6366f1' : '#f59e0b',
+                      }}>{r.type_service}</span>
+                    </td>
+                    <td style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>{r.gare_depart}</td>
+                    <td style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>{r.gare_arrivee}</td>
+                    <td style={{ padding: '9px 14px', color: '#64748b', whiteSpace: 'nowrap' }}>{r.duree_h ? `${r.duree_h} h` : '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         ) : <Loader />}
       </div>
 

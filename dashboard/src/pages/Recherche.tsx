@@ -19,7 +19,23 @@ const SELECT: React.CSSProperties = {
   color: '#0f172a', fontSize: '13px', outline: 'none',
 }
 
-function ResultTable({ results, loading }: { results: Record<string, unknown>[] | null; loading: boolean }) {
+function flatten(row: Record<string, unknown>): Record<string, unknown> {
+  const dep = row['gare_depart'] as Record<string, unknown> | null
+  const arr = row['gare_arrivee'] as Record<string, unknown> | null
+  const op  = row['operateur']   as Record<string, unknown> | null
+  const skip = new Set(['gare_depart', 'gare_arrivee', 'operateur', 'id', 'operateur_id', 'gare_depart_id', 'gare_arrivee_id'])
+  const r: Record<string, unknown> = {
+    'départ':    dep?.nom ?? '—',
+    'arrivée':   arr?.nom ?? '—',
+    'opérateur': op?.nom  ?? '—',
+  }
+  for (const [k, v] of Object.entries(row)) {
+    if (!skip.has(k)) r[k] = v
+  }
+  return r
+}
+
+function ResultTable({ results, loading, isDessertes = false }: { results: Record<string, unknown>[] | null; loading: boolean; isDessertes?: boolean }) {
   if (loading) return <div style={{ fontSize: '13px', color: '#94a3b8', padding: '12px 0' }}>Chargement…</div>
   if (!results) return null
   if (results.length === 0) return (
@@ -28,7 +44,8 @@ function ResultTable({ results, loading }: { results: Record<string, unknown>[] 
     </div>
   )
 
-  const keys = Object.keys(results[0]).filter(k => !['operateur', 'gare_depart', 'gare_arrivee'].includes(k))
+  const flat = isDessertes ? results.map(flatten) : results
+  const keys = Object.keys(flat[0])
 
   return (
     <>
@@ -53,7 +70,7 @@ function ResultTable({ results, loading }: { results: Record<string, unknown>[] 
             </tr>
           </thead>
           <tbody>
-            {results.map((row, i) => (
+            {flat.map((row, i) => (
               <tr key={i} style={{ borderBottom: '1px solid #f8fafc' }}
                 onMouseEnter={e => (e.currentTarget.style.background = '#f8fafc')}
                 onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}>
@@ -175,7 +192,7 @@ export default function Recherche() {
             {desserteLoad ? '…' : 'Rechercher'}
           </button>
         </form>
-        <ResultTable results={desserteRes} loading={desserteLoad} />
+        <ResultTable results={desserteRes} loading={desserteLoad} isDessertes={true} />
       </div>
 
       {/* ── Recherche gares ── */}
