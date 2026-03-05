@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Node
+node_modules/
+dashboard/dist/
+dashboard/.vite/
+
+# Data (fichiers volumineux, non versionnés)
+data/raw/
+data/transformed/
+
+# IDE
+.vscode/
+*.code-workspace
