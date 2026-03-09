@@ -1,0 +1,12 @@
+# Dossiers gérés par d'autres branches
+api/
+dashboard/
+
+# Données et environnement
+data/
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
