@@ -31,12 +31,12 @@ export default function MetricCard({ icon, value, label, color, colorBg }: Props
 
   return (
     <div style={{
-      background: '#ffffff',
-      border: '1px solid #e2e8f0',
+      background: 'var(--bg-card)',
+      border: '1px solid var(--border)',
       borderRadius: '14px',
       padding: '24px',
-      boxShadow: '0 1px 4px rgba(0,0,0,0.04)',
-      transition: 'box-shadow 0.2s, transform 0.2s',
+      boxShadow: 'var(--shadow)',
+      transition: 'box-shadow 0.2s, transform 0.2s, background 0.2s',
       cursor: 'default',
     }}
     onMouseEnter={e => {
@@ -56,14 +56,14 @@ export default function MetricCard({ icon, value, label, color, colorBg }: Props
         {icon}
       </div>
       <div style={{
-        fontSize: '34px', fontWeight: 700, color: '#0f172a',
+        fontSize: '34px', fontWeight: 700, color: 'var(--text-1)',
         letterSpacing: '-1.5px', lineHeight: 1,
         fontVariantNumeric: 'tabular-nums',
       }}>
         {count.toLocaleString('fr-FR')}
       </div>
       <div style={{
-        fontSize: '13px', color: '#64748b', marginTop: '8px', fontWeight: 500,
+        fontSize: '13px', color: 'var(--text-3)', marginTop: '8px', fontWeight: 500,
       }}>
         {label}
       </div>

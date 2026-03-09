@@ -26,6 +26,15 @@ def get_gares(
     return query.order_by(Gare.nom).offset(skip).limit(limit).all()
 
 
+@router.get("/map/coords", response_model=List[GareResponse])
+def get_gares_map(db: Session = Depends(get_db)):
+    """Toutes les gares avec coordonnées GPS (pour la carte)."""
+    return db.query(Gare).filter(
+        Gare.latitude.isnot(None),
+        Gare.longitude.isnot(None)
+    ).all()
+
+
 @router.get("/{gare_id}", response_model=GareResponse)
 def get_gare(gare_id: int, db: Session = Depends(get_db)):
     """Récupère une gare par son ID."""

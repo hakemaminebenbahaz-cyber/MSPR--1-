@@ -6,6 +6,7 @@ import {
 import { fetchApi } from '../api'
 import MetricCard from '../components/MetricCard'
 import Loader from '../components/Loader'
+import MapGares from '../components/MapGares'
 
 interface StatsGlobales {
   total_operateurs: number
@@ -49,23 +50,23 @@ interface InterPays {
 const VIBRANT = ['#6366f1', '#f59e0b', '#22c55e', '#0ea5e9', '#ec4899', '#f97316', '#14b8a6', '#8b5cf6']
 
 const TT: React.CSSProperties = {
-  backgroundColor: '#ffffff', border: '1px solid #e2e8f0',
-  borderRadius: '10px', color: '#0f172a', fontSize: '12px',
-  padding: '10px 14px', boxShadow: '0 4px 20px rgba(0,0,0,0.12)',
+  backgroundColor: 'var(--bg-card)', border: '1px solid var(--border)',
+  borderRadius: '10px', color: 'var(--text-1)', fontSize: '12px',
+  padding: '10px 14px', boxShadow: '0 4px 20px rgba(0,0,0,0.18)',
 }
 const CARD: React.CSSProperties = {
-  background: '#ffffff', border: '1px solid #e2e8f0',
+  background: 'var(--bg-card)', border: '1px solid var(--border)',
   borderRadius: '14px', padding: '20px 24px',
-  boxShadow: '0 1px 4px rgba(0,0,0,0.04)',
+  boxShadow: 'var(--shadow)',
 }
 function CardTitle({ children }: { children: React.ReactNode }) {
-  return <p style={{ fontSize: '13px', fontWeight: 600, color: '#0f172a', marginBottom: '4px' }}>{children}</p>
+  return <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-1)', marginBottom: '4px' }}>{children}</p>
 }
 function CardSub({ children }: { children: React.ReactNode }) {
-  return <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '16px' }}>{children}</p>
+  return <p style={{ fontSize: '12px', color: 'var(--text-4)', marginBottom: '16px' }}>{children}</p>
 }
 function legendFmt(v: string) {
-  return <span style={{ color: '#64748b', fontSize: '12px' }}>{v}</span>
+  return <span style={{ color: 'var(--text-3)', fontSize: '12px' }}>{v}</span>
 }
 
 export default function VueGlobale() {
@@ -214,7 +215,14 @@ export default function VueGlobale() {
         ) : <Loader />}
       </div>
 
-      {/* ── Row 4 : Inter-pays ── */}
+      {/* ── Row 4 : Carte des gares ── */}
+      <div style={{ gridColumn: 'span 12', ...CARD }}>
+        <CardTitle>Carte des gares européennes</CardTitle>
+        <CardSub>Toutes les gares avec coordonnées GPS — survolez un point pour le nom</CardSub>
+        <MapGares />
+      </div>
+
+      {/* ── Row 5 : Inter-pays ── */}
       <div style={{ gridColumn: 'span 12', ...CARD }}>
         <CardTitle>Liaisons internationales — {interPays?.length ?? '…'} trajets inter-pays</CardTitle>
         <CardSub>Dessertes ferroviaires traversant les frontières européennes</CardSub>
@@ -222,10 +230,10 @@ export default function VueGlobale() {
           <div style={{ overflowX: 'auto', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }}>
               <thead>
-                <tr style={{ background: '#f8fafc' }}>
+                <tr style={{ background: 'var(--bg-thead)' }}>
                   {['Liaison', 'Ligne', 'Type', 'Départ', 'Arrivée', 'Durée'].map(h => (
                     <th key={h} style={{
-                      padding: '10px 14px', textAlign: 'left', color: '#94a3b8',
+                      padding: '10px 14px', textAlign: 'left', color: 'var(--text-4)',
                       fontWeight: 600, textTransform: 'uppercase', fontSize: '10px',
                       letterSpacing: '0.6px', whiteSpace: 'nowrap',
                     }}>{h}</th>
@@ -234,13 +242,13 @@ export default function VueGlobale() {
               </thead>
               <tbody>
                 {interPays.map((r, i) => (
-                  <tr key={i} style={{ borderBottom: '1px solid #f8fafc', background: i % 2 !== 0 ? '#fafafa' : '#fff' }}
-                    onMouseEnter={e => (e.currentTarget.style.background = '#eef2ff')}
-                    onMouseLeave={e => (e.currentTarget.style.background = i % 2 !== 0 ? '#fafafa' : '#fff')}>
+                  <tr key={i} style={{ borderBottom: '1px solid var(--border-lt)', background: i % 2 !== 0 ? 'var(--bg-row-alt)' : 'var(--bg-card)' }}
+                    onMouseEnter={e => (e.currentTarget.style.background = '#eef2ff22')}
+                    onMouseLeave={e => (e.currentTarget.style.background = i % 2 !== 0 ? 'var(--bg-row-alt)' : 'var(--bg-card)')}>
                     <td style={{ padding: '9px 14px', whiteSpace: 'nowrap' }}>
                       <span style={{ fontWeight: 600, color: '#6366f1' }}>{r.liaison}</span>
                     </td>
-                    <td style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>{r.nom_ligne}</td>
+                    <td style={{ padding: '9px 14px', color: 'var(--text-2)', whiteSpace: 'nowrap' }}>{r.nom_ligne}</td>
                     <td style={{ padding: '9px 14px', whiteSpace: 'nowrap' }}>
                       <span style={{
                         padding: '2px 8px', borderRadius: '12px', fontSize: '11px', fontWeight: 600,
@@ -248,9 +256,9 @@ export default function VueGlobale() {
                         color: r.type_service === 'Nuit' ? '#6366f1' : '#f59e0b',
                       }}>{r.type_service}</span>
                     </td>
-                    <td style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>{r.gare_depart}</td>
-                    <td style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>{r.gare_arrivee}</td>
-                    <td style={{ padding: '9px 14px', color: '#64748b', whiteSpace: 'nowrap' }}>{r.duree_h ? `${r.duree_h} h` : '—'}</td>
+                    <td style={{ padding: '9px 14px', color: 'var(--text-2)', whiteSpace: 'nowrap' }}>{r.gare_depart}</td>
+                    <td style={{ padding: '9px 14px', color: 'var(--text-2)', whiteSpace: 'nowrap' }}>{r.gare_arrivee}</td>
+                    <td style={{ padding: '9px 14px', color: 'var(--text-3)', whiteSpace: 'nowrap' }}>{r.duree_h ? `${r.duree_h} h` : '—'}</td>
                   </tr>
                 ))}
               </tbody>

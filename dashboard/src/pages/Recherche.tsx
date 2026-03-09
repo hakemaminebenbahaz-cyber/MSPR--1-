@@ -2,21 +2,21 @@ import { useState, type FormEvent } from 'react'
 import { fetchApi } from '../api'
 
 const CARD: React.CSSProperties = {
-  background: '#ffffff', border: '1px solid #e2e8f0',
+  background: 'var(--bg-card)', border: '1px solid var(--border)',
   borderRadius: '14px', padding: '22px 24px',
-  boxShadow: '0 1px 4px rgba(0,0,0,0.04)',
+  boxShadow: 'var(--shadow)',
 }
 
 const INPUT: React.CSSProperties = {
   flex: 1, minWidth: '140px', padding: '10px 14px',
-  borderRadius: '9px', border: '1px solid #e2e8f0',
-  background: '#f8fafc', color: '#0f172a', fontSize: '13px', outline: 'none',
+  borderRadius: '9px', border: '1px solid var(--border)',
+  background: 'var(--bg-input)', color: 'var(--text-1)', fontSize: '13px', outline: 'none',
 }
 
 const SELECT: React.CSSProperties = {
   padding: '10px 14px', borderRadius: '9px',
-  border: '1px solid #e2e8f0', background: '#f8fafc',
-  color: '#0f172a', fontSize: '13px', outline: 'none',
+  border: '1px solid var(--border)', background: 'var(--bg-input)',
+  color: 'var(--text-1)', fontSize: '13px', outline: 'none',
 }
 
 function flatten(row: Record<string, unknown>): Record<string, unknown> {
@@ -36,10 +36,10 @@ function flatten(row: Record<string, unknown>): Record<string, unknown> {
 }
 
 function ResultTable({ results, loading, isDessertes = false }: { results: Record<string, unknown>[] | null; loading: boolean; isDessertes?: boolean }) {
-  if (loading) return <div style={{ fontSize: '13px', color: '#94a3b8', padding: '12px 0' }}>Chargement…</div>
+  if (loading) return <div style={{ fontSize: '13px', color: 'var(--text-4)', padding: '12px 0' }}>Chargement…</div>
   if (!results) return null
   if (results.length === 0) return (
-    <div style={{ fontSize: '13px', color: '#94a3b8', padding: '12px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+    <div style={{ fontSize: '13px', color: 'var(--text-4)', padding: '12px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
       <span>🔍</span> Aucun résultat trouvé
     </div>
   )
@@ -59,10 +59,10 @@ function ResultTable({ results, loading, isDessertes = false }: { results: Recor
       <div style={{ overflowX: 'auto', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }}>
           <thead>
-            <tr style={{ background: '#f8fafc' }}>
+            <tr style={{ background: 'var(--bg-thead)' }}>
               {keys.map(k => (
                 <th key={k} style={{
-                  padding: '10px 14px', textAlign: 'left', color: '#94a3b8',
+                  padding: '10px 14px', textAlign: 'left', color: 'var(--text-4)',
                   fontWeight: 600, textTransform: 'uppercase', fontSize: '10px',
                   letterSpacing: '0.6px', borderBottom: '1px solid #f1f5f9', whiteSpace: 'nowrap',
                 }}>{k.replace(/_/g, ' ')}</th>
@@ -71,8 +71,8 @@ function ResultTable({ results, loading, isDessertes = false }: { results: Recor
           </thead>
           <tbody>
             {flat.map((row, i) => (
-              <tr key={i} style={{ borderBottom: '1px solid #f8fafc' }}
-                onMouseEnter={e => (e.currentTarget.style.background = '#f8fafc')}
+              <tr key={i} style={{ borderBottom: '1px solid var(--border-lt)' }}
+                onMouseEnter={e => (e.currentTarget.style.background = 'var(--bg-thead)')}
                 onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}>
                 {keys.map(k => {
                   const val = row[k]
@@ -92,7 +92,7 @@ function ResultTable({ results, loading, isDessertes = false }: { results: Recor
                   if (k === 'emissions_co2_gkm') display = val ? `${val} g/km` : '—'
                   if (k === 'duree_h') display = val ? `${val} h` : '—'
                   return (
-                    <td key={k} style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>
+                    <td key={k} style={{ padding: '9px 14px', color: 'var(--text-2)', whiteSpace: 'nowrap' }}>
                       {display}
                     </td>
                   )
@@ -163,7 +163,7 @@ export default function Recherche() {
 
       {/* ── Recherche dessertes ── */}
       <div style={CARD}>
-        <p style={{ fontSize: '13px', fontWeight: 600, color: '#0f172a', marginBottom: '2px' }}>Recherche de dessertes</p>
+        <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-1)', marginBottom: '2px' }}>Recherche de dessertes</p>
         <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '14px' }}>
           Rechercher par gare de départ, d'arrivée, type Jour/Nuit ou catégorie de ligne
         </p>
@@ -197,7 +197,7 @@ export default function Recherche() {
 
       {/* ── Recherche gares ── */}
       <div style={CARD}>
-        <p style={{ fontSize: '13px', fontWeight: 600, color: '#0f172a', marginBottom: '2px' }}>Recherche de gares</p>
+        <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-1)', marginBottom: '2px' }}>Recherche de gares</p>
         <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '14px' }}>Rechercher par nom de gare</p>
         <form onSubmit={searchGare} style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
           <input style={INPUT} type="text" value={gareQ} onChange={e => setGareQ(e.target.value)}
@@ -215,7 +215,7 @@ export default function Recherche() {
 
       {/* ── Recherche opérateurs ── */}
       <div style={CARD}>
-        <p style={{ fontSize: '13px', fontWeight: 600, color: '#0f172a', marginBottom: '2px' }}>Recherche d'opérateurs</p>
+        <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-1)', marginBottom: '2px' }}>Recherche d'opérateurs</p>
         <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '14px' }}>Rechercher par nom d'opérateur</p>
         <form onSubmit={searchOp} style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
           <input style={INPUT} type="text" value={opQ} onChange={e => setOpQ(e.target.value)}

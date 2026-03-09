@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     
     # Security
     SECRET_KEY: str = "change-me-in-production"
+    API_KEY: str = "obrail-api-key-2026"
     
     # CORS
     BACKEND_CORS_ORIGINS: List[str] = ["*"]

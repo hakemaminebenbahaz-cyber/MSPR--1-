@@ -1,12 +1,14 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 from routers import gares, operateurs, dessertes, comparisons
 from core.config import settings
 
 app = FastAPI(
     title="ObRail Europe API",
-    description="API REST pour l'accès aux données ferroviaires européennes (GTFS SNCF + DB Germany)",
+    description="API REST pour l'accès aux données ferroviaires européennes (GTFS SNCF + DB Germany)\n\n"
+                "**Authentification** : Tous les endpoints `/api/v1/` nécessitent l'header `X-API-Key`.",
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc"
@@ -20,6 +22,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.middleware("http")
+async def api_key_middleware(request: Request, call_next):
+    if request.url.path.startswith("/api/v1/"):
+        key = request.headers.get("x-api-key")
+        if key != settings.API_KEY:
+            return JSONResponse(
+                status_code=401,
+                content={"detail": "Clé API manquante ou invalide. Fournissez l'header X-API-Key."},
+            )
+    return await call_next(request)
+
+
 app.include_router(operateurs.router,  prefix="/api/v1/operateurs",  tags=["Opérateurs"])
 app.include_router(gares.router,       prefix="/api/v1/gares",       tags=["Gares"])
 app.include_router(dessertes.router,   prefix="/api/v1/dessertes",   tags=["Dessertes"])
@@ -32,6 +47,7 @@ def root():
         "message": "Bienvenue sur l'API ObRail Europe",
         "version": "1.0.0",
         "documentation": "/docs",
+        "auth": "Header X-API-Key requis sur /api/v1/*",
         "endpoints": {
             "operateurs":  "/api/v1/operateurs",
             "gares":       "/api/v1/gares",

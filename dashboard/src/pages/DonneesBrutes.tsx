@@ -53,9 +53,9 @@ export default function DonneesBrutes() {
 
   return (
     <div style={{
-      background: '#ffffff', border: '1px solid #e2e8f0',
+      background: 'var(--bg-card)', border: '1px solid var(--border)',
       borderRadius: '14px', padding: '22px 24px',
-      boxShadow: '0 1px 4px rgba(0,0,0,0.04)',
+      boxShadow: 'var(--shadow)',
     }}>
 
       {/* Controls */}
@@ -68,9 +68,9 @@ export default function DonneesBrutes() {
               <button key={t} onClick={() => setTable(t)} style={{
                 padding: '7px 16px', borderRadius: '8px', fontSize: '12px',
                 fontWeight: active ? 600 : 400,
-                color: active ? '#ffffff' : '#64748b',
-                background: active ? c : '#f8fafc',
-                border: `1px solid ${active ? c : '#e2e8f0'}`,
+                color: active ? '#ffffff' : 'var(--text-3)',
+                background: active ? c : 'var(--bg-input)',
+                border: `1px solid ${active ? c : 'var(--border)'}`,
                 cursor: 'pointer', transition: 'all 0.15s',
                 boxShadow: active ? `0 2px 8px ${c}40` : 'none',
               }}>
@@ -81,7 +81,7 @@ export default function DonneesBrutes() {
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginLeft: 'auto' }}>
-          <span style={{ fontSize: '12px', color: '#94a3b8' }}>Lignes :</span>
+          <span style={{ fontSize: '12px', color: 'var(--text-4)' }}>Lignes :</span>
           <input type="range" min={10} max={200} step={10} value={limit}
             onChange={e => setLimit(Number(e.target.value))}
             style={{ width: '100px', accentColor: accent }} />
@@ -96,7 +96,7 @@ export default function DonneesBrutes() {
 
       {/* Meta */}
       {data && !loading && (
-        <div style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '14px' }}>
+        <div style={{ fontSize: '12px', color: 'var(--text-4)', marginBottom: '14px' }}>
           <span style={{
             display: 'inline-block', padding: '3px 10px', borderRadius: '20px',
             background: `${accent}15`, color: accent, fontWeight: 600, fontSize: '11px',
@@ -114,15 +114,15 @@ export default function DonneesBrutes() {
         <div style={{
           overflowX: 'auto', overflowY: 'auto',
           maxHeight: '62vh', borderRadius: '10px',
-          border: '1px solid #f1f5f9',
+          border: '1px solid var(--border-lt)',
         }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }}>
             <thead style={{ position: 'sticky', top: 0, zIndex: 10 }}>
-              <tr style={{ background: '#f8fafc', borderBottom: '1px solid #e2e8f0' }}>
+              <tr style={{ background: 'var(--bg-thead)', borderBottom: '1px solid var(--border)' }}>
                 {keys.map(k => (
                   <th key={k} style={{
                     padding: '10px 14px', textAlign: 'left',
-                    color: '#94a3b8', fontWeight: 600,
+                    color: 'var(--text-4)', fontWeight: 600,
                     textTransform: 'uppercase', fontSize: '10px',
                     letterSpacing: '0.6px', whiteSpace: 'nowrap',
                   }}>
@@ -135,12 +135,12 @@ export default function DonneesBrutes() {
               {data.map((row, i) => (
                 <tr key={i}
                   style={{
-                    borderBottom: '1px solid #f8fafc',
-                    background: i % 2 !== 0 ? '#fafafa' : '#ffffff',
+                    borderBottom: '1px solid var(--border-lt)',
+                    background: i % 2 !== 0 ? 'var(--bg-row-alt)' : 'var(--bg-card)',
                     transition: 'background 0.1s',
                   }}
                   onMouseEnter={e => (e.currentTarget.style.background = `${accent}08`)}
-                  onMouseLeave={e => (e.currentTarget.style.background = i % 2 !== 0 ? '#fafafa' : '#ffffff')}>
+                  onMouseLeave={e => (e.currentTarget.style.background = i % 2 !== 0 ? 'var(--bg-row-alt)' : 'var(--bg-card)')}>
                   {keys.map(k => {
                     const val = row[k]
                     // Badge coloré
@@ -162,7 +162,7 @@ export default function DonneesBrutes() {
                     if (k === 'emissions_co2_gkm' && val) display = `${val} g/km`
                     if (k === 'duree_h' && val) display = `${val} h`
                     return (
-                      <td key={k} style={{ padding: '9px 14px', color: '#334155', whiteSpace: 'nowrap' }}>
+                      <td key={k} style={{ padding: '9px 14px', color: 'var(--text-2)', whiteSpace: 'nowrap' }}>
                         {display}
                       </td>
                     )
