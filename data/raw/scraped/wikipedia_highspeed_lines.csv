@@ -1,0 +1,19 @@
+Country or region,Continent,Operationallength (km),Underconstruction(km),Totallength (km),Density(m/km2),"Length (km)per100,000people[a]",Top speed(km/h),Electrification,Track gauge(mm),Opened,scraped_date,source
+Austria,Europe,410.2,230.3,640.5,4.89,4.58,230,15 kV 16.7 Hz AC,1435,1990,2026-03-09,Wikipedia - High-speed railway lines
+Belgium,Europe,260.8,60.9,321.7,6.6,2.23,300,"3 kV DC,25 kV 50 Hz AC",1435,1997,2026-03-09,Wikipedia - High-speed railway lines
+Denmark,Europe,60,139.7,199.7,0.68,0.98,200,25 kV 50 Hz AC,1435,2019,2026-03-09,Wikipedia - High-speed railway lines
+Finland,Europe,987.1,0,987.1,2.92,17.8,220,25 kV 50 Hz AC,1524,2006,2026-03-09,Wikipedia - High-speed railway lines
+France,Europe,"3,516.346",372,"3,888.346",5.77,5.73,320,25 kV 50 Hz AC,1435,1981,2026-03-09,Wikipedia - High-speed railway lines
+Germany,Europe,"3,348.24",957.7,"4,305.94",9.38,4.02,300,15 kV 16.7 Hz AC,1435,1991,2026-03-09,Wikipedia - High-speed railway lines
+Greece,Europe,160,230,390,1.21,1.55,200,25 kV 50 Hz AC,1435,2022,2026-03-09,Wikipedia - High-speed railway lines
+Italy,Europe,"1,312.464","1,181.068","2,493.532",4.36,2.23,300,"25 kV 50 Hz AC,3 kV DC",1435,1977,2026-03-09,Wikipedia - High-speed railway lines
+Netherlands,Europe,175,0,175,4.18,1.95,300,"1.5 kV DC,25 kV 50 Hz AC",1435,2009,2026-03-09,Wikipedia - High-speed railway lines
+Norway,Europe,173,208.6,381.6,0.54,3.16,210,15 kV 16.7 Hz AC,1435,1998,2026-03-09,Wikipedia - High-speed railway lines
+Poland,Europe,285.047,224,509.047,0.91,0.75,200,3 kV DC,1435,2014,2026-03-09,Wikipedia - High-speed railway lines
+Portugal,Europe,224,90,314,2.67,2.19,220,25 kV 50 Hz AC,1668,1999,2026-03-09,Wikipedia - High-speed railway lines
+Russia,Europe,650,680,"1,330",0.04,0.42,250,"3 kV DC,25 kV 50 Hz AC",1520,1984,2026-03-09,Wikipedia - High-speed railway lines
+Spain,Europe,"3,973","1,034","5,007",7.84,8.42,300,"3 kV DC,25 kV 50 Hz AC",1435; 1668,1992,2026-03-09,Wikipedia - High-speed railway lines
+Sweden,Europe,"1,711",640,"2,351",3.8,16.12,200,15 kV 16.7 Hz AC,1435,1990,2026-03-09,Wikipedia - High-speed railway lines
+Switzerland,Europe,164,232.5,396.5,3.97,1.86,230,15 kV 16.7 Hz AC,1435,2005,2026-03-09,Wikipedia - High-speed railway lines
+Turkey,Europe/Asia,"1,021","1,910","2,931",1.3,1.27,250,25 kV 50 Hz AC,1435,2009,2026-03-09,Wikipedia - High-speed railway lines
+United Kingdom,Europe,"1,485.3",230,"1,715.3",6.11,2.19,300,25 kV 50 Hz AC,1435,1976,2026-03-09,Wikipedia - High-speed railway lines

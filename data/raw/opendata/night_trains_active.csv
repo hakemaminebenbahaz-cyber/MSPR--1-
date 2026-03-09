@@ -1,0 +1,399 @@
+route_id,agency_id,trip_id,trip_origin,origin_departure_time,trip_headsign,destination_arrival_time,trip_short_name,countries,is_active,classes,duration,distance,emissions_co2e,co2_per_km,via
+24,ATC,ATC IR 11501,București Nord,19:28,Arad,08:15,IR 11501,RO,Y,"seat, couchette, sleeper",,604.0,14.0,23.18,Videle - Roșiori Nord - Caracal - Craiova - Caransebeș - Lugoj - Timişoara Nord
+24,ATC,ATC IR 11500,Arad,19:05,București Nord,07:29,IR 11500,RO,Y,"seat, couchette, sleeper",,604.0,14.0,23.18,Timişoara Nord - Lugoj - Caransebeș - Craiova - Caracal - Roșiori Nord - Videle
+133,BDŽ,BDŽ 2626,Varna,21:40,Sofia,05:45,2626,BG,Y,"seat, sleeper",,533.0,11.4,21.39,Beloslav - Poveljanovo - Sindel - Dobrina - Provadiya - Kaspichan - Shumen - Targovishte - Popovo - Strazhitsa - Gorna Oryahovitsa - Zverino - Svoge - Kurilo - Sofia Sever
+133,BDŽ,BDŽ 2627,Sofia,23:00,Varna,06:52,2627,BG,Y,"seat, sleeper",,533.0,11.4,21.39,Sofia Sever - Rebrovo - Svoge - Cerovo - Bov - Lakatnik - Zverino - Mezdra - Roman - Cherven Bryag - Pleven - Targovishte - Shumen - Kaspichan - Provadiya - Dobrina - Sindel - Poveljanovo - Beloslav
+142,BDŽ,BDŽ 2636,Dobrich,20:35,Sofia,05:45,2636,BG,Y,sleeper,,572.0,,,Donchevo - Botevo - Oborishte - General Kiselovo - Valchi Dol - Suvorovo - Chernevo - Kipra - Devnya - Poveljanovo - Zverino - Svoge - Kurilo - Sofia Sever
+142,BDŽ,BDŽ 2637,Sofia,23:00,Dobrich,08:26,2637,BG,Y,sleeper,,572.0,,,Sofia Sever - Rebrovo - Svoge - Cerovo - Bov - Lakatnik - Zverino - Mezdra - Roman - Cherven Bryag - Telish - Poveljanovo - Devnya - Kipra - Chernevo - Suvorovo - Valchi Dol - General Kiselovo - Oborishte - Botevo - Donchevo
+132,BDŽ,BDŽ 3636,Varna,23:45,Sofia,05:45,3636,BG,Y,"seat, sleeper",,513.0,11.0,21.44,Beloslav - Poveljanovo - Sindel - Dobrina - Provadiya - Kaspichan - Shumen - Targovishte - Popovo - Strazhitsa - Gorna Oryahovitsa - Mezdra - Zverino - Svoge - Kurilo - Sofia Sever
+132,BDŽ,BDŽ 3637,Sofia,23:05,Varna,07:16,3637,BG,Y,"seat, sleeper",,513.0,11.0,21.44,Poduiane - Iskar - Kazichene - Zlatica - Pirdop - Klisura - Karlovo - Straldzha - Karnobat - Asparuhovo - Komunari - Dalgopol - Sindel - Poveljanovo - Beloslav
+139,BDŽ,BDŽ 3686,Burgas,22:50,Sofia,05:13,3686,BG,Y,"seat, sleeper",,425.0,9.0,21.18,Sliven
+139,BDŽ,BDŽ 3687,Sofia,23:40,Burgas,05:55,3687,BG,Y,"seat, sleeper",,425.0,9.0,21.18,Pirdop - Sliven
+134,BDŽ,BDŽ 8626,Burgas,22:55,Sofia,05:20,8626,BG,Y,"seat, sleeper",,444.0,9.1,20.5,Vladimir Pavlov - Aytos - Karnobat - Straldzha - Zimnitsa - Jambol - Nova Zagora - Stara Zagora - Elin Pelin - Kazichene - Iskar - Poduiane
+134,BDŽ,BDŽ 8627,Sofia,22:50,Burgas,05:50,8627,BG,Y,"seat, sleeper",,444.0,9.1,20.5,Poduiane - Iskar - Kazichene - Elin Pelin - Ihtiman - Kostenets - Belovo - Septemvri - Pazardzhik - Stambolijski - Plovdiv - Bezmer - Jambol - Zimnitsa - Karnobat - Aytos - Druzhba - Vladimir Pavlov
+131,BDŽ,BDŽ 8656,Varna,23:45,Sofia,09:00,8656,BG,Y,"seat, sleeper",,539.0,11.0,20.41,Beloslav - Sindel - Dalgopol - Komunari - Dimitrovgrad - Jabalkovo - Parvomai - Popovitsa - Cheshnegirovo - Sadov - Katunitsa - Krumovo - Plovdiv - Proslav - Todor Kableshkov - Kadievo - Stambolijski - Pazardzhik - Septemvri - Belovo - Kostenets - Ihtiman
+131,BDŽ,BDŽ 8657,Sofia,21:00,Varna,05:42,8657,BG,Y,"seat, sleeper",,539.0,11.0,20.41,Poduiane - Iskar - Kazichene - Vakarel - Ihtiman - Kostenets - Belovo - Septemvri - Pazardzhik - Stambolijski - Plovdiv - Krumovo - Parvomai - Dimitrovgrad - Komunari - Dalgopol - Sindel - Beloslav
+135,BDŽ,BDŽ 9646,Silistra,18:20,Sofia,05:46,9646,BG,Y,couchette,,605.0,12.4,20.5,Alfatar - Dulovo - Todorovo - Isperih - Samuil - Razgrad - Senovo - Vetovo - Yastrebovo - Ruse Razpredelitel - Ruse - Ivanovo - Dve Mogili - Borovo - Byala - Polski Trambesh - Petko Karavelovo - Gorna Oryahovitsa - Zverino - Lakatnik - Svoge - Kurilo
+135,BDŽ,BDŽ 9647,Sofia,20:10,Silistra,07:20,9647,BG,Y,couchette,,605.0,12.4,20.5,Sofia Sever - Kumarica - Kurilo - Romcha - Vlado Trickov - Lukovo - Rebrovo - Tompsan - Svoge - Gelen - Cerovo - Bov - Lakatnik - Zverino - Mezdra - Roman - Cherven Bryag - Telish - Dolni Dabnik - Pleven - Levski - Pavlikeni
+120,ČD,ČD EC 458,Praha hl.n.,18:28,Zürich HB,08:30,EC 458,"CH, DE, CZ",Y,sleeper,,915.0,18.8,20.55,Ústí nad Labem hl.n. - Dresden Hbf - Riesa - Freiburg (Breisgau) Hbf - Basel SBB
+120,ČD,ČD EN 40459,Zürich HB,19:59,Praha hl.n.,09:23,EN 40459,"CH, DE, CZ",Y,sleeper,,915.0,18.8,20.55,Basel SBB - Basel Bad Bf - Freiburg (Breisgau) Hbf - Offenburg - Karlsruhe Hbf - Mannheim Hbf - Frankfurt (Main) Süd - Leipzig Hbf - Riesa - Dresden Neustadt - Dresden Hbf - Bad Schandau - Děčín hl.n. - Ústí nad Labem hl.n. - Praha-Holešovice
+4,ČD,ČD EN 40476,Budapest-Nyugati,19:30,Berlin Hbf,08:14,EN 40476,"HU, CZ",Y,sleeper,,608.0,10.5,17.27,Vac - Štúrovo - Nové Zámky - Bratislava hl.st. - Kúty - Břeclav - Brno hl.n. - Pardubice hl.n. - Praha hl.n. - Praha-Holešovice - Ústí nad Labem hl.n. - Děčín hl.n. - Bad Schandau - Dresden Hbf - Dresden Neustadt - Berlin Südkreuz
+4,ČD,ČD EN 40457,Praha hl.n.,22:03,Budapest Nyugati,08:29,EN 40457,"HU, CZ",Y,sleeper,,608.0,10.5,17.27,Pardubice hl.n. - Brno hl.n. - Břeclav - Bratislava hl.st. - Nové Zámky - Vac
+61,CFR/MÁV,CFR/MÁV IRN / IC 78,București Nord,21:00,Budapest Keleti,12:50,IRN / IC 78,"HU, RO",Y,"seat, couchette",,858.0,18.2,21.21,Craiova - Timişoara Nord - Arad - Curtici - Lőkösháza - Szolnok
+61,CFR/MÁV,CFR/MÁV IRN / IC 79,Budapest Keleti,15:10,București Nord,08:42,IRN / IC 79,"HU, RO",Y,"seat, couchette",,858.0,18.2,21.21,Szolnok - Lőkösháza - Curtici - Arad - Timişoara Nord - Craiova
+67,CFR/MÁV,CFR/MÁV IC 406,Brașov,18:51,Budapest Keleti,09:55,IC 406,"HU, RO",Y,"seat, couchette, sleeper",,803.0,13.1,16.31,Miercurea Ciuc - Gheorgheni - Deda - Beclean pe Somes - Debrecen - Szolnok
+67,CFR/MÁV,CFR/MÁV IC 407,Budapest Keleti,17:40,Brașov,09:43,IC 407,"HU, RO",Y,"seat, couchette, sleeper",,803.0,13.1,16.31,Szolnok - Debrecen - Carei - Deda - Gheorgheni - Miercurea Ciuc
+59,CFR/MÁV/ÖBB,CFR/MÁV/ÖBB D 346,București Nord,14:07,Wien Hbf,08:21,D 346,"AT, HU, RO",Y,"seat, couchette, sleeper",,1157.0,24.7,21.35,Ploiești Vest - Brașov - Sighișoara - Oradea - Budapest Keleti - Budapest Ferencváros - Budapest Kelenföld - Győr
+59,CFR/MÁV/ÖBB,CFR/MÁV/ÖBB D 347,Wien Hbf,19:42,București Nord,15:06,D 347,"AT, HU, RO",Y,"seat, couchette, sleeper",,1157.0,24.7,21.35,Győr - Budapest Kelenföld - Budapest Keleti - Arad - Alba Iulia - Sighișoara - Brașov - Ploiești Vest
+12,CFR,CFR IC 472,București Nord,18:25,Budapest Keleti,08:50,IC 472,"HU, RO",Y,"seat, couchette, sleeper",,870.0,21.5,24.71,Ploiești Vest - Brașov - Sibiu - Arad - Curtici - Szolnok
+12,CFR,CFR IC 473,Budapest-Keleti,19:10,București Nord,11:35,IC 473,"HU, RO",Y,"seat, couchette, sleeper",,870.0,21.5,24.71,Szolnok - Mezőtúr - Gyoma - Csárdaszállás - Mezőberény - Murony - Békéscsaba - Kétegyháza - Lőkösháza - Curtici - Arad - Sebeș Alba - Sibiu - Făgăraș - Codlea - Brașov - Predeal - Azuga - Bușteni - Sinaia - Câmpina - Ploiești Vest
+251,CFR,CFR R 4116,Sighetu Marmației,15:52,București Nord,07:04,R 4116,RO,Y,couchette,,606.0,15.5,25.58,Vișeu de Jos - Beclean pe Somes - Gheorgheni - Câmpina - Ploiești Vest
+251,CFR,CFR 1641/R 4112,București Nord,21:01,Sighetu Marmației,10:00,1641/R 4112,RO,Y,couchette,,606.0,15.5,25.58,Ploiești Vest - Câmpina - Brașov - Miercurea Ciuc - Beclean pe Somes - Vișeu de Jos
+249,CFR,CFR R-E 4007/1642,Bistrița Nord,21:25,București Nord,06:20,R-E 4007/1642,RO,Y,"seat, couchette",,451.0,9.9,21.95,Sărățel - Gheorgheni - Brașov - Câmpina - Ploiești Vest
+249,CFR,CFR 1641/R-E 4008,București Nord,21:03,Bistrița Nord,05:57,1641/R-E 4008,RO,Y,"seat, couchette",,451.0,9.9,21.95,Ploiești Vest - Brașov - Gheorgheni - Sărățel
+250,CFR,CFR 1641 (CN),București Nord,21:03,Cluj-Napoca,07:02,1641 (CN),RO,Y,"seat, couchette",,493.0,10.3,20.89,Ploiești Vest - Brașov - Sighișoara
+250,CFR,CFR 1642 (CN),Cluj-Napoca,20:03,București Nord,06:20,1642 (CN),RO,Y,"seat, couchette",,493.0,10.3,20.89,Sighișoara - Brașov - Câmpina - Ploiești Vest
+20,CFR,CFR 1641 (SM),București Nord,21:01,Satu Mare,10:39,1641 (SM),RO,Y,"seat, couchette, sleeper",,758.0,14.8,19.53,Ploiești Vest - Câmpina - Brașov - Miercurea Ciuc - Beclean pe Somes - Baia Mare
+20,CFR,CFR 1642 (SM),Satu Mare,16:20,București Nord,06:20,1642 (SM),RO,Y,"seat, couchette, sleeper",,758.0,14.8,19.53,Baia Mare - Beclean pe Somes - Miercurea Ciuc - Brașov - Câmpina - Ploiești Vest
+19,CFR,CFR 1653,București Nord,22:35,Vatra Dornei Băi,07:34,1653,RO,Y,"seat, couchette, sleeper",,606.0,13.0,21.45,Ploiești Sud - Suceava - Câmpulung Moldovenesc - Vatra Dornei
+19,CFR,CFR 1654,Vatra Dornei Băi,20:28,București Nord,05:56,1654,RO,Y,"seat, couchette, sleeper",,606.0,13.0,21.45,Vatra Dornei - Câmpulung Moldovenesc - Suceava - Ploiești Sud
+23,CFR,CFR 1667,București Nord,22:50,Iași,05:26,1667,RO,Y,"seat, couchette, sleeper",,405.0,9.8,24.2,Ploiești Sud - Buzău
+23,CFR,CFR 1668,Iași,22:45,București Nord,05:28,1668,RO,Y,"seat, couchette, sleeper",,405.0,9.8,24.2,Vaslui - Bârlad
+14,CFR,CFR 78/1743,București Nord,21:00,Oradea,11:50,78/1743,RO,Y,"seat, sleeper",,711.0,17.1,24.05,Craiova - Timişoara Nord - Arad
+14,CFR,CFR 1744/79,Oradea,18:04,București Nord,08:42,1744/79,RO,Y,"seat, sleeper",,711.0,17.1,24.05,Arad - Timişoara Nord - Craiova
+15,CFR,CFR 1763,Iași,15:35,Timişoara Nord,08:56,1763,RO,Y,"seat, couchette, sleeper",,849.0,18.0,21.2,Suceava - Câmpulung Moldovenesc - Vatra Dornei - Beclean pe Somes - Dej - Cluj-Napoca - Deva - Arad
+15,CFR,CFR 1765,Timişoara Nord,14:51,Iași,08:13,1765,RO,Y,"seat, couchette, sleeper",,849.0,18.0,21.2,Arad - Deva - Alba Iulia - Cluj-Napoca - Dej - Beclean pe Somes - Câmpulung Moldovenesc - Suceava
+21,CFR,CFR 1821,București Nord,23:28,Arad,11:24,1821,RO,Y,"seat, couchette, sleeper",,604.0,14.0,23.18,Craiova - Petroșani - Deva
+21,CFR,CFR 1822,Arad,17:48,București Nord,05:25,1822,RO,Y,"seat, couchette, sleeper",,604.0,14.0,23.18,Deva - Petroșani - Craiova
+11,CFR,CFR 1837,Iași,20:40,Cluj-Napoca,05:20,1837,RO,Y,"seat, couchette",,459.0,9.5,20.7,Suceava - Câmpulung Moldovenesc
+11,CFR,CFR 1838,Cluj-Napoca,20:30,Iași,05:10,1838,RO,Y,"seat, couchette",,459.0,9.5,20.7,Dej - Beclean pe Somes - Vatra Dornei
+26,CFR,CFR 1920,Constanța,18:43,Oradea,12:40,1920,RO,Y,"seat, couchette, sleeper",,991.0,,,Medgidia - Fetești - București Nord - Videle - Roșiori Nord - Caracal - Craiova - Petroșani - Subcetate - Simeria - Deva - Ilia - Arad - Chișineu-Criș
+26,CFR,CFR 1922,Oradea,14:20,Constanța,08:31,1922,RO,Y,"seat, couchette, sleeper",,991.0,,,Chișineu-Criș - Arad - Ilia - Deva - Simeria - Subcetate - Petroșani - Târgu Jiu - Craiova - Caracal - Roșiori Nord - Videle - București Nord - Fetești - Medgidia
+25,CFR,CFR 1941,Satu Mare,12:20,Mangalia,07:30,1941,RO,Y,"seat, couchette, sleeper",,974.0,,,Baia Mare - Dej - Beclean pe Somes - Deda - Gheorgheni - Miercurea Ciuc - Brașov - Constanța
+25,CFR,CFR 1942/R 8810,Mangalia,14:26,Satu Mare,09:39,1942/R 8810,RO,Y,"seat, couchette, sleeper",,974.0,,,Constanța - Bucuresti Baneasa - Ploiești Vest - Brașov - Miercurea Ciuc - Gheorgheni - Dej - Baia Mare
+13,CFR,CFR 1952,Suceava Nord,20:25,Constanța,03:59,1952,RO,Y,"seat, couchette",,526.0,12.7,24.14,Suceava - Bacău - Buzău
+13,CFR,CFR 1954,Constanța,23:30,Suceava Nord,07:16,1954,RO,Y,"seat, couchette",,526.0,12.7,24.14,Fetești - Buzău - Bacău - Suceava
+22,CFM/CFR,CFM/CFR 401,Chişinău,17:05,București Nord,06:47,401,"RO, MD",Y,"seat, couchette, sleeper",,584.0,13.5,23.12,Ungheni - Ungheni Prut - Nicolina - Iași - Târgu Frumos - Roman - Buzău - Mizil - Ploiești Sud
+22,CFM/CFR,CFM/CFR 402,București Nord,19:10,Chişinău,08:44,402,"RO, MD",Y,"seat, couchette, sleeper",,584.0,13.5,23.12,Ploiești Sud - Mizil - Buzău - Râmnicu Sărat - Focșani - Mărășești - Adjud - Bacău - Roman - Târgu Frumos - Ungheni
+39,CS,CS 1001 (A),London Euston,21:15,Aberdeen,07:40,1001 (A),GB,Y,"seat, sleeper",,877.0,18.1,20.64,Birmingham International  - Crewe - Preston - Dundee
+39,CS,CS 1002 (A),Aberdeen,21:43,London Euston,08:00,1002 (A),GB,Y,"seat, sleeper",,877.0,18.1,20.64,Dundee - Preston - Crewe - Birmingham International 
+40,CS,CS 1001 (FW),London Euston,21:15,Fort William / An Gearasdan,10:00,1001 (FW),GB,Y,"seat, sleeper",,839.0,18.8,22.41,Birmingham International  - Crewe - Preston - Crianlarich
+40,CS,CS 1002 (FW),Fort William / An Gearasdan,19:50,London Euston,08:00,1002 (FW),GB,Y,"seat, sleeper",,839.0,18.8,22.41,Crianlarich - Preston - Crewe - Birmingham International 
+41,CS,CS 1001 (I),London Euston,21:15,Inverness / Inbhir Nis,08:45,1001 (I),GB,Y,"seat, sleeper",,914.0,18.9,20.68,Birmingham International  - Crewe - Preston - Stirling - Perth / Peairt - Aviemore
+41,CS,CS 1002 (I),Inverness / Inbhir Nis,20:45,London Euston,08:00,1002 (I),GB,Y,"seat, sleeper",,914.0,18.9,20.68,Aviemore - Perth / Peairt - Stirling - Preston - Crewe - Birmingham International 
+37,CS,CS 1003 (G),London Euston,23:45,Glasgow Central,07:30,1003 (G),GB,Y,"seat, sleeper",,645.0,14.6,22.64,Watford Junction - Carlisle - Motherwell
+37,CS,CS 1004 (G),Glasgow Central,23:40,London Euston,07:15,1004 (G),GB,Y,"seat, sleeper",,645.0,14.6,22.64,Motherwell - Carlisle - Watford Junction
+38,CS,CS 1003 (E),London Euston,23:45,Edinburgh Waverley,07:30,1003 (E),GB,Y,"seat, sleeper",,644.0,14.7,22.83,Watford Junction - Carlisle
+38,CS,CS 1004 (E),Edinburgh Waverley,23:40,London Euston,07:15,1004 (E),GB,Y,"seat, sleeper",,644.0,14.7,22.83,Carlisle - Watford Junction
+237,ES,ES 452,Praha hl.n.,18:04,Bruxelles Midi / Brussel Zuid,09:27,452,"CZ, DE, NL, BE",Y,"seat, couchette, sleeper",,852.0,16.2,19.01,Ústí nad Labem hl.n. - Děčín hl.n. - Bad Schandau - Dresden Hbf - Dresden Neustadt - Berlin Hbf - Deventer - Amersfoort Centraal - Amsterdam Centraal - Rotterdam Centraal - Antwerpen Centraal / Anvers Central
+237,ES,ES 453,Bruxelles Midi / Brussel Zuid,19:22,Praha hl.n.,10:45,453,"CZ, DE, NL, BE",Y,"seat, couchette, sleeper",,852.0,16.2,19.01,Antwerpen Centraal / Anvers Central - Rotterdam Centraal - Den Haag - Schipol Airport - Amsterdam Centraal - Amersfoort Centraal - Deventer - Berlin Hbf - Dresden Neustadt - Dresden Hbf - Bad Schandau - Děčín hl.n. - Ústí nad Labem hl.n.
+238,ES,ES 496,Paris Gare du Nord,17:45,Berlin Hbf,09:59,496,"DE, BE, FR",Y,"seat, couchette, sleeper",,1120.0,16.2,14.46,Bruxelles Midi / Brussel Zuid
+238,ES,ES 497,Berlin Hbf,18:31,Paris Gare du Nord,10:00,497,"DE, BE, FR",Y,"seat, couchette, sleeper",,1120.0,16.2,14.46,Bruxelles Midi / Brussel Zuid
+239,ES,ES 454,Amsterdam Centraal,,Milano Centrale,,454,"NL, DE, CH, IT",Y,"seat, couchette, sleeper",,1144.0,16.2,14.16,Utrecht Centraal - Arnhem Centraal - Duisburg Hbf - Düsseldorf Hbf - Köln Süd - Basel SBB - Bern - Brig - Stresa
+239,ES,ES 455,Milano Centrale,,Amsterdam Centraal,,455,"NL, DE, CH, IT",Y,"seat, couchette, sleeper",,1144.0,16.2,14.16,Stresa - Brig - Bern - Basel SBB - Köln Süd - Düsseldorf Hbf - Duisburg Hbf - Arnhem Centraal - Utrecht Centraal
+240,ES,ES 456,Bruxelles Midi / Brussel Zuid,17:56,Milano Porta Garibaldi,11:30,456,"BE, DE, CH, IT",Y,"seat, couchette, sleeper",,1107.0,16.2,14.63,Liège Guillemins / Luik Guillemins - Aachen Hbf - Köln Süd - Zürich HB - Arth-Goldau - Göschenen - Bellinzona - Lugano - Chiasso - Como San Giovanni
+240,ES,ES 457,Milano Porta Garibaldi,17:30,Bruxelles Midi / Brussel Zuid,11:10,457,"BE, DE, CH, IT",Y,"seat, couchette, sleeper",,1107.0,16.2,14.63,Como San Giovanni - Chiasso - Lugano - Bellinzona - Göschenen - Arth-Goldau - Zürich HB - Köln Süd - Aachen Hbf - Liège Guillemins / Luik Guillemins
+101,FS,FS IC Notte 1954,Palermo Centrale,18:48,Roma Termini,07:18,IC Notte 1954,IT,Y,"seat, couchette, sleeper",,867.0,17.7,20.42,Termini Imerese - Barcellona Castroreale - Messina Centrale - Lamezia Terme Centrale
+101,FS,FS IC Notte 1955 (P),Roma Termini,20:31,Palermo Centrale,09:24,IC Notte 1955 (P),IT,Y,"seat, couchette, sleeper",,867.0,17.7,20.42,Baqël - Salerno - Messina Centrale - Barcellona Castroreale - Termini Imerese
+102,FS,FS IC Notte 1958,Palermo Centrale,21:10,Roma Termini,09:51,IC Notte 1958,IT,Y,"seat, couchette, sleeper",,867.0,17.7,20.42,Termini Imerese - Barcellona Castroreale - Messina Centrale - Salerno - Baqël
+102,FS,FS IC Notte 1959 (P),Roma Termini,23:00,Palermo Centrale,11:57,IC Notte 1959 (P),IT,Y,"seat, couchette, sleeper",,867.0,17.7,20.42,Lamezia Terme Centrale - Messina Centrale - Barcellona Castroreale - Termini Imerese
+103,FS,FS IC Notte 1955 (S),Roma Termini,20:31,Siracusa,09:01,IC Notte 1955 (S),IT,Y,"seat, couchette, sleeper",,820.0,16.5,20.12,Baqël - Salerno - Messina Centrale - Taormina Giardini - Catania Centrale
+103,FS,FS IC Notte 1956,Siracusa,19:10,Roma Termini,07:18,IC Notte 1956,IT,Y,"seat, couchette, sleeper",,820.0,16.5,20.12,Catania Centrale - Taormina Giardini - Messina Centrale - Lamezia Terme Centrale
+104,FS,FS IC Notte 1959 (S),Roma Termini,23:00,Siracusa,11:29,IC Notte 1959 (S),IT,Y,"seat, couchette, sleeper",,820.0,16.5,20.12,Lamezia Terme Centrale - Messina Centrale - Taormina Giardini - Catania Centrale
+104,FS,FS IC Notte 1960,Siracusa,21:45,Roma Termini,09:51,IC Notte 1960,IT,Y,"seat, couchette, sleeper",,820.0,16.5,20.12,Catania Centrale - Taormina Giardini - Messina Centrale - Salerno - Baqël
+85,FS,FS IC Notte 1962,Siracusa,13:35,Milano Centrale,10:10,IC Notte 1962,IT,Y,"seat, couchette, sleeper",,1380.0,29.3,21.23,Catania Centrale - Taormina Giardini - Messina Centrale - Lamezia Terme Centrale - Salerno - Firenze S. M. N. - Bologna Centrale
+85,FS,FS IC Notte 1963,Milano Centrale,20:10,Siracusa,15:48,IC Notte 1963,IT,Y,"seat, couchette, sleeper",,1380.0,29.3,21.23,Bologna Centrale - Firenze S. M. N. - Salerno - Lamezia Terme Centrale - Messina Centrale - Taormina Giardini - Catania Centrale
+84,FS,FS IC Notte 1964,Palermo Centrale,12:58,Milano Centrale,10:10,IC Notte 1964,IT,Y,"seat, couchette, sleeper",,1427.0,30.5,21.37,Termini Imerese - Barcellona Castroreale - Messina Centrale - Lamezia Terme Centrale - Salerno - Firenze S. M. N. - Bologna Centrale
+84,FS,FS IC Notte 1967,Milano Centrale,20:10,Palermo Centrale,16:55,IC Notte 1967,IT,Y,"seat, couchette, sleeper",,1427.0,30.5,21.37,Bologna Centrale - Firenze S. M. N. - Salerno - Lamezia Terme Centrale - Messina Centrale - Barcellona Castroreale - Termini Imerese
+86,FS,FS IC Notte 752,Lecce,19:50,Milano Centrale,07:12,IC Notte 752,IT,Y,"seat, couchette, sleeper",,1032.0,20.8,20.16,Brindisi - Bari Centrale - Foggia - Bologna Centrale
+86,FS,FS IC Notte 755,Milano Centrale,21:50,Lecce,09:30,IC Notte 755,IT,Y,"seat, couchette, sleeper",,1032.0,20.8,20.16,Bologna Centrale - Foggia - Bari Centrale - Brindisi
+97,FS,FS IC Notte 754,Lecce,20:25,Torino Lingotto,09:15,IC Notte 754,IT,Y,"seat, couchette, sleeper",,1147.0,23.0,20.05,Brindisi - Bari Centrale - Foggia - Bologna Centrale
+97,FS,FS IC Notte 757,Torino Lingotto,20:58,Lecce,10:10,IC Notte 757,IT,Y,"seat, couchette, sleeper",,1147.0,23.0,20.05,Bologna Centrale - Foggia - Bari Centrale - Brindisi
+76,FS,FS IC Notte 758,Lecce,18:31,Milano Centrale,07:05,IC Notte 758,IT,Y,"seat, couchette, sleeper",,1092.0,22.1,20.24,Brindisi - Taranto - Bari Centrale - Foggia - Bologna Centrale
+76,FS,FS IC Notte 765,Milano Centrale,21:15,Bari Centrale,07:00,IC Notte 765,IT,Y,"seat, couchette, sleeper",,1092.0,22.1,20.24,Bologna Centrale - Foggia
+106,FS,FS IC Notte 763,Bolzano / Bozen,21:30,Roma Termini,06:06,IC Notte 763,IT,Y,"seat, couchette, sleeper",,631.0,12.5,19.81,Verona Porta Nuova - Orvieto
+106,FS,FS IC Notte 764,Roma Termini,22:05,Bolzano / Bozen,06:28,IC Notte 764,IT,Y,"seat, couchette, sleeper",,631.0,12.5,19.81,Orvieto - Verona Porta Nuova
+105,FS,FS IC Notte 770,Trieste Centrale,19:11,Roma Termini,06:35,IC Notte 770,IT,Y,"seat, couchette, sleeper",,711.0,15.3,21.52,Udine - Venezia Santa Lucia - Bologna Centrale
+105,FS,FS IC Notte 774,Roma Termini,22:35,Trieste Centrale,09:55,IC Notte 774,IT,Y,"seat, couchette, sleeper",,711.0,15.3,21.52,Venezia Santa Lucia - Udine
+96,FS,FS IC Notte 788,Lecce,22:15,Roma Termini,06:10,IC Notte 788,IT,Y,"seat, couchette, sleeper",,647.0,12.7,19.63,Brindisi - Bari Centrale
+96,FS,FS IC Notte 789,Roma Termini,23:58,Lecce,08:10,IC Notte 789,IT,Y,"seat, couchette, sleeper",,647.0,12.7,19.63,Bari Centrale - Brindisi
+100,FS,FS IC Notte 794,Reggio Calabria Centrale,21:43,Torino Lingotto,14:32,IC Notte 794,IT,Y,"seat, couchette, sleeper",,1358.0,25.7,18.92,Tropea - Lamezia Terme Centrale - Roma Ostiense - Civitavecchia - Grosseto - Livorno Centrale - Pisa Centrale - La Spezia Centrale - Genova Piazza Principe
+100,FS,FS IC Notte 795,Torino Lingotto,15:29,Reggio Calabria Centrale,08:45,IC Notte 795,IT,Y,"seat, couchette, sleeper",,1358.0,25.7,18.92,Genova Piazza Principe - La Spezia Centrale - Pisa Centrale - Livorno Centrale - Grosseto - Civitavecchia - Roma Ostiense - Lamezia Terme Centrale - Tropea
+99,FS,FS IC Notte 796,Salerno,20:52,Torino Lingotto,10:32,IC Notte 796,IT,Y,"seat, couchette, sleeper",,962.0,17.9,18.61,Napoli Centrale - Roma Tiburtina - Pisa Centrale - La Spezia Centrale - Genova Piazza Principe
+99,FS,FS IC Notte 1515,Torino Lingotto,20:23,Salerno,09:11,IC Notte 1515,IT,Y,"seat, couchette, sleeper",,962.0,17.9,18.61,Genova Piazza Principe - La Spezia Centrale - Pisa Centrale - Civitavecchia - Roma Ostiense - Baqël
+83,FS,FS IC Notte 797,Torino Porta Susa,20:40,Salerno,09:46,IC Notte 797,IT,Y,"seat, couchette, sleeper",,1009.0,20.3,20.12,Milano Porta Garibaldi - Roma Tiburtina - Baqël
+83,FS,FS IC Notte 798,Salerno,20:38,Torino Porta Susa,09:05,IC Notte 798,IT,Y,"seat, couchette, sleeper",,1009.0,20.3,20.12,Baqël - Roma Tiburtina - Orvieto - Milano Porta Garibaldi
+65,GA,GA F5 725,Oslo S,22:25,Stavanger,07:20,F5 725,NO,Y,"seat, couchette, sleeper",,588.0,0.18,0.31,Drammen - Kongsberg - Sandnes
+65,GA,GA F5 726,Stavanger,22:15,Oslo S,07:26,F5 726,NO,Y,"seat, couchette, sleeper",,588.0,0.18,0.31,Sandnes - Kongsberg - Drammen
+42,GWR,GWR Sleeper (Penzance),London Paddington,23:45,Penzance,07:50,Sleeper (Penzance),GB,Y,"seat, sleeper",,489.0,10.0,20.45,Reading - Plymouth
+42,GWR,GWR Sleeper (London),Penzance,21:45,London Paddington,05:08,Sleeper (London),GB,Y,"seat, sleeper",,489.0,10.0,20.45,Plymouth - Reading
+3,HŽPP,HŽPP 1820,Split,21:11,Zagreb Gl. K.,05:49,1820,HR,Y,"seat, couchette, sleeper",,424.0,11.6,27.36,Knin - Karlovac
+3,HŽPP,HŽPP 1821,Zagreb Gl. K.,22:30,Split,07:01,1821,HR,Y,"seat, couchette, sleeper",,424.0,11.6,27.36,Karlovac - Knin
+47,HŽPP,HŽPP 1840,Vukovar,16:57,Split,06:51,1840,HR,Y,"seat, couchette, sleeper",,700.0,6.5,9.29,Slavonski Brod - Zagreb Gl. K. - Karlovac - Knin
+47,HŽPP,HŽPP 1841,Split,21:11,Vukovar,11:11,1841,HR,Y,"seat, couchette, sleeper",,700.0,6.5,9.29,Knin - Zagreb Gl. K. - Slavonski Brod
+48,HŽPP,HŽPP 1880,Osijek,19:48,Split,09:21,1880,HR,Y,"seat, couchette, sleeper",,677.0,6.5,9.6,Zagreb Gl. K. - Knin
+48,HŽPP,HŽPP 1881,Split,22:23,Osijek,12:04,1881,HR,Y,"seat, couchette, sleeper",,677.0,6.5,9.6,Knin - Zagreb Gl. K. - Bjelovar
+57,HŽPP/ÖBB,HŽPP/ÖBB EN 414,Zagreb Gl. K.,19:38,Stuttgart Hbf,08:38,EN 414,"DE, AT, SI, HR",Y,"seat, couchette, sleeper",,807.0,11.1,13.75,Ljubljana - Villach Hbf - Rosenheim - München Ost - Augsburg Hbf - Ulm Hbf
+57,HŽPP/ÖBB,HŽPP/ÖBB EN 40237,Stuttgart Hbf,20:29,Zagreb Gl. K.,10:39,EN 40237,"DE, AT, SI, HR",Y,"seat, couchette, sleeper",,807.0,11.1,13.75,Ulm Hbf - Augsburg Hbf - München Ost - Rosenheim - Villach Hbf - Ljubljana
+117,HŽPP/ÖBB,HŽPP/ÖBB EN 40414,Zagreb Gl. K.,19:38,Zürich HB,09:20,EN 40414,"AT, CH, SI, HR",Y,"seat, couchette, sleeper",,903.0,5.3,5.87,Ljubljana - Villach Hbf - Innsbruck Hbf - St. Anton am Arlberg - Feldkirch - Buchs (SG)
+117,HŽPP/ÖBB,HŽPP/ÖBB EN 40465,Zürich HB,19:40,Zagreb Gl. K.,10:39,EN 40465,"AT, CH, SI, HR",Y,"seat, couchette, sleeper",,903.0,5.3,5.87,Buchs (SG) - Feldkirch - Bludenz - St. Anton am Arlberg - Innsbruck Hbf - Villach Hbf - Ljubljana
+58,MÁV,MÁV EN 40457,Berlin Hbf,19:21,Budapest Nyugati,08:29,EN 40457,"DE, CZ, SK, HU",Y,"seat, couchette, sleeper",,995.0,17.0,17.09,Berlin Südkreuz - Dresden Neustadt - Dresden Hbf - Ústí nad Labem hl.n. - Praha-Holešovice - Bratislava hl.st. - Vac
+58,MÁV,MÁV EN 40476,Budapest Nyugati,19:30,Berlin Hbf,08:15,EN 40476,"DE, CZ, SK, HU",Y,"seat, couchette, sleeper",,995.0,17.0,17.09,Vac - Bratislava hl.st. - Brno hl.n. - Dresden Hbf - Dresden Neustadt - Berlin Südkreuz
+223,MÁV,MÁV 1246 / 1605,Budapest Déli,20:30,Koper,08:34,1246 / 1605,"HU, SI, HR",Y,"seat, couchette, sleeper",,703.0,,,Budapest Kelenföld - Vesprem - Zalaegerszeg - Ljubljana
+223,MÁV,MÁV 1604 / 1247,Koper,20:15,Budapest Déli,08:29,1604 / 1247,"HU, SI, HR",Y,"seat, couchette, sleeper",,703.0,,,Ljubljana - Zalaegerszeg - Vesprem - Budapest Kelenföld
+224,MÁV,MÁV 1246 / 1605 / 481,Budapest Déli,20:30,Rijeka,09:25,1246 / 1605 / 481,"HU, SI, HR",Y,"seat, couchette, sleeper",,703.0,,,Budapest Kelenföld - Vesprem - Zalaegerszeg - Ljubljana - Opatija Matulji
+224,MÁV,MÁV 480 / 1604 / 1247,Rijeka,20:50,Budapest Déli,08:29,480 / 1604 / 1247,"HU, SI, HR",Y,"seat, couchette, sleeper",,703.0,,,Opatija Matulji - Ljubljana - Zalaegerszeg - Vesprem - Budapest Kelenföld
+225,MÁV,MÁV IC 1204,Budapest Keleti,18:53,Split,08:56,IC 1204,"HU, HR",Y,"seat, couchette, sleeper",,784.0,,,Budapest Kelenföld - Székesfehérvár - Siófok - Nagykanizsa - Zagreb Gl. K. - Karlovac - Knin
+225,MÁV,MÁV IC 1205,Split,18:28,Budapest Keleti,09:12,IC 1205,"HU, HR",Y,"seat, couchette, sleeper",,784.0,,,Knin - Karlovac - Zagreb Gl. K. - Nagykanizsa - Siófok - Székesfehérvár - Budapest Kelenföld
+74,MÁV/ÖBB,MÁV/ÖBB EN 40462,Budapest Keleti,20:40,Zürich HB,08:20,EN 40462,"AT, CH, HU",Y,"seat, couchette, sleeper",,1083.0,,,Budapest Kelenföld - Győr - Wien Hbf - Wien Meidling - St. Pölten Hbf - Linz Hbf - Bludenz - Feldkirch - Buchs (SG)
+74,MÁV/ÖBB,MÁV/ÖBB EN 40467,Zürich HB,20:40,Budapest Keleti,09:19,EN 40467,"AT, CH, HU",Y,"seat, couchette, sleeper",,1083.0,,,Buchs (SG) - Feldkirch - Bludenz - Linz Hbf - St. Pölten Hbf - Wien Meidling - Wien Hbf - Győr - Budapest Kelenföld
+54,MÁV/ÖBB,MÁV/ÖBB EN 50237,Budapest Keleti,20:40,Stuttgart Hbf,08:38,EN 50237,"DE, AT, HU",Y,"seat, couchette, sleeper",,966.0,,,Budapest Kelenföld - Győr - Wien Hbf - Wien Meidling - St. Pölten Hbf - Linz Hbf - Rosenheim - München Ost - Augsburg Hbf - Ulm Hbf
+54,MÁV/ÖBB,MÁV/ÖBB EN 50462,Stuttgart Hbf,20:29,Budapest Keleti,09:19,EN 50462,"DE, AT, HU",Y,"seat, couchette, sleeper",,966.0,,,Ulm Hbf - Augsburg Hbf - München Ost - Salzburg Hbf - Linz Hbf - St. Pölten Hbf - Wien Meidling - Wien Hbf - Győr - Budapest Kelenföld
+127,MÁV/PKP,MÁV/PKP IC 407 / EN 477,Warszawa Wschodnia,19:37,Budapest Nyugati,08:29,IC 407 / EN 477,"PL, CZ, SK, HU",Y,"seat, couchette, sleeper",,902.0,,,Warszawa Centralna - Kraków Gł. - Trzebinia - Katowice - Rybnik - Bratislava hl.st. - Nové Zámky - Vac
+127,MÁV/PKP,MÁV/PKP EN 476,Budapest Nyugati,19:29,Warszawa Centralna,08:51,EN 476,"PL, CZ, SK, HU",Y,"seat, couchette, sleeper",,902.0,,,Vac - Nové Zámky - Bratislava hl.st. - Břeclav - Katowice - Trzebinia - Kraków Gł.
+53,ÖBB,ÖBB NJ 236,Venezia Santa Lucia,21:05,Stuttgart Hbf,09:26,NJ 236,"DE, AT, IT",Y,"seat, couchette, sleeper",,852.0,,,Udine - Villach Hbf - Salzburg Hbf - München Ost - Augsburg Hbf - Ulm Hbf
+53,ÖBB,ÖBB NJ 237,Stuttgart Hbf,20:01,Venezia Santa Lucia,08:34,NJ 237,"DE, AT, IT",Y,"seat, couchette, sleeper",,852.0,,,Ulm Hbf - Augsburg Hbf - München Ost - Salzburg Hbf - Villach Hbf - Udine
+49,ÖBB,ÖBB NJ 294,Roma Tiburtina,18:10,München Hbf,09:22,NJ 294,"DE, AT, IT",Y,"seat, couchette, sleeper",,1092.0,,,Firenze Campo di Marte - Bologna Centrale - Villach Hbf - Salzburg Hbf - Rosenheim
+49,ÖBB,ÖBB NJ 295,München Hbf,20:10,Roma Termini,09:10,NJ 295,"DE, AT, IT",Y,"seat, couchette, sleeper",,1092.0,,,Rosenheim - Salzburg Hbf - Villach Hbf - Bologna Centrale - Firenze S. M. N.
+44,ÖBB,ÖBB NJ 402,Zürich HB,21:34,Amsterdam Centraal,09:44,NJ 402,"DE, CH, NL",Y,"seat, couchette, sleeper",,845.0,18.0,21.3,Basel SBB - Basel Bad Bf - Freiburg (Breisgau) Hbf - Offenburg - Bonn-Beuel - Köln Hbf - Eindhoven Centraal - Utrecht Centraal
+44,ÖBB,ÖBB NJ 403,Amsterdam Centraal,20:15,Zürich HB,08:05,NJ 403,"DE, CH, NL",Y,"seat, couchette, sleeper",,845.0,18.0,21.3,Utrecht Centraal - Eindhoven Centraal - Köln Hbf - Bonn-Beuel - Offenburg - Freiburg (Breisgau) Hbf - Basel Bad Bf - Basel SBB
+232,ÖBB,ÖBB NJ 40233,Wien Hbf,19:18,Roma Tiburtina,10:05,NJ 40233,"AT, IT",Y,"seat, couchette, sleeper",,1112.0,16.0,14.39,Wiener Neustadt Hbf - Bruck an der Mur - Klagenfurt Hbf - Villach Hbf - Bologna Centrale - Firenze S. M. N.
+232,ÖBB,ÖBB NJ 40294,Roma Tiburtina,18:10,Wien Hbf,08:52,NJ 40294,"AT, IT",Y,"seat, couchette, sleeper",,1112.0,16.0,14.39,Firenze Campo di Marte - Bologna Centrale - Villach Hbf - Klagenfurt Hbf
+233,ÖBB,ÖBB NJ 40236,Venezia Santa Lucia,21:05,Wien Hbf,08:17,NJ 40236,"AT, IT",Y,"seat, couchette, sleeper",,619.0,,,Treviso Centrale - Udine - Villach Hbf - Salzburg Hbf - Linz Hbf
+233,ÖBB,ÖBB NJ 40466,Wien Hbf,21:39,Venezia Santa Lucia,08:34,NJ 40466,"AT, IT",Y,"seat, couchette, sleeper",,619.0,,,St. Pölten Hbf - Linz Hbf - Salzburg Hbf - Villach Hbf - Udine - Treviso Centrale
+18,ÖBB,ÖBB NJ 40420,Innsbruck Hbf,20:46,Hamburg Altona,09:06,NJ 40420,"DE, AT",Y,"seat, couchette, sleeper",,1112.0,16.0,14.39,Jenbach - Wörgl Hbf - Kufstein - Rosenheim - München Hbf - Augsburg Hbf - Nürnberg Hbf - Kassel-Wilhelmshöhe - Göttingen - Hannover Hbf - Hamburg Harburg - Hamburg Hbf
+18,ÖBB,ÖBB NJ 40491,Hamburg Altona,19:56,Innsbruck Hbf,09:14,NJ 40491,"DE, AT",Y,"seat, couchette, sleeper",,1112.0,16.0,14.39,Hamburg Hbf - Hamburg Harburg - Hannover Hbf - Göttingen - Kassel-Wilhelmshöhe - Würzburg Hbf - Nürnberg Hbf - Augsburg Hbf - München Hbf - Rosenheim - Kufstein - Wörgl Hbf - Jenbach
+46,ÖBB,ÖBB NJ 40421,Amsterdam Centraal,18:28,Wien Hbf,09:17,NJ 40421,"DE, AT, NL",Y,"seat, couchette, sleeper",,,,,Amersfoort Centraal - Deventer - Hannover Hbf - Kassel-Wilhelmshöhe - Würzburg Hbf - Nürnberg Hbf - Regensburg Hbf - Passau Hbf - Wels Hbf - Linz Hbf - St. Pölten Hbf - Wien Meidling
+46,ÖBB,ÖBB NJ 40490,Wien Hbf,20:10,Amsterdam Centraal,09:58,NJ 40490,"DE, AT, NL",Y,"seat, couchette, sleeper",,,,,Wien Meidling - St. Pölten Hbf - Linz Hbf - Wels Hbf - Passau Hbf - Regensburg Hbf - Nürnberg Hbf - Würzburg Hbf - Kassel-Wilhelmshöhe - Hamm (Westf) Hbf - Münster (Westf) Hbf - Deventer - Amersfoort Centraal
+2,ÖBB,ÖBB NJ 408,Berlin Hbf,21:03,Zürich HB,09:04,NJ 408,"DE, CH",Y,"seat, couchette, sleeper",,,,,Berlin Südkreuz - Lutherstadt Wittenberg Hbf - Bitterfeld - Leipzig Hbf - Frankfurt (Main) Süd - Mannheim Hbf - Karlsruhe Hbf - Baden-Baden - Offenburg - Freiburg (Breisgau) Hbf - Basel Bad Bf - Basel SBB
+2,ÖBB,ÖBB NJ 409,Zürich HB,19:59,Berlin Hbf,07:20,NJ 409,"DE, CH",Y,"seat, couchette, sleeper",,,,,Basel SBB - Basel Bad Bf - Freiburg (Breisgau) Hbf - Offenburg - Karlsruhe Hbf - Mannheim Hbf - Frankfurt (Main) Süd - Leipzig Hbf - Halle (Saale) Hbf - Bitterfeld - Lutherstadt Wittenberg Hbf - Berlin Südkreuz
+45,ÖBB,ÖBB NJ 420,Innsbruck Hbf,20:46,Amsterdam Centraal,09:58,NJ 420,"DE, AT, NL",Y,"seat, couchette, sleeper",,,,,Jenbach - Wörgl Hbf - Kufstein - Rosenheim - München Hbf - Augsburg Hbf - Nürnberg Hbf - Würzburg Hbf - Kassel-Wilhelmshöhe - Hamm (Westf) Hbf - Münster (Westf) Hbf - Deventer - Amersfoort Centraal
+45,ÖBB,ÖBB NJ 421,Amsterdam Centraal,18:28,Innsbruck Hbf,09:14,NJ 421,"DE, AT, NL",Y,"seat, couchette, sleeper",,,,,Amersfoort Centraal - Deventer - Hannover Hbf - Kassel-Wilhelmshöhe - Würzburg Hbf - Nürnberg Hbf - Augsburg Hbf - München Hbf - Rosenheim - Kufstein - Wörgl Hbf - Jenbach
+1,ÖBB,ÖBB NJ 40425,Bruxelles Midi / Brussel Zuid,19:06,Wien Hbf,10:13,NJ 40425,"BE, DE, AT",Y,"seat, couchette, sleeper",,,,,Bruxelles Noord / Brussel Nord - Liège-Guillemins - Aachen Hbf - Köln Hbf - Bonn-Beuel - Koblenz Hbf - Mainz Hbf - München Ost - Rosenheim - Salzburg Hbf - Linz Hbf - St. Pölten Hbf - Wien Meidling
+1,ÖBB,ÖBB NJ 40468,Wien Hbf,18:08,Bruxelles Midi / Brussel Zuid,09:56,NJ 40468,"BE, DE, AT",Y,"seat, couchette, sleeper",,,,,Wien Meidling - St. Pölten Hbf - Linz Hbf - Salzburg Hbf - Rosenheim - München Ost - Koblenz Hbf - Bonn Hbf - Köln Ehrenfeld - Aachen Hbf - Liège Guillemins / Luik Guillemins - Bruxelles Noord / Brussel Nord
+229,ÖBB,ÖBB NJ 446,Wien Hbf,22:55,Bregenz,08:29,NJ 446,"AT, CH",Y,"seat, couchette, sleeper",,,,,Wien Meidling - St. Pölten Hbf - Amstetten (NÖ) - Linz Hbf - Wels Hbf - Innsbruck Hbf - St. Anton am Arlberg - Bludenz - Feldkirch - Dornbirn
+229,ÖBB,ÖBB NJ 447,Bregenz,21:40,Wien Hbf (Autoreisezuganlage),07:04,NJ 447,"AT, CH",Y,"seat, couchette, sleeper",,,,,Dornbirn - Hohenems - Götzis - Rankweil - Feldkirch - Bludenz - Langen am Arlberg - St. Anton am Arlberg - Landeck-Zams - Imst-Pitztal - Ötztal - Innsbruck Hbf - Salzburg Hbf - Vöcklabruck - Attnang-Puchheim - Wels Hbf - Linz Hbf - St. Valentin - Amstetten (NÖ) - St. Pölten Hbf - Wien Meidling - Wien Hbf
+50,ÖBB,ÖBB NJ 456,Graz Hbf,19:20,Berlin Hbf,08:14,NJ 456,"DE, CZ, AT",Y,"seat, couchette, sleeper",,,,,Bruck an der Mur - Mürzzuschlag - Wiener Neustadt Hbf - Wien Hbf - Břeclav - Brno hl.n. - Pardubice hl.n. - Praha hl.n. - Praha-Holešovice - Ústí nad Labem hl.n. - Děčín hl.n. - Bad Schandau - Dresden Hbf - Dresden Neustadt - Berlin Südkreuz
+50,ÖBB,ÖBB NJ 457,Berlin Hbf,19:20,Graz Hbf,09:59,NJ 457,"DE, CZ, AT",Y,"seat, couchette, sleeper",,,,,Berlin Südkreuz - Dresden Neustadt - Dresden Hbf - Bad Schandau - Děčín hl.n. - Ústí nad Labem hl.n. - Praha-Holešovice - Praha hl.n. - Pardubice hl.n. - Brno hl.n. - Břeclav - Wien Hbf - Wien Meidling - Wiener Neustadt Hbf - Mürzzuschlag - Bruck an der Mur
+235,ÖBB,ÖBB NJ 464,Graz Hbf,22:25,Zürich HB,09:20,NJ 464,"AT, LI, CH",Y,"seat, couchette, sleeper",,,,,Bruck an der Mur - Leoben Hbf - St. Michael (Obersteiermark) - Selzthal - Liezen - Stainach-Irdning - Schladming - Bischofshofen - Schwarzach-St.Veit - Innsbruck Hbf - Landeck-Zams - St. Anton am Arlberg - Langen am Arlberg - Bludenz - Feldkirch - Buchs (SG) - Sargans
+235,ÖBB,ÖBB NJ 465,Zürich HB,20:40,Graz Hbf,06:58,NJ 465,"AT, LI, CH",Y,"seat, couchette, sleeper",,,,,Sargans - Buchs (SG) - Feldkirch - Bludenz - Langen am Arlberg - St. Anton am Arlberg - Landeck-Zams - Innsbruck Hbf - Schwarzach-St.Veit - Bischofshofen - Schladming - Stainach-Irdning - Liezen - Selzthal - St. Michael (Obersteiermark) - Leoben Hbf - Bruck an der Mur
+5,ÖBB,ÖBB NJ 470,Zürich HB,20:59,Hamburg Altona,08:09,NJ 470,"DE, CH",Y,"seat, couchette, sleeper",,1011.0,18.0,17.8,Basel SBB - Basel Bad Bf - Freiburg (Breisgau) Hbf - Offenburg - Baden-Baden - Karlsruhe Hbf - Göttingen - Hannover Hbf - Verden (Aller) - Bremen Hbf - Hamburg Harburg - Hamburg Hbf - Hamburg Dammtor
+5,ÖBB,ÖBB NJ 471,Hamburg Altona,21:52,Zürich HB,10:05,NJ 471,"DE, CH",Y,"seat, couchette, sleeper",,1011.0,18.0,17.8,Hamburg Hbf - Bremen Hbf - Hannover Hbf - Göttingen - Karlsruhe Hbf - Offenburg - Freiburg (Breisgau) Hbf - Basel Bad Bf - Basel SBB
+17,ÖBB,ÖBB NJ 490,Wien Hbf,20:10,Hamburg Altona,09:06,NJ 490,"DE, AT",Y,"seat, couchette, sleeper",,,,,Wien Meidling - St. Pölten Hbf - Linz Hbf - Wels Hbf - Passau Hbf - Regensburg Hbf - Nürnberg Hbf - Würzburg Hbf - Kassel-Wilhelmshöhe - Göttingen - Hannover Hbf - Hamburg Harburg - Hamburg Hbf - Hamburg Dammtor
+17,ÖBB,ÖBB NJ 491,Hamburg Altona,19:56,Wien Hbf,09:17,NJ 491,"DE, AT",Y,"seat, couchette, sleeper",,,,,Hamburg Hbf - Hamburg Harburg - Hannover Hbf - Göttingen - Kassel-Wilhelmshöhe - Würzburg Hbf - Nürnberg Hbf - Regensburg Hbf - Passau Hbf - Wels Hbf - Linz Hbf - St. Pölten Hbf - Wien Meidling
+114,OTE,OTE 141,Villach Hbf,21:32,Edirne,06:03,141,"AT, SI, HR, RS, BG, TR",Y,"couchette, sleeper",,,,,non-stop
+114,OTE,OTE 154,Edirne,18:30,Villach Hbf,08:11,154,"AT, SI, HR, RS, BG, TR",Y,"couchette, sleeper",,,,,non-stop
+128,PKP,PKP TLK 18170,Warszawa Centralna,22:07,Świnoujście,07:11,TLK 18170,PL,Y,"seat, couchette, sleeper",,,,,Baqël - Szczecin Gł.
+128,PKP,PKP TLK 81170,Świnoujście,21:01,Warszawa Centralna,06:41,TLK 81170,PL,Y,"seat, couchette, sleeper",,,,,Szczecin Gł. - Kostrzyn - Baqël
+126,PKP,PKP IC 38172,Przemyśl Gł.,18:40,Świnoujście,10:40,IC 38172,PL,Y,"seat, couchette, sleeper",,,,,Rzeszow Gł. - Tarnow - Kraków Gł. - Katowice - Poznań Gł. - Krzyz - Szczecin Gł.
+126,PKP,PKP IC 83172,Świnoujście,16:59,Przemyśl Gł.,09:18,IC 83172,PL,Y,"seat, couchette, sleeper",,,,,Szczecin Gł. - Krzyz - Poznań Gł. - Leszno - Wrocław Gł. - Katowice - Kraków Gł. - Tarnow - Rzeszow Gł.
+122,PKP,PKP IC 38192,Zakopane,19:47,Szczecin Gł.,07:23,IC 38192,PL,Y,"seat, sleeper",,760.0,26.1,34.34,Bielsko-Biała Gł. - Katowice Ligota - Gliwice - Poznań Gł.
+122,PKP,PKP IC 83192,Szczecin Gł.,21:30,Zakopane,09:27,IC 83192,PL,Y,"seat, sleeper",,760.0,26.1,34.34,Poznań Gł. - Bielsko-Biała Gł.
+125,PKP,PKP TLK 35190,Kraków Gł.,20:14,Łeba,08:13,TLK 35190,PL,Y,"seat, sleeper",,703.0,24.3,34.57,Częstochowa - Łódź Kaliska - Toruń Gł. - Gdynia Główna
+125,PKP,PKP TLK 53190,Łeba,21:00,Kraków Gł.,08:48,TLK 53190,PL,Y,"seat, sleeper",,703.0,24.3,34.57,Gdynia Gł. - Gdańsk Gł. - Tczew - Łódź Kaliska - Częstochowa
+9,PKP/ČD,PKP/ČD EN 443 / IC 406,Praha hl.n.,22:13,Warszawa Centralna,08:51,EN 443 / IC 406,"CZ, PL",Y,"seat, couchette, sleeper",,,,,Pardubice hl.n. - Olomouc hl.n. - Katowice - Trzebinia - Kraków Gł.
+9,PKP/ČD,PKP/ČD IC 407 / EN 442,Warszawa Wschodnia,19:37,Praha hl.n.,07:38,IC 407 / EN 442,"CZ, PL",Y,"seat, couchette, sleeper",,,,,Warszawa Centralna - Kraków Gł. - Trzebinia - Katowice - Rybnik - Olomouc hl.n. - Pardubice hl.n.
+136,PKP,PKP TLK 48190,Bielsko-Biała Główna,21:25,Kołobrzeg,07:08,TLK 48190,PL,Y,"seat, sleeper",,,,,Żory - Rybnik - Opole Główne
+136,PKP,PKP TLK 84190,Kołobrzeg,21:01,Bielsko-Biała Główna,06:48,TLK 84190,PL,Y,"seat, sleeper",,,,,Poznań Gł. - Rybnik - Żory
+121,PKP,PKP IC 16170,Warszawa Wschodnia,23:36,Szklarska Poręba Górna,07:34,IC 16170,PL,Y,"seat, sleeper",,638.0,22.5,35.27,Warszawa Centralna - Warszawa Zachodnia - Wrocław Gł. - Jelenia Góra
+121,PKP,PKP IC 61170,Szklarska Poręba Górna,20:18,Warszawa Wschodnia,06:23,IC 61170,PL,Y,"seat, sleeper",,638.0,22.5,35.27,Jelenia Góra - Wrocław Gł. - Warszawa Zachodnia - Warszawa Centralna
+129,PKP,PKP TLK 35170,Zakopane,21:53,Gdynia Gł.,08:40,TLK 35170,PL,Y,"seat, sleeper",,,,,Kraków Gł. - Częstochowa - Warszawa Centralna - Ciechanow - Tczew - Gdańsk Gł.
+129,PKP,PKP TLK 53170,Gdynia Gł.,19:22,Zakopane,06:02,TLK 53170,PL,Y,"seat, sleeper",,,,,Gdańsk Gł. - Tczew - Ciechanow - Warszawa Centralna - Kraków Gł.
+138,PKP,PKP TLK 38170,Kraków Gł.,21:33,Kołobrzeg,10:56,TLK 38170,PL,Y,"seat, couchette, sleeper",,,,,Kielce - Radom - Gdańsk Gł. - Gdynia Gł. - Koszalin
+138,PKP,PKP TLK 83170,Kołobrzeg,19:05,Kraków Gł.,07:49,TLK 83170,PL,Y,"seat, couchette, sleeper",,,,,Koszalin - Słupsk - Gdynia Gł. - Gdańsk Gł. - Radom - Kielce
+137,PKP,PKP TLK 46174/38174,Bielsko-Biała Gł.,21:56,Świnoujście,07:42,TLK 46174/38174,PL,Y,"seat, couchette",,680.0,26.4,38.82,Rybnik - Opole Gł. - Kostrzyn - Szczecin Gł.
+137,PKP,PKP TLK 83174/64174,Świnoujście,20:17,Bielsko-Biała Gł.,05:49,TLK 83174/64174,PL,Y,"seat, couchette",,680.0,26.4,38.82,Szczecin Gł. - Kostrzyn - Zielona Góra Gł. - Rybnik
+118,PKP/ČD,PKP/ČD EN 40416,München Hbf,18:35,Przemyśl Gł.,10:10,EN 40416,"DE, AT, CZ, PL",Y,"seat, couchette, sleeper",,1185.0,24.7,20.84,München Ost - Rosenheim - Salzburg Hbf - Attnang-Puchheim - Linz Hbf - St. Pölten Hbf - Wien Meidling - Wien Hbf - Břeclav - Gliwice - Zabrze - Katowice - Mysłowice - Jaworzno Szczakowa - Trzebinia - Krzeszowice - Kraków Gł. - Tarnow - Dębica - Rzeszow Gł. - Przeworsk - Jarosław
+118,PKP/ČD,PKP/ČD EN 40417,Przemyśl Gł.,17:51,München Hbf,10:24,EN 40417,"DE, AT, CZ, PL",Y,"seat, couchette, sleeper",,1185.0,24.7,20.84,Mysłowice - Przeworsk - Rzeszow Gł. - Dębica - Tarnow - Kraków Gł. - Krzeszowice - Trzebinia - Jaworzno Szczakowa - Katowice - Zabrze - Gliwice - Břeclav - Wien Hbf - Wien Meidling - St. Pölten Hbf - Linz Hbf - Attnang-Puchheim - Salzburg Hbf - Rosenheim - München Ost
+124,PKP/ČD,PKP/ČD EC 460,Praha hl.n.,18:51,Gdynia Gł.,05:20,EC 460,"PL, CZ",Y,"seat, sleeper",,856.0,27.1,31.66,Jarosław - Lichkov - Międzylesie - Kłodzko Miasto - Wrocław Gł. - Poznań Gł. - Gdańsk Gł.
+124,PKP/ČD,PKP/ČD EC 461,Gdynia Gł.,23:13,Praha hl.n.,09:06,EC 461,"PL, CZ",Y,"seat, sleeper",,856.0,27.1,31.66,Gdańsk Gł. - Bydgoszcz Gł. - Wrocław Gł. - Kłodzko Miasto - Międzylesie - Lichkov - Pardubice hl.n.
+116,PKP/ČD,PKP/ČD EN 406,München Hbf,18:35,Warszawa Wschodnia,08:15,EN 406,"AT, PL, CZ",Y,"seat, couchette, sleeper",,1139.0,24.0,21.07,München Ost - Rosenheim - Salzburg Hbf - Attnang-Puchheim - Linz Hbf - St. Pölten Hbf - Wien Meidling - Wien Hbf - Břeclav - Katowice - Sosnowiec Główny - Zawiercie - Włoszczowa Północ - Warszawa Zachodnia - Warszawa Centralna
+116,PKP/ČD,PKP/ČD EN 407,Warszawa Wschodnia,19:41,München Hbf,10:24,EN 407,"AT, PL, CZ",Y,"seat, couchette, sleeper",,1139.0,24.0,21.07,Warszawa Centralna - Warszawa Zachodnia - Włoszczowa Północ - Zawiercie - Sosnowiec Główny - Katowice - Břeclav - Wien Hbf - Wien Meidling - St. Pölten Hbf - Linz Hbf - Attnang-Puchheim - Salzburg Hbf - Rosenheim - München Ost
+7,RJ,RJ 1020,Chop,17:35,Praha hl.n.,05:46,1020,"SK, CZ",Y,"seat, couchette, sleeper",,672.0,11.8,17.56,Košice - Poprad Tatry - Pardubice hl.n.
+7,RJ,RJ 1021,Praha hl.n.,21:52,Chop,10:34,1021,"SK, CZ",Y,"seat, couchette, sleeper",,672.0,11.8,17.56,Pardubice hl.n. - Ostrava hl.n. - Poprad Tatry - Košice
+261,RJ,RJ 1038,Przemyśl Gł.,22:12,Praha hl.n.,08:56,1038,"PL, CZ",Y,"seat, couchette, sleeper",,740.0,20.6,27.84,Kraków Gł. - Olomouc hl.n.
+261,RJ,RJ 1039,Praha hl.n.,20:56,Przemyśl Gł.,07:33,1039,"PL, CZ",Y,"seat, couchette, sleeper",,740.0,20.6,27.84,Pardubice hl.n. - Olomouc hl.n. - Kraków Gł.
+62,SJ,SJ 1,Stockholm C,23:10,Malmö C,06:59,1,SE,Y,"seat, couchette, sleeper",,614.0,0.67,1.09,Norrköping C - Hässleholm C - Lund C
+62,SJ,SJ 2,Malmö C,22:30,Stockholm C,05:50,2,SE,Y,"seat, couchette, sleeper",,614.0,0.67,1.09,Lund C - Helsingborg C - Hässleholm C
+78,SJ,SJ EN 345,Stockholm C,17:34,Berlin Hbf,09:24,EN 345,"DE, DK, SE",Y,"seat, couchette, sleeper",,1439.0,16.1,11.19,Norrköping C - Linköping C - Nässjö C - Alvesta - Hässleholm C - Lund C - Malmö C - Kastrup Lufthavn - Padborg - Hamburg Hbf
+78,SJ,SJ EN 346,Berlin Hbf,18:34,Stockholm C,09:55,EN 346,"DE, DK, SE",Y,"seat, couchette, sleeper",,1439.0,16.1,11.19,Hamburg Hbf - Padborg - Kastrup Lufthavn - Malmö C - Lund C - Hässleholm C - Alvesta - Nässjö C - Linköping C - Norrköping C
+63,SJ,SJ 70 (D),Stockholm C,22:39,Duved,09:17,70 (D),SE,Y,"seat, couchette, sleeper",,652.0,0.75,1.15,Arlanda - Uppsala C - Gävle C - Östersund C - Åre
+63,SJ,SJ 71 (S),Duved,19:01,Stockholm C,05:04,71 (S),SE,Y,"seat, couchette, sleeper",,652.0,0.75,1.15,Åre - Östersund C - Sundsvall C - Arlanda
+88,SJ,SJ 70 (U),Stockholm C,22:39,Umeå C,08:16,70 (U),SE,Y,"seat, couchette, sleeper",,704.0,0.71,1.01,Arlanda - Uppsala C - Gävle C - Härnösand - Örnsköldsvik C
+88,SJ,SJ 77 (S),Umeå C,19:41,Stockholm C,05:04,77 (S),SE,Y,"seat, couchette, sleeper",,704.0,0.71,1.01,Örnsköldsvik C - Härnösand - Sundsvall C - Arlanda
+81,SJ,SJ Nattåg 91,Luleå C,17:00,Stockholm C,06:35,Nattåg 91,SE,Y,"seat, couchette, sleeper",,1052.0,1.1,1.05,Boden C - Umeå C - Örnsköldsvik C - Härnösand - Sundsvall C - Gävle C - Uppsala C - Arlanda
+81,SJ,SJ Nattåg 92,Stockholm C,21:55,Luleå C,11:53,Nattåg 92,SE,Y,"seat, couchette, sleeper",,1052.0,1.1,1.05,Arlanda - Uppsala C - Gävle C - Örnsköldsvik C - Umeå C - Boden C
+68,SJ,SJ Nattåg 93 (L),Luleå C,21:10,Stockholm C,10:09,Nattåg 93 (L),SE,Y,"seat, couchette, sleeper",,1052.0,1.1,1.05,Boden C - Umeå C - Örnsköldsvik C - Sundsvall C - Gävle C - Uppsala C - Arlanda
+68,SJ,SJ Nattåg 94 (L),Stockholm C,18:08,Luleå C,06:44,Nattåg 94 (L),SE,Y,"seat, couchette, sleeper",,1052.0,1.1,1.05,Arlanda - Uppsala C - Gävle C - Sundsvall C - Härnösand - Örnsköldsvik C - Boden C
+66,SJ,SJ Nattåg 93 (N),Narvik,15:11,Stockholm C,10:09,Nattåg 93 (N),"SE, NO",Y,"seat, couchette, sleeper",,1456.0,1.4,0.96,Kiruna / Giron - Gällivare C - Boden C - Umeå C - Sundsvall C - Gävle C - Uppsala C - Arlanda
+66,SJ,SJ Nattåg 94 (N),Stockholm C,18:08,Narvik,12:40,Nattåg 94 (N),"SE, NO",Y,"seat, couchette, sleeper",,1456.0,1.4,0.96,Arlanda - Uppsala C - Gävle C - Sundsvall C - Härnösand - Örnsköldsvik C - Boden C - Gällivare C - Kiruna / Giron
+71,SJN,SJN 475,Trondheim,23:05,Bodø,09:05,475,NO,Y,"seat, sleeper",,725.0,0.23,0.32,Levanger - Steinkjer - Mo i Rana
+71,SJN,SJN 476,Bodø,21:09,Trondheim,07:15,476,NO,Y,"seat, sleeper",,725.0,0.23,0.32,Mo i Rana - Steinkjer - Levanger
+264,SNCF,SNCF IC Nuit 3750,Toulouse Matabiau,19:44,Paris Austerlitz,07:03,IC Nuit 3750,FR,Y,"seat, couchette",,714.0,2.2,3.08,Montauban Ville Bourbon - Fleury-les-Aubrais (Orléans)
+264,SNCF,SNCF IC Nuit 3751,Paris Austerlitz,22:13,Toulouse Matabiau,07:44,IC Nuit 3751,FR,Y,"seat, couchette",,714.0,2.2,3.08,Fleury-les-Aubrais (Orléans) - Montauban Ville Bourbon
+111,SNCF,SNCF IC Nuit 3731,Tarbes,19:00,Paris Austerlitz,07:32,IC Nuit 3731,FR,Y,"seat, couchette",,841.0,2.9,3.45,Lourdes - Pau - Bayonne - Dax
+111,SNCF,SNCF IC Nuit 3740,Paris Austerlitz,21:41,Tarbes,09:37,IC Nuit 3740,FR,Y,"seat, couchette",,841.0,2.9,3.45,Dax - Bayonne - Pau - Lourdes
+119,SNCF,SNCF IC Nuit 3754,Rodez,22:19,Paris Austerlitz,08:32,IC Nuit 3754,FR,Y,"seat, couchette",,712.0,2.0,2.81,Figeac - St-Denis-lès-Martel
+119,SNCF,SNCF IC Nuit 3755,Paris Austerlitz,19:27,Rodez,07:08,IC Nuit 3755,FR,Y,"seat, couchette",,712.0,2.0,2.81,St-Denis-lès-Martel - Figeac
+109,SNCF,SNCF IC Nuit 3754 (Sun),Albi Ville,20:50,Paris Austerlitz,08:32,IC Nuit 3754 (Sun),FR,Y,"seat, couchette",,792.0,2.2,2.78,Rodez - Figeac - St-Denis-lès-Martel
+109,SNCF,SNCF IC Nuit 3755 (Sun),Paris Austerlitz,19:27,Albi Ville,09:02,IC Nuit 3755 (Sun),FR,Y,"seat, couchette",,792.0,2.2,2.78,St-Denis-lès-Martel - Figeac - Rodez
+262,SNCF,SNCF IC Nuit 3789,Paris Austerlitz,19:27,Aurillac,07:35,IC Nuit 3789,FR,Y,"seat, couchette",,602.0,3.9,6.48,St-Denis-lès-Martel - Bretenoux Biars - Laroquebrou / Laròcabrau
+262,SNCF,SNCF IC Nuit 3790,Aurillac,22:41,Paris Austerlitz,09:32,IC Nuit 3790,FR,Y,"seat, couchette",,602.0,3.9,6.48,Laroquebrou / Laròcabrau - Bretenoux Biars - St-Denis-lès-Martel
+112,SNCF,SNCF IC Nuit 3970,Latour-de-Carol / La Tor de Querol,18:48,Paris Austerlitz,07:03,IC Nuit 3970,FR,Y,"seat, couchette",,875.0,2.6,2.97,Pamiers - Fleury-les-Aubrais (Orléans)
+112,SNCF,SNCF IC Nuit 3971,Paris Austerlitz,21:40,Latour-de-Carol / La Tor de Querol,10:07,IC Nuit 3971,FR,Y,"seat, couchette",,875.0,2.6,2.97,Fleury-les-Aubrais (Orléans) - Pamiers
+110,SNCF,SNCF IC Nuit 5737,Paris Austerlitz,20:10,Cerbère,09:16,IC Nuit 5737,FR,Y,"seat, couchette",,952.0,2.7,2.84,Nîmes - Montpellier Saint-Roch - Béziers - Narbonne - Perpignan
+110,SNCF,SNCF IC Nuit 5738,Cerbère,18:53,Paris Austerlitz,08:50,IC Nuit 5738,FR,Y,"seat, couchette",,952.0,2.7,2.84,Perpignan - Narbonne - Béziers - Montpellier Saint-Roch - Nîmes
+108,SNCF,SNCF IC Nuit 5781,Paris Austerlitz,20:51,Nice Ville,09:25,IC Nuit 5781,FR,Y,"seat, couchette",,989.0,3.1,3.13,Marseille Saint-Charles - Toulon - Cannes
+108,SNCF,SNCF IC Nuit 5772,Nice Ville,17:55,Paris Austerlitz,08:08,IC Nuit 5772,FR,Y,"seat, couchette",,989.0,3.1,3.13,Cannes - Toulon - Marseille Saint-Charles
+107,SNCF,SNCF IC Nuit 5787,Paris Austerlitz,20:51,Briançon,08:21,IC Nuit 5787,FR,Y,"seat, couchette",,796.0,2.4,3.02,Crest - Gap
+107,SNCF,SNCF IC Nuit 5792,Briançon,19:58,Paris Austerlitz,08:08,IC Nuit 5792,FR,Y,"seat, couchette",,796.0,2.4,3.02,Gap - Crest
+77,ST,ST 300,Stockholm C,16:20,Berlin Hbf,07:46,300,"DE, DK, SE",Y,"seat, couchette, sleeper",,1481.0,16.1,10.87,Norrköping C - Linköping C - Nässjö C - Alvesta - Hässleholm C - Lund C - Malmö C - København Ørestad - Hamburg Hbf
+77,ST,ST 301,Berlin Hbf,21:10,Stockholm C,13:20,301,"DE, DK, SE",Y,"seat, couchette, sleeper",,1481.0,16.1,10.87,Hamburg Hbf - København Ørestad - Malmö C - Lund C - Hässleholm C - Alvesta - Nässjö C - Linköping C - Norrköping C
+73,ST,ST 304,Innsbruck Hbf,18:00,Malmö C,16:21,304,"SE, DK, DE, AT",Y,sleeper,,1847.0,30.4,16.46,Jenbach - Wörgl Hbf - Kitzbühel - Salzburg Hbf - München Ost - Hamburg Hbf - Kolding - Odense - Høje Taastrup
+73,ST,ST 305,Malmö C,14:40,Innsbruck Hbf,13:00,305,"SE, DK, DE, AT",Y,sleeper,,1847.0,30.4,16.46,Høje Taastrup - Odense - Kolding - Hamburg Hbf - München Ost - Salzburg Hbf - Kitzbühel - Wörgl Hbf - Jenbach
+79,ST,ST 3920,Malmö C,16:35,Storlien,08:55,3920,SE,Y,"seat, couchette, sleeper",,1314.0,1.5,1.14,Lund C - Hässleholm C - Alvesta - Nässjö C - Linköping C - Norrköping C - Stockholm C - Uppsala C - Östersund C - Åre - Duved
+79,ST,ST 3921,Storlien,15:25,Malmö C,07:15,3921,SE,Y,"seat, couchette, sleeper",,1314.0,1.5,1.14,Duved - Åre - Östersund C - Uppsala C - Stockholm C - Norrköping C - Alvesta - Hässleholm C - Lund C
+80,ST,ST 3904,Malmö C,17:15,Duved,08:20,3904,SE,Y,"seat, couchette, sleeper",,1265.0,1.4,1.11,Lund C - Hässleholm C - Alvesta - Nässjö C - Linköping C - Norrköping C - Östersund C - Åre
+80,ST,ST 3905,Duved,18:30,Malmö C,08:55,3905,SE,Y,"seat, couchette, sleeper",,1265.0,1.4,1.11,Åre - Östersund C - Linköping C - Nässjö C - Alvesta - Hässleholm C - Lund C
+27,TCDD/BDŽ,TCDD/BDŽ 12503/492,İstanbul Halkalı,20:00,Sofia,11:48,12503/492,"BG, TR",Y,"couchette, sleeper",,591.0,13.9,23.52,Edirne - Kapıkule - Svilengrad - Dimitrovgrad - Plovdiv
+27,TCDD/BDŽ,TCDD/BDŽ 493/12504,Sofia,18:50,İstanbul Halkalı,09:56,493/12504,"BG, TR",Y,"couchette, sleeper",,591.0,13.9,23.52,Plovdiv - Dimitrovgrad - Svilengrad - Kapıkule - Edirne
+28,TCDD/BDŽ/CFR,TCDD/BDŽ/CFR 12503/460,İstanbul Halkalı,20:00,București Nord,17:08,12503/460,"RO, BG, TR",Y,couchette,,799.0,17.7,22.15,Edirne - Kapıkule - Svilengrad - Dimitrovgrad - Stara Zagora - Veliko Tarnovo - Gorna Oryahovitsa - Ruse - Giurgiu Nord
+28,TCDD/BDŽ/CFR,TCDD/BDŽ/CFR 461/12504,București Nord,10:50,İstanbul Halkalı,06:34,461/12504,"RO, BG, TR",Y,couchette,,799.0,17.7,22.15,Giurgiu Nord - Ruse - Gorna Oryahovitsa - Veliko Tarnovo - Stara Zagora - Dimitrovgrad - Svilengrad - Kapıkule - Edirne
+31,TCDD,TCDD 22001,Ankara,22:00,İstanbul Halkalı,07:27,22001,TR,Y,"seat, sleeper",,567.0,12.0,21.16,Eskişehir - İstanbul Pendik - İstanbul Sögütlücesme
+31,TCDD,TCDD 12002,İstanbul Halkalı,22:00,Ankara,06:37,12002,TR,Y,"seat, sleeper",,567.0,12.0,21.16,İstanbul Sögütlücesme - İstanbul Pendik - İzmit
+30,TCDD,TCDD 22006,Ankara,20:00,İzmir Basmane,10:01,22006,TR,Y,"seat, sleeper",,811.0,18.0,22.19,Eskişehir - Balıkesir - Manisa - İzmir Çiğli
+30,TCDD,TCDD 32005,İzmir Basmane,19:05,Ankara,09:07,32005,TR,Y,"seat, sleeper",,811.0,18.0,22.19,İzmir Çiğli - Manisa - Balıkesir - Eskişehir
+247,TCDD,TCDD 22010,Ankara,18:00,Kars,20:26,22010,TR,Y,"seat, couchette",,1339.0,30.5,22.78,Kırıkkale - Kayseri - Sivas - Erzincan - Erzurum
+247,TCDD,TCDD 42009,Kars,08:00,Ankara,10:27,42009,TR,Y,"seat, couchette",,1339.0,30.5,22.78,Erzurum - Erzincan - Sivas - Kayseri - Kırıkkale
+243,TCDD,TCDD 22012,Ankara,11:20,Tatvan,13:57,22012,TR,Y,"seat, couchette, sleeper",,1261.0,28.7,22.76,Kırıkkale - Kayseri - Sivas - Malatya - Elazığ - Mûş
+243,TCDD,TCDD 52011,Tatvan,10:25,Ankara,12:45,52011,TR,Y,"seat, couchette, sleeper",,1261.0,28.7,22.76,Mûş - Elazığ - Malatya - Sivas - Kayseri - Kırıkkale
+245,TCDD,TCDD 22014,Ankara,11:20,Kurtalan,14:10,22014,TR,Y,"seat, couchette, sleeper",,1263.0,28.8,22.8,Kırıkkale - Kayseri - Sivas - Diyarbakır - Batman
+245,TCDD,TCDD 52013,Kurtalan,09:20,Ankara,12:45,52013,TR,Y,"seat, couchette, sleeper",,1263.0,28.8,22.8,Batman - Diyarbakır - Sivas - Kayseri - Kırıkkale
+246,TCDD,TCDD 22018,Ankara,19:10,Malatya,11:09,22018,TR,Y,"seat, couchette",,851.0,19.4,22.8,Kırıkkale - Sivas
+246,TCDD,TCDD 52019,Malatya,15:30,Ankara,07:24,52019,TR,Y,"seat, couchette",,851.0,19.4,22.8,Sivas - Kayseri - Kırıkkale
+248,TCDD,TCDD 32007,İzmir Basmane,20:05,Konya,09:11,32007,TR,Y,"seat, sleeper",,669.0,16.2,24.22,İzmir Çiğli - Manisa - Afyon A Çetinkaya
+248,TCDD,TCDD 72008,Konya,19:00,İzmir Basmane,08:05,72008,TR,Y,"seat, sleeper",,669.0,16.2,24.22,Afyon A Çetinkaya - Manisa - İzmir Çiğli
+252,UEX,UEX 320/324,Villach Hbf,19:06,Hamburg Altona,09:37,320/324,DE,Y,"couchette, sleeper",,,,,Salzburg Hbf - München Ost - Göttingen - Hannover Hbf - Hamburg Hbf
+252,UEX,UEX 321/325,Hamburg Altona,19:00,Villach Hbf,08:38,321/325,DE,Y,"couchette, sleeper",,,,,Hamburg Hbf - Hannover Hbf - Göttingen - Fulda - München Ost - Salzburg Hbf
+253,UEX,UEX 302/322,Innsbruck Hbf,21:00,Hamburg Altona,08:26,302/322,DE,Y,"couchette, sleeper",,,,,Jenbach - Kufstein - München Ost - Augsburg Hbf - Hannover Hbf - Hamburg Hbf
+253,UEX,UEX 303/323,Hamburg Altona,20:14,Innsbruck Hbf,08:23,303/323,DE,Y,"couchette, sleeper",,,,,Hamburg Hbf - Hannover Hbf - Göttingen - Augsburg Hbf - München Ost - Kufstein - Jenbach
+254,UEX,UEX 1856,München Ost,21:49,Hamburg Altona,07:36,1856,DE,Y,"couchette, sleeper",,,,,Augsburg Hbf - Hannover Hbf - Lüneburg - Hamburg Hbf
+254,UEX,UEX 1857,Hamburg Altona,21:32,München Ost,07:20,1857,DE,Y,"couchette, sleeper",,,,,Hamburg Hbf - Hannover Hbf - Augsburg Hbf
+255,UEX,UEX 1858,Lörrach Hbf,20:36,Hamburg Altona,07:35,1858,DE,Y,"couchette, sleeper",,847.0,,,Freiburg (Breisgau) Hbf - Karlsruhe Hbf - Hannover Hbf - Lüneburg - Hamburg Hbf
+255,UEX,UEX 1859,Hamburg Altona,21:32,Lörrach Hbf,08:05,1859,DE,Y,"couchette, sleeper",,847.0,,,Hamburg Hbf - Hannover Hbf - Karlsruhe Hbf - Freiburg (Breisgau) Hbf
+256,UEX,UEX 332/1372,Innsbruck Hbf,21:00,Düsseldorf Hbf,07:45,332/1372,DE,Y,"couchette, sleeper",,,,,Jenbach - München Ost - Augsburg Hbf - Gießen - Siegen - Siegburg (Bonn) - Köln Messe/Deutz
+256,UEX,UEX 333/1373,Düsseldorf Hbf,20:43,Innsbruck Hbf,08:23,333/1373,DE,Y,"couchette, sleeper",,,,,Köln Messe/Deutz - Siegburg/Bonn - Siegen - Aschaffenburg Hbf - Augsburg Hbf - München Ost - Jenbach
+257,UEX,UEX 334/1374,Villach Hbf,19:06,Düsseldorf Hbf,08:39,334/1374,DE,Y,"couchette, sleeper",,,,,Salzburg Hbf - München Ost - Aschaffenburg Hbf - Gießen - Siegen Hbf - Siegburg/Bonn - Köln Messe/Deutz
+257,UEX,UEX 335/1375,Düsseldorf Hbf,19:53,Villach Hbf,08:38,335/1375,DE,Y,"couchette, sleeper",,,,,Köln Messe/Deutz - Siegen Hbf - Aschaffenburg Hbf - München Ost - Salzburg Hbf
+164,UZ,UZ 001 D,Kharkiv,18:55,Ivano-Frankivsk,11:28,001 D,UA,Y,"seat, sleeper",,1197.0,22.9,19.13,Poltava - Myrhorod - Kyiv Pasazhyrskyi - Lviv
+164,UZ,UZ 001 L,Ivano-Frankivsk,19:53,Kharkiv,12:33,001 L,UA,Y,"seat, sleeper",,1197.0,22.9,19.13,Lviv - Kyiv Pasazhyrskyi - Myrhorod - Poltava
+220,UZ,UZ 003,Uzhhorod,16:35,Zaporizhzhia 1,13:08,003,UA,Y,"bunkbed, couchette, sleeper",,1484.0,25.4,17.12,Mukacheve - Stryj - Lviv - Dnipro Holovny
+220,UZ,UZ 004,Zaporizhzhia 1,17:53,Uzhhorod,14:27,004,UA,Y,"bunkbed, couchette, sleeper",,1484.0,25.4,17.12,Dnipro Holovny - Lviv - Stryj - Mukacheve
+221,UZ,UZ 006 L,Yasinia,12:23,Zaporizhzhia 1,11:05,006 L,UA,Y,"bunkbed, couchette, sleeper",,1465.0,25.3,17.27,Vorokhta - Ivano-Frankivsk - Lviv - Dnipro Holovny
+221,UZ,UZ 006 P,Zaporizhzhia 1,13:00,Yasinia,10:43,006 P,UA,Y,"bunkbed, couchette, sleeper",,1465.0,25.3,17.27,Dnipro Holovny - Lviv - Ivano-Frankivsk - Vorokhta
+168,UZ,UZ 007 K,Kyiv Pasazhyrskyi,20:21,Chernivtsi,08:05,007 K,UA,Y,"bunkbed, couchette, sleeper",,919.0,15.6,16.97,Lviv - Ivano-Frankivsk
+168,UZ,UZ 008 L,Chernivtsi,19:12,Kyiv Pasazhyrskyi,07:02,008 L,UA,Y,"bunkbed, couchette, sleeper",,919.0,15.6,16.97,Ivano-Frankivsk - Lviv
+154,UZ,UZ 007 O/059 O,Kharkiv,17:55,Odesa Holovna,08:10,007 O/059 O,UA,Y,"bunkbed, couchette, sleeper",,758.0,11.4,15.04,Poltava - Kremenchuk
+154,UZ,UZ 008 Š/060 Š,Odesa Holovna,19:56,Kharkiv,09:58,008 Š/060 Š,UA,Y,"bunkbed, couchette, sleeper",,758.0,11.4,15.04,Kremenchuk - Poltava
+183,UZ,UZ 009,Kyiv Pasazhyrskyi,10:16,Budapest Keleti,06:00,009,"HU, UA",Y,sleeper,,1171.0,22.5,19.21,Lviv - Mukacheve - Chop - Nyíregyháza - Szolnok
+183,UZ,UZ 010,Budapest Keleti,22:40,Kyiv Pasazhyrskyi,19:11,010,"HU, UA",Y,sleeper,,1171.0,22.5,19.21,Szolnok - Debrecen - Chop - Mukacheve - Lviv
+191,UZ,UZ 012 L,Lviv,19:46,Odesa Holovna,06:23,012 L,UA,Y,"bunkbed, couchette, sleeper",,737.0,14.1,19.13,Ternopil - Khmelnytskyi
+191,UZ,UZ 012 Š,Odesa Holovna,19:46,Lviv,06:18,012 Š,UA,Y,"bunkbed, couchette, sleeper",,737.0,14.1,19.13,Zhmerynka - Ternopil
+203,UZ,UZ 013 K,Kyiv Pasazhyrskyi,15:58,Solotvyno,10:58,013 K,UA,Y,"bunkbed, couchette, sleeper",,1503.0,25.6,17.03,Fastiv - Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Stryj - Mukacheve
+203,UZ,UZ 013 L,Solotvyno,14:00,Kyiv Pasazhyrskyi,08:54,013 L,UA,Y,"bunkbed, couchette, sleeper",,1503.0,25.6,17.03,Stryj - Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Fastiv
+150,UZ,UZ 015,Kharkiv,14:07,Yasinia,10:06,015,UA,Y,"couchette, sleeper",,1337.0,22.6,16.9,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Lviv - Ivano-Frankivsk - Vorokhta
+150,UZ,UZ 016,Yasinia,13:28,Kharkiv,09:10,016,UA,Y,"couchette, sleeper",,1337.0,22.6,16.9,Vorokhta - Ivano-Frankivsk - Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+162,UZ,UZ 017 O/045 D,Kharkiv,14:36,Uzhhorod,08:34,017 O/045 D,UA,Y,"bunkbed, couchette, sleeper",,1400.0,25.0,17.86,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Stryj - Mukacheve
+162,UZ,UZ 017 L/045 L,Uzhhorod,13:38,Kharkiv,08:50,017 L/045 L,UA,Y,"bunkbed, couchette, sleeper",,1400.0,25.0,17.86,Mukacheve - Stryj - Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+153,UZ,UZ 019,Kyiv Pasazhyrskyi,18:19,Chelm,04:55,019,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
+153,UZ,UZ 020,Chelm,23:40,Kyiv Pasazhyrskyi,12:17,020,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
+156,UZ,UZ 021,Kharkiv,19:38,Lviv,11:30,021,UA,Y,"bunkbed, couchette, sleeper",,1115.0,19.2,17.22,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Vinnytsia - Khmelnytskyi - Ternopil
+156,UZ,UZ 022,Lviv,18:42,Kharkiv,10:17,022,UA,Y,"bunkbed, couchette, sleeper",,1115.0,19.2,17.22,Ternopil - Khmelnytskyi - Vinnytsia - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+152,UZ,UZ 023,Kyiv Pasazhyrskyi,22:40,Chelm,11:05,023,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Rivne - Kovel
+152,UZ,UZ 024,Chelm,16:42,Kyiv Pasazhyrskyi,05:39,024,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel - Rivne
+186,UZ,UZ 029 K,Kyiv Pasazhyrskyi,19:19,Uzhhorod,07:33,029 K,UA,Y,"bunkbed, couchette, sleeper",,876.0,15.4,17.58,Lviv - Mukacheve
+186,UZ,UZ 029 L,Uzhhorod,18:55,Kyiv Pasazhyrskyi,07:09,029 L,UA,Y,"bunkbed, couchette, sleeper",,876.0,15.4,17.58,Mukacheve - Lviv
+155,UZ,UZ 032 D,Przemyśl Gł.,18:07,Zaporizhzhia 1,14:37,032 D,UA,Y,"couchette, sleeper",,1305.0,20.9,16.02,Lviv - Oleksandriia - Dnipro Holovny
+155,UZ,UZ 032 P,Zaporizhzhia 1,20:47,Przemyśl Gł.,15:21,032 P,UA,Y,"couchette, sleeper",,1305.0,20.9,16.02,Dnipro Holovny - Oleksandriia - Lviv
+147,UZ,UZ 036 Š,Odesa Holovna,14:45,Przemyśl Gł.,05:53,036 Š,"PL, UA",Y,"couchette, sleeper",,840.0,16.6,19.76,Zhmerynka - Khmelnytskyi - Ternopil - Lviv
+147,UZ,UZ 036 L,Przemyśl Gł.,20:28,Odesa Holovna,12:55,036 L,"PL, UA",Y,"couchette, sleeper",,840.0,16.6,19.76,Lviv - Ternopil - Khmelnytskyi - Zhmerynka
+218,UZ,UZ 037,Uzhhorod,19:27,Odesa Holovna,12:55,037,UA,Y,"bunkbed, couchette, sleeper",,1029.0,18.5,17.98,Mukacheve - Stryj - Lviv - Ternopil - Khmelnytskyi - Zhmerynka
+218,UZ,UZ 038 O/Š,Odesa Holovna,14:45,Uzhhorod,08:55,038 O/Š,UA,Y,"bunkbed, couchette, sleeper",,1029.0,18.5,17.98,Zhmerynka - Khmelnytskyi - Ternopil - Lviv - Stryj - Mukacheve
+189,UZ,UZ 038 K,Kyiv Pasazhyrskyi,22:17,Zaporizhzhia 1,07:34,038 K,UA,Y,"bunkbed, couchette, sleeper",,658.0,10.8,16.41,Dnipro Holovny
+189,UZ,UZ 038 P,Zaporizhzhia 1,20:35,Kyiv Pasazhyrskyi,05:58,038 P,UA,Y,"bunkbed, couchette, sleeper",,658.0,10.8,16.41,Dnipro Holovny
+149,UZ,UZ 041,Dnipro Holovny,14:35,Truskavets,11:13,041,UA,Y,"bunkbed, couchette, sleeper",,1238.0,16.9,13.65,Oleksandriia - Vinnytsia - Ternopil - Lviv
+149,UZ,UZ 042,Truskavets,12:55,Dnipro Holovny,09:25,042,UA,Y,"bunkbed, couchette, sleeper",,1238.0,16.9,13.65,Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Oleksandriia
+178,UZ,UZ 043 L,Ivano-Frankivsk,20:04,Cherkasy,13:11,043 L,UA,Y,"bunkbed, couchette, sleeper",,956.0,17.6,18.41,Kalush - Stryj - Lviv - Dubno - Korosten - Kyiv Pasazhyrskyi
+178,UZ,UZ 043 Š,Cherkasy,16:50,Ivano-Frankivsk,09:56,043 Š,UA,Y,"bunkbed, couchette, sleeper",,956.0,17.6,18.41,Kyiv Pasazhyrskyi - Korosten - Dubno - Lviv - Stryj - Kalush
+185,UZ,UZ 049,Kyiv Pasazhyrskyi,21:48,Truskavets,07:23,049,UA,Y,"bunkbed, couchette, sleeper",,702.0,12.6,17.95,Fastiv - Lviv
+185,UZ,UZ 050,Truskavets,20:54,Kyiv Pasazhyrskyi,06:36,050,UA,Y,"bunkbed, couchette, sleeper",,702.0,12.6,17.95,Lviv - Fastiv
+140,UZ,UZ 051,Kyiv Pasazhyrskyi,19:27,Przemyśl Gł.,05:53,051,"PL, UA",Y,"couchette, sleeper",,700.0,12.9,18.43,Lviv
+140,UZ,UZ 052 K,Przemyśl Gł.,20:28,Kyiv Pasazhyrskyi,07:34,052 K,"PL, UA",Y,"couchette, sleeper",,700.0,12.9,18.43,Lviv
+207,UZ,UZ 052 P/053,Dnipro Holovny,18:30,Odesa Holovna,08:00,052 P/053,UA,Y,"bunkbed, couchette, sleeper",,754.0,9.4,12.47,Oleksandriia - Kropyvnytskyi - Podilsk
+207,UZ,UZ 052 Š/054,Odesa Holovna,21:10,Dnipro Holovny,11:03,052 Š/054,UA,Y,"bunkbed, couchette, sleeper",,754.0,9.4,12.47,Podilsk - Kropyvnytskyi - Oleksandriia
+198,UZ,UZ 055,Kyiv Pasazhyrskyi,15:58,Rakhiv,07:50,055,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Fastiv - Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Ivano-Frankivsk - Vorokhta - Yasinia
+198,UZ,UZ 056,Rakhiv,16:30,Kyiv Pasazhyrskyi,08:54,056,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Yasinia - Vorokhta - Ivano-Frankivsk - Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Fastiv
+190,UZ,UZ 059 K,Kyiv Pasazhyrskyi,20:37,Chop,12:59,059 K,UA,Y,"couchette, sleeper",,917.0,15.2,16.58,Fastiv - Vinnytsia - Lviv - Sambir - Uzhhorod
+190,UZ,UZ 060 L,Chop,14:30,Kyiv Pasazhyrskyi,07:47,060 L,UA,Y,"couchette, sleeper",,917.0,15.2,16.58,Uzhhorod - Sambir - Lviv - Vinnytsia - Fastiv
+161,UZ,UZ 063,Kharkiv,22:38,Lviv,13:39,063,UA,Y,"couchette, sleeper",,1115.0,19.2,17.22,Poltava - Kyiv Pasazhyrskyi
+161,UZ,UZ 064,Lviv,15:30,Kharkiv,05:56,064,UA,Y,"couchette, sleeper",,1115.0,19.2,17.22,Kyiv Pasazhyrskyi - Lubny
+158,UZ,UZ 065 K,Kharkiv,18:13,Uman,09:03,065 K,UA,Y,"bunkbed, couchette, sleeper",,817.0,13.8,16.89,Dnipro Holovny - Oleksandriia
+158,UZ,UZ 065 Š,Uman,17:39,Kharkiv,09:20,065 Š,UA,Y,"bunkbed, couchette, sleeper",,817.0,13.8,16.89,Oleksandriia - Dnipro Holovny
+181,UZ,UZ 067,Kyiv Pasazhyrskyi,20:21,Warszawa Wschodnia,10:11,067,"PL, UA",Y,sleeper,,867.0,16.7,19.21,Kovel - Chelm - Lublin
+181,UZ,UZ 068,Warszawa Wschodnia,17:49,Kyiv Pasazhyrskyi,10:45,068,"PL, UA",Y,sleeper,,867.0,16.7,19.21,Lublin - Chelm - Kovel
+141,UZ,UZ 073,Kharkiv,13:32,Przemyśl Gł.,11:16,073,"PL, UA",Y,"couchette, sleeper",,1212.0,21.7,17.9,Poltava - Myrhorod - Kyiv Pasazhyrskyi - Fastiv - Vinnytsia - Ternopil - Lviv
+141,UZ,UZ 074,Przemyśl Gł.,13:45,Kharkiv,13:53,074,"PL, UA",Y,"couchette, sleeper",,1212.0,21.7,17.9,Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Kyiv Pasazhyrskyi - Myrhorod - Poltava
+172,UZ,UZ 075,Kyiv Pasazhyrskyi,20:13,Kryvyi Rih,05:57,075,UA,Y,"bunkbed, couchette, sleeper",,488.0,7.7,15.78,Oleksandriia
+172,UZ,UZ 076,Kryvyi Rih,20:57,Kyiv Pasazhyrskyi,06:26,076,UA,Y,"bunkbed, couchette, sleeper",,488.0,7.7,15.78,Oleksandriia
+222,UZ,UZ 078 L,Kovel,17:35,Odesa Holovna,09:08,078 L,UA,Y,"bunkbed, couchette, sleeper",,865.0,20.8,24.05,Lutsk - Rivne - Vinnytsia - Podilsk
+222,UZ,UZ 078 Š,Odesa Holovna,17:03,Kovel,09:31,078 Š,UA,Y,"bunkbed, couchette, sleeper",,865.0,20.8,24.05,Podilsk - Vinnytsia - Rivne - Lutsk
+170,UZ,UZ 079,Dnipro Holovny,22:09,Lviv,12:59,079,UA,Y,"couchette, sleeper",,1077.0,19.2,17.83,Oleksandriia - Kyiv Pasazhyrskyi
+170,UZ,UZ 080,Lviv,15:03,Dnipro Holovny,06:06,080,UA,Y,"couchette, sleeper",,1077.0,19.2,17.83,Kyiv Pasazhyrskyi - Oleksandriia
+227,UZ,UZ 081 K,Kyiv Pasazhyrskyi,18:35,Uzhhorod,10:59,081 K,UA,Y,"bunkbed, couchette, sleeper",,922.0,15.4,16.7,Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Stryj - Mukacheve - Chop
+227,UZ,UZ 081 L,Uzhhorod,16:17,Kyiv Pasazhyrskyi,08:32,081 L,UA,Y,"bunkbed, couchette, sleeper",,922.0,15.4,16.7,Chop - Mukacheve - Stryj - Lviv - Ternopil - Khmelnytskyi - Vinnytsia
+211,UZ,UZ 086 L,Lviv,10:48,Zaporizhzhia 1,06:30,086 L,UA,Y,"bunkbed, couchette, sleeper",,1209.0,19.3,15.96,Ternopil - Khmelnytskyi - Vinnytsia - Oleksandriia - Dnipro Holovny
+211,UZ,UZ 086 P,Zaporizhzhia 1,18:48,Lviv,14:15,086 P,UA,Y,"bunkbed, couchette, sleeper",,1209.0,19.3,15.96,Dnipro Holovny - Oleksandriia - Vinnytsia - Khmelnytskyi - Ternopil
+209,UZ,UZ 088 L,Kovel,17:35,Zaporizhzhia 1,13:43,088 L,UA,Y,"bunkbed, couchette, sleeper",,1110.0,17.9,16.13,Lutsk - Rivne - Oleksandriia - Dnipro Holovny
+209,UZ,UZ 088 P,Zaporizhzhia 1,16:30,Kovel,13:40,088 P,UA,Y,"bunkbed, couchette",,1110.0,17.9,16.13,Dnipro Holovny - Oleksandriia - Rivne - Lutsk
+197,UZ,UZ 091,Kyiv Pasazhyrskyi,22:57,Lviv,06:33,091,UA,Y,"couchette, sleeper",,564.0,11.2,19.86,Kyiv Sviatoshyn - Lviv Pidzamche
+197,UZ,UZ 092,Lviv,23:05,Kyiv Pasazhyrskyi,06:19,092,UA,Y,"couchette, sleeper",,564.0,11.2,19.86,Lviv Pidzamche - Kyiv Sviatoshyn
+208,UZ,UZ 093,Kharkiv,13:32,Chelm,11:05,093,UA,Y,"couchette, sleeper",,1160.0,19.8,17.07,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Rivne - Kovel
+208,UZ,UZ 094,Chelm,16:42,Kharkiv,13:53,094,UA,Y,"couchette, sleeper",,1160.0,19.8,17.07,Kovel - Rivne - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+199,UZ,UZ 095,Kyiv Pasazhyrskyi,20:38,Rakhiv,09:25,095,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Lviv - Ivano-Frankivsk - Vorokhta - Yasinia
+199,UZ,UZ 096,Rakhiv,21:14,Kyiv Pasazhyrskyi,10:57,096,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Yasinia - Vorokhta - Ivano-Frankivsk - Lviv
+182,UZ,UZ 097,Kyiv Pasazhyrskyi,23:10,Kovel,08:53,097,UA,Y,"bunkbed, couchette, sleeper",,529.0,16.0,30.25,Rivne - Lutsk - Kivertsi
+182,UZ,UZ 098,Kovel,19:15,Kyiv Pasazhyrskyi,05:57,098,UA,Y,"bunkbed, couchette, sleeper",,529.0,16.0,30.25,Lutsk - Rivne - Fastiv
+174,UZ,UZ 099,Kyiv Pasazhyrskyi,06:30,București Nord,06:47,099,"UA, MD, RO",Y,couchette,,1036.0,16.6,16.02,Vinnytsia - Zhmerynka - Nicolina - Iași - Mizil - Ploiești Sud
+174,UZ,UZ 100,București Nord,19:10,Kyiv Pasazhyrskyi,19:37,100,"UA, MD, RO",Y,couchette,,1036.0,16.6,16.02,Ploiești Sud - Mizil - Buzău - Focșani - Adjud - Bacău - Roman - Zhmerynka - Vinnytsia
+173,UZ,UZ 105,Kyiv Pasazhyrskyi,22:08,Odesa Holovna,06:13,105,UA,Y,"couchette, sleeper",,653.0,10.1,15.47,Kozyatyn - Vinnytsia - Zhmerynka - Podilsk - Rozdil'na
+173,UZ,UZ 106,Odesa Holovna,22:05,Kyiv Pasazhyrskyi,07:50,106,UA,Y,"couchette, sleeper",,653.0,10.1,15.47,Rozdil'na - Podilsk - Zhmerynka - Vinnytsia - Kozyatyn
+213,UZ,UZ 109,Kherson,13:35,Lviv,10:23,109,UA,Y,"bunkbed, couchette, sleeper",,1199.0,,,Mykolaiv - Vinnytsia - Zhmerynka - Khmelnytskyi - Ternopil
+213,UZ,UZ 110,Lviv,16:03,Kherson,12:50,110,UA,Y,"bunkbed, couchette, sleeper",,1199.0,,,Ternopil - Khmelnytskyi - Zhmerynka - Vinnytsia - Mykolaiv
+151,UZ,UZ 112 L,Lviv,15:30,Izyum,11:15,112 L,UA,Y,"bunkbed, couchette, sleeper",,1242.0,,,Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava - Kharkiv
+151,UZ,UZ 112 P,Izyum,18:29,Lviv,13:39,112 P,UA,Y,"bunkbed, couchette, sleeper",,1242.0,,,Kharkiv - Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi
+157,UZ,UZ 113,Kharkiv,07:50,Lviv,09:11,113,UA,Y,"bunkbed, couchette, sleeper",,1108.0,,,Sumy - Konotop - Kyiv Pasazhyrskyi - Fastiv - Korosten - Kovel - Chervonohrad
+157,UZ,UZ 114,Lviv,17:11,Kharkiv,19:26,114,UA,Y,"bunkbed, couchette, sleeper",,1108.0,,,Chervonohrad - Kovel - Korosten - Fastiv - Kyiv Pasazhyrskyi - Konotop - Sumy
+200,UZ,UZ 121,Kherson,16:40,Kyiv Pasazhyrskyi,09:20,121,UA,Y,"bunkbed, couchette, sleeper",,677.0,,,Mykolaiv
+200,UZ,UZ 122,Kyiv Pasazhyrskyi,21:08,Kherson,08:33,122,UA,Y,"bunkbed, couchette, sleeper",,677.0,,,Mykolaiv
+212,UZ,UZ 128 L,Lviv,13:58,Zaporizhzhia 1,15:36,128 L,UA,Y,"bunkbed, couchette, sleeper",,1209.0,,,Lviv Pidzamche - Ternopil - Khmelnytskyi - Zhmerynka - Oleksandriia - Kryvyi Rih - Dnipro Holovny
+212,UZ,UZ 128 P,Zaporizhzhia 1,09:50,Lviv Pidzamche,12:24,128 P,UA,Y,"bunkbed, couchette, sleeper",,1209.0,,,Dnipro Holovny - Kryvyi Rih - Oleksandriia - Zhmerynka - Khmelnytskyi - Ternopil - Lviv Pidzamche
+219,UZ,UZ 136 L,Chernivtsi,14:57,Odesa Holovna,08:26,136 L,UA,Y,"bunkbed, couchette, sleeper",,1011.0,,,Ivano-Frankivsk - Lviv - Ternopil - Khmelnytskyi - Zhmerynka - Podilsk
+219,UZ,UZ 136 Š,Odesa Holovna,18:19,Chernivtsi,11:23,136 Š,UA,Y,"bunkbed, couchette, sleeper",,1011.0,,,Podilsk - Zhmerynka - Khmelnytskyi - Ternopil - Lviv - Ivano-Frankivsk
+180,UZ,UZ 139,Kyiv Pasazhyrskyi,23:32,Kamianets-Podilskyi,08:36,139,UA,Y,"bunkbed, couchette, sleeper",,458.0,,,Fastiv
+180,UZ,UZ 140,Kamianets-Podilskyi,20:12,Kyiv Pasazhyrskyi,05:20,140,UA,Y,"bunkbed, couchette, sleeper",,458.0,,,Fastiv
+166,UZ,UZ 141,Ivano-Frankivsk,14:44,Chernihiv,07:54,141,UA,Y,"bunkbed, couchette, sleeper",,961.0,,,Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Kyiv Pasazhyrskyi
+166,UZ,UZ 142,Chernihiv,21:18,Ivano-Frankivsk,13:20,142,UA,Y,"bunkbed, couchette, sleeper",,961.0,,,Kyiv Pasazhyrskyi - Vinnytsia - Khmelnytskyi - Ternopil - Lviv
+177,UZ,UZ 143,Sumy,19:01,Rakhiv,19:10,143,UA,Y,"bunkbed, couchette, sleeper",,961.0,,,Konotop - Kyiv Pasazhyrskyi - Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Ivano-Frankivsk - Yasinia
+177,UZ,UZ 144,Rakhiv,09:54,Sumy,09:56,144,UA,Y,"bunkbed, couchette, sleeper",,1243.0,,,Yasinia - Ivano-Frankivsk - Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Kyiv Pasazhyrskyi - Konotop
+167,UZ,UZ 149,Poltava,17:24,Chernivtsi,12:25,149,UA,Y,"bunkbed, couchette, sleeper",,1073.0,20.6,19.2,Myrhorod - Lubny - Kyiv Pasazhyrskyi - Lviv - Ivano-Frankivsk
+167,UZ,UZ 150,Chernivtsi,14:32,Poltava,09:37,150,UA,Y,"bunkbed, couchette, sleeper",,1073.0,20.6,19.2,Ivano-Frankivsk - Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod
+175,UZ,UZ 181 L,Ivano-Frankivsk,12:43,Dnipro Holovny,09:25,181 L,UA,Y,"bunkbed, couchette, sleeper",,1221.0,21.9,17.94,Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Oleksandriia
+175,UZ,UZ 181 P,Dnipro Holovny,14:35,Ivano-Frankivsk,11:22,181 P,UA,Y,"bunkbed, couchette, sleeper",,1221.0,21.9,17.94,Oleksandriia - Vinnytsia - Khmelnytskyi - Ternopil - Lviv
+210,UZ,UZ 192 P,Kramatorsk,17:32,Odesa Holovna,13:04,192 P,UA,Y,"bunkbed, couchette, sleeper",,1278.0,19.9,15.57,Sloviansk - Dnipro Holovny - Oleksandriia - Podilsk
+210,UZ,UZ 192 Š,Odesa Holovna,20:58,Kramatorsk,16:45,192 Š,UA,Y,"bunkbed, couchette, sleeper",,1278.0,19.9,15.57,Podilsk - Oleksandriia - Dnipro Holovny - Sloviansk
+201,UZ,UZ 194 L,Yasinia,13:28,Kryvyi Rih,10:34,194 L,UA,Y,"bunkbed, couchette, sleeper",,1288.0,,,Vorokhta - Ivano-Frankivsk - Lviv - Kyiv Pasazhyrskyi - Oleksandriia
+201,UZ,UZ 194 P,Kryvyi Rih,11:02,Yasinia,10:06,194 P,UA,Y,"bunkbed, couchette, sleeper",,1288.0,,,Oleksandriia - Kyiv Pasazhyrskyi - Lviv - Ivano-Frankivsk - Vorokhta
+196,UZ,UZ 357,Kyiv Pasazhyrskyi,20:37,Yasinia,13:25,357,UA,Y,"bunkbed, couchette, sleeper",,872.0,,,Fastiv - Vinnytsia - Khmelnytskyi - Ternopil - Vorokhta
+196,UZ,UZ 358,Yasinia,14:04,Kyiv Pasazhyrskyi,07:47,358,UA,Y,"bunkbed, couchette, sleeper",,872.0,,,Vorokhta - Ternopil - Khmelnytskyi - Vinnytsia - Fastiv
+195,UZ/CFM,UZ/CFM 351 K,Kyiv Pasazhyrskyi,18:06,Chişinău,11:53,351 K,"UA, MD",Y,"bunkbed, couchette, sleeper",,720.0,,,Vinnytsia - Zhmerynka - Vălcineț - Bălți Oras
+195,UZ/CFM,UZ/CFM 351 L,Chişinău,17:42,Kyiv Pasazhyrskyi,11:17,351 L,"UA, MD",Y,"bunkbed, couchette, sleeper",,720.0,,,Bălți Oras - Vălcineț - Zhmerynka - Vinnytsia
+60,UZ/ÖBB,UZ/ÖBB 40149,Wien Westbf,18:30,Kyiv Pasazhyrskyi,16:58,40149,"AT, HU, UA",Y,sleeper,,1477.0,25.8,17.47,Wien Meidling - Wien Hbf - Hegyeshalom - Győr - Budapest Kelenföld - Szolnok - Debrecen - Nyíregyháza - Chop - Mukacheve - Stryj - Stryj
+60,UZ/ÖBB,UZ/ÖBB 40749,Kyiv Pasazhyrskyi,13:05,Wien Hbf,08:53,40749,"AT, HU, UA",Y,sleeper,,1477.0,25.8,17.47,Lviv - Stryj - Mukacheve - Chop - Záhony - Nyíregyháza - Debrecen - Szolnok - Cegléd - Budapest Kelenföld - Győr - Hegyeshalom - Hegyeshalom
+72,VR,VR IC 265,Helsinki / Helsingfors,19:29,Kemijärvi,08:50,IC 265,FI,Y,"seat, sleeper",,983.0,13.8,14.04,Riihimäki - Tampere - Seinäjoki - Oulu - Kemi - Rovaniemi
+72,VR,VR IC 274,Kemijärvi,19:00,Helsinki / Helsingfors,09:15,IC 274,FI,Y,"seat, sleeper",,983.0,13.8,14.04,Rovaniemi - Kemi - Oulu - Seinäjoki - Tampere - Riihimäki - Riihimäki
+91,VR,VR IC 266 (H),Rovaniemi,17:52,Helsinki / Helsingfors,06:27,IC 266 (H),FI,Y,"seat, sleeper",,899.0,12.1,13.46,Kemi - Oulu - Ylivieska - Kokkola - Tampere - Toijala - Riihimäki
+91,VR,VR IC 273,Helsinki / Helsingfors,23:13,Rovaniemi,11:03,IC 273,FI,Y,"seat, sleeper",,899.0,12.1,13.46,Riihimäki - Seinäjoki - Kokkola - Ylivieska - Oulu - Kemi
+90,VR,VR IC 266 (T),Rovaniemi,17:52,Turku satama / Åbo hamn,07:52,IC 266 (T),FI,Y,"seat, sleeper",,899.0,11.3,12.57,Kemi - Oulu - Ylivieska - Kokkola - Tampere - Turku / Åbo
+90,VR,VR IC 933,Turku satama / Åbo hamn,20:20,Rovaniemi,10:59,IC 933,FI,Y,"seat, sleeper",,899.0,11.3,12.57,Turku / Åbo - Toijala - Tampere - Kokkola - Ylivieska - Oulu - Kemi
+98,VR,VR P 269,Helsinki / Helsingfors,20:24,Kolari,10:55,P 269,FI,Y,"seat, sleeper",,989.0,13.9,14.05,Riihimäki - Tampere - Oulu - Tornio-Itäinen
+98,VR,VR P 276,Kolari,19:42,Helsinki / Helsingfors,10:34,P 276,FI,Y,"seat, sleeper",,989.0,13.9,14.05,Tornio-Itäinen - Oulu - Tampere - Riihimäki
+69,VY,VY 605,Oslo S,23:03,Bergen,06:23,605,NO,Y,"seat, couchette, sleeper",,482.0,0.16,0.33,Sandvika - Asker - Drammen - Hokksund - Myrdal - Dale
+69,VY,VY 606,Bergen,23:01,Oslo S,06:27,606,NO,Y,"seat, couchette, sleeper",,482.0,0.16,0.33,Dale - Myrdal - Hokksund - Drammen - Asker - Sandvika
+130,ŽS/ŽPCG,ŽS/ŽPCG 433,Zemun,19:35,Bar,06:54,433,"RS, ME",Y,"seat, couchette, sleeper",,469.0,13.7,29.21,Beograd Centar - Rakovica - Lazarevac - Lajkovac - Valjevo - Kosjerić - Požega - Užice - Priboj - Kolašin - Podgorica - Golubovci - Golubovci
+130,ŽS/ŽPCG,ŽS/ŽPCG 1130 / 432,Bar,20:10,Zemun,07:25,1130 / 432,"RS, ME",Y,"seat, couchette, sleeper",,469.0,13.7,29.21,Sutomore - Golubovci - Podgorica - Kolašin - Mojkovac - Bijelo Polje - Prijepolje teretna - Prijepolje - Kosjerić - Lajkovac - Lazarevac - Rakovica - Rakovica - Beograd Centar
+123,ZSSK,ZSSK R 680,Humenné,21:51,Bratislava hl.st.,05:33,R 680,SK,Y,"seat, couchette, sleeper",,529.0,4.7,8.88,Strážske - Michalovce - Bánovce nad Ondavou - Trebišov - Košice - Kysak - Margecany - Spišská Nová Ves - Poprad Tatry - Trnava - Bratislava-Vinohrady
+123,ZSSK,ZSSK R 681,Bratislava hl.st.,22:55,Humenné,07:29,R 681,SK,Y,"seat, couchette, sleeper",,529.0,4.7,8.88,Bratislava-Vinohrady - Trnava - Leopoldov - Piešťany - Nové Mesto nad Váhom - Trenčín - Trenčianska Teplá - Púchov - Košice - Trebišov - Bánovce nad Ondavou - Michalovce - Michalovce
+6,ZSSK,ZSSK EN 442,Humenné,19:31,Praha hl.n.,07:46,EN 442,"SK, CZ",Y,"seat, couchette, sleeper",,745.0,12.6,16.91,Strážske - Michalovce - Bánovce nad Ondavou - Trebišov - Košice - Kysak - Margecany - Spišská Nová Ves - Poprad Tatry - Liptovský Mikuláš - Ružomberok - Ružomberok - Olomouc hl.n. - Česká Třebová - Pardubice hl.n.
+6,ZSSK,ZSSK EN 443,Praha hl.n.,22:16,Humenné,10:29,EN 443,"SK, CZ",Y,"seat, couchette, sleeper",,745.0,12.6,16.91,Kolín - Pardubice hl.n. - Česká Třebová - Olomouc hl.n. - Kraľovany - Ružomberok - Liptovský Mikuláš - Štrba - Poprad Tatry - Spišská Nová Ves - Margecany - Kysak - Kysak - Trebišov - Bánovce nad Ondavou - Michalovce - Strážske
+115,ZSSK,ZSSK EN 1152,Split,17:29,Bratislava Nové Mesto,11:00,EN 1152,"SK, AT, SI, HR",Y,"seat, couchette, sleeper",,931.0,7.2,7.73,Knin - Zagreb Gl. K. - Maribor - Graz Hbf - Bruck an der Mur - Wiener Neustadt Hbf - Wien Meidling - Wien Hbf - Wien Hbf (Autoreisezuganlage) - Bratislava Petržalka
+115,ZSSK,ZSSK EN 1153,Bratislava Nové Mesto,15:26,Split,08:20,EN 1153,"SK, AT, SI, HR",Y,"seat, couchette, sleeper",,931.0,7.2,17.86,Bratislava Petržalka - Wien Hbf - Wien Meidling - Wiener Neustadt Hbf - Bruck an der Mur - Graz Hbf - Maribor - Zagreb Gl. K. - Knin
