@@ -39,6 +39,10 @@ def load_operateurs():
     print("\n── Chargement opérateurs ──")
     df = pd.read_csv(f"{TRANSFORMED_DIR}/operateurs.csv")
 
+    nt_path = f"{TRANSFORMED_DIR}/night_trains_operateurs.csv"
+    if os.path.exists(nt_path):
+        df = pd.concat([df, pd.read_csv(nt_path)], ignore_index=True)
+
     # Colonnes pour la BDD (sans les colonnes internes _*)
     insert = df[["nom", "pays_code"]].drop_duplicates(subset=["nom"])
 
@@ -61,6 +65,10 @@ def load_operateurs():
 def load_gares():
     print("\n── Chargement gares ──")
     df = pd.read_csv(f"{TRANSFORMED_DIR}/gares.csv")
+
+    nt_path = f"{TRANSFORMED_DIR}/night_trains_gares.csv"
+    if os.path.exists(nt_path):
+        df = pd.concat([df, pd.read_csv(nt_path)], ignore_index=True)
 
     insert = df[["nom", "pays_code", "latitude", "longitude"]].drop_duplicates(subset=["nom"])
 
@@ -86,6 +94,15 @@ def load_gares():
 def load_dessertes(db_operateurs, db_gares):
     print("\n── Chargement dessertes ──")
     df = pd.read_csv(f"{TRANSFORMED_DIR}/dessertes.csv")
+
+    nt_path = f"{TRANSFORMED_DIR}/night_trains_dessertes.csv"
+    if os.path.exists(nt_path):
+        df_nt = pd.read_csv(nt_path)
+        df = pd.concat([df, df_nt], ignore_index=True)
+
+    # Générer des IDs pour les lignes nuit qui n'en ont pas
+    mask = df["id"].isna()
+    df.loc[mask, "id"] = ["NT_" + str(i) for i in range(mask.sum())]
 
     # Résoudre FK operateur_id depuis le nom
     op_map  = dict(zip(db_operateurs["nom"], db_operateurs["id"]))

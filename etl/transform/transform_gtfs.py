@@ -383,7 +383,7 @@ def _type_ligne(nom):
     if "intercit" in n or "intercity" in n or "ic " in n:
         return "Intercité"
     if "nuit" in n or "night" in n or "nacht" in n or "nightjet" in n:
-        return "Train de nuit intern"
+        return "Train de nuit interne"
     return "Train régional"
 
 

@@ -8,7 +8,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from extract.extract_gtfs        import run_extract_gtfs
 from extract.extract_opendata    import OpenNightTrainExtractor
 from extract.extract_scraping    import TrainScraper
-from transform.transform_gtfs    import transform_operateurs, transform_gares, transform_dessertes
+from transform.transform_gtfs        import transform_operateurs, transform_gares, transform_dessertes
+from transform.transform_night_trains import transform as transform_night_trains
 from load.load_to_postgresql     import run_load_pipeline
 
 
@@ -44,10 +45,15 @@ def run_pipeline(skip_extract=False):
     gares      = transform_gares()
     dessertes  = transform_dessertes(operateurs, gares)
 
+    nt_ops, nt_gares, nt_dessertes = transform_night_trains()
+
     print(f"\n  Résumé transform :")
-    print(f"    Opérateurs : {len(operateurs)}")
-    print(f"    Gares      : {len(gares)}")
-    print(f"    Dessertes  : {len(dessertes)}")
+    print(f"    Opérateurs GTFS      : {len(operateurs)}")
+    print(f"    Opérateurs nuit      : {len(nt_ops)}")
+    print(f"    Gares GTFS           : {len(gares)}")
+    print(f"    Gares nuit           : {len(nt_gares)}")
+    print(f"    Dessertes GTFS       : {len(dessertes)}")
+    print(f"    Dessertes nuit       : {len(nt_dessertes)}")
 
     # ── LOAD ──
     print("\n[3/3] LOAD")
