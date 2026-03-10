@@ -1,13 +1,24 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, URL
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+from urllib.parse import urlparse
 from core.config import settings
 
-# Créer l'engine de connexion
+# Parser l'URL pour extraire les composants (gère le @ dans le mot de passe)
+_url = urlparse(settings.DATABASE_URL)
+_password = settings.DB_PASSWORD if settings.DB_PASSWORD else _url.password
 engine = create_engine(
-    settings.DATABASE_URL,
-    echo=True,  # Affiche les requêtes SQL dans la console (utile pour debug)
-    pool_pre_ping=True  # Vérifie que la connexion est active avant de l'utiliser
+    URL.create(
+        drivername="postgresql",
+        username=_url.username,
+        password=_password,
+        host=_url.hostname,
+        port=_url.port,
+        database=_url.path.lstrip("/"),
+        query={"sslmode": "require"},
+    ),
+    echo=True,
+    pool_pre_ping=True
 )
 
 # Créer la session

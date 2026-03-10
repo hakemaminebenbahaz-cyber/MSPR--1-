@@ -7,6 +7,7 @@ ENV_FILE = Path(__file__).parent.parent.parent / ".env"
 class Settings(BaseSettings):
     # Database
     DATABASE_URL: str
+    DB_PASSWORD: str = ""
     
     # API
     PROJECT_NAME: str = "ObRail Europe API"
