@@ -41,6 +41,8 @@ app.add_middleware(
 
 @app.middleware("http")
 async def api_key_middleware(request: Request, call_next):
+    if request.method == "OPTIONS":
+        return await call_next(request)
     if request.url.path.startswith("/api/v1/"):
         key = request.headers.get("x-api-key")
         if key != settings.API_KEY:
