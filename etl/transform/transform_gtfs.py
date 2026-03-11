@@ -83,11 +83,11 @@ def _detect_pays(lat, lon):
     """Détection du pays par coordonnées GPS (pour sources multi-pays)."""
     lat, lon = float(lat), float(lon)
     if 47.0 <= lat <= 55.5 and 5.8 <= lon <= 15.5: return "DE"
+    if 49.5 <= lat <= 51.5 and 2.5 <= lon <= 6.5:   return "BE"
+    if 50.7 <= lat <= 53.8 and 3.3 <= lon <= 7.3:   return "NL"
     if 41.0 <= lat <= 51.5 and -5.5 <= lon <= 8.5:  return "FR"
     if 46.0 <= lat <= 48.5 and 5.8 <= lon <= 10.7:  return "CH"
     if 46.0 <= lat <= 49.0 and 9.5 <= lon <= 17.5:  return "AT"
-    if 49.5 <= lat <= 51.5 and 2.5 <= lon <= 6.5:   return "BE"
-    if 50.7 <= lat <= 53.8 and 3.3 <= lon <= 7.3:   return "NL"
     if 49.0 <= lat <= 54.9 and 14.1 <= lon <= 24.2: return "PL"
     if 47.7 <= lat <= 51.1 and 12.0 <= lon <= 22.6: return "CZ"
     if 47.7 <= lat <= 49.6 and 16.8 <= lon <= 22.6: return "SK"
