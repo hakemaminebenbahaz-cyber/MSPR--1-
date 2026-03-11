@@ -123,14 +123,10 @@ def transform_gares():
                                "parent_station", "location_type"], errors="ignore")
 
         df["stop_name"] = df["stop_name"].str.strip()
-        if source == "sncf_ter":
-            # SNCF TER = uniquement France régionale, pas de GPS nécessaire
-            df["pays_code"] = "FR"
-        else:
-            # Sources longue distance avec trains internationaux → détection GPS
-            df["pays_code"] = df.apply(
-                lambda r: _detect_pays(r["stop_lat"], r["stop_lon"]), axis=1
-            )
+        # Détection GPS pour toutes les sources (SNCF TER inclut des gares BE/CH en zone frontalière)
+        df["pays_code"] = df.apply(
+            lambda r: _detect_pays(r["stop_lat"], r["stop_lon"]), axis=1
+        )
         df["_source"] = source
         all_stops.append(df)
 
