@@ -3,6 +3,7 @@
 import os
 import re
 import pandas as pd
+import reverse_geocoder as rg
 
 RAW_DIR = "data/raw"
 OUT_DIR = "data/transformed"
@@ -79,26 +80,11 @@ def _simplify_agency_id(aid):
 # 2. GARES
 # ═══════════════════════════════════════════════════════════
 
-def _detect_pays(lat, lon):
-    """Détection du pays par coordonnées GPS (pour sources multi-pays)."""
-    lat, lon = float(lat), float(lon)
-    # Pays voisins de l'Allemagne vérifiés EN PREMIER (bboxes DE très large)
-    if 49.5 <= lat <= 51.5 and 2.5 <= lon <= 6.4:   return "BE"
-    if 50.7 <= lat <= 53.6 and 3.3 <= lon <= 7.2:   return "NL"
-    if 45.8 <= lat <= 47.8 and 5.9 <= lon <= 10.5:  return "CH"
-    if 46.4 <= lat <= 49.0 and 9.5 <= lon <= 17.2:  return "AT"
-    if 48.5 <= lat <= 51.1 and 12.1 <= lon <= 18.9: return "CZ"
-    if 47.7 <= lat <= 49.6 and 16.8 <= lon <= 22.6: return "SK"
-    if 45.7 <= lat <= 48.6 and 16.1 <= lon <= 22.9: return "HU"
-    if 49.0 <= lat <= 54.9 and 14.1 <= lon <= 24.2: return "PL"
-    if 54.5 <= lat <= 57.8 and 8.0 <= lon <= 15.3:  return "DK"
-    # Allemagne après ses voisins
-    if 47.3 <= lat <= 55.1 and 5.9 <= lon <= 15.1:  return "DE"
-    if 36.0 <= lat <= 44.0 and -10.0 <= lon <= 4.5: return "ES"
-    if 36.5 <= lat <= 47.1 and 6.6 <= lon <= 18.5:  return "IT"
-    # France en dernier (grande bbox qui chevauche BE, CH, IT)
-    if 41.0 <= lat <= 51.5 and -5.5 <= lon <= 9.6:  return "FR"
-    return "EU"
+def _detect_pays_batch(df):
+    """Détection du pays par géocodage inverse (précis, basé sur les vraies frontières)."""
+    coords = list(zip(df["stop_lat"].astype(float), df["stop_lon"].astype(float)))
+    results = rg.search(coords, verbose=False)
+    return [r["cc"] for r in results]
 
 
 def transform_gares():
@@ -123,10 +109,8 @@ def transform_gares():
                                "parent_station", "location_type"], errors="ignore")
 
         df["stop_name"] = df["stop_name"].str.strip()
-        # Détection GPS pour toutes les sources (SNCF TER inclut des gares BE/CH en zone frontalière)
-        df["pays_code"] = df.apply(
-            lambda r: _detect_pays(r["stop_lat"], r["stop_lon"]), axis=1
-        )
+        # Géocodage inverse pour toutes les sources (précis, vraies frontières)
+        df["pays_code"] = _detect_pays_batch(df)
         df["_source"] = source
         all_stops.append(df)
 
