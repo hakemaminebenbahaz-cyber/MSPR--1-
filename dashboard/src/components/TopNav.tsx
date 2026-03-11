@@ -99,7 +99,7 @@ export default function TopNav({ page, setPage }: Props) {
         </button>
 
         <div style={{ width: '1px', height: '16px', background: 'var(--border)', margin: '0 4px' }} />
-        <a href="http://localhost:8001/docs" target="_blank" rel="noreferrer"
+        <a href="http://localhost:8000/docs" target="_blank" rel="noreferrer"
           style={{ fontSize: '12px', color: '#6366f1', textDecoration: 'none', fontWeight: 500 }}>
           Docs →
         </a>
