@@ -116,8 +116,8 @@ def transform_gares():
 
     df_all = pd.concat(all_stops, ignore_index=True)
 
-    # Dédupliquer par nom exact
-    df_all = df_all.drop_duplicates(subset=["stop_name"]).reset_index(drop=True)
+    # Dédupliquer par (nom, pays_code) : garde Bruges-FR et Bruges-BE séparément
+    df_all = df_all.drop_duplicates(subset=["stop_name", "pays_code"]).reset_index(drop=True)
     df_all.insert(0, "id", range(1, len(df_all) + 1))
 
     # Normaliser les stop_ids en string (évite int vs float vs str)
@@ -188,9 +188,14 @@ def transform_dessertes(operateurs_df, gares_df):
         area_to_nom  = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["nom"])}
         area_to_id   = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["id"])}
 
-        # Fallback par nom : si un stop_area_id n'est pas dans area_to_id
-        # (ex: dédupliqué par nom depuis une autre source), on le retrouve via le nom
-        name_to_gare_id = {row["nom"]: row["id"] for _, row in gares_df.iterrows()}
+        # Fallback par nom : préférer la gare du même pays que la source
+        source_pays = meta["pays"]
+        name_to_gare_id = {}
+        for _, row in gares_df.iterrows():
+            name = row["nom"]
+            # On écrase seulement si : pas encore vu OU la nouvelle entrée est du bon pays
+            if name not in name_to_gare_id or row["pays_code"] == source_pays:
+                name_to_gare_id[name] = row["id"]
         if "location_type" in stops.columns:
             stops_type1 = stops[stops["location_type"] == 1]
             for _, stop_row in stops_type1.iterrows():
