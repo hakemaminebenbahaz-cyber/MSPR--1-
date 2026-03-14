@@ -274,7 +274,7 @@ def transform_dessertes(operateurs_df, gares_df):
                 "duree_h":          _duree(r["heure_depart"], r["heure_arrivee"]),
                 "distance_km":      distance,
                 "emissions_co2_gkm": meta["co2"],
-                "frequence_hebdo":  freq_map.get(str(r.get("service_id", "")), None),
+                "frequence_hebdo":  freq_map.get(_norm_sid(r.get("service_id", "")), None),
                 "traction":         meta["traction"],
                 "source_donnee":    f"GTFS {source}",
             })
@@ -305,9 +305,19 @@ def transform_dessertes(operateurs_df, gares_df):
 
 # ─── Utilitaires ────────────────────────────────────────────
 
+def _norm_sid(s):
+    """Normalise un service_id : retire les zéros de tête si numérique (ex: '000001' → '1')."""
+    s = str(s).strip()
+    try:
+        return str(int(s))
+    except ValueError:
+        return s
+
+
 def _build_freq_map(source):
     """Calcule la fréquence hebdomadaire par service_id.
-    Priorité : calendar.txt si jours non nuls, sinon calendar_dates.txt."""
+    Priorité : calendar.txt si jours non nuls, sinon calendar_dates.txt.
+    Les clés sont normalisées (sans zéros de tête) pour matcher trips.txt lu sans dtype=str."""
     cal_path   = f"{RAW_DIR}/{source}/calendar.txt"
     dates_path = f"{RAW_DIR}/{source}/calendar_dates.txt"
     freq = {}
@@ -322,7 +332,7 @@ def _build_freq_map(source):
         existing_days = [d for d in days if d in cal.columns]
         cal["freq"] = cal[existing_days].sum(axis=1)
         if cal["freq"].sum() > 0:
-            freq = dict(zip(cal["service_id"].astype(str), cal["freq"].astype(int)))
+            freq = {_norm_sid(k): int(v) for k, v in zip(cal["service_id"], cal["freq"])}
             return freq
 
     # calendar_dates.txt — comptage des dates actives par service
@@ -334,7 +344,7 @@ def _build_freq_map(source):
         if len(dates) > 0:
             span_weeks = max(1, (dates["date"].max() - dates["date"].min()).days / 7)
             counts = dates.groupby("service_id")["date"].count()
-            freq = {str(k): max(1, round(v / span_weeks)) for k, v in counts.items()}
+            freq = {_norm_sid(k): max(1, round(v / span_weeks)) for k, v in counts.items()}
 
     return freq
 
