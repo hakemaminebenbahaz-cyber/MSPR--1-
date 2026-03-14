@@ -1,27 +1,27 @@
 Country/Territory,Length (km),% of the totalelectrified,(per route km),Historical peaklength (km),Nationalized or private[a],Data year,References,ISO 3166-1,col_9,col_10,scraped_date,source
-Russia,"105,118","54,073",51.48%,162.84,"1,367","118,000(1991)",Nationalized,2023,,643,2026-03-09,Wikipedia - Rail network size
-Germany,"33,351","20,851",62.52%,10.72,"2,482","61,498 (1910)",Nationalized with private operators,2023,,276,2026-03-09,Wikipedia - Rail network size
-France,"27,483","16,067",58.46%,22.78,"2,374","63,000 (1923)",Nationalized,2019,,250,2026-03-09,Wikipedia - Rail network size
-Italy,"24,567","12,205",49.68%,15.03,"3,026",,Infrastructure nationalized with private operators.,2023,,,2026-03-09,Wikipedia - Rail network size
-Romania,"20,077","6,600",32.87%,22.13,"1,823","23,955",Nationalized with private operators,2023,,642,2026-03-09,Wikipedia - Rail network size
-Ukraine,"19,787","9,319",47.1%,28.81,"2,140",,Nationalized,2019,,804,2026-03-09,Wikipedia - Rail network size
-Poland,"19,576","12,236",62.51%,16.28,"2,001","27,000 (1954)",Nationalized with private operators,2023,,616,2026-03-09,Wikipedia - Rail network size
-Spain,"16,355","11,127",68.03%,31.73,"2,920","18,000+ (in 1950s)",Nationalized with private operators,2017,,724,2026-03-09,Wikipedia - Rail network size
-United Kingdom,"16,179","6,200",38.32%,15.10,"4,178","34,075 (1929)",State-owned infrastructure with passenger operations mainly now publicly run with a handful of open access and contracted operators in Great Britain and publicly run in Northern Ireland.,2023,,826,2026-03-09,Wikipedia - Rail network size
-Sweden,"10,912","8,186",75.02%,41,958,"16,900 (around 1938)",Nationalized with private operatorsMost services subject to franchising.,2021,,752,2026-03-09,Wikipedia - Rail network size
-Czech Republic,"9,567","3,237",33.84%,8.24,"1,106",,Nationalized with private operators,2017,,203,2026-03-09,Wikipedia - Rail network size
-Hungary,"7,945","2,889",36.36%,11.71,"1,233",,Nationalized with private operators,2017,,348,2026-03-09,Wikipedia - Rail network size
-Finland,"5,926","3,270",55.18%,57.06,929,,Nationalized,2017,,246,2026-03-09,Wikipedia - Rail network size
-Belarus,"5,459",874,16.01%,38.03,"1,741",,Nationalized,2016,,112,2026-03-09,Wikipedia - Rail network size
-Switzerland,"5,317","5,317",100.00%,7.76,"1,631","5,868 (1930)","Both, but majority is nationalized",2020,,756,2026-03-09,Wikipedia - Rail network size
-Austria,"4,859","3,650",75.12%,15.18,"1,587","7,166 (1930)",Nationalized with private operators,2022,,040,2026-03-09,Wikipedia - Rail network size
-Norway,"4,240","2,895",68.3%,76.36,1291,"4,471 (1950)",Nationalized with private operators,2023,,578,2026-03-09,Wikipedia - Rail network size
-Bulgaria,"4,029","3,005",74.58%,27.55,"1,763",6507,Nationalized,2023,,100,2026-03-09,Wikipedia - Rail network size
-Serbia,"3,764","1,279",33.98%,23.48,"1,866",,Nationalized,2017,,688,2026-03-09,Wikipedia - Rail network size
-Slovakia,"3,626","1,587",43.77%,13.52,"1,499",,Nationalized,2017,,703,2026-03-09,Wikipedia - Rail network size
-Portugal,"2,527","1,791",70.87%,36.13,"4,049","3,622",Nationalized,2023,,620,2026-03-09,Wikipedia - Rail network size
-Belgium,"3,607","2,960",82.06%,8.48,"3,140","5,081 (1940)",Nationalized,2018,,056,2026-03-09,Wikipedia - Rail network size
-Netherlands,"3,055","2,314",75.74%,13.59,"5,591","3,407 (1920)",Nationalized with private operatorsRural lines subject to franchising.,2017,,528,2026-03-09,Wikipedia - Rail network size
-Croatia,"2,604",985,37.83%,21.71,"1,595",,Nationalized,2017,,191,2026-03-09,Wikipedia - Rail network size
-Greece,"2,240",764,34.11%,58.91,"4,808","2,632 (1940)",Semi-Privatized,2017,,300,2026-03-09,Wikipedia - Rail network size
-Denmark,"2,610",964,36.93%,21.69,"2,893","5,290 (1931)","Nationalized,rural lines franchised",2017,,208,2026-03-09,Wikipedia - Rail network size
+Russia,"92,000","48,000",53%,162.84,"1,367","108,000(1991)","Mostly Nationalised, with some private industrial lines",2023,,643,2026-03-14,Wikipedia - Rail network size
+Germany,"33,351","20,851",62.52%,10.72,"2,482","61,498 (1910)",Nationalized with private operators,2023,,276,2026-03-14,Wikipedia - Rail network size
+France,"27,483","16,067",58.46%,22.78,"2,374","63,000 (1923)",Nationalized,2019,,250,2026-03-14,Wikipedia - Rail network size
+Italy,"24,567","12,205",49.68%,15.03,"3,026",,Infrastructure nationalized with private operators.,2023,,,2026-03-14,Wikipedia - Rail network size
+Romania,"20,077","6,600",32.87%,22.13,"1,823","23,955",Nationalized with private operators,2023,,642,2026-03-14,Wikipedia - Rail network size
+Ukraine,"19,787","9,319",47.1%,28.81,"2,140",,Nationalized,2019,,804,2026-03-14,Wikipedia - Rail network size
+Poland,"19,576","12,236",62.51%,16.28,"2,001","27,000 (1954)",Nationalized with private operators,2023,,616,2026-03-14,Wikipedia - Rail network size
+Spain,"16,355","11,127",68.03%,31.73,"2,920","18,000+ (in 1950s)",Nationalized with private operators,2017,,724,2026-03-14,Wikipedia - Rail network size
+United Kingdom,"16,179","6,200",38.32%,15.10,"4,178","34,075 (1929)",State-owned infrastructure with passenger operations mainly now publicly run with a handful of open access and contracted operators in Great Britain and publicly run in Northern Ireland.,2023,,826,2026-03-14,Wikipedia - Rail network size
+Sweden,"10,912","8,186",75.02%,41,958,"16,900 (around 1938)",Nationalized with private operatorsMost services subject to franchising.,2021,,752,2026-03-14,Wikipedia - Rail network size
+Czech Republic,"9,567","3,237",33.84%,8.24,"1,106",,Nationalized with private operators,2017,,203,2026-03-14,Wikipedia - Rail network size
+Hungary,"7,945","2,889",36.36%,11.71,"1,233",,Nationalized with private operators,2017,,348,2026-03-14,Wikipedia - Rail network size
+Finland,"5,926","3,270",55.18%,57.06,929,,Nationalized,2017,,246,2026-03-14,Wikipedia - Rail network size
+Belarus,"5,459",874,16.01%,38.03,"1,741",,Nationalized,2016,,112,2026-03-14,Wikipedia - Rail network size
+Switzerland,"5,317","5,317",100.00%,7.76,"1,631","5,868 (1930)","Both, but majority is nationalized",2020,,756,2026-03-14,Wikipedia - Rail network size
+Austria,"4,859","3,650",75.12%,15.18,"1,587","7,166 (1930)",Nationalized with private operators,2022,,040,2026-03-14,Wikipedia - Rail network size
+Norway,"4,240","2,895",68.3%,76.36,1291,"4,471 (1950)",Nationalized with private operators,2023,,578,2026-03-14,Wikipedia - Rail network size
+Bulgaria,"4,029","3,005",74.58%,27.55,"1,763",6507,Nationalized,2023,,100,2026-03-14,Wikipedia - Rail network size
+Serbia,"3,764","1,279",33.98%,23.48,"1,866",,Nationalized,2017,,688,2026-03-14,Wikipedia - Rail network size
+Slovakia,"3,626","1,587",43.77%,13.52,"1,499",,Nationalized,2017,,703,2026-03-14,Wikipedia - Rail network size
+Portugal,"2,527","1,791",70.87%,36.13,"4,049","3,622",Nationalized,2023,,620,2026-03-14,Wikipedia - Rail network size
+Belgium,"3,607","2,960",82.06%,8.48,"3,140","5,081 (1940)",Nationalized,2018,,056,2026-03-14,Wikipedia - Rail network size
+Netherlands,"3,055","2,314",75.74%,13.59,"5,591","3,407 (1920)",Nationalized with private operatorsRural lines subject to franchising.,2017,,528,2026-03-14,Wikipedia - Rail network size
+Croatia,"2,604",985,37.83%,21.71,"1,595",,Nationalized,2017,,191,2026-03-14,Wikipedia - Rail network size
+Greece,"2,240",764,34.11%,58.91,"4,808","2,632 (1940)",Semi-Privatized,2017,,300,2026-03-14,Wikipedia - Rail network size
+Denmark,"2,610",964,36.93%,21.69,"2,893","5,290 (1931)","Nationalized,rural lines franchised",2017,,208,2026-03-14,Wikipedia - Rail network size

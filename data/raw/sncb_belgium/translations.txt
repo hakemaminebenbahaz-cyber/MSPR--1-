@@ -111,8 +111,11 @@ stops,stop_name,nl,Galmaarden,,,Gammerages
 stops,stop_name,de,Galmaarden / Gammerages,,,Gammerages
 stops,stop_name,en,Gammerages / Galmaarden,,,Gammerages
 stops,stop_name,nl,Viane-Moerbeke,,,Viane-Moerbeke
+trips,trip_headsign,nl,Viane-Moerbeke,,,Viane-Moerbeke
 stops,stop_name,de,Viane-Moerbeke,,,Viane-Moerbeke
+trips,trip_headsign,de,Viane-Moerbeke,,,Viane-Moerbeke
 stops,stop_name,en,Viane-Moerbeke,,,Viane-Moerbeke
+trips,trip_headsign,en,Viane-Moerbeke,,,Viane-Moerbeke
 stops,stop_name,nl,Lierde,,,Lierde
 stops,stop_name,de,Lierde,,,Lierde
 stops,stop_name,en,Lierde,,,Lierde
@@ -210,8 +213,11 @@ stops,stop_name,nl,Sinaai,,,Sinaai
 stops,stop_name,de,Sinaai,,,Sinaai
 stops,stop_name,en,Sinaai,,,Sinaai
 stops,stop_name,nl,Zele,,,Zele
+trips,trip_headsign,nl,Zele,,,Zele
 stops,stop_name,de,Zele,,,Zele
+trips,trip_headsign,de,Zele,,,Zele
 stops,stop_name,en,Zele,,,Zele
+trips,trip_headsign,en,Zele,,,Zele
 stops,stop_name,nl,Lokeren,,,Lokeren
 trips,trip_headsign,nl,Lokeren,,,Lokeren
 stops,stop_name,de,Lokeren,,,Lokeren
@@ -273,11 +279,8 @@ trips,trip_headsign,de,Wondelgem,,,Wondelgem
 stops,stop_name,en,Wondelgem,,,Wondelgem
 trips,trip_headsign,en,Wondelgem,,,Wondelgem
 stops,stop_name,nl,Gentbrugge,,,Gentbrugge
-trips,trip_headsign,nl,Gentbrugge,,,Gentbrugge
 stops,stop_name,de,Gentbrugge,,,Gentbrugge
-trips,trip_headsign,de,Gentbrugge,,,Gentbrugge
 stops,stop_name,en,Gentbrugge,,,Gentbrugge
-trips,trip_headsign,en,Gentbrugge,,,Gentbrugge
 stops,stop_name,nl,Gent-Dampoort,,,Gand-Dampoort
 trips,trip_headsign,nl,Gent-Dampoort,,,Gand-Dampoort
 stops,stop_name,de,Gent-Dampoort / Gand-Dampoort,,,Gand-Dampoort
@@ -300,8 +303,11 @@ stops,stop_name,nl,Melle,,,Melle
 stops,stop_name,de,Melle,,,Melle
 stops,stop_name,en,Melle,,,Melle
 stops,stop_name,nl,Merelbeke,,,Merelbeke
+trips,trip_headsign,nl,Merelbeke,,,Merelbeke
 stops,stop_name,de,Merelbeke,,,Merelbeke
+trips,trip_headsign,de,Merelbeke,,,Merelbeke
 stops,stop_name,en,Merelbeke,,,Merelbeke
+trips,trip_headsign,en,Merelbeke,,,Merelbeke
 stops,stop_name,nl,Ronse,,,Renaix
 trips,trip_headsign,nl,Ronse,,,Renaix
 stops,stop_name,de,Ronse / Renaix,,,Renaix
@@ -363,11 +369,8 @@ stops,stop_name,nl,Aarsele,,,Aarsele
 stops,stop_name,de,Aarsele,,,Aarsele
 stops,stop_name,en,Aarsele,,,Aarsele
 stops,stop_name,nl,Tielt,,,Tielt
-trips,trip_headsign,nl,Tielt,,,Tielt
 stops,stop_name,de,Tielt,,,Tielt
-trips,trip_headsign,de,Tielt,,,Tielt
 stops,stop_name,en,Tielt,,,Tielt
-trips,trip_headsign,en,Tielt,,,Tielt
 stops,stop_name,nl,Lichtervelde,,,Lichtervelde
 trips,trip_headsign,nl,Lichtervelde,,,Lichtervelde
 stops,stop_name,de,Lichtervelde,,,Lichtervelde
@@ -489,11 +492,17 @@ stops,stop_name,nl,Papegem,,,Papignies
 stops,stop_name,de,Papignies,,,Papignies
 stops,stop_name,en,Papignies,,,Papignies
 stops,stop_name,nl,Houraing,,,Houraing
+trips,trip_headsign,nl,Houraing,,,Houraing
 stops,stop_name,de,Houraing,,,Houraing
+trips,trip_headsign,de,Houraing,,,Houraing
 stops,stop_name,en,Houraing,,,Houraing
+trips,trip_headsign,en,Houraing,,,Houraing
 stops,stop_name,nl,Acren,,,Acren
+trips,trip_headsign,nl,Acren,,,Acren
 stops,stop_name,de,Acren,,,Acren
+trips,trip_headsign,de,Acren,,,Acren
 stops,stop_name,en,Acren,,,Acren
+trips,trip_headsign,en,Acren,,,Acren
 stops,stop_name,nl,Lessen,,,Lessines
 stops,stop_name,de,Lessen / Lessines,,,Lessines
 stops,stop_name,en,Lessines / Lessen,,,Lessines
@@ -1455,8 +1464,11 @@ trips,trip_headsign,de,Puurs,,,Puurs
 stops,stop_name,en,Puurs,,,Puurs
 trips,trip_headsign,en,Puurs,,,Puurs
 stops,stop_name,nl,Willebroek,,,Willebroek
+trips,trip_headsign,nl,Willebroek,,,Willebroek
 stops,stop_name,de,Willebroek,,,Willebroek
+trips,trip_headsign,de,Willebroek,,,Willebroek
 stops,stop_name,en,Willebroek,,,Willebroek
+trips,trip_headsign,en,Willebroek,,,Willebroek
 stops,stop_name,nl,Hambos,,,Hambos
 stops,stop_name,de,Hambos,,,Hambos
 stops,stop_name,en,Hambos,,,Hambos
@@ -1527,8 +1539,11 @@ trips,trip_headsign,de,Mechelen / Malines,,,Malines
 stops,stop_name,en,Malines / Mechelen,,,Malines
 trips,trip_headsign,en,Malines / Mechelen,,,Malines
 stops,stop_name,nl,Tielen,,,Tielen
+trips,trip_headsign,nl,Tielen,,,Tielen
 stops,stop_name,de,Tielen,,,Tielen
+trips,trip_headsign,de,Tielen,,,Tielen
 stops,stop_name,en,Tielen,,,Tielen
+trips,trip_headsign,en,Tielen,,,Tielen
 stops,stop_name,nl,Turnhout,,,Turnhout
 trips,trip_headsign,nl,Turnhout,,,Turnhout
 stops,stop_name,de,Turnhout,,,Turnhout
@@ -1575,8 +1590,11 @@ stops,stop_name,nl,Kessel,,,Kessel
 stops,stop_name,de,Kessel,,,Kessel
 stops,stop_name,en,Kessel,,,Kessel
 stops,stop_name,nl,Boechout,,,Boechout
+trips,trip_headsign,nl,Boechout,,,Boechout
 stops,stop_name,de,Boechout,,,Boechout
+trips,trip_headsign,de,Boechout,,,Boechout
 stops,stop_name,en,Boechout,,,Boechout
+trips,trip_headsign,en,Boechout,,,Boechout
 stops,stop_name,nl,Lier,,,Lierre
 trips,trip_headsign,nl,Lier,,,Lierre
 stops,stop_name,de,Lier / Lierre,,,Lierre
@@ -2086,6 +2104,9 @@ stops,stop_name,en,Céroux-Mousty,,,Céroux-Mousty
 stops,stop_name,nl,Ampsin,,,Ampsin
 stops,stop_name,de,Ampsin,,,Ampsin
 stops,stop_name,en,Ampsin,,,Ampsin
+stops,stop_name,nl,Frankfurt Main (DE),,,Frankfurt Main (DE)
+stops,stop_name,de,Frankfurt Main (DE),,,Frankfurt Main (DE)
+stops,stop_name,en,Frankfurt Main (DE),,,Frankfurt Main (DE)
 stops,stop_name,nl,Linkebeek,,,Linkebeek
 stops,stop_name,de,Linkebeek,,,Linkebeek
 stops,stop_name,en,Linkebeek,,,Linkebeek
@@ -2207,8 +2228,11 @@ trips,trip_headsign,de,Brus.-Zuid / Brux.-Midi,,,Bruxelles-Midi
 stops,stop_name,en,Brux.-Midi/Brus.-Zuid,,,Bruxelles-Midi
 trips,trip_headsign,en,Brux.-Midi/Brus.-Zuid,,,Bruxelles-Midi
 stops,stop_name,nl,Trois-Ponts,,,Trois-Ponts
+trips,trip_headsign,nl,Trois-Ponts,,,Trois-Ponts
 stops,stop_name,de,Trois-Ponts,,,Trois-Ponts
+trips,trip_headsign,de,Trois-Ponts,,,Trois-Ponts
 stops,stop_name,en,Trois-Ponts,,,Trois-Ponts
+trips,trip_headsign,en,Trois-Ponts,,,Trois-Ponts
 stops,stop_name,nl,Luxemburg (LU),,,Luxembourg (LU)
 trips,trip_headsign,nl,Luxemburg (LU),,,Luxembourg (LU)
 stops,stop_name,de,Luxemburg (LU),,,Luxembourg (LU)
@@ -2392,9 +2416,6 @@ stops,stop_name,en,Salzburg Hbf (AT),,,Salzburg Hbf (AT)
 stops,stop_name,nl,Aubange-Frontière-Luxembourg,,,Aubange-Frontière-Luxembourg
 stops,stop_name,de,Aubange-Frontière-Luxembourg,,,Aubange-Frontière-Luxembourg
 stops,stop_name,en,Aubange-Frontière-Luxembourg,,,Aubange-Frontière-Luxembourg
-stops,stop_name,nl,Mainz Hbf (DE),,,Mainz Hbf (DE)
-stops,stop_name,de,Mainz Hbf (DE),,,Mainz Hbf (DE)
-stops,stop_name,en,Mainz Hbf (DE),,,Mainz Hbf (DE)
 stops,stop_name,nl,Koblenz Hbf (DE),,,Koblenz Hbf (DE)
 stops,stop_name,de,Koblenz Hbf (DE),,,Koblenz Hbf (DE)
 stops,stop_name,en,Koblenz Hbf (DE),,,Koblenz Hbf (DE)

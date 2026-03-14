@@ -4,13 +4,13 @@ route_id,agency_id,trip_id,trip_origin,origin_departure_time,trip_headsign,desti
 133,BDŽ,BDŽ 2626,Varna,21:40,Sofia,05:45,2626,BG,Y,"seat, sleeper",,533.0,11.4,21.39,Beloslav - Poveljanovo - Sindel - Dobrina - Provadiya - Kaspichan - Shumen - Targovishte - Popovo - Strazhitsa - Gorna Oryahovitsa - Zverino - Svoge - Kurilo - Sofia Sever
 133,BDŽ,BDŽ 2627,Sofia,23:00,Varna,06:52,2627,BG,Y,"seat, sleeper",,533.0,11.4,21.39,Sofia Sever - Rebrovo - Svoge - Cerovo - Bov - Lakatnik - Zverino - Mezdra - Roman - Cherven Bryag - Pleven - Targovishte - Shumen - Kaspichan - Provadiya - Dobrina - Sindel - Poveljanovo - Beloslav
 142,BDŽ,BDŽ 2636,Dobrich,20:35,Sofia,05:45,2636,BG,Y,sleeper,,572.0,,,Donchevo - Botevo - Oborishte - General Kiselovo - Valchi Dol - Suvorovo - Chernevo - Kipra - Devnya - Poveljanovo - Zverino - Svoge - Kurilo - Sofia Sever
-142,BDŽ,BDŽ 2637,Sofia,23:00,Dobrich,08:26,2637,BG,Y,sleeper,,572.0,,,Sofia Sever - Rebrovo - Svoge - Cerovo - Bov - Lakatnik - Zverino - Mezdra - Roman - Cherven Bryag - Telish - Poveljanovo - Devnya - Kipra - Chernevo - Suvorovo - Valchi Dol - General Kiselovo - Oborishte - Botevo - Donchevo
-132,BDŽ,BDŽ 3636,Varna,23:45,Sofia,05:45,3636,BG,Y,"seat, sleeper",,513.0,11.0,21.44,Beloslav - Poveljanovo - Sindel - Dobrina - Provadiya - Kaspichan - Shumen - Targovishte - Popovo - Strazhitsa - Gorna Oryahovitsa - Mezdra - Zverino - Svoge - Kurilo - Sofia Sever
+142,BDŽ,BDŽ 2637,Sofia,23:00,Dobrich,08:05,2637,BG,Y,sleeper,,572.0,,,Sofia Sever - Rebrovo - Svoge - Cerovo - Bov - Lakatnik - Zverino - Mezdra - Roman - Cherven Bryag - Pleven - Poveljanovo - Devnya - Kipra - Chernevo - Suvorovo - Valchi Dol - General Kiselovo - Oborishte - Botevo - Donchevo
+132,BDŽ,BDŽ 3636,Varna,23:40,Sofia,09:00,3636,BG,Y,"seat, sleeper",,513.0,11.0,21.44,Beloslav - Sindel - Dalgopol - Komunari - Karnobat - Straldzha - Jambol - Nova Zagora - Stara Zagora - Dimitrovgrad - Krumovo - Plovdiv - Todor Kableshkov - Stambolijski - Pazardzhik - Septemvri - Belovo - Ihtiman - Vakarel - Elin Pelin - Kazichene - Iskar
 132,BDŽ,BDŽ 3637,Sofia,23:05,Varna,07:16,3637,BG,Y,"seat, sleeper",,513.0,11.0,21.44,Poduiane - Iskar - Kazichene - Zlatica - Pirdop - Klisura - Karlovo - Straldzha - Karnobat - Asparuhovo - Komunari - Dalgopol - Sindel - Poveljanovo - Beloslav
 139,BDŽ,BDŽ 3686,Burgas,22:50,Sofia,05:13,3686,BG,Y,"seat, sleeper",,425.0,9.0,21.18,Sliven
 139,BDŽ,BDŽ 3687,Sofia,23:40,Burgas,05:55,3687,BG,Y,"seat, sleeper",,425.0,9.0,21.18,Pirdop - Sliven
-134,BDŽ,BDŽ 8626,Burgas,22:55,Sofia,05:20,8626,BG,Y,"seat, sleeper",,444.0,9.1,20.5,Vladimir Pavlov - Aytos - Karnobat - Straldzha - Zimnitsa - Jambol - Nova Zagora - Stara Zagora - Elin Pelin - Kazichene - Iskar - Poduiane
-134,BDŽ,BDŽ 8627,Sofia,22:50,Burgas,05:50,8627,BG,Y,"seat, sleeper",,444.0,9.1,20.5,Poduiane - Iskar - Kazichene - Elin Pelin - Ihtiman - Kostenets - Belovo - Septemvri - Pazardzhik - Stambolijski - Plovdiv - Bezmer - Jambol - Zimnitsa - Karnobat - Aytos - Druzhba - Vladimir Pavlov
+134,BDŽ,BDŽ 8626,Burgas,23:00,Sofia,05:45,8626,BG,Y,"seat, sleeper",,444.0,9.1,20.5,Vladimir Pavlov - Aytos - Karnobat - Straldzha - Zimnitsa - Jambol - Nova Zagora - Stara Zagora - Elin Pelin - Kazichene - Iskar - Poduiane Patnicheska
+134,BDŽ,BDŽ 8627,Sofia,22:50,Burgas,05:50,8627,BG,Y,"seat, sleeper",,444.0,9.1,20.5,Poduiane Patnicheska - Iskar - Kazichene - Elin Pelin - Ihtiman - Kostenets - Belovo - Septemvri - Pazardzhik - Stambolijski - Plovdiv - Nova Zagora - Jambol - Straldzha - Karnobat - Aytos - Vladimir Pavlov
 131,BDŽ,BDŽ 8656,Varna,23:45,Sofia,09:00,8656,BG,Y,"seat, sleeper",,539.0,11.0,20.41,Beloslav - Sindel - Dalgopol - Komunari - Dimitrovgrad - Jabalkovo - Parvomai - Popovitsa - Cheshnegirovo - Sadov - Katunitsa - Krumovo - Plovdiv - Proslav - Todor Kableshkov - Kadievo - Stambolijski - Pazardzhik - Septemvri - Belovo - Kostenets - Ihtiman
 131,BDŽ,BDŽ 8657,Sofia,21:00,Varna,05:42,8657,BG,Y,"seat, sleeper",,539.0,11.0,20.41,Poduiane - Iskar - Kazichene - Vakarel - Ihtiman - Kostenets - Belovo - Septemvri - Pazardzhik - Stambolijski - Plovdiv - Krumovo - Parvomai - Dimitrovgrad - Komunari - Dalgopol - Sindel - Beloslav
 135,BDŽ,BDŽ 9646,Silistra,18:20,Sofia,05:46,9646,BG,Y,couchette,,605.0,12.4,20.5,Alfatar - Dulovo - Todorovo - Isperih - Samuil - Razgrad - Senovo - Vetovo - Yastrebovo - Ruse Razpredelitel - Ruse - Ivanovo - Dve Mogili - Borovo - Byala - Polski Trambesh - Petko Karavelovo - Gorna Oryahovitsa - Zverino - Lakatnik - Svoge - Kurilo
@@ -161,34 +161,38 @@ route_id,agency_id,trip_id,trip_origin,origin_departure_time,trip_headsign,desti
 5,ÖBB,ÖBB NJ 471,Hamburg Altona,21:52,Zürich HB,10:05,NJ 471,"DE, CH",Y,"seat, couchette, sleeper",,1011.0,18.0,17.8,Hamburg Hbf - Bremen Hbf - Hannover Hbf - Göttingen - Karlsruhe Hbf - Offenburg - Freiburg (Breisgau) Hbf - Basel Bad Bf - Basel SBB
 17,ÖBB,ÖBB NJ 490,Wien Hbf,20:10,Hamburg Altona,09:06,NJ 490,"DE, AT",Y,"seat, couchette, sleeper",,,,,Wien Meidling - St. Pölten Hbf - Linz Hbf - Wels Hbf - Passau Hbf - Regensburg Hbf - Nürnberg Hbf - Würzburg Hbf - Kassel-Wilhelmshöhe - Göttingen - Hannover Hbf - Hamburg Harburg - Hamburg Hbf - Hamburg Dammtor
 17,ÖBB,ÖBB NJ 491,Hamburg Altona,19:56,Wien Hbf,09:17,NJ 491,"DE, AT",Y,"seat, couchette, sleeper",,,,,Hamburg Hbf - Hamburg Harburg - Hannover Hbf - Göttingen - Kassel-Wilhelmshöhe - Würzburg Hbf - Nürnberg Hbf - Regensburg Hbf - Passau Hbf - Wels Hbf - Linz Hbf - St. Pölten Hbf - Wien Meidling
-114,OTE,OTE 141,Villach Hbf,21:32,Edirne,06:03,141,"AT, SI, HR, RS, BG, TR",Y,"couchette, sleeper",,,,,non-stop
-114,OTE,OTE 154,Edirne,18:30,Villach Hbf,08:11,154,"AT, SI, HR, RS, BG, TR",Y,"couchette, sleeper",,,,,non-stop
-128,PKP,PKP TLK 18170,Warszawa Centralna,22:07,Świnoujście,07:11,TLK 18170,PL,Y,"seat, couchette, sleeper",,,,,Baqël - Szczecin Gł.
-128,PKP,PKP TLK 81170,Świnoujście,21:01,Warszawa Centralna,06:41,TLK 81170,PL,Y,"seat, couchette, sleeper",,,,,Szczecin Gł. - Kostrzyn - Baqël
-126,PKP,PKP IC 38172,Przemyśl Gł.,18:40,Świnoujście,10:40,IC 38172,PL,Y,"seat, couchette, sleeper",,,,,Rzeszow Gł. - Tarnow - Kraków Gł. - Katowice - Poznań Gł. - Krzyz - Szczecin Gł.
-126,PKP,PKP IC 83172,Świnoujście,16:59,Przemyśl Gł.,09:18,IC 83172,PL,Y,"seat, couchette, sleeper",,,,,Szczecin Gł. - Krzyz - Poznań Gł. - Leszno - Wrocław Gł. - Katowice - Kraków Gł. - Tarnow - Rzeszow Gł.
-122,PKP,PKP IC 38192,Zakopane,19:47,Szczecin Gł.,07:23,IC 38192,PL,Y,"seat, sleeper",,760.0,26.1,34.34,Bielsko-Biała Gł. - Katowice Ligota - Gliwice - Poznań Gł.
-122,PKP,PKP IC 83192,Szczecin Gł.,21:30,Zakopane,09:27,IC 83192,PL,Y,"seat, sleeper",,760.0,26.1,34.34,Poznań Gł. - Bielsko-Biała Gł.
+114,OTE,OTE 141,Villach Hbf,21:59,Edirne,11:34,141,"AT, SI, HR, RS, BG, TR",Y,"couchette, sleeper",,,,,non-stop
+114,OTE,OTE 154,Edirne,17:45,Villach Hbf,08:19,154,"AT, SI, HR, RS, BG, TR",Y,"couchette, sleeper",,,,,non-stop
+128,PKP,PKP IC 440,Chelm,18:29,Świnoujście,06:38,IC 440,PL,Y,"seat, couchette, sleeper",,,,,Lublin - Warszawa Centralna - Łódź Widzew - Szczecin Gł.
+128,PKP,PKP IC 82170,Świnoujście,21:26,Chelm,09:27,IC 82170,PL,Y,"seat, couchette, sleeper",,,,,Szczecin Gł. - Łódź Widzew - Warszawa Centralna - Lublin
+126,PKP,PKP EN 430 / IC 440,Przemyśl Gł.,18:49,Świnoujście,06:38,EN 430 / IC 440,PL,Y,"seat, couchette, sleeper",,,,,Rzeszow Gł. - Tarnow - Kraków Gł. - Katowice - Poznań Gł. - Krzyz - Szczecin Gł.
+126,PKP,PKP IC 82170 / EC 431,Świnoujście,21:26,Przemyśl Gł.,09:11,IC 82170 / EC 431,PL,Y,"seat, couchette, sleeper",,,,,Szczecin Gł. - Krzyz - Poznań Gł. - Leszno - Wrocław Gł. - Katowice - Kraków Gł. - Tarnow - Rzeszow Gł.
+122,PKP,PKP IC 38172,Zakopane,19:54,Świnoujście,09:30,IC 38172,PL,Y,"seat, sleeper",,760.0,26.1,34.34,Kraków Gł. - Poznań Gł. - Szczecin Gł.
+122,PKP,PKP IC 83172,Świnoujście,18:54,Zakopane,08:25,IC 83172,PL,Y,"seat, sleeper",,760.0,26.1,34.34,Szczecin Gł. - Poznań Gł. - Kraków Gł.
 125,PKP,PKP TLK 35190,Kraków Gł.,20:14,Łeba,08:13,TLK 35190,PL,Y,"seat, sleeper",,703.0,24.3,34.57,Częstochowa - Łódź Kaliska - Toruń Gł. - Gdynia Główna
 125,PKP,PKP TLK 53190,Łeba,21:00,Kraków Gł.,08:48,TLK 53190,PL,Y,"seat, sleeper",,703.0,24.3,34.57,Gdynia Gł. - Gdańsk Gł. - Tczew - Łódź Kaliska - Częstochowa
-9,PKP/ČD,PKP/ČD EN 443 / IC 406,Praha hl.n.,22:13,Warszawa Centralna,08:51,EN 443 / IC 406,"CZ, PL",Y,"seat, couchette, sleeper",,,,,Pardubice hl.n. - Olomouc hl.n. - Katowice - Trzebinia - Kraków Gł.
-9,PKP/ČD,PKP/ČD IC 407 / EN 442,Warszawa Wschodnia,19:37,Praha hl.n.,07:38,IC 407 / EN 442,"CZ, PL",Y,"seat, couchette, sleeper",,,,,Warszawa Centralna - Kraków Gł. - Trzebinia - Katowice - Rybnik - Olomouc hl.n. - Pardubice hl.n.
+9,PKP/ČD,PKP/ČD EN 443 / IC 406,Praha hl.n.,22:16,Warszawa Wschodnia,08:23,EN 443 / IC 406,"CZ, PL",Y,"seat, couchette, sleeper",,,,,Pardubice hl.n. - Olomouc hl.n. - Katowice - Zawiercie - Opoczno Południe - Warszawa Centralna
+9,PKP/ČD,PKP/ČD IC 407 / EN 442,Warszawa Wschodnia,19:05,Praha hl.n.,07:26,IC 407 / EN 442,"CZ, PL",Y,"seat, couchette, sleeper",,,,,Warszawa Centralna - Opoczno Południe - Zawiercie - Katowice - Rybnik - Olomouc hl.n. - Pardubice hl.n.
 136,PKP,PKP TLK 48190,Bielsko-Biała Główna,21:25,Kołobrzeg,07:08,TLK 48190,PL,Y,"seat, sleeper",,,,,Żory - Rybnik - Opole Główne
 136,PKP,PKP TLK 84190,Kołobrzeg,21:01,Bielsko-Biała Główna,06:48,TLK 84190,PL,Y,"seat, sleeper",,,,,Poznań Gł. - Rybnik - Żory
 121,PKP,PKP IC 16170,Warszawa Wschodnia,23:36,Szklarska Poręba Górna,07:34,IC 16170,PL,Y,"seat, sleeper",,638.0,22.5,35.27,Warszawa Centralna - Warszawa Zachodnia - Wrocław Gł. - Jelenia Góra
 121,PKP,PKP IC 61170,Szklarska Poręba Górna,20:18,Warszawa Wschodnia,06:23,IC 61170,PL,Y,"seat, sleeper",,638.0,22.5,35.27,Jelenia Góra - Wrocław Gł. - Warszawa Zachodnia - Warszawa Centralna
 129,PKP,PKP TLK 35170,Zakopane,21:53,Gdynia Gł.,08:40,TLK 35170,PL,Y,"seat, sleeper",,,,,Kraków Gł. - Częstochowa - Warszawa Centralna - Ciechanow - Tczew - Gdańsk Gł.
 129,PKP,PKP TLK 53170,Gdynia Gł.,19:22,Zakopane,06:02,TLK 53170,PL,Y,"seat, sleeper",,,,,Gdańsk Gł. - Tczew - Ciechanow - Warszawa Centralna - Kraków Gł.
-138,PKP,PKP TLK 38170,Kraków Gł.,21:33,Kołobrzeg,10:56,TLK 38170,PL,Y,"seat, couchette, sleeper",,,,,Kielce - Radom - Gdańsk Gł. - Gdynia Gł. - Koszalin
+138,PKP,PKP TLK 38170,Kraków Gł.,21:33,Kołobrzeg,10:56,TLK 38170,PL,Y,"seat, couchette, sleeper",,,,,Kielce - Radom - Gdańsk Gł. - Gdynia Gł. - Słupsk - Koszalin
 138,PKP,PKP TLK 83170,Kołobrzeg,19:05,Kraków Gł.,07:49,TLK 83170,PL,Y,"seat, couchette, sleeper",,,,,Koszalin - Słupsk - Gdynia Gł. - Gdańsk Gł. - Radom - Kielce
-137,PKP,PKP TLK 46174/38174,Bielsko-Biała Gł.,21:56,Świnoujście,07:42,TLK 46174/38174,PL,Y,"seat, couchette",,680.0,26.4,38.82,Rybnik - Opole Gł. - Kostrzyn - Szczecin Gł.
-137,PKP,PKP TLK 83174/64174,Świnoujście,20:17,Bielsko-Biała Gł.,05:49,TLK 83174/64174,PL,Y,"seat, couchette",,680.0,26.4,38.82,Szczecin Gł. - Kostrzyn - Zielona Góra Gł. - Rybnik
+137,PKP,PKP TLK 48190/38194,Bielsko-Biała Gł.,21:25,Świnoujście,07:27,TLK 48190/38194,PL,Y,"seat, couchette",,680.0,26.4,38.82,Rybnik - Opole Gł. - Kostrzyn - Szczecin Gł.
+137,PKP,PKP TLK 83194/84190,Świnoujście,20:25,Bielsko-Biała Gł.,06:48,TLK 83194/84190,PL,Y,"seat, couchette",,680.0,26.4,38.82,Szczecin Gł. - Kostrzyn - Zielona Góra Gł. - Rybnik
 118,PKP/ČD,PKP/ČD EN 40416,München Hbf,18:35,Przemyśl Gł.,10:10,EN 40416,"DE, AT, CZ, PL",Y,"seat, couchette, sleeper",,1185.0,24.7,20.84,München Ost - Rosenheim - Salzburg Hbf - Attnang-Puchheim - Linz Hbf - St. Pölten Hbf - Wien Meidling - Wien Hbf - Břeclav - Gliwice - Zabrze - Katowice - Mysłowice - Jaworzno Szczakowa - Trzebinia - Krzeszowice - Kraków Gł. - Tarnow - Dębica - Rzeszow Gł. - Przeworsk - Jarosław
 118,PKP/ČD,PKP/ČD EN 40417,Przemyśl Gł.,17:51,München Hbf,10:24,EN 40417,"DE, AT, CZ, PL",Y,"seat, couchette, sleeper",,1185.0,24.7,20.84,Mysłowice - Przeworsk - Rzeszow Gł. - Dębica - Tarnow - Kraków Gł. - Krzeszowice - Trzebinia - Jaworzno Szczakowa - Katowice - Zabrze - Gliwice - Břeclav - Wien Hbf - Wien Meidling - St. Pölten Hbf - Linz Hbf - Attnang-Puchheim - Salzburg Hbf - Rosenheim - München Ost
-124,PKP/ČD,PKP/ČD EC 460,Praha hl.n.,18:51,Gdynia Gł.,05:20,EC 460,"PL, CZ",Y,"seat, sleeper",,856.0,27.1,31.66,Jarosław - Lichkov - Międzylesie - Kłodzko Miasto - Wrocław Gł. - Poznań Gł. - Gdańsk Gł.
-124,PKP/ČD,PKP/ČD EC 461,Gdynia Gł.,23:13,Praha hl.n.,09:06,EC 461,"PL, CZ",Y,"seat, sleeper",,856.0,27.1,31.66,Gdańsk Gł. - Bydgoszcz Gł. - Wrocław Gł. - Kłodzko Miasto - Międzylesie - Lichkov - Pardubice hl.n.
+124,PKP/ČD,PKP/ČD EC 460,Praha hl.n.,18:49,Gdynia Gł.,05:58,EC 460,"PL, CZ",Y,"seat, couchette, sleeper",,856.0,27.1,31.66,Jarosław - Lichkov - Międzylesie - Kłodzko Miasto - Wrocław Gł. - Poznań Gł. - Gdańsk Gł.
+124,PKP/ČD,PKP/ČD EC 461,Gdynia Gł.,21:59,Praha hl.n.,09:14,EC 461,"PL, CZ",Y,"seat, couchette, sleeper",,856.0,27.1,31.66,Gdańsk Gł. - Bydgoszcz Gł. - Wrocław Gł. - Kłodzko Miasto - Międzylesie - Lichkov - Pardubice hl.n.
 116,PKP/ČD,PKP/ČD EN 406,München Hbf,18:35,Warszawa Wschodnia,08:15,EN 406,"AT, PL, CZ",Y,"seat, couchette, sleeper",,1139.0,24.0,21.07,München Ost - Rosenheim - Salzburg Hbf - Attnang-Puchheim - Linz Hbf - St. Pölten Hbf - Wien Meidling - Wien Hbf - Břeclav - Katowice - Sosnowiec Główny - Zawiercie - Włoszczowa Północ - Warszawa Zachodnia - Warszawa Centralna
 116,PKP/ČD,PKP/ČD EN 407,Warszawa Wschodnia,19:41,München Hbf,10:24,EN 407,"AT, PL, CZ",Y,"seat, couchette, sleeper",,1139.0,24.0,21.07,Warszawa Centralna - Warszawa Zachodnia - Włoszczowa Północ - Zawiercie - Sosnowiec Główny - Katowice - Břeclav - Wien Hbf - Wien Meidling - St. Pölten Hbf - Linz Hbf - Attnang-Puchheim - Salzburg Hbf - Rosenheim - München Ost
+265,PKP/ČD,PKP/ČD TLK 403/50171,Bohumín,19:27,Hel,07:09,TLK 403/50171,"CZ, PL",Y,,,,,,non-stop
+265,PKP/ČD,PKP/ČD TLK 55170/402,Hel,19:23,Bohumín,06:54,TLK 55170/402,"CZ, PL",Y,,,,,,non-stop
+266,PKP/ČD,PKP/ČD TLK 403,Bohumín,19:27,Łeba,07:13,TLK 403,"CZ, PL",Y,,,,,,
+266,PKP/ČD,PKP/ČD TLK 402,Łeba,19:11,Bohumín,06:54,TLK 402,"CZ, PL",Y,,,,,,
 7,RJ,RJ 1020,Chop,17:35,Praha hl.n.,05:46,1020,"SK, CZ",Y,"seat, couchette, sleeper",,672.0,11.8,17.56,Košice - Poprad Tatry - Pardubice hl.n.
 7,RJ,RJ 1021,Praha hl.n.,21:52,Chop,10:34,1021,"SK, CZ",Y,"seat, couchette, sleeper",,672.0,11.8,17.56,Pardubice hl.n. - Ostrava hl.n. - Poprad Tatry - Košice
 261,RJ,RJ 1038,Przemyśl Gł.,22:12,Praha hl.n.,08:56,1038,"PL, CZ",Y,"seat, couchette, sleeper",,740.0,20.6,27.84,Kraków Gł. - Olomouc hl.n.
@@ -265,64 +269,60 @@ route_id,agency_id,trip_id,trip_origin,origin_departure_time,trip_headsign,desti
 256,UEX,UEX 333/1373,Düsseldorf Hbf,20:43,Innsbruck Hbf,08:23,333/1373,DE,Y,"couchette, sleeper",,,,,Köln Messe/Deutz - Siegburg/Bonn - Siegen - Aschaffenburg Hbf - Augsburg Hbf - München Ost - Jenbach
 257,UEX,UEX 334/1374,Villach Hbf,19:06,Düsseldorf Hbf,08:39,334/1374,DE,Y,"couchette, sleeper",,,,,Salzburg Hbf - München Ost - Aschaffenburg Hbf - Gießen - Siegen Hbf - Siegburg/Bonn - Köln Messe/Deutz
 257,UEX,UEX 335/1375,Düsseldorf Hbf,19:53,Villach Hbf,08:38,335/1375,DE,Y,"couchette, sleeper",,,,,Köln Messe/Deutz - Siegen Hbf - Aschaffenburg Hbf - München Ost - Salzburg Hbf
-164,UZ,UZ 001 D,Kharkiv,18:55,Ivano-Frankivsk,11:28,001 D,UA,Y,"seat, sleeper",,1197.0,22.9,19.13,Poltava - Myrhorod - Kyiv Pasazhyrskyi - Lviv
-164,UZ,UZ 001 L,Ivano-Frankivsk,19:53,Kharkiv,12:33,001 L,UA,Y,"seat, sleeper",,1197.0,22.9,19.13,Lviv - Kyiv Pasazhyrskyi - Myrhorod - Poltava
-220,UZ,UZ 003,Uzhhorod,16:35,Zaporizhzhia 1,13:08,003,UA,Y,"bunkbed, couchette, sleeper",,1484.0,25.4,17.12,Mukacheve - Stryj - Lviv - Dnipro Holovny
-220,UZ,UZ 004,Zaporizhzhia 1,17:53,Uzhhorod,14:27,004,UA,Y,"bunkbed, couchette, sleeper",,1484.0,25.4,17.12,Dnipro Holovny - Lviv - Stryj - Mukacheve
-221,UZ,UZ 006 L,Yasinia,12:23,Zaporizhzhia 1,11:05,006 L,UA,Y,"bunkbed, couchette, sleeper",,1465.0,25.3,17.27,Vorokhta - Ivano-Frankivsk - Lviv - Dnipro Holovny
-221,UZ,UZ 006 P,Zaporizhzhia 1,13:00,Yasinia,10:43,006 P,UA,Y,"bunkbed, couchette, sleeper",,1465.0,25.3,17.27,Dnipro Holovny - Lviv - Ivano-Frankivsk - Vorokhta
-168,UZ,UZ 007 K,Kyiv Pasazhyrskyi,20:21,Chernivtsi,08:05,007 K,UA,Y,"bunkbed, couchette, sleeper",,919.0,15.6,16.97,Lviv - Ivano-Frankivsk
-168,UZ,UZ 008 L,Chernivtsi,19:12,Kyiv Pasazhyrskyi,07:02,008 L,UA,Y,"bunkbed, couchette, sleeper",,919.0,15.6,16.97,Ivano-Frankivsk - Lviv
-154,UZ,UZ 007 O/059 O,Kharkiv,17:55,Odesa Holovna,08:10,007 O/059 O,UA,Y,"bunkbed, couchette, sleeper",,758.0,11.4,15.04,Poltava - Kremenchuk
-154,UZ,UZ 008 Š/060 Š,Odesa Holovna,19:56,Kharkiv,09:58,008 Š/060 Š,UA,Y,"bunkbed, couchette, sleeper",,758.0,11.4,15.04,Kremenchuk - Poltava
-183,UZ,UZ 009,Kyiv Pasazhyrskyi,10:16,Budapest Keleti,06:00,009,"HU, UA",Y,sleeper,,1171.0,22.5,19.21,Lviv - Mukacheve - Chop - Nyíregyháza - Szolnok
-183,UZ,UZ 010,Budapest Keleti,22:40,Kyiv Pasazhyrskyi,19:11,010,"HU, UA",Y,sleeper,,1171.0,22.5,19.21,Szolnok - Debrecen - Chop - Mukacheve - Lviv
-191,UZ,UZ 012 L,Lviv,19:46,Odesa Holovna,06:23,012 L,UA,Y,"bunkbed, couchette, sleeper",,737.0,14.1,19.13,Ternopil - Khmelnytskyi
-191,UZ,UZ 012 Š,Odesa Holovna,19:46,Lviv,06:18,012 Š,UA,Y,"bunkbed, couchette, sleeper",,737.0,14.1,19.13,Zhmerynka - Ternopil
-203,UZ,UZ 013 K,Kyiv Pasazhyrskyi,15:58,Solotvyno,10:58,013 K,UA,Y,"bunkbed, couchette, sleeper",,1503.0,25.6,17.03,Fastiv - Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Stryj - Mukacheve
-203,UZ,UZ 013 L,Solotvyno,14:00,Kyiv Pasazhyrskyi,08:54,013 L,UA,Y,"bunkbed, couchette, sleeper",,1503.0,25.6,17.03,Stryj - Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Fastiv
-150,UZ,UZ 015,Kharkiv,14:07,Yasinia,10:06,015,UA,Y,"couchette, sleeper",,1337.0,22.6,16.9,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Lviv - Ivano-Frankivsk - Vorokhta
-150,UZ,UZ 016,Yasinia,13:28,Kharkiv,09:10,016,UA,Y,"couchette, sleeper",,1337.0,22.6,16.9,Vorokhta - Ivano-Frankivsk - Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
-162,UZ,UZ 017 O/045 D,Kharkiv,14:36,Uzhhorod,08:34,017 O/045 D,UA,Y,"bunkbed, couchette, sleeper",,1400.0,25.0,17.86,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Stryj - Mukacheve
-162,UZ,UZ 017 L/045 L,Uzhhorod,13:38,Kharkiv,08:50,017 L/045 L,UA,Y,"bunkbed, couchette, sleeper",,1400.0,25.0,17.86,Mukacheve - Stryj - Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
-153,UZ,UZ 019,Kyiv Pasazhyrskyi,18:19,Chelm,04:55,019,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
-153,UZ,UZ 020,Chelm,23:40,Kyiv Pasazhyrskyi,12:17,020,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
-156,UZ,UZ 021,Kharkiv,19:38,Lviv,11:30,021,UA,Y,"bunkbed, couchette, sleeper",,1115.0,19.2,17.22,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Vinnytsia - Khmelnytskyi - Ternopil
-156,UZ,UZ 022,Lviv,18:42,Kharkiv,10:17,022,UA,Y,"bunkbed, couchette, sleeper",,1115.0,19.2,17.22,Ternopil - Khmelnytskyi - Vinnytsia - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
-152,UZ,UZ 023,Kyiv Pasazhyrskyi,22:40,Chelm,11:05,023,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Rivne - Kovel
-152,UZ,UZ 024,Chelm,16:42,Kyiv Pasazhyrskyi,05:39,024,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel - Rivne
-186,UZ,UZ 029 K,Kyiv Pasazhyrskyi,19:19,Uzhhorod,07:33,029 K,UA,Y,"bunkbed, couchette, sleeper",,876.0,15.4,17.58,Lviv - Mukacheve
-186,UZ,UZ 029 L,Uzhhorod,18:55,Kyiv Pasazhyrskyi,07:09,029 L,UA,Y,"bunkbed, couchette, sleeper",,876.0,15.4,17.58,Mukacheve - Lviv
-155,UZ,UZ 032 D,Przemyśl Gł.,18:07,Zaporizhzhia 1,14:37,032 D,UA,Y,"couchette, sleeper",,1305.0,20.9,16.02,Lviv - Oleksandriia - Dnipro Holovny
-155,UZ,UZ 032 P,Zaporizhzhia 1,20:47,Przemyśl Gł.,15:21,032 P,UA,Y,"couchette, sleeper",,1305.0,20.9,16.02,Dnipro Holovny - Oleksandriia - Lviv
-147,UZ,UZ 036 Š,Odesa Holovna,14:45,Przemyśl Gł.,05:53,036 Š,"PL, UA",Y,"couchette, sleeper",,840.0,16.6,19.76,Zhmerynka - Khmelnytskyi - Ternopil - Lviv
-147,UZ,UZ 036 L,Przemyśl Gł.,20:28,Odesa Holovna,12:55,036 L,"PL, UA",Y,"couchette, sleeper",,840.0,16.6,19.76,Lviv - Ternopil - Khmelnytskyi - Zhmerynka
-218,UZ,UZ 037,Uzhhorod,19:27,Odesa Holovna,12:55,037,UA,Y,"bunkbed, couchette, sleeper",,1029.0,18.5,17.98,Mukacheve - Stryj - Lviv - Ternopil - Khmelnytskyi - Zhmerynka
-218,UZ,UZ 038 O/Š,Odesa Holovna,14:45,Uzhhorod,08:55,038 O/Š,UA,Y,"bunkbed, couchette, sleeper",,1029.0,18.5,17.98,Zhmerynka - Khmelnytskyi - Ternopil - Lviv - Stryj - Mukacheve
-189,UZ,UZ 038 K,Kyiv Pasazhyrskyi,22:17,Zaporizhzhia 1,07:34,038 K,UA,Y,"bunkbed, couchette, sleeper",,658.0,10.8,16.41,Dnipro Holovny
-189,UZ,UZ 038 P,Zaporizhzhia 1,20:35,Kyiv Pasazhyrskyi,05:58,038 P,UA,Y,"bunkbed, couchette, sleeper",,658.0,10.8,16.41,Dnipro Holovny
-149,UZ,UZ 041,Dnipro Holovny,14:35,Truskavets,11:13,041,UA,Y,"bunkbed, couchette, sleeper",,1238.0,16.9,13.65,Oleksandriia - Vinnytsia - Ternopil - Lviv
-149,UZ,UZ 042,Truskavets,12:55,Dnipro Holovny,09:25,042,UA,Y,"bunkbed, couchette, sleeper",,1238.0,16.9,13.65,Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Oleksandriia
-178,UZ,UZ 043 L,Ivano-Frankivsk,20:04,Cherkasy,13:11,043 L,UA,Y,"bunkbed, couchette, sleeper",,956.0,17.6,18.41,Kalush - Stryj - Lviv - Dubno - Korosten - Kyiv Pasazhyrskyi
-178,UZ,UZ 043 Š,Cherkasy,16:50,Ivano-Frankivsk,09:56,043 Š,UA,Y,"bunkbed, couchette, sleeper",,956.0,17.6,18.41,Kyiv Pasazhyrskyi - Korosten - Dubno - Lviv - Stryj - Kalush
-185,UZ,UZ 049,Kyiv Pasazhyrskyi,21:48,Truskavets,07:23,049,UA,Y,"bunkbed, couchette, sleeper",,702.0,12.6,17.95,Fastiv - Lviv
-185,UZ,UZ 050,Truskavets,20:54,Kyiv Pasazhyrskyi,06:36,050,UA,Y,"bunkbed, couchette, sleeper",,702.0,12.6,17.95,Lviv - Fastiv
-140,UZ,UZ 051,Kyiv Pasazhyrskyi,19:27,Przemyśl Gł.,05:53,051,"PL, UA",Y,"couchette, sleeper",,700.0,12.9,18.43,Lviv
-140,UZ,UZ 052 K,Przemyśl Gł.,20:28,Kyiv Pasazhyrskyi,07:34,052 K,"PL, UA",Y,"couchette, sleeper",,700.0,12.9,18.43,Lviv
-207,UZ,UZ 052 P/053,Dnipro Holovny,18:30,Odesa Holovna,08:00,052 P/053,UA,Y,"bunkbed, couchette, sleeper",,754.0,9.4,12.47,Oleksandriia - Kropyvnytskyi - Podilsk
-207,UZ,UZ 052 Š/054,Odesa Holovna,21:10,Dnipro Holovny,11:03,052 Š/054,UA,Y,"bunkbed, couchette, sleeper",,754.0,9.4,12.47,Podilsk - Kropyvnytskyi - Oleksandriia
-198,UZ,UZ 055,Kyiv Pasazhyrskyi,15:58,Rakhiv,07:50,055,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Fastiv - Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Ivano-Frankivsk - Vorokhta - Yasinia
-198,UZ,UZ 056,Rakhiv,16:30,Kyiv Pasazhyrskyi,08:54,056,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Yasinia - Vorokhta - Ivano-Frankivsk - Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Fastiv
-190,UZ,UZ 059 K,Kyiv Pasazhyrskyi,20:37,Chop,12:59,059 K,UA,Y,"couchette, sleeper",,917.0,15.2,16.58,Fastiv - Vinnytsia - Lviv - Sambir - Uzhhorod
-190,UZ,UZ 060 L,Chop,14:30,Kyiv Pasazhyrskyi,07:47,060 L,UA,Y,"couchette, sleeper",,917.0,15.2,16.58,Uzhhorod - Sambir - Lviv - Vinnytsia - Fastiv
-161,UZ,UZ 063,Kharkiv,22:38,Lviv,13:39,063,UA,Y,"couchette, sleeper",,1115.0,19.2,17.22,Poltava - Kyiv Pasazhyrskyi
-161,UZ,UZ 064,Lviv,15:30,Kharkiv,05:56,064,UA,Y,"couchette, sleeper",,1115.0,19.2,17.22,Kyiv Pasazhyrskyi - Lubny
-158,UZ,UZ 065 K,Kharkiv,18:13,Uman,09:03,065 K,UA,Y,"bunkbed, couchette, sleeper",,817.0,13.8,16.89,Dnipro Holovny - Oleksandriia
-158,UZ,UZ 065 Š,Uman,17:39,Kharkiv,09:20,065 Š,UA,Y,"bunkbed, couchette, sleeper",,817.0,13.8,16.89,Oleksandriia - Dnipro Holovny
-181,UZ,UZ 067,Kyiv Pasazhyrskyi,20:21,Warszawa Wschodnia,10:11,067,"PL, UA",Y,sleeper,,867.0,16.7,19.21,Kovel - Chelm - Lublin
-181,UZ,UZ 068,Warszawa Wschodnia,17:49,Kyiv Pasazhyrskyi,10:45,068,"PL, UA",Y,sleeper,,867.0,16.7,19.21,Lublin - Chelm - Kovel
-141,UZ,UZ 073,Kharkiv,13:32,Przemyśl Gł.,11:16,073,"PL, UA",Y,"couchette, sleeper",,1212.0,21.7,17.9,Poltava - Myrhorod - Kyiv Pasazhyrskyi - Fastiv - Vinnytsia - Ternopil - Lviv
-141,UZ,UZ 074,Przemyśl Gł.,13:45,Kharkiv,13:53,074,"PL, UA",Y,"couchette, sleeper",,1212.0,21.7,17.9,Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Kyiv Pasazhyrskyi - Myrhorod - Poltava
+164,UZ,UZ 001 D,Kharkiv,18:34,Ivano-Frankivsk,11:27,001 D,UA,Y,"couchette, sleeper",,1197.0,22.9,19.13,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Lviv
+164,UZ,UZ 001 L,Ivano-Frankivsk,17:29,Kharkiv,22:45,001 L,UA,Y,"couchette, sleeper",,1197.0,22.9,19.13,Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+220,UZ,UZ 003,Uzhhorod,16:40,Dnipro Holovny,13:00,003,UA,Y,"bunkbed, couchette, sleeper",,1484.0,25.4,17.12,Mukacheve - Stryj - Lviv - Oleksandriia
+220,UZ,UZ 004,Dnipro Holovny,20:00,Uzhhorod,14:54,004,UA,Y,"bunkbed, couchette, sleeper",,1484.0,25.4,17.12,Lviv - Stryj - Mukacheve
+221,UZ,UZ 006 L,Yasinia,13:05,Zaporizhzhia 1,10:40,006 L,UA,Y,"bunkbed, couchette, sleeper",,1465.0,25.3,17.27,Vorokhta - Ivano-Frankivsk - Lviv - Dnipro Holovny
+221,UZ,UZ 006 P,Zaporizhzhia 1,13:50,Yasinia,12:11,006 P,UA,Y,"bunkbed, couchette, sleeper",,1465.0,25.3,17.27,Dnipro Holovny - Lviv - Ivano-Frankivsk - Vorokhta
+168,UZ,UZ 007 K,Kyiv Pasazhyrskyi,22:00,Chernivtsi,09:23,007 K,UA,Y,"bunkbed, couchette, sleeper",,919.0,15.6,16.97,Lviv - Ivano-Frankivsk
+168,UZ,UZ 008 L,Chernivtsi,19:37,Kyiv Pasazhyrskyi,08:28,008 L,UA,Y,"bunkbed, couchette, sleeper",,919.0,15.6,16.97,Ivano-Frankivsk - Lviv
+154,UZ,UZ 007 O/059 O,Kharkiv,20:03,Odesa Holovna,06:42,007 O/059 O,UA,Y,"bunkbed, couchette, sleeper",,758.0,11.4,15.04,Poltava - Kremenchuk
+154,UZ,UZ 008 Š/060 Š,Odesa Holovna,22:30,Kharkiv,09:18,008 Š/060 Š,UA,Y,"bunkbed, couchette, sleeper",,758.0,11.4,15.04,Kremenchuk - Poltava
+183,UZ,UZ 009,Kyiv Pasazhyrskyi,09:43,Budapest Keleti,06:00,009,"HU, UA",Y,sleeper,,1171.0,22.5,19.21,Lviv - Mukacheve - Chop - Nyíregyháza - Szolnok
+183,UZ,UZ 010,Budapest Keleti,22:40,Kyiv Pasazhyrskyi,19:54,010,"HU, UA",Y,sleeper,,1171.0,22.5,19.21,Szolnok - Debrecen - Chop - Mukacheve - Lviv
+191,UZ,UZ 012 L,Lviv,21:08,Odesa Holovna,07:59,012 L,UA,Y,"bunkbed, couchette, sleeper",,737.0,14.1,19.13,Lviv Pidzamche - Ternopil - Khmelnytskyi - Podilsk - Rozdil'na
+191,UZ,UZ 012 Š,Odesa Holovna,21:15,Lviv,06:18,012 Š,UA,Y,"bunkbed, couchette, sleeper",,737.0,14.1,19.13,Podilsk - Khmelnytskyi - Ternopil - Lviv Pidzamche
+203,UZ,UZ 013 K,Kyiv Pasazhyrskyi,16:29,Solotvyno,10:58,013 K,UA,Y,"bunkbed, couchette, sleeper",,1503.0,25.6,17.03,Fastiv - Kozyatyn - Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Stryj - Mukacheve
+203,UZ,UZ 013 L,Solotvyno,14:56,Kyiv Pasazhyrskyi,09:24,013 L,UA,Y,"bunkbed, couchette, sleeper",,1503.0,25.6,17.03,Mukacheve - Stryj - Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Kozyatyn - Fastiv
+150,UZ,UZ 015,Kharkiv,14:10,Vorokhta,09:47,015,UA,Y,"couchette, sleeper",,1337.0,22.6,16.9,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Lviv - Ivano-Frankivsk
+150,UZ,UZ 016,Vorokhta,12:43,Kharkiv,07:15,016,UA,Y,"couchette, sleeper",,1337.0,22.6,16.9,Ivano-Frankivsk - Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+162,UZ,UZ 017 O/045 D,Kharkiv,14:10,Uzhhorod,10:34,017 O/045 D,UA,Y,"bunkbed, couchette, sleeper",,1400.0,25.0,17.86,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Lviv - Stryj - Mukacheve
+162,UZ,UZ 017 L/045 L,Uzhhorod,13:50,Kharkiv,09:30,017 L/045 L,UA,Y,"bunkbed, couchette, sleeper",,1400.0,25.0,17.86,Mukacheve - Stryj - Lviv - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+153,UZ,UZ 019,Kyiv Pasazhyrskyi,19:06,Chelm,05:00,019,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
+153,UZ,UZ 020,Chelm,23:10,Kyiv Pasazhyrskyi,22:45,020,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
+156,UZ,UZ 021,Kharkiv,19:26,Lviv,11:18,021,UA,Y,"bunkbed, couchette, sleeper",,1115.0,19.2,17.22,Poltava - Myrhorod - Lubny - Kyiv Pasazhyrskyi - Kozyatyn - Vinnytsia - Khmelnytskyi - Ternopil
+156,UZ,UZ 022,Lviv,15:49,Kharkiv,07:46,022,UA,Y,"bunkbed, couchette, sleeper",,1115.0,19.2,17.22,Ternopil - Khmelnytskyi - Vinnytsia - Kozyatyn - Kyiv Pasazhyrskyi - Lubny - Myrhorod - Poltava
+152,UZ,UZ 023,Kyiv Pasazhyrskyi,21:30,Chelm,08:08,023,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
+152,UZ,UZ 024,Chelm,20:14,Kyiv Pasazhyrskyi,08:16,024,"UA, PL",Y,"couchette, sleeper",,540.0,11.6,21.48,Kovel
+186,UZ,UZ 029 K,Kyiv Pasazhyrskyi,20:20,Uzhhorod,08:27,029 K,UA,Y,"bunkbed, couchette, sleeper",,876.0,15.4,17.58,Lviv - Mukacheve
+186,UZ,UZ 029 L,Uzhhorod,19:07,Kyiv Pasazhyrskyi,08:28,029 L,UA,Y,"bunkbed, couchette, sleeper",,876.0,15.4,17.58,Mukacheve - Lviv
+155,UZ,UZ 032 D,Przemyśl Gł.,19:16,Zaporizhzhia 1,15:14,032 D,UA,Y,"couchette, sleeper",,1305.0,20.9,16.02,Lviv - Oleksandriia - Dnipro Holovny
+155,UZ,UZ 032 P,Zaporizhzhia 1,13:50,Przemyśl Gł.,20:19,032 P,UA,Y,"couchette, sleeper",,1305.0,20.9,16.02,Dnipro Holovny - Oleksandriia - Lviv
+147,UZ,UZ 036 Š,Odesa Holovna,21:15,Przemyśl Gł.,11:20,036 Š,"PL, UA",Y,"couchette, sleeper",,840.0,16.6,19.76,Podilsk - Zhmerynka - Khmelnytskyi - Ternopil - Lviv Pidzamche - Lviv
+147,UZ,UZ 036 L,Przemyśl Gł.,16:20,Odesa Holovna,07:59,036 L,"PL, UA",Y,"couchette, sleeper",,840.0,16.6,19.76,Lviv - Lviv Pidzamche - Ternopil - Khmelnytskyi - Zhmerynka - Podilsk
+218,UZ,UZ 037,Uzhhorod,20:17,Odesa Holovna,13:03,037,UA,Y,"bunkbed, couchette, sleeper",,1029.0,18.5,17.98,Mukacheve - Stryj - Lviv - Ternopil - Khmelnytskyi - Zhmerynka - Podilsk - Rozdil'na
+218,UZ,UZ 038 O/Š,Odesa Holovna,17:04,Uzhhorod,10:56,038 O/Š,UA,Y,"bunkbed, couchette, sleeper",,1029.0,18.5,17.98,Rozdil'na - Podilsk - Zhmerynka - Khmelnytskyi - Ternopil - Lviv - Stryj - Mukacheve
+189,UZ,UZ 038 K,Kyiv Pasazhyrskyi,22:13,Zaporizhzhia 1,07:22,038 K,UA,Y,"bunkbed, couchette, sleeper",,658.0,10.8,16.41,Dnipro Holovny
+189,UZ,UZ 038 P,Zaporizhzhia 1,20:29,Kyiv Pasazhyrskyi,05:52,038 P,UA,Y,"bunkbed, couchette, sleeper",,658.0,10.8,16.41,Dnipro Holovny
+149,UZ,UZ 041,Dnipro Holovny,16:46,Truskavets,12:35,041,UA,Y,"bunkbed, couchette, sleeper",,1238.0,16.9,13.65,Oleksandriia - Vinnytsia - Khmelnytskyi - Ternopil - Lviv
+149,UZ,UZ 042,Truskavets,13:33,Dnipro Holovny,09:08,042,UA,Y,"bunkbed, couchette, sleeper",,1238.0,16.9,13.65,Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Oleksandriia
+178,UZ,UZ 043 L,Ivano-Frankivsk,19:08,Cherkasy,11:17,043 L,UA,Y,"bunkbed, couchette, sleeper",,956.0,17.6,18.41,Kalush - Stryj - Lviv - Kyiv Pasazhyrskyi
+178,UZ,UZ 043 Š,Cherkasy,15:17,Ivano-Frankivsk,08:10,043 Š,UA,Y,"bunkbed, couchette, sleeper",,956.0,17.6,18.41,Kyiv Pasazhyrskyi - Lviv - Stryj - Kalush
+185,UZ,UZ 049,Kyiv Pasazhyrskyi,21:47,Truskavets,08:00,049,UA,Y,"bunkbed, couchette, sleeper",,702.0,12.6,17.95,non-stop - Lviv
+185,UZ,UZ 050,Truskavets,20:58,Kyiv Pasazhyrskyi,06:51,050,UA,Y,"bunkbed, couchette, sleeper",,702.0,12.6,17.95,Lviv
+140,UZ,UZ 051,Kyiv Pasazhyrskyi,20:05,Przemyśl Gł.,05:00,051,"PL, UA",Y,"couchette, sleeper",,700.0,12.9,18.43,Lviv
+140,UZ,UZ 052 K,Przemyśl Gł.,22:30,Kyiv Pasazhyrskyi,09:18,052 K,"PL, UA",Y,"couchette, sleeper",,700.0,12.9,18.43,Lviv
+207,UZ,UZ 052 P/053,Dnipro Holovny,21:03,Odesa Holovna,08:19,052 P/053,UA,Y,"bunkbed, couchette, sleeper",,754.0,9.4,12.47,Oleksandriia - Kropyvnytskyi - Voznesens'k
+207,UZ,UZ 052 Š/054,Odesa Holovna,21:05,Dnipro Holovny,08:56,052 Š/054,UA,Y,"bunkbed, couchette, sleeper",,754.0,9.4,12.47,Voznesens'k - Kropyvnytskyi - Oleksandriia
+198,UZ,UZ 055,Kyiv Pasazhyrskyi,16:29,Rakhiv,07:50,055,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Fastiv - Kozyatyn - Vinnytsia - Khmelnytskyi - Ternopil - Lviv - Ivano-Frankivsk - Vorokhta - Yasinia
+198,UZ,UZ 056,Rakhiv,17:13,Kyiv Pasazhyrskyi,09:24,056,UA,Y,"bunkbed, couchette, sleeper",,892.0,,,Yasinia - Vorokhta - Ivano-Frankivsk - Lviv - Ternopil - Khmelnytskyi - Vinnytsia - Fastiv
+190,UZ,UZ 059 K,Kyiv Pasazhyrskyi,20:28,Chop,12:48,059 K,UA,Y,"couchette, sleeper",,917.0,15.2,16.58,Kozyatyn - Vinnytsia - Khmelnytskyi - Lviv - Uzhhorod
+190,UZ,UZ 060 L,Chop,14:58,Kyiv Pasazhyrskyi,09:42,060 L,UA,Y,"couchette, sleeper",,917.0,15.2,16.58,Uzhhorod - Sambir - Lviv - Vinnytsia - Kozyatyn
+161,UZ,UZ 063,Kharkiv,22:52,Przemyśl Gł.,16:59,063,UA,Y,"couchette, sleeper",,1115.0,19.2,17.22,Poltava - Myrhorod - Kyiv Pasazhyrskyi - Lviv
+161,UZ,UZ 064,Przemyśl Gł.,10:41,Kharkiv,05:56,064,UA,Y,"couchette, sleeper",,1115.0,19.2,17.22,Lviv - Kyiv Pasazhyrskyi - Myrhorod - Poltava
+181,UZ,UZ 067,Kyiv Pasazhyrskyi,19:06,Warszawa Zachodnia,09:53,067,"PL, UA",Y,sleeper,,867.0,16.7,19.21,Kovel - Chelm - Lublin - Warszawa Wschodnia - Warszawa Centralna
+181,UZ,UZ 068,Warszawa Zachodnia,18:15,Kyiv Pasazhyrskyi,10:45,068,"PL, UA",Y,sleeper,,867.0,16.7,19.21,Warszawa Centralna - Warszawa Wschodnia - Lublin - Chelm - Kovel
 172,UZ,UZ 075,Kyiv Pasazhyrskyi,20:13,Kryvyi Rih,05:57,075,UA,Y,"bunkbed, couchette, sleeper",,488.0,7.7,15.78,Oleksandriia
 172,UZ,UZ 076,Kryvyi Rih,20:57,Kyiv Pasazhyrskyi,06:26,076,UA,Y,"bunkbed, couchette, sleeper",,488.0,7.7,15.78,Oleksandriia
 222,UZ,UZ 078 L,Kovel,17:35,Odesa Holovna,09:08,078 L,UA,Y,"bunkbed, couchette, sleeper",,865.0,20.8,24.05,Lutsk - Rivne - Vinnytsia - Podilsk
