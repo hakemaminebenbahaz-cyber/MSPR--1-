@@ -1,4 +1,0 @@
-nom,operateur,depart,arrivee,distance_km,duree_h,gares_intermediaires,type,source
-Nightjet Vienna - Brussels,OBB,Vienna,Brussels,900,12,"Linz, Munich, Strasbourg",couchettes,Back-on-Track
-SNCF Paris - Nice,SNCF,Paris,Nice,700,10,"Lyon, Marseille",couchettes,Back-on-Track
-DB Berlin - Zurich,DB,Berlin,Zurich,750,11,"Frankfurt, Basel",couchettes,Back-on-Track

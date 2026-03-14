@@ -1,6 +1,0 @@
-name,url,country,description
-SNCF French Rail,https://eu.ftp.opendatasoft.com/sncf/gtfs/export-ter-gtfs-last.zip,FR,Donnees TER SNCF France - trains regionaux
-SNCF Transilien,https://eu.ftp.opendatasoft.com/sncf/gtfs/export-transilien-gtfs-last.zip,FR,Reseau Transilien Ile-de-France
-DB German Rail,https://download.gtfs.de/germany/fv_free/latest.zip,DE,Deutsche Bahn - trains longue distance
-OBB Austrian Rail,https://static.data.gv.at/ogd/9c4a7f2d-8b96-4b5f-8b6a-8b6b4b5f8b6b/GTFS.zip,AT,OBB Austria - reseau ferroviaire autrichien
-Back-on-Track Night Trains,https://back-on-track.eu/night-trains/,EU,Base de donnees des trains de nuit europeens (site web a scraper)
