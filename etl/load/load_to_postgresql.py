@@ -71,6 +71,7 @@ def load_gares():
         df = pd.concat([df, pd.read_csv(nt_path)], ignore_index=True)
 
     insert = df[["nom", "pays_code", "latitude", "longitude"]].drop_duplicates(subset=["nom"])
+    insert = insert.dropna(subset=["nom"])  # ← LIGNE AJOUTÉE 
 
     with engine.begin() as conn:
         conn.execute(text("TRUNCATE TABLE gares RESTART IDENTITY CASCADE"))
