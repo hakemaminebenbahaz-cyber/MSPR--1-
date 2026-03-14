@@ -77,9 +77,9 @@ def transform():
     df = pd.read_csv(RAW_FILE)
     print(f"  Lu: {len(df)} lignes")
 
-    # Garder actifs uniquement
-    df = df[df["is_active"].str.strip().str.upper() == "Y"].copy()
-    print(f"  Actifs: {len(df)} lignes")
+    # Garder toutes les lignes avec agency_id et route valides
+    df = df[df["agency_id"].notna() & df["trip_origin"].notna() & df["trip_headsign"].notna()].copy()
+    print(f"  Valides: {len(df)} lignes")
 
     # ─── OPERATEURS ───────────────────────────────────────────
     agencies = df["agency_id"].dropna().unique()
