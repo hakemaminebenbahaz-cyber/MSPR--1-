@@ -238,6 +238,16 @@ def transform_dessertes(operateurs_df, gares_df):
         trip_stop_count.columns = ["trip_id", "stop_count"]
         trip_stop_count["trip_id"] = trip_stop_count["trip_id"].astype(str)
         df = df.merge(trip_stop_count, on="trip_id", how="left")
+
+        # Fréquence max par (route, direction) sur TOUS les trips — avant dédup
+        if freq_map:
+            df["_freq"] = df["service_id"].apply(lambda s: freq_map.get(_norm_sid(s), 0) or 0)
+            max_freq = df.groupby(["route_id", "direction_id"])["_freq"].max().reset_index()
+            max_freq.columns = ["route_id", "direction_id", "max_freq_route"]
+            df = df.merge(max_freq, on=["route_id", "direction_id"], how="left")
+        else:
+            df["max_freq_route"] = None
+
         df = df.sort_values("stop_count", ascending=False)
         df = df.drop_duplicates(subset=["route_id", "direction_id"]).reset_index(drop=True)
 
@@ -274,7 +284,7 @@ def transform_dessertes(operateurs_df, gares_df):
                 "duree_h":          _duree(r["heure_depart"], r["heure_arrivee"]),
                 "distance_km":      distance,
                 "emissions_co2_gkm": meta["co2"],
-                "frequence_hebdo":  freq_map.get(_norm_sid(r.get("service_id", "")), None),
+                "frequence_hebdo":  r.get("max_freq_route") or freq_map.get(_norm_sid(r.get("service_id", "")), None),
                 "traction":         meta["traction"],
                 "source_donnee":    f"GTFS {source}",
             })
