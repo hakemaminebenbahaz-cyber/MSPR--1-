@@ -129,7 +129,7 @@ def load_dessertes(db_operateurs, db_gares):
         "distance_km", "duree_h",
         "emissions_co2_gkm", "frequence_hebdo",
         "traction", "source_donnee",
-    ]]
+    ]].drop_duplicates(subset=["id"])
 
     with engine.begin() as conn:
         conn.execute(text("TRUNCATE TABLE dessertes"))
