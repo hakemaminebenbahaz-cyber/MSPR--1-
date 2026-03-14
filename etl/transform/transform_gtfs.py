@@ -185,8 +185,9 @@ def transform_dessertes(operateurs_df, gares_df):
 
         # Mapper StopPoint → StopArea (tout en string pour éviter les type mismatch int/str)
         stop_to_area = _build_stop_area_map(stops)
-        area_to_nom  = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["nom"])}
-        area_to_id   = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["id"])}
+        area_to_nom    = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["nom"])}
+        area_to_id     = {str(k): v for k, v in zip(gares_df["_stop_id"], gares_df["id"])}
+        area_to_coords = {str(k): (v1, v2) for k, v1, v2 in zip(gares_df["_stop_id"], gares_df["latitude"], gares_df["longitude"])}
 
         # Fallback par nom : préférer la gare du même pays que la source
         source_pays = meta["pays"]
@@ -246,6 +247,10 @@ def transform_dessertes(operateurs_df, gares_df):
             if not nom_dep or not nom_arr or nom_dep == nom_arr:
                 continue
 
+            coords_dep = area_to_coords.get(area_dep, (None, None))
+            coords_arr = area_to_coords.get(area_arr, (None, None))
+            distance   = _haversine(coords_dep[0], coords_dep[1], coords_arr[0], coords_arr[1])
+
             nom_ligne = _nom_ligne(r)
             rows.append({
                 "id":               _make_id(source, r),
@@ -260,7 +265,7 @@ def transform_dessertes(operateurs_df, gares_df):
                 "heure_depart":     _clean_time(r["heure_depart"]),
                 "heure_arrivee":    _clean_time(r["heure_arrivee"]),
                 "duree_h":          _duree(r["heure_depart"], r["heure_arrivee"]),
-                "distance_km":      None,
+                "distance_km":      distance,
                 "emissions_co2_gkm": meta["co2"],
                 "frequence_hebdo":  None,
                 "traction":         meta["traction"],
@@ -339,6 +344,20 @@ def _clean_time(t):
         parts = str(t).split(":")
         h = int(parts[0]) % 24
         return f"{h:02d}:{parts[1]}:{parts[2]}"
+    except Exception:
+        return None
+
+
+def _haversine(lat1, lon1, lat2, lon2):
+    """Distance en km entre deux points GPS (formule haversine)."""
+    from math import radians, sin, cos, sqrt, atan2
+    R = 6371
+    try:
+        lat1, lon1, lat2, lon2 = map(float, [lat1, lon1, lat2, lon2])
+        dlat = radians(lat2 - lat1)
+        dlon = radians(lon2 - lon1)
+        a = sin(dlat/2)**2 + cos(radians(lat1)) * cos(radians(lat2)) * sin(dlon/2)**2
+        return round(R * 2 * atan2(sqrt(a), sqrt(1 - a)), 1)
     except Exception:
         return None
 
