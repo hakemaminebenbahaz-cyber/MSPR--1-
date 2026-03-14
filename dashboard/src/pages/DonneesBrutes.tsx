@@ -17,11 +17,35 @@ const TAB_COLORS: Record<TableName, string> = {
   'Dessertes':  '#f97316',
 }
 
-// Champs à exclure (objets imbriqués)
+// Champs à exclure de l'affichage
 const EXCLUDE_KEYS: Record<TableName, string[]> = {
   'Opérateurs': [],
   'Gares':      [],
-  'Dessertes':  ['operateur', 'gare_depart', 'gare_arrivee'],
+  'Dessertes':  [],
+}
+
+// Aplatit une desserte : extrait les noms depuis les objets imbriqués
+function flattenDesserte(row: Record<string, unknown>): Record<string, unknown> {
+  const op  = row['operateur']  as Record<string, unknown> | null
+  const dep = row['gare_depart']  as Record<string, unknown> | null
+  const arr = row['gare_arrivee'] as Record<string, unknown> | null
+  return {
+    id:               row['id'],
+    operateur:        op?.nom  ?? '—',
+    nom_ligne:        row['nom_ligne'],
+    type_ligne:       row['type_ligne'],
+    type_service:     row['type_service'],
+    gare_depart:      dep?.nom ?? '—',
+    gare_arrivee:     arr?.nom ?? '—',
+    heure_depart:     row['heure_depart'],
+    heure_arrivee:    row['heure_arrivee'],
+    distance_km:      row['distance_km'],
+    duree_h:          row['duree_h'],
+    frequence_hebdo:  row['frequence_hebdo'],
+    emissions_co2_gkm: row['emissions_co2_gkm'],
+    traction:         row['traction'],
+    source_donnee:    row['source_donnee'],
+  }
 }
 
 // Champs à afficher en badge
@@ -40,7 +64,8 @@ export default function DonneesBrutes() {
     setLoading(true)
     setData(null)
     fetchApi<Record<string, unknown>[]>(ENDPOINT[table](limit)).then(d => {
-      setData(d ?? [])
+      const rows = d ?? []
+      setData(table === 'Dessertes' ? rows.map(flattenDesserte) : rows)
       setLoading(false)
     })
   }, [table, limit])
