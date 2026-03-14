@@ -22,11 +22,11 @@ GTFS_SOURCES = {
         "description": "SNCB/NMBS — trains Belgique",
         "pays":        "BE",
     },
-    # "obb_austria": {  # URL morte — source temporairement désactivée
-    #     "url":         "https://data.oebb.at/oebb?dataset=gtfs",
-    #     "description": "ÖBB — trains Autriche",
-    #     "pays":        "AT",
-    # },
+    "obb_austria": {
+        "url":         "https://static.web.oebb.at/open-data/soll-fahrplan-gtfs/GTFS_OP_2025_obb.zip",
+        "description": "ÖBB — trains Autriche",
+        "pays":        "AT",
+    },
 }
 
 GTFS_FILES_ATTENDUS = [
