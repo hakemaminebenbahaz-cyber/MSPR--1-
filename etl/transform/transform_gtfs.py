@@ -198,14 +198,12 @@ def transform_dessertes(operateurs_df, gares_df):
             # On écrase seulement si : pas encore vu OU la nouvelle entrée est du bon pays
             if name not in name_to_gare_id or row["pays_code"] == source_pays:
                 name_to_gare_id[name] = row["id"]
-        if "location_type" in stops.columns:
-            stops_type1 = stops[stops["location_type"] == 1]
-            for _, stop_row in stops_type1.iterrows():
-                area_id = str(stop_row["stop_id"]).strip()
-                name    = str(stop_row["stop_name"]).strip()
-                if area_id not in area_to_id and name in name_to_gare_id:
-                    area_to_id[area_id]  = name_to_gare_id[name]
-                    area_to_nom[area_id] = name
+        for _, stop_row in stops.iterrows():
+            area_id = str(stop_row["stop_id"]).strip()
+            name    = str(stop_row.get("stop_name", "")).strip()
+            if area_id not in area_to_id and name in name_to_gare_id:
+                area_to_id[area_id]  = name_to_gare_id[name]
+                area_to_nom[area_id] = name
 
         # Premier et dernier arrêt par trip
         st_sorted = st.sort_values(["trip_id", "stop_sequence"])
