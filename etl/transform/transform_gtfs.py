@@ -306,12 +306,13 @@ def transform_dessertes(operateurs_df, gares_df):
 # ─── Utilitaires ────────────────────────────────────────────
 
 def _build_freq_map(source):
-    """Calcule la fréquence hebdomadaire par service_id depuis calendar.txt ou calendar_dates.txt."""
-    import datetime
+    """Calcule la fréquence hebdomadaire par service_id.
+    Priorité : calendar.txt si jours non nuls, sinon calendar_dates.txt."""
     cal_path   = f"{RAW_DIR}/{source}/calendar.txt"
     dates_path = f"{RAW_DIR}/{source}/calendar_dates.txt"
     freq = {}
 
+    # calendar.txt — seulement si les jours ne sont pas tous à 0
     if os.path.exists(cal_path):
         cal = pd.read_csv(cal_path, dtype=str)
         days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
@@ -320,9 +321,12 @@ def _build_freq_map(source):
                 cal[col] = pd.to_numeric(cal[col], errors="coerce").fillna(0)
         existing_days = [d for d in days if d in cal.columns]
         cal["freq"] = cal[existing_days].sum(axis=1)
-        freq = dict(zip(cal["service_id"].astype(str), cal["freq"].astype(int)))
+        if cal["freq"].sum() > 0:
+            freq = dict(zip(cal["service_id"].astype(str), cal["freq"].astype(int)))
+            return freq
 
-    elif os.path.exists(dates_path):
+    # calendar_dates.txt — comptage des dates actives par service
+    if os.path.exists(dates_path):
         dates = pd.read_csv(dates_path, dtype=str)
         dates = dates[dates["exception_type"] == "1"]
         dates["date"] = pd.to_datetime(dates["date"], format="%Y%m%d", errors="coerce")
@@ -330,7 +334,7 @@ def _build_freq_map(source):
         if len(dates) > 0:
             span_weeks = max(1, (dates["date"].max() - dates["date"].min()).days / 7)
             counts = dates.groupby("service_id")["date"].count()
-            freq = {str(k): round(v / span_weeks) for k, v in counts.items()}
+            freq = {str(k): max(1, round(v / span_weeks)) for k, v in counts.items()}
 
     return freq
 
