@@ -143,8 +143,8 @@ export default function VueGlobale() {
               <YAxis tick={{ fill: '#94a3b8', fontSize: 11 }} axisLine={false} tickLine={false} />
               <Tooltip contentStyle={TT} formatter={(v: number) => [`${v} g/km`, 'CO₂']} />
               <Bar dataKey="co2" radius={[8, 8, 0, 0]}>
-                <Cell fill="#f59e0b" />
                 <Cell fill="#6366f1" />
+                <Cell fill="#f59e0b" />
                 <LabelList dataKey="co2" position="top" style={{ fill: '#94a3b8', fontSize: 11 }} />
               </Bar>
             </BarChart>
