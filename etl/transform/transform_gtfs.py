@@ -13,7 +13,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 # co2 en g/km basé sur le mix électrique national (source : EEA 2023)
 GTFS_SOURCES = {
     "sncf_ter":        {"pays": "FR", "operateur_defaut": "SNCF",              "traction": "électrique", "co2": 14.0},
-    "sncf_intercites": {"pays": "FR", "operateur_defaut": "SNCF Intercités",  "traction": "électrique", "co2": 14.0},
+    "sncf_intercites": {"pays": "FR", "operateur_defaut": "SNCF VOYAGEURS",   "traction": "électrique", "co2": 14.0},
     "db_germany":      {"pays": "DE", "operateur_defaut": "Deutsche Bahn",    "traction": "électrique", "co2": 32.0},
     "sncb_belgium":{"pays": "BE", "operateur_defaut": "SNCB",           "traction": "électrique", "co2": 18.0},
     "obb_austria": {"pays": "AT", "operateur_defaut": "OBB",            "traction": "électrique", "co2": 12.0},
@@ -271,7 +271,7 @@ def transform_dessertes(operateurs_df, gares_df):
             nom_ligne = _nom_ligne(r)
             rows.append({
                 "id":               _make_id(source, r),
-                "operateur_nom":    _get_operateur(operateurs_df, r["agency_id"]),
+                "operateur_nom":    _get_operateur(operateurs_df, r["agency_id"], fallback=meta["operateur_defaut"]),
                 "nom_ligne":        nom_ligne,
                 "type_ligne":       _type_ligne(nom_ligne),
                 "type_service":     _type_service(r["heure_depart"]),
@@ -388,10 +388,12 @@ def _build_stop_area_map(stops_df):
     return m
 
 
-def _get_operateur(operateurs_df, agency_id):
+def _get_operateur(operateurs_df, agency_id, fallback=None):
     agency_id = _simplify_agency_id(str(agency_id))
     match = operateurs_df[operateurs_df["_agency_id"].astype(str) == agency_id]
-    return match.iloc[0]["nom"] if not match.empty else str(agency_id)
+    if not match.empty:
+        return match.iloc[0]["nom"]
+    return fallback if fallback else str(agency_id)
 
 
 def _simplify_agency_id(aid):
@@ -456,11 +458,12 @@ def _type_ligne(nom):
 
 
 def _nom_ligne(row):
+    _invalid = {"nan", "none", "", "-", "–", "—"}
     long  = str(row.get("route_long_name", "")).strip()
     short = str(row.get("route_short_name", "")).strip()
-    if long and long.lower() not in ("nan", "none", ""):
+    if long and long.lower() not in _invalid:
         return long
-    if short and short.lower() not in ("nan", "none", ""):
+    if short and short.lower() not in _invalid:
         return short
     return str(row.get("route_id", "?"))
 
