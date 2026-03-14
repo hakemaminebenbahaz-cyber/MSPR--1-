@@ -122,8 +122,9 @@ export default function VueGlobale() {
             <PieChart>
               <Pie data={jourNuitData} dataKey="value" nameKey="name"
                 cx="50%" cy="50%" innerRadius={55} outerRadius={90} paddingAngle={4}>
-                <Cell fill="#f59e0b" stroke="white" strokeWidth={2} />
-                <Cell fill="#6366f1" stroke="white" strokeWidth={2} />
+                {jourNuitData.map((entry, i) => (
+                  <Cell key={i} fill={entry.name === 'Jour' ? '#f59e0b' : '#6366f1'} stroke="white" strokeWidth={2} />
+                ))}
               </Pie>
               <Tooltip contentStyle={TT} formatter={(v: number) => [v.toLocaleString('fr-FR'), 'dessertes']} />
               <Legend formatter={legendFmt} iconSize={9} />
@@ -143,8 +144,9 @@ export default function VueGlobale() {
               <YAxis tick={{ fill: '#94a3b8', fontSize: 11 }} axisLine={false} tickLine={false} />
               <Tooltip contentStyle={TT} formatter={(v: number) => [`${v} g/km`, 'CO₂']} />
               <Bar dataKey="co2" radius={[8, 8, 0, 0]}>
-                <Cell fill="#f59e0b" />
-                <Cell fill="#6366f1" />
+                {co2Data.map((entry, i) => (
+                  <Cell key={i} fill={entry.name === 'Jour' ? '#f59e0b' : '#6366f1'} />
+                ))}
                 <LabelList dataKey="co2" position="top" style={{ fill: '#94a3b8', fontSize: 11 }} />
               </Bar>
             </BarChart>
