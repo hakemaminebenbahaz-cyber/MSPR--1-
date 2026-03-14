@@ -230,7 +230,12 @@ def transform_dessertes(operateurs_df, gares_df):
               .merge(routes[["route_id", "agency_id", "route_short_name", "route_long_name"]],
                      on="route_id"))
 
-        # Une desserte par (route, direction)
+        # Une desserte par (route, direction) — garder le trajet le plus long
+        trip_stop_count = st.groupby("trip_id")["stop_sequence"].count().reset_index()
+        trip_stop_count.columns = ["trip_id", "stop_count"]
+        trip_stop_count["trip_id"] = trip_stop_count["trip_id"].astype(str)
+        df = df.merge(trip_stop_count, on="trip_id", how="left")
+        df = df.sort_values("stop_count", ascending=False)
         df = df.drop_duplicates(subset=["route_id", "direction_id"]).reset_index(drop=True)
 
         rows = []
