@@ -12,6 +12,11 @@ GTFS_SOURCES = {
         "description": "SNCF TER — trains régionaux France",
         "pays":        "FR",
     },
+    "sncf_intercites": {
+        "url":         "https://eu.ftp.opendatasoft.com/sncf/gtfs/export-intercites-gtfs-last.zip",
+        "description": "SNCF Intercités — trains nationaux France (Paris-Nice, Paris-Bordeaux...)",
+        "pays":        "FR",
+    },
     "db_germany": {
         "url":         "https://download.gtfs.de/germany/fv_free/latest.zip",
         "description": "Deutsche Bahn — trains longue distance Allemagne",

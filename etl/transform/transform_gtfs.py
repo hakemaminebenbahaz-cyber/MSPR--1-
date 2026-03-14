@@ -12,8 +12,9 @@ os.makedirs(OUT_DIR, exist_ok=True)
 # Sources GTFS disponibles avec leur pays
 # co2 en g/km basé sur le mix électrique national (source : EEA 2023)
 GTFS_SOURCES = {
-    "sncf_ter":    {"pays": "FR", "operateur_defaut": "SNCF",           "traction": "électrique", "co2": 14.0},
-    "db_germany":  {"pays": "DE", "operateur_defaut": "Deutsche Bahn",  "traction": "électrique", "co2": 32.0},
+    "sncf_ter":        {"pays": "FR", "operateur_defaut": "SNCF",              "traction": "électrique", "co2": 14.0},
+    "sncf_intercites": {"pays": "FR", "operateur_defaut": "SNCF Intercités",  "traction": "électrique", "co2": 14.0},
+    "db_germany":      {"pays": "DE", "operateur_defaut": "Deutsche Bahn",    "traction": "électrique", "co2": 32.0},
     "sncb_belgium":{"pays": "BE", "operateur_defaut": "SNCB",           "traction": "électrique", "co2": 18.0},
     "obb_austria": {"pays": "AT", "operateur_defaut": "OBB",            "traction": "électrique", "co2": 12.0},
 }
