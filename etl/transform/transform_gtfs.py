@@ -158,6 +158,9 @@ def transform_dessertes(operateurs_df, gares_df):
         if routes is not None:
             routes["route_id"] = routes["route_id"].astype(str).str.strip()
         stops  = read_gtfs(source, "stops.txt")
+
+        # Calcul fréquence hebdomadaire réelle depuis calendar.txt ou calendar_dates.txt
+        freq_map = _build_freq_map(source)
         st     = pd.read_csv(
             f"{RAW_DIR}/{source}/stop_times.txt", encoding="utf-8", low_memory=False,
             usecols=["trip_id", "departure_time", "arrival_time", "stop_id", "stop_sequence"],
@@ -271,7 +274,7 @@ def transform_dessertes(operateurs_df, gares_df):
                 "duree_h":          _duree(r["heure_depart"], r["heure_arrivee"]),
                 "distance_km":      distance,
                 "emissions_co2_gkm": meta["co2"],
-                "frequence_hebdo":  None,
+                "frequence_hebdo":  freq_map.get(str(r.get("service_id", "")), None),
                 "traction":         meta["traction"],
                 "source_donnee":    f"GTFS {source}",
             })
@@ -301,6 +304,36 @@ def transform_dessertes(operateurs_df, gares_df):
 
 
 # ─── Utilitaires ────────────────────────────────────────────
+
+def _build_freq_map(source):
+    """Calcule la fréquence hebdomadaire par service_id depuis calendar.txt ou calendar_dates.txt."""
+    import datetime
+    cal_path   = f"{RAW_DIR}/{source}/calendar.txt"
+    dates_path = f"{RAW_DIR}/{source}/calendar_dates.txt"
+    freq = {}
+
+    if os.path.exists(cal_path):
+        cal = pd.read_csv(cal_path, dtype=str)
+        days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+        for col in days:
+            if col in cal.columns:
+                cal[col] = pd.to_numeric(cal[col], errors="coerce").fillna(0)
+        existing_days = [d for d in days if d in cal.columns]
+        cal["freq"] = cal[existing_days].sum(axis=1)
+        freq = dict(zip(cal["service_id"].astype(str), cal["freq"].astype(int)))
+
+    elif os.path.exists(dates_path):
+        dates = pd.read_csv(dates_path, dtype=str)
+        dates = dates[dates["exception_type"] == "1"]
+        dates["date"] = pd.to_datetime(dates["date"], format="%Y%m%d", errors="coerce")
+        dates = dates.dropna(subset=["date"])
+        if len(dates) > 0:
+            span_weeks = max(1, (dates["date"].max() - dates["date"].min()).days / 7)
+            counts = dates.groupby("service_id")["date"].count()
+            freq = {str(k): round(v / span_weeks) for k, v in counts.items()}
+
+    return freq
+
 
 def _build_stop_area_map(stops_df):
     """Construit StopPoint → StopArea, tout en string normalisé.
