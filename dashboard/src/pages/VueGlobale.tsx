@@ -46,6 +46,15 @@ interface InterPays {
   gare_arrivee: string
   duree_h: number | null
 }
+interface QualiteChamp {
+  table: string
+  champ: string
+  label: string
+  total: number
+  remplis: number
+  manquants: number
+  taux_completude: number
+}
 
 const VIBRANT = ['#6366f1', '#f59e0b', '#22c55e', '#0ea5e9', '#ec4899', '#f97316', '#14b8a6', '#8b5cf6']
 
@@ -76,6 +85,7 @@ export default function VueGlobale() {
   const [operateurs, setOperateurs] = useState<StatOp[] | null>(null)
   const [pays,      setPays]      = useState<StatPays[] | null>(null)
   const [interPays, setInterPays] = useState<InterPays[] | null>(null)
+  const [qualite,   setQualite]   = useState<QualiteChamp[] | null>(null)
 
   useEffect(() => {
     fetchApi<StatsGlobales>('/comparisons/stats-globales').then(setStats)
@@ -84,6 +94,7 @@ export default function VueGlobale() {
     fetchApi<StatOp[]>('/comparisons/par-operateur').then(setOperateurs)
     fetchApi<StatPays[]>('/comparisons/par-pays').then(setPays)
     fetchApi<InterPays[]>('/comparisons/inter-pays').then(setInterPays)
+    fetchApi<QualiteChamp[]>('/comparisons/qualite-donnees').then(setQualite)
   }, [])
 
   const jourNuitData = jourNuit?.map(d => ({ name: d.type_service, value: d.total }))
@@ -217,14 +228,55 @@ export default function VueGlobale() {
         ) : <Loader />}
       </div>
 
-      {/* ── Row 4 : Carte des gares ── */}
+      {/* ── Row 4 : Qualité des données ── */}
+      <div style={{ gridColumn: 'span 12', ...CARD }}>
+        <CardTitle>Qualité des données — Taux de complétude</CardTitle>
+        <CardSub>Champs remplis vs manquants par table</CardSub>
+        {qualite ? (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '32px' }}>
+            {(['operateurs', 'gares', 'dessertes'] as const).map(table => {
+              const champs = qualite.filter(q => q.table === table)
+              const labels: Record<string, string> = { operateurs: 'Opérateurs', gares: 'Gares', dessertes: 'Dessertes' }
+              const totals: Record<string, string> = { operateurs: `${champs[0]?.total} lignes`, gares: `${champs[0]?.total} lignes`, dessertes: `${champs[0]?.total} lignes` }
+              return (
+                <div key={table}>
+                  <p style={{ fontSize: '12px', fontWeight: 700, color: 'var(--text-1)', marginBottom: '2px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>{labels[table]}</p>
+                  <p style={{ fontSize: '11px', color: 'var(--text-4)', marginBottom: '14px' }}>{totals[table]}</p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                    {champs.map(q => (
+                      <div key={q.champ} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <span style={{ width: '120px', fontSize: '12px', color: 'var(--text-2)', flexShrink: 0 }}>{q.label}</span>
+                        <div style={{ flex: 1, background: 'var(--border)', borderRadius: '6px', height: '8px', overflow: 'hidden' }}>
+                          <div style={{
+                            width: `${q.taux_completude}%`, height: '100%', borderRadius: '6px',
+                            background: q.taux_completude >= 95 ? '#22c55e' : q.taux_completude >= 80 ? '#f59e0b' : '#ef4444',
+                            transition: 'width 0.6s ease',
+                          }} />
+                        </div>
+                        <span style={{ width: '44px', fontSize: '12px', fontWeight: 600, textAlign: 'right', flexShrink: 0, color: q.taux_completude >= 95 ? '#22c55e' : q.taux_completude >= 80 ? '#f59e0b' : '#ef4444' }}>
+                          {q.taux_completude}%
+                        </span>
+                        <span style={{ width: '76px', fontSize: '11px', color: 'var(--text-4)', flexShrink: 0 }}>
+                          {q.manquants > 0 ? `${q.manquants} manquants` : 'complet'}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        ) : <Loader />}
+      </div>
+
+      {/* ── Row 5 : Carte des gares ── */}
       <div style={{ gridColumn: 'span 12', ...CARD }}>
         <CardTitle>Carte des gares européennes</CardTitle>
         <CardSub>Toutes les gares avec coordonnées GPS — survolez un point pour le nom</CardSub>
         <MapGares />
       </div>
 
-      {/* ── Row 5 : Inter-pays ── */}
+      {/* ── Row 6 : Inter-pays ── */}
       <div style={{ gridColumn: 'span 12', ...CARD }}>
         <CardTitle>Liaisons internationales — {interPays?.length ?? '…'} trajets inter-pays</CardTitle>
         <CardSub>Dessertes ferroviaires traversant les frontières européennes</CardSub>

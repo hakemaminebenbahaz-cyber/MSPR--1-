@@ -113,6 +113,63 @@ def get_par_operateur(db: Session = Depends(get_db)):
     return sorted(result, key=lambda x: x.total_dessertes, reverse=True)
 
 
+@router.get("/qualite-donnees")
+def get_qualite_donnees(db: Session = Depends(get_db)):
+    """Taux de complétude des champs clés pour les 3 tables."""
+
+    def completude(model, col, total):
+        nulls = db.query(func.count(model.id)).filter(col.is_(None)).scalar()
+        complet = total - nulls
+        return complet, nulls, round(complet / total * 100, 1) if total else 0
+
+    result = []
+
+    # ── Opérateurs
+    total_op = db.query(func.count(Operateur.id)).scalar()
+    for key, label, col in [
+        ("nom",       "Nom",       Operateur.nom),
+        ("pays_code", "Pays code", Operateur.pays_code),
+    ]:
+        remplis, manquants, taux = completude(Operateur, col, total_op)
+        result.append({"table": "operateurs", "champ": key, "label": label,
+                        "total": total_op, "remplis": remplis, "manquants": manquants, "taux_completude": taux})
+
+    # ── Gares
+    total_g = db.query(func.count(Gare.id)).scalar()
+    for key, label, col in [
+        ("nom",       "Nom",       Gare.nom),
+        ("pays_code", "Pays code", Gare.pays_code),
+        ("latitude",  "Latitude",  Gare.latitude),
+        ("longitude", "Longitude", Gare.longitude),
+    ]:
+        remplis, manquants, taux = completude(Gare, col, total_g)
+        result.append({"table": "gares", "champ": key, "label": label,
+                        "total": total_g, "remplis": remplis, "manquants": manquants, "taux_completude": taux})
+
+    # ── Dessertes
+    total_d = db.query(func.count(Desserte.id)).scalar()
+    for key, label, col in [
+        ("operateur_id",      "Opérateur",      Desserte.operateur_id),
+        ("nom_ligne",         "Nom de ligne",   Desserte.nom_ligne),
+        ("type_ligne",        "Type de ligne",  Desserte.type_ligne),
+        ("type_service",      "Type de service",Desserte.type_service),
+        ("gare_depart_id",    "Gare de départ", Desserte.gare_depart_id),
+        ("gare_arrivee_id",   "Gare d'arrivée", Desserte.gare_arrivee_id),
+        ("distance_km",       "Distance (km)",  Desserte.distance_km),
+        ("duree_h",           "Durée (h)",      Desserte.duree_h),
+        ("frequence_hebdo",   "Fréquence hebdo",Desserte.frequence_hebdo),
+        ("emissions_co2_gkm", "Émissions CO₂",  Desserte.emissions_co2_gkm),
+        ("traction",          "Traction",       Desserte.traction),
+        ("heure_depart",      "Heure départ",   Desserte.heure_depart),
+        ("heure_arrivee",     "Heure arrivée",  Desserte.heure_arrivee),
+    ]:
+        remplis, manquants, taux = completude(Desserte, col, total_d)
+        result.append({"table": "dessertes", "champ": key, "label": label,
+                        "total": total_d, "remplis": remplis, "manquants": manquants, "taux_completude": taux})
+
+    return result
+
+
 @router.get("/inter-pays")
 def get_inter_pays(db: Session = Depends(get_db)):
     """Trajets internationaux (départ et arrivée dans des pays différents)."""

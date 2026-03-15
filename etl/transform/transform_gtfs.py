@@ -55,8 +55,11 @@ def transform_operateurs():
     # Simplifier les agency_id trop longs (UUID)
     df_all["agency_id"] = df_all["agency_id"].apply(_simplify_agency_id)
 
-    # Dédupliquer par nom d'opérateur
-    df_all = df_all.drop_duplicates(subset=["agency_name"]).reset_index(drop=True)
+    # Dédupliquer par nom d'opérateur — priorité aux sources natives (db_germany en dernier)
+    SOURCE_PRIO = {"sncf_ter": 1, "sncf_intercites": 1, "sncb_belgium": 1, "obb_austria": 1, "db_germany": 2}
+    df_all["_prio"] = df_all["_source"].map(lambda s: SOURCE_PRIO.get(s, 1))
+    df_all = df_all.sort_values("_prio").drop_duplicates(subset=["agency_name"]).reset_index(drop=True)
+    df_all = df_all.drop(columns=["_prio"])
     df_all.insert(0, "id", range(1, len(df_all) + 1))
 
     operateurs = df_all[["id", "agency_id", "agency_name", "pays_code", "_source"]].rename(
