@@ -5,11 +5,10 @@ services:
       dockerfile: api/Dockerfile
     ports:
       - "8000:8000"
-    env_file:
-      - .env
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
     volumes:
       - ./api:/app
-      - ./data:/data
     restart: unless-stopped
 
   dashboard:

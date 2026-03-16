@@ -46,17 +46,6 @@ interface InterPays {
   gare_arrivee: string
   duree_h: number | null
 }
-interface ContextePays {
-  pays_code: string
-  nos_gares: number
-  nos_dessertes: number
-  notre_distance_km: number
-  reseau_total_km: number | null
-  electrifie_km: number | null
-  taux_electrification_pct: number | null
-  grande_vitesse_km: number | null
-  taux_couverture_pct: number | null
-}
 interface QualiteChamp {
   table: string
   champ: string
@@ -97,7 +86,6 @@ export default function VueGlobale() {
   const [pays,      setPays]      = useState<StatPays[] | null>(null)
   const [interPays, setInterPays] = useState<InterPays[] | null>(null)
   const [qualite,   setQualite]   = useState<QualiteChamp[] | null>(null)
-  const [contexte,  setContexte]  = useState<ContextePays[] | null>(null)
 
   useEffect(() => {
     fetchApi<StatsGlobales>('/comparisons/stats-globales').then(setStats)
@@ -107,7 +95,6 @@ export default function VueGlobale() {
     fetchApi<StatPays[]>('/comparisons/par-pays').then(setPays)
     fetchApi<InterPays[]>('/comparisons/inter-pays').then(setInterPays)
     fetchApi<QualiteChamp[]>('/comparisons/qualite-donnees').then(setQualite)
-    fetchApi<ContextePays[]>('/comparisons/contexte-pays').then(setContexte)
   }, [])
 
   const jourNuitData = jourNuit?.map(d => ({ name: d.type_service, value: d.total }))
@@ -115,7 +102,7 @@ export default function VueGlobale() {
   const top8ops      = operateurs?.slice(0, 8)
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '14px' }} role="main" aria-label="Tableau de bord ObRail Europe">
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '14px' }}>
 
       {/* ── Row 1 : Métriques ── */}
       {stats ? (
@@ -138,11 +125,11 @@ export default function VueGlobale() {
       )}
 
       {/* ── Row 2 : Jour/Nuit donut + CO2 ── */}
-      <div style={{ gridColumn: 'span 4', ...CARD }} role="region" aria-label="Répartition Jour / Nuit">
+      <div style={{ gridColumn: 'span 4', ...CARD }}>
         <CardTitle>Répartition Jour / Nuit</CardTitle>
         <CardSub>{stats ? `${stats.total_dessertes} dessertes au total` : '…'}</CardSub>
         {jourNuitData ? (
-          <ResponsiveContainer width="100%" height={220} aria-label="Graphique répartition Jour / Nuit">
+          <ResponsiveContainer width="100%" height={220}>
             <PieChart>
               <Pie data={jourNuitData} dataKey="value" nameKey="name"
                 cx="50%" cy="50%" innerRadius={55} outerRadius={90} paddingAngle={4}>
@@ -157,11 +144,11 @@ export default function VueGlobale() {
         ) : <Loader />}
       </div>
 
-      <div style={{ gridColumn: 'span 4', ...CARD }} role="region" aria-label="CO2 moyen par type de service">
+      <div style={{ gridColumn: 'span 4', ...CARD }}>
         <CardTitle>CO₂ moyen (g/km)</CardTitle>
         <CardSub>Émissions moyennes par type de service</CardSub>
         {co2Data ? (
-          <ResponsiveContainer width="100%" height={220} aria-label="Graphique CO2 moyen Jour et Nuit">
+          <ResponsiveContainer width="100%" height={220}>
             <BarChart data={co2Data} margin={{ top: 10, right: 20, left: 0, bottom: 0 }}>
               <CartesianGrid strokeDasharray="4 4" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="name" tick={{ fill: '#64748b', fontSize: 12 }} axisLine={false} tickLine={false} />
@@ -178,11 +165,11 @@ export default function VueGlobale() {
         ) : <Loader />}
       </div>
 
-      <div style={{ gridColumn: 'span 4', ...CARD }} role="region" aria-label="Dessertes par type de ligne">
+      <div style={{ gridColumn: 'span 4', ...CARD }}>
         <CardTitle>Dessertes par type de ligne</CardTitle>
         <CardSub>Répartition Grande vitesse / Intercité / Régional</CardSub>
         {typeLigne ? (
-          <ResponsiveContainer width="100%" height={220} aria-label="Graphique dessertes par type de ligne">
+          <ResponsiveContainer width="100%" height={220}>
             <PieChart>
               <Pie data={typeLigne} dataKey="total" nameKey="type_ligne"
                 cx="50%" cy="50%" innerRadius={50} outerRadius={85} paddingAngle={4}>
@@ -198,11 +185,11 @@ export default function VueGlobale() {
       </div>
 
       {/* ── Row 3 : Top opérateurs ── */}
-      <div style={{ gridColumn: 'span 8', ...CARD }} role="region" aria-label="Top 8 opérateurs Jour vs Nuit">
+      <div style={{ gridColumn: 'span 8', ...CARD }}>
         <CardTitle>Top 8 Opérateurs — Jour vs Nuit</CardTitle>
         <CardSub>Volume de dessertes par opérateur</CardSub>
         {top8ops ? (
-          <ResponsiveContainer width="100%" height={280} aria-label="Graphique top 8 opérateurs">
+          <ResponsiveContainer width="100%" height={280}>
             <BarChart data={top8ops} layout="vertical" margin={{ top: 0, right: 60, left: 10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="4 4" stroke="#f1f5f9" horizontal={false} />
               <XAxis type="number" tick={{ fill: '#94a3b8', fontSize: 11 }} axisLine={false} tickLine={false} />
@@ -222,11 +209,11 @@ export default function VueGlobale() {
       </div>
 
       {/* ── Row 3 : Par pays ── */}
-      <div style={{ gridColumn: 'span 4', ...CARD }} role="region" aria-label="Dessertes par pays">
+      <div style={{ gridColumn: 'span 4', ...CARD }}>
         <CardTitle>Dessertes par pays</CardTitle>
         <CardSub>Répartition géographique des liaisons</CardSub>
         {pays ? (
-          <ResponsiveContainer width="100%" height={280} aria-label="Graphique dessertes par pays">
+          <ResponsiveContainer width="100%" height={280}>
             <BarChart data={pays} margin={{ top: 10, right: 20, left: 0, bottom: 10 }}>
               <CartesianGrid strokeDasharray="4 4" stroke="#f1f5f9" vertical={false} />
               <XAxis dataKey="pays_code" tick={{ fill: '#64748b', fontSize: 12 }} axisLine={false} tickLine={false} />
@@ -241,61 +228,7 @@ export default function VueGlobale() {
         ) : <Loader />}
       </div>
 
-      {/* ── Row 4 : Contexte ferroviaire européen (données Wikipedia scrapées) ── */}
-      <div style={{ gridColumn: 'span 12', ...CARD }}>
-        <CardTitle>Contexte ferroviaire européen</CardTitle>
-        <CardSub>Nos données GTFS croisées avec les statistiques Wikipedia — réseau total, grande vitesse, taux de couverture</CardSub>
-        {contexte ? (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '16px' }}>
-            {contexte.map(c => {
-              const flag: Record<string, string> = { FR: '🇫🇷', BE: '🇧🇪', DE: '🇩🇪', AT: '🇦🇹' }
-              const nom:  Record<string, string> = { FR: 'France', BE: 'Belgique', DE: 'Allemagne', AT: 'Autriche' }
-              return (
-                <div key={c.pays_code} style={{ background: 'var(--bg-page)', borderRadius: '12px', padding: '16px', border: '1px solid var(--border)' }}>
-                  <p style={{ fontSize: '18px', marginBottom: '4px' }}>{flag[c.pays_code]} <span style={{ fontWeight: 700, color: 'var(--text-1)' }}>{nom[c.pays_code]}</span></p>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px' }}>
-                      <span style={{ color: 'var(--text-3)' }}>Réseau total</span>
-                      <span style={{ fontWeight: 600, color: 'var(--text-1)' }}>{c.reseau_total_km?.toLocaleString('fr-FR') ?? '—'} km</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px' }}>
-                      <span style={{ color: 'var(--text-3)' }}>Grande vitesse</span>
-                      <span style={{ fontWeight: 600, color: '#f59e0b' }}>{c.grande_vitesse_km?.toLocaleString('fr-FR') ?? '—'} km</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px' }}>
-                      <span style={{ color: 'var(--text-3)' }}>Électrification</span>
-                      <span style={{ fontWeight: 600, color: '#22c55e' }}>{c.taux_electrification_pct ?? '—'}%</span>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '12px' }}>
-                      <span style={{ color: 'var(--text-3)' }}>Nos dessertes</span>
-                      <span style={{ fontWeight: 600, color: '#6366f1' }}>{c.nos_dessertes.toLocaleString('fr-FR')}</span>
-                    </div>
-                    <div style={{ marginTop: '4px' }}>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', marginBottom: '4px' }}>
-                        <span style={{ color: 'var(--text-4)' }}>Couverture réseau</span>
-                        <span style={{ fontWeight: 700, color: c.taux_couverture_pct && c.taux_couverture_pct >= 5 ? '#22c55e' : '#f59e0b' }}>
-                          {c.taux_couverture_pct ?? '—'}%
-                        </span>
-                      </div>
-                      <div style={{ background: 'var(--border)', borderRadius: '4px', height: '6px', overflow: 'hidden' }}>
-                        <div style={{
-                          width: `${Math.min(c.taux_couverture_pct ?? 0, 100)}%`,
-                          height: '100%', borderRadius: '4px',
-                          background: 'linear-gradient(90deg, #6366f1, #8b5cf6)',
-                          transition: 'width 0.6s ease',
-                        }} />
-                      </div>
-                    </div>
-                  </div>
-                  <p style={{ fontSize: '10px', color: 'var(--text-4)', marginTop: '10px' }}>Source : Wikipedia (scraping)</p>
-                </div>
-              )
-            })}
-          </div>
-        ) : <Loader />}
-      </div>
-
-      {/* ── Row 5 : Qualité des données ── */}
+      {/* ── Row 4 : Qualité des données ── */}
       <div style={{ gridColumn: 'span 12', ...CARD }}>
         <CardTitle>Qualité des données — Taux de complétude</CardTitle>
         <CardSub>Champs remplis vs manquants par table</CardSub>
@@ -313,9 +246,7 @@ export default function VueGlobale() {
                     {champs.map(q => (
                       <div key={q.champ} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <span style={{ width: '120px', fontSize: '12px', color: 'var(--text-2)', flexShrink: 0 }}>{q.label}</span>
-                        <div style={{ flex: 1, background: 'var(--border)', borderRadius: '6px', height: '8px', overflow: 'hidden' }}
-                          role="progressbar" aria-valuenow={q.taux_completude} aria-valuemin={0} aria-valuemax={100}
-                          aria-label={`${q.label} : ${q.taux_completude}% de complétude`}>
+                        <div style={{ flex: 1, background: 'var(--border)', borderRadius: '6px', height: '8px', overflow: 'hidden' }}>
                           <div style={{
                             width: `${q.taux_completude}%`, height: '100%', borderRadius: '6px',
                             background: q.taux_completude >= 95 ? '#22c55e' : q.taux_completude >= 80 ? '#f59e0b' : '#ef4444',
@@ -351,11 +282,11 @@ export default function VueGlobale() {
         <CardSub>Dessertes ferroviaires traversant les frontières européennes</CardSub>
         {interPays ? (
           <div style={{ overflowX: 'auto', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }} aria-label="Liaisons internationales ferroviaires">
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }}>
               <thead>
                 <tr style={{ background: 'var(--bg-thead)' }}>
                   {['Liaison', 'Ligne', 'Type', 'Départ', 'Arrivée', 'Durée'].map(h => (
-                    <th key={h} scope="col" style={{
+                    <th key={h} style={{
                       padding: '10px 14px', textAlign: 'left', color: 'var(--text-4)',
                       fontWeight: 600, textTransform: 'uppercase', fontSize: '10px',
                       letterSpacing: '0.6px', whiteSpace: 'nowrap',

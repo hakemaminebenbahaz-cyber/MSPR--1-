@@ -1,0 +1,7 @@
+pandas
+requests
+beautifulsoup4
+python-dotenv
+sqlalchemy
+psycopg2-binary
+reverse_geocoder

@@ -1,5 +1,3 @@
-import os
-import csv
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session, aliased
 from sqlalchemy import func
@@ -7,67 +5,6 @@ from sqlalchemy import func
 from core.dependencies import get_db
 from models.models import Desserte, Gare, Operateur
 from schemas.responses import StatsServiceResponse, StatsPayResponse, StatsOperateurResponse
-
-# Mapping pays_code → nom anglais Wikipedia
-_PAYS_WIKI = {
-    'FR': 'France',
-    'BE': 'Belgium',
-    'DE': 'Germany',
-    'AT': 'Austria',
-}
-
-def _scraped_path(filename):
-    """Trouve le fichier scraped — local ou Docker (/data monté via volume)."""
-    candidates = [
-        os.path.join('/data', 'raw', 'scraped', filename),                                                             # Docker volume
-        os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data', 'raw', 'scraped', filename),     # local
-        os.path.join(os.path.abspath(os.getcwd()), '..', 'data', 'raw', 'scraped', filename),                         # local alt
-    ]
-    for p in candidates:
-        p = os.path.abspath(p)
-        if os.path.exists(p):
-            return p
-    return None
-
-def _load_wiki_networks():
-    """Lit wikipedia_rail_networks.csv et retourne un dict pays_code → {reseau_km, electrifie_km}."""
-    path = _scraped_path('wikipedia_rail_networks.csv')
-    result = {}
-    if not path:
-        return result
-    with open(path, encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            country = row.get('Country/Territory', '').strip()
-            for pays_code, nom in _PAYS_WIKI.items():
-                if country == nom:
-                    try:
-                        reseau_km = int(row['Length (km)'].replace(',', '').strip())
-                        electrifie_km = int(row['% of the totalelectrified'].replace(',', '').strip())
-                        result[pays_code] = {'reseau_total_km': reseau_km, 'electrifie_km': electrifie_km}
-                    except Exception:
-                        pass
-    return result
-
-def _load_wiki_highspeed():
-    """Lit wikipedia_highspeed_lines.csv et retourne un dict pays_code → km_grande_vitesse."""
-    path = _scraped_path('wikipedia_highspeed_lines.csv')
-    result = {}
-    if not path:
-        return result
-    _PAYS_HS = {'FR': 'France', 'BE': 'Belgium', 'DE': 'Germany', 'AT': 'Austria'}
-    with open(path, encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            country = row.get('Country or region', '').strip()
-            for pays_code, nom in _PAYS_HS.items():
-                if country == nom:
-                    try:
-                        km = float(str(row['Operationallength (km)']).replace(',', '').strip())
-                        result[pays_code] = round(km)
-                    except Exception:
-                        pass
-    return result
 
 router = APIRouter()
 
@@ -174,61 +111,6 @@ def get_par_operateur(db: Session = Depends(get_db)):
             nb_nuit=total - nb_jour,
         ))
     return sorted(result, key=lambda x: x.total_dessertes, reverse=True)
-
-
-@router.get("/contexte-pays")
-def get_contexte_pays(db: Session = Depends(get_db)):
-    """Croise nos données GTFS avec les stats Wikipedia (réseau total, grande vitesse, électrification)."""
-    wiki_net = _load_wiki_networks()
-    wiki_hs  = _load_wiki_highspeed()
-
-    # Nos stats par pays depuis la BDD
-    gares_stats = {
-        r.pays_code: r.total_gares
-        for r in db.query(Gare.pays_code, func.count(Gare.id).label('total_gares'))
-                    .group_by(Gare.pays_code).all()
-    }
-    dest_stats = {
-        r.pays_code: {'total': r.total, 'distance_km': r.distance_km or 0}
-        for r in db.query(
-            Gare.pays_code,
-            func.count(Desserte.id).label('total'),
-            func.sum(Desserte.distance_km).label('distance_km'),
-        ).join(Desserte, Gare.id == Desserte.gare_depart_id)
-         .group_by(Gare.pays_code).all()
-    }
-
-    result = []
-    for pays_code in ['FR', 'BE', 'DE', 'AT']:
-        wiki = wiki_net.get(pays_code, {})
-        reseau_km = wiki.get('reseau_total_km')
-        electrifie_km = wiki.get('electrifie_km')
-        hs_km = wiki_hs.get(pays_code)
-        nos_dessertes = dest_stats.get(pays_code, {})
-        notre_distance = nos_dessertes.get('distance_km', 0) or 0
-
-        taux_couverture = None
-        if reseau_km and notre_distance:
-            taux_couverture = round(notre_distance / reseau_km * 100, 1)
-
-        taux_electrification = None
-        if reseau_km and electrifie_km:
-            taux_electrification = round(electrifie_km / reseau_km * 100, 1)
-
-        result.append({
-            'pays_code': pays_code,
-            'nos_gares': gares_stats.get(pays_code, 0),
-            'nos_dessertes': nos_dessertes.get('total', 0),
-            'notre_distance_km': int(notre_distance),
-            'reseau_total_km': reseau_km,
-            'electrifie_km': electrifie_km,
-            'taux_electrification_pct': taux_electrification,
-            'grande_vitesse_km': hs_km,
-            'taux_couverture_pct': taux_couverture,
-            'source_wiki': 'Wikipedia - Rail network size (scraped)',
-        })
-
-    return result
 
 
 @router.get("/qualite-donnees")

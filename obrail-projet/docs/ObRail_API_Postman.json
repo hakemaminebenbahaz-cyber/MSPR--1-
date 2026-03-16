@@ -1,0 +1,474 @@
+{
+  "info": {
+    "name": "ObRail Europe — API REST",
+    "description": "Collection de tests pour l'API REST ObRail Europe.\nBase URL : http://localhost:8001\nDocumentation Swagger : http://localhost:8001/docs\n\nProjet MSPR — EPSI — Bloc E6.1 — RNCP 36581",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8001",
+      "type": "string"
+    }
+  ],
+  "item": [
+
+    {
+      "name": "00 — Health Check",
+      "item": [
+        {
+          "name": "GET /health — Etat de l'API",
+          "request": {
+            "method": "GET",
+            "url": "{{base_url}}/health",
+            "description": "Verifie que l'API est operationnelle et que la connexion a la base de donnees PostgreSQL Azure est active."
+          },
+          "response": [
+            {
+              "name": "200 OK — API et BDD operationnels",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"status\": \"ok\",\n  \"database\": \"connected\",\n  \"version\": \"1.0.0\"\n}"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "01 — Gares",
+      "item": [
+        {
+          "name": "GET /api/v1/gares — Liste toutes les gares",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/gares?skip=0&limit=10",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "gares"],
+              "query": [
+                { "key": "skip",  "value": "0",  "description": "Nombre d'elements a ignorer (pagination)" },
+                { "key": "limit", "value": "10", "description": "Nombre max de resultats" }
+              ]
+            },
+            "description": "Retourne la liste paginee de toutes les gares. Sans filtre : 4 957 gares dans 10 pays europeens."
+          },
+          "response": [
+            {
+              "name": "200 OK — Liste gares",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"total\": 4957,\n  \"gares\": [\n    {\n      \"id\": 1,\n      \"nom\": \"Paris Gare de Lyon\",\n      \"pays_code\": \"FR\",\n      \"latitude\": 48.844900,\n      \"longitude\": 2.373500\n    },\n    {\n      \"id\": 2,\n      \"nom\": \"Lyon Part-Dieu\",\n      \"pays_code\": \"FR\",\n      \"latitude\": 45.760600,\n      \"longitude\": 4.859200\n    }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/gares?pays_code=FR — Gares France",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/gares?pays_code=FR&limit=20",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "gares"],
+              "query": [
+                { "key": "pays_code", "value": "FR", "description": "Code pays ISO 3166-1 alpha-2" },
+                { "key": "limit",     "value": "20" }
+              ]
+            },
+            "description": "Filtre les gares par pays. Codes disponibles : FR, DE, BE, AT, CH, NL, PL, etc."
+          },
+          "response": [
+            {
+              "name": "200 OK — Gares francaises",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"total\": 1243,\n  \"gares\": [\n    {\n      \"id\": 1,\n      \"nom\": \"Paris Gare de Lyon\",\n      \"pays_code\": \"FR\",\n      \"latitude\": 48.844900,\n      \"longitude\": 2.373500\n    }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/gares?pays_code=DE — Gares Allemagne",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/gares?pays_code=DE&limit=10",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "gares"],
+              "query": [
+                { "key": "pays_code", "value": "DE" },
+                { "key": "limit",     "value": "10" }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET /api/v1/gares/{id} — Detail d'une gare",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/gares/1",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "gares", "1"]
+            },
+            "description": "Retourne le detail complet d'une gare par son identifiant."
+          },
+          "response": [
+            {
+              "name": "200 OK — Detail gare",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"id\": 1,\n  \"nom\": \"Paris Gare de Lyon\",\n  \"pays_code\": \"FR\",\n  \"latitude\": 48.844900,\n  \"longitude\": 2.373500\n}"
+            },
+            {
+              "name": "404 Not Found — Gare inexistante",
+              "status": "Not Found",
+              "code": 404,
+              "body": "{\n  \"detail\": \"Gare avec l'id 99999 introuvable\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/gares/99999 — Gare inexistante (404)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/gares/99999",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "gares", "99999"]
+            },
+            "description": "Test de gestion d'erreur : ID inexistant. Doit retourner HTTP 404."
+          },
+          "response": []
+        }
+      ]
+    },
+
+    {
+      "name": "02 — Operateurs",
+      "item": [
+        {
+          "name": "GET /api/v1/operateurs — Liste tous les operateurs",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/operateurs",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "operateurs"]
+            },
+            "description": "Retourne les 18 operateurs ferroviaires charges depuis les sources GTFS."
+          },
+          "response": [
+            {
+              "name": "200 OK — Liste operateurs",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"total\": 18,\n  \"operateurs\": [\n    { \"id\": 1, \"nom\": \"SNCF\",          \"pays_code\": \"FR\" },\n    { \"id\": 2, \"nom\": \"Deutsche Bahn\", \"pays_code\": \"DE\" },\n    { \"id\": 3, \"nom\": \"SNCB\",          \"pays_code\": \"BE\" },\n    { \"id\": 4, \"nom\": \"OBB\",           \"pays_code\": \"AT\" }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/operateurs?pays_code=FR — Operateurs France",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/operateurs?pays_code=FR",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "operateurs"],
+              "query": [
+                { "key": "pays_code", "value": "FR" }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET /api/v1/operateurs/{id} — Detail operateur",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/operateurs/1",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "operateurs", "1"]
+            }
+          },
+          "response": [
+            {
+              "name": "200 OK",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"id\": 1,\n  \"nom\": \"SNCF\",\n  \"pays_code\": \"FR\"\n}"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "03 — Dessertes",
+      "item": [
+        {
+          "name": "GET /api/v1/dessertes — Liste toutes les dessertes",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/dessertes?skip=0&limit=10",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "dessertes"],
+              "query": [
+                { "key": "skip",  "value": "0" },
+                { "key": "limit", "value": "10" }
+              ]
+            },
+            "description": "Liste paginee des 2 044 dessertes (trains de jour + trains de nuit)."
+          },
+          "response": [
+            {
+              "name": "200 OK — Liste dessertes",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"total\": 2044,\n  \"dessertes\": [\n    {\n      \"id\": \"FR_12345_0\",\n      \"nom_ligne\": \"Paris Est - Strasbourg\",\n      \"type_ligne\": \"TER\",\n      \"type_service\": \"Jour\",\n      \"operateur\": \"SNCF\",\n      \"gare_depart\": \"Paris Est\",\n      \"gare_arrivee\": \"Strasbourg\",\n      \"heure_depart\": \"07:00\",\n      \"heure_arrivee\": \"09:10\",\n      \"distance_km\": 490,\n      \"duree_h\": 2.17,\n      \"emissions_co2_gkm\": 14.0,\n      \"frequence_hebdo\": 7,\n      \"traction\": \"electrique\",\n      \"source_donnee\": \"sncf_ter\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/dessertes?type_service=Nuit — Trains de nuit",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/dessertes?type_service=Nuit&limit=20",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "dessertes"],
+              "query": [
+                { "key": "type_service", "value": "Nuit", "description": "Valeurs : Jour ou Nuit" },
+                { "key": "limit",        "value": "20" }
+              ]
+            },
+            "description": "Filtre uniquement les trains de nuit (heure depart entre 21h et 06h). Resultat attendu : 140 dessertes."
+          },
+          "response": [
+            {
+              "name": "200 OK — 140 trains de nuit",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"total\": 140,\n  \"dessertes\": [\n    {\n      \"id\": \"IC_67890_1\",\n      \"nom_ligne\": \"Paris Austerlitz - Toulouse\",\n      \"type_service\": \"Nuit\",\n      \"operateur\": \"SNCF\",\n      \"gare_depart\": \"Paris Austerlitz\",\n      \"gare_arrivee\": \"Toulouse Matabiau\",\n      \"heure_depart\": \"21:30\",\n      \"heure_arrivee\": \"07:05\",\n      \"distance_km\": 680,\n      \"duree_h\": 9.58,\n      \"emissions_co2_gkm\": 14.0\n    }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/dessertes?type_service=Jour — Trains de jour",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/dessertes?type_service=Jour&limit=10",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "dessertes"],
+              "query": [
+                { "key": "type_service", "value": "Jour" },
+                { "key": "limit",        "value": "10" }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET /api/v1/dessertes/{id} — Detail desserte",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/dessertes/FR_12345_0",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "dessertes", "FR_12345_0"]
+            },
+            "description": "Detail complet d'une desserte par son identifiant unique. Format ID : PREFIX_routeID_direction."
+          },
+          "response": []
+        },
+        {
+          "name": "GET /api/v1/dessertes/search?depart=Paris — Recherche par ville",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/dessertes/search?depart=Paris",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "dessertes", "search"],
+              "query": [
+                { "key": "depart",     "value": "Paris",      "description": "Ville de depart (recherche partielle)" },
+                { "key": "arrivee",    "value": "",           "description": "Ville d'arrivee (optionnel)" },
+                { "key": "type_train", "value": "",           "description": "Jour ou Nuit (optionnel)" }
+              ]
+            },
+            "description": "Recherche multicritere : ville de depart, ville d'arrivee, type de train. Criteres optionnels, cumulables."
+          },
+          "response": [
+            {
+              "name": "200 OK — Dessertes au depart de Paris",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"results\": [\n    {\n      \"id\": \"FR_12345_0\",\n      \"nom_ligne\": \"Paris Est - Strasbourg\",\n      \"type_service\": \"Jour\",\n      \"gare_depart\": \"Paris Est\",\n      \"gare_arrivee\": \"Strasbourg\",\n      \"heure_depart\": \"07:00\",\n      \"heure_arrivee\": \"09:10\"\n    }\n  ],\n  \"total\": 87\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/dessertes/search?depart=Paris&arrivee=Berlin&type_train=Nuit",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/dessertes/search?depart=Paris&arrivee=Berlin&type_train=Nuit",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "dessertes", "search"],
+              "query": [
+                { "key": "depart",     "value": "Paris" },
+                { "key": "arrivee",    "value": "Berlin" },
+                { "key": "type_train", "value": "Nuit" }
+              ]
+            },
+            "description": "Recherche combinee : Paris -> Berlin, uniquement les trains de nuit."
+          },
+          "response": [
+            {
+              "name": "200 OK — Paris → Berlin nuit",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"results\": [\n    {\n      \"id\": \"IC_Berlin_1\",\n      \"nom_ligne\": \"Paris Est - Berlin Hbf\",\n      \"type_service\": \"Nuit\",\n      \"operateur\": \"SNCF\",\n      \"gare_depart\": \"Paris Est\",\n      \"gare_arrivee\": \"Berlin Hbf\",\n      \"heure_depart\": \"20:00\",\n      \"heure_arrivee\": \"08:30\",\n      \"duree_h\": 12.5,\n      \"distance_km\": 1050,\n      \"emissions_co2_gkm\": 14.0\n    }\n  ],\n  \"total\": 1\n}"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "04 — Comparisons",
+      "item": [
+        {
+          "name": "GET /api/v1/comparisons/jour-nuit — Stats Jour vs Nuit",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/comparisons/jour-nuit",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "comparisons", "jour-nuit"]
+            },
+            "description": "Statistiques comparatives entre trains de jour et trains de nuit : volume, emissions CO2, distance moyenne, duree moyenne."
+          },
+          "response": [
+            {
+              "name": "200 OK — Comparaison Jour / Nuit",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"total_dessertes\": 2044,\n  \"trains_jour\": {\n    \"count\": 1904,\n    \"pourcentage\": 93.15,\n    \"co2_moyen_gkm\": 22.4,\n    \"distance_moyenne_km\": 180,\n    \"duree_moyenne_h\": 2.1\n  },\n  \"trains_nuit\": {\n    \"count\": 140,\n    \"pourcentage\": 6.85,\n    \"co2_moyen_gkm\": 14.0,\n    \"distance_moyenne_km\": 890,\n    \"duree_moyenne_h\": 10.5\n  },\n  \"avantage_co2_nuit_pct\": 37.5\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/comparisons/co2 — CO2 par pays",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/comparisons/co2",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "comparisons", "co2"]
+            },
+            "description": "Emissions CO2 moyennes par pays et par type de service. Basees sur le mix electrique national."
+          },
+          "response": [
+            {
+              "name": "200 OK — CO2 par pays",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"co2_par_pays\": [\n    { \"pays\": \"FR\", \"co2_moyen_gkm\": 14.0, \"nb_dessertes\": 947 },\n    { \"pays\": \"DE\", \"co2_moyen_gkm\": 32.0, \"nb_dessertes\": 90  },\n    { \"pays\": \"BE\", \"co2_moyen_gkm\": 18.0, \"nb_dessertes\": 1011 },\n    { \"pays\": \"AT\", \"co2_moyen_gkm\": 12.0, \"nb_dessertes\": 0   }\n  ]\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/comparisons/inter-pays — Liaisons internationales",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/comparisons/inter-pays",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "comparisons", "inter-pays"]
+            },
+            "description": "Liaisons dont la gare de depart et la gare d'arrivee sont dans des pays differents. Identifie les connexions ferroviaires transfrontalieres."
+          },
+          "response": [
+            {
+              "name": "200 OK — 16 liaisons inter-pays",
+              "status": "OK",
+              "code": 200,
+              "body": "{\n  \"total\": 16,\n  \"liaisons\": [\n    { \"pays_depart\": \"FR\", \"pays_arrivee\": \"DE\", \"nb_dessertes\": 4, \"type_service\": \"Nuit\" },\n    { \"pays_depart\": \"DE\", \"pays_arrivee\": \"AT\", \"nb_dessertes\": 3, \"type_service\": \"Nuit\" },\n    { \"pays_depart\": \"BE\", \"pays_arrivee\": \"FR\", \"nb_dessertes\": 6, \"type_service\": \"Jour\" },\n    { \"pays_depart\": \"NL\", \"pays_arrivee\": \"DE\", \"nb_dessertes\": 2, \"type_service\": \"Jour\" }\n  ]\n}"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "05 — Tests erreurs (robustesse)",
+      "item": [
+        {
+          "name": "GET /api/v1/gares/99999 — 404 gare inexistante",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/gares/99999",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "gares", "99999"]
+            },
+            "description": "Test de robustesse : l'API doit retourner une erreur 404 claire pour un ID inexistant."
+          },
+          "response": [
+            {
+              "name": "404 Not Found",
+              "status": "Not Found",
+              "code": 404,
+              "body": "{\n  \"detail\": \"Gare avec l'id 99999 introuvable\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/operateurs/99999 — 404 operateur inexistant",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/operateurs/99999",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "operateurs", "99999"]
+            }
+          },
+          "response": [
+            {
+              "name": "404 Not Found",
+              "status": "Not Found",
+              "code": 404,
+              "body": "{\n  \"detail\": \"Operateur avec l'id 99999 introuvable\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "GET /api/v1/dessertes?type_service=INVALIDE — 422 parametre invalide",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/dessertes?type_service=INVALIDE",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "dessertes"],
+              "query": [
+                { "key": "type_service", "value": "INVALIDE" }
+              ]
+            },
+            "description": "Test de validation Pydantic : le parametre type_service n'accepte que 'Jour' ou 'Nuit'."
+          },
+          "response": [
+            {
+              "name": "422 Unprocessable Entity",
+              "status": "Unprocessable Entity",
+              "code": 422,
+              "body": "{\n  \"detail\": [\n    {\n      \"loc\": [\"query\", \"type_service\"],\n      \"msg\": \"value is not a valid enumeration member\",\n      \"type\": \"type_error.enum\"\n    }\n  ]\n}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

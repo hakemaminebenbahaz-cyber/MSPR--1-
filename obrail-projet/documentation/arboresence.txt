@@ -1,0 +1,83 @@
+project-obrail-etl/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── docker-compose.yml
+│
+├── data/
+│   ├── raw/                 # Données brutes (CSV, GTFS, API téléchargées)
+│   ├── processed/           # Données nettoyées / harmonisées
+│   └── final/               # Données prêtes à charger
+│
+├── etl/
+│   ├── __init__.py
+│   ├── extract/
+│   │   ├── extract_gtfs.py
+│   │   ├── extract_opendata.py
+│   │   └── extract_scraping.py
+│   │
+│   ├── transform/
+│   │   ├── clean_gares.py
+│   │   ├── clean_lignes.py
+│   │   ├── normalize_horaires.py
+│   │   └── detect_doublons.py
+│   │
+│   ├── load/
+│   │   ├── create_tables.sql
+│   │   ├── load_data.py
+│   │   └── db_connection.py
+│   │
+│   ├── utils/
+│       ├── logging_config.py
+│       ├── helpers.py
+│       └── config.py
+│
+├── database/
+│   ├── mcd.png                 # Modèle conceptuel
+│   ├── mpd.png                 # Modèle physique (diagramme des tables)
+│   ├── schema.sql              # Script SQL pour créer la BD
+│   └── seeds.sql               # Échantillons de données pour test
+│
+├── api/
+│   ├── main.py                 # App FastAPI principale
+│   ├── routers/
+│   │   ├── gares.py
+│   │   ├── lignes.py
+│   │   ├── trajets.py
+│   │   ├── horaires.py
+│   │   └── comparisons.py
+│   ├── models/
+│   │   ├── gare_model.py
+│   │   ├── ligne_model.py
+│   │   ├── trajet_model.py
+│   │   └── horaire_model.py
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── database.py
+│   │   └── security.py
+│   └── tests/
+│       └── test_endpoints.py
+│
+├── dashboard/
+│   ├── app.py                  # Dashboard Streamlit
+│   ├── charts/
+│   │   ├── chart_repartition.py
+│   │   ├── chart_qualite.py
+│   │   └── chart_operateurs.py
+│   └── utils.py
+│
+├── docs/
+│   ├── rapport_technique.md
+│   ├── api_documentation.md
+│   ├── etl_description.md
+│   ├── modele_donnees.md
+│   ├── sources_donnees.md
+│   └── screenshots/
+│       ├── dashboard.png
+│       ├── api_swagger.png
+│       └── schema_bd.png
+│
+└── presentation/
+    ├── slides.pptx
+    └── plan_soutenance.md
