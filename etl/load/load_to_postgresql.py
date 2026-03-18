@@ -10,12 +10,14 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", "..", ".env"))
 load_dotenv()  # fallback dossier courant
 
-DATABASE_URL = os.getenv("DATABASE_URL")
-if not DATABASE_URL:
-    raise ValueError("DATABASE_URL manquante — définir dans .env ou comme variable d'environnement")
-
-engine = sqlalchemy.create_engine(DATABASE_URL)
 TRANSFORMED_DIR = "data/transformed"
+
+
+def _get_engine():
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    if not DATABASE_URL:
+        raise ValueError("DATABASE_URL manquante — définir dans .env ou comme variable d'environnement")
+    return sqlalchemy.create_engine(DATABASE_URL)
 
 
 # ═══════════════════════════════════════════════════════════
@@ -24,7 +26,7 @@ TRANSFORMED_DIR = "data/transformed"
 
 def test_connection():
     try:
-        with engine.connect() as conn:
+        with _get_engine().connect() as conn:
             conn.execute(text("SELECT 1"))
         print("✅ Connexion PostgreSQL OK")
         return True
@@ -48,6 +50,7 @@ def load_operateurs():
     # Colonnes pour la BDD (sans les colonnes internes _*)
     insert = df[["nom", "pays_code"]].drop_duplicates(subset=["nom"])
 
+    engine = _get_engine()
     with engine.begin() as conn:
         conn.execute(text("TRUNCATE TABLE operateurs RESTART IDENTITY CASCADE"))
         insert.to_sql("operateurs", conn, if_exists="append", index=False)
@@ -75,6 +78,7 @@ def load_gares():
     insert = df[["nom", "pays_code", "latitude", "longitude"]].drop_duplicates(subset=["nom"])
     insert = insert.dropna(subset=["nom"])  # ← LIGNE AJOUTÉE 
 
+    engine = _get_engine()
     with engine.begin() as conn:
         conn.execute(text("TRUNCATE TABLE gares RESTART IDENTITY CASCADE"))
         insert.to_sql("gares", conn, if_exists="append", index=False)
@@ -121,6 +125,7 @@ def load_dessertes(db_operateurs, db_gares):
     missing_ops = df[df["operateur_id"].isna() & df["operateur_nom"].notna()][["operateur_nom", "source_donnee"]].drop_duplicates(subset=["operateur_nom"])
     if len(missing_ops) > 0:
         print(f"  ⚠️  {len(missing_ops)} opérateurs manquants — insertion automatique")
+        engine = _get_engine()
         with engine.begin() as conn:
             for _, row in missing_ops.iterrows():
                 pays = SOURCE_PAYS.get(str(row.get("source_donnee", "")), "?")
@@ -156,6 +161,7 @@ def load_dessertes(db_operateurs, db_gares):
         "traction", "source_donnee",
     ]].drop_duplicates(subset=["id"])
 
+    engine = _get_engine()
     with engine.begin() as conn:
         conn.execute(text("TRUNCATE TABLE dessertes"))
         insert.to_sql("dessertes", conn, if_exists="append", index=False)
