@@ -6,11 +6,13 @@ import sqlalchemy
 from sqlalchemy import text
 from dotenv import load_dotenv
 
-load_dotenv()
+# Cherche .env dans le dossier courant ET dans les dossiers parents
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", "..", ".env"))
+load_dotenv()  # fallback dossier courant
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
-    raise ValueError("DATABASE_URL manquante dans le fichier .env")
+    raise ValueError("DATABASE_URL manquante — définir dans .env ou comme variable d'environnement")
 
 engine = sqlalchemy.create_engine(DATABASE_URL)
 TRANSFORMED_DIR = "data/transformed"
