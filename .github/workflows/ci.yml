@@ -5,9 +5,6 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  workflow_dispatch:  # Déclenchement manuel depuis GitHub
-  schedule:
-    - cron: '0 6 * * *'  # ETL automatique tous les jours à 6h UTC
 
 jobs:
   # ═══════════════════════════════════════════════════════════
@@ -65,34 +62,15 @@ jobs:
         run: npm run build
 
   # ═══════════════════════════════════════════════════════════
-  # 3. ETL AUTOMATIQUE (quotidien ou déclenchement manuel)
+  # 3. DOCKER BUILD — vérifie que les images se construisent
   # ═══════════════════════════════════════════════════════════
-  etl-pipeline:
-    name: Pipeline ETL (Extract → Transform → Load)
+  docker-build:
+    name: Docker Compose Build
     runs-on: ubuntu-latest
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-
-    env:
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
     steps:
       - name: Checkout du code
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-
-      - name: Installation dépendances ETL
-        run: pip install -r etl/requirements.txt
-
-      - name: Extract — Téléchargement GTFS
-        run: python etl/extract/extract_gtfs.py
-
-      - name: Transform — Normalisation des données
-        run: python etl/transform/transform_gtfs.py
-
-      - name: Load — Chargement vers PostgreSQL
-        run: python etl/load/load_to_postgresql.py
+      - name: Vérification du build Docker Compose
+        run: docker compose build
