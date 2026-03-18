@@ -1,0 +1,97 @@
+name: ObRail CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * *'  # ETL automatique tous les jours à 6h UTC
+
+jobs:
+  # ═══════════════════════════════════════════════════════════
+  # 1. TESTS API
+  # ═══════════════════════════════════════════════════════════
+  test-api:
+    name: Tests API (pytest)
+    runs-on: ubuntu-latest
+
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      SECRET_KEY: ${{ secrets.SECRET_KEY }}
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installation dépendances API
+        run: pip install -r api/requirements.txt pytest httpx python-dotenv
+
+      - name: Lancement des tests API
+        working-directory: api
+        run: pytest tests_endpoint/test_endpoint.py -v --tb=short
+
+  # ═══════════════════════════════════════════════════════════
+  # 2. BUILD DASHBOARD
+  # ═══════════════════════════════════════════════════════════
+  build-dashboard:
+    name: Build Dashboard (React/TypeScript)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: dashboard/package.json
+
+      - name: Installation dépendances
+        working-directory: dashboard
+        run: npm install
+
+      - name: Build production
+        working-directory: dashboard
+        run: npm run build
+
+  # ═══════════════════════════════════════════════════════════
+  # 3. ETL AUTOMATIQUE (quotidien ou déclenchement manuel)
+  # ═══════════════════════════════════════════════════════════
+  etl-pipeline:
+    name: Pipeline ETL (Extract → Transform → Load)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installation dépendances ETL
+        run: pip install -r etl/requirements.txt
+
+      - name: Extract — Téléchargement GTFS
+        run: python etl/extract/extract_gtfs.py
+
+      - name: Transform — Normalisation des données
+        run: python etl/transform/transform_gtfs.py
+
+      - name: Load — Chargement vers PostgreSQL
+        run: python etl/load/load_to_postgresql.py

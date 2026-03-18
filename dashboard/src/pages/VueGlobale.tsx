@@ -186,9 +186,17 @@ export default function VueGlobale() {
             <PieChart>
               <Pie data={typeLigne} dataKey="total" nameKey="type_ligne"
                 cx="50%" cy="50%" innerRadius={50} outerRadius={85} paddingAngle={4}>
-                {typeLigne.map((_, i) => (
-                  <Cell key={i} fill={VIBRANT[i % VIBRANT.length]} stroke="white" strokeWidth={2} />
-                ))}
+                {typeLigne.map((entry) => {
+                  const TYPE_COLORS: Record<string, string> = {
+                    'Grande vitesse': '#f59e0b',
+                    'Intercité': '#6366f1',
+                    'Train régional': '#0ea5e9',
+                    'Train régional express': '#22c55e',
+                    'Train de nuit': '#8b5cf6',
+                    'Train de nuit interne': '#8b5cf6',
+                  }
+                  return <Cell key={entry.type_ligne} fill={TYPE_COLORS[entry.type_ligne] ?? '#94a3b8'} stroke="white" strokeWidth={2} />
+                })}
               </Pie>
               <Tooltip contentStyle={TT} formatter={(v: number) => [v, 'dessertes']} />
               <Legend formatter={legendFmt} iconSize={9} />

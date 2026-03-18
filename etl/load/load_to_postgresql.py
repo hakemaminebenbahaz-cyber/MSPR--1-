@@ -106,8 +106,31 @@ def load_dessertes(db_operateurs, db_gares):
     df.loc[mask, "id"] = ["NT_" + str(i) for i in range(mask.sum())]
 
     # Résoudre FK operateur_id depuis le nom
-    op_map  = dict(zip(db_operateurs["nom"], db_operateurs["id"]))
+    op_map = dict(zip(db_operateurs["nom"], db_operateurs["id"]))
     df["operateur_id"] = df["operateur_nom"].map(op_map)
+
+    # Insérer les opérateurs manquants
+    SOURCE_PAYS = {
+        "sncf_ter": "FR", "sncf_intercites": "FR", "db_germany": "DE",
+        "db_germany_regional": "DE", "sncb_belgium": "BE", "obb_austria": "AT",
+        "trenitalia_italy": "IT", "renfe_spain": "ES", "ns_netherlands": "NL",
+        "pkp_poland": "PL", "dsb_denmark": "DK", "sbb_switzerland": "CH",
+    }
+    missing_ops = df[df["operateur_id"].isna() & df["operateur_nom"].notna()][["operateur_nom", "source_donnee"]].drop_duplicates(subset=["operateur_nom"])
+    if len(missing_ops) > 0:
+        print(f"  ⚠️  {len(missing_ops)} opérateurs manquants — insertion automatique")
+        with engine.begin() as conn:
+            for _, row in missing_ops.iterrows():
+                pays = SOURCE_PAYS.get(str(row.get("source_donnee", "")), "?")
+                exists = conn.execute(text("SELECT id FROM operateurs WHERE nom = :nom"), {"nom": row["operateur_nom"]}).fetchone()
+                if exists:
+                    op_map[row["operateur_nom"]] = exists[0]
+                else:
+                    result = conn.execute(text("INSERT INTO operateurs (nom, pays_code) VALUES (:nom, :pays) RETURNING id"), {"nom": row["operateur_nom"], "pays": pays})
+                    r = result.fetchone()
+                    if r:
+                        op_map[row["operateur_nom"]] = r[0]
+        df["operateur_id"] = df["operateur_nom"].map(op_map)
 
     # Résoudre FK gare_depart_id et gare_arrivee_id depuis le nom
     gare_map = dict(zip(db_gares["nom"], db_gares["id"]))

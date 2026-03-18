@@ -9,14 +9,31 @@ RAW_DIR = "data/raw"
 OUT_DIR = "data/transformed"
 os.makedirs(OUT_DIR, exist_ok=True)
 
+PAYS_EUROPEENS = {
+    'AD', 'AL', 'AT', 'BA', 'BE', 'BG', 'BY', 'CH', 'CY', 'CZ', 'DE', 'DK',
+    'EE', 'ES', 'FI', 'FR', 'GB', 'GR', 'HR', 'HU', 'IE', 'IS', 'IT', 'LI',
+    'LT', 'LU', 'LV', 'MC', 'MD', 'ME', 'MK', 'MT', 'NL', 'NO', 'PL', 'PT',
+    'RO', 'RS', 'RU', 'SE', 'SI', 'SK', 'SM', 'TR', 'UA', 'VA', 'XK',
+}
+
+RAIL_TYPES = {2, 100, 101, 102, 103, 104, 105, 106, 107}
+
 # Sources GTFS disponibles avec leur pays
 # co2 en g/km basé sur le mix électrique national (source : EEA 2023)
 GTFS_SOURCES = {
     "sncf_ter":        {"pays": "FR", "operateur_defaut": "SNCF",              "traction": "électrique", "co2": 14.0},
     "sncf_intercites": {"pays": "FR", "operateur_defaut": "SNCF VOYAGEURS",   "traction": "électrique", "co2": 14.0},
-    "db_germany":      {"pays": "DE", "operateur_defaut": "Deutsche Bahn",    "traction": "électrique", "co2": 32.0},
-    "sncb_belgium":{"pays": "BE", "operateur_defaut": "SNCB",           "traction": "électrique", "co2": 18.0},
-    "obb_austria": {"pays": "AT", "operateur_defaut": "OBB",            "traction": "électrique", "co2": 12.0},
+    "db_germany":          {"pays": "DE", "operateur_defaut": "Deutsche Bahn", "traction": "électrique", "co2": 32.0},
+    "db_germany_regional": {"pays": "DE", "operateur_defaut": "Deutsche Bahn", "traction": "électrique", "co2": 32.0},
+    "sncb_belgium":    {"pays": "BE", "operateur_defaut": "SNCB",             "traction": "électrique", "co2": 18.0},
+    "obb_austria":     {"pays": "AT", "operateur_defaut": "OBB",              "traction": "électrique", "co2": 12.0},
+    "trenitalia_italy":{"pays": "IT", "operateur_defaut": "Trenitalia",       "traction": "électrique", "co2": 22.0},
+    "renfe_spain":     {"pays": "ES", "operateur_defaut": "Renfe",            "traction": "électrique", "co2": 14.0},
+    "ns_netherlands":  {"pays": "NL", "operateur_defaut": "NS",               "traction": "électrique", "co2": 11.0, "rail_only": True},
+    "pkp_poland":      {"pays": "PL", "operateur_defaut": "PKP Intercity",    "traction": "mixte",      "co2": 35.0},
+    # "sncf_transilien": supprimé — transport urbain Île-de-France non pertinent
+    "dsb_denmark":     {"pays": "DK", "operateur_defaut": "DSB",              "traction": "mixte",      "co2": 20.0, "rail_only": True},
+    "sbb_switzerland": {"pays": "CH", "operateur_defaut": "SBB",              "traction": "électrique", "co2": 6.0,  "rail_only": True},
 }
 
 
@@ -56,7 +73,7 @@ def transform_operateurs():
     df_all["agency_id"] = df_all["agency_id"].apply(_simplify_agency_id)
 
     # Dédupliquer par nom d'opérateur — priorité aux sources natives (db_germany en dernier)
-    SOURCE_PRIO = {"sncf_ter": 1, "sncf_intercites": 1, "sncb_belgium": 1, "obb_austria": 1, "db_germany": 2}
+    SOURCE_PRIO = {"sncf_ter": 1, "sncf_intercites": 1, "sncb_belgium": 1, "obb_austria": 1, "trenitalia_italy": 1, "renfe_spain": 1, "db_germany": 2, "db_germany_regional": 2, "ns_netherlands": 1, "pkp_poland": 1, "dsb_denmark": 1, "sbb_switzerland": 1}
     df_all["_prio"] = df_all["_source"].map(lambda s: SOURCE_PRIO.get(s, 1))
     df_all = df_all.sort_values("_prio").drop_duplicates(subset=["agency_name"]).reset_index(drop=True)
     df_all = df_all.drop(columns=["_prio"])
@@ -101,7 +118,28 @@ def transform_gares():
             print(f"  ⚠️  {source}/stops.txt introuvable")
             continue
 
+        # Pour les sources multimodales (NS, DSB) : ne garder que les arrêts ferroviaires
+        if meta.get("rail_only"):
+            routes = read_gtfs(source, "routes.txt")
+            trips  = read_gtfs(source, "trips.txt")
+            if routes is not None and trips is not None:
+                rail_routes = routes[routes["route_type"].isin(RAIL_TYPES)]["route_id"].astype(str)
+                rail_trips  = trips[trips["route_id"].astype(str).isin(rail_routes)]["trip_id"].astype(str)
+                st_path = f"{RAW_DIR}/{source}/stop_times.txt"
+                if os.path.exists(st_path):
+                    st_rail = pd.read_csv(st_path, usecols=["trip_id", "stop_id"],
+                                          dtype=str, low_memory=False)
+                    st_rail = st_rail[st_rail["trip_id"].isin(rail_trips)]
+                    rail_stop_ids = set(st_rail["stop_id"].str.strip().unique())
+                    # Inclure aussi les parent_station des stops rail
+                    if "parent_station" in df.columns:
+                        parents = df[df["stop_id"].astype(str).isin(rail_stop_ids)]["parent_station"].dropna().astype(str)
+                        rail_stop_ids |= set(parents.str.strip().unique())
+                    df = df[df["stop_id"].astype(str).isin(rail_stop_ids)].copy()
+
         # Garder les StopArea (location_type=1) si disponibles, sinon tous les arrêts
+        if "location_type" not in df.columns:
+            df["location_type"] = 0
         df_areas = df[df["location_type"] == 1].copy()
         if len(df_areas) == 0:
             # Source sans gares parentes (ex: SNCB) → utiliser tous les arrêts uniques
@@ -113,8 +151,14 @@ def transform_gares():
                                "parent_station", "location_type"], errors="ignore")
 
         df["stop_name"] = df["stop_name"].str.strip()
+        if df.empty:
+            continue
         # Géocodage inverse pour toutes les sources (précis, vraies frontières)
         df["pays_code"] = _detect_pays_batch(df)
+        # Garder uniquement les pays européens
+        df = df[df["pays_code"].isin(PAYS_EUROPEENS)].copy()
+        if df.empty:
+            continue
         df["_source"] = source
         all_stops.append(df)
 
@@ -177,7 +221,6 @@ def transform_dessertes(operateurs_df, gares_df):
             continue
 
         # Garder uniquement les trains (type 2 ancien GTFS, ou 100-107 nouveau format)
-        RAIL_TYPES = {2, 100, 101, 102, 103, 104, 105, 106, 107}
         routes = routes[routes["route_type"].isin(RAIL_TYPES)].copy()
         routes = routes.drop(columns=["route_desc", "route_url", "route_color",
                                        "route_text_color"], errors="ignore")
@@ -236,7 +279,7 @@ def transform_dessertes(operateurs_df, gares_df):
               .merge(routes[["route_id", "agency_id", "route_short_name", "route_long_name"]],
                      on="route_id"))
 
-        # Une desserte par (route, direction) — garder le trajet le plus long
+        # Nombre d'arrêts par trip
         trip_stop_count = st.groupby("trip_id")["stop_sequence"].count().reset_index()
         trip_stop_count.columns = ["trip_id", "stop_count"]
         trip_stop_count["trip_id"] = trip_stop_count["trip_id"].astype(str)
@@ -251,8 +294,18 @@ def transform_dessertes(operateurs_df, gares_df):
         else:
             df["max_freq_route"] = None
 
+        # Coordonnées de chaque stop pour calcul distance réelle
+        stops_coords = {}
+        for _, s in stops.iterrows():
+            sid = str(s["stop_id"]).strip()
+            try:
+                stops_coords[sid] = (float(s["stop_lat"]), float(s["stop_lon"]))
+            except Exception:
+                pass
+
+        # Déduplication par (stop_depart, stop_arrivee, heure_depart) — un passage par heure unique
         df = df.sort_values("stop_count", ascending=False)
-        df = df.drop_duplicates(subset=["route_id", "direction_id"]).reset_index(drop=True)
+        df = df.drop_duplicates(subset=["stop_depart", "stop_arrivee", "heure_depart"]).reset_index(drop=True)
 
         rows = []
         for _, r in df.iterrows():
@@ -267,9 +320,12 @@ def transform_dessertes(operateurs_df, gares_df):
             if not nom_dep or not nom_arr or nom_dep == nom_arr:
                 continue
 
-            coords_dep = area_to_coords.get(area_dep, (None, None))
-            coords_arr = area_to_coords.get(area_arr, (None, None))
-            distance   = _haversine(coords_dep[0], coords_dep[1], coords_arr[0], coords_arr[1])
+            # Distance réelle via arrêts intermédiaires (trigonométrie sphérique)
+            distance = _distance_route(r["trip_id"], st_sorted, stops_coords)
+            if not distance:
+                coords_dep = area_to_coords.get(area_dep, (None, None))
+                coords_arr = area_to_coords.get(area_arr, (None, None))
+                distance   = _haversine(coords_dep[0], coords_dep[1], coords_arr[0], coords_arr[1])
 
             nom_ligne = _nom_ligne(r)
             rows.append({
@@ -277,7 +333,7 @@ def transform_dessertes(operateurs_df, gares_df):
                 "operateur_nom":    _get_operateur(operateurs_df, r["agency_id"], fallback=meta["operateur_defaut"]),
                 "nom_ligne":        nom_ligne,
                 "type_ligne":       _type_ligne(nom_ligne),
-                "type_service":     _type_service(r["heure_depart"]),
+                "type_service":     _type_service(r["heure_depart"], r["heure_arrivee"]),
                 "gare_depart_nom":  nom_dep,
                 "gare_depart_id":   id_dep,
                 "gare_arrivee_nom": nom_arr,
@@ -308,6 +364,23 @@ def transform_dessertes(operateurs_df, gares_df):
         print(f"  ✅ {len(source_df)} dessertes [{source}] — Jour:{j} Nuit:{n}")
 
     dessertes = pd.concat(all_dessertes, ignore_index=True)
+
+    # Déduplication finale — arrondir heure à 5 min pour éviter les faux doublons
+    def _round5(t):
+        try:
+            h, m, s = str(t).split(":")
+            m5 = (int(m) // 5) * 5
+            return f"{h}:{m5:02d}"
+        except Exception:
+            return str(t)
+
+    dessertes["_heure_round"] = dessertes["heure_depart"].apply(_round5)
+    avant = len(dessertes)
+    dessertes = dessertes.drop_duplicates(
+        subset=["gare_depart_nom", "gare_arrivee_nom", "_heure_round"]
+    ).drop(columns=["_heure_round"]).reset_index(drop=True)
+    print(f"  Déduplication finale : {avant} → {len(dessertes)} dessertes")
+
     dessertes.to_csv(f"{OUT_DIR}/dessertes.csv", index=False)
 
     total_j = len(dessertes[dessertes["type_service"] == "Jour"])
@@ -428,6 +501,23 @@ def _haversine(lat1, lon1, lat2, lon2):
         return None
 
 
+def _distance_route(trip_id, st_sorted, stops_coords):
+    """Distance réelle d'un trajet en sommant le Haversine entre arrêts consécutifs."""
+    try:
+        stops_seq = st_sorted[st_sorted["trip_id"] == trip_id].sort_values("stop_sequence")["stop_id"].tolist()
+        total = 0.0
+        for i in range(len(stops_seq) - 1):
+            c1 = stops_coords.get(str(stops_seq[i]))
+            c2 = stops_coords.get(str(stops_seq[i + 1]))
+            if c1 and c2:
+                d = _haversine(c1[0], c1[1], c2[0], c2[1])
+                if d:
+                    total += d
+        return round(total, 1) if total > 0 else None
+    except Exception:
+        return None
+
+
 def _duree(dep, arr):
     try:
         def to_min(t):
@@ -441,22 +531,49 @@ def _duree(dep, arr):
         return None
 
 
-def _type_service(heure):
+def _type_service(heure_dep, heure_arr=None):
     try:
-        h = int(str(heure).split(":")[0])
-        return "Nuit" if h >= 22 or h < 4 else "Jour"
+        def to_min(t):
+            p = str(t).split(":")
+            return int(p[0]) * 60 + int(p[1])
+
+        dep = to_min(heure_dep)
+
+        # Cas 1 : départ à partir de 20h → train de nuit
+        if dep >= 20 * 60:
+            return "Nuit"
+
+        if heure_arr is None:
+            return "Jour"
+
+        arr = to_min(heure_arr)
+        # Si arrivée avant départ → train qui passe minuit → ajouter 24h
+        if arr <= dep:
+            arr += 24 * 60
+
+        # Cas 2 : plus de 4h passées après 20h
+        nuit_debut = 20 * 60
+        nuit_fin   = 32 * 60  # 8h du lendemain = 32h (large)
+
+        overlap_start = max(dep, nuit_debut)
+        overlap_end   = min(arr, nuit_fin)
+        heures_nuit   = max(0, overlap_end - overlap_start) / 60
+
+        return "Nuit" if heures_nuit >= 4 else "Jour"
     except Exception:
         return "Jour"
 
 
 def _type_ligne(nom):
     n = str(nom).lower()
-    if "tgv" in n or "grande vitesse" in n or "ice" in n:
+    if "tgv" in n or "grande vitesse" in n or "ice" in n or "thalys" in n or "eurostar" in n or "frecciarossa" in n or "ave" in n:
         return "Grande vitesse"
-    if "intercit" in n or "intercity" in n or "ic " in n:
+    if "intercit" in n or "intercity" in n or " ic " in n or n.startswith("ic ") or " ec " in n or "eurocity" in n:
         return "Intercité"
     if "nuit" in n or "night" in n or "nacht" in n or "nightjet" in n:
-        return "Train de nuit interne"
+        return "Train de nuit"
+    if " re " in n or n.startswith("re ") or " rb " in n or n.startswith("rb "):
+        return "Train régional express"
     return "Train régional"
 
 
@@ -472,18 +589,25 @@ def _nom_ligne(row):
 
 
 SOURCE_PREFIX = {
-    "sncf_ter":    "FR",
-    "db_germany":  "DE",
-    "sncb_belgium":"BE",
-    "obb_austria": "AT",
+    "sncf_ter":         "FR",
+    "sncf_intercites":  "FR",
+    "db_germany":       "DE",
+    "sncb_belgium":     "BE",
+    "obb_austria":      "AT",
+    "trenitalia_italy": "IT",
+    "renfe_spain":      "ES",
 }
 
 def _make_id(source, row):
-    prefix   = SOURCE_PREFIX.get(source, source[:2].upper())
-    route_id = str(row.get("route_id", "X"))
-    short    = re.sub(r"[^A-Za-z0-9]", "", route_id)[-8:]
-    d        = int(row.get("direction_id", 0))
-    return f"{prefix}_{short}_{d}"[:20]
+    import hashlib
+    prefix  = SOURCE_PREFIX.get(source, source[:2].upper())
+    trip_id = str(row.get("trip_id", "X"))
+    dep     = str(row.get("stop_depart", ""))
+    arr     = str(row.get("stop_arrivee", ""))
+    hdep    = str(row.get("heure_depart", ""))
+    raw     = f"{trip_id}_{dep}_{arr}_{hdep}"
+    h       = hashlib.md5(raw.encode()).hexdigest()[:10]
+    return f"{prefix}_{h}"
 
 
 # ═══════════════════════════════════════════════════════════

@@ -22,6 +22,11 @@ GTFS_SOURCES = {
         "description": "Deutsche Bahn — trains longue distance Allemagne",
         "pays":        "DE",
     },
+    "db_germany_regional": {
+        "url":         "https://download.gtfs.de/germany/rv_free/latest.zip",
+        "description": "Deutsche Bahn — trains régionaux Allemagne (RE, RB, S-Bahn)",
+        "pays":        "DE",
+    },
     "sncb_belgium": {
         "url":         "https://gtfs.irail.be/nmbs/gtfs/latest.zip",
         "description": "SNCB/NMBS — trains Belgique",
@@ -32,6 +37,41 @@ GTFS_SOURCES = {
         "description": "ÖBB — trains Autriche",
         "pays":        "AT",
     },
+    "trenitalia_italy": {
+        "url":         "https://dati.toscana.it/dataset/8bb8f8fe-fe7d-41d0-90dc-49f2456180d1/resource/4f85393b-357d-443d-8378-65de4198505f/download/trenitalia.gtfs",
+        "description": "Trenitalia — trains Italie (Toscane)",
+        "pays":        "IT",
+    },
+    "renfe_spain": {
+        "url":         "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip",
+        "description": "Renfe — trains grande vitesse et longue distance Espagne",
+        "pays":        "ES",
+    },
+    "ns_netherlands": {
+        "url":         "http://gtfs.ovapi.nl/gtfs-nl.zip",
+        "description": "NS — trains Pays-Bas (OVapi aggregator)",
+        "pays":        "NL",
+    },
+    "pkp_poland": {
+        "url":         "https://mkuran.pl/gtfs/polish_trains.zip",
+        "description": "PKP Intercity + PolRegio + Koleje Mazowieckie — trains Pologne",
+        "pays":        "PL",
+    },
+    # "sncf_transilien": {  # Supprimé — transport urbain Île-de-France non pertinent
+    #     "url":         "https://eu.ftp.opendatasoft.com/sncf/gtfs/transilien-gtfs.zip",
+    #     "description": "SNCF Transilien — trains banlieue Île-de-France",
+    #     "pays":        "FR",
+    # },
+    "dsb_denmark": {
+        "url":         "https://www.rejseplanen.info/labs/GTFS.zip",
+        "description": "DSB — trains Danemark (Rejseplanen)",
+        "pays":        "DK",
+    },
+    # "sbb_switzerland": {
+    #     "url":         "https://data.opentransportdata.swiss/en/dataset/timetable-2025-gtfs2020/permalink",
+    #     "description": "SBB — trains Suisse",
+    #     "pays":        "CH",
+    # },
 }
 
 GTFS_FILES_ATTENDUS = [
