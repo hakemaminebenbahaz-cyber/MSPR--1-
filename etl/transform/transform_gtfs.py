@@ -153,10 +153,17 @@ def transform_gares():
         df["stop_name"] = df["stop_name"].str.strip()
         if df.empty:
             continue
-        # Géocodage inverse pour toutes les sources (précis, vraies frontières)
-        df["pays_code"] = _detect_pays_batch(df)
-        # Garder uniquement les pays européens
-        df = df[df["pays_code"].isin(PAYS_EUROPEENS)].copy()
+        # Pays connu depuis la source → pas besoin de géocodage inverse
+        # Filtre géographique simple : garder uniquement les coordonnées européennes
+        df["stop_lat"] = pd.to_numeric(df["stop_lat"], errors="coerce")
+        df["stop_lon"] = pd.to_numeric(df["stop_lon"], errors="coerce")
+        df = df[
+            df["stop_lat"].between(34.0, 72.0) &
+            df["stop_lon"].between(-25.0, 45.0)
+        ].copy()
+        if df.empty:
+            continue
+        df["pays_code"] = meta["pays"]
         if df.empty:
             continue
         df["_source"] = source
