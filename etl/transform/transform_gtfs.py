@@ -171,7 +171,41 @@ def transform_gares():
 
     df_all = pd.concat(all_stops, ignore_index=True)
 
-    # Dédupliquer par (nom, pays_code) : garde Bruges-FR et Bruges-BE séparément
+    # Correction des pays mal assignés : gares hors bbox de leur pays source → reverse_geocoder
+    COUNTRY_BBOX = {
+        "FR": (42.0, 51.5, -5.0,  8.5),
+        "DE": (47.0, 55.5,  5.5, 15.5),
+        "BE": (49.4, 51.6,  2.4,  6.5),
+        "AT": (46.3, 49.1,  9.5, 17.2),
+        "IT": (35.5, 47.1,  6.6, 18.6),
+        "ES": (35.9, 43.8, -9.4,  3.4),
+        "NL": (50.7, 53.6,  3.3,  7.3),
+        "PL": (49.0, 54.9, 14.1, 24.2),
+        "DK": (54.5, 57.8,  8.0, 15.3),
+        "CH": (45.8, 47.8,  5.9, 10.5),
+    }
+
+    def _in_bbox(row):
+        bbox = COUNTRY_BBOX.get(row["pays_code"])
+        if not bbox:
+            return True
+        lat_min, lat_max, lon_min, lon_max = bbox
+        return lat_min <= row["stop_lat"] <= lat_max and lon_min <= row["stop_lon"] <= lon_max
+
+    suspects = df_all[~df_all.apply(_in_bbox, axis=1)].copy()
+    if len(suspects) > 0:
+        print(f"  🔍 {len(suspects)} gares hors bbox → reverse_geocoder...")
+        coords = list(zip(suspects["stop_lat"].astype(float), suspects["stop_lon"].astype(float)))
+        results = rg.search(coords, verbose=False)
+        df_all.loc[suspects.index, "pays_code"] = [r["cc"] for r in results]
+
+    # Filtrer les gares non-européennes après correction
+    df_all = df_all[df_all["pays_code"].isin(PAYS_EUROPEENS)].copy()
+
+    # Normaliser les noms : tiret → espace pour dédupliquer "Paris-Nord" et "Paris Nord"
+    df_all["stop_name"] = df_all["stop_name"].str.replace("-", " ", regex=False).str.strip()
+
+    # Dédupliquer par (nom, pays_code) : garde Bruges FR et Bruges BE séparément
     df_all = df_all.drop_duplicates(subset=["stop_name", "pays_code"]).reset_index(drop=True)
     df_all.insert(0, "id", range(1, len(df_all) + 1))
 
@@ -314,6 +348,9 @@ def transform_dessertes(operateurs_df, gares_df):
         df = df.sort_values("stop_count", ascending=False)
         df = df.drop_duplicates(subset=["stop_depart", "stop_arrivee", "heure_depart"]).reset_index(drop=True)
 
+        # Pré-grouper st_sorted par trip_id pour éviter le scan complet à chaque itération
+        st_grouped = {tid: grp["stop_id"].tolist() for tid, grp in st_sorted.groupby("trip_id")}
+
         rows = []
         for _, r in df.iterrows():
             area_dep = str(stop_to_area.get(r["stop_depart"], r["stop_depart"]))
@@ -328,7 +365,7 @@ def transform_dessertes(operateurs_df, gares_df):
                 continue
 
             # Distance réelle via arrêts intermédiaires (trigonométrie sphérique)
-            distance = _distance_route(r["trip_id"], st_sorted, stops_coords)
+            distance = _distance_route(r["trip_id"], st_grouped, stops_coords)
             if not distance:
                 coords_dep = area_to_coords.get(area_dep, (None, None))
                 coords_arr = area_to_coords.get(area_arr, (None, None))
@@ -372,20 +409,21 @@ def transform_dessertes(operateurs_df, gares_df):
 
     dessertes = pd.concat(all_dessertes, ignore_index=True)
 
-    # Déduplication finale — arrondir heure à 5 min pour éviter les faux doublons
-    def _round5(t):
+    # Déduplication finale — arrondir heure arrivée à 15 min pour absorber les petits écarts
+    def _round15(t):
         try:
             h, m, s = str(t).split(":")
-            m5 = (int(m) // 5) * 5
-            return f"{h}:{m5:02d}"
+            m15 = (int(m) // 15) * 15
+            return f"{int(h):02d}:{m15:02d}"
         except Exception:
             return str(t)
 
-    dessertes["_heure_round"] = dessertes["heure_depart"].apply(_round5)
+    dessertes["_arr_round"] = dessertes["heure_arrivee"].apply(_round15)
     avant = len(dessertes)
+    dessertes = dessertes.sort_values("heure_depart")
     dessertes = dessertes.drop_duplicates(
-        subset=["gare_depart_nom", "gare_arrivee_nom", "_heure_round"]
-    ).drop(columns=["_heure_round"]).reset_index(drop=True)
+        subset=["gare_depart_nom", "gare_arrivee_nom", "_arr_round"]
+    ).drop(columns=["_arr_round"]).reset_index(drop=True)
     print(f"  Déduplication finale : {avant} → {len(dessertes)} dessertes")
 
     dessertes.to_csv(f"{OUT_DIR}/dessertes.csv", index=False)
@@ -508,10 +546,10 @@ def _haversine(lat1, lon1, lat2, lon2):
         return None
 
 
-def _distance_route(trip_id, st_sorted, stops_coords):
+def _distance_route(trip_id, st_grouped, stops_coords):
     """Distance réelle d'un trajet en sommant le Haversine entre arrêts consécutifs."""
     try:
-        stops_seq = st_sorted[st_sorted["trip_id"] == trip_id].sort_values("stop_sequence")["stop_id"].tolist()
+        stops_seq = st_grouped.get(str(trip_id), [])
         total = 0.0
         for i in range(len(stops_seq) - 1):
             c1 = stops_coords.get(str(stops_seq[i]))
@@ -558,15 +596,23 @@ def _type_service(heure_dep, heure_arr=None):
         if arr <= dep:
             arr += 24 * 60
 
-        # Cas 2 : plus de 4h passées après 20h
         nuit_debut = 20 * 60
         nuit_fin   = 32 * 60  # 8h du lendemain = 32h (large)
 
         overlap_start = max(dep, nuit_debut)
         overlap_end   = min(arr, nuit_fin)
-        heures_nuit   = max(0, overlap_end - overlap_start) / 60
+        heures_nuit   = max(0, overlap_end - overlap_start)
 
-        return "Nuit" if heures_nuit >= 4 else "Jour"
+        # Cas 2 : plus de 4h passées après 20h
+        if heures_nuit >= 4 * 60:
+            return "Nuit"
+
+        # Cas 3 : plus de temps après 20h qu'avant 20h
+        heures_jour = max(0, min(arr, nuit_debut) - dep)
+        if heures_nuit > heures_jour:
+            return "Nuit"
+
+        return "Jour"
     except Exception:
         return "Jour"
 

@@ -1,0 +1,2 @@
+# ETL ObRail — Pipeline quotidien à 6h UTC
+0 6 * * * cd /app && python etl/extract/extract_gtfs.py >> /var/log/etl.log 2>&1 && python etl/transform/transform_gtfs.py >> /var/log/etl.log 2>&1 && python etl/load/load_to_postgresql.py >> /var/log/etl.log 2>&1

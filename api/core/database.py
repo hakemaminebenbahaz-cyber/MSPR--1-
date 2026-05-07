@@ -3,10 +3,15 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from urllib.parse import urlparse
 from core.config import settings
+import os
 
 # Parser l'URL pour extraire les composants (gère le @ dans le mot de passe)
 _url = urlparse(settings.DATABASE_URL)
 _password = settings.DB_PASSWORD if settings.DB_PASSWORD else _url.password
+
+# SSL requis pour Azure, désactivé pour Docker local
+_sslmode = "disable" if os.getenv("DOCKER_ENV") else "require"
+
 engine = create_engine(
     URL.create(
         drivername="postgresql",
@@ -15,7 +20,7 @@ engine = create_engine(
         host=_url.hostname,
         port=_url.port,
         database=_url.path.lstrip("/"),
-        query={"sslmode": "require"},
+        query={"sslmode": _sslmode},
     ),
     echo=True,
     pool_pre_ping=True

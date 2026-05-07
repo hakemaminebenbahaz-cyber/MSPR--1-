@@ -17,3 +17,7 @@ data/transformed/
 # IDE
 .vscode/
 *.code-workspace
+
+# E2E
+e2e/report/
+e2e/test-results/

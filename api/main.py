@@ -1,10 +1,32 @@
+import logging
+import json
+import time
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.openapi.utils import get_openapi
+from prometheus_fastapi_instrumentator import Instrumentator
 
 from routers import gares, operateurs, dessertes, comparisons
 from core.config import settings
+
+class JsonFormatter(logging.Formatter):
+    def format(self, record):
+        log = {
+            "timestamp": self.formatTime(record, "%Y-%m-%dT%H:%M:%SZ"),
+            "level": record.levelname,
+            "message": record.getMessage(),
+        }
+        if hasattr(record, "extra"):
+            log.update(record.extra)
+        return json.dumps(log, ensure_ascii=False)
+
+handler = logging.StreamHandler()
+handler.setFormatter(JsonFormatter())
+logger = logging.getLogger("obrail")
+logger.setLevel(logging.INFO)
+logger.addHandler(handler)
+logger.propagate = False
 
 app = FastAPI(
     title="ObRail Europe API",
@@ -40,6 +62,21 @@ app.add_middleware(
 
 
 @app.middleware("http")
+async def logging_middleware(request: Request, call_next):
+    start = time.time()
+    response = await call_next(request)
+    duration_ms = round((time.time() - start) * 1000, 2)
+    logger.info("request", extra={"extra": {
+        "method": request.method,
+        "path": request.url.path,
+        "status": response.status_code,
+        "duration_ms": duration_ms,
+        "ip": request.client.host if request.client else "unknown",
+    }})
+    return response
+
+
+@app.middleware("http")
 async def api_key_middleware(request: Request, call_next):
     if request.method == "OPTIONS":
         return await call_next(request)
@@ -52,6 +89,8 @@ async def api_key_middleware(request: Request, call_next):
             )
     return await call_next(request)
 
+
+Instrumentator().instrument(app).expose(app, endpoint="/metrics", include_in_schema=False)
 
 app.include_router(operateurs.router,  prefix="/api/v1/operateurs",  tags=["Opérateurs"])
 app.include_router(gares.router,       prefix="/api/v1/gares",       tags=["Gares"])

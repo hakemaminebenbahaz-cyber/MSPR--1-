@@ -1,23 +1,135 @@
 services:
+
+  # ─────────────────────────────────────────
+  # BASE DE DONNÉES
+  # ─────────────────────────────────────────
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-obrail-db}
+      POSTGRES_USER: ${POSTGRES_USER:-railadmin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-railadmin} -d ${POSTGRES_DB:-obrail-db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - obrail-network
+
+  # ─────────────────────────────────────────
+  # ETL (pipeline de données)
+  # ─────────────────────────────────────────
+  etl:
+    build:
+      context: .
+      dockerfile: etl/Dockerfile
+    environment:
+      DATABASE_URL: "postgresql://railadmin:changeme@postgres:5432/obrail-db?sslmode=disable"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - obrail-network
+
+  # ─────────────────────────────────────────
+  # API BACKEND
+  # ─────────────────────────────────────────
   api:
     build:
       context: .
       dockerfile: api/Dockerfile
     ports:
-      - "8000:8000"
-    env_file:
-      - .env
-    volumes:
-      - ./api:/app
-      - ./data:/data
+      - "8001:8000"
+    environment:
+      DATABASE_URL: "postgresql://railadmin:changeme@postgres:5432/obrail-db?sslmode=disable"
+      DOCKER_ENV: "true"
+      API_KEY: ${API_KEY:-obrail-api-key-2026}
+      SECRET_KEY: ${SECRET_KEY:-changeme-in-production}
+    depends_on:
+      postgres:
+        condition: service_healthy
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - obrail-network
 
+  # ─────────────────────────────────────────
+  # FRONTEND DASHBOARD
+  # ─────────────────────────────────────────
   dashboard:
     build:
       context: ./dashboard
       dockerfile: Dockerfile
     ports:
-      - "5173:80"
+      - "3002:80"
     depends_on:
       - api
     restart: unless-stopped
+    networks:
+      - obrail-network
+
+  # ─────────────────────────────────────────
+  # MONITORING — PROMETHEUS (collecte métriques)
+  # ─────────────────────────────────────────
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.retention.time=7d'
+    restart: unless-stopped
+    networks:
+      - obrail-network
+
+  # ─────────────────────────────────────────
+  # MONITORING — GRAFANA (tableau de bord)
+  # ─────────────────────────────────────────
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3001:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+    networks:
+      - obrail-network
+
+# ─────────────────────────────────────────
+# VOLUMES PERSISTANTS
+# ─────────────────────────────────────────
+volumes:
+  postgres_data:
+  prometheus_data:
+  grafana_data:
+
+# ─────────────────────────────────────────
+# RÉSEAU INTERNE
+# ─────────────────────────────────────────
+networks:
+  obrail-network:
+    driver: bridge
