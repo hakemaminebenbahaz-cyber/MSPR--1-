@@ -53,6 +53,9 @@ jobs:
       - name: Initialisation du schéma de test
         run: psql $DATABASE_URL -f database/schema.sql
 
+      - name: Chargement des données de test
+        run: psql $DATABASE_URL -f database/fixtures_test.sql
+
       - name: Lancement des tests API avec couverture
         working-directory: api
         run: pytest tests_endpoint/test_endpoint.py -v --tb=short --cov=. --cov-report=term-missing
