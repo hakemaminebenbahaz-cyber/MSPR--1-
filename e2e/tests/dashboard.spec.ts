@@ -67,9 +67,7 @@ test.describe('ObRail Dashboard — Recherche', () => {
     const input = page.locator('input').first()
     await input.fill('Paris')
     await page.keyboard.press('Enter')
-    await page.waitForTimeout(1500)
-    const results = page.locator('table, [class*="result"], [class*="row"]')
-    await expect(results.first()).toBeVisible()
+    await expect(page.locator('table').first()).toBeVisible({ timeout: 10000 })
   })
 })
 
@@ -81,8 +79,7 @@ test.describe('ObRail Dashboard — Données Brutes', () => {
   })
 
   test('des données sont affichées', async ({ page }) => {
-    const content = page.locator('table, [class*="table"], tr').first()
-    await expect(content).toBeVisible()
+    await expect(page.locator('table').first()).toBeVisible({ timeout: 10000 })
   })
 })
 

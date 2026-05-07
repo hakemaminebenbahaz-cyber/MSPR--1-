@@ -114,6 +114,10 @@ jobs:
           curl -f http://localhost:8001/health || exit 1
           curl -f http://localhost:3002 || exit 1
 
+      - name: Chargement fixtures dans Docker PostgreSQL
+        run: |
+          docker compose exec -T postgres psql -U railadmin -d obrail-db -f /dev/stdin < database/fixtures_test.sql
+
       - name: Installation dépendances Playwright
         working-directory: e2e
         run: npm install
