@@ -224,7 +224,8 @@ jobs:
               --secure-environment-variables "DATABASE_URL=$DB_URL" \
               --cpu 1 --memory 1 \
               --os-type Linux \
-              --restart-policy Always
+              --restart-policy Always \
+              --no-wait
 
       - name: Déploiement Dashboard sur Azure Container Instances
         uses: azure/CLI@v1
@@ -245,7 +246,8 @@ jobs:
               --dns-name-label obrail-dashboard \
               --cpu 0.5 --memory 0.5 \
               --os-type Linux \
-              --restart-policy Always
+              --restart-policy Always \
+              --no-wait
 
       - name: Affichage des URLs de déploiement
         uses: azure/CLI@v1
