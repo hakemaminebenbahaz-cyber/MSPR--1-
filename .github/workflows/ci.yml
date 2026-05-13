@@ -207,23 +207,21 @@ jobs:
         with:
           azcliversion: 2.30.0
           inlineScript: |
+            RG="${{ secrets.AZURE_RESOURCE_GROUP }}"
+            ACR="${{ secrets.ACR_LOGIN_SERVER }}"
+            DB_URL="${{ secrets.DATABASE_URL_PROD }}"
             az container create \
-              --resource-group ${{ secrets.AZURE_RESOURCE_GROUP }} \
+              --resource-group "$RG" \
               --name obrail-api \
-              --image ${{ secrets.ACR_LOGIN_SERVER }}/obrail-api:latest \
-              --registry-login-server ${{ secrets.ACR_LOGIN_SERVER }} \
-              --registry-username ${{ secrets.ACR_USERNAME }} \
-              --registry-password ${{ secrets.ACR_PASSWORD }} \
+              --image "$ACR/obrail-api:latest" \
+              --registry-login-server "$ACR" \
+              --registry-username "${{ secrets.ACR_USERNAME }}" \
+              --registry-password "${{ secrets.ACR_PASSWORD }}" \
               --ports 8000 \
               --dns-name-label obrail-api \
-              --environment-variables \
-                DOCKER_ENV=true \
-                API_KEY=${{ secrets.API_KEY }} \
-                SECRET_KEY=${{ secrets.SECRET_KEY }} \
-              --secure-environment-variables \
-                DATABASE_URL=${{ secrets.DATABASE_URL_PROD }} \
-              --cpu 1 \
-              --memory 1 \
+              --environment-variables DOCKER_ENV=true "API_KEY=${{ secrets.API_KEY }}" "SECRET_KEY=${{ secrets.SECRET_KEY }}" \
+              --secure-environment-variables "DATABASE_URL=$DB_URL" \
+              --cpu 1 --memory 1 \
               --os-type Linux \
               --restart-policy Always
 
@@ -232,17 +230,18 @@ jobs:
         with:
           azcliversion: 2.30.0
           inlineScript: |
+            RG="${{ secrets.AZURE_RESOURCE_GROUP }}"
+            ACR="${{ secrets.ACR_LOGIN_SERVER }}"
             az container create \
-              --resource-group ${{ secrets.AZURE_RESOURCE_GROUP }} \
+              --resource-group "$RG" \
               --name obrail-dashboard \
-              --image ${{ secrets.ACR_LOGIN_SERVER }}/obrail-dashboard:latest \
-              --registry-login-server ${{ secrets.ACR_LOGIN_SERVER }} \
-              --registry-username ${{ secrets.ACR_USERNAME }} \
-              --registry-password ${{ secrets.ACR_PASSWORD }} \
+              --image "$ACR/obrail-dashboard:latest" \
+              --registry-login-server "$ACR" \
+              --registry-username "${{ secrets.ACR_USERNAME }}" \
+              --registry-password "${{ secrets.ACR_PASSWORD }}" \
               --ports 80 \
               --dns-name-label obrail-dashboard \
-              --cpu 0.5 \
-              --memory 0.5 \
+              --cpu 0.5 --memory 0.5 \
               --os-type Linux \
               --restart-policy Always
 
