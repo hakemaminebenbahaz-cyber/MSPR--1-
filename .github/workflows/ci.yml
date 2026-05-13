@@ -196,6 +196,8 @@ jobs:
           file: dashboard/Dockerfile
           push: true
           tags: ${{ secrets.ACR_LOGIN_SERVER }}/obrail-dashboard:latest
+          build-args: |
+            VITE_API_URL=http://obrail-api.swedencentral.azurecontainer.io:8000
 
       - name: Connexion à Azure
         uses: azure/login@v1

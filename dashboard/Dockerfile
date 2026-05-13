@@ -2,7 +2,9 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# npm ci = installation reproductible (plus fiable que npm install)
+ARG VITE_API_URL=http://localhost:8001
+ENV VITE_API_URL=$VITE_API_URL
+
 COPY package*.json ./
 RUN npm ci
 
