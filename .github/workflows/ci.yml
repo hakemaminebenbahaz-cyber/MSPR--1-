@@ -160,3 +160,39 @@ jobs:
           docker compose ps
           curl -f http://localhost:8001/health || exit 1
           docker compose down
+
+  # ═══════════════════════════════════════════════════════════
+  # 5. DÉPLOIEMENT AZURE — push images sur ACR
+  # ═══════════════════════════════════════════════════════════
+  deploy-azure:
+    name: Déploiement Azure (ACR)
+    runs-on: ubuntu-latest
+    needs: [docker-build]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Connexion à Azure Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ secrets.ACR_LOGIN_SERVER }}
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+
+      - name: Build et push image API
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: api/Dockerfile
+          push: true
+          tags: ${{ secrets.ACR_LOGIN_SERVER }}/obrail-api:latest
+
+      - name: Build et push image Dashboard
+        uses: docker/build-push-action@v5
+        with:
+          context: ./dashboard
+          file: dashboard/Dockerfile
+          push: true
+          tags: ${{ secrets.ACR_LOGIN_SERVER }}/obrail-dashboard:latest
