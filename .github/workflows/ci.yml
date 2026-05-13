@@ -222,7 +222,7 @@ jobs:
               --registry-password "${{ secrets.ACR_PASSWORD }}" \
               --ports 8000 \
               --dns-name-label obrail-api \
-              --environment-variables DOCKER_ENV=true "API_KEY=${{ secrets.API_KEY }}" "SECRET_KEY=${{ secrets.SECRET_KEY }}" \
+              --environment-variables "API_KEY=${{ secrets.API_KEY }}" "SECRET_KEY=${{ secrets.SECRET_KEY }}" \
               --secure-environment-variables "DATABASE_URL=$DB_URL" \
               --cpu 1 --memory 1 \
               --os-type Linux \
