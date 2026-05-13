@@ -210,6 +210,7 @@ jobs:
             RG="${{ secrets.AZURE_RESOURCE_GROUP }}"
             ACR="${{ secrets.ACR_LOGIN_SERVER }}"
             DB_URL="${{ secrets.DATABASE_URL_PROD }}"
+            az container delete --resource-group "$RG" --name obrail-api --yes 2>/dev/null || true
             az container create \
               --resource-group "$RG" \
               --name obrail-api \
@@ -232,6 +233,7 @@ jobs:
           inlineScript: |
             RG="${{ secrets.AZURE_RESOURCE_GROUP }}"
             ACR="${{ secrets.ACR_LOGIN_SERVER }}"
+            az container delete --resource-group "$RG" --name obrail-dashboard --yes 2>/dev/null || true
             az container create \
               --resource-group "$RG" \
               --name obrail-dashboard \
