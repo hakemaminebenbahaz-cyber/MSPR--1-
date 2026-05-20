@@ -10,7 +10,6 @@ interface Props {
 const navItems: { id: Page; label: string; icon: string }[] = [
   { id: 'globale',   label: 'Vue Globale',    icon: '▦' },
   { id: 'recherche', label: 'Recherche',       icon: '⌕' },
-  { id: 'brutes',    label: 'Données brutes',  icon: '☰' },
 ]
 
 export default function Sidebar({ page, setPage }: Props) {

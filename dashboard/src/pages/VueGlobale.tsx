@@ -110,27 +110,63 @@ export default function VueGlobale() {
     fetchApi<ContextePays[]>('/comparisons/contexte-pays').then(setContexte)
   }, [])
 
+  const [selectedPays, setSelectedPays] = useState<string>('tous')
+
   const jourNuitData = jourNuit?.map(d => ({ name: d.type_service, value: d.total }))
   const co2Data      = jourNuit?.map(d => ({ name: d.type_service, co2: d.co2_moyen ?? 0 }))
-  const top8ops      = operateurs?.slice(0, 8)
+  const paysList     = pays ? ['tous', ...pays.map(p => p.pays_code).sort()] : ['tous']
+  const filteredOps  = operateurs?.filter(o => selectedPays === 'tous' || o.pays_code === selectedPays)
+  const top8ops      = filteredOps?.slice(0, 8)
+  const paysFiltré   = selectedPays !== 'tous' ? pays?.find(p => p.pays_code === selectedPays) : null
+  const statsFiltrées = paysFiltré ? {
+    total_operateurs: filteredOps?.length ?? 0,
+    total_gares: paysFiltré.total_gares,
+    total_dessertes: paysFiltré.total_dessertes,
+    total_jour: filteredOps?.reduce((s, o) => s + o.nb_jour, 0) ?? 0,
+    total_nuit: filteredOps?.reduce((s, o) => s + o.nb_nuit, 0) ?? 0,
+  } : stats
 
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '14px' }} role="main" aria-label="Tableau de bord ObRail Europe">
 
+      {/* ── Filtre pays ── */}
+      <div style={{ gridColumn: 'span 12', display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <label htmlFor="filtre-pays" style={{ fontSize: '13px', color: 'var(--text-3)', fontWeight: 500 }}>Filtrer par pays :</label>
+        <select
+          id="filtre-pays"
+          aria-label="Filtrer les données par pays"
+          value={selectedPays}
+          onChange={e => setSelectedPays(e.target.value)}
+          style={{
+            padding: '8px 14px', borderRadius: '9px', border: '1px solid var(--border)',
+            background: 'var(--bg-input)', color: 'var(--text-1)', fontSize: '13px', outline: 'none', cursor: 'pointer',
+          }}
+        >
+          {paysList.map(p => (
+            <option key={p} value={p}>{p === 'tous' ? 'Tous les pays' : p}</option>
+          ))}
+        </select>
+        {selectedPays !== 'tous' && (
+          <button onClick={() => setSelectedPays('tous')} style={{
+            fontSize: '12px', color: 'var(--text-4)', background: 'none', border: 'none', cursor: 'pointer', textDecoration: 'underline',
+          }}>Réinitialiser</button>
+        )}
+      </div>
+
       {/* ── Row 1 : Métriques ── */}
-      {stats ? (
+      {statsFiltrées ? (
         <>
           <div style={{ gridColumn: 'span 3' }}>
-            <MetricCard icon="🏭" value={stats.total_operateurs} label="Opérateurs" color="#8b5cf6" colorBg="#f5f3ff" />
+            <MetricCard icon="🏭" value={statsFiltrées.total_operateurs} label="Opérateurs" color="#8b5cf6" colorBg="#f5f3ff" />
           </div>
           <div style={{ gridColumn: 'span 3' }}>
-            <MetricCard icon="🏛" value={stats.total_gares} label="Gares en base" color="#6366f1" colorBg="#eef2ff" />
+            <MetricCard icon="🏛" value={statsFiltrées.total_gares} label="Gares en base" color="#6366f1" colorBg="#eef2ff" />
           </div>
           <div style={{ gridColumn: 'span 3' }}>
-            <MetricCard icon="☀️" value={stats.total_jour} label="Trains de jour" color="#f59e0b" colorBg="#fffbeb" />
+            <MetricCard icon="☀️" value={statsFiltrées.total_jour} label="Trains de jour" color="#f59e0b" colorBg="#fffbeb" />
           </div>
           <div style={{ gridColumn: 'span 3' }}>
-            <MetricCard icon="🌙" value={stats.total_nuit} label="Trains de nuit" color="#6366f1" colorBg="#eef2ff" />
+            <MetricCard icon="🌙" value={statsFiltrées.total_nuit} label="Trains de nuit" color="#6366f1" colorBg="#eef2ff" />
           </div>
         </>
       ) : (

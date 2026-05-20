@@ -35,7 +35,16 @@ function flatten(row: Record<string, unknown>): Record<string, unknown> {
   return r
 }
 
-function ResultTable({ results, loading, isDessertes = false }: { results: Record<string, unknown>[] | null; loading: boolean; isDessertes?: boolean }) {
+function exportCSV(rows: Record<string, unknown>[], filename: string) {
+  const keys = Object.keys(rows[0])
+  const csv = [keys.join(','), ...rows.map(r => keys.map(k => JSON.stringify(r[k] ?? '')).join(','))].join('\n')
+  const a = document.createElement('a')
+  a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }))
+  a.download = filename
+  a.click()
+}
+
+function ResultTable({ results, loading, isDessertes = false, exportName = 'export' }: { results: Record<string, unknown>[] | null; loading: boolean; isDessertes?: boolean; exportName?: string }) {
   if (loading) return <div style={{ fontSize: '13px', color: 'var(--text-4)', padding: '12px 0' }}>Chargement…</div>
   if (!results) return null
   if (results.length === 0) return (
@@ -49,12 +58,25 @@ function ResultTable({ results, loading, isDessertes = false }: { results: Recor
 
   return (
     <>
-      <div style={{
-        display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '12px', fontWeight: 500,
-        color: '#16a34a', background: '#f0fdf4', border: '1px solid #bbf7d0',
-        borderRadius: '6px', padding: '4px 10px', marginBottom: '12px',
-      }}>
-        ✓ {results.length} résultat{results.length > 1 ? 's' : ''}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+        <div style={{
+          display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '12px', fontWeight: 500,
+          color: '#16a34a', background: '#f0fdf4', border: '1px solid #bbf7d0',
+          borderRadius: '6px', padding: '4px 10px',
+        }}>
+          ✓ {results.length} résultat{results.length > 1 ? 's' : ''}
+        </div>
+        <button
+          onClick={() => exportCSV(flat, `${exportName}.csv`)}
+          aria-label={`Exporter ${results.length} résultats en CSV`}
+          style={{
+            padding: '6px 14px', borderRadius: '8px', border: '1px solid var(--border)',
+            background: 'var(--bg-card)', color: 'var(--text-2)', fontSize: '12px',
+            fontWeight: 500, cursor: 'pointer',
+          }}
+        >
+          Exporter CSV
+        </button>
       </div>
       <div style={{ overflowX: 'auto', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }} aria-label="Résultats de recherche">
@@ -192,7 +214,7 @@ export default function Recherche() {
             {desserteLoad ? '…' : 'Rechercher'}
           </button>
         </form>
-        <ResultTable results={desserteRes} loading={desserteLoad} isDessertes={true} />
+        <ResultTable results={desserteRes} loading={desserteLoad} isDessertes={true} exportName="dessertes" />
       </div>
 
       {/* ── Recherche gares ── */}
@@ -210,7 +232,7 @@ export default function Recherche() {
             {gareLoad ? '…' : 'Rechercher'}
           </button>
         </form>
-        <ResultTable results={gareRes} loading={gareLoad} />
+        <ResultTable results={gareRes} loading={gareLoad} exportName="gares" />
       </div>
 
       {/* ── Recherche opérateurs ── */}
@@ -228,7 +250,7 @@ export default function Recherche() {
             {opLoad ? '…' : 'Rechercher'}
           </button>
         </form>
-        <ResultTable results={opRes} loading={opLoad} />
+        <ResultTable results={opRes} loading={opLoad} exportName="operateurs" />
       </div>
 
     </div>
