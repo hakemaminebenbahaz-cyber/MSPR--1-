@@ -59,7 +59,7 @@ export default function TopNav({ page, setPage }: Props) {
       {/* Tabs */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '2px', flex: 1 }}>
         {TABS.map(tab => (
-          <button key={tab.id} onClick={() => setPage(tab.id)} style={{
+          <button key={tab.id} onClick={() => setPage(tab.id)} aria-current={page === tab.id ? 'page' : undefined} style={{
             position: 'relative', padding: '7px 16px',
             fontSize: '13px', fontWeight: page === tab.id ? 600 : 400,
             color: page === tab.id ? '#6366f1' : 'var(--text-3)',
@@ -77,7 +77,7 @@ export default function TopNav({ page, setPage }: Props) {
 
       {/* Right side */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-        <span style={{
+        <span aria-hidden="true" style={{
           width: '8px', height: '8px', borderRadius: '50%', display: 'inline-block',
           background: healthy === null ? 'var(--text-4)' : healthy ? '#22c55e' : '#ef4444',
           boxShadow: healthy ? '0 0 6px rgba(34,197,94,0.5)' : 'none',
@@ -89,7 +89,7 @@ export default function TopNav({ page, setPage }: Props) {
         <div style={{ width: '1px', height: '16px', background: 'var(--border)', margin: '0 4px' }} />
 
         {/* Dark mode toggle */}
-        <button onClick={toggle} title={dark ? 'Mode clair' : 'Mode sombre'} style={{
+        <button onClick={toggle} aria-label={dark ? 'Basculer en mode clair' : 'Basculer en mode sombre'} style={{
           width: '34px', height: '34px', borderRadius: '8px', border: '1px solid var(--border)',
           background: 'var(--bg-input)', cursor: 'pointer', display: 'flex',
           alignItems: 'center', justifyContent: 'center', fontSize: '16px',

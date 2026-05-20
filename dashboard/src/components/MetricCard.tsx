@@ -30,7 +30,7 @@ export default function MetricCard({ icon, value, label, color, colorBg }: Props
   const count = useCounter(value)
 
   return (
-    <div style={{
+    <div role="img" aria-label={`${label} : ${value.toLocaleString('fr-FR')}`} style={{
       background: 'var(--bg-card)',
       border: '1px solid var(--border)',
       borderRadius: '14px',
@@ -53,7 +53,7 @@ export default function MetricCard({ icon, value, label, color, colorBg }: Props
         background: colorBg, display: 'flex', alignItems: 'center',
         justifyContent: 'center', fontSize: '18px', marginBottom: '16px',
       }}>
-        {icon}
+        <span aria-hidden="true">{icon}</span>
       </div>
       <div style={{
         fontSize: '34px', fontWeight: 700, color: 'var(--text-1)',

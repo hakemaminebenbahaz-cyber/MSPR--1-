@@ -57,11 +57,11 @@ function ResultTable({ results, loading, isDessertes = false }: { results: Recor
         ✓ {results.length} résultat{results.length > 1 ? 's' : ''}
       </div>
       <div style={{ overflowX: 'auto', borderRadius: '10px', border: '1px solid #f1f5f9' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px' }} aria-label="Résultats de recherche">
           <thead>
             <tr style={{ background: 'var(--bg-thead)' }}>
               {keys.map(k => (
-                <th key={k} style={{
+                <th key={k} scope="col" style={{
                   padding: '10px 14px', textAlign: 'left', color: 'var(--text-4)',
                   fontWeight: 600, textTransform: 'uppercase', fontSize: '10px',
                   letterSpacing: '0.6px', borderBottom: '1px solid #f1f5f9', whiteSpace: 'nowrap',
@@ -167,22 +167,22 @@ export default function Recherche() {
         <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '14px' }}>
           Rechercher par gare de départ, d'arrivée, type Jour/Nuit ou catégorie de ligne
         </p>
-        <form onSubmit={searchDesserte} style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '16px' }}>
+        <form onSubmit={searchDesserte} aria-label="Rechercher des dessertes ferroviaires" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '16px' }}>
           <input style={INPUT} type="text" value={depart} onChange={e => setDepart(e.target.value)}
-            placeholder="Gare de départ… (ex: Lyon)" />
+            placeholder="Gare de départ… (ex: Lyon)" aria-label="Gare de départ" />
           <input style={INPUT} type="text" value={arrivee} onChange={e => setArrivee(e.target.value)}
-            placeholder="Gare d'arrivée… (ex: Paris)" />
-          <select style={SELECT} value={typeService} onChange={e => setTypeService(e.target.value)}>
+            placeholder="Gare d'arrivée… (ex: Paris)" aria-label="Gare d'arrivée" />
+          <select style={SELECT} value={typeService} onChange={e => setTypeService(e.target.value)} aria-label="Type de service">
             <option value="">Jour & Nuit</option>
-            <option value="Jour">☀️ Jour</option>
-            <option value="Nuit">🌙 Nuit</option>
+            <option value="Jour">Jour</option>
+            <option value="Nuit">Nuit</option>
           </select>
-          <select style={SELECT} value={typeLigne} onChange={e => setTypeLigne(e.target.value)}>
+          <select style={SELECT} value={typeLigne} onChange={e => setTypeLigne(e.target.value)} aria-label="Type de ligne">
             <option value="">Tous types</option>
-            <option value="Grande vitesse">🚄 Grande vitesse</option>
-            <option value="Intercité">🚂 Intercité</option>
-            <option value="Train régional">🚃 Régional</option>
-            <option value="Train de nuit intern">🌙 Nuit intern.</option>
+            <option value="Grande vitesse">Grande vitesse</option>
+            <option value="Intercité">Intercité</option>
+            <option value="Train régional">Régional</option>
+            <option value="Train de nuit intern">Nuit international</option>
           </select>
           <button type="submit" disabled={desserteLoad} style={{
             padding: '10px 20px', borderRadius: '9px', border: 'none',
@@ -199,9 +199,9 @@ export default function Recherche() {
       <div style={CARD}>
         <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-1)', marginBottom: '2px' }}>Recherche de gares</p>
         <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '14px' }}>Rechercher par nom de gare</p>
-        <form onSubmit={searchGare} style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
+        <form onSubmit={searchGare} aria-label="Rechercher une gare" style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
           <input style={INPUT} type="text" value={gareQ} onChange={e => setGareQ(e.target.value)}
-            placeholder="Paris, Lyon, München…" />
+            placeholder="Paris, Lyon, München…" aria-label="Nom de la gare" />
           <button type="submit" disabled={gareLoad} style={{
             padding: '10px 20px', borderRadius: '9px', border: 'none',
             background: '#6366f1', color: '#fff', fontSize: '13px', fontWeight: 600,
@@ -217,9 +217,9 @@ export default function Recherche() {
       <div style={CARD}>
         <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-1)', marginBottom: '2px' }}>Recherche d'opérateurs</p>
         <p style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '14px' }}>Rechercher par nom d'opérateur</p>
-        <form onSubmit={searchOp} style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
+        <form onSubmit={searchOp} aria-label="Rechercher un opérateur ferroviaire" style={{ display: 'flex', gap: '8px', marginBottom: '16px' }}>
           <input style={INPUT} type="text" value={opQ} onChange={e => setOpQ(e.target.value)}
-            placeholder="SNCF, Deutsche Bahn, ÖBB…" />
+            placeholder="SNCF, Deutsche Bahn, ÖBB…" aria-label="Nom de l'opérateur" />
           <button type="submit" disabled={opLoad} style={{
             padding: '10px 20px', borderRadius: '9px', border: 'none',
             background: '#22c55e', color: '#fff', fontSize: '13px', fontWeight: 600,

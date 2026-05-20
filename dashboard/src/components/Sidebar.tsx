@@ -23,7 +23,7 @@ export default function Sidebar({ page, setPage }: Props) {
   }, [])
 
   return (
-    <aside style={{
+    <aside aria-label="Navigation principale" style={{
       width: '220px',
       flexShrink: 0,
       display: 'flex',
@@ -55,6 +55,7 @@ export default function Sidebar({ page, setPage }: Props) {
           <button
             key={item.id}
             onClick={() => setPage(item.id)}
+            aria-current={page === item.id ? 'page' : undefined}
             style={{
               width: '100%',
               textAlign: 'left',
@@ -81,7 +82,7 @@ export default function Sidebar({ page, setPage }: Props) {
               if (page !== item.id) e.currentTarget.style.color = '#8b949e'
             }}
           >
-            <span style={{ fontSize: '14px', opacity: 0.7 }}>{item.icon}</span>
+            <span aria-hidden="true" style={{ fontSize: '14px', opacity: 0.7 }}>{item.icon}</span>
             {item.label}
           </button>
         ))}
@@ -93,7 +94,7 @@ export default function Sidebar({ page, setPage }: Props) {
           API Status
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <span style={{
+          <span aria-hidden="true" style={{
             width: '7px', height: '7px', borderRadius: '50%',
             background: healthy === null ? '#484f58' : healthy ? '#3fb950' : '#f85149',
             display: 'inline-block',
