@@ -104,7 +104,7 @@ export default function Sidebar({ page, setPage }: Props) {
           </span>
         </div>
         <a
-          href="http://localhost:8000/docs"
+          href="http://obrail-api.swedencentral.azurecontainer.io:8000/docs"
           target="_blank"
           rel="noreferrer"
           style={{ display: 'block', marginTop: '12px', fontSize: '12px', color: '#58a6ff', textDecoration: 'none' }}
