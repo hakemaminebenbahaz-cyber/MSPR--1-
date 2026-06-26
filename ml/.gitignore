@@ -1,0 +1,9 @@
+# Modèles sauvegardés (trop lourds pour GitHub - model_regression.pkl = 120MB)
+models/*.pkl
+
+# Données générées (régénérables avec prepare_data.py)
+data/*.csv
+
+# Logs d'exécution
+*.txt
+*.log

@@ -1,0 +1,5 @@
+Modele,CV_F1,Accuracy,F1,Precision,Recall
+RandomForest,1.0,1.0,1.0,1.0,1.0
+XGBoost,0.998,0.998,0.998,0.998,0.998
+MLP,0.997,0.998,0.998,0.998,0.998
+LogisticRegression,0.976,0.979,0.978,0.979,0.979

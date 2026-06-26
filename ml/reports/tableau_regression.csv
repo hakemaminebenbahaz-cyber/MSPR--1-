@@ -1,0 +1,5 @@
+Modele,CV_MAE,MAE,RMSE,R2
+RandomForest,0.101,0.097,0.212,0.952
+XGBoost,0.167,0.167,0.285,0.913
+MLP,0.215,0.201,0.36,0.861
+LinearRegression,0.584,0.586,0.894,0.141
