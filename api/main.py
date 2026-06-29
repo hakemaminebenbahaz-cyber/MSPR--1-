@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 from fastapi.openapi.utils import get_openapi
 from prometheus_fastapi_instrumentator import Instrumentator
 
-from routers import gares, operateurs, dessertes, comparisons
+from routers import gares, operateurs, dessertes, comparisons, predict
 from core.config import settings
 
 class JsonFormatter(logging.Formatter):
@@ -95,6 +95,7 @@ app.include_router(operateurs.router,  prefix="/api/v1/operateurs",  tags=["Opé
 app.include_router(gares.router,       prefix="/api/v1/gares",       tags=["Gares"])
 app.include_router(dessertes.router,   prefix="/api/v1/dessertes",   tags=["Dessertes"])
 app.include_router(comparisons.router, prefix="/api/v1/comparisons", tags=["Analyses & Comparaisons"])
+app.include_router(predict.router,     prefix="/api/v1/predict",     tags=["Prédiction ML"])
 
 
 @app.get("/")
@@ -109,6 +110,7 @@ def root():
             "gares":       "/api/v1/gares",
             "dessertes":   "/api/v1/dessertes",
             "comparisons": "/api/v1/comparisons",
+            "predict":     "/api/v1/predict",
         }
     }
 
