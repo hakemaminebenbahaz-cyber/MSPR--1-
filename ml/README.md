@@ -171,9 +171,9 @@ python -u ml/scripts/predict.py
 
 ## Ce qui reste à faire
 
-- [ ] **Étape 5** — Endpoint `/predict` dans `api/routers/predict.py` (FastAPI)
-- [ ] **Étape 6** — Tests pytest dans `ml/tests/test_model.py`
-- [ ] **Étape 7** — Benchmark cloud IA (Azure ML vs AWS SageMaker vs Google AutoML)
+- [x] **Étape 5** — Endpoint `/predict` dans `api/routers/predict.py` (FastAPI) ✅
+- [x] **Étape 6** — Tests pytest dans `ml/tests/test_model.py` — **20/20 tests OK** ✅
+- [x] **Étape 7** — Benchmark cloud IA — `ml/reports/benchmark_cloud_ia.md` ✅
 - [ ] **Étape 8** — Rapport technique complet
 - [ ] **Étape 9** — Soutenance Canva
 
